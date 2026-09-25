@@ -1,6 +1,6 @@
 # Cómo continuar — 羽球天赋 (app de bádminton)
 
-Última sesión: 2026-09-25. Pausado a petición del usuario (tokens semanales agotándose).
+Última sesión: 2026-09-26. Pausado a petición del usuario hasta la semana que viene (tokens semanales).
 
 ## Estado
 
@@ -11,11 +11,11 @@
 | Prototipo del motor de cálculo | ✅ Verificado: `docs/superpowers/prototype/` |
 | Investigación del dominio (jugadores, estudios, tácticas, nivel, MBTI) | 🔄 Relanzada el 2026-09-25; escribe directamente en `docs/superpowers/research/`. Al retomar, mira qué archivos existen y relanza solo lo que falte |
 | Plan de implementación | ✅ Escrito: `docs/superpowers/plans/2026-09-26-yuqiu-tianfu.md` (21 tareas). Falta que el usuario lo revise y elija el modo de ejecución |
-| Programación | ⏳ Pendiente |
+| Programación | ⏳ Pendiente. Primera pregunta al retomar: ¿el plan recoge lo que quiere? y ¿ejecución directa (native, recomendada por tokens) o con agentes (subagent-driven)? |
 
 ## Prompt para retomar (copiar y pegar)
 
-> Lee `CONTINUAR.md`. Comprueba qué archivos de investigación hay en `docs/superpowers/research/` y relanza solo lo que falte con `research-workflow.js`. Después ejecuta el plan `docs/superpowers/plans/2026-09-26-yuqiu-tianfu.md` tarea a tarea (subagent-driven), empezando por el hito 1 (tareas 1–13: el 天赋测评 funcionando).
+> Lee `CONTINUAR.md`. Comprueba qué archivos de investigación hay en `docs/superpowers/research/` y relanza solo lo que falte con `research-workflow.js`. Pregúntame si el plan `docs/superpowers/plans/2026-09-26-yuqiu-tianfu.md` está bien y qué modo de ejecución quiero (directa o con agentes). Después ejecútalo tarea a tarea empezando por el hito 1 (tareas 1–13: el 天赋测评 funcionando) y enséñamelo antes de seguir.
 
 ## Qué hay en el prototipo (`docs/superpowers/prototype/`)
 
