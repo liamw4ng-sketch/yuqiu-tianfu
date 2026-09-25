@@ -52,7 +52,10 @@
         "https://en.wikipedia.org/wiki/Kim_Won-ho",
         "https://en.wikipedia.org/wiki/Seo_Seung-jae",
         "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=61444",
-        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=66513"
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=66513",
+        "https://en.wikipedia.org/wiki/2025_BWF_World_Tour",
+        "https://en.wikipedia.org/wiki/2026_BWF_World_Tour",
+        "https://en.wikipedia.org/wiki/2026_Badminton_Asia_Championships"
       ],
       "confidence": {
         "pairing_status": "high",
@@ -60,7 +63,9 @@
         "positions": "medium",
         "body_data": "high"
       },
-      "notes": "位置标注为both的依据是韩国Daum体育专栏（2025-11）；网上有中文自媒体称徐承宰网前、金元浩后场，也有资料称相反，互相矛盾，故不做固定前后场标注。2026年初徐承宰曾短暂缺阵（韩媒报道，原因未核实）。体重无可靠来源。"
+      "notes": "位置标注为both的依据是韩国Daum体育专栏（2025-11）；网上有中文自媒体称徐承宰网前、金元浩后场，也有资料称相反，互相矛盾，故不做固定前后场标注。2026年1月因徐承宰肩伤退出印度公开赛，3月复出即卫冕全英赛。体重无可靠来源。",
+      "verified": true,
+      "verification_note": "已复核：BWF第39周排名第1；2025世锦赛冠军、2025总决赛冠军（决赛胜梁伟铿/王昶）、2025赛季11冠纪录、2025/2026全英两连冠、2026亚锦赛冠军、2026世锦赛铜牌均与维基/BWF赛果一致；身高、出生年、持拍手与BWF球员档案一致（徐承宰左手）。修正：徐承宰2026年初缺阵原因补为肩伤。"
     },
     {
       "id": "md-fajar-alfian-muhammad-shohibul-fikri",
@@ -70,7 +75,7 @@
       "country_zh": "印尼",
       "status": "active",
       "world_rank_2026_09_22": 2,
-      "highlights_zh": "2025年中国公开赛（超级1000）冠军；2026年日本公开赛冠军、新加坡公开赛亚军；2026年6月升至世界第二（现世界第二）",
+      "highlights_zh": "2025、2026年中国公开赛（超级1000）两连冠；2026年日本公开赛冠军、新加坡公开赛亚军、亚锦赛铜牌；2026年6月升至世界第二（现世界第二）",
       "pair_style_zh": "两人原本都是前场型选手，组合后前后场分配接近五五开：谁在网前顺手谁就上前，另一人退到后场补位。打法以快速平抽、前场抢点和连续压制为主，默契来自多年同队训练，是“双前场型”组合的代表。",
       "players": [
         {
@@ -78,7 +83,7 @@
           "name_zh": "法贾·阿尔菲安",
           "gender": "M",
           "height_cm": 177,
-          "weight_kg": 69,
+          "weight_kg": null,
           "handedness": "R",
           "birth_year": 1995,
           "typical_position": "both",
@@ -94,21 +99,22 @@
           "handedness": "R",
           "birth_year": 1999,
           "typical_position": "both",
-          "position_note_zh": "菲克里说：“我在前面时法贾补后场，他在前面顺手时我就退到后面”，前后场覆盖都不错。",
+          "position_note_zh": "未找到菲克里本人谈站位的原话（原引用的detik报道d-8055952并无此内容）；据法贾2025年6月接受detik采访，两人都偏好前场，与菲克里搭档后前后场约五五开，按回合轮换。",
           "role_desc_zh": "前后场覆盖面都很大的速度型选手，前场抢网积极，退到后场也能连续进攻；与阿尔菲安换位频繁，默契靠临场阅读。"
         }
       ],
       "sources": [
         "https://extranet-lv.bwfbadminton.com/api/vue-rankingtable?rankId=2&catId=8&publicationId=4471&doubles=true&page=1",
         "https://sport.detik.com/raket/d-7971764/fajar-alfian-sempat-kagok-latihan-bareng-fikri",
-        "https://sport.detik.com/raket/d-8055952/tandem-lagi-dengan-fajar-alfian-jadi-momen-pembuktian-fikri",
         "https://bwfworldtour.bwfbadminton.com/news-single/2026/07/21/smashing-stats-china-open-2026/",
         "https://bwfworldtour.bwfbadminton.com/news-single/2026/06/01/singapore-open-champs-live-reborn-dreams/",
         "https://en.wikipedia.org/wiki/Fajar_Alfian",
         "https://id.wikipedia.org/wiki/Fajar_Alfian",
         "https://en.wikipedia.org/wiki/Muhammad_Shohibul_Fikri",
         "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=88876",
-        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=91440"
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=91440",
+        "https://en.wikipedia.org/wiki/2026_China_Open_(badminton)",
+        "https://www.olympedia.org/athletes/quick_search?query=Fajar+Alfian"
       ],
       "confidence": {
         "pairing_status": "high",
@@ -116,7 +122,9 @@
         "positions": "high",
         "body_data": "medium"
       },
-      "notes": "阿尔菲安出生年份：英文/印尼文维基为1995年3月7日，BWF官网为1996-03-07，采用维基并标注差异；身高BWF 177cm、维基176cm。体重69kg来自英文与印尼文维基（一致）。2025年因阿迪安托家庭原因、马丁受伤而临时组合，夺中国公开赛后转为固定搭档。"
+      "notes": "阿尔菲安出生年份：英文/印尼文维基与Olympedia均为1995年3月7日，BWF官网为1996-03-07，采用1995；身高BWF 177cm、维基176cm。体重仅有维基无引用数据，置null。2025年因阿迪安托家庭原因、马丁受伤而临时组合，夺中国公开赛后转为固定搭档；2026年7月卫冕中国公开赛。2026年9月随印尼队夺亚运会男团金牌。",
+      "verified": true,
+      "verification_note": "已复核：BWF第39周第2；2025、2026中国公开赛冠军，2026日本公开赛冠军、新加坡公开赛亚军（18-21 21-17 21-16负兰基雷迪/谢提）。修正：补2026中国公开赛卫冕；删除无法在所引来源中找到的菲克里‘原话’；法贾体重置null。"
     },
     {
       "id": "md-liang-weikeng-wang-chang",
@@ -165,7 +173,8 @@
         "https://en.wikipedia.org/wiki/Liang_Weikeng",
         "https://en.wikipedia.org/wiki/Wang_Chang_(badminton)",
         "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=90531",
-        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=55414"
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=55414",
+        "https://en.wikipedia.org/wiki/2026_BWF_World_Championships"
       ],
       "confidence": {
         "pairing_status": "high",
@@ -173,7 +182,9 @@
         "positions": "high",
         "body_data": "medium"
       },
-      "notes": "梁伟铿身高：BWF 175cm，英文维基177cm，中文维基176cm，采用BWF。体重无可靠来源。"
+      "notes": "梁伟铿身高：BWF 175cm，英文维基177cm，中文维基176cm，采用BWF。体重无可靠来源。",
+      "verified": true,
+      "verification_note": "已复核：BWF第39周第3；2026世锦赛冠军（决赛21-17 21-16胜谢定峰/苏伟译）、巴黎奥运银牌、2023世锦赛铜牌、2023-10-31登顶、2025总决赛亚军均确认；前后场分工有新浪（2026-09-22）、IndiaSportsHub等多源一致（梁后场重杀、王昶网前）。身高/出生年/持拍手与BWF一致。无需修改。"
     },
     {
       "id": "md-aaron-chia-soh-wooi-yik",
@@ -203,7 +214,7 @@
           "name_zh": "苏伟译",
           "gender": "M",
           "height_cm": 185,
-          "weight_kg": 73,
+          "weight_kg": null,
           "handedness": "R",
           "birth_year": 1998,
           "typical_position": "front",
@@ -226,7 +237,9 @@
         "positions": "high",
         "body_data": "high"
       },
-      "notes": "注意：这是“矮个后场、高个前场”的反例组合，不要按身高想当然。苏伟译体重73kg来自英文维基（单一来源）。"
+      "notes": "注意：这是“矮个后场、高个前场”的反例组合，不要按身高想当然。苏伟译体重仅有无引用的维基数据，置null。",
+      "verified": true,
+      "verification_note": "已复核：BWF第39周第4；2022世锦赛冠军（马来西亚首个世锦赛冠军）、东京/巴黎两届奥运铜牌、2026世锦赛银牌、2025亚锦赛冠军均确认；Tatler Asia原文确认“苏伟译前场组织、谢定峰后场进攻”。修正：苏伟译体重置null。"
     },
     {
       "id": "md-satwiksairaj-rankireddy-chirag-shetty",
@@ -236,7 +249,7 @@
       "country_zh": "印度",
       "status": "active",
       "world_rank_2026_09_22": 5,
-      "highlights_zh": "杭州亚运会男双金牌（印度首枚亚运羽毛球金牌）；亚锦赛冠军；2022年英联邦运动会冠军；2022、2025年世锦赛铜牌；前世界第一；2026年新加坡公开赛冠军",
+      "highlights_zh": "杭州亚运会男双金牌（印度首枚亚运羽毛球金牌）；亚锦赛冠军；2022年英联邦运动会冠军；2022、2025年世锦赛铜牌；前世界第一；2026年新加坡公开赛（印度首对夺得该赛男双冠军的组合）、中国大师赛冠军",
       "pair_style_zh": "两位高个子组成的重炮型组合：兰基雷迪坐镇后场，以世界纪录级的重杀迫使对手被动防守；谢提在前场截击、封网，专抓对手的松软回球。需要时两人也会在回合中主动换位打乱节奏，适合身材高大、以攻为主的球友参考。",
       "players": [
         {
@@ -244,7 +257,7 @@
           "name_zh": "萨维克赛拉吉·兰基雷迪",
           "gender": "M",
           "height_cm": 184,
-          "weight_kg": 77,
+          "weight_kg": null,
           "handedness": "R",
           "birth_year": 2000,
           "typical_position": "back",
@@ -256,7 +269,7 @@
           "name_zh": "奇拉格·谢提",
           "gender": "M",
           "height_cm": 186,
-          "weight_kg": 75,
+          "weight_kg": null,
           "handedness": "R",
           "birth_year": 1997,
           "typical_position": "front",
@@ -272,7 +285,8 @@
         "https://en.wikipedia.org/wiki/Satwiksairaj_Rankireddy",
         "https://en.wikipedia.org/wiki/Chirag_Shetty",
         "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=72435",
-        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=70500"
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=70500",
+        "https://en.wikipedia.org/wiki/2026_China_Masters"
       ],
       "confidence": {
         "pairing_status": "high",
@@ -280,7 +294,9 @@
         "positions": "high",
         "body_data": "medium"
       },
-      "notes": "杭州亚运会为第19届亚运会（2023年举行）。谢提身高BWF 186cm、维基187cm，采用BWF。两人体重来自英文维基（单一来源）。2026年9月中国大师赛后备战名古屋亚运会。"
+      "notes": "杭州亚运会为第19届亚运会（2023年举行）。谢提身高BWF 186cm、维基187cm，采用BWF。两人体重仅有无引用的维基数据，置null。2026年9月随印度队获名古屋亚运会男团铜牌。",
+      "verified": true,
+      "verification_note": "已复核：BWF第39周第5；2022、2025世锦赛铜牌、2026新加坡公开赛冠军均确认。修正：补2026年中国大师赛冠军（9月，决赛胜何济霆/任翔宇）；两人体重置null；更新亚运会信息。"
     },
     {
       "id": "md-goh-sze-fei-nur-izzuddin",
@@ -290,7 +306,7 @@
       "country_zh": "马来西亚",
       "status": "active",
       "world_rank_2026_09_22": 6,
-      "highlights_zh": "2025年5月登顶世界第一；2024年亚锦赛银牌；2022年德国公开赛获首个世界巡回赛冠军",
+      "highlights_zh": "2025年5月登顶世界第一；2026年印尼公开赛（超级1000）冠军；2024年亚锦赛银牌；2022年德国公开赛获首个世界巡回赛冠军",
       "pair_style_zh": "吴世飞在网前敢打敢抢、判断果断，为伊祖丁创造从后场进攻的机会；伊祖丁负责后场下压。两人也习惯在回合中随时前后换位迷惑对手，既能一拍由守转攻，也能全程压着打。",
       "players": [
         {
@@ -333,7 +349,9 @@
         "positions": "high",
         "body_data": "high"
       },
-      "notes": "体重无可靠来源。"
+      "notes": "体重无可靠来源。",
+      "verified": true,
+      "verification_note": "已复核：BWF第39周第6；2025-05-27登顶、2024亚锦赛银牌、2022德国公开赛（决赛胜刘雨辰/欧烜屹）为其首个世界巡回赛冠军均确认；Stadium Astro原文确认吴世飞前场、伊祖丁后场。修正：补2026印尼公开赛冠军。"
     },
     {
       "id": "md-sabar-karyaman-gutama-reza-pahlevi-isfahani",
@@ -343,7 +361,7 @@
       "country_zh": "印尼",
       "status": "active",
       "world_rank_2026_09_22": 7,
-      "highlights_zh": "2025年东南亚运动会男双及团体金牌；世界排名最高第7（现第7）",
+      "highlights_zh": "2025年东南亚运动会男双及男团金牌；2025年印尼公开赛（超级1000）亚军、世界羽联总决赛四强；2026年澳大利亚公开赛亚军；世界排名最高第7（现第7）",
       "pair_style_zh": "印尼经验型组合，强调前场控制，力求从开局就通过前场争夺掌握进攻主动。公开资料没有明确的固定前后场分工，两人按回合需要轮换；利萨背伤复发时，萨巴尔会主动承担更多控制和跑动。",
       "players": [
         {
@@ -368,7 +386,7 @@
           "birth_year": 1998,
           "typical_position": "both",
           "position_note_zh": "同上。",
-          "role_desc_zh": "进攻积极的印尼男双选手，与萨巴尔轮换前后场；2026年日本公开赛期间背伤复发仍坚持完成比赛，意志力强。"
+          "role_desc_zh": "进攻积极的印尼男双选手，与萨巴尔轮换前后场；2026年日本公开赛期间伤病复发仍坚持完成比赛，意志力强。"
         }
       ],
       "sources": [
@@ -387,7 +405,9 @@
         "positions": "low",
         "body_data": "medium"
       },
-      "notes": "BWF官网未登记两人身高，身高取自英文/印尼文维基（一致）。前后场分工未能确认，标为both。中文译名各媒体不统一（利萨/雷扎），此处采用中文维基译名。"
+      "notes": "BWF官网未登记两人身高，身高取自英文/印尼文维基（一致但无引用）。前后场分工未能确认，标为both。中文译名各媒体不统一（利萨/雷扎），此处采用中文维基译名。",
+      "verified": true,
+      "verification_note": "已复核：BWF第39周第7；2025东南亚运动会男双及男团金牌确认；萨巴尔2026日本公开赛赛后原话（前后场都尽量不让搭档难受）确认。修正：补2025印尼公开赛亚军、总决赛四强、2026澳公亚军；将“背伤”改为“伤病”（来源未写明部位）。"
     },
     {
       "id": "md-ben-lane-sean-vendy",
@@ -405,7 +425,7 @@
           "name_zh": "本·莱恩",
           "gender": "M",
           "height_cm": 175,
-          "weight_kg": 70,
+          "weight_kg": null,
           "handedness": "L",
           "birth_year": 1997,
           "typical_position": "both",
@@ -433,7 +453,8 @@
         "https://en.wikipedia.org/wiki/Ben_Lane",
         "https://en.wikipedia.org/wiki/Sean_Vendy",
         "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=76278",
-        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=72478"
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=72478",
+        "https://en.wikipedia.org/wiki/European_Badminton_Championships"
       ],
       "confidence": {
         "pairing_status": "high",
@@ -441,7 +462,9 @@
         "positions": "low",
         "body_data": "high"
       },
-      "notes": "欧锦赛2026冠军信息来自维基百科与英格兰羽协新闻标题。莱恩体重70kg来自英文维基（单一来源）。"
+      "notes": "欧锦赛2026冠军为英格兰自1998年阿彻/亨特之后首个欧锦赛男双冠军（维基欧锦赛历届冠军表）。莱恩体重仅有无引用维基数据，置null。",
+      "verified": true,
+      "verification_note": "已复核：BWF第39周第8；2026欧锦赛冠军（英格兰1998年后首次）、2025北极公开赛冠军（决赛胜谢定峰/苏伟译，为其第三个世界巡回赛冠军）、2022英联邦银牌确认；BWF报道确认莱恩脚踝伤停赛三个月、文迪“变速和进攻”原话、搭档超过十年。修正：莱恩体重置null。"
     },
     {
       "id": "md-takuro-hoki-yugo-kobayashi",
@@ -451,7 +474,7 @@
       "country_zh": "日本",
       "status": "active",
       "world_rank_2026_09_22": 9,
-      "highlights_zh": "2021年世锦赛男双冠军（日本首个男双世界冠军）、2019年世锦赛银牌；2021年世界巡回赛总决赛冠军；2022年9月登顶世界第一",
+      "highlights_zh": "2021年世锦赛男双冠军（日本首个男双世界冠军）、2019年世锦赛银牌；2021年世界巡回赛总决赛冠军；2022年9月登顶世界第一；2025年丹麦公开赛冠军",
       "pair_style_zh": "从中学起就搭档的老牌组合，默契极高。典型得分方式是小林优吾在后场用重杀打乱对手，保木卓朗在网前推扑得分；两人网前手感都好、互相补位出色，必要时保木后场强攻、小林前场压上。",
       "players": [
         {
@@ -459,7 +482,7 @@
           "name_zh": "保木卓朗",
           "gender": "M",
           "height_cm": 167,
-          "weight_kg": 62,
+          "weight_kg": null,
           "handedness": "R",
           "birth_year": 1995,
           "typical_position": "front",
@@ -471,7 +494,7 @@
           "name_zh": "小林优吾",
           "gender": "M",
           "height_cm": 175,
-          "weight_kg": 72,
+          "weight_kg": null,
           "handedness": "L",
           "birth_year": 1995,
           "typical_position": "back",
@@ -495,7 +518,9 @@
         "positions": "high",
         "body_data": "high"
       },
-      "notes": "保木身高：BWF与日文维基167cm，英文维基166cm。体重来自英文与日文维基（一致）。保木生日BWF为8月14日、日文维基为8月15日，年份一致。"
+      "notes": "保木身高：BWF与日文维基167cm，英文维基166cm。两人体重仅有无引用的维基数据，置null。保木生日BWF为8月14日、日文维基为8月15日，年份一致。小林2023年日本公开赛443km/h杀球见日文维基。",
+      "verified": true,
+      "verification_note": "已复核：BWF第39周第9；2021世锦赛冠军、2019世锦赛银牌、2021总决赛冠军（决赛胜吉迪恩/苏卡穆约）、2022-09-20登顶均确认；日文维基确认小林左手、443km/h及两人可互换前后场。修正：补2025丹麦公开赛冠军；两人体重置null。"
     },
     {
       "id": "md-chen-boyang-liu-yi",
@@ -505,7 +530,7 @@
       "country_zh": "中国",
       "status": "active",
       "world_rank_2026_09_22": 10,
-      "highlights_zh": "2025年世锦赛男双银牌；2025年亚锦赛银牌、马来西亚公开赛（超级1000）亚军；球迷称“一百分组合”，现世界第10",
+      "highlights_zh": "2025年世锦赛男双银牌；2025年亚锦赛银牌、马来西亚公开赛（超级1000）亚军；2026年德国公开赛、澳大利亚公开赛冠军；球迷称“一百分组合”，现世界第10",
       "pair_style_zh": "以防守反击见长的“一百分组合”：防守稳健、发接发速度快，能通过防守逼对手起球再转入进攻。刘毅的后场杀球越来越重，陈柏阳的网前越来越细腻、变化多。两人关键分互相提醒、沉稳处理，是国羽男双新生力量。",
       "players": [
         {
@@ -529,7 +554,7 @@
           "handedness": "R",
           "birth_year": 2003,
           "typical_position": "back",
-          "position_note_zh": "2025年亚锦赛评述称“刘毅后场的杀球变重了”；2026年亚运会与何济霆临时搭档时，也由他负责后场进攻。",
+          "position_note_zh": "2025年亚锦赛评述称“刘毅后场的杀球变重了”；2026年亚运会与何济霆临时搭档时，国内自媒体评述也称“何济霆网前、刘毅后场”。",
           "role_desc_zh": "性格外向、打球充满激情的00后，后场杀球越来越重也更有耐心；偶尔会“打上头”出现失误，2025年世锦赛上情绪控制明显进步。"
         }
       ],
@@ -551,7 +576,9 @@
         "positions": "medium",
         "body_data": "medium"
       },
-      "notes": "2026年9月陈柏阳因突发疾病缺席名古屋亚运会，刘毅临时与何济霆搭档；报道明确这是临时安排，常规组合仍为陈柏阳/刘毅。BWF未登记身高；陈柏阳身高英文维基191cm、中文维基190cm。"
+      "notes": "2026年9月陈柏阳因突发疾病缺席名古屋亚运会，刘毅临时与何济霆搭档（团体赛随中国队获男团银牌，单项首轮负李哲辉/杨博轩）；报道明确这是临时安排，常规组合仍为陈柏阳/刘毅。BWF未登记身高；陈柏阳身高英文维基191cm、中文维基190cm。",
+      "verified": true,
+      "verification_note": "已复核：BWF第39周第10；2025世锦赛银牌、2025亚锦赛银牌、2025马来西亚公开赛亚军确认；陈柏阳因病缺席亚运会、刘毅与何济霆临时搭档确认。修正：补2026德国、澳大利亚公开赛冠军；补亚运会战况。"
     },
     {
       "id": "md-fu-haifeng-cai-yun",
@@ -561,15 +588,15 @@
       "country_zh": "中国",
       "status": "retired",
       "world_rank_2026_09_22": null,
-      "highlights_zh": "“风云组合”：2012年伦敦奥运会男双金牌、2008年北京奥运会银牌；2006、2009、2010、2011年四夺世锦赛冠军；汤姆斯杯五连冠主力",
-      "pair_style_zh": "经典的“前面一堵墙，后面一门炮”：蔡赟网前技术精湛，出球节奏、线路和落点变化控制极好，一切为傅海峰创造机会；左手重炮傅海峰在后场连续重杀、覆盖面大。两人搭档13年，刚柔相济，是男双前后场分工的教科书。",
+      "highlights_zh": "“风云组合”：2012年伦敦奥运会男双金牌、2008年北京奥运会银牌；2006、2009、2010、2011年四夺世锦赛冠军；2004—2012年汤姆斯杯五连冠主力；2021年两人同时入选世界羽联名人堂",
+      "pair_style_zh": "经典的“前面一堵墙，后面一门炮”：蔡赟网前技术精湛，出球节奏、线路和落点变化控制极好，一切为傅海峰创造机会；左手重炮傅海峰在后场连续重杀、覆盖面大。两人搭档十余年，刚柔相济，是男双前后场分工的教科书。",
       "players": [
         {
           "name_en": "Fu Haifeng",
           "name_zh": "傅海峰",
           "gender": "M",
           "height_cm": 181,
-          "weight_kg": 70,
+          "weight_kg": null,
           "handedness": "L",
           "birth_year": 1984,
           "typical_position": "back",
@@ -596,7 +623,9 @@
         "https://en.wikipedia.org/wiki/Fu_Haifeng",
         "https://en.wikipedia.org/wiki/Cai_Yun",
         "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=51729",
-        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=50251"
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=50251",
+        "https://www.olympedia.org/athletes/quick_search?query=Fu+Haifeng",
+        "https://www.olympedia.org/athletes/quick_search?query=Cai+Yun"
       ],
       "confidence": {
         "pairing_status": "high",
@@ -604,7 +633,9 @@
         "positions": "high",
         "body_data": "medium"
       },
-      "notes": "两人均已退役（傅海峰2017年天津全运会后退役）。傅海峰出生日期：BWF为1984-01-02，中英文维基为1983-08-23，此处采用BWF；身高BWF与英文维基181cm、中文维基183cm。蔡赟体重英文维基65kg、中文维基70kg，冲突，置null。"
+      "notes": "两人均已退役：蔡赟2016年6月宣布退役；傅海峰2017年9月天津全运会后退役。傅海峰出生日期：BWF与Olympedia均为1984-01-02，中英文维基为1983-08-23，采用1984；身高BWF与Olympedia 181cm。蔡赟身高BWF 182cm、Olympedia 181cm。两人体重各来源冲突（傅海峰70/78kg，蔡赟65/68/70kg），均置null。",
+      "verified": true,
+      "verification_note": "已复核：奥运、世锦赛、汤杯战绩与名人堂均确认；蔡赟由单打转双打、网前分工（中文维基）确认。修正：“搭档13年”改为“十余年”；补2021名人堂；傅海峰体重因来源冲突置null；补充退役时间出处。"
     },
     {
       "id": "md-kevin-sukamuljo-marcus-gideon",
@@ -622,7 +653,7 @@
           "name_zh": "凯文·桑加亚·苏卡穆约",
           "gender": "M",
           "height_cm": 170,
-          "weight_kg": 55,
+          "weight_kg": null,
           "handedness": "R",
           "birth_year": 1995,
           "typical_position": "front",
@@ -648,7 +679,8 @@
         "https://en.wikipedia.org/wiki/Kevin_Sanjaya_Sukamuljo",
         "https://en.wikipedia.org/wiki/Marcus_Fernaldi_Gideon",
         "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=80057",
-        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=26394"
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=26394",
+        "https://www.olympedia.org/athletes/quick_search?query=Kevin+Sanjaya+Sukamuljo"
       ],
       "confidence": {
         "pairing_status": "high",
@@ -656,7 +688,9 @@
         "positions": "high",
         "body_data": "medium"
       },
-      "notes": "吉迪恩2024年3月宣布退役，苏卡穆约2024年5月宣布退役。苏卡穆约出生年份：英文维基1995-08-02，BWF为1996-08-02，采用维基并标注差异；体重55kg来自英文维基（单一来源）。"
+      "notes": "吉迪恩2024年3月宣布退役，苏卡穆约2024年5月16日宣布退役。苏卡穆约出生年份：英文维基与Olympedia均为1995-08-02，BWF为1996-08-02，采用1995。体重无可靠来源。",
+      "verified": true,
+      "verification_note": "已复核：BWF 2024-03-21长文确认“226周世界第一”、2018亚运金牌、2020汤杯冠军、苏卡穆约网前抢截/吉迪恩主要在后场；2017超级系列赛总决赛冠军确认。修正：苏卡穆约体重置null；出生年份补Olympedia佐证。"
     },
     {
       "id": "md-mohammad-ahsan-hendra-setiawan",
@@ -674,7 +708,7 @@
           "name_zh": "穆罕默德·阿山",
           "gender": "M",
           "height_cm": 173,
-          "weight_kg": 68,
+          "weight_kg": null,
           "handedness": "R",
           "birth_year": 1987,
           "typical_position": "back",
@@ -686,7 +720,7 @@
           "name_zh": "亨德拉·塞蒂亚万",
           "gender": "M",
           "height_cm": 183,
-          "weight_kg": 72,
+          "weight_kg": null,
           "handedness": "R",
           "birth_year": 1984,
           "typical_position": "front",
@@ -700,7 +734,9 @@
         "https://en.wikipedia.org/wiki/Mohammad_Ahsan",
         "https://en.wikipedia.org/wiki/Hendra_Setiawan",
         "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=52749",
-        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=51074"
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=51074",
+        "https://www.olympedia.org/athletes/quick_search?query=Mohammad+Ahsan",
+        "https://www.olympedia.org/athletes/quick_search?query=Hendra+Setiawan"
       ],
       "confidence": {
         "pairing_status": "high",
@@ -708,7 +744,9 @@
         "positions": "high",
         "body_data": "medium"
       },
-      "notes": "两人以2025年1月印尼大师赛为告别赛，同时退役。体重来自英文维基（单一来源）。"
+      "notes": "塞蒂亚万2024年12月宣布退役，两人以2025年1月印尼大师赛为告别赛。三次赛季总决赛冠军为2013、2015年超级系列赛总决赛与2019年世界巡回赛总决赛。体重维基与Olympedia冲突，置null。",
+      "verified": true,
+      "verification_note": "已复核：2013/2015/2019世锦赛、2019全英赛、三次赛季总决赛冠军、塞蒂亚万2008奥运金牌与退役时间均确认。修正：两人体重因与Olympedia冲突置null。"
     },
     {
       "id": "md-lee-yang-wang-chi-lin",
@@ -761,7 +799,9 @@
         "positions": "high",
         "body_data": "medium"
       },
-      "notes": "李洋2024年9月退役，组合因此结束；王齐麟仍在役（与邱相榤搭档，2026-09-22世界第16）。体重来自中文维基（单一来源）。奥运卫冕信息由英文维基与《台湾光华》交叉确认。"
+      "notes": "李洋2024年9月退役，组合因此结束；王齐麟仍在役（与邱相榤搭档，2026-09-22世界第16，BWF排名API复核）。体重77kg/84kg来自中文维基所引2018年雅加达亚运会官方运动员资料（2018年数据）。奥运卫冕信息由英文维基与《台湾光华》交叉确认。",
+      "verified": true,
+      "verification_note": "已复核：东京、巴黎两届奥运金牌、2022-09-27最高第2、李洋2024-09退役、王齐麟/邱相榤第39周第16均确认；身高/出生年与BWF一致。仅补充体重出处，无实质错误。"
     },
     {
       "id": "wd-liu-shengshu-tan-ning",
@@ -771,7 +811,7 @@
       "country_zh": "中国",
       "status": "active",
       "world_rank_2026_09_22": 1,
-      "highlights_zh": "2025年世锦赛女双冠军、2026年世锦赛银牌；2024年巴黎奥运会银牌；2025年亚锦赛冠军；2026赛季成为首对单季夺得三个超级1000冠军的女双；现世界第一",
+      "highlights_zh": "2025年世锦赛女双冠军、2026年世锦赛银牌；2024年巴黎奥运会银牌；2025年亚锦赛冠军；2026赛季成为世界巡回赛（2018年创立）以来首对单季夺得三个超级1000冠军的女双；现世界第一",
       "pair_style_zh": "“前封后杀”的立体进攻体系：身高176厘米的刘圣书在后场重杀选点精准，常打对手身体连接位；谭宁把守前场，封网、封斜线速度快，不给对手轻松平抽的机会。两人正从单纯强攻转向“攻中有防、防中带攻”。",
       "players": [
         {
@@ -816,7 +856,9 @@
         "positions": "medium",
         "body_data": "medium"
       },
-      "notes": "位置来源为国内赛事评述类文章（新浪号），与多篇报道一致，但非官方技术统计。谭宁身高BWF 170cm、英文维基168cm，采用BWF。2026年4月亚锦赛决赛刘圣书/谭宁因伤退赛。"
+      "notes": "位置来源为国内赛事评述类文章（新浪号），与多篇报道一致，但非官方技术统计。谭宁身高BWF 170cm、英文维基168cm，采用BWF。2026年4月亚锦赛决赛刘圣书/谭宁因伤退赛。",
+      "verified": true,
+      "verification_note": "已复核：BWF第39周第1；2025世锦赛冠军、2026世锦赛银牌（15-21 15-21负白荷娜/李绍希）、2025亚锦赛冠军、2026亚锦赛决赛5-8因伤退赛、2026马来西亚/全英/中国公开赛三个超级1000冠军确认；刘圣书2022世青赛女双、混双双冠确认。修正：“首对三冠”补上“2018年世界巡回赛创立以来”的限定。"
     },
     {
       "id": "wd-baek-ha-na-lee-so-hee",
@@ -826,8 +868,8 @@
       "country_zh": "韩国",
       "status": "active",
       "world_rank_2026_09_22": 2,
-      "highlights_zh": "2026年世锦赛女双冠军（韩国时隔31年再夺女双世界冠军）；2025年世界羽联总决赛冠军；2024年10月登顶世界第一；现世界第二",
-      "pair_style_zh": "少见的“双后场进攻型”女双：据韩国资料，两人都偏好后场强攻，轮转中谁在后场谁就连续下压，另一人补网。靠进攻火力和轮转衔接压制对手，2026年世锦赛决赛直落两局击败世界第一刘圣书/谭宁。",
+      "highlights_zh": "2026年世锦赛女双冠军（韩国时隔31年再夺女双世界冠军，32岁的李绍希成为最年长的女双世界冠军）；2025年世界羽联总决赛冠军；2024年亚锦赛冠军；2024年10月登顶世界第一；现世界第二",
+      "pair_style_zh": "以稳定和耐心见长的韩国女双：两人在相持中很少送出简单失误，敢于用多拍磨对手，再抓机会连续进攻。2026年世锦赛决赛以21-15、21-15击败此前五连胜她们的世界第一刘圣书/谭宁，靠的正是“不犯简单失误、把球控制在场内”。公开资料未给出权威的固定前后场分工，两人按回合轮转。",
       "players": [
         {
           "name_en": "Baek Ha-na",
@@ -838,7 +880,7 @@
           "handedness": "R",
           "birth_year": 2000,
           "typical_position": "both",
-          "position_note_zh": "韩国维基类资料称她“主要在后场，力量好，擅长连续杀球”；与同样偏后场的李绍希搭档时需轮转补网，未找到权威技术统计，信心低。",
+          "position_note_zh": "未找到权威的站位分析或技术统计，暂标为前后都打。",
           "role_desc_zh": "身材不高但力量和弹跳出色的进攻型选手，步法快、覆盖面大，杀球和劈吊结合；轮转到前场时也能积极封网。"
         },
         {
@@ -846,12 +888,12 @@
           "name_zh": "李绍希",
           "gender": "F",
           "height_cm": 171,
-          "weight_kg": 67,
+          "weight_kg": null,
           "handedness": "R",
           "birth_year": 1994,
-          "typical_position": "back",
-          "position_note_zh": "资料称她身高臂展优势明显、后场杀球有力、进攻性很强（来源为韩国维基类资料，未获官方证实）。",
-          "role_desc_zh": "经验丰富的老将，身高171厘米、臂展长，后场进攻主动；与多名搭档都打到过世界前二，大赛心理稳定。"
+          "typical_position": "both",
+          "position_note_zh": "未找到权威的站位分析（原依据为无法打开核实的韩国维基类资料摘要），暂标为前后都打。",
+          "role_desc_zh": "经验丰富的老将，身高171厘米、臂展长，与多名搭档都打到过世界前二；2026年32岁时夺得世锦赛冠军，成为最年长的女双世界冠军，大赛心理稳定。"
         }
       ],
       "sources": [
@@ -861,7 +903,9 @@
         "https://en.wikipedia.org/wiki/Baek_Ha-na",
         "https://en.wikipedia.org/wiki/Lee_So-hee",
         "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=56706",
-        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=91292"
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=91292",
+        "https://bwfworldchampionships.bwfbadminton.com/news-single/2026/08/24/french-scale-dizzy-heights/",
+        "https://en.wikipedia.org/wiki/2024_Badminton_Asia_Championships"
       ],
       "confidence": {
         "pairing_status": "high",
@@ -869,7 +913,9 @@
         "positions": "low",
         "body_data": "high"
       },
-      "notes": "前后场描述主要依据纳木维基（NamuWiki）等韩国资料的检索摘要，页面本身无法直接打开核实，因此信心低。李绍希体重67kg来自英文维基（单一来源）。"
+      "notes": "前后场分工未找到可核实的权威资料，两人均标为both。李绍希体重无可靠来源，置null。",
+      "verified": true,
+      "verification_note": "已复核：BWF第39周第2；2026世锦赛冠军（韩国第二枚、31年来首枚女双世锦赛金牌）、2025总决赛冠军（决赛胜福岛由纪/松本麻佑）、2024-10-29登顶确认。修正：删除无法核实的“双后场型”描述，李绍希位置改为both，体重置null；补2024亚锦赛冠军与“最年长女双世界冠军”。"
     },
     {
       "id": "wd-yuki-fukushima-mayu-matsumoto",
@@ -879,7 +925,7 @@
       "country_zh": "日本",
       "status": "active",
       "world_rank_2026_09_22": 3,
-      "highlights_zh": "2024年秋组队；2025年马来西亚公开赛（超级1000）冠军、2025年世界羽联总决赛亚军；2026年印尼公开赛冠军、中国公开赛亚军；现世界第三",
+      "highlights_zh": "2024年秋组队；2025年马来西亚公开赛（超级1000）、法国公开赛冠军，2025年世界羽联总决赛亚军；2026年印尼公开赛（超级1000）冠军、中国公开赛亚军；现世界第三",
       "pair_style_zh": "防守与进攻两端都很硬的组合：身高177厘米的松本麻佑以后场强打为主要武器，福岛由纪拥有世界顶级的接杀防守。两人原本都是后场型选手，组队后福岛更多上前承担前场，松本在后场持续施压。",
       "players": [
         {
@@ -925,7 +971,9 @@
         "positions": "medium",
         "body_data": "high"
       },
-      "notes": "首站为2024年11月熊本大师赛（亚军）。松本体重69kg来自英文维基（单一来源）。"
+      "notes": "首站为2024年11月熊本大师赛（亚军，决赛负刘圣书/谭宁）。松本体重69kg来自英文维基所引日本羽协官方选手资料（旧数据）。",
+      "verified": true,
+      "verification_note": "已复核：BWF第39周第3；2025马来西亚公开赛冠军、2025总决赛亚军、2026印尼公开赛冠军、2026中国公开赛亚军确认；J SPORTS原文确认福岛为“后卫选手、正在打磨前场”；福岛三次世锦赛银牌（2017-2019）确认。修正：补2025法国公开赛冠军。"
     },
     {
       "id": "wd-jia-yifan-zhang-shuxian",
@@ -935,7 +983,7 @@
       "country_zh": "中国",
       "status": "active",
       "world_rank_2026_09_22": 4,
-      "highlights_zh": "2024年11月熊本大师赛首次搭档；2025赛季3冠3亚（含中国大师赛冠军）；2026年新加坡公开赛、澳大利亚公开赛冠军，日本公开赛亚军；2026年6月升至世界第二",
+      "highlights_zh": "2024年11月起搭档；2025赛季3冠3亚（含中国大师赛冠军）；2026年新加坡公开赛、澳大利亚公开赛冠军，日本公开赛亚军；2026年6月升至世界第二",
       "pair_style_zh": "一前一后分工明确：奥运冠军贾一凡在后场以左手重杀开路，落点尖锐、线路开合有度；张殊贤在网前以细腻手感和极快衔接封网，被形容为“定海神针”。两人拉吊稳定、多拍相持能力强，正从磨合走向默契。",
       "players": [
         {
@@ -980,7 +1028,9 @@
         "positions": "high",
         "body_data": "high"
       },
-      "notes": "组队背景：陈清晨退役后贾一凡改与张殊贤搭档。2026年9月中国大师赛半决赛不敌鲍骊婧/曹梓涵。体重无可靠来源。"
+      "notes": "组队背景：巴黎奥运后陈清晨因病休养，贾一凡自2024年11月起改与张殊贤搭档（2025年10月丹麦、法国公开赛陈清晨/贾一凡曾短暂复出，此后陈清晨退役）。2026年9月中国大师赛半决赛不敌鲍骊婧/曹梓涵。体重无可靠来源。",
+      "verified": true,
+      "verification_note": "已复核：BWF第39周第4；2025赛季3冠（瑞士、香港、中国大师赛）3亚、2026新加坡/澳大利亚公开赛冠军、日本公开赛亚军（决胜局29-30）、2026-06-16升至第2均确认。修正：原注释“陈清晨退役后贾一凡改与张殊贤搭档”时间顺序有误（两人2024年11月即已搭档，陈清晨2025年10月才告别赛场）。"
     },
     {
       "id": "wd-pearly-tan-thinaah-muralitharan",
@@ -1035,7 +1085,9 @@
         "positions": "medium",
         "body_data": "high"
       },
-      "notes": "体重无可靠来源。"
+      "notes": "体重无可靠来源。",
+      "verified": true,
+      "verification_note": "已复核：BWF第39周第5；2025世锦赛银牌（维基世锦赛奖牌榜显示为马来西亚唯一一枚女双奖牌）、巴黎奥运四强、2022英联邦金牌、2025-07-29最高第2均确认。无需修改。"
     },
     {
       "id": "wd-kim-hye-jeong-kong-hee-yong",
@@ -1070,7 +1122,7 @@
           "birth_year": 1996,
           "typical_position": "back",
           "position_note_zh": "同上；分析也指出被持续压后场时，她的移动速度会成为突破口。",
-          "role_desc_zh": "后场起跳重杀角度刁钻，找到节奏后进攻压力极大；被持续压后场时移动会吃亏。东京、巴黎两届奥运会参赛者。"
+          "role_desc_zh": "后场起跳重杀角度刁钻，找到节奏后进攻压力极大；被持续压后场时移动会吃亏。曾与金昭映获东京奥运会女双铜牌、登顶世界第一，也参加了巴黎奥运会。"
         }
       ],
       "sources": [
@@ -1088,7 +1140,9 @@
         "positions": "medium",
         "body_data": "high"
       },
-      "notes": "金慧贞身高BWF 162cm、英文维基161cm，采用BWF。体重无可靠来源。"
+      "notes": "金慧贞身高BWF 162cm、英文维基161cm，采用BWF。体重无可靠来源。",
+      "verified": true,
+      "verification_note": "已复核：BWF第39周第6；2026日本公开赛冠军（14-21 21-15 30-29胜贾一凡/张殊贤）、2025-10-21最高第3确认。修正：孔熙容补东京奥运铜牌。"
     },
     {
       "id": "wd-rin-iwanaga-kie-nakanishi",
@@ -1144,7 +1198,9 @@
         "positions": "high",
         "body_data": "high"
       },
-      "notes": "英文维基称岩永铃2026年2月结婚后改名上坂铃（Rin Uesaka），但BWF排名与BIPROGY官网仍登记为岩永铃，故保留原名。身高来自BIPROGY官网（166cm/170cm），BWF未登记。"
+      "notes": "英文维基称岩永铃2026年2月结婚后改名上坂铃（Rin Uesaka），亚运会名单亦作上坂铃，但BWF排名与BIPROGY官网（含2026年6月新闻）仍登记为岩永铃，故保留原名。身高来自BIPROGY官网（166cm/170cm，中西贵映左手、任队长），BWF未登记。",
+      "verified": true,
+      "verification_note": "已复核：BWF第39周第7；2025世锦赛铜牌、2024丹麦公开赛冠军（决赛胜刘圣书/谭宁）、2022亚锦赛银牌、2025-03-11最高第4确认；J SPORTS原文确认岩永前场、中西后场；BIPROGY官网确认身高、持拍手与队长身份。无实质错误。"
     },
     {
       "id": "wd-li-yijing-luo-xumin",
@@ -1155,7 +1211,7 @@
       "status": "active",
       "world_rank_2026_09_22": 8,
       "highlights_zh": "2026年亚锦赛女双冠军、2026年世锦赛铜牌；2024年中国公开赛冠军；最高世界第五",
-      "pair_style_zh": "一攻一控：左手的罗徐敏以后场重杀和积极跑动为招牌，李怡婧以网前控制和防守韧性见长。2026年春两人曾短暂拆对，世锦赛前重组后拿到铜牌，9月中国大师赛仍搭档出战。",
+      "pair_style_zh": "一攻一控：左手的罗徐敏以后场重杀和积极跑动为招牌，李怡婧以网前控制和防守韧性见长。2026年国羽女双多次调整搭配，两人仍在全英赛、亚锦赛（夺冠）、中国公开赛、世锦赛（铜牌）和中国大师赛搭档出战。",
       "players": [
         {
           "name_en": "Li Yijing",
@@ -1167,7 +1223,7 @@
           "birth_year": 2002,
           "typical_position": "front",
           "position_note_zh": "搜狐赛事分析称李怡婧“在女双里练就的网前控制能力和防守韧性”，罗徐敏“后场重杀和积极跑动是招牌武器”。",
-          "role_desc_zh": "网前控制型选手，前场手感细腻、封网积极，防守韧性强；2026年上半年曾被安排尝试混双，后回归女双。"
+          "role_desc_zh": "网前控制型选手，前场手感细腻、封网积极，防守韧性强；2026年初曾与王艺多搭档夺得瑞士公开赛冠军。"
         },
         {
           "name_en": "Luo Xumin",
@@ -1179,7 +1235,7 @@
           "birth_year": 2002,
           "typical_position": "back",
           "position_note_zh": "同上。",
-          "role_desc_zh": "左手后场进攻手，杀球重、跑动积极，能长时间持续下压；2026年短暂与小将陈樊淑湉搭档时拿下马来西亚大师赛冠军。"
+          "role_desc_zh": "左手后场进攻手，杀球重、跑动积极，能长时间持续下压；2026年曾与鲍骊婧夺德国公开赛冠军、与小将陈樊淑湉夺马来西亚大师赛冠军。"
         }
       ],
       "sources": [
@@ -1195,12 +1251,14 @@
         "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=65300"
       ],
       "confidence": {
-        "pairing_status": "medium",
+        "pairing_status": "high",
         "highlights": "high",
         "positions": "medium",
         "body_data": "medium"
       },
-      "notes": "2026年国羽女双多次调整：1月李怡婧曾与鲍骊婧搭档，4-6月罗徐敏与陈樊淑湉搭档；8月世锦赛、9月中国大师赛两人再度搭档。组合未来仍可能调整。BWF未登记身高，取自英文维基。"
+      "notes": "2026年搭配调整：李怡婧曾与鲍骊婧（泰国大师赛亚军）、王艺多（德国公开赛亚军、瑞士公开赛冠军）搭档；罗徐敏曾与鲍骊婧（德国公开赛冠军）、陈樊淑湉（马来西亚大师赛冠军）搭档；但两人在全英赛、4月亚锦赛、7月中国公开赛、8月世锦赛、9月中国大师赛均搭档出战。组合未来仍可能调整。BWF未登记身高，取自英文维基。",
+      "verified": true,
+      "verification_note": "已复核：BWF第39周第8；2026亚锦赛冠军（决赛刘圣书/谭宁5-8退赛）、2026世锦赛铜牌、2024中国公开赛冠军、2025-05-27最高第5确认。修正：拆对/重组时间线改为按签表核实的版本；删除“李怡婧尝试混双”这一无法证实的说法。"
     },
     {
       "id": "wd-rachel-allessya-rose-febi-setianingrum",
@@ -1254,7 +1312,9 @@
         "positions": "low",
         "body_data": "low"
       },
-      "notes": "身高仅来自印尼文维基（单一来源，BWF未登记）。费比生日BWF为2004-02-29、印尼文维基为2004-04-29，年份一致。"
+      "notes": "身高仅来自印尼文维基（单一来源，BWF未登记）。费比生日BWF为2004-02-29、印尼文维基为2004-04-29，年份一致。",
+      "verified": true,
+      "verification_note": "已复核：BWF第39周第9；2025澳大利亚公开赛冠军、2026亚锦赛第二轮16-21 21-19 21-9淘汰贾一凡/张殊贤、2026-08-25升至第9确认；阿莱西娅2022世青赛女双银牌、团体铜牌确认。身高仅见印尼文维基（无引用），保留但信心低。无需修改。"
     },
     {
       "id": "wd-hsieh-pei-shan-hung-en-tzu",
@@ -1308,7 +1368,9 @@
         "positions": "medium",
         "body_data": "low"
       },
-      "notes": "洪恩慈身高175cm仅来自英文维基；谢沛珊身高无可靠来源，置null。"
+      "notes": "洪恩慈身高175cm仅来自英文维基；谢沛珊身高无可靠来源，置null。",
+      "verified": true,
+      "verification_note": "已复核：BWF第39周第10；2025台北公开赛冠军（BWF：中国台北17年来首个主场女双冠军）、2025澳门公开赛冠军、2026-03-10最高第8确认；洪恩慈左手（维基引台湾媒体）、谢沛珊右手。洪恩慈175cm仅见英文维基（无引用）。无需修改。"
     },
     {
       "id": "wd-chen-qingchen-jia-yifan",
@@ -1331,7 +1393,7 @@
           "birth_year": 1997,
           "typical_position": "front",
           "position_note_zh": "赛事评述批评她某场比赛“网前速度也不够快，没有太多截击”，反映她在组合中主要负责网前。",
-          "role_desc_zh": "网前组织核心，出手快、截击积极，也有顶级混双经验（曾与郑思维登顶混双世界第一）；2025年11月宣布退役。"
+          "role_desc_zh": "网前组织核心，出手快、截击积极，也有顶级混双经验（曾与郑思维登顶混双世界第一）；2025年10月法国公开赛后告别赛场，11月发文告别国家队。"
         },
         {
           "name_en": "Jia Yifan",
@@ -1352,7 +1414,8 @@
         "https://en.wikipedia.org/wiki/Chen_Qingchen",
         "https://en.wikipedia.org/wiki/Jia_Yifan",
         "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=94125",
-        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=65144"
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=65144",
+        "https://www.thestar.com.my/sport/badminton/2025/10/26/goodbye-old-rival---china039s-qingchen-calls-it-a-day"
       ],
       "confidence": {
         "pairing_status": "high",
@@ -1360,7 +1423,9 @@
         "positions": "medium",
         "body_data": "high"
       },
-      "notes": "陈清晨2025年11月24日发文宣布退役，12月21日国羽举行退役仪式（英文维基记为2025-10-26，与中文报道不一致，以中文官方报道为准）。组合因此结束，贾一凡仍在役。"
+      "notes": "陈清晨与贾一凡最后一次同场参加国际赛为2025年10月法国公开赛（半决赛负李怡婧/罗徐敏）；英文维基据此记退役日为2025-10-26；陈清晨11月24日发文告别国家队，12月21日国羽在杭州世界羽联总决赛期间举行退役仪式。组合因此结束，贾一凡仍在役（2024年11月起主要与张殊贤搭档）。",
+      "verified": true,
+      "verification_note": "已复核：巴黎奥运金牌、东京银牌、2017/2021/2022/2023世锦赛冠军、2018与2022亚运金牌、搭档11年、登顶世界第一均确认。修正：退役时间线（10月最后一赛、11月告别国家队、12月仪式）理清。"
     },
     {
       "id": "wd-ayaka-takahashi-misaki-matsutomo",
@@ -1395,7 +1460,7 @@
           "birth_year": 1992,
           "typical_position": "front",
           "position_note_zh": "英文维基：“以前场技术闻名，运用细腻的网前技术、快速拦截和精准落点主导比赛节奏。”",
-          "role_desc_zh": "网前技术大师，手法细腻、截击迅速、落点精准，能主导比赛节奏；身高仅159厘米却登顶世界第一，与高桥共获2017年BWF年度最佳女运动员。"
+          "role_desc_zh": "网前技术大师，手法细腻、截击迅速、落点精准，能主导比赛节奏；身高仅159厘米却登顶世界第一，与高桥共获2016年BWF年度最佳女运动员。"
         }
       ],
       "sources": [
@@ -1412,7 +1477,9 @@
         "positions": "medium",
         "body_data": "high"
       },
-      "notes": "高桥2020年8月退役；松友此后改打混双，2025年离开日本国家队、退出BIPROGY后以自由身继续活动。高桥身高BWF 164cm、日文维基165cm。"
+      "notes": "高桥2020年8月退役；松友此后改打混双，2025年落选日本国家队、3月底离开BIPROGY后以自由身继续活动（日文维基；BIPROGY官网队员名单已无松友）。高桥身高BWF 164cm、日文维基与Olympedia 165cm。",
+      "verified": true,
+      "verification_note": "已复核：里约奥运金牌、2016全英赛冠军、2014/2018年终总决赛冠军、2014-10-20登顶、高桥2020年退役确认。修正：年度最佳女运动员为2016年而非2017年。"
     },
     {
       "id": "xd-feng-yanzhe-huang-dongping",
@@ -1468,7 +1535,9 @@
         "positions": "high",
         "body_data": "high"
       },
-      "notes": "黄东萍生日BWF为1995-01-20、维基为1995-04-30，年份一致。体重无可靠来源。"
+      "notes": "黄东萍生日BWF为1995-01-20、维基为1995-04-30，年份一致。体重无可靠来源。",
+      "verified": true,
+      "verification_note": "已复核：BWF第39周第1；2024-11-26登顶、2025总决赛冠军、2026世锦赛银牌、2026澳大利亚公开赛与中国大师赛冠军确认；BWF全英赛报道中韦斯特高原话确认。无需修改。"
     },
     {
       "id": "xd-mathias-christiansen-alexandra-boje",
@@ -1478,7 +1547,7 @@
       "country_zh": "丹麦",
       "status": "active",
       "world_rank_2026_09_22": 2,
-      "highlights_zh": "2026年印尼公开赛（超级1000）、新加坡公开赛（超级750）、泰国公开赛冠军；2025年许洛公开赛冠军；2026年9月升至世界第二（现第二）",
+      "highlights_zh": "2026年印尼公开赛（超级1000）、新加坡公开赛（超级750）、泰国公开赛冠军；2026年欧锦赛混双冠军；2025年许洛公开赛、澳门公开赛冠军；2026年9月升至世界第二（现第二）",
       "pair_style_zh": "欧洲混双的代表：经验丰富、身高186厘米的克里斯蒂安森在后场负责进攻，身高173厘米的博尔在前场组织。2026年全英赛后打出一波高峰，四周内连夺三冠并首夺超级1000冠军。",
       "players": [
         {
@@ -1521,7 +1590,9 @@
         "positions": "medium",
         "body_data": "high"
       },
-      "notes": "博尔（Bøje）的中文译名未找到大陆主流媒体统一用法，此处采用中文维基译名。体重无可靠来源。"
+      "notes": "博尔（Bøje）的中文译名未找到大陆主流媒体统一用法，此处采用中文维基译名。体重无可靠来源。",
+      "verified": true,
+      "verification_note": "已复核：BWF第39周第2；2026泰国、新加坡、印尼公开赛“四周三冠”（BWF 2026-06-08）、2025许洛公开赛冠军、2026-09-08升至第2确认；博尔2025年与塔贝林夺德国公开赛冠军确认。修正：补2026欧锦赛混双冠军、2025澳门公开赛冠军。"
     },
     {
       "id": "xd-jiang-zhenbang-wei-yaxin",
@@ -1544,7 +1615,7 @@
           "birth_year": 2001,
           "typical_position": "back",
           "position_note_zh": "按混双常规标注；有赛事分析称蒋振邦是需要搭档网前“托举”的“后场重炮”。",
-          "role_desc_zh": "后场重炮型男选手，杀球力量大，需要搭档在网前创造机会；2026年春与魏雅欣短暂分开期间曾尝试与李怡婧配对。"
+          "role_desc_zh": "后场重炮型男选手，杀球力量大，需要搭档在网前创造机会；2026年初曾随组合获马来西亚公开赛亚军，全英赛后与魏雅欣分开约三个月，6月重组即夺澳门公开赛冠军。"
         },
         {
           "name_en": "Wei Yaxin",
@@ -1577,7 +1648,9 @@
         "positions": "medium",
         "body_data": "high"
       },
-      "notes": "2026年全英赛后两人分开约三个月（魏雅欣与高家炫搭档参加4站比赛），6月澳门公开赛恢复搭档并夺冠，此后世锦赛获铜。组合仍可能调整。"
+      "notes": "2026年全英赛八强后两人退出亚锦赛并分开约三个月（魏雅欣与高家炫搭档参加4站比赛并夺马来西亚大师赛冠军），6月澳门公开赛恢复搭档并夺冠，此后世锦赛获铜。有国内自媒体称分开期间蒋振邦在队内尝试与李怡婧配对，但未见两人参加国际比赛，未采信。组合仍可能调整。",
+      "verified": true,
+      "verification_note": "已复核：BWF第39周第3；2025-03-18登顶、2025世锦赛银牌、2026世锦赛铜牌、2025苏迪曼杯冠军成员、2026澳门公开赛冠军确认；魏雅欣左手（BWF）。修正：删除“蒋振邦尝试与李怡婧配对”这一无法证实的说法。"
     },
     {
       "id": "xd-thom-gicquel-delphine-delrue",
@@ -1587,7 +1660,7 @@
       "country_zh": "法国",
       "status": "active",
       "world_rank_2026_09_22": 4,
-      "highlights_zh": "2026年世锦赛混双冠军；2025年世锦赛铜牌；2024年欧锦赛冠军；2026年全英赛亚军",
+      "highlights_zh": "2026年世锦赛混双冠军（法国首枚世锦赛金牌，决赛逆转世界第一冯彦哲/黄东萍）；2025年世锦赛铜牌；2024年欧锦赛冠军；2026年全英赛亚军（法国首对打进全英赛决赛的双打组合）",
       "pair_style_zh": "法国混双王牌，全场压迫感强：德尔吕在网前拦截平抽、为进攻铺路，身高186厘米的吉凯尔在后场进攻。两人自评“网前和中场是强项”，近年重点提升进攻得分效率，2026年登上世界之巅。",
       "players": [
         {
@@ -1595,7 +1668,7 @@
           "name_zh": "汤姆·吉凯尔",
           "gender": "M",
           "height_cm": 186,
-          "weight_kg": 81,
+          "weight_kg": null,
           "handedness": "R",
           "birth_year": 1999,
           "typical_position": "back",
@@ -1607,7 +1680,7 @@
           "name_zh": "德尔菲娜·德尔吕",
           "gender": "F",
           "height_cm": 171,
-          "weight_kg": 62,
+          "weight_kg": null,
           "handedness": "R",
           "birth_year": 1998,
           "typical_position": "front",
@@ -1624,7 +1697,8 @@
         "https://en.wikipedia.org/wiki/Thom_Gicquel",
         "https://en.wikipedia.org/wiki/Delphine_Delrue",
         "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=68544",
-        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=70762"
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=70762",
+        "https://bwfworldchampionships.bwfbadminton.com/news-single/2026/08/24/french-scale-dizzy-heights/"
       ],
       "confidence": {
         "pairing_status": "high",
@@ -1632,7 +1706,9 @@
         "positions": "high",
         "body_data": "medium"
       },
-      "notes": "德尔吕身高BWF 171cm、英文维基170cm。两人体重来自英文维基（单一来源）。"
+      "notes": "德尔吕身高BWF 171cm、英文维基170cm。两人体重仅有无引用的维基数据，置null。",
+      "verified": true,
+      "verification_note": "已复核：BWF第39周第4；2026世锦赛冠军（22-20 19-21 21-15胜冯彦哲/黄东萍）、2025世锦赛铜牌、2024欧锦赛冠军、2026全英赛亚军确认；BWF原文确认德尔吕网前拦截、吉凯尔“网前和中场是强项”原话、吉凯尔2018地中海运动会男双金牌。修正：两人体重置null；补世锦赛历史意义。"
     },
     {
       "id": "xd-dechapol-puavaranukroh-supissara-paewsampran",
@@ -1642,8 +1718,8 @@
       "country_zh": "泰国",
       "status": "active",
       "world_rank_2026_09_22": 5,
-      "highlights_zh": "2025年中国大师赛冠军（该项目首对外国冠军）、2025年新加坡公开赛冠军；2025年7月最高世界第三；德差蓬另与沙西丽获2021年世锦赛冠军、曾登顶世界第一",
-      "pair_style_zh": "以德差蓬的后场杀球为核心火力，对手常刻意少起高球、改打快平来限制他；素比莎拉在前场衔接。组合2026年受伤病影响缺席全英赛和中国大师赛，但仍保持世界前五。",
+      "highlights_zh": "2025年马来西亚公开赛（超级1000）、新加坡公开赛、中国大师赛冠军（中国大师赛史上首对外国混双冠军）；2025年7月最高世界第三；德差蓬另与沙西丽获2021年世锦赛冠军、曾登顶世界第一",
+      "pair_style_zh": "以德差蓬的后场杀球为核心火力，对手常刻意少起高球、改打快平来限制他；素比莎拉在前场衔接。组合2026年退出全英赛、9月因伤缺席中国大师赛，但仍保持世界前五。",
       "players": [
         {
           "name_en": "Dechapol Puavaranukroh",
@@ -1655,7 +1731,7 @@
           "birth_year": 1997,
           "typical_position": "back",
           "position_note_zh": "BWF报道对手战术：“打得更快更平，而不是起太多高球让德差蓬杀球。”",
-          "role_desc_zh": "身高169厘米却是顶级混双后场攻击手，杀球凶狠、连续进攻能力强；与沙西丽搭档时成为泰国首个世界冠军组合（2021年）。"
+          "role_desc_zh": "身高169厘米却是顶级混双后场攻击手，杀球凶狠、连续进攻能力强；2021年与沙西丽夺得世锦赛混双冠军，并登顶世界第一。"
         },
         {
           "name_en": "Supissara Paewsampran",
@@ -1685,7 +1761,9 @@
         "positions": "medium",
         "body_data": "high"
       },
-      "notes": "2026年9月中国大师赛前BWF报道两人“受伤”缺席。中文译名大陆媒体不统一，此处采用中文维基译名。"
+      "notes": "2026年3月退出全英赛（原因未见说明），9月中国大师赛前BWF报道两人“受伤”缺席。中文译名大陆媒体不统一，此处采用中文维基译名。",
+      "verified": true,
+      "verification_note": "已复核：BWF第39周第5；2025中国大师赛冠军（BWF确认为该项目首对外国冠军）、2025新加坡公开赛冠军、2025-07-22最高第3、德差蓬2021世锦赛冠军确认；BWF新加坡报道确认对手“少起球防德差蓬杀球”。修正：补2025马来西亚公开赛冠军；全英赛缺席原因未证实，改为“退出”；删去“泰国首个世界冠军组合”。"
     },
     {
       "id": "xd-guo-xinwa-chen-fanghui",
@@ -1695,7 +1773,7 @@
       "country_zh": "中国",
       "status": "active",
       "world_rank_2026_09_22": 6,
-      "highlights_zh": "2025年全英赛冠军；2026年中国公开赛冠军（首次战胜冯彦哲/黄东萍）；2025年世锦赛铜牌；最高世界第五",
+      "highlights_zh": "2025年全英赛冠军；2026年中国公开赛冠军（决赛三局击败冯彦哲/黄东萍，八次交手首胜）；2025年世锦赛铜牌；最高世界第五",
       "pair_style_zh": "国羽混双第三主力，男方左手持拍。按混双常规女前男后分工，郭新娃后场进攻、陈芳卉前场控制。两人能在大赛中爆发，2026年中国公开赛三局击败头号种子队友后夺冠。",
       "players": [
         {
@@ -1708,7 +1786,7 @@
           "birth_year": 2000,
           "typical_position": "back",
           "position_note_zh": "按混双常规“女前男后”分工标注；未找到针对该组合站位的专门技术分析。",
-          "role_desc_zh": "左手持拍的男选手，山东队出身，17岁时曾在全运会团体赛中爆冷战胜林丹；在混双中负责后场进攻。"
+          "role_desc_zh": "左手持拍的男选手，13岁进入山东队，17岁时曾在全运会团体资格赛中爆冷战胜林丹；在混双中负责后场进攻。"
         },
         {
           "name_en": "Chen Fanghui",
@@ -1738,7 +1816,9 @@
         "positions": "medium",
         "body_data": "low"
       },
-      "notes": "两人身高、体重均无可靠来源（BWF与维基均未登记），置null；郭新娃左手持拍来自中英文维基。"
+      "notes": "两人身高、体重均无可靠来源（BWF与维基均未登记），置null；郭新娃左手持拍来自中英文维基。",
+      "verified": true,
+      "verification_note": "已复核：BWF第39周第6；2025全英赛冠军（决赛胜冯彦哲/魏雅欣）、2026中国公开赛冠军（25-23 20-22 21-15）、2025世锦赛铜牌、2025-03-18最高第5确认；郭新娃左手（BWF/维基）。修正：补“八次交手首胜”；“全运会团体赛”更正为“团体资格赛”。"
     },
     {
       "id": "xd-cheng-xing-zhang-chi",
@@ -1791,7 +1871,9 @@
         "positions": "medium",
         "body_data": "medium"
       },
-      "notes": "BWF未登记身高，取自英文维基（单一来源）。"
+      "notes": "BWF未登记身高，取自英文维基（单一来源）。",
+      "verified": true,
+      "verification_note": "已复核：BWF第39周第7；2026德国公开赛冠军、瑞士公开赛冠军（20-22 21-15 22-20）、印尼公开赛亚军、2026-09-08最高第7确认；张驰曾与耿淑亮搭档女双确认。无需修改。"
     },
     {
       "id": "xd-chen-tang-jie-toh-ee-wei",
@@ -1826,7 +1908,7 @@
           "birth_year": 2000,
           "typical_position": "front",
           "position_note_zh": "按混双常规“女前男后”分工标注；未找到针对该组合站位的专门技术分析。",
-          "role_desc_zh": "身高约161厘米的前场型女选手，负责网前控制；曾与何邦荣搭档打进世界前20，2026年曾在比赛中因伤退赛。"
+          "role_desc_zh": "身高约161厘米的前场型女选手，负责网前控制；曾与何邦荣搭档打进世界前20，2026年新加坡公开赛八强战中扭伤膝盖退赛。"
         }
       ],
       "sources": [
@@ -1844,7 +1926,9 @@
         "positions": "medium",
         "body_data": "high"
       },
-      "notes": "杜颐沩身高BWF 161cm、英文维基162cm；中文名英文维基作“杜依蔚”，中文维基作“杜颐沩”，采用后者。"
+      "notes": "杜颐沩身高BWF 161cm、英文维基162cm；中文名英文维基作“杜依蔚”，中文维基作“杜颐沩”，采用后者。",
+      "verified": true,
+      "verification_note": "已复核：BWF第39周第8；2025世锦赛冠军（马来西亚首个混双世界冠军）、2025-01-14最高第3确认。修正：杜颐沩退赛细节补为2026新加坡公开赛膝伤。"
     },
     {
       "id": "xd-ye-hong-wei-nicole-gonzales-chan",
@@ -1898,7 +1982,9 @@
         "positions": "high",
         "body_data": "medium"
       },
-      "notes": "詹又蓁身高无可靠来源，置null；生日BWF为2004-12-13、中文维基为2004-12-23，年份一致。"
+      "notes": "詹又蓁身高无可靠来源，置null；右手持拍见中文维基所引《自由时报》报道（BWF未登记）；生日BWF为2004-12-13、中文维基为2004-12-23，年份一致。",
+      "verified": true,
+      "verification_note": "已复核：BWF第39周第9；2026全英赛冠军（决赛21-19 21-18胜吉凯尔/德尔吕，BWF确认为中国台北首对混双决赛组合）、2024年起搭档、叶宏蔚左手185cm、2021成都大运会混双金牌确认。无需修改。"
     },
     {
       "id": "xd-goh-soon-huat-shevon-jemie-lai",
@@ -1908,7 +1994,7 @@
       "country_zh": "马来西亚",
       "status": "active",
       "world_rank_2026_09_22": 10,
-      "highlights_zh": "2018年新加坡公开赛冠军（决赛击败里约奥运冠军艾哈迈德/纳西尔）；2025年2月最高世界第三",
+      "highlights_zh": "2018年新加坡公开赛冠军（决赛击败里约奥运冠军艾哈迈德/纳西尔）；2024年中国公开赛冠军（决赛击败冯彦哲/黄东萍）；2025年2月最高世界第三",
       "pair_style_zh": "长期搭档的马来西亚老将组合，两人都已三十出头。按混双常规吴顺发后场、左手的赖洁敏前场。经验丰富、心态稳定，是马来西亚混双多年的中坚力量，也是业余“老搭档”的好榜样。",
       "players": [
         {
@@ -1928,7 +2014,7 @@
           "name_zh": "赖洁敏",
           "gender": "F",
           "height_cm": 169,
-          "weight_kg": 60,
+          "weight_kg": null,
           "handedness": "L",
           "birth_year": 1993,
           "typical_position": "front",
@@ -1950,7 +2036,9 @@
         "positions": "medium",
         "body_data": "medium"
       },
-      "notes": "吴顺发身高BWF 178cm、维基179cm；体重英文维基65kg、中文维基75kg，冲突，置null。赖洁敏体重60kg来自英文维基（单一来源）。"
+      "notes": "吴顺发身高BWF 178cm、维基179cm；体重英文维基65kg、中文维基75kg，冲突，置null。赖洁敏体重仅有无引用维基数据，置null。吴顺发曾是单打选手（2013年马来西亚大奖赛金奖男单亚军）。",
+      "verified": true,
+      "verification_note": "已复核：BWF第39周第10；2018新加坡公开赛冠军（21-19 21-18胜艾哈迈德/纳西尔）、2025-02-18最高第3、赖洁敏左手（BWF）确认。修正：补2024中国公开赛冠军；赖洁敏体重置null。"
     },
     {
       "id": "xd-zheng-siwei-huang-yaqiong",
@@ -2001,7 +2089,9 @@
         "positions": "medium",
         "body_data": "high"
       },
-      "notes": "郑思维2024年11月宣布退出国际赛场，黄雅琼2025年1月1日提交退役申请，2025年12月21日国羽举行退役仪式。郑思维身高BWF 175cm、维基176cm。"
+      "notes": "郑思维2024年11月宣布退出国际赛场，黄雅琼2025年1月1日提交退役申请，2025年12月21日国羽举行退役仪式。郑思维身高BWF 175cm、维基176cm。",
+      "verified": true,
+      "verification_note": "已复核：巴黎奥运金牌、2018/2019/2022世锦赛冠军、2018与2022亚运金牌、四次总决赛冠军（2019、2022、2023、2024）、搭档七年确认；郑思维2024年11月宣布退出国际赛、黄雅琼2025-01-01提交退役、2025-12-21退役仪式确认。无需修改。"
     },
     {
       "id": "xd-zhang-nan-zhao-yunlei",
@@ -2012,7 +2102,7 @@
       "status": "retired",
       "world_rank_2026_09_22": null,
       "highlights_zh": "2012年伦敦奥运会混双金牌；2011、2014、2015年三夺世锦赛冠军；2014年亚运会金牌；赵芸蕾同届伦敦奥运会还获女双金牌，张楠另获里约奥运会男双金牌",
-      "pair_style_zh": "攻防全面的混双王者：赵芸蕾网前技术全面、控制力强，女双、混双都登顶世界第一；张楠身高约1.83米、动作灵活、后场有力。两人把传统“女前男后”打到极致，曾包揽奥运、世锦赛、亚运会等大赛冠军。",
+      "pair_style_zh": "攻防全面的混双王者：赵芸蕾网前技术全面、控制力强，女双、混双都登顶世界第一；张楠身高1.8米以上、动作灵活、后场有力。两人把传统“女前男后”打到极致，曾包揽奥运、世锦赛、亚运会等大赛冠军。",
       "players": [
         {
           "name_en": "Zhang Nan",
@@ -2044,7 +2134,9 @@
         "https://en.wikipedia.org/wiki/Zhao_Yunlei",
         "https://zh.wikipedia.org/wiki/张楠_(羽毛球运动员)",
         "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=35357",
-        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=54522"
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=54522",
+        "https://www.olympedia.org/athletes/quick_search?query=Zhang+Nan",
+        "https://www.olympedia.org/athletes/quick_search?query=Zhao+Yunlei"
       ],
       "confidence": {
         "pairing_status": "high",
@@ -2052,7 +2144,9 @@
         "positions": "medium",
         "body_data": "medium"
       },
-      "notes": "赵芸蕾2016年里约奥运会后退出国际赛场，2018年回国家队任助理教练；张楠已退役。张楠身高BWF 184cm、维基183cm；两人体重中英文维基相差1kg，置null。"
+      "notes": "赵芸蕾2016年里约奥运会（与张楠获混双铜牌）后退出国际赛场，2018年回国家队任助理教练；张楠2022年8月宣布退出国家队（表示将以职业球员身份继续参赛），组合早已不再出赛。张楠身高BWF 184cm、维基与Olympedia 183cm；赵芸蕾身高BWF与Olympedia 173cm。两人体重各来源不一致（张楠74/75kg，赵芸蕾60/61kg），置null。",
+      "verified": true,
+      "verification_note": "已复核：伦敦奥运混双金牌、2011/2014/2015世锦赛混双冠军、2014亚运会混双金牌、赵芸蕾伦敦女双金牌、张楠里约男双金牌确认。修正：原注释“张楠已退役”无法证实（他2022年只宣布退出国家队），改为准确表述；pair_style身高表述与数据统一。"
     },
     {
       "id": "xd-tontowi-ahmad-liliyana-natsir",
@@ -2070,7 +2164,7 @@
           "name_zh": "通托维·艾哈迈德",
           "gender": "M",
           "height_cm": 179,
-          "weight_kg": 75,
+          "weight_kg": null,
           "handedness": "R",
           "birth_year": 1987,
           "typical_position": "back",
@@ -2082,7 +2176,7 @@
           "name_zh": "利利亚纳·纳西尔",
           "gender": "F",
           "height_cm": 168,
-          "weight_kg": 59,
+          "weight_kg": null,
           "handedness": "R",
           "birth_year": 1985,
           "typical_position": "front",
@@ -2094,7 +2188,9 @@
         "https://en.wikipedia.org/wiki/Tontowi_Ahmad",
         "https://en.wikipedia.org/wiki/Liliyana_Natsir",
         "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=54267",
-        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=14727"
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=14727",
+        "https://www.olympedia.org/athletes/quick_search?query=Tontowi+Ahmad",
+        "https://www.olympedia.org/athletes/quick_search?query=Liliyana+Natsir"
       ],
       "confidence": {
         "pairing_status": "high",
@@ -2102,7 +2198,13 @@
         "positions": "medium",
         "body_data": "medium"
       },
-      "notes": "艾哈迈德身高BWF 179cm、英文维基183cm，采用BWF。体重来自英文维基（单一来源）。纳西尔2019年1月退役。"
+      "notes": "艾哈迈德身高BWF与Olympedia 179cm、英文维基183cm，采用BWF；纳西尔身高BWF 168cm、Olympedia 169cm。两人体重维基与Olympedia冲突，置null。纳西尔2019年1月退役，艾哈迈德2020年5月退役。",
+      "verified": true,
+      "verification_note": "已复核：里约奥运金牌、2013/2017世锦赛冠军、2012-2014全英三连冠、2018-05-03登顶、纳西尔2022年入选名人堂确认。修正：两人体重因与Olympedia冲突置null。"
     }
-  ]
+  ],
+  "fact_check": {
+    "checked_on": "2026-09-26",
+    "method": "逐对复核：BWF官方排名API（Week 39）与球员档案API、BWF官网新闻、维基百科（英/中/日/印尼/法/韩）赛事页与签表、Olympedia、BIPROGY官网、新浪/搜狐/极目等报道；体重仅保留有官方出处的数据（日本羽协档案、2018亚运会官网），其余无引用或互相冲突者置null。"
+  }
 }

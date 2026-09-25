@@ -9,7 +9,7 @@
 | Brainstorming y decisiones con el usuario | ✅ Hecho |
 | Especificación de diseño | ✅ Aprobada: `docs/superpowers/specs/2026-09-25-badminton-app-design.md` |
 | Prototipo del motor de cálculo | ✅ Verificado: `docs/superpowers/prototype/` |
-| Investigación del dominio (jugadores, estudios, tácticas, nivel, MBTI) | 🔄 Relanzada el 2026-09-25; escribe directamente en `docs/superpowers/research/`. Al retomar, mira qué archivos existen y relanza solo lo que falte |
+| Investigación del dominio (jugadores, estudios, tácticas, nivel, MBTI) | ✅ Terminada y verificada el 2026-09-26 (ver «Resultados de la investigación») |
 | Plan de implementación | ✅ Escrito: `docs/superpowers/plans/2026-09-26-yuqiu-tianfu.md` (21 tareas). Falta que el usuario lo revise y elija el modo de ejecución |
 | Programación | ⏳ Pendiente. Primera pregunta al retomar: ¿el plan recoge lo que quiere? y ¿ejecución directa (native, recomendada por tokens) o con agentes (subagent-driven)? |
 
@@ -62,3 +62,22 @@
   - `amateur_rating.md` y `badminton_mbti.md`.
 - Relanzarlo con `args: { dir: "<ruta absoluta>/docs/superpowers/research", today: "<fecha>" }`.
 - La sesión anterior se paró antes de que terminara ningún archivo, así que no hay resultados guardados.
+
+## Resultados de la investigación (2026-09-26)
+
+Todo en `docs/superpowers/research/`. 9 agentes, verificación adversarial de jugadores y citas.
+
+- **Individual:** 51 jugadores (26 hombres y 25 mujeres; 166–196 cm y 156–179 cm; 7 zurdos; los 6 estilos). Todos `verified: true`, con 32 correcciones del verificador. Retiradas confirmadas: Axelsen (abr. 2026), Carolina Marín (mar. 2026), Tai Tzu-ying (nov. 2025) y Saina Nehwal (ene. 2026). Peso solo en 20 fichas; en el resto es `null`.
+- **Dobles:** 39 parejas (MD, WD y XD), todas verificadas, con 55 correcciones (16 palmarés, 12 pesos y 10 descripciones de rol).
+- **Ciencia:** 52 citas verificadas contra Crossref y PubMed. De las 5 citas de la app original:
+  - Stelmach 2024 e Ibrahim 2024 **no existen**;
+  - "Bidil 2022" en realidad es Akdoğan et al. 2022;
+  - Zhang & Leng trata sobre jugadoras zurdas;
+  - Hamdani 2022 es un metaanálisis general sobre adolescentes, no específico de bádminton.
+- **Tácticas, nivel amateur y MBTI:** `tactics_styles.md`, `amateur_rating.md` y `badminton_mbti.md`.
+
+**Dudas abiertas, a revisar en la Tarea 5:**
+- Altura de Kunlavut Vitidsarn: 173 cm según la BWF, 177 cm según Wikipedia.
+- Algunos nombres chinos de medios continentales no confirmados (Alwi Farhan, Putri KW, Mia Blichfeldt, Line Christophersen, Pornpawee, Busanan).
+- Gregoria Mariska Tunjung excluida porque no está claro si está retirada.
+- Algunas parejas de dobles tienen la posición red/fondo como `both`, con confianza baja.
