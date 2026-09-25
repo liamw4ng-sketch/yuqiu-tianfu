@@ -55,6 +55,7 @@ export const SINGLES_WEIGHTS = {
 const SINGLES_STYLES = ['attack','control','counter','speed','allround','net'] as const
 type Style = typeof SINGLES_STYLES[number]
 const vec = (r: Record<AbilityKey, number>) => ABILITY_KEYS.map(k => r[k])
+export const spreadOf = (u: number[]) => Math.min(1, sd(u) / 1.0)
 const fitFrom = (score01: number, body01: number) => Math.round(100*(0.7*score01 + 0.3*body01))
 const older = (b: Body) => b.ageBand === 'forties' || b.ageBand === 'fiftyPlus'
 export function singlesBodyFit(s: Style, b: Body) { const z = clamp(b.heightZ,-1.5,1.5), bb = b.bmiBand, ape = b.apeIndexCm; let v = 0.6
@@ -65,13 +66,13 @@ export function singlesBodyFit(s: Style, b: Body) { const z = clamp(b.heightZ,-1
   if (s==='net') v = 0.6 + (older(b)?0.05:0)
   if (s==='allround') v = 0.6 + (bb==='lean'||bb==='normal'?0.05:0)
   return clamp(v,0,1) }
-export function rankSingles(bl: Record<AbilityKey, number>, b: Body) { const u = vec(bl); const ranking = SINGLES_STYLES.map(s => { let score01: number; if (s==='allround') { score01 = (1 - Math.min(sd(u)/2.5,1)) * Math.min(1, mean(u)/6.5) } else { score01 = (correlation(u, vec(SINGLES_WEIGHTS[s]))+1)/2 } return { style: s, fit: fitFrom(score01, singlesBodyFit(s,b)) } }).sort((a,b2)=> b2.fit - a.fit || SINGLES_STYLES.indexOf(a.style)-SINGLES_STYLES.indexOf(b2.style)); return { ranking, top: ranking[0].style, runnerUp: ranking[1].style, margin: ranking[0].fit - ranking[1].fit } }
+export function rankSingles(bl: Record<AbilityKey, number>, b: Body) { const u = vec(bl); const ranking = SINGLES_STYLES.map(s => { let score01: number; if (s==='allround') { score01 = (1 - Math.min(sd(u)/2.5,1)) * Math.min(1, mean(u)/6.5) } else { score01 = (correlation(u, vec(SINGLES_WEIGHTS[s]))*spreadOf(u)+1)/2 } return { style: s, fit: fitFrom(score01, singlesBodyFit(s,b)) } }).sort((a,b2)=> b2.fit - a.fit || SINGLES_STYLES.indexOf(a.style)-SINGLES_STYLES.indexOf(b2.style)); return { ranking, top: ranking[0].style, runnerUp: ranking[1].style, margin: ranking[0].fit - ranking[1].fit } }
 const FRONT = w({ endurance:.05, reaction:.30, netTouch:.30, speed:.20, tactics:.10, mental:.05 })
 const BACK = w({ power:.35, endurance:.20, reaction:.05, speed:.10, rearCourt:.25, mental:.05 })
 export function doublesRole(bl: Record<AbilityKey, number>, b: Body) { const z = clamp(b.heightZ,-1.5,1.5), bb = b.bmiBand, u = vec(bl)
   const fb = clamp(0.5 - 0.15*z + ({under:0, lean:0.1, normal:0.05, solid:-0.05, heavy:-0.2})[bb], 0, 1)
   const bbf = clamp(0.5 + 0.2*z + (b.apeIndexCm>=3?0.1:0) + ({under:-0.2, lean:-0.05, normal:0.1, solid:0.15, heavy:0})[bb], 0, 1)
-  const frontFit = fitFrom((correlation(u, vec(FRONT))+1)/2, fb), backFit = fitFrom((correlation(u, vec(BACK))+1)/2, bbf)
+  const sp = spreadOf(u); const frontFit = fitFrom((correlation(u, vec(FRONT))*sp+1)/2, fb), backFit = fitFrom((correlation(u, vec(BACK))*sp+1)/2, bbf)
   const diff = frontFit - backFit
   const role = Math.abs(diff) < 8 && mean(u) >= 5 ? 'rotation' : diff >= 0 ? 'front' : 'back'
   const fit = role === 'rotation' ? Math.min(100, Math.round((frontFit+backFit)/2) + 5) : Math.max(frontFit, backFit)

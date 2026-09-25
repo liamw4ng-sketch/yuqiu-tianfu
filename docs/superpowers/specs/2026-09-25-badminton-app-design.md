@@ -86,7 +86,7 @@ Fiel a las capturas:
 | 每周频率 freq | `<1`, `1`, `2-3`, `4+` | |
 | 偏好 preference | `singles`, `doubles`, `mixed`, `all` | Ordena qué sección del informe va primero |
 | 8 capacidades | nivel 1–5 cada una | Etiquetas con hechos observables (§5.2) |
-| Pruebas reales (opcional) | salto vertical (cm), comba en 1 min (saltos), test de la regla (cm) | Ajustan 爆发力, 耐力 y 反应速度 |
+| Pruebas reales (opcional) | salto vertical (cm), comba en 1 min (saltos), test de Cooper 12 min (m), test de la regla (cm) | Ajustan 爆发力, 移动速度 (步频), 耐力 y 反应速度 |
 
 ### 5.2 Las 8 capacidades
 
@@ -157,7 +157,7 @@ Botones: ← 首页, 🔄 重新测评, 保存到档案 (automático), 生成分
 
 ## 7. Módulo 羽球MBTI
 
-- 4 ejes propios de bádminton (definidos con la investigación en `badminton_mbti.md`). Cada eje tiene **5 preguntas binarias**: número impar, así que nunca hay empates. 20 situaciones en pista en total, en orden intercalado.
+- 4 ejes con las letras MBTI estándar y significado de bádminton: E/I 外放 vs 内敛, S/N 实感·基本功 vs 直觉·假动作, T/F 理性 vs 感性, J/P 计划 vs 随性 (decidido con el usuario el 2026-09-26). Cada eje tiene **5 preguntas binarias**: número impar, así que nunca hay empates. 20 situaciones en pista en total, en orden intercalado.
 - Resultado: código de 4 letras, apodo, emoji, lema, descripción, 3 fortalezas, 2 debilidades, mejor y peor pareja (con motivo), un profesional con esa vibra (verificado) y 2 consejos. Se muestra el porcentaje por eje.
 - Aviso visible: entretenimiento, no psicometría.
 

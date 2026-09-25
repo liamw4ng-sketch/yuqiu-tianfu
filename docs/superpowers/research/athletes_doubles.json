@@ -1,0 +1,2108 @@
+{
+  "updated": "2026-09-25",
+  "ranking_reference": "BWF World Ranking, Week 39 (2026-09-22), fetched from the official bwfbadminton.com ranking API",
+  "position_legend": {
+    "front": "进攻轮转中主要在前场/网前",
+    "back": "进攻轮转中主要在后场",
+    "both": "前后场无固定分工或资料不足以确认"
+  },
+  "pairs": [
+    {
+      "id": "md-kim-won-ho-seo-seung-jae",
+      "event": "MD",
+      "pair_name_zh": "金元浩/徐承宰",
+      "pair_name_en": "Kim Won-ho / Seo Seung-jae",
+      "country_zh": "韩国",
+      "status": "active",
+      "world_rank_2026_09_22": 1,
+      "highlights_zh": "2025年世锦赛男双冠军、2025年世界羽联总决赛冠军；2025赛季单季11冠创男双纪录；2025、2026年全英赛两连冠；2026年亚锦赛冠军、世锦赛铜牌；现世界第一",
+      "pair_style_zh": "两人前后场都能打到世界顶级，没有固定的“网前手/后场手”，轮转非常流畅。进攻时连续下压不给对手喘息，防守严密得像一张网，能在多拍中由守转攻；专注力极强，先丢一局也常能逆转。",
+      "players": [
+        {
+          "name_en": "Kim Won-ho",
+          "name_zh": "金元浩",
+          "gender": "M",
+          "height_cm": 184,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 1999,
+          "typical_position": "both",
+          "position_note_zh": "韩国媒体专栏评价这对组合“不分前后场，两人都展现出高完成度”；部分资料称他偏技术型、网前控制好，但在轮转中并不固定站网前。",
+          "role_desc_zh": "技术型双打手，网前手感细腻、平抽快挡速度快，防守覆盖面大；轮转中既能封网也能后场连续下压，是组合节奏的稳定器。"
+        },
+        {
+          "name_en": "Seo Seung-jae",
+          "name_zh": "徐承宰",
+          "gender": "M",
+          "height_cm": 182,
+          "weight_kg": null,
+          "handedness": "L",
+          "birth_year": 1997,
+          "typical_position": "both",
+          "position_note_zh": "同上：两人前后场可互换；他身体弹性好，后场起跳突击和网前截击都有威胁，会随轮转换位。",
+          "role_desc_zh": "左手进攻型选手，后场起跳重杀角度刁钻，网前截击也快；2023年曾在同一届世锦赛拿下男双、混双两枚金牌，大赛经验极其丰富。"
+        }
+      ],
+      "sources": [
+        "https://extranet-lv.bwfbadminton.com/api/vue-rankingtable?rankId=2&catId=8&publicationId=4471&doubles=true&page=1",
+        "https://bwfworldchampionships.bwfbadminton.com/results/5601/bwf-world-championships-2026/podium",
+        "https://en.wikipedia.org/wiki/2025_BWF_World_Tour_Finals",
+        "https://v.daum.net/v/20251118112447163",
+        "https://k.sina.com.cn/article_7879995911_1d5af320706802kkac.html",
+        "https://en.wikipedia.org/wiki/Kim_Won-ho",
+        "https://en.wikipedia.org/wiki/Seo_Seung-jae",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=61444",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=66513"
+      ],
+      "confidence": {
+        "pairing_status": "high",
+        "highlights": "high",
+        "positions": "medium",
+        "body_data": "high"
+      },
+      "notes": "位置标注为both的依据是韩国Daum体育专栏（2025-11）；网上有中文自媒体称徐承宰网前、金元浩后场，也有资料称相反，互相矛盾，故不做固定前后场标注。2026年初徐承宰曾短暂缺阵（韩媒报道，原因未核实）。体重无可靠来源。"
+    },
+    {
+      "id": "md-fajar-alfian-muhammad-shohibul-fikri",
+      "event": "MD",
+      "pair_name_zh": "阿尔菲安/菲克里",
+      "pair_name_en": "Fajar Alfian / Muhammad Shohibul Fikri",
+      "country_zh": "印尼",
+      "status": "active",
+      "world_rank_2026_09_22": 2,
+      "highlights_zh": "2025年中国公开赛（超级1000）冠军；2026年日本公开赛冠军、新加坡公开赛亚军；2026年6月升至世界第二（现世界第二）",
+      "pair_style_zh": "两人原本都是前场型选手，组合后前后场分配接近五五开：谁在网前顺手谁就上前，另一人退到后场补位。打法以快速平抽、前场抢点和连续压制为主，默契来自多年同队训练，是“双前场型”组合的代表。",
+      "players": [
+        {
+          "name_en": "Fajar Alfian",
+          "name_zh": "法贾·阿尔菲安",
+          "gender": "M",
+          "height_cm": 177,
+          "weight_kg": 69,
+          "handedness": "R",
+          "birth_year": 1995,
+          "typical_position": "both",
+          "position_note_zh": "他自述与前搭档阿迪安托配对时约70%时间在网前；与菲克里配对后两人都偏好前场，教练要求前后场轮换接近五五开。",
+          "role_desc_zh": "经验丰富的前场型老将，曾与阿迪安托登顶世界第一；网前抢点、封网和组织能力强，与菲克里搭档后也要更多承担后场下压。"
+        },
+        {
+          "name_en": "Muhammad Shohibul Fikri",
+          "name_zh": "穆罕默德·肖希布·菲克里",
+          "gender": "M",
+          "height_cm": 176,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 1999,
+          "typical_position": "both",
+          "position_note_zh": "菲克里说：“我在前面时法贾补后场，他在前面顺手时我就退到后面”，前后场覆盖都不错。",
+          "role_desc_zh": "前后场覆盖面都很大的速度型选手，前场抢网积极，退到后场也能连续进攻；与阿尔菲安换位频繁，默契靠临场阅读。"
+        }
+      ],
+      "sources": [
+        "https://extranet-lv.bwfbadminton.com/api/vue-rankingtable?rankId=2&catId=8&publicationId=4471&doubles=true&page=1",
+        "https://sport.detik.com/raket/d-7971764/fajar-alfian-sempat-kagok-latihan-bareng-fikri",
+        "https://sport.detik.com/raket/d-8055952/tandem-lagi-dengan-fajar-alfian-jadi-momen-pembuktian-fikri",
+        "https://bwfworldtour.bwfbadminton.com/news-single/2026/07/21/smashing-stats-china-open-2026/",
+        "https://bwfworldtour.bwfbadminton.com/news-single/2026/06/01/singapore-open-champs-live-reborn-dreams/",
+        "https://en.wikipedia.org/wiki/Fajar_Alfian",
+        "https://id.wikipedia.org/wiki/Fajar_Alfian",
+        "https://en.wikipedia.org/wiki/Muhammad_Shohibul_Fikri",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=88876",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=91440"
+      ],
+      "confidence": {
+        "pairing_status": "high",
+        "highlights": "high",
+        "positions": "high",
+        "body_data": "medium"
+      },
+      "notes": "阿尔菲安出生年份：英文/印尼文维基为1995年3月7日，BWF官网为1996-03-07，采用维基并标注差异；身高BWF 177cm、维基176cm。体重69kg来自英文与印尼文维基（一致）。2025年因阿迪安托家庭原因、马丁受伤而临时组合，夺中国公开赛后转为固定搭档。"
+    },
+    {
+      "id": "md-liang-weikeng-wang-chang",
+      "event": "MD",
+      "pair_name_zh": "梁伟铿/王昶",
+      "pair_name_en": "Liang Weikeng / Wang Chang",
+      "country_zh": "中国",
+      "status": "active",
+      "world_rank_2026_09_22": 3,
+      "highlights_zh": "2026年世锦赛男双冠军；2024年巴黎奥运会男双银牌；2023年世锦赛铜牌；2023年10月登顶世界第一；2025年世界羽联总决赛亚军",
+      "pair_style_zh": "典型的“后杀前封”组合：梁伟铿在后场以角度陡的重杀持续施压，王昶在网前靠灵活脚步和手感封网、抢点，把对手的每一次起球都变成连续进攻。两人都是00后，轮转换位积极，越打越放得开。",
+      "players": [
+        {
+          "name_en": "Liang Weikeng",
+          "name_zh": "梁伟铿",
+          "gender": "M",
+          "height_cm": 175,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 2000,
+          "typical_position": "back",
+          "position_note_zh": "多篇赛事分析称“梁伟铿后场重杀、王昶网前控制”；2026年世锦赛夺冠后的报道也称“王昶的网前和梁伟铿的后场”发挥出色。",
+          "role_desc_zh": "后场火力输出点，起跳重杀角度陡、落点狠，能连续下压压住对手站位；被拉出进攻节奏时防守偶有波动，状态好时进攻持续性极强。"
+        },
+        {
+          "name_en": "Wang Chang",
+          "name_zh": "王昶",
+          "gender": "M",
+          "height_cm": 181,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 2001,
+          "typical_position": "front",
+          "position_note_zh": "同上；王昶负责网前封网、发接发和创造机会，被媒体称为组合的“节奏发动机”。",
+          "role_desc_zh": "网前“节奏发动机”，手感细腻、封网严密，发接发和前三拍主动性强，擅长在平抽快挡中抢到主动，为搭档创造后场杀球机会。"
+        }
+      ],
+      "sources": [
+        "https://extranet-lv.bwfbadminton.com/api/vue-rankingtable?rankId=2&catId=8&publicationId=4471&doubles=true&page=1",
+        "https://bwfworldchampionships.bwfbadminton.com/results/5601/bwf-world-championships-2026/podium",
+        "https://en.wikipedia.org/wiki/2025_BWF_World_Tour_Finals",
+        "https://k.sina.com.cn/article_7879995911_1d5af320706802kltm.html",
+        "https://www.indiasportshub.com/articles/satwik-chirag-vs-liang-wang-a-rivalry-renewed-in-the-hong-kong-open-2025-final",
+        "https://www.sina.cn/news/detail/5335381017103421.html",
+        "https://c.m.163.com/news/a/JT0DEQU00552V2TF.html",
+        "https://en.wikipedia.org/wiki/Liang_Weikeng",
+        "https://en.wikipedia.org/wiki/Wang_Chang_(badminton)",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=90531",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=55414"
+      ],
+      "confidence": {
+        "pairing_status": "high",
+        "highlights": "high",
+        "positions": "high",
+        "body_data": "medium"
+      },
+      "notes": "梁伟铿身高：BWF 175cm，英文维基177cm，中文维基176cm，采用BWF。体重无可靠来源。"
+    },
+    {
+      "id": "md-aaron-chia-soh-wooi-yik",
+      "event": "MD",
+      "pair_name_zh": "谢定峰/苏伟译",
+      "pair_name_en": "Aaron Chia / Soh Wooi Yik",
+      "country_zh": "马来西亚",
+      "status": "active",
+      "world_rank_2026_09_22": 4,
+      "highlights_zh": "2022年世锦赛男双冠军（马来西亚首个世锦赛冠军）；2020东京、2024巴黎两届奥运会铜牌；2026年世锦赛银牌；2025年亚锦赛冠军",
+      "pair_style_zh": "身材反差明显的组合：身高168厘米的谢定峰反而主打后场进攻，185厘米的苏伟译在前场做组织者，负责网前控制和创造机会。两人防守扎实，能靠高质量防守把比赛拖入多拍再反击，大赛经验丰富。",
+      "players": [
+        {
+          "name_en": "Aaron Chia",
+          "name_zh": "谢定峰",
+          "gender": "M",
+          "height_cm": 168,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 1997,
+          "typical_position": "back",
+          "position_note_zh": "Tatler Asia专访描述其分工为“苏伟译在前场组织，谢定峰从后场进攻”。",
+          "role_desc_zh": "身高仅168厘米却担任后场主攻，靠启动快、弹跳好和连续杀球制造压力；防守也很硬朗，是“个子不高也能打后场”的代表。"
+        },
+        {
+          "name_en": "Soh Wooi Yik",
+          "name_zh": "苏伟译",
+          "gender": "M",
+          "height_cm": 185,
+          "weight_kg": 73,
+          "handedness": "R",
+          "birth_year": 1998,
+          "typical_position": "front",
+          "position_note_zh": "同上；报道还提到他作为前场球员也着力加强后场能力，希望更全面。",
+          "role_desc_zh": "高个子前场组织者，网前控制、推扑和线路变化好，负责创造机会；近年也加强了后场进攻，可根据需要与搭档换位。"
+        }
+      ],
+      "sources": [
+        "https://extranet-lv.bwfbadminton.com/api/vue-rankingtable?rankId=2&catId=8&publicationId=4471&doubles=true&page=1",
+        "https://bwfworldchampionships.bwfbadminton.com/results/5601/bwf-world-championships-2026/podium",
+        "https://www.tatlerasia.com/lifestyle/sports/cover-story-december-2022-aaron-chia-and-soh-wooi-yik",
+        "https://en.wikipedia.org/wiki/Aaron_Chia",
+        "https://en.wikipedia.org/wiki/Soh_Wooi_Yik",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=56203",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=99389"
+      ],
+      "confidence": {
+        "pairing_status": "high",
+        "highlights": "high",
+        "positions": "high",
+        "body_data": "high"
+      },
+      "notes": "注意：这是“矮个后场、高个前场”的反例组合，不要按身高想当然。苏伟译体重73kg来自英文维基（单一来源）。"
+    },
+    {
+      "id": "md-satwiksairaj-rankireddy-chirag-shetty",
+      "event": "MD",
+      "pair_name_zh": "兰基雷迪/谢提",
+      "pair_name_en": "Satwiksairaj Rankireddy / Chirag Shetty",
+      "country_zh": "印度",
+      "status": "active",
+      "world_rank_2026_09_22": 5,
+      "highlights_zh": "杭州亚运会男双金牌（印度首枚亚运羽毛球金牌）；亚锦赛冠军；2022年英联邦运动会冠军；2022、2025年世锦赛铜牌；前世界第一；2026年新加坡公开赛冠军",
+      "pair_style_zh": "两位高个子组成的重炮型组合：兰基雷迪坐镇后场，以世界纪录级的重杀迫使对手被动防守；谢提在前场截击、封网，专抓对手的松软回球。需要时两人也会在回合中主动换位打乱节奏，适合身材高大、以攻为主的球友参考。",
+      "players": [
+        {
+          "name_en": "Satwiksairaj Rankireddy",
+          "name_zh": "萨维克赛拉吉·兰基雷迪",
+          "gender": "M",
+          "height_cm": 184,
+          "weight_kg": 77,
+          "handedness": "R",
+          "birth_year": 2000,
+          "typical_position": "back",
+          "position_note_zh": "印度媒体描述其分工为“兰基雷迪以爆发性杀球控制后场，谢提以拦截和网前技术主导前场”。",
+          "role_desc_zh": "后场核心火力，2023年以565公里/小时的杀球获吉尼斯“羽毛球最快击球”纪录；起跳重杀连续性强，站在后场时能逼得对手满场防守。"
+        },
+        {
+          "name_en": "Chirag Shetty",
+          "name_zh": "奇拉格·谢提",
+          "gender": "M",
+          "height_cm": 186,
+          "weight_kg": 75,
+          "handedness": "R",
+          "birth_year": 1997,
+          "typical_position": "front",
+          "position_note_zh": "同上。",
+          "role_desc_zh": "身高186厘米的前场手，网前拦截和预判出色，专门“收割”对手的半高球和网前松球；发接发积极，是组合进攻链条的终结者。"
+        }
+      ],
+      "sources": [
+        "https://extranet-lv.bwfbadminton.com/api/vue-rankingtable?rankId=2&catId=8&publicationId=4471&doubles=true&page=1",
+        "https://www.indiasportshub.com/articles/satwik-chirag-vs-liang-wang-a-rivalry-renewed-in-the-hong-kong-open-2025-final",
+        "https://bwfworldtour.bwfbadminton.com/news-single/2026/06/01/singapore-open-champs-live-reborn-dreams/",
+        "https://en.wikipedia.org/wiki/2025_BWF_World_Championships",
+        "https://en.wikipedia.org/wiki/Satwiksairaj_Rankireddy",
+        "https://en.wikipedia.org/wiki/Chirag_Shetty",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=72435",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=70500"
+      ],
+      "confidence": {
+        "pairing_status": "high",
+        "highlights": "high",
+        "positions": "high",
+        "body_data": "medium"
+      },
+      "notes": "杭州亚运会为第19届亚运会（2023年举行）。谢提身高BWF 186cm、维基187cm，采用BWF。两人体重来自英文维基（单一来源）。2026年9月中国大师赛后备战名古屋亚运会。"
+    },
+    {
+      "id": "md-goh-sze-fei-nur-izzuddin",
+      "event": "MD",
+      "pair_name_zh": "吴世飞/伊祖丁",
+      "pair_name_en": "Goh Sze Fei / Nur Izzuddin",
+      "country_zh": "马来西亚",
+      "status": "active",
+      "world_rank_2026_09_22": 6,
+      "highlights_zh": "2025年5月登顶世界第一；2024年亚锦赛银牌；2022年德国公开赛获首个世界巡回赛冠军",
+      "pair_style_zh": "吴世飞在网前敢打敢抢、判断果断，为伊祖丁创造从后场进攻的机会；伊祖丁负责后场下压。两人也习惯在回合中随时前后换位迷惑对手，既能一拍由守转攻，也能全程压着打。",
+      "players": [
+        {
+          "name_en": "Goh Sze Fei",
+          "name_zh": "吴世飞",
+          "gender": "M",
+          "height_cm": 171,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 1997,
+          "typical_position": "front",
+          "position_note_zh": "伊祖丁接受Stadium Astro采访时说：“世飞是很棒的前场球员，网前犀利大胆，他的决定通常给我从后面进攻的机会。”",
+          "role_desc_zh": "前场型选手，网前反应快、敢于抢网和扑球，出手果断，擅长用网前小球逼对手起球，是组合进攻的“开关”。"
+        },
+        {
+          "name_en": "Nur Izzuddin",
+          "name_zh": "努尔·伊祖丁",
+          "gender": "M",
+          "height_cm": 175,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 1997,
+          "typical_position": "back",
+          "position_note_zh": "同上；另有报道指出两人在回合中会随时前后换位。",
+          "role_desc_zh": "后场进攻手，接到搭档制造的机会后以连续杀球和劈吊下压；攻防转换意识好，能一拍把防守变成进攻。"
+        }
+      ],
+      "sources": [
+        "https://extranet-lv.bwfbadminton.com/api/vue-rankingtable?rankId=2&catId=8&publicationId=4471&doubles=true&page=1",
+        "https://english.stadiumastro.com/sports-badminton/nur-izzuddin-i-started-interacting-more-sze-fei-after-we-turned-pro-282476",
+        "https://english.stadiumastro.com/sports-badminton/4-reasons-how-sze-feiizzuddin-have-won-3-toptier-titles-2-months-274866",
+        "https://en.wikipedia.org/wiki/Goh_Sze_Fei",
+        "https://en.wikipedia.org/wiki/Nur_Izzuddin",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=90768",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=94814"
+      ],
+      "confidence": {
+        "pairing_status": "high",
+        "highlights": "high",
+        "positions": "high",
+        "body_data": "high"
+      },
+      "notes": "体重无可靠来源。"
+    },
+    {
+      "id": "md-sabar-karyaman-gutama-reza-pahlevi-isfahani",
+      "event": "MD",
+      "pair_name_zh": "萨巴尔/利萨",
+      "pair_name_en": "Sabar Karyaman Gutama / Muhammad Reza Pahlevi Isfahani",
+      "country_zh": "印尼",
+      "status": "active",
+      "world_rank_2026_09_22": 7,
+      "highlights_zh": "2025年东南亚运动会男双及团体金牌；世界排名最高第7（现第7）",
+      "pair_style_zh": "印尼经验型组合，强调前场控制，力求从开局就通过前场争夺掌握进攻主动。公开资料没有明确的固定前后场分工，两人按回合需要轮换；利萨背伤复发时，萨巴尔会主动承担更多控制和跑动。",
+      "players": [
+        {
+          "name_en": "Sabar Karyaman Gutama",
+          "name_zh": "萨巴尔·卡里亚曼·古塔马",
+          "gender": "M",
+          "height_cm": 171,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 1996,
+          "typical_position": "both",
+          "position_note_zh": "未找到说明固定站位的权威资料；萨巴尔在2026年日本公开赛后表示，会根据搭档“在前还是在后”来调整自己的出球。",
+          "role_desc_zh": "经验丰富、注重控制的双打手，比赛中重视前场控制和节奏把握；搭档状态不佳时能主动多跑多扛，承担组织任务。"
+        },
+        {
+          "name_en": "Muhammad Reza Pahlevi Isfahani",
+          "name_zh": "穆罕默德·利萨·巴列维·伊斯法哈尼",
+          "gender": "M",
+          "height_cm": 175,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 1998,
+          "typical_position": "both",
+          "position_note_zh": "同上。",
+          "role_desc_zh": "进攻积极的印尼男双选手，与萨巴尔轮换前后场；2026年日本公开赛期间背伤复发仍坚持完成比赛，意志力强。"
+        }
+      ],
+      "sources": [
+        "https://extranet-lv.bwfbadminton.com/api/vue-rankingtable?rankId=2&catId=8&publicationId=4471&doubles=true&page=1",
+        "https://www.antaranews.com/berita/5650139/cedera-reza-kambuh-sabar-reza-tetap-melaju-di-japan-open",
+        "https://www.djarumbadminton.com/internasional/berita/read/kuasai-permainan-depan-sabarreza-tembus-semifinal/",
+        "https://en.wikipedia.org/wiki/Sabar_Karyaman_Gutama",
+        "https://en.wikipedia.org/wiki/Muhammad_Reza_Pahlevi_Isfahani",
+        "https://id.wikipedia.org/wiki/Sabar_Karyaman_Gutama",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=87432",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=86136"
+      ],
+      "confidence": {
+        "pairing_status": "high",
+        "highlights": "medium",
+        "positions": "low",
+        "body_data": "medium"
+      },
+      "notes": "BWF官网未登记两人身高，身高取自英文/印尼文维基（一致）。前后场分工未能确认，标为both。中文译名各媒体不统一（利萨/雷扎），此处采用中文维基译名。"
+    },
+    {
+      "id": "md-ben-lane-sean-vendy",
+      "event": "MD",
+      "pair_name_zh": "莱恩/文迪",
+      "pair_name_en": "Ben Lane / Sean Vendy",
+      "country_zh": "英格兰",
+      "status": "active",
+      "world_rank_2026_09_22": 8,
+      "highlights_zh": "2026年欧锦赛男双冠军（英格兰1998年后首次）；2025年北极公开赛（超级500）冠军；2022年英联邦运动会银牌；现世界第8",
+      "pair_style_zh": "搭档超过十年的英格兰组合，最大特点是稳定和默契：防守结构扎实，平抽挡对攻从容，关键分靠变速和突然进攻取胜。公开资料未给出固定的前后场分工，两人按回合需要轮转，是“稳守反击型”双打的参考。",
+      "players": [
+        {
+          "name_en": "Ben Lane",
+          "name_zh": "本·莱恩",
+          "gender": "M",
+          "height_cm": 175,
+          "weight_kg": 70,
+          "handedness": "L",
+          "birth_year": 1997,
+          "typical_position": "both",
+          "position_note_zh": "有球员资料网站称其为“前场网前型”，但未获权威来源证实，暂标为前后都打。",
+          "role_desc_zh": "左手持拍，出球有角度，平抽快挡和网前拦截都比较积极；打法讲究结构和站位，关键分冷静，2025年曾因脚踝伤停赛三个月。"
+        },
+        {
+          "name_en": "Sean Vendy",
+          "name_zh": "肖恩·文迪",
+          "gender": "M",
+          "height_cm": 181,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 1996,
+          "typical_position": "both",
+          "position_note_zh": "未找到说明固定站位的权威资料。",
+          "role_desc_zh": "身高181厘米的右手选手，与莱恩轮换压上进攻；他在北极公开赛夺冠后说，是“变速和进攻”帮他们赢下了比赛。"
+        }
+      ],
+      "sources": [
+        "https://extranet-lv.bwfbadminton.com/api/vue-rankingtable?rankId=2&catId=8&publicationId=4471&doubles=true&page=1",
+        "https://bwfworldtour.bwfbadminton.com/news-single/2025/10/13/arctic-open-unshakeable-unity-powers-lane-vendy/",
+        "https://badmintonlabs.com/players/ben-lane",
+        "https://centralsports.co.uk/blogs/news/ben-lane-sean-vendy-the-path-to-all-england-2026-glory",
+        "https://en.wikipedia.org/wiki/Ben_Lane",
+        "https://en.wikipedia.org/wiki/Sean_Vendy",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=76278",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=72478"
+      ],
+      "confidence": {
+        "pairing_status": "high",
+        "highlights": "high",
+        "positions": "low",
+        "body_data": "high"
+      },
+      "notes": "欧锦赛2026冠军信息来自维基百科与英格兰羽协新闻标题。莱恩体重70kg来自英文维基（单一来源）。"
+    },
+    {
+      "id": "md-takuro-hoki-yugo-kobayashi",
+      "event": "MD",
+      "pair_name_zh": "保木卓朗/小林优吾",
+      "pair_name_en": "Takuro Hoki / Yugo Kobayashi",
+      "country_zh": "日本",
+      "status": "active",
+      "world_rank_2026_09_22": 9,
+      "highlights_zh": "2021年世锦赛男双冠军（日本首个男双世界冠军）、2019年世锦赛银牌；2021年世界巡回赛总决赛冠军；2022年9月登顶世界第一",
+      "pair_style_zh": "从中学起就搭档的老牌组合，默契极高。典型得分方式是小林优吾在后场用重杀打乱对手，保木卓朗在网前推扑得分；两人网前手感都好、互相补位出色，必要时保木后场强攻、小林前场压上。",
+      "players": [
+        {
+          "name_en": "Takuro Hoki",
+          "name_zh": "保木卓朗",
+          "gender": "M",
+          "height_cm": 167,
+          "weight_kg": 62,
+          "handedness": "R",
+          "birth_year": 1995,
+          "typical_position": "front",
+          "position_note_zh": "日本FMV体育介绍其打法为“小林的杀球打乱对手，保木在前场推球得分”；日文维基也提到保木攻击力高，可以在后场强打。",
+          "role_desc_zh": "身材不高但速度快、网前触球早，擅长推扑和前场封堵；攻击力同样不俗，需要时可以退到后场强攻，与搭档互换位置。"
+        },
+        {
+          "name_en": "Yugo Kobayashi",
+          "name_zh": "小林优吾",
+          "gender": "M",
+          "height_cm": 175,
+          "weight_kg": 72,
+          "handedness": "L",
+          "birth_year": 1995,
+          "typical_position": "back",
+          "position_note_zh": "同上。",
+          "role_desc_zh": "左手重炮手，2023年日本公开赛杀球测速443公里/小时；后场连续下压是组合主要得分来源，轮到前场时也敢于压上进攻。"
+        }
+      ],
+      "sources": [
+        "https://extranet-lv.bwfbadminton.com/api/vue-rankingtable?rankId=2&catId=8&publicationId=4471&doubles=true&page=1",
+        "https://fmv-mypage.fmworld.net/fmv-sports/post-16980/",
+        "https://ja.wikipedia.org/wiki/小林優吾",
+        "https://ja.wikipedia.org/wiki/保木卓朗",
+        "https://en.wikipedia.org/wiki/Takuro_Hoki",
+        "https://en.wikipedia.org/wiki/Yugo_Kobayashi",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=81657",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=67903"
+      ],
+      "confidence": {
+        "pairing_status": "high",
+        "highlights": "high",
+        "positions": "high",
+        "body_data": "high"
+      },
+      "notes": "保木身高：BWF与日文维基167cm，英文维基166cm。体重来自英文与日文维基（一致）。保木生日BWF为8月14日、日文维基为8月15日，年份一致。"
+    },
+    {
+      "id": "md-chen-boyang-liu-yi",
+      "event": "MD",
+      "pair_name_zh": "陈柏阳/刘毅",
+      "pair_name_en": "Chen Boyang / Liu Yi",
+      "country_zh": "中国",
+      "status": "active",
+      "world_rank_2026_09_22": 10,
+      "highlights_zh": "2025年世锦赛男双银牌；2025年亚锦赛银牌、马来西亚公开赛（超级1000）亚军；球迷称“一百分组合”，现世界第10",
+      "pair_style_zh": "以防守反击见长的“一百分组合”：防守稳健、发接发速度快，能通过防守逼对手起球再转入进攻。刘毅的后场杀球越来越重，陈柏阳的网前越来越细腻、变化多。两人关键分互相提醒、沉稳处理，是国羽男双新生力量。",
+      "players": [
+        {
+          "name_en": "Chen Boyang",
+          "name_zh": "陈柏阳",
+          "gender": "M",
+          "height_cm": 191,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 2000,
+          "typical_position": "front",
+          "position_note_zh": "2025年亚锦赛评述称“陈柏阳网前更加细腻，变化也更多”；也有资料称他后场杀球有威胁，分工会随轮转变化，信心中等。",
+          "role_desc_zh": "身高约1.9米的高个子，却以防守稳和网前细腻见长，出球变化多；比赛中敢打敢拼，心态从“不够亢奋”变得更加释放。"
+        },
+        {
+          "name_en": "Liu Yi",
+          "name_zh": "刘毅",
+          "gender": "M",
+          "height_cm": 182,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 2003,
+          "typical_position": "back",
+          "position_note_zh": "2025年亚锦赛评述称“刘毅后场的杀球变重了”；2026年亚运会与何济霆临时搭档时，也由他负责后场进攻。",
+          "role_desc_zh": "性格外向、打球充满激情的00后，后场杀球越来越重也更有耐心；偶尔会“打上头”出现失误，2025年世锦赛上情绪控制明显进步。"
+        }
+      ],
+      "sources": [
+        "https://extranet-lv.bwfbadminton.com/api/vue-rankingtable?rankId=2&catId=8&publicationId=4471&doubles=true&page=1",
+        "https://en.wikipedia.org/wiki/2025_BWF_World_Championships",
+        "https://sports.jschina.com.cn/ydsc/202509/t20250903_s68b7bcc2e4b0096798380565.shtml",
+        "https://c.m.163.com/news/a/JT0DEQU00552V2TF.html",
+        "https://k.sina.com.cn/article_7879995911_1d5af320706802kj1q.html",
+        "https://k.sina.cn/article_1893892941_70e2834d020023r2u.html",
+        "https://en.wikipedia.org/wiki/Chen_Boyang",
+        "https://en.wikipedia.org/wiki/Liu_Yi_(badminton)",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=93130",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=71223"
+      ],
+      "confidence": {
+        "pairing_status": "high",
+        "highlights": "high",
+        "positions": "medium",
+        "body_data": "medium"
+      },
+      "notes": "2026年9月陈柏阳因突发疾病缺席名古屋亚运会，刘毅临时与何济霆搭档；报道明确这是临时安排，常规组合仍为陈柏阳/刘毅。BWF未登记身高；陈柏阳身高英文维基191cm、中文维基190cm。"
+    },
+    {
+      "id": "md-fu-haifeng-cai-yun",
+      "event": "MD",
+      "pair_name_zh": "傅海峰/蔡赟",
+      "pair_name_en": "Fu Haifeng / Cai Yun",
+      "country_zh": "中国",
+      "status": "retired",
+      "world_rank_2026_09_22": null,
+      "highlights_zh": "“风云组合”：2012年伦敦奥运会男双金牌、2008年北京奥运会银牌；2006、2009、2010、2011年四夺世锦赛冠军；汤姆斯杯五连冠主力",
+      "pair_style_zh": "经典的“前面一堵墙，后面一门炮”：蔡赟网前技术精湛，出球节奏、线路和落点变化控制极好，一切为傅海峰创造机会；左手重炮傅海峰在后场连续重杀、覆盖面大。两人搭档13年，刚柔相济，是男双前后场分工的教科书。",
+      "players": [
+        {
+          "name_en": "Fu Haifeng",
+          "name_zh": "傅海峰",
+          "gender": "M",
+          "height_cm": 181,
+          "weight_kg": 70,
+          "handedness": "L",
+          "birth_year": 1984,
+          "typical_position": "back",
+          "position_note_zh": "界面新闻：组合“一切为了给傅海峰创造机会”，蔡赟负责前场、傅海峰负责后场进攻。",
+          "role_desc_zh": "左手“重炮手”，2005年苏迪曼杯被测出332公里/小时的杀球速度，打破当时的最快球速纪录；后场连续重杀和覆盖能力是组合得分核心。"
+        },
+        {
+          "name_en": "Cai Yun",
+          "name_zh": "蔡赟",
+          "gender": "M",
+          "height_cm": 182,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 1980,
+          "typical_position": "front",
+          "position_note_zh": "同上；中文维基称蔡赟“善于用脑打球，网前技术精湛”。",
+          "role_desc_zh": "由单打转为双打的网前大师，善于用脑打球，出手节奏、线路和落点变化控制极佳，专门为搭档制造杀球机会。"
+        }
+      ],
+      "sources": [
+        "https://www.jiemian.com/article/1390888.html",
+        "https://zh.wikipedia.org/wiki/傅海峰",
+        "https://zh.wikipedia.org/wiki/蔡赟",
+        "https://en.wikipedia.org/wiki/Fu_Haifeng",
+        "https://en.wikipedia.org/wiki/Cai_Yun",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=51729",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=50251"
+      ],
+      "confidence": {
+        "pairing_status": "high",
+        "highlights": "high",
+        "positions": "high",
+        "body_data": "medium"
+      },
+      "notes": "两人均已退役（傅海峰2017年天津全运会后退役）。傅海峰出生日期：BWF为1984-01-02，中英文维基为1983-08-23，此处采用BWF；身高BWF与英文维基181cm、中文维基183cm。蔡赟体重英文维基65kg、中文维基70kg，冲突，置null。"
+    },
+    {
+      "id": "md-kevin-sukamuljo-marcus-gideon",
+      "event": "MD",
+      "pair_name_zh": "苏卡穆约/吉迪恩",
+      "pair_name_en": "Kevin Sanjaya Sukamuljo / Marcus Fernaldi Gideon",
+      "country_zh": "印尼",
+      "status": "retired",
+      "world_rank_2026_09_22": null,
+      "highlights_zh": "“小黄人”组合：男双世界第一累计226周；2017、2018年全英赛冠军；2018年亚运会金牌；2020年汤姆斯杯冠军；2017年超级系列赛总决赛冠军",
+      "pair_style_zh": "速度型男双的代表：苏卡穆约在网前以闪电般的反应抢网、截击，吉迪恩主要在后场不知疲倦地连续下压，为搭档制造机会。两人身高都在1.7米左右，却靠极致的速度、防守和前场压迫统治男双多年。",
+      "players": [
+        {
+          "name_en": "Kevin Sanjaya Sukamuljo",
+          "name_zh": "凯文·桑加亚·苏卡穆约",
+          "gender": "M",
+          "height_cm": 170,
+          "weight_kg": 55,
+          "handedness": "R",
+          "birth_year": 1995,
+          "typical_position": "front",
+          "position_note_zh": "BWF文章称苏卡穆约以“闪电般的反应和网前抢截”著称，吉迪恩则“主要在后场”。",
+          "role_desc_zh": "网前鬼才，反应快、手上假动作多，发接发和网前抢截极具侵略性；身材小巧却能凭速度和预判主宰前场，技术观赏性极高。"
+        },
+        {
+          "name_en": "Marcus Fernaldi Gideon",
+          "name_zh": "马库斯·费尔纳尔迪·吉迪恩",
+          "gender": "M",
+          "height_cm": 168,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 1991,
+          "typical_position": "back",
+          "position_note_zh": "同上；BWF称他的杀球火力不及傅海峰等重炮，但以连续性和稳定性弥补。",
+          "role_desc_zh": "组合里的“劳模”，主要在后场，杀球不算顶级重炮，但胜在连续、稳定、不知疲倦，能长时间高强度下压，为搭档的网前终结铺路。"
+        }
+      ],
+      "sources": [
+        "https://bwfworldtourfinals.bwfbadminton.com/news-single/2024/03/21/relentless-star-bids-goodbye",
+        "https://www.badmintonplanet.com/badminton-news/minions-era-comes-to-a-close-as-kevin-sanjaya-retires-from-badminton.html",
+        "https://en.wikipedia.org/wiki/Kevin_Sanjaya_Sukamuljo",
+        "https://en.wikipedia.org/wiki/Marcus_Fernaldi_Gideon",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=80057",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=26394"
+      ],
+      "confidence": {
+        "pairing_status": "high",
+        "highlights": "high",
+        "positions": "high",
+        "body_data": "medium"
+      },
+      "notes": "吉迪恩2024年3月宣布退役，苏卡穆约2024年5月宣布退役。苏卡穆约出生年份：英文维基1995-08-02，BWF为1996-08-02，采用维基并标注差异；体重55kg来自英文维基（单一来源）。"
+    },
+    {
+      "id": "md-mohammad-ahsan-hendra-setiawan",
+      "event": "MD",
+      "pair_name_zh": "阿山/塞蒂亚万",
+      "pair_name_en": "Mohammad Ahsan / Hendra Setiawan",
+      "country_zh": "印尼",
+      "status": "retired",
+      "world_rank_2026_09_22": null,
+      "highlights_zh": "“老爹组合”：2013、2015、2019年三夺世锦赛冠军；2019年全英赛冠军；三次赛季总决赛冠军；塞蒂亚万另与基多获2008年北京奥运会男双金牌",
+      "pair_style_zh": "经验与智慧型组合：塞蒂亚万在网前站位精准、预判出色，平球很难从他身边穿过；阿山负责后场，用重杀逼对手转入防守。两人不靠绝对速度，而靠站位、线路和冷静的战术执行取胜，塞蒂亚万一直打到40岁。",
+      "players": [
+        {
+          "name_en": "Mohammad Ahsan",
+          "name_zh": "穆罕默德·阿山",
+          "gender": "M",
+          "height_cm": 173,
+          "weight_kg": 68,
+          "handedness": "R",
+          "birth_year": 1987,
+          "typical_position": "back",
+          "position_note_zh": "Scroll.in报道：塞蒂亚万在网前的统治力让阿山能用“重炮扣杀”迫使对手转入防守。",
+          "role_desc_zh": "组合的动力来源，后场杀球凶狠、进攻欲望强，同时跟网衔接意识好；性格幽默乐观，大赛中能扛住压力。"
+        },
+        {
+          "name_en": "Hendra Setiawan",
+          "name_zh": "亨德拉·塞蒂亚万",
+          "gender": "M",
+          "height_cm": 183,
+          "weight_kg": 72,
+          "handedness": "R",
+          "birth_year": 1984,
+          "typical_position": "front",
+          "position_note_zh": "同上。",
+          "role_desc_zh": "冷静型网前大师，动作幅度小、预判精准，平球很难从他身边穿过；2008年奥运会男双冠军，以站位和阅读比赛的能力弥补速度。"
+        }
+      ],
+      "sources": [
+        "https://bwfworldtour.bwfbadminton.com/news-single/2025/01/26/celebratory-sendoff-for-daddies",
+        "https://scroll.in/field/952071/want-to-try-and-win-gold-in-tokyo-hendra-setiawan-on-what-motivates-him-his-style-of-play-and-more",
+        "https://en.wikipedia.org/wiki/Mohammad_Ahsan",
+        "https://en.wikipedia.org/wiki/Hendra_Setiawan",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=52749",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=51074"
+      ],
+      "confidence": {
+        "pairing_status": "high",
+        "highlights": "high",
+        "positions": "high",
+        "body_data": "medium"
+      },
+      "notes": "两人以2025年1月印尼大师赛为告别赛，同时退役。体重来自英文维基（单一来源）。"
+    },
+    {
+      "id": "md-lee-yang-wang-chi-lin",
+      "event": "MD",
+      "pair_name_zh": "李洋/王齐麟",
+      "pair_name_en": "Lee Yang / Wang Chi-lin",
+      "country_zh": "中国台北",
+      "status": "retired",
+      "world_rank_2026_09_22": null,
+      "highlights_zh": "“麟洋配”：2020东京、2024巴黎连续两届奥运会男双金牌，首对卫冕奥运男双冠军的组合；最高世界第二（2022年9月）",
+      "pair_style_zh": "反差互补的奥运冠军组合：李洋在前场组织引导，网前出球有特点、能限制对手，防守稳；身高188厘米的王齐麟在后场担任攻击手，球速快、角度大。两人球质和节奏差异大、线路变化多，让对手难以适应。",
+      "players": [
+        {
+          "name_en": "Lee Yang",
+          "name_zh": "李洋",
+          "gender": "M",
+          "height_cm": 178,
+          "weight_kg": 77,
+          "handedness": "R",
+          "birth_year": 1995,
+          "typical_position": "front",
+          "position_note_zh": "《台湾光华》杂志称“王齐麟尤擅后场进攻，李洋前场站位出色”；教练陈宏麟也称李洋网前出球有特色、可以限制对手。",
+          "role_desc_zh": "前场组织者，速度不慢、网前出球有特色，能用前场控制限制对手，同时防守扎实；球质偏重，与搭档形成快慢反差。"
+        },
+        {
+          "name_en": "Wang Chi-lin",
+          "name_zh": "王齐麟",
+          "gender": "M",
+          "height_cm": 188,
+          "weight_kg": 84,
+          "handedness": "R",
+          "birth_year": 1995,
+          "typical_position": "back",
+          "position_note_zh": "同上。",
+          "role_desc_zh": "高个子后场攻击手，借身高优势杀球速度快、角度大，是组合主要得分点；李洋退役后改与邱相榤搭档，继续征战男双。"
+        }
+      ],
+      "sources": [
+        "https://www.taiwan-panorama.com/en/Articles/Details?Guid=435c0b71-8038-47cf-b038-e8fa7bc082e0&CatId=7&postname=One+Plus+One+Equals+Infinity-Wang+Chi-lin+and+Lee+Yang%E2%80%99s+Road+to+Olympic+Gold",
+        "https://en.wikipedia.org/wiki/Lee_Yang",
+        "https://en.wikipedia.org/wiki/Wang_Chi-lin",
+        "https://zh.wikipedia.org/wiki/王齊麟",
+        "https://extranet-lv.bwfbadminton.com/api/vue-rankingtable?rankId=2&catId=8&publicationId=4471&doubles=true&page=1",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=69448",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=96514"
+      ],
+      "confidence": {
+        "pairing_status": "high",
+        "highlights": "high",
+        "positions": "high",
+        "body_data": "medium"
+      },
+      "notes": "李洋2024年9月退役，组合因此结束；王齐麟仍在役（与邱相榤搭档，2026-09-22世界第16）。体重来自中文维基（单一来源）。奥运卫冕信息由英文维基与《台湾光华》交叉确认。"
+    },
+    {
+      "id": "wd-liu-shengshu-tan-ning",
+      "event": "WD",
+      "pair_name_zh": "刘圣书/谭宁",
+      "pair_name_en": "Liu Shengshu / Tan Ning",
+      "country_zh": "中国",
+      "status": "active",
+      "world_rank_2026_09_22": 1,
+      "highlights_zh": "2025年世锦赛女双冠军、2026年世锦赛银牌；2024年巴黎奥运会银牌；2025年亚锦赛冠军；2026赛季成为首对单季夺得三个超级1000冠军的女双；现世界第一",
+      "pair_style_zh": "“前封后杀”的立体进攻体系：身高176厘米的刘圣书在后场重杀选点精准，常打对手身体连接位；谭宁把守前场，封网、封斜线速度快，不给对手轻松平抽的机会。两人正从单纯强攻转向“攻中有防、防中带攻”。",
+      "players": [
+        {
+          "name_en": "Liu Shengshu",
+          "name_zh": "刘圣书",
+          "gender": "F",
+          "height_cm": 176,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 2004,
+          "typical_position": "back",
+          "position_note_zh": "多篇赛事评述称“刘圣书凭借身高臂展优势后场重杀，谭宁牢牢把守前场，两人一前一后分工明确”。",
+          "role_desc_zh": "高个子后场主攻手，身高臂展优势明显，杀球角度刁钻、下压连续，能迫使对手被动起球；2022年世青赛女双、混双双冠，成长极快。"
+        },
+        {
+          "name_en": "Tan Ning",
+          "name_zh": "谭宁",
+          "gender": "F",
+          "height_cm": 170,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 2003,
+          "typical_position": "front",
+          "position_note_zh": "同上。",
+          "role_desc_zh": "网前反应迅速的封网手，前场串联细腻、覆盖面大，擅长封网和抢网，为搭档创造连续进攻；关键分敢于主动出手。"
+        }
+      ],
+      "sources": [
+        "https://extranet-lv.bwfbadminton.com/api/vue-rankingtable?rankId=2&catId=9&publicationId=4471&doubles=true&page=1",
+        "https://bwfworldchampionships.bwfbadminton.com/results/5601/bwf-world-championships-2026/podium",
+        "https://en.wikipedia.org/wiki/2025_BWF_World_Championships",
+        "https://bwfworldtour.bwfbadminton.com/news-single/2026/07/26/china-open-liu-tan-complete-unprecedented-treble",
+        "https://k.sina.com.cn/article_7879995911_1d5af320706802kukq.html",
+        "https://en.wikipedia.org/wiki/Liu_Shengshu",
+        "https://en.wikipedia.org/wiki/Tan_Ning_(badminton)",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=81599",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=59880"
+      ],
+      "confidence": {
+        "pairing_status": "high",
+        "highlights": "high",
+        "positions": "medium",
+        "body_data": "medium"
+      },
+      "notes": "位置来源为国内赛事评述类文章（新浪号），与多篇报道一致，但非官方技术统计。谭宁身高BWF 170cm、英文维基168cm，采用BWF。2026年4月亚锦赛决赛刘圣书/谭宁因伤退赛。"
+    },
+    {
+      "id": "wd-baek-ha-na-lee-so-hee",
+      "event": "WD",
+      "pair_name_zh": "白荷娜/李绍希",
+      "pair_name_en": "Baek Ha-na / Lee So-hee",
+      "country_zh": "韩国",
+      "status": "active",
+      "world_rank_2026_09_22": 2,
+      "highlights_zh": "2026年世锦赛女双冠军（韩国时隔31年再夺女双世界冠军）；2025年世界羽联总决赛冠军；2024年10月登顶世界第一；现世界第二",
+      "pair_style_zh": "少见的“双后场进攻型”女双：据韩国资料，两人都偏好后场强攻，轮转中谁在后场谁就连续下压，另一人补网。靠进攻火力和轮转衔接压制对手，2026年世锦赛决赛直落两局击败世界第一刘圣书/谭宁。",
+      "players": [
+        {
+          "name_en": "Baek Ha-na",
+          "name_zh": "白荷娜",
+          "gender": "F",
+          "height_cm": 164,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 2000,
+          "typical_position": "both",
+          "position_note_zh": "韩国维基类资料称她“主要在后场，力量好，擅长连续杀球”；与同样偏后场的李绍希搭档时需轮转补网，未找到权威技术统计，信心低。",
+          "role_desc_zh": "身材不高但力量和弹跳出色的进攻型选手，步法快、覆盖面大，杀球和劈吊结合；轮转到前场时也能积极封网。"
+        },
+        {
+          "name_en": "Lee So-hee",
+          "name_zh": "李绍希",
+          "gender": "F",
+          "height_cm": 171,
+          "weight_kg": 67,
+          "handedness": "R",
+          "birth_year": 1994,
+          "typical_position": "back",
+          "position_note_zh": "资料称她身高臂展优势明显、后场杀球有力、进攻性很强（来源为韩国维基类资料，未获官方证实）。",
+          "role_desc_zh": "经验丰富的老将，身高171厘米、臂展长，后场进攻主动；与多名搭档都打到过世界前二，大赛心理稳定。"
+        }
+      ],
+      "sources": [
+        "https://extranet-lv.bwfbadminton.com/api/vue-rankingtable?rankId=2&catId=9&publicationId=4471&doubles=true&page=1",
+        "https://bwfworldchampionships.bwfbadminton.com/results/5601/bwf-world-championships-2026/podium",
+        "https://en.wikipedia.org/wiki/2025_BWF_World_Tour_Finals",
+        "https://en.wikipedia.org/wiki/Baek_Ha-na",
+        "https://en.wikipedia.org/wiki/Lee_So-hee",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=56706",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=91292"
+      ],
+      "confidence": {
+        "pairing_status": "high",
+        "highlights": "high",
+        "positions": "low",
+        "body_data": "high"
+      },
+      "notes": "前后场描述主要依据纳木维基（NamuWiki）等韩国资料的检索摘要，页面本身无法直接打开核实，因此信心低。李绍希体重67kg来自英文维基（单一来源）。"
+    },
+    {
+      "id": "wd-yuki-fukushima-mayu-matsumoto",
+      "event": "WD",
+      "pair_name_zh": "福岛由纪/松本麻佑",
+      "pair_name_en": "Yuki Fukushima / Mayu Matsumoto",
+      "country_zh": "日本",
+      "status": "active",
+      "world_rank_2026_09_22": 3,
+      "highlights_zh": "2024年秋组队；2025年马来西亚公开赛（超级1000）冠军、2025年世界羽联总决赛亚军；2026年印尼公开赛冠军、中国公开赛亚军；现世界第三",
+      "pair_style_zh": "防守与进攻两端都很硬的组合：身高177厘米的松本麻佑以后场强打为主要武器，福岛由纪拥有世界顶级的接杀防守。两人原本都是后场型选手，组队后福岛更多上前承担前场，松本在后场持续施压。",
+      "players": [
+        {
+          "name_en": "Yuki Fukushima",
+          "name_zh": "福岛由纪",
+          "gender": "F",
+          "height_cm": 164,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 1993,
+          "typical_position": "both",
+          "position_note_zh": "J SPORTS介绍她是“以攻击力和世界屈指的接杀能力著称的后场选手，同时在打磨前场技术”；与松本搭档后更多承担前场，但仍前后兼顾。",
+          "role_desc_zh": "前世界第一（与广田彩花），三次世锦赛银牌得主；接杀防守世界一流，原本打后场，与高个子搭档配对后更多在前场封网、组织。"
+        },
+        {
+          "name_en": "Mayu Matsumoto",
+          "name_zh": "松本麻佑",
+          "gender": "F",
+          "height_cm": 177,
+          "weight_kg": 69,
+          "handedness": "R",
+          "birth_year": 1995,
+          "typical_position": "back",
+          "position_note_zh": "J SPORTS：“利用177厘米身高打出强打的后场选手，也能在前场飞身扑球、打反击。”",
+          "role_desc_zh": "身高177厘米的后场重炮，强打是最大武器，也能在前场飞身扑球、打防守反击；曾与永原和可那两夺世锦赛冠军（2018、2019）。"
+        }
+      ],
+      "sources": [
+        "https://extranet-lv.bwfbadminton.com/api/vue-rankingtable?rankId=2&catId=9&publicationId=4471&doubles=true&page=1",
+        "https://en.wikipedia.org/wiki/2025_BWF_World_Tour_Finals",
+        "https://www.jsports.co.jp/badminton/bwf/player/fukushima/",
+        "https://www.jsports.co.jp/badminton/bwf/player/matsumoto/",
+        "https://nishispo.nishinippon.co.jp/article/873968",
+        "https://bwfworldtour.bwfbadminton.com/news-single/2026/07/26/china-open-liu-tan-complete-unprecedented-treble",
+        "https://en.wikipedia.org/wiki/Yuki_Fukushima",
+        "https://en.wikipedia.org/wiki/Mayu_Matsumoto",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=71023",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=81609"
+      ],
+      "confidence": {
+        "pairing_status": "high",
+        "highlights": "high",
+        "positions": "medium",
+        "body_data": "high"
+      },
+      "notes": "首站为2024年11月熊本大师赛（亚军）。松本体重69kg来自英文维基（单一来源）。"
+    },
+    {
+      "id": "wd-jia-yifan-zhang-shuxian",
+      "event": "WD",
+      "pair_name_zh": "贾一凡/张殊贤",
+      "pair_name_en": "Jia Yifan / Zhang Shuxian",
+      "country_zh": "中国",
+      "status": "active",
+      "world_rank_2026_09_22": 4,
+      "highlights_zh": "2024年11月熊本大师赛首次搭档；2025赛季3冠3亚（含中国大师赛冠军）；2026年新加坡公开赛、澳大利亚公开赛冠军，日本公开赛亚军；2026年6月升至世界第二",
+      "pair_style_zh": "一前一后分工明确：奥运冠军贾一凡在后场以左手重杀开路，落点尖锐、线路开合有度；张殊贤在网前以细腻手感和极快衔接封网，被形容为“定海神针”。两人拉吊稳定、多拍相持能力强，正从磨合走向默契。",
+      "players": [
+        {
+          "name_en": "Jia Yifan",
+          "name_zh": "贾一凡",
+          "gender": "F",
+          "height_cm": 170,
+          "weight_kg": null,
+          "handedness": "L",
+          "birth_year": 1997,
+          "typical_position": "back",
+          "position_note_zh": "2026年日本公开赛半决赛报道：“贾一凡在后场的进攻火力凶猛……张殊贤则在网前发挥了定海神针般的作用。”",
+          "role_desc_zh": "左手持拍的奥运冠军，后场重杀凶猛、防守覆盖面大，大赛经验丰富；与陈清晨搭档11年，四夺世锦赛冠军并获巴黎奥运金牌。"
+        },
+        {
+          "name_en": "Zhang Shuxian",
+          "name_zh": "张殊贤",
+          "gender": "F",
+          "height_cm": 169,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 2000,
+          "typical_position": "front",
+          "position_note_zh": "同上。",
+          "role_desc_zh": "速度与灵气兼具的前场型选手，网前小球变化多、衔接快，擅长在快节奏中寻找变线；曾与郑雨搭档打到世界第二。"
+        }
+      ],
+      "sources": [
+        "https://extranet-lv.bwfbadminton.com/api/vue-rankingtable?rankId=2&catId=9&publicationId=4471&doubles=true&page=1",
+        "https://news.qq.com/rain/a/20260703A08QMK00",
+        "https://www.163.com/dy/article/L25HCRKI0552JHMJ.html",
+        "https://www.sohu.com/a/1052219176_121607467",
+        "https://bwfworldtour.bwfbadminton.com/news-single/2026/09/01/smashing-stats-china-masters-2026/",
+        "https://en.wikipedia.org/wiki/Jia_Yifan",
+        "https://en.wikipedia.org/wiki/Zhang_Shuxian",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=65144",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=85914"
+      ],
+      "confidence": {
+        "pairing_status": "high",
+        "highlights": "high",
+        "positions": "high",
+        "body_data": "high"
+      },
+      "notes": "组队背景：陈清晨退役后贾一凡改与张殊贤搭档。2026年9月中国大师赛半决赛不敌鲍骊婧/曹梓涵。体重无可靠来源。"
+    },
+    {
+      "id": "wd-pearly-tan-thinaah-muralitharan",
+      "event": "WD",
+      "pair_name_zh": "陈康乐/蒂娜",
+      "pair_name_en": "Pearly Tan / Thinaah Muralitharan",
+      "country_zh": "马来西亚",
+      "status": "active",
+      "world_rank_2026_09_22": 5,
+      "highlights_zh": "2025年世锦赛女双银牌（马来西亚首枚女双世锦赛奖牌）；2024年巴黎奥运会女双四强；2022年英联邦运动会金牌；最高世界第二",
+      "pair_style_zh": "马来西亚历史上最成功的女双：陈康乐是后场重炮，曾创吉尼斯女子最快杀球纪录；蒂娜更多在前场衔接与封网。两人拼劲十足，常在长回合相持中顶住压力，再抓机会由守转攻。",
+      "players": [
+        {
+          "name_en": "Pearly Tan",
+          "name_zh": "陈康乐",
+          "gender": "F",
+          "height_cm": 164,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 2000,
+          "typical_position": "back",
+          "position_note_zh": "BadmintonPeak等资料称她能“从后场产生相当的力量”；2023年测得438公里/小时，创女子最快杀球吉尼斯纪录。",
+          "role_desc_zh": "身高164厘米的后场重炮，2023年以438公里/小时创吉尼斯女子最快杀球纪录；打法积极、爆发力强，网前反应也快。"
+        },
+        {
+          "name_en": "Thinaah Muralitharan",
+          "name_zh": "蒂娜·穆拉里塔兰",
+          "gender": "F",
+          "height_cm": 164,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 1998,
+          "typical_position": "front",
+          "position_note_zh": "作为陈康乐后场进攻的搭配，她更多承担前场与衔接；此为多家媒体的描述，未找到官方技术统计，信心中等。",
+          "role_desc_zh": "前场衔接和防守韧性好的拼搏型选手，负责网前封堵和组织，长回合中能顶住压力，被搭档称为“永远并肩作战的人”。"
+        }
+      ],
+      "sources": [
+        "https://extranet-lv.bwfbadminton.com/api/vue-rankingtable?rankId=2&catId=9&publicationId=4471&doubles=true&page=1",
+        "https://en.wikipedia.org/wiki/2025_BWF_World_Championships",
+        "https://badmintonpeak.com/en/joueurs/pearly-tan",
+        "https://www.therakyatpost.com/news/malaysia/2023/08/03/smashing-success-badminton-darling-pearly-tan-breaks-guinness-world-record/",
+        "https://www.malaymail.com/news/sports/2025/09/21/pearly-tan-salutes-thinaah-for-always-fighting-alongside-me-after-epic-china-masters-clash/191847",
+        "https://en.wikipedia.org/wiki/Pearly_Tan",
+        "https://en.wikipedia.org/wiki/Thinaah_Muralitharan",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=85551",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=68628"
+      ],
+      "confidence": {
+        "pairing_status": "high",
+        "highlights": "high",
+        "positions": "medium",
+        "body_data": "high"
+      },
+      "notes": "体重无可靠来源。"
+    },
+    {
+      "id": "wd-kim-hye-jeong-kong-hee-yong",
+      "event": "WD",
+      "pair_name_zh": "金慧贞/孔熙容",
+      "pair_name_en": "Kim Hye-jeong / Kong Hee-yong",
+      "country_zh": "韩国",
+      "status": "active",
+      "world_rank_2026_09_22": 6,
+      "highlights_zh": "2026年日本公开赛冠军（决胜局30-29险胜贾一凡/张殊贤）；2025年10月最高世界第三；孔熙容曾与金昭映登顶世界第一",
+      "pair_style_zh": "前后分工鲜明：金慧贞是网前“搅局者”，抢网速度极快，常在对手出手瞬间完成封网预判；孔熙容是后场“重炮手”，起跳杀球角度刁钻、常打边线。两人轮转默契，擅长在防守反击中突然变速。",
+      "players": [
+        {
+          "name_en": "Kim Hye-jeong",
+          "name_zh": "金慧贞",
+          "gender": "F",
+          "height_cm": 162,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 1998,
+          "typical_position": "front",
+          "position_note_zh": "搜狐赛事分析：“金慧贞网前抢网速度快得惊人……孔熙容则是后场的重炮手。”",
+          "role_desc_zh": "网前抢攻型选手，预判好、出手快，常直接截断对手线路；体能下降时网前判断的精准度会有波动，是对手重点针对的环节。"
+        },
+        {
+          "name_en": "Kong Hee-yong",
+          "name_zh": "孔熙容",
+          "gender": "F",
+          "height_cm": 166,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 1996,
+          "typical_position": "back",
+          "position_note_zh": "同上；分析也指出被持续压后场时，她的移动速度会成为突破口。",
+          "role_desc_zh": "后场起跳重杀角度刁钻，找到节奏后进攻压力极大；被持续压后场时移动会吃亏。东京、巴黎两届奥运会参赛者。"
+        }
+      ],
+      "sources": [
+        "https://extranet-lv.bwfbadminton.com/api/vue-rankingtable?rankId=2&catId=9&publicationId=4471&doubles=true&page=1",
+        "https://www.sohu.com/a/1052219176_121607467",
+        "https://www.sina.cn/news/detail/5322417204366893.html",
+        "https://en.wikipedia.org/wiki/Kim_Hye-jeong",
+        "https://en.wikipedia.org/wiki/Kong_Hee-yong",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=83419",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=71391"
+      ],
+      "confidence": {
+        "pairing_status": "high",
+        "highlights": "high",
+        "positions": "medium",
+        "body_data": "high"
+      },
+      "notes": "金慧贞身高BWF 162cm、英文维基161cm，采用BWF。体重无可靠来源。"
+    },
+    {
+      "id": "wd-rin-iwanaga-kie-nakanishi",
+      "event": "WD",
+      "pair_name_zh": "岩永铃/中西贵映",
+      "pair_name_en": "Rin Iwanaga / Kie Nakanishi",
+      "country_zh": "日本",
+      "status": "active",
+      "world_rank_2026_09_22": 7,
+      "highlights_zh": "2025年世锦赛女双铜牌；2024年丹麦公开赛（超级750）冠军；2022年亚锦赛银牌；2025年3月最高世界第四",
+      "pair_style_zh": "2018年同期加入BIPROGY的高个子组合：左手的中西贵映在后场以独特的蓄力动作打出强攻，岩永铃在网前决胜负，擅长用斜线接杀实现攻守转换。两人打法扎实稳健，是日本女团的主力组合。",
+      "players": [
+        {
+          "name_en": "Rin Iwanaga (Rin Uesaka)",
+          "name_zh": "岩永铃",
+          "gender": "F",
+          "height_cm": 166,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 1999,
+          "typical_position": "front",
+          "position_note_zh": "J SPORTS称她是“在网前决胜负的前场选手”，斜线接杀是其特色。",
+          "role_desc_zh": "网前型选手，前场出手果断，特色是用斜线接杀打攻守转换；身高166厘米，高中时在全国选拔赛单打、双打都拿到第三。"
+        },
+        {
+          "name_en": "Kie Nakanishi",
+          "name_zh": "中西贵映",
+          "gender": "F",
+          "height_cm": 170,
+          "weight_kg": null,
+          "handedness": "L",
+          "birth_year": 1995,
+          "typical_position": "back",
+          "position_note_zh": "J SPORTS：“170厘米的长身左手将，以独特的蓄力动作打出强打的后场选手。”",
+          "role_desc_zh": "170厘米的左手后场强攻手，以独特的蓄力动作打出重球，打法扎实稳健；担任BIPROGY队长，是日本女团的核心成员之一。"
+        }
+      ],
+      "sources": [
+        "https://extranet-lv.bwfbadminton.com/api/vue-rankingtable?rankId=2&catId=9&publicationId=4471&doubles=true&page=1",
+        "https://en.wikipedia.org/wiki/2025_BWF_World_Championships",
+        "https://www.jsports.co.jp/badminton/bwf/player/iwanaga/",
+        "https://www.jsports.co.jp/badminton/bwf/player/nakanishi/",
+        "https://www.biprogy.com/badminton/team/iwanaga.html",
+        "https://www.biprogy.com/badminton/team/nakanishi.html",
+        "https://en.wikipedia.org/wiki/Rin_Iwanaga",
+        "https://en.wikipedia.org/wiki/Kie_Nakanishi",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=88135",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=87428"
+      ],
+      "confidence": {
+        "pairing_status": "high",
+        "highlights": "high",
+        "positions": "high",
+        "body_data": "high"
+      },
+      "notes": "英文维基称岩永铃2026年2月结婚后改名上坂铃（Rin Uesaka），但BWF排名与BIPROGY官网仍登记为岩永铃，故保留原名。身高来自BIPROGY官网（166cm/170cm），BWF未登记。"
+    },
+    {
+      "id": "wd-li-yijing-luo-xumin",
+      "event": "WD",
+      "pair_name_zh": "李怡婧/罗徐敏",
+      "pair_name_en": "Li Yijing / Luo Xumin",
+      "country_zh": "中国",
+      "status": "active",
+      "world_rank_2026_09_22": 8,
+      "highlights_zh": "2026年亚锦赛女双冠军、2026年世锦赛铜牌；2024年中国公开赛冠军；最高世界第五",
+      "pair_style_zh": "一攻一控：左手的罗徐敏以后场重杀和积极跑动为招牌，李怡婧以网前控制和防守韧性见长。2026年春两人曾短暂拆对，世锦赛前重组后拿到铜牌，9月中国大师赛仍搭档出战。",
+      "players": [
+        {
+          "name_en": "Li Yijing",
+          "name_zh": "李怡婧",
+          "gender": "F",
+          "height_cm": 165,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 2002,
+          "typical_position": "front",
+          "position_note_zh": "搜狐赛事分析称李怡婧“在女双里练就的网前控制能力和防守韧性”，罗徐敏“后场重杀和积极跑动是招牌武器”。",
+          "role_desc_zh": "网前控制型选手，前场手感细腻、封网积极，防守韧性强；2026年上半年曾被安排尝试混双，后回归女双。"
+        },
+        {
+          "name_en": "Luo Xumin",
+          "name_zh": "罗徐敏",
+          "gender": "F",
+          "height_cm": 168,
+          "weight_kg": null,
+          "handedness": "L",
+          "birth_year": 2002,
+          "typical_position": "back",
+          "position_note_zh": "同上。",
+          "role_desc_zh": "左手后场进攻手，杀球重、跑动积极，能长时间持续下压；2026年短暂与小将陈樊淑湉搭档时拿下马来西亚大师赛冠军。"
+        }
+      ],
+      "sources": [
+        "https://extranet-lv.bwfbadminton.com/api/vue-rankingtable?rankId=2&catId=9&publicationId=4471&doubles=true&page=1",
+        "https://bwfworldchampionships.bwfbadminton.com/results/5601/bwf-world-championships-2026/podium",
+        "https://www.sohu.com/a/1010080525_122536483",
+        "https://c.m.163.com/news/a/KQB6S6DM05299JMD.html",
+        "https://en.wikipedia.org/wiki/2024_China_Open_(badminton)",
+        "https://bwfworldtour.bwfbadminton.com/news-single/2026/05/24/malaysia-masters-vintage-intanon-turns-back-the-clock/",
+        "https://en.wikipedia.org/wiki/Li_Yijing",
+        "https://en.wikipedia.org/wiki/Luo_Xumin",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=85540",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=65300"
+      ],
+      "confidence": {
+        "pairing_status": "medium",
+        "highlights": "high",
+        "positions": "medium",
+        "body_data": "medium"
+      },
+      "notes": "2026年国羽女双多次调整：1月李怡婧曾与鲍骊婧搭档，4-6月罗徐敏与陈樊淑湉搭档；8月世锦赛、9月中国大师赛两人再度搭档。组合未来仍可能调整。BWF未登记身高，取自英文维基。"
+    },
+    {
+      "id": "wd-rachel-allessya-rose-febi-setianingrum",
+      "event": "WD",
+      "pair_name_zh": "阿莱西娅/费比",
+      "pair_name_en": "Rachel Allessya Rose / Febi Setianingrum",
+      "country_zh": "印尼",
+      "status": "active",
+      "world_rank_2026_09_22": 9,
+      "highlights_zh": "2025年澳大利亚公开赛冠军；2026年亚锦赛淘汰贾一凡/张殊贤；2026年8月升至最高世界第9（现第9）",
+      "pair_style_zh": "印尼新生代女双，两人都是2004年出生，近两年上升很快，能在大赛中爆冷击败顶尖组合。公开资料没有明确的固定前后场分工，此处标为前后都打，适合喜欢轮转、不拘泥固定站位的球友参考。",
+      "players": [
+        {
+          "name_en": "Rachel Allessya Rose",
+          "name_zh": "瑞秋·阿莱西娅·罗斯",
+          "gender": "F",
+          "height_cm": 161,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 2004,
+          "typical_position": "both",
+          "position_note_zh": "未找到说明两人固定前后场分工的可靠资料。",
+          "role_desc_zh": "印尼新生代女双选手，2022年世青赛获女双银牌、团体铜牌；此前与梅丽莎搭档，与费比组合后迅速打进世界前十。"
+        },
+        {
+          "name_en": "Febi Setianingrum",
+          "name_zh": "费比·塞蒂安格鲁姆",
+          "gender": "F",
+          "height_cm": 167,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 2004,
+          "typical_position": "both",
+          "position_note_zh": "同上。",
+          "role_desc_zh": "与阿莱西娅同龄的印尼女双选手，此前曾与杰西塔搭档；组合在2025年澳大利亚公开赛夺冠，2026年升至世界第9。"
+        }
+      ],
+      "sources": [
+        "https://extranet-lv.bwfbadminton.com/api/vue-rankingtable?rankId=2&catId=9&publicationId=4471&doubles=true&page=1",
+        "https://bwfworldtour.bwfbadminton.com/news-single/2026/06/10/smashing-stats-australian-open-2026/",
+        "https://news.qq.com/rain/a/20260703A08QMK00",
+        "https://en.wikipedia.org/wiki/Rachel_Allessya_Rose",
+        "https://en.wikipedia.org/wiki/Febi_Setianingrum",
+        "https://id.wikipedia.org/wiki/Rachel_Allessya_Rose",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=94567",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=55481"
+      ],
+      "confidence": {
+        "pairing_status": "high",
+        "highlights": "medium",
+        "positions": "low",
+        "body_data": "low"
+      },
+      "notes": "身高仅来自印尼文维基（单一来源，BWF未登记）。费比生日BWF为2004-02-29、印尼文维基为2004-04-29，年份一致。"
+    },
+    {
+      "id": "wd-hsieh-pei-shan-hung-en-tzu",
+      "event": "WD",
+      "pair_name_zh": "谢沛珊/洪恩慈",
+      "pair_name_en": "Hsieh Pei-shan / Hung En-tzu",
+      "country_zh": "中国台北",
+      "status": "active",
+      "world_rank_2026_09_22": 10,
+      "highlights_zh": "2025年台北公开赛冠军（中国台北时隔17年再获主场女双冠军）；2025年澳门公开赛冠军；2026年3月最高世界第8",
+      "pair_style_zh": "2024年起搭档的中国台北女双：洪恩慈由单打转双打，左手持拍，网前处理和后场杀球都很出色；谢沛珊是同校学姐，经验更足。两人没有死板的前后场分工，依靠单打出身的网前手感和灵活轮转得分。",
+      "players": [
+        {
+          "name_en": "Hsieh Pei-shan",
+          "name_zh": "谢沛珊",
+          "gender": "F",
+          "height_cm": null,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 1997,
+          "typical_position": "both",
+          "position_note_zh": "未找到可靠身高数据及固定站位描述。",
+          "role_desc_zh": "组合中的学姐，经验更丰富，负责稳定节奏和防守；与洪恩慈毕业于同一所高中，默契基础好，目标是稳居世界前十。"
+        },
+        {
+          "name_en": "Hung En-tzu",
+          "name_zh": "洪恩慈",
+          "gender": "F",
+          "height_cm": 175,
+          "weight_kg": null,
+          "handedness": "L",
+          "birth_year": 2001,
+          "typical_position": "both",
+          "position_note_zh": "中央社报道：“左手持拍的洪恩慈不论在网前或者后场杀球都表现得相当出色。”",
+          "role_desc_zh": "左手持拍、由单打转型的双打手，网前处理保留单打的细腻，后场杀球也有威胁；她认为单打出身的网前处理会成为组合优势。"
+        }
+      ],
+      "sources": [
+        "https://extranet-lv.bwfbadminton.com/api/vue-rankingtable?rankId=2&catId=9&publicationId=4471&doubles=true&page=1",
+        "https://www.cna.com.tw/news/aspt/202505110125.aspx",
+        "https://www.cna.com.tw/news/aspt/202508030110.aspx",
+        "https://www.chinesetaipeiopen.com/news4_detail.php?Key=265",
+        "https://en.wikipedia.org/wiki/Hsieh_Pei-shan",
+        "https://en.wikipedia.org/wiki/Hung_En-tzu",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=95062",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=62639"
+      ],
+      "confidence": {
+        "pairing_status": "high",
+        "highlights": "high",
+        "positions": "medium",
+        "body_data": "low"
+      },
+      "notes": "洪恩慈身高175cm仅来自英文维基；谢沛珊身高无可靠来源，置null。"
+    },
+    {
+      "id": "wd-chen-qingchen-jia-yifan",
+      "event": "WD",
+      "pair_name_zh": "陈清晨/贾一凡",
+      "pair_name_en": "Chen Qingchen / Jia Yifan",
+      "country_zh": "中国",
+      "status": "retired",
+      "world_rank_2026_09_22": null,
+      "highlights_zh": "“凡尘组合”：2024年巴黎奥运会女双金牌、2020东京奥运会银牌；2017、2021、2022、2023年四夺世锦赛冠军；两届亚运会金牌；搭档11年，曾登顶世界第一",
+      "pair_style_zh": "攻守兼备的“凡尘组合”：陈清晨在网前速度快、截击多，负责组织和封网；左手的贾一凡在后场重杀下压。两人搭档11年，节奏变化丰富、关键分敢打，是国羽女双东京、巴黎两个周期的绝对主力。",
+      "players": [
+        {
+          "name_en": "Chen Qingchen",
+          "name_zh": "陈清晨",
+          "gender": "F",
+          "height_cm": 164,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 1997,
+          "typical_position": "front",
+          "position_note_zh": "赛事评述批评她某场比赛“网前速度也不够快，没有太多截击”，反映她在组合中主要负责网前。",
+          "role_desc_zh": "网前组织核心，出手快、截击积极，也有顶级混双经验（曾与郑思维登顶混双世界第一）；2025年11月宣布退役。"
+        },
+        {
+          "name_en": "Jia Yifan",
+          "name_zh": "贾一凡",
+          "gender": "F",
+          "height_cm": 170,
+          "weight_kg": null,
+          "handedness": "L",
+          "birth_year": 1997,
+          "typical_position": "back",
+          "position_note_zh": "见贾一凡/张殊贤条目：媒体普遍描述她为后场进攻手。",
+          "role_desc_zh": "左手后场重炮，杀球有力、防守覆盖面大；陈清晨退役后改与张殊贤搭档，继续征战国际赛场。"
+        }
+      ],
+      "sources": [
+        "https://www.yzwb.net/news/ty/202512/t20251218_301878.html",
+        "https://c.m.163.com/news/a/JT0DEQU00552V2TF.html",
+        "https://en.wikipedia.org/wiki/Chen_Qingchen",
+        "https://en.wikipedia.org/wiki/Jia_Yifan",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=94125",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=65144"
+      ],
+      "confidence": {
+        "pairing_status": "high",
+        "highlights": "high",
+        "positions": "medium",
+        "body_data": "high"
+      },
+      "notes": "陈清晨2025年11月24日发文宣布退役，12月21日国羽举行退役仪式（英文维基记为2025-10-26，与中文报道不一致，以中文官方报道为准）。组合因此结束，贾一凡仍在役。"
+    },
+    {
+      "id": "wd-ayaka-takahashi-misaki-matsutomo",
+      "event": "WD",
+      "pair_name_zh": "高桥礼华/松友美佐纪",
+      "pair_name_en": "Ayaka Takahashi / Misaki Matsutomo",
+      "country_zh": "日本",
+      "status": "retired",
+      "world_rank_2026_09_22": null,
+      "highlights_zh": "“高松组合”：2016年里约奥运会女双金牌；2016年全英赛冠军；2014、2018年年终总决赛冠军；2014年10月登顶世界第一",
+      "pair_style_zh": "高中时代起搭档的经典组合：松友美佐纪以前场技术闻名，网前手法细腻、截击迅速、落点精准，掌控比赛节奏；高桥礼华在后场负责进攻下压。一控一攻、互补分明，是“网前控制型”女双的教科书。",
+      "players": [
+        {
+          "name_en": "Ayaka Takahashi",
+          "name_zh": "高桥礼华",
+          "gender": "F",
+          "height_cm": 164,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 1990,
+          "typical_position": "back",
+          "position_note_zh": "英文维基称松友“以前场技术闻名”，据此高桥更多负责后场（属推断，信心中等）。",
+          "role_desc_zh": "组合中的后场进攻手，负责下压和连续进攻，为搭档的网前控制创造条件；2020年8月宣布退役，“高松组合”随之解散。"
+        },
+        {
+          "name_en": "Misaki Matsutomo",
+          "name_zh": "松友美佐纪",
+          "gender": "F",
+          "height_cm": 159,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 1992,
+          "typical_position": "front",
+          "position_note_zh": "英文维基：“以前场技术闻名，运用细腻的网前技术、快速拦截和精准落点主导比赛节奏。”",
+          "role_desc_zh": "网前技术大师，手法细腻、截击迅速、落点精准，能主导比赛节奏；身高仅159厘米却登顶世界第一，与高桥共获2017年BWF年度最佳女运动员。"
+        }
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ayaka_Takahashi",
+        "https://en.wikipedia.org/wiki/Misaki_Matsutomo",
+        "https://ja.wikipedia.org/wiki/松友美佐紀",
+        "https://ja.wikipedia.org/wiki/高橋礼華_(バドミントン選手)",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=16981",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=43851"
+      ],
+      "confidence": {
+        "pairing_status": "high",
+        "highlights": "high",
+        "positions": "medium",
+        "body_data": "high"
+      },
+      "notes": "高桥2020年8月退役；松友此后改打混双，2025年离开日本国家队、退出BIPROGY后以自由身继续活动。高桥身高BWF 164cm、日文维基165cm。"
+    },
+    {
+      "id": "xd-feng-yanzhe-huang-dongping",
+      "event": "XD",
+      "pair_name_zh": "冯彦哲/黄东萍",
+      "pair_name_en": "Feng Yanzhe / Huang Dongping",
+      "country_zh": "中国",
+      "status": "active",
+      "world_rank_2026_09_22": 1,
+      "highlights_zh": "2024年11月登顶世界第一（现世界第一）；2025年世界羽联总决赛冠军；2026年世锦赛银牌；2026年澳大利亚公开赛、中国大师赛冠军；黄东萍另与王懿律获东京奥运会混双金牌",
+      "pair_style_zh": "标准的“女前男后”：黄东萍的网前控制极难对付，对手甚至不敢把球放到她的网前；身高195厘米的冯彦哲在后场凭身高和力量连续下压。一个控制、一个火力，是当今混双的标杆组合。",
+      "players": [
+        {
+          "name_en": "Feng Yanzhe",
+          "name_zh": "冯彦哲",
+          "gender": "M",
+          "height_cm": 195,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 2001,
+          "typical_position": "back",
+          "position_note_zh": "混双常规分工；BWF报道中对手称很难控制网前的黄东萍，对应冯彦哲负责后场进攻。",
+          "role_desc_zh": "身高195厘米的后场攻击手，杀球角度陡、覆盖面大；2019年世青赛混双冠军，与黄东萍配对后长期占据世界第一。"
+        },
+        {
+          "name_en": "Huang Dongping",
+          "name_zh": "黄东萍",
+          "gender": "F",
+          "height_cm": 165,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 1995,
+          "typical_position": "front",
+          "position_note_zh": "BWF 2026全英赛报道，丹麦选手韦斯特高：“我们大部分时间都有点害怕把球放到她的网前。”",
+          "role_desc_zh": "奥运冠军级别的网前大师，封网、推扑和网前小球都极具威胁，能用前场控制主导比赛；先后与两位搭档登顶世界第一。"
+        }
+      ],
+      "sources": [
+        "https://extranet-lv.bwfbadminton.com/api/vue-rankingtable?rankId=2&catId=10&publicationId=4471&doubles=true&page=1",
+        "https://bwfworldchampionships.bwfbadminton.com/results/5601/bwf-world-championships-2026/podium",
+        "https://en.wikipedia.org/wiki/2025_BWF_World_Tour_Finals",
+        "https://bwfworldtour.bwfbadminton.com/news-single/2026/03/06/all-england-great-day-for-danes/",
+        "https://bwfworldtour.bwfbadminton.com/news-single/2026/06/14/australian-open-feng-huang-rediscover-winning-touch/",
+        "https://bwfworldtour.bwfbadminton.com/news-single/2026/09/06/china-masters-super-750-glory-at-first-asking/",
+        "https://en.wikipedia.org/wiki/Feng_Yanzhe",
+        "https://en.wikipedia.org/wiki/Huang_Dongping",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=65267",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=89426"
+      ],
+      "confidence": {
+        "pairing_status": "high",
+        "highlights": "high",
+        "positions": "high",
+        "body_data": "high"
+      },
+      "notes": "黄东萍生日BWF为1995-01-20、维基为1995-04-30，年份一致。体重无可靠来源。"
+    },
+    {
+      "id": "xd-mathias-christiansen-alexandra-boje",
+      "event": "XD",
+      "pair_name_zh": "克里斯蒂安森/博尔",
+      "pair_name_en": "Mathias Christiansen / Alexandra Bøje",
+      "country_zh": "丹麦",
+      "status": "active",
+      "world_rank_2026_09_22": 2,
+      "highlights_zh": "2026年印尼公开赛（超级1000）、新加坡公开赛（超级750）、泰国公开赛冠军；2025年许洛公开赛冠军；2026年9月升至世界第二（现第二）",
+      "pair_style_zh": "欧洲混双的代表：经验丰富、身高186厘米的克里斯蒂安森在后场负责进攻，身高173厘米的博尔在前场组织。2026年全英赛后打出一波高峰，四周内连夺三冠并首夺超级1000冠军。",
+      "players": [
+        {
+          "name_en": "Mathias Christiansen",
+          "name_zh": "马蒂亚斯·克里斯蒂安森",
+          "gender": "M",
+          "height_cm": 186,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 1994,
+          "typical_position": "back",
+          "position_note_zh": "按混双常规“女前男后”分工标注；未找到针对该组合站位的专门技术分析。",
+          "role_desc_zh": "丹麦混双老将，身高186厘米，后场进攻和经验是组合支柱；曾与佩德森、博尔先后打进混双世界前五，男双也曾进入世界前20。"
+        },
+        {
+          "name_en": "Alexandra Bøje",
+          "name_zh": "亚历山德拉·博尔",
+          "gender": "F",
+          "height_cm": 173,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 1999,
+          "typical_position": "front",
+          "position_note_zh": "按混双常规“女前男后”分工标注；未找到针对该组合站位的专门技术分析。",
+          "role_desc_zh": "身高173厘米的女选手，在混双中承担前场组织；2025年曾与荷兰名将塔贝林搭档夺冠，回到克里斯蒂安森身边后状态火热。"
+        }
+      ],
+      "sources": [
+        "https://extranet-lv.bwfbadminton.com/api/vue-rankingtable?rankId=2&catId=10&publicationId=4471&doubles=true&page=1",
+        "https://bwfworldtour.bwfbadminton.com/news-single/2026/06/08/indonesia-open-four-weeks-three-titles/",
+        "https://bwfworldtour.bwfbadminton.com/news-single/2026/07/17/japan-open-malaysians-spring-a-surprise/",
+        "https://en.wikipedia.org/wiki/Mathias_Christiansen",
+        "https://en.wikipedia.org/wiki/Alexandra_Bøje",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=99521",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=88779"
+      ],
+      "confidence": {
+        "pairing_status": "high",
+        "highlights": "high",
+        "positions": "medium",
+        "body_data": "high"
+      },
+      "notes": "博尔（Bøje）的中文译名未找到大陆主流媒体统一用法，此处采用中文维基译名。体重无可靠来源。"
+    },
+    {
+      "id": "xd-jiang-zhenbang-wei-yaxin",
+      "event": "XD",
+      "pair_name_zh": "蒋振邦/魏雅欣",
+      "pair_name_en": "Jiang Zhenbang / Wei Yaxin",
+      "country_zh": "中国",
+      "status": "active",
+      "world_rank_2026_09_22": 3,
+      "highlights_zh": "2025年3月登顶世界第一；2025年世锦赛银牌、2026年世锦赛铜牌；2025年苏迪曼杯冠军成员；2026年6月重组后首站即夺澳门公开赛冠军",
+      "pair_style_zh": "国羽混双主力之一：身高184厘米的蒋振邦是后场重炮，需要网前“托举”来发挥进攻；魏雅欣身高175厘米、左手持拍，在前场控制。2026年春两人曾分开约三个月，6月重组后首站夺冠，默契仍在。",
+      "players": [
+        {
+          "name_en": "Jiang Zhenbang",
+          "name_zh": "蒋振邦",
+          "gender": "M",
+          "height_cm": 184,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 2001,
+          "typical_position": "back",
+          "position_note_zh": "按混双常规标注；有赛事分析称蒋振邦是需要搭档网前“托举”的“后场重炮”。",
+          "role_desc_zh": "后场重炮型男选手，杀球力量大，需要搭档在网前创造机会；2026年春与魏雅欣短暂分开期间曾尝试与李怡婧配对。"
+        },
+        {
+          "name_en": "Wei Yaxin",
+          "name_zh": "魏雅欣",
+          "gender": "F",
+          "height_cm": 175,
+          "weight_kg": null,
+          "handedness": "L",
+          "birth_year": 2000,
+          "typical_position": "front",
+          "position_note_zh": "按混双常规标注为前场；她身高175厘米、左手持拍，具备退到后场进攻的条件，但未找到权威分析。",
+          "role_desc_zh": "高个子左手女选手，网前覆盖面大；2026年短暂与高家炫搭档便夺得马来西亚大师赛冠军，适应能力强。"
+        }
+      ],
+      "sources": [
+        "https://extranet-lv.bwfbadminton.com/api/vue-rankingtable?rankId=2&catId=10&publicationId=4471&doubles=true&page=1",
+        "https://bwfworldchampionships.bwfbadminton.com/results/5601/bwf-world-championships-2026/podium",
+        "https://en.wikipedia.org/wiki/2025_BWF_World_Championships",
+        "https://bwfworldtour.bwfbadminton.com/news-single/2026/06/15/macau-open-jiang-wei-resume-partnership/",
+        "https://bwfworldtour.bwfbadminton.com/news-single/2026/06/21/macau-open-breakthrough-win-for-hu-zhe-an/",
+        "https://www.sohu.com/a/1010080525_122536483",
+        "https://en.wikipedia.org/wiki/Jiang_Zhenbang",
+        "https://en.wikipedia.org/wiki/Wei_Yaxin",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=63029",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=57246"
+      ],
+      "confidence": {
+        "pairing_status": "medium",
+        "highlights": "high",
+        "positions": "medium",
+        "body_data": "high"
+      },
+      "notes": "2026年全英赛后两人分开约三个月（魏雅欣与高家炫搭档参加4站比赛），6月澳门公开赛恢复搭档并夺冠，此后世锦赛获铜。组合仍可能调整。"
+    },
+    {
+      "id": "xd-thom-gicquel-delphine-delrue",
+      "event": "XD",
+      "pair_name_zh": "吉凯尔/德尔吕",
+      "pair_name_en": "Thom Gicquel / Delphine Delrue",
+      "country_zh": "法国",
+      "status": "active",
+      "world_rank_2026_09_22": 4,
+      "highlights_zh": "2026年世锦赛混双冠军；2025年世锦赛铜牌；2024年欧锦赛冠军；2026年全英赛亚军",
+      "pair_style_zh": "法国混双王牌，全场压迫感强：德尔吕在网前拦截平抽、为进攻铺路，身高186厘米的吉凯尔在后场进攻。两人自评“网前和中场是强项”，近年重点提升进攻得分效率，2026年登上世界之巅。",
+      "players": [
+        {
+          "name_en": "Thom Gicquel",
+          "name_zh": "汤姆·吉凯尔",
+          "gender": "M",
+          "height_cm": 186,
+          "weight_kg": 81,
+          "handedness": "R",
+          "birth_year": 1999,
+          "typical_position": "back",
+          "position_note_zh": "吉凯尔称“我们在网前和中场很强，下一步是在进攻时赢更多分”，并专门练习自己在进攻中的站位。",
+          "role_desc_zh": "身高186厘米的后场进攻手，男双出身（2018年地中海运动会男双金牌），平抽和中场对抗能力强，近年主攻进攻站位和得分效率。"
+        },
+        {
+          "name_en": "Delphine Delrue",
+          "name_zh": "德尔菲娜·德尔吕",
+          "gender": "F",
+          "height_cm": 171,
+          "weight_kg": 62,
+          "handedness": "R",
+          "birth_year": 1998,
+          "typical_position": "front",
+          "position_note_zh": "BWF 2026全英赛报道：“德尔吕在网前尤其犀利，拦截平抽并组织进攻。”",
+          "role_desc_zh": "网前拦截型女选手，反应快、敢压上，擅长截断对手平抽并为搭档创造进攻；比赛中喜欢持续向对手施压。"
+        }
+      ],
+      "sources": [
+        "https://extranet-lv.bwfbadminton.com/api/vue-rankingtable?rankId=2&catId=10&publicationId=4471&doubles=true&page=1",
+        "https://bwfworldchampionships.bwfbadminton.com/results/5601/bwf-world-championships-2026/podium",
+        "https://en.wikipedia.org/wiki/2025_BWF_World_Championships",
+        "https://bwfworldtour.bwfbadminton.com/news-single/2026/03/07/all-england-canada-france-celebrate-milestones/",
+        "https://bwfworldtour.bwfbadminton.com/news-single/2026/03/08/all-england-chinese-taipei-make-history/",
+        "https://en.wikipedia.org/wiki/Thom_Gicquel",
+        "https://en.wikipedia.org/wiki/Delphine_Delrue",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=68544",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=70762"
+      ],
+      "confidence": {
+        "pairing_status": "high",
+        "highlights": "high",
+        "positions": "high",
+        "body_data": "medium"
+      },
+      "notes": "德尔吕身高BWF 171cm、英文维基170cm。两人体重来自英文维基（单一来源）。"
+    },
+    {
+      "id": "xd-dechapol-puavaranukroh-supissara-paewsampran",
+      "event": "XD",
+      "pair_name_zh": "德差蓬/素比莎拉",
+      "pair_name_en": "Dechapol Puavaranukroh / Supissara Paewsampran",
+      "country_zh": "泰国",
+      "status": "active",
+      "world_rank_2026_09_22": 5,
+      "highlights_zh": "2025年中国大师赛冠军（该项目首对外国冠军）、2025年新加坡公开赛冠军；2025年7月最高世界第三；德差蓬另与沙西丽获2021年世锦赛冠军、曾登顶世界第一",
+      "pair_style_zh": "以德差蓬的后场杀球为核心火力，对手常刻意少起高球、改打快平来限制他；素比莎拉在前场衔接。组合2026年受伤病影响缺席全英赛和中国大师赛，但仍保持世界前五。",
+      "players": [
+        {
+          "name_en": "Dechapol Puavaranukroh",
+          "name_zh": "德差蓬·保乌拉努科",
+          "gender": "M",
+          "height_cm": 169,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 1997,
+          "typical_position": "back",
+          "position_note_zh": "BWF报道对手战术：“打得更快更平，而不是起太多高球让德差蓬杀球。”",
+          "role_desc_zh": "身高169厘米却是顶级混双后场攻击手，杀球凶狠、连续进攻能力强；与沙西丽搭档时成为泰国首个世界冠军组合（2021年）。"
+        },
+        {
+          "name_en": "Supissara Paewsampran",
+          "name_zh": "素比莎拉·飘讪攀",
+          "gender": "F",
+          "height_cm": 163,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 1999,
+          "typical_position": "front",
+          "position_note_zh": "按混双常规“女前男后”分工标注；未找到针对该组合站位的专门技术分析。",
+          "role_desc_zh": "女双出身的泰国选手（女双最高世界第17），在混双中负责前场衔接与封网，为德差蓬创造进攻机会。"
+        }
+      ],
+      "sources": [
+        "https://extranet-lv.bwfbadminton.com/api/vue-rankingtable?rankId=2&catId=10&publicationId=4471&doubles=true&page=1",
+        "https://bwfworldtour.bwfbadminton.com/news-single/2026/05/30/singapore-open-flat-and-furious/",
+        "https://bwfworldtour.bwfbadminton.com/news-single/2026/09/01/smashing-stats-china-masters-2026/",
+        "https://en.wikipedia.org/wiki/Dechapol_Puavaranukroh",
+        "https://en.wikipedia.org/wiki/Supissara_Paewsampran",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=61731",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=74980"
+      ],
+      "confidence": {
+        "pairing_status": "high",
+        "highlights": "high",
+        "positions": "medium",
+        "body_data": "high"
+      },
+      "notes": "2026年9月中国大师赛前BWF报道两人“受伤”缺席。中文译名大陆媒体不统一，此处采用中文维基译名。"
+    },
+    {
+      "id": "xd-guo-xinwa-chen-fanghui",
+      "event": "XD",
+      "pair_name_zh": "郭新娃/陈芳卉",
+      "pair_name_en": "Guo Xinwa / Chen Fanghui",
+      "country_zh": "中国",
+      "status": "active",
+      "world_rank_2026_09_22": 6,
+      "highlights_zh": "2025年全英赛冠军；2026年中国公开赛冠军（首次战胜冯彦哲/黄东萍）；2025年世锦赛铜牌；最高世界第五",
+      "pair_style_zh": "国羽混双第三主力，男方左手持拍。按混双常规女前男后分工，郭新娃后场进攻、陈芳卉前场控制。两人能在大赛中爆发，2026年中国公开赛三局击败头号种子队友后夺冠。",
+      "players": [
+        {
+          "name_en": "Guo Xinwa",
+          "name_zh": "郭新娃",
+          "gender": "M",
+          "height_cm": null,
+          "weight_kg": null,
+          "handedness": "L",
+          "birth_year": 2000,
+          "typical_position": "back",
+          "position_note_zh": "按混双常规“女前男后”分工标注；未找到针对该组合站位的专门技术分析。",
+          "role_desc_zh": "左手持拍的男选手，山东队出身，17岁时曾在全运会团体赛中爆冷战胜林丹；在混双中负责后场进攻。"
+        },
+        {
+          "name_en": "Chen Fanghui",
+          "name_zh": "陈芳卉",
+          "gender": "F",
+          "height_cm": null,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 2000,
+          "typical_position": "front",
+          "position_note_zh": "按混双常规“女前男后”分工标注；未找到针对该组合站位的专门技术分析。",
+          "role_desc_zh": "混双女选手，在组合中主要承担网前控制与封网；与郭新娃同为2000年出生，组合在2025年全英赛取得最大突破。"
+        }
+      ],
+      "sources": [
+        "https://extranet-lv.bwfbadminton.com/api/vue-rankingtable?rankId=2&catId=10&publicationId=4471&doubles=true&page=1",
+        "https://en.wikipedia.org/wiki/2025_BWF_World_Championships",
+        "https://bwfworldtour.bwfbadminton.com/news-single/2026/07/26/china-open-liu-tan-complete-unprecedented-treble",
+        "https://en.wikipedia.org/wiki/Guo_Xinwa",
+        "https://en.wikipedia.org/wiki/Chen_Fanghui",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=81844",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=50469"
+      ],
+      "confidence": {
+        "pairing_status": "high",
+        "highlights": "high",
+        "positions": "medium",
+        "body_data": "low"
+      },
+      "notes": "两人身高、体重均无可靠来源（BWF与维基均未登记），置null；郭新娃左手持拍来自中英文维基。"
+    },
+    {
+      "id": "xd-cheng-xing-zhang-chi",
+      "event": "XD",
+      "pair_name_zh": "程星/张驰",
+      "pair_name_en": "Cheng Xing / Zhang Chi",
+      "country_zh": "中国",
+      "status": "active",
+      "world_rank_2026_09_22": 7,
+      "highlights_zh": "2026年瑞士公开赛、德国公开赛冠军；2026年印尼公开赛（超级1000）亚军；2026年9月最高世界第七",
+      "pair_style_zh": "国羽混双新生代组合，程星身高185厘米、张驰171厘米，身材条件好。按混双常规由程星负责后场、张驰负责前场。2026赛季进步明显，连续打进高级别决赛。",
+      "players": [
+        {
+          "name_en": "Cheng Xing",
+          "name_zh": "程星",
+          "gender": "M",
+          "height_cm": 185,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 2002,
+          "typical_position": "back",
+          "position_note_zh": "按混双常规“女前男后”分工标注；未找到针对该组合站位的专门技术分析。",
+          "role_desc_zh": "身高185厘米的年轻男选手，后场进攻条件好；2026年与张驰先后打进瑞士公开赛、德国公开赛和印尼公开赛决赛。"
+        },
+        {
+          "name_en": "Zhang Chi",
+          "name_zh": "张驰",
+          "gender": "F",
+          "height_cm": 171,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 2002,
+          "typical_position": "front",
+          "position_note_zh": "按混双常规“女前男后”分工标注；未找到针对该组合站位的专门技术分析。",
+          "role_desc_zh": "女双出身（曾与耿淑亮搭档女双），身高171厘米，在混双中负责前场组织；2026年与程星升至世界第七。"
+        }
+      ],
+      "sources": [
+        "https://extranet-lv.bwfbadminton.com/api/vue-rankingtable?rankId=2&catId=10&publicationId=4471&doubles=true&page=1",
+        "https://bwfworldtour.bwfbadminton.com/news-single/2026/06/08/indonesia-open-four-weeks-three-titles/",
+        "https://bwfworldtour.bwfbadminton.com/news-single/2026/03/06/all-england-great-day-for-danes/",
+        "https://en.wikipedia.org/wiki/Cheng_Xing",
+        "https://en.wikipedia.org/wiki/Zhang_Chi_(badminton)",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=58931",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=88450"
+      ],
+      "confidence": {
+        "pairing_status": "high",
+        "highlights": "high",
+        "positions": "medium",
+        "body_data": "medium"
+      },
+      "notes": "BWF未登记身高，取自英文维基（单一来源）。"
+    },
+    {
+      "id": "xd-chen-tang-jie-toh-ee-wei",
+      "event": "XD",
+      "pair_name_zh": "陈堂杰/杜颐沩",
+      "pair_name_en": "Chen Tang Jie / Toh Ee Wei",
+      "country_zh": "马来西亚",
+      "status": "active",
+      "world_rank_2026_09_22": 8,
+      "highlights_zh": "2025年世锦赛混双冠军（马来西亚首个混双世界冠军）；2025年1月最高世界第三",
+      "pair_style_zh": "马来西亚混双的突破者：身高180厘米的陈堂杰在后场进攻，杜颐沩在前场控制。两人以韧性著称，常能在落后时追回，2025年巴黎世锦赛为马来西亚拿下历史首个混双世界冠军。",
+      "players": [
+        {
+          "name_en": "Chen Tang Jie",
+          "name_zh": "陈堂杰",
+          "gender": "M",
+          "height_cm": 180,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 1998,
+          "typical_position": "back",
+          "position_note_zh": "按混双常规“女前男后”分工标注；未找到针对该组合站位的专门技术分析。",
+          "role_desc_zh": "马来西亚混双主力男选手，身高180厘米，负责后场进攻；与杜颐沩成为继谢定峰/苏伟译之后马来西亚第二对世界冠军组合。"
+        },
+        {
+          "name_en": "Toh Ee Wei",
+          "name_zh": "杜颐沩",
+          "gender": "F",
+          "height_cm": 161,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 2000,
+          "typical_position": "front",
+          "position_note_zh": "按混双常规“女前男后”分工标注；未找到针对该组合站位的专门技术分析。",
+          "role_desc_zh": "身高约161厘米的前场型女选手，负责网前控制；曾与何邦荣搭档打进世界前20，2026年曾在比赛中因伤退赛。"
+        }
+      ],
+      "sources": [
+        "https://extranet-lv.bwfbadminton.com/api/vue-rankingtable?rankId=2&catId=10&publicationId=4471&doubles=true&page=1",
+        "https://en.wikipedia.org/wiki/2025_BWF_World_Championships",
+        "https://bwfworldtour.bwfbadminton.com/news-single/2026/03/07/all-england-canada-france-celebrate-milestones/",
+        "https://en.wikipedia.org/wiki/Chen_Tang_Jie",
+        "https://en.wikipedia.org/wiki/Toh_Ee_Wei",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=91090",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=59621"
+      ],
+      "confidence": {
+        "pairing_status": "high",
+        "highlights": "high",
+        "positions": "medium",
+        "body_data": "high"
+      },
+      "notes": "杜颐沩身高BWF 161cm、英文维基162cm；中文名英文维基作“杜依蔚”，中文维基作“杜颐沩”，采用后者。"
+    },
+    {
+      "id": "xd-ye-hong-wei-nicole-gonzales-chan",
+      "event": "XD",
+      "pair_name_zh": "叶宏蔚/詹又蓁",
+      "pair_name_en": "Ye Hong-wei / Nicole Gonzales Chan",
+      "country_zh": "中国台北",
+      "status": "active",
+      "world_rank_2026_09_22": 9,
+      "highlights_zh": "2026年全英赛混双冠军（中国台北首对打进该项目决赛的组合）；2026年9月最高世界第九",
+      "pair_style_zh": "2024年起搭档：左手的叶宏蔚身高185厘米，后场力量突出；詹又蓁网前手法犀利。2026年全英赛半决赛决胜局逆转，决赛直落两局击败吉凯尔/德尔吕夺冠，创造历史。",
+      "players": [
+        {
+          "name_en": "Ye Hong-wei",
+          "name_zh": "叶宏蔚",
+          "gender": "M",
+          "height_cm": 185,
+          "weight_kg": null,
+          "handedness": "L",
+          "birth_year": 1999,
+          "typical_position": "back",
+          "position_note_zh": "BWF报道：“叶宏蔚的力量和詹又蓁在网前的犀利表现”扭转了比赛。",
+          "role_desc_zh": "左手后场力量型选手，身高185厘米，杀球有威胁；曾与李佳馨获2021年世界大学生运动会混双金牌，男双也有一定经验。"
+        },
+        {
+          "name_en": "Nicole Gonzales Chan",
+          "name_zh": "詹又蓁",
+          "gender": "F",
+          "height_cm": null,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 2004,
+          "typical_position": "front",
+          "position_note_zh": "同上。",
+          "role_desc_zh": "2004年出生的年轻女选手，网前反应快、手法犀利，能在前场主导节奏；与叶宏蔚合作两年便拿下全英赛冠军。"
+        }
+      ],
+      "sources": [
+        "https://extranet-lv.bwfbadminton.com/api/vue-rankingtable?rankId=2&catId=10&publicationId=4471&doubles=true&page=1",
+        "https://bwfworldtour.bwfbadminton.com/news-single/2026/03/08/all-england-chinese-taipei-make-history/",
+        "https://bwfworldtour.bwfbadminton.com/news-single/2026/05/30/singapore-open-flat-and-furious/",
+        "https://en.wikipedia.org/wiki/Ye_Hong-wei",
+        "https://en.wikipedia.org/wiki/Nicole_Gonzales_Chan",
+        "https://zh.wikipedia.org/wiki/詹又蓁",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=81108",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=62713"
+      ],
+      "confidence": {
+        "pairing_status": "high",
+        "highlights": "high",
+        "positions": "high",
+        "body_data": "medium"
+      },
+      "notes": "詹又蓁身高无可靠来源，置null；生日BWF为2004-12-13、中文维基为2004-12-23，年份一致。"
+    },
+    {
+      "id": "xd-goh-soon-huat-shevon-jemie-lai",
+      "event": "XD",
+      "pair_name_zh": "吴顺发/赖洁敏",
+      "pair_name_en": "Goh Soon Huat / Shevon Jemie Lai",
+      "country_zh": "马来西亚",
+      "status": "active",
+      "world_rank_2026_09_22": 10,
+      "highlights_zh": "2018年新加坡公开赛冠军（决赛击败里约奥运冠军艾哈迈德/纳西尔）；2025年2月最高世界第三",
+      "pair_style_zh": "长期搭档的马来西亚老将组合，两人都已三十出头。按混双常规吴顺发后场、左手的赖洁敏前场。经验丰富、心态稳定，是马来西亚混双多年的中坚力量，也是业余“老搭档”的好榜样。",
+      "players": [
+        {
+          "name_en": "Goh Soon Huat",
+          "name_zh": "吴顺发",
+          "gender": "M",
+          "height_cm": 178,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 1990,
+          "typical_position": "back",
+          "position_note_zh": "按混双常规“女前男后”分工标注；未找到针对该组合站位的专门技术分析。中文名亦作“吴埙阀”。",
+          "role_desc_zh": "由单打转型混双的男选手，身高178厘米，负责后场进攻；1990年出生，是当前混双世界前十中最年长的球员。"
+        },
+        {
+          "name_en": "Shevon Jemie Lai",
+          "name_zh": "赖洁敏",
+          "gender": "F",
+          "height_cm": 169,
+          "weight_kg": 60,
+          "handedness": "L",
+          "birth_year": 1993,
+          "typical_position": "front",
+          "position_note_zh": "按混双常规“女前男后”分工标注；未找到针对该组合站位的专门技术分析。",
+          "role_desc_zh": "左手持拍的女选手，身高169厘米，在混双中负责前场；与吴顺发长期合作，2018年新加坡公开赛击败奥运冠军夺冠。"
+        }
+      ],
+      "sources": [
+        "https://extranet-lv.bwfbadminton.com/api/vue-rankingtable?rankId=2&catId=10&publicationId=4471&doubles=true&page=1",
+        "https://en.wikipedia.org/wiki/Goh_Soon_Huat",
+        "https://en.wikipedia.org/wiki/Shevon_Jemie_Lai",
+        "https://zh.wikipedia.org/wiki/吳塤閥",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=92593",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=56352"
+      ],
+      "confidence": {
+        "pairing_status": "high",
+        "highlights": "medium",
+        "positions": "medium",
+        "body_data": "medium"
+      },
+      "notes": "吴顺发身高BWF 178cm、维基179cm；体重英文维基65kg、中文维基75kg，冲突，置null。赖洁敏体重60kg来自英文维基（单一来源）。"
+    },
+    {
+      "id": "xd-zheng-siwei-huang-yaqiong",
+      "event": "XD",
+      "pair_name_zh": "郑思维/黄雅琼",
+      "pair_name_en": "Zheng Siwei / Huang Yaqiong",
+      "country_zh": "中国",
+      "status": "retired",
+      "world_rank_2026_09_22": null,
+      "highlights_zh": "“雅思组合”：2024年巴黎奥运会混双金牌；2018、2019、2022年三夺世锦赛冠军；两届亚运会金牌；四次世界羽联总决赛冠军",
+      "pair_style_zh": "混双史上最成功的组合之一：黄雅琼在网前控制、封网，郑思维在后场以速度和爆发力连续进攻，轮转快、衔接紧，攻势如潮。两人搭档七年，以创新战术重塑了混双打法。",
+      "players": [
+        {
+          "name_en": "Zheng Siwei",
+          "name_zh": "郑思维",
+          "gender": "M",
+          "height_cm": 175,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 1997,
+          "typical_position": "back",
+          "position_note_zh": "按混双常规“女前男后”标注；雅思组合以此分工为主，未找到逐项技术统计。",
+          "role_desc_zh": "速度与爆发力极强的后场攻击手，身材不算高但起跳快、连续进攻能力突出；也曾与陈清晨登顶混双世界第一，2024年底退役。"
+        },
+        {
+          "name_en": "Huang Yaqiong",
+          "name_zh": "黄雅琼",
+          "gender": "F",
+          "height_cm": 165,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 1994,
+          "typical_position": "front",
+          "position_note_zh": "同上。",
+          "role_desc_zh": "网前控制型女选手，封网积极、网前小球细腻，能稳住节奏为搭档创造进攻；2025年1月提交退役申请。"
+        }
+      ],
+      "sources": [
+        "https://www.yzwb.net/news/ty/202512/t20251218_301878.html",
+        "https://en.wikipedia.org/wiki/Zheng_Siwei",
+        "https://en.wikipedia.org/wiki/Huang_Yaqiong",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=83046",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=63168"
+      ],
+      "confidence": {
+        "pairing_status": "high",
+        "highlights": "high",
+        "positions": "medium",
+        "body_data": "high"
+      },
+      "notes": "郑思维2024年11月宣布退出国际赛场，黄雅琼2025年1月1日提交退役申请，2025年12月21日国羽举行退役仪式。郑思维身高BWF 175cm、维基176cm。"
+    },
+    {
+      "id": "xd-zhang-nan-zhao-yunlei",
+      "event": "XD",
+      "pair_name_zh": "张楠/赵芸蕾",
+      "pair_name_en": "Zhang Nan / Zhao Yunlei",
+      "country_zh": "中国",
+      "status": "retired",
+      "world_rank_2026_09_22": null,
+      "highlights_zh": "2012年伦敦奥运会混双金牌；2011、2014、2015年三夺世锦赛冠军；2014年亚运会金牌；赵芸蕾同届伦敦奥运会还获女双金牌，张楠另获里约奥运会男双金牌",
+      "pair_style_zh": "攻防全面的混双王者：赵芸蕾网前技术全面、控制力强，女双、混双都登顶世界第一；张楠身高约1.83米、动作灵活、后场有力。两人把传统“女前男后”打到极致，曾包揽奥运、世锦赛、亚运会等大赛冠军。",
+      "players": [
+        {
+          "name_en": "Zhang Nan",
+          "name_zh": "张楠",
+          "gender": "M",
+          "height_cm": 184,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 1990,
+          "typical_position": "back",
+          "position_note_zh": "按混双常规标注；中文维基称教练组评价他“身材高、动作灵活、网前反应快，双打意识和预判能力都较强”。",
+          "role_desc_zh": "身材高、动作灵活的全能型双打手，网前反应快、预判强；混双中主打后场，还与傅海峰搭档获里约奥运男双金牌。"
+        },
+        {
+          "name_en": "Zhao Yunlei",
+          "name_zh": "赵芸蕾",
+          "gender": "F",
+          "height_cm": 173,
+          "weight_kg": null,
+          "handedness": "R",
+          "birth_year": 1986,
+          "typical_position": "front",
+          "position_note_zh": "按混双常规标注。",
+          "role_desc_zh": "身高173厘米的全能型女双打手，女双、混双都登顶世界第一，2012年伦敦奥运会独揽女双、混双两枚金牌；混双中负责网前控制。"
+        }
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Zhang_Nan_(badminton)",
+        "https://en.wikipedia.org/wiki/Zhao_Yunlei",
+        "https://zh.wikipedia.org/wiki/张楠_(羽毛球运动员)",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=35357",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=54522"
+      ],
+      "confidence": {
+        "pairing_status": "high",
+        "highlights": "high",
+        "positions": "medium",
+        "body_data": "medium"
+      },
+      "notes": "赵芸蕾2016年里约奥运会后退出国际赛场，2018年回国家队任助理教练；张楠已退役。张楠身高BWF 184cm、维基183cm；两人体重中英文维基相差1kg，置null。"
+    },
+    {
+      "id": "xd-tontowi-ahmad-liliyana-natsir",
+      "event": "XD",
+      "pair_name_zh": "艾哈迈德/纳西尔",
+      "pair_name_en": "Tontowi Ahmad / Liliyana Natsir",
+      "country_zh": "印尼",
+      "status": "retired",
+      "world_rank_2026_09_22": null,
+      "highlights_zh": "2016年里约奥运会混双金牌；2013、2017年世锦赛冠军；2012-2014年全英赛三连冠；2018年5月登顶世界第一；纳西尔2022年入选BWF名人堂",
+      "pair_style_zh": "印尼混双传奇：入选BWF名人堂的纳西尔负责网前控制与调动，身材高大的艾哈迈德在后场负责进攻。一控一攻，把“女前男后”的经典分工演绎到极致，是混双网前型女选手的经典参照。",
+      "players": [
+        {
+          "name_en": "Tontowi Ahmad",
+          "name_zh": "通托维·艾哈迈德",
+          "gender": "M",
+          "height_cm": 179,
+          "weight_kg": 75,
+          "handedness": "R",
+          "birth_year": 1987,
+          "typical_position": "back",
+          "position_note_zh": "按混双常规标注。",
+          "role_desc_zh": "身材高大的后场进攻手，2010年起与纳西尔搭档后迅速崛起，负责后场下压；2020年5月退役。"
+        },
+        {
+          "name_en": "Liliyana Natsir",
+          "name_zh": "利利亚纳·纳西尔",
+          "gender": "F",
+          "height_cm": 168,
+          "weight_kg": 59,
+          "handedness": "R",
+          "birth_year": 1985,
+          "typical_position": "front",
+          "position_note_zh": "按混双常规标注。",
+          "role_desc_zh": "混双网前控制的代表人物，先后与诺瓦、艾哈迈德两位搭档登顶世界第一，四夺世锦赛冠军，2022年入选BWF名人堂。"
+        }
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tontowi_Ahmad",
+        "https://en.wikipedia.org/wiki/Liliyana_Natsir",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=54267",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=14727"
+      ],
+      "confidence": {
+        "pairing_status": "high",
+        "highlights": "high",
+        "positions": "medium",
+        "body_data": "medium"
+      },
+      "notes": "艾哈迈德身高BWF 179cm、英文维基183cm，采用BWF。体重来自英文维基（单一来源）。纳西尔2019年1月退役。"
+    }
+  ]
+}
