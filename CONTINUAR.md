@@ -9,7 +9,7 @@
 | Brainstorming y decisiones con el usuario | ✅ Hecho |
 | Especificación de diseño | ✅ Aprobada: `docs/superpowers/specs/2026-09-25-badminton-app-design.md` |
 | Prototipo del motor de cálculo | ✅ Verificado: `docs/superpowers/prototype/` |
-| Investigación del dominio (jugadores, estudios, tácticas, nivel, MBTI) | ⏸️ Parada antes de terminar; hay que relanzarla |
+| Investigación del dominio (jugadores, estudios, tácticas, nivel, MBTI) | 🔄 Relanzada el 2026-09-25; escribe directamente en `docs/superpowers/research/`. Al retomar, mira qué archivos existen y relanza solo lo que falte |
 | Plan de implementación | ⏳ Pendiente (skill `superpowers:writing-plans`) |
 | Programación | ⏳ Pendiente |
 
