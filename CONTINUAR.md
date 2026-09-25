@@ -10,12 +10,12 @@
 | Especificación de diseño | ✅ Aprobada: `docs/superpowers/specs/2026-09-25-badminton-app-design.md` |
 | Prototipo del motor de cálculo | ✅ Verificado: `docs/superpowers/prototype/` |
 | Investigación del dominio (jugadores, estudios, tácticas, nivel, MBTI) | 🔄 Relanzada el 2026-09-25; escribe directamente en `docs/superpowers/research/`. Al retomar, mira qué archivos existen y relanza solo lo que falte |
-| Plan de implementación | ⏳ Pendiente (skill `superpowers:writing-plans`) |
+| Plan de implementación | ✅ Escrito: `docs/superpowers/plans/2026-09-26-yuqiu-tianfu.md` (21 tareas). Falta que el usuario lo revise y elija el modo de ejecución |
 | Programación | ⏳ Pendiente |
 
 ## Prompt para retomar (copiar y pegar)
 
-> Lee `CONTINUAR.md` y la especificación aprobada. Relanza la investigación con el script de `docs/superpowers/research/research-workflow.js`, cambiando `args.dir` a `docs/superpowers/research`. Mientras corre, escribe el plan de implementación con la skill writing-plans en `docs/superpowers/plans/`, usando el prototipo verificado de `docs/superpowers/prototype/engine.ts` como código del motor. Prioriza que el 天赋测评 funcione primero.
+> Lee `CONTINUAR.md`. Comprueba qué archivos de investigación hay en `docs/superpowers/research/` y relanza solo lo que falte con `research-workflow.js`. Después ejecuta el plan `docs/superpowers/plans/2026-09-26-yuqiu-tianfu.md` tarea a tarea (subagent-driven), empezando por el hito 1 (tareas 1–13: el 天赋测评 funcionando).
 
 ## Qué hay en el prototipo (`docs/superpowers/prototype/`)
 
@@ -39,7 +39,7 @@
 4. **Mostrar el % con palabras:** ≥ 70 高度契合, 55–69 较为契合, < 55 初步倾向. Si la diferencia entre los dos primeros estilos es < 3, marcar `closeCall`.
 5. **Ajuste pendiente (menor):** principiantes planos con cuerpo `sturdyPower` salen sobre todo `net`. Es aceptable, pero se puede revisar al calibrar con la investigación.
 
-### Propuestas que hay que confirmar con el usuario antes del plan
+### Decisiones confirmadas por el usuario el 2026-09-26 (ya en la spec y el plan)
 
 - **Pruebas reales:** la comba de 1 min pasa a ajustar **移动速度** (步频) y se añade el **test de Cooper (12 min)** para **耐力**. La spec §5.1 dice que la comba ajusta 耐力.
 - **羽球MBTI:** usar las letras estándar E/I, S/N, T/F, J/P con significado de bádminton, para que la gente pueda compararlo con su MBTI real:
