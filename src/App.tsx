@@ -8,6 +8,7 @@ import HomePage from './pages/HomePage'
 import ProfilePage from './pages/ProfilePage'
 import MbtiPage from './pages/mbti/MbtiPage'
 import RatingPage from './pages/rating/RatingPage'
+import ReportPage from './pages/talent/ReportPage'
 import TalentPage from './pages/talent/TalentPage'
 
 export function LangBridge({ children }: { children: ReactNode }) {
@@ -39,6 +40,7 @@ export function AppRoutes() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/talent" element={<TalentPage />} />
+          <Route path="/talent/report/:id" element={<ReportPage />} />
           <Route path="/rating" element={<RatingPage />} />
           <Route path="/mbti" element={<MbtiPage />} />
           <Route path="/profile" element={<ProfilePage />} />
