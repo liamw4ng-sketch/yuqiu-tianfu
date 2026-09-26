@@ -12,3 +12,11 @@ it('muestra las 5 pestañas en chino y cambia a español', async () => {
   expect(screen.getByRole('link', { name: 'Test de talento' })).toBeInTheDocument()
   expect(document.documentElement.lang).toBe('es')
 })
+
+it('recuerda el idioma elegido al volver a abrir la app', async () => {
+  const first = render(<App />)
+  await userEvent.click(screen.getByRole('button', { name: '切换到西班牙语' }))
+  first.unmount()
+  render(<App />)
+  expect(screen.getByRole('link', { name: 'Test de talento' })).toBeInTheDocument()
+})

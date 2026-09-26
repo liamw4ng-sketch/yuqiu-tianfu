@@ -10,5 +10,6 @@ export const uiEs: Record<UiKey, string> = {
   'nav.profile': 'Mi perfil',
   'lang.switch': '中',
   'lang.switchLabel': 'Cambiar a chino',
+  'storage.unavailable': 'Este navegador no permite guardar datos (¿modo privado?). Tus resultados no se guardarán.',
   'common.backTop': 'Volver arriba',
 }

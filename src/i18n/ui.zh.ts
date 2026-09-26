@@ -8,6 +8,7 @@ export const uiZh = {
   'nav.profile': '我的档案',
   'lang.switch': 'ES',
   'lang.switchLabel': '切换到西班牙语',
+  'storage.unavailable': '当前浏览器无法保存数据（可能是无痕模式），测评结果不会被保存。',
   'common.backTop': '回到顶部',
 } as const
 
