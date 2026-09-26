@@ -1,0 +1,1277 @@
+[
+  {
+    "id": "jonatan-christie",
+    "nameEn": "Jonatan Christie",
+    "nameZh": "乔纳坦·克里斯蒂",
+    "sex": "M",
+    "country": {
+      "zh": "印尼",
+      "es": "Indonesia"
+    },
+    "heightCm": 179,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 1997,
+    "status": "active",
+    "retiredYear": null,
+    "style": "attack",
+    "highlights": {
+      "zh": "2026年8月升至世界第一；2024年全英公开赛冠军；2018年亚运会男单金牌",
+      "es": "Número 1 del mundo desde agosto de 2026; campeón del All England 2024; oro en individual masculino en los Juegos Asiáticos de 2018."
+    },
+    "desc": {
+      "zh": "典型的进攻型选手，主要依靠后场跳杀和重杀连续施压，杀球后快速上网扑球、封堵网前回球，攻势顺畅时得分效率很高；技术比较全面，但比赛中状态起伏较大，相持阶段偶有连续失误。",
+      "es": "Jugador claramente ofensivo que presiona sobre todo con remates en salto y remates de potencia desde el fondo de pista; tras rematar, sube rápido a la red para matar en la red y cerrar las respuestas del rival, lo que le da mucha eficacia cuando su ataque fluye. Tiene un juego bastante completo, pero su nivel varía mucho de un partido a otro y en los intercambios largos a veces encadena errores."
+    }
+  },
+  {
+    "id": "kunlavut-vitidsarn",
+    "nameEn": "Kunlavut Vitidsarn",
+    "nameZh": "昆拉武特",
+    "sex": "M",
+    "country": {
+      "zh": "泰国",
+      "es": "Tailandia"
+    },
+    "heightCm": 173,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 2001,
+    "status": "active",
+    "retiredYear": null,
+    "style": "counter",
+    "highlights": {
+      "zh": "2023年世锦赛冠军（泰国首位男单世界冠军）；2024年巴黎奥运会银牌；2022、2025年世锦赛银牌；2025年亚锦赛冠军；前世界第一（泰国首位）",
+      "es": "Campeón del Mundial 2023 (primer campeón mundial tailandés en individual masculino); plata en los Juegos Olímpicos de París 2024; plata en el Mundial de 2022 y 2025; campeón del Campeonato de Asia 2025; ex número 1 del mundo (el primero de Tailandia)."
+    },
+    "desc": {
+      "zh": "以稳健防守和耐心相持著称，接杀和挑后场质量高，愿意把回合拉长，等对手失误或体能下滑后再反击，常打满三局后程发力，被称为“三局之神”；一拍制胜的进攻火力并非他的强项。",
+      "es": "Conocido por su defensa sólida y su paciencia en los intercambios, con una defensa del remate y un globo al fondo de gran calidad; está dispuesto a alargar los puntos y esperar a que el rival falle o se canse antes de contraatacar. Suele apretar en el tercer set, por lo que le llaman «el dios del tercer set»; el ataque definitivo de un solo golpe no es su punto fuerte."
+    }
+  },
+  {
+    "id": "christo-popov",
+    "nameEn": "Christo Popov",
+    "nameZh": "克里斯托·波波夫",
+    "sex": "M",
+    "country": {
+      "zh": "法国",
+      "es": "Francia"
+    },
+    "heightCm": 179,
+    "weightKg": null,
+    "hand": "L",
+    "birthYear": 2002,
+    "status": "active",
+    "retiredYear": null,
+    "style": "speed",
+    "highlights": {
+      "zh": "2025年世界羽联年终总决赛冠军；2026年日本公开赛冠军、欧锦赛男单冠军；最高世界第二",
+      "es": "Campeón de las Finales de la BWF 2025; campeón del Abierto de Japón 2026 y del Campeonato de Europa individual masculino; número 2 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "左手持拍，打法带有明显的双打风格，喜欢用平抽快推把球压到对手后场，再突然变对角网前调动对手；防守时挡网、挑球线路多变。过去被认为控网和假动作偏少，相持中偶尔急躁。",
+      "es": "Zurdo con un estilo que recuerda claramente al de dobles: le gusta usar el drive y empujes rápidos para llevar el volante al fondo del rival, y después cambiar de repente a una dejada en la red cruzada para moverlo. En defensa varía las trayectorias entre la dejada en la red y el globo. Se le ha achacado tener poco control de la red y pocas fintas, y a veces se impacienta en los intercambios largos."
+    }
+  },
+  {
+    "id": "anders-antonsen",
+    "nameEn": "Anders Antonsen",
+    "nameZh": "安东森",
+    "sex": "M",
+    "country": {
+      "zh": "丹麦",
+      "es": "Dinamarca"
+    },
+    "heightCm": 183,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 1997,
+    "status": "active",
+    "retiredYear": null,
+    "style": "allround",
+    "highlights": {
+      "zh": "世锦赛四枚奖牌（2019年银牌，2021、2023、2025年铜牌）；两届欧锦赛冠军；最高世界第二",
+      "es": "Cuatro medallas en el Mundial (plata en 2019, bronce en 2021, 2023 y 2025); campeón del Campeonato de Europa en dos ocasiones; número 2 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "技术全面的欧洲代表人物，后场杀、吊、劈结合，善于用节奏和落点变化调动对手；关键分偶有情绪波动，2026年世锦赛第二轮曾向裁判抗议、一度失去冷静，最终在对手握有赛点的情况下逆转险胜。",
+      "es": "Representante europeo de juego muy completo, que combina remate, dejada y dejada cortada desde el fondo de pista y sabe mover al rival cambiando de ritmo y de puntos de caída. En los puntos clave se altera a veces: en la segunda ronda del Mundial de 2026 llegó a protestar a un árbitro y perder los nervios un momento, aunque acabó remontando y ganando un partido en el que el rival tuvo bola de partido."
+    }
+  },
+  {
+    "id": "chou-tien-chen",
+    "nameEn": "Chou Tien-chen",
+    "nameZh": "周天成",
+    "sex": "M",
+    "country": {
+      "zh": "中国台北",
+      "es": "China Taipéi"
+    },
+    "heightCm": 180,
+    "weightKg": 78,
+    "hand": "R",
+    "birthYear": 1990,
+    "status": "active",
+    "retiredYear": null,
+    "style": "attack",
+    "highlights": {
+      "zh": "2022、2026年世锦赛铜牌（36岁成为史上最年长的男单世锦赛奖牌得主）；2026年中国公开赛（超级1000）冠军，成为最年长的超级1000冠军；最高世界第二",
+      "es": "Bronce en el Mundial de 2022 y 2026 (con 36 años, el medallista más veterano de la historia en individual masculino del Mundial); campeón del Abierto de China 2026 (Super 1000), el campeón de un Super 1000 de más edad; número 2 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "身体素质和体能出众，打法依靠顽强防守与突击，突击杀球威胁很大，能在高强度来回中持续施压；网前争夺相对是弱项，但防守能力可以弥补。36岁仍夺得2026年世锦赛铜牌。",
+      "es": "Con una condición física y una resistencia sobresalientes, basa su juego en una defensa tenaz y en remates sorpresa muy peligrosos, capaz de mantener la presión en intercambios de alta intensidad. La lucha en la red es su punto más flojo, aunque su capacidad defensiva lo compensa. Con 36 años, todavía logró el bronce en el Mundial de 2026."
+    }
+  },
+  {
+    "id": "shi-yuqi",
+    "nameEn": "Shi Yuqi",
+    "nameZh": "石宇奇",
+    "sex": "M",
+    "country": {
+      "zh": "中国",
+      "es": "China"
+    },
+    "heightCm": 184,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 1996,
+    "status": "active",
+    "retiredYear": null,
+    "style": "allround",
+    "highlights": {
+      "zh": "2025年世锦赛冠军；2018、2025年全英公开赛冠军；前世界第一",
+      "es": "Campeón del Mundial 2025; campeón del All England en 2018 y 2025; ex número 1 del mundo."
+    },
+    "desc": {
+      "zh": "身材修长、步法轻盈，是攻守均衡的全面型选手：后场进攻落点刁钻，对角线得分能力强，网前手法细腻，防守覆盖面大。2026年状态有所下滑，卫冕冠军在世锦赛首轮即出局，稳定性受到考验。",
+      "es": "Alto y de footwork ligero, es un jugador completo con buen equilibrio entre ataque y defensa: desde el fondo coloca el remate en puntos muy difíciles y anota mucho en diagonal, tiene un toque fino en la red y cubre bien la pista en defensa. En 2026 bajó de nivel: como campeón vigente, cayó eliminado en la primera ronda del Mundial, lo que puso a prueba su regularidad."
+    }
+  },
+  {
+    "id": "kodai-naraoka",
+    "nameEn": "Kodai Naraoka",
+    "nameZh": "奈良冈功大",
+    "sex": "M",
+    "country": {
+      "zh": "日本",
+      "es": "Japón"
+    },
+    "heightCm": 173,
+    "weightKg": 69,
+    "hand": "R",
+    "birthYear": 2001,
+    "status": "active",
+    "retiredYear": null,
+    "style": "counter",
+    "highlights": {
+      "zh": "2023、2026年世锦赛银牌；最高世界第二",
+      "es": "Plata en el Mundial de 2023 y 2026; número 2 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "身高173cm，本人把“防守能力”列为最大看点，擅长用高质量挑球、挡网把对手拖入长回合，靠极低的失误率消耗对手；近年加强爆发力、主动提速，但面对力量更强的对手仍较吃亏。",
+      "es": "Con 1,73 m de estatura, él mismo señala su capacidad defensiva como su gran virtud: mete al rival en intercambios largos con globos y dejadas en la red de gran calidad, y lo desgasta con un porcentaje de error muy bajo. En los últimos años ha reforzado su explosividad y ha buscado subir el ritmo por iniciativa propia, pero sigue en desventaja ante rivales con más potencia."
+    }
+  },
+  {
+    "id": "alex-lanier",
+    "nameEn": "Alex Lanier",
+    "nameZh": "拉尼尔",
+    "sex": "M",
+    "country": {
+      "zh": "法国",
+      "es": "Francia"
+    },
+    "heightCm": 180,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 2005,
+    "status": "active",
+    "retiredYear": null,
+    "style": "allround",
+    "highlights": {
+      "zh": "2026年世锦赛冠军（法国首位男单世界冠军）；2025年欧锦赛冠军；法国首位超级750赛男单冠军",
+      "es": "Campeón del Mundial 2026 (primer campeón mundial francés en individual masculino); campeón del Campeonato de Europa 2025; primer francés en ganar un Super 750 en individual masculino."
+    },
+    "desc": {
+      "zh": "被BWF形容为男单中身体素质可能最强的选手，速度与力量兼备，三局都能保持高强度；先耐心相持再突然提速，用体能和节奏变化拖垮对手，2026年世锦赛决赛两个21-11击败奈良冈功大。",
+      "es": "La BWF lo describe como posiblemente el jugador con mejor condición física del individual masculino, con velocidad y potencia a la vez, capaz de mantener alta intensidad durante los tres sets. Primero es paciente en el intercambio y luego sube el ritmo de repente, agotando al rival con su resistencia y sus cambios de ritmo; en la final del Mundial 2026 batió a Kodai Naraoka con un doble 21-11."
+    }
+  },
+  {
+    "id": "victor-lai",
+    "nameEn": "Victor Lai",
+    "nameZh": "赖浩俊",
+    "sex": "M",
+    "country": {
+      "zh": "加拿大",
+      "es": "Canadá"
+    },
+    "heightCm": 184,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 2004,
+    "status": "active",
+    "retiredYear": null,
+    "style": "control",
+    "highlights": {
+      "zh": "2025、2026年连续两届世锦赛铜牌（2025年为加拿大首枚世锦赛奖牌）；2026年印尼公开赛冠军（加拿大首个超级1000冠军）；最高世界第七",
+      "es": "Bronce en el Mundial en dos ediciones consecutivas, 2025 y 2026 (en 2025, la primera medalla mundialista de Canadá); campeón del Abierto de Indonesia 2026 (el primer título Super 1000 de Canadá); número 7 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "身高184cm的年轻右手选手，打法冷静、失误少，回球速度快、落点准，两侧防守出色，擅长在相持中耐心寻找机会；乔纳坦在2026年印尼公开赛决赛输给他后评价他“非常冷静，没有失误”。他本人也承认，与拉尼尔等顶尖选手相比，身体素质和体能仍需加强。",
+      "es": "Joven diestro de 1,84 m, con un juego frío y pocos errores: devuelve rápido, coloca el volante con precisión y defiende bien a ambos lados, buscando con paciencia su oportunidad en el intercambio. Tras perder contra él en la final del Abierto de Indonesia 2026, Jonatan Christie lo describió como «muy tranquilo, sin errores». Él mismo reconoce que, comparado con jugadores de primer nivel como Alex Lanier, todavía necesita mejorar su condición física y su resistencia."
+    }
+  },
+  {
+    "id": "alwi-farhan",
+    "nameEn": "Alwi Farhan",
+    "nameZh": "阿尔维·法汉",
+    "sex": "M",
+    "country": {
+      "zh": "印尼",
+      "es": "Indonesia"
+    },
+    "heightCm": 172,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 2005,
+    "status": "active",
+    "retiredYear": null,
+    "style": "speed",
+    "highlights": {
+      "zh": "2023年世青赛男单冠军；2025年东南亚运动会男单金牌；2026年首次跻身世界前十",
+      "es": "Campeón mundial junior 2023 en individual masculino; oro en individual masculino en los Juegos del Sudeste Asiático 2025; entró por primera vez en el top 10 del mundo en 2026."
+    },
+    "desc": {
+      "zh": "印尼男单新生代代表，身高约172cm，个子不高但移动积极、节奏快，依靠速度弥补身高劣势；2026年升至世界前十，并在世锦赛打进八强（负于周天成），被BWF列为新一代崛起球员之一。",
+      "es": "Representante de la nueva generación indonesia en individual masculino. Con cerca de 1,72 m, no es alto pero se mueve con energía y a buen ritmo, compensando su estatura con velocidad. En 2026 subió al top 10 del mundo y llegó a cuartos de final del Mundial (donde cayó ante Chou Tien-chen); la BWF lo incluye entre los jugadores emergentes de la nueva generación."
+    }
+  },
+  {
+    "id": "lin-chun-yi",
+    "nameEn": "Lin Chun-yi",
+    "nameZh": "林俊易",
+    "sex": "M",
+    "country": {
+      "zh": "中国台北",
+      "es": "China Taipéi"
+    },
+    "heightCm": 181,
+    "weightKg": null,
+    "hand": "L",
+    "birthYear": 1999,
+    "status": "active",
+    "retiredYear": null,
+    "style": "attack",
+    "highlights": {
+      "zh": "2026年全英公开赛冠军；最高世界第八",
+      "es": "Campeón del All England 2026; número 8 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "左手持拍的进攻型选手，后场杀球力量足、角度刁，配合杀后上网形成连续压迫，攻势流畅时对任何对手都有威胁，2026年夺得全英公开赛冠军；发挥的稳定性仍有提升空间。",
+      "es": "Zurdo de estilo ofensivo, con remates potentes y de ángulo difícil desde el fondo de pista, que combina con la subida a la red tras el remate para mantener la presión constante; cuando su ataque fluye, es una amenaza para cualquier rival, como demostró al ganar el All England 2026. Su regularidad todavía tiene margen de mejora."
+    }
+  },
+  {
+    "id": "li-shifeng",
+    "nameEn": "Li Shifeng",
+    "nameZh": "李诗沣",
+    "sex": "M",
+    "country": {
+      "zh": "中国",
+      "es": "China"
+    },
+    "heightCm": 185,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 2000,
+    "status": "active",
+    "retiredYear": null,
+    "style": "attack",
+    "highlights": {
+      "zh": "2022年杭州亚运会男单金牌；2023年全英公开赛冠军；最高世界第三",
+      "es": "Oro en individual masculino en los Juegos Asiáticos de Hangzhou 2022; campeón del All England 2023; número 3 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "身高185cm，身材高大，以后场重杀和快速的前后场衔接为主要得分手段，巅峰期拿下亚运会金牌和全英赛冠军；但2024年起状态起伏较大，稳定性是其主要短板。2026年世锦赛八强战先赢一局后被奈良冈功大逆转。",
+      "es": "Con 1,85 m, es un jugador alto que anota sobre todo con remates potentes desde el fondo y con una transición rápida entre la red y el fondo de pista; en su mejor momento se llevó el oro asiático y el título del All England. Sin embargo, desde 2024 su nivel ha sido irregular, y la falta de regularidad es su principal debilidad: en cuartos de final del Mundial 2026 ganó el primer set pero acabó remontado por Kodai Naraoka."
+    }
+  },
+  {
+    "id": "loh-kean-yew",
+    "nameEn": "Loh Kean Yew",
+    "nameZh": "骆建佑",
+    "sex": "M",
+    "country": {
+      "zh": "新加坡",
+      "es": "Singapur"
+    },
+    "heightCm": 175,
+    "weightKg": 68,
+    "hand": "R",
+    "birthYear": 1997,
+    "status": "active",
+    "retiredYear": null,
+    "style": "speed",
+    "highlights": {
+      "zh": "2021年世锦赛冠军（新加坡首位世界冠军）；最高世界第三",
+      "es": "Campeón del Mundial 2021 (primer campeón mundial de Singapur); número 3 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "身高175cm，以灵活的步法、快节奏和爆发性的跳杀闻名，能从被动中迅速转入进攻，网前处理冷静。2021年世锦赛凭借速度、爆发式进攻和沉稳的前场技术，接连击败多名高手夺冠。",
+      "es": "Con 1,75 m, es conocido por su footwork ágil, su ritmo rápido y sus explosivos remates en salto, capaz de pasar de la defensa al ataque en un instante y de jugar la red con mucha calma. En el Mundial de 2021 encadenó victorias sobre varios rivales de primer nivel gracias a su velocidad, su ataque explosivo y su solidez en la zona de red, hasta proclamarse campeón."
+    }
+  },
+  {
+    "id": "lakshya-sen",
+    "nameEn": "Lakshya Sen",
+    "nameZh": "拉克什亚·森",
+    "sex": "M",
+    "country": {
+      "zh": "印度",
+      "es": "India"
+    },
+    "heightCm": 179,
+    "weightKg": 65,
+    "hand": "R",
+    "birthYear": 2001,
+    "status": "active",
+    "retiredYear": null,
+    "style": "allround",
+    "highlights": {
+      "zh": "2021年世锦赛铜牌；2022年英联邦运动会男单金牌；2024年巴黎奥运会第四名",
+      "es": "Bronce en el Mundial 2021; oro en individual masculino en los Juegos de la Commonwealth 2022; cuarto puesto en los Juegos Olímpicos de París 2024."
+    },
+    "desc": {
+      "zh": "攻守兼备的印度男单代表，进攻积极、杀球有威胁，防守和救球能力同样出色，常靠顽强的防守把局面扳回；巴黎奥运会铜牌战惜败获第四，大赛关键分的把握仍需提高。",
+      "es": "Representante indio del individual masculino con buen equilibrio entre ataque y defensa: ataca con decisión, su remate es peligroso, y su defensa y capacidad de salvar volantes son igual de destacables, por lo que a menudo remonta partidos gracias a una defensa tenaz. En el partido por el bronce de los Juegos de París cayó por poco y quedó cuarto; todavía debe mejorar su gestión de los puntos clave en los grandes torneos."
+    }
+  },
+  {
+    "id": "toma-junior-popov",
+    "nameEn": "Toma Junior Popov",
+    "nameZh": "托马·朱尼尔·波波夫",
+    "sex": "M",
+    "country": {
+      "zh": "法国",
+      "es": "Francia"
+    },
+    "heightCm": 196,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 1998,
+    "status": "active",
+    "retiredYear": null,
+    "style": "attack",
+    "highlights": {
+      "zh": "2025年欧锦赛男双冠军（与弟弟克里斯托搭档）；2026年中国公开赛（超级1000）男单亚军，成为首位打进超级1000决赛的法国单打选手；男单最高世界第13",
+      "es": "Campeón del Campeonato de Europa de dobles masculinos 2025 (haciendo pareja con su hermano Christo); subcampeón de individual masculino en el Abierto de China 2026 (Super 1000), lo que lo convirtió en el primer jugador francés de individuales en llegar a una final de un Super 1000; número 13 del mundo en individual masculino en su mejor posición."
+    },
+    "desc": {
+      "zh": "身高196cm，兼打男单和男双，击球点高、下压角度大，男单以主动进攻为主，BWF报道他在2021年西班牙大师赛凭强势进攻拿下首个超级300冠军；双打经验也让他在平抽快挡和网前衔接上很积极。",
+      "es": "Con 1,96 m, compite tanto en individual como en dobles masculinos; golpea el volante muy arriba y remata con un ángulo muy pronunciado. En individual apuesta por el ataque constante: la BWF informó de que ganó su primer título Super 300 en el Masters de España 2021 gracias a un ataque contundente. Su experiencia en dobles también lo hace muy activo en el drive y bloqueo y en la conexión con la red."
+    }
+  },
+  {
+    "id": "koki-watanabe",
+    "nameEn": "Koki Watanabe",
+    "nameZh": "渡边航贵",
+    "sex": "M",
+    "country": {
+      "zh": "日本",
+      "es": "Japón"
+    },
+    "heightCm": 166,
+    "weightKg": 65,
+    "hand": "R",
+    "birthYear": 1999,
+    "status": "active",
+    "retiredYear": null,
+    "style": "speed",
+    "highlights": {
+      "zh": "2023年瑞士公开赛、2024年加拿大公开赛冠军；2026年日本公开赛亚军；最高世界第11",
+      "es": "Campeón del Abierto de Suiza 2023 y del Abierto de Canadá 2024; subcampeón del Abierto de Japón 2026; número 11 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "身高仅166cm，是男单中的小个子代表，本人把“有速度感的打法”列为最大看点，依靠快速启动和灵活的移动弥补身高劣势，回合节奏快；近年在日本公开赛、丹麦公开赛等高级别赛事中屡有突破。",
+      "es": "Con solo 1,66 m, es el representante de los jugadores bajos en individual masculino. Él mismo señala «un juego con sensación de velocidad» como su mayor atractivo, compensando su falta de estatura con arrancadas rápidas y desplazamientos ágiles que imprimen mucho ritmo al intercambio. En los últimos años ha dado varios golpes de efecto en torneos de alto nivel como el Abierto de Japón o el Abierto de Dinamarca."
+    }
+  },
+  {
+    "id": "weng-hongyang",
+    "nameEn": "Weng Hongyang",
+    "nameZh": "翁泓阳",
+    "sex": "M",
+    "country": {
+      "zh": "中国",
+      "es": "China"
+    },
+    "heightCm": 182,
+    "weightKg": null,
+    "hand": "L",
+    "birthYear": 1999,
+    "status": "active",
+    "retiredYear": null,
+    "style": "net",
+    "highlights": {
+      "zh": "2024、2026年汤姆斯杯冠军成员；2025年中国大师赛（超级750）冠军；2022年韩国公开赛冠军；最高世界第十",
+      "es": "Miembro del equipo campeón de la Copa Thomas en 2024 y 2026; campeón del Masters de China 2025 (Super 750); campeón del Abierto de Corea 2022; número 10 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "身材修长的左手持拍选手，手上功夫细腻，网前搓、勾和后场劈吊的假动作多，常让对手判断失误；BWF报道称他拥有“凶狠的杀球”，一旦节奏提起来就很有威胁。灵气和变化是优点，整体稳定性和大赛成绩仍有欠缺。",
+      "es": "Zurdo alto y esbelto, con un toque de mano muy fino: usa mucho la red con efecto, la red cruzada y las fintas con la dejada cortada desde el fondo, lo que suele hacer que el rival calcule mal. La BWF ha informado de que tiene «un remate feroz» y resulta muy peligroso en cuanto coge ritmo. Su talento y su variedad son sus puntos fuertes, pero todavía le falta regularidad general y resultados en los grandes torneos."
+    }
+  },
+  {
+    "id": "lee-zii-jia",
+    "nameEn": "Lee Zii Jia",
+    "nameZh": "李梓嘉",
+    "sex": "M",
+    "country": {
+      "zh": "马来西亚",
+      "es": "Malasia"
+    },
+    "heightCm": 186,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 1998,
+    "status": "active",
+    "retiredYear": null,
+    "style": "attack",
+    "highlights": {
+      "zh": "2024年巴黎奥运会铜牌；2021年全英公开赛冠军；2022年亚锦赛冠军；最高世界第二",
+      "es": "Bronce en los Juegos Olímpicos de París 2024; campeón del All England 2021; campeón del Campeonato de Asia 2022; número 2 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "身高186cm，爆发力和弹跳出众，以凶狠的杀球尤其是少见的反手杀球闻名，反应快、落点尖锐；稳定性和战术变化常受质疑。2024年底总决赛中右踝韧带受伤后长期缺阵，2026年仍在复出途中。",
+      "es": "Con 1,86 m, destaca por su explosividad y su salto, y es conocido por sus remates feroces, en especial por un remate de revés poco habitual; reacciona rápido y coloca el volante en puntos muy incómodos. Su regularidad y su variedad táctica han sido cuestionadas a menudo. A finales de 2024 sufrió una lesión de ligamentos en el tobillo derecho en las Finales que lo apartó de las pistas mucho tiempo, y en 2026 seguía en proceso de recuperación."
+    }
+  },
+  {
+    "id": "anthony-sinisuka-ginting",
+    "nameEn": "Anthony Sinisuka Ginting",
+    "nameZh": "金廷",
+    "sex": "M",
+    "country": {
+      "zh": "印尼",
+      "es": "Indonesia"
+    },
+    "heightCm": 171,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 1996,
+    "status": "active",
+    "retiredYear": null,
+    "style": "speed",
+    "highlights": {
+      "zh": "2020年东京奥运会铜牌；2018年亚运会铜牌；2023年亚锦赛冠军；最高世界第二",
+      "es": "Bronce en los Juegos Olímpicos de Tokio 2020; bronce en los Juegos Asiáticos 2018; campeón del Campeonato de Asia 2023; número 2 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "身高171cm，以极快的速度和快节奏的连续进攻著称，擅长网前抢点、快推后场，把节奏提到对手难以跟上；但高风险打法失误较多、稳定性起伏大。因伤病长期缺阵，2026年起逐步重返赛场。",
+      "es": "Con 1,71 m, es conocido por su enorme velocidad y su ataque continuo a ritmo alto: se adelanta a robar puntos en la red y usa el empuje al fondo para imponer un ritmo que al rival le cuesta seguir. Sin embargo, su juego de alto riesgo le genera bastantes errores y su regularidad es irregular. Tras un largo parón por lesiones, ha ido regresando poco a poco a la competición desde 2026."
+    }
+  },
+  {
+    "id": "viktor-axelsen",
+    "nameEn": "Viktor Axelsen",
+    "nameZh": "安赛龙",
+    "sex": "M",
+    "country": {
+      "zh": "丹麦",
+      "es": "Dinamarca"
+    },
+    "heightCm": 194,
+    "weightKg": 88,
+    "hand": "R",
+    "birthYear": 1994,
+    "status": "retired",
+    "retiredYear": 2026,
+    "style": "attack",
+    "highlights": {
+      "zh": "东京2020、巴黎2024奥运会男单金牌；2017、2022年世锦赛冠军；前世界第一",
+      "es": "Oro en individual masculino en los Juegos Olímpicos de Tokio 2020 y de París 2024; campeón del Mundial en 2017 y 2022; ex número 1 del mundo."
+    },
+    "desc": {
+      "zh": "身高1.94米，打破了“个子太高不适合打单打”的成见，BWF称他是那个时代“终极的问题解决者”：后场杀球角度陡、力量与精准兼备，杀后上网封堵积极，防守同样稳固。2025年4月接受背部手术后伤情反复，2026年4月宣布退役。",
+      "es": "Con 1,94 m, rompió el prejuicio de que ser demasiado alto no encaja con el individual; la BWF lo calificó como «el solucionador de problemas definitivo» de su época: remata desde el fondo con un ángulo muy cerrado, combinando fuerza y precisión, sube activamente a cerrar la red tras rematar y su defensa es igual de sólida. Tras operarse de la espalda en abril de 2025 sufrió recaídas, y en abril de 2026 anunció su retirada."
+    }
+  },
+  {
+    "id": "lin-dan",
+    "nameEn": "Lin Dan",
+    "nameZh": "林丹",
+    "sex": "M",
+    "country": {
+      "zh": "中国",
+      "es": "China"
+    },
+    "heightCm": 178,
+    "weightKg": 70,
+    "hand": "L",
+    "birthYear": 1983,
+    "status": "retired",
+    "retiredYear": 2020,
+    "style": "allround",
+    "highlights": {
+      "zh": "北京2008、伦敦2012奥运会男单金牌；五届世锦赛冠军；首位“超级全满贯”得主",
+      "es": "Oro en individual masculino en los Juegos Olímpicos de Pekín 2008 y Londres 2012; campeón del Mundial en cinco ocasiones; primer jugador en lograr el «Super Grand Slam»."
+    },
+    "desc": {
+      "zh": "左手持拍，技术特点是拉吊突击：启动快、爆发力强，后场大力扣杀和大角度劈吊是最大杀手锏，网前小球也相当细腻，防守和救球同样出色，攻守兼备，尤其擅长在大赛关键分上提速压制。",
+      "es": "Zurdo cuyo sello técnico era el juego de clear y dejada rematado con ataques sorpresa: arrancaba rápido y con gran explosividad, y su gran arma era el remate potente y la dejada cortada de ángulo muy abierto desde el fondo de pista; también tenía un toque de red muy fino, y su defensa y capacidad de salvar volantes eran igual de destacables. Con un juego completo entre ataque y defensa, era especialmente hábil subiendo el ritmo para imponerse en los puntos clave de los grandes torneos."
+    }
+  },
+  {
+    "id": "lee-chong-wei",
+    "nameEn": "Lee Chong Wei",
+    "nameZh": "李宗伟",
+    "sex": "M",
+    "country": {
+      "zh": "马来西亚",
+      "es": "Malasia"
+    },
+    "heightCm": 172,
+    "weightKg": 68,
+    "hand": "R",
+    "birthYear": 1982,
+    "status": "retired",
+    "retiredYear": 2019,
+    "style": "speed",
+    "highlights": {
+      "zh": "三届奥运会男单银牌（2008、2012、2016）；累计349周世界第一；三届世锦赛银牌",
+      "es": "Plata en individual masculino en tres Juegos Olímpicos (2008, 2012 y 2016); 349 semanas acumuladas como número 1 del mundo; plata en el Mundial en tres ocasiones."
+    },
+    "desc": {
+      "zh": "以极快的步法和启动著称，反应灵活、防守出色，拉吊中夹杂假动作，对手回球质量一差就立刻转入凌厉快攻，突击爆发力强；累计349周世界第一，但始终未获奥运会和世锦赛金牌。",
+      "es": "Conocido por un footwork y una arrancada rapidísimos, con reflejos ágiles y una defensa sobresaliente; mezclaba fintas en su juego de clear y dejada, y en cuanto la respuesta del rival bajaba de calidad pasaba de inmediato a un ataque contundente, con gran explosividad en sus golpes sorpresa. Acumuló 349 semanas como número 1 del mundo, aunque nunca logró el oro olímpico ni el título mundial."
+    }
+  },
+  {
+    "id": "taufik-hidayat",
+    "nameEn": "Taufik Hidayat",
+    "nameZh": "陶菲克",
+    "sex": "M",
+    "country": {
+      "zh": "印尼",
+      "es": "Indonesia"
+    },
+    "heightCm": 175,
+    "weightKg": 65,
+    "hand": "R",
+    "birthYear": 1981,
+    "status": "retired",
+    "retiredYear": 2013,
+    "style": "net",
+    "highlights": {
+      "zh": "2004年雅典奥运会男单金牌；2005年世锦赛冠军；前世界第一",
+      "es": "Oro en individual masculino en los Juegos Olímpicos de Atenas 2004; campeón del Mundial 2005; ex número 1 del mundo."
+    },
+    "desc": {
+      "zh": "人称“反手先生”，反手杀球力量惊人，网前小球和欺骗性假动作极具迷惑性，劈吊和正手跳杀同样出色，2006年世锦赛曾用正手跳杀打出305公里/小时的球速；天赋极高，攻击手段非常多样。",
+      "es": "Apodado «Mr. Backhand», tenía una potencia asombrosa en el remate de revés, y su juego de red y sus fintas engañosas resultaban muy difíciles de leer; su dejada cortada y su remate en salto de derecha eran igual de sobresalientes, y en el Mundial de 2006 llegó a rematar de derecha a 305 km/h. Con un talento enorme, contaba con recursos ofensivos muy variados."
+    }
+  },
+  {
+    "id": "chen-long",
+    "nameEn": "Chen Long",
+    "nameZh": "谌龙",
+    "sex": "M",
+    "country": {
+      "zh": "中国",
+      "es": "China"
+    },
+    "heightCm": 187,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 1989,
+    "status": "retired",
+    "retiredYear": 2023,
+    "style": "control",
+    "highlights": {
+      "zh": "2016年里约奥运会男单金牌；2014、2015年世锦赛冠军；奥运会金、银、铜牌各一枚（2016金、2020银、2012铜）",
+      "es": "Oro en individual masculino en los Juegos Olímpicos de Río 2016; campeón del Mundial en 2014 y 2015; una medalla de oro, una de plata y una de bronce olímpicas (oro en 2016, plata en 2020 y bronce en 2012)."
+    },
+    "desc": {
+      "zh": "绰号“长城”，身高187cm却以耐力、防守和控制节奏见长，擅长用高质量的四方拉吊把对手拖入长回合，失误极少，待对手回球质量下降再突击得分，是典型的稳健控制型打法。",
+      "es": "Apodado «la Gran Muralla», con 1,87 m destacaba por su resistencia, su defensa y su control del ritmo: sabía mover al rival a las cuatro esquinas con gran calidad para meterlo en intercambios largos, cometía muy pocos errores y esperaba a que la calidad de la respuesta del rival bajara para atacar de forma sorpresiva. Era el ejemplo típico de un juego sólido y de control."
+    }
+  },
+  {
+    "id": "kento-momota",
+    "nameEn": "Kento Momota",
+    "nameZh": "桃田贤斗",
+    "sex": "M",
+    "country": {
+      "zh": "日本",
+      "es": "Japón"
+    },
+    "heightCm": 175,
+    "weightKg": null,
+    "hand": "L",
+    "birthYear": 1994,
+    "status": "retired",
+    "retiredYear": 2024,
+    "style": "control",
+    "highlights": {
+      "zh": "2018、2019年世锦赛冠军；2019年单赛季11个冠军；前世界第一",
+      "es": "Campeón del Mundial en 2018 y 2019; 11 títulos en una sola temporada en 2019; ex número 1 del mundo."
+    },
+    "desc": {
+      "zh": "左手持拍，以出色的网前手感、稳固的防守和极强的耐心著称，小球几乎贴网而过，擅长用精准拉吊控制节奏、逼对手先失误；2020年车祸后未能恢复巅峰，2024年告别国际赛场。",
+      "es": "Zurdo conocido por su excelente toque en la red, su defensa sólida y una paciencia enorme; sus golpes de red casi rozan la cinta, y sabe controlar el ritmo con un juego de clear y dejada muy preciso para forzar el error del rival. Tras el accidente de tráfico de 2020 no logró recuperar su mejor nivel, y en 2024 se despidió de la competición internacional."
+    }
+  },
+  {
+    "id": "peter-gade",
+    "nameEn": "Peter Gade",
+    "nameZh": "盖德",
+    "sex": "M",
+    "country": {
+      "zh": "丹麦",
+      "es": "Dinamarca"
+    },
+    "heightCm": 183,
+    "weightKg": 73,
+    "hand": "R",
+    "birthYear": 1976,
+    "status": "retired",
+    "retiredYear": 2012,
+    "style": "net",
+    "highlights": {
+      "zh": "1999年全英公开赛冠军；1998至2001年世界第一；五届欧锦赛冠军",
+      "es": "Campeón del All England 1999; número 1 del mundo de 1998 a 2001; campeón del Campeonato de Europa en cinco ocasiones."
+    },
+    "desc": {
+      "zh": "公认的假动作大师，招牌“二次击球”看似要放网，实际把球推到后场，还常用对手意想不到的拍面击球；配合快速的进攻、流畅的步法和持续压迫，打法极具创造力和观赏性。",
+      "es": "Reconocido como un maestro de la finta: su golpe característico, una especie de «doble toque», parecía una dejada en la red pero en realidad enviaba el volante al fondo, y a menudo golpeaba con ángulos de pala que el rival no esperaba. Combinado con un ataque rápido, un footwork fluido y una presión constante, su juego era muy creativo y vistoso."
+    }
+  },
+  {
+    "id": "an-se-young",
+    "nameEn": "An Se-young",
+    "nameZh": "安洗莹",
+    "sex": "F",
+    "country": {
+      "zh": "韩国",
+      "es": "Corea del Sur"
+    },
+    "heightCm": 170,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 2002,
+    "status": "active",
+    "retiredYear": null,
+    "style": "counter",
+    "highlights": {
+      "zh": "2024年巴黎奥运会女单金牌；2023、2026年世锦赛冠军；世界第一，2025年单赛季11冠",
+      "es": "Oro en individual femenino en los Juegos Olímpicos de París 2024; campeona del Mundial en 2023 y 2026; número 1 del mundo, con 11 títulos en la temporada 2025."
+    },
+    "desc": {
+      "zh": "以超强的防守覆盖和体能著称，几乎能把所有进攻救回来，并在相持中迅速由守转攻；近年进攻明显加强，BWF形容她在2026年世锦赛决赛中兼具速度、力量与精准。伤病是主要隐患。",
+      "es": "Conocida por una cobertura defensiva y una resistencia extraordinarias, capaz de devolver casi cualquier ataque y de pasar rápidamente de la defensa al ataque en los intercambios largos; en los últimos años ha reforzado claramente su ataque, y la BWF la describió en la final del Mundial 2026 como una jugadora que combina velocidad, fuerza y precisión. Las lesiones son su principal punto débil."
+    }
+  },
+  {
+    "id": "wang-zhiyi",
+    "nameEn": "Wang Zhiyi",
+    "nameZh": "王祉怡",
+    "sex": "F",
+    "country": {
+      "zh": "中国",
+      "es": "China"
+    },
+    "heightCm": 171,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 2000,
+    "status": "active",
+    "retiredYear": null,
+    "style": "allround",
+    "highlights": {
+      "zh": "2026年全英公开赛冠军（决赛击败安洗莹）；2026年世锦赛铜牌；两届亚锦赛冠军；最高世界第二",
+      "es": "Campeona del All England 2026 (venció en la final a An Se-young); bronce en el Mundial 2026; campeona del Campeonato de Asia en dos ocasiones; número 2 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "攻守均衡，早年被BWF评价打法与陈雨菲相似，拉吊稳健、失误少；比赛韧性极强，2026年世锦赛在抽筋情况下仍苦战88分钟击败辛杜，同年全英赛决赛终结对安洗莹的连败。",
+      "es": "Con un buen equilibrio entre ataque y defensa, en sus primeros años la BWF la comparó con Chen Yufei por su estilo: un juego de clear y dejada sólido y con pocos errores. Tiene una gran resistencia mental: en el Mundial de 2026, pese a sufrir calambres, ganó a P. V. Sindhu tras 88 minutos de batalla, y ese mismo año, en la final del All England, cortó su racha de derrotas ante An Se-young."
+    }
+  },
+  {
+    "id": "akane-yamaguchi",
+    "nameEn": "Akane Yamaguchi",
+    "nameZh": "山口茜",
+    "sex": "F",
+    "country": {
+      "zh": "日本",
+      "es": "Japón"
+    },
+    "heightCm": 156,
+    "weightKg": 55,
+    "hand": "R",
+    "birthYear": 1997,
+    "status": "active",
+    "retiredYear": null,
+    "style": "speed",
+    "highlights": {
+      "zh": "2021、2022、2025年三届世锦赛冠军；2026年世锦赛亚军；前世界第一",
+      "es": "Campeona del Mundial en 2021, 2022 y 2025; subcampeona del Mundial 2026; ex número 1 del mundo."
+    },
+    "desc": {
+      "zh": "身高仅156cm，她自己说正因为个子不高，所以格外重视速度和移动；场上启动快、覆盖广，本人把“有攻击性的打法”列为看点，同时相持很有耐心、失误少，常以快节奏压制高个对手。",
+      "es": "Con solo 1,56 m, ella misma dice que precisamente por no ser alta cuida especialmente la velocidad y el desplazamiento; en pista arranca rápido y cubre mucho terreno, y ella misma destaca «un juego agresivo» como su gran atractivo. Además es muy paciente en los intercambios y comete pocos errores, y suele dominar a rivales más altas con un ritmo rápido."
+    }
+  },
+  {
+    "id": "chen-yufei",
+    "nameEn": "Chen Yufei",
+    "nameZh": "陈雨菲",
+    "sex": "F",
+    "country": {
+      "zh": "中国",
+      "es": "China"
+    },
+    "heightCm": 171,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 1998,
+    "status": "active",
+    "retiredYear": null,
+    "style": "control",
+    "highlights": {
+      "zh": "2020年东京奥运会女单金牌；2019年年终总决赛冠军；前世界第一；五枚世锦赛奖牌",
+      "es": "Oro en individual femenino en los Juegos Olímpicos de Tokio 2020; campeona de las Finales de fin de temporada 2019; ex número 1 del mundo; cinco medallas en el Mundial."
+    },
+    "desc": {
+      "zh": "典型的控制型选手，BWF形容她“快速、稳定、精准”，擅长用四方拉吊和高质量回球把对手拖入长回合，失误少、心理稳定；一锤定音的进攻能力相对一般，面对高强度进攻型对手时较难快速得分。",
+      "es": "Jugadora de control por excelencia: la BWF la describe como «rápida, estable y precisa», y sabe mover al rival a las cuatro esquinas con devoluciones de gran calidad para meterlo en intercambios largos, con pocos errores y mucha estabilidad mental. Su capacidad para rematar un punto de un solo golpe es más bien discreta, y le cuesta anotar rápido ante rivales de ataque muy intenso."
+    }
+  },
+  {
+    "id": "ratchanok-intanon",
+    "nameEn": "Ratchanok Intanon",
+    "nameZh": "因达农",
+    "sex": "F",
+    "country": {
+      "zh": "泰国",
+      "es": "Tailandia"
+    },
+    "heightCm": 169,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 1995,
+    "status": "active",
+    "retiredYear": null,
+    "style": "net",
+    "highlights": {
+      "zh": "2013年世锦赛冠军（史上最年轻的女单世界冠军）；三届世青赛冠军；前世界第一",
+      "es": "Campeona del Mundial 2013 (la campeona mundial más joven de la historia en individual femenino); campeona mundial junior en tres ocasiones; ex número 1 del mundo."
+    },
+    "desc": {
+      "zh": "以出色的手腕控制和球感著称，击球动作一致性高，网前搓勾和后场劈吊的假动作极具迷惑性，能轻松调动对手；18岁即成为史上最年轻的世锦赛女单冠军。比赛发挥偶有起伏，伤病也曾影响状态。",
+      "es": "Conocida por un control de muñeca y un toque de volante excelentes, con una técnica de golpeo muy consistente; sus fintas con la red con efecto, la red cruzada y la dejada cortada desde el fondo son muy engañosas y le permiten mover al rival con facilidad. Con solo 18 años se convirtió en la campeona mundial más joven de la historia en individual femenino. Su rendimiento en los partidos ha sido a veces irregular, y las lesiones también han afectado a su nivel."
+    }
+  },
+  {
+    "id": "putri-kusuma-wardani",
+    "nameEn": "Putri Kusuma Wardani",
+    "nameZh": "普特里·库苏马·瓦尔达尼",
+    "sex": "F",
+    "country": {
+      "zh": "印尼",
+      "es": "Indonesia"
+    },
+    "heightCm": 170,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 2002,
+    "status": "active",
+    "retiredYear": null,
+    "style": "allround",
+    "highlights": {
+      "zh": "2025年世锦赛铜牌；最高世界第六（2025年12月）",
+      "es": "Bronce en el Mundial 2025; número 6 del mundo en su mejor posición (diciembre de 2025)."
+    },
+    "desc": {
+      "zh": "印尼女单新一代主力，身高约170cm，BWF早年报道形容她在相持中打得潇洒而有力量；2025年世锦赛八强战击败前世界冠军辛杜，收获个人首枚世锦赛奖牌，排名随后升至世界第六。",
+      "es": "Nueva referencia del individual femenino indonesio, con cerca de 1,70 m; en reportajes anteriores la BWF la describió como una jugadora que juega los intercambios con soltura y potencia. En cuartos de final del Mundial 2025 venció a la excampeona mundial P. V. Sindhu, logrando su primera medalla mundialista, y poco después subió al número 6 del mundo."
+    }
+  },
+  {
+    "id": "tomoka-miyazaki",
+    "nameEn": "Tomoka Miyazaki",
+    "nameZh": "宫崎友花",
+    "sex": "F",
+    "country": {
+      "zh": "日本",
+      "es": "Japón"
+    },
+    "heightCm": 165,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 2006,
+    "status": "active",
+    "retiredYear": null,
+    "style": "control",
+    "highlights": {
+      "zh": "2022年世青赛女单冠军；最高世界第六（2025年6月）；2026年亚运会女团银牌成员",
+      "es": "Campeona mundial junior 2022 en individual femenino; número 6 del mundo en su mejor posición (junio de 2025); integrante del equipo que logró la plata por equipos femeninos en los Juegos Asiáticos 2026."
+    },
+    "desc": {
+      "zh": "身材纤细但手腕功夫出色，BWF评价她凭细腻的手上动作控制住比自己更强壮的对手；擅长用落点和节奏调动对手，本人把“永不放弃的精神”列为最大看点，力量对抗仍有提升空间。",
+      "es": "De complexión menuda pero con un manejo de muñeca excelente, la BWF valora que controla con sus manos finas a rivales físicamente más fuertes que ella; sabe mover al rival jugando con los puntos de caída y el ritmo, y ella misma señala «un espíritu que nunca se rinde» como su mayor virtud. Su capacidad para el enfrentamiento de fuerza todavía tiene margen de mejora."
+    }
+  },
+  {
+    "id": "pornpawee-chochuwong",
+    "nameEn": "Pornpawee Chochuwong",
+    "nameZh": "乔楚翁",
+    "sex": "F",
+    "country": {
+      "zh": "泰国",
+      "es": "Tailandia"
+    },
+    "heightCm": 170,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 1998,
+    "status": "active",
+    "retiredYear": null,
+    "style": "control",
+    "highlights": {
+      "zh": "2026年世锦赛铜牌（1/8决赛逆转陈雨菲）；最高世界第六",
+      "es": "Bronce en el Mundial 2026 (remontó a Chen Yufei en octavos de final); número 6 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "打法以耐心和调动为主，擅长把对手从一个角落拉到另一个角落，在长回合中等待机会；韧性很强，2026年世锦赛决胜局6-13落后仍逆转陈雨菲，最终夺得铜牌。伤病曾多次打断她的上升势头。",
+      "es": "Su juego se basa en la paciencia y en mover al rival de una esquina a otra, esperando su oportunidad en los intercambios largos. Tiene una gran capacidad de resistencia mental: en el Mundial de 2026, tras ir perdiendo 6-13 en el set decisivo, remontó a Chen Yufei y acabó logrando el bronce. Las lesiones han interrumpido su progresión en varias ocasiones."
+    }
+  },
+  {
+    "id": "han-yue",
+    "nameEn": "Han Yue",
+    "nameZh": "韩悦",
+    "sex": "F",
+    "country": {
+      "zh": "中国",
+      "es": "China"
+    },
+    "heightCm": 168,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 1999,
+    "status": "active",
+    "retiredYear": null,
+    "style": "control",
+    "highlights": {
+      "zh": "最高世界第三（2025年3月）；2025年亚锦赛银牌；第31届世界大学生夏季运动会（成都，2023年举行）女单金牌；2026年亚运会女团金牌成员",
+      "es": "Número 3 del mundo en su mejor posición (marzo de 2025); plata en el Campeonato de Asia 2025; oro en individual femenino en la XXXI Universiada de Verano (Chengdu, celebrada en 2023); integrante del equipo campeón por equipos femeninos en los Juegos Asiáticos 2026."
+    },
+    "desc": {
+      "zh": "身高168cm，打法稳健，以扎实的拉吊和防守韧性为主要特点，善于通过多拍相持积累优势；2025年排名升至世界第三并获亚锦赛银牌，2026年随中国队夺得亚运会女团金牌，世锦赛打进八强（负于安洗莹）。",
+      "es": "Con 1,68 m, tiene un juego sólido basado en un buen clear y dejada y en una defensa resistente, y sabe acumular ventaja en los intercambios largos. En 2025 subió al número 3 del mundo y logró la plata en el Campeonato de Asia; en 2026 ganó el oro por equipos femeninos en los Juegos Asiáticos con el equipo chino y llegó a cuartos de final del Mundial (donde cayó ante An Se-young)."
+    }
+  },
+  {
+    "id": "nozomi-okuhara",
+    "nameEn": "Nozomi Okuhara",
+    "nameZh": "奥原希望",
+    "sex": "F",
+    "country": {
+      "zh": "日本",
+      "es": "Japón"
+    },
+    "heightCm": 156,
+    "weightKg": 52,
+    "hand": "R",
+    "birthYear": 1995,
+    "status": "active",
+    "retiredYear": null,
+    "style": "counter",
+    "highlights": {
+      "zh": "2017年世锦赛冠军；2016年里约奥运会铜牌；前世界第一",
+      "es": "Campeona del Mundial 2017; bronce en los Juegos Olímpicos de Río 2016; ex número 1 del mundo."
+    },
+    "desc": {
+      "zh": "身高156cm，以速度、敏捷和耐力著称，后场进攻威胁不大，常用网前控制把对手吸到前场再抓后场空当；擅长打拉锯战消耗高大的进攻型对手，但面对连续重杀时比较吃力。",
+      "es": "Con 1,56 m, es conocida por su velocidad, su agilidad y su resistencia; su ataque desde el fondo no es muy amenazante, así que suele controlar la red para atraer al rival hacia delante y luego aprovechar los huecos en el fondo de pista. Se le da bien desgastar en partidos largos a rivales altas y ofensivas, aunque le cuesta más frente a remates potentes y continuos."
+    }
+  },
+  {
+    "id": "pv-sindhu",
+    "nameEn": "P. V. Sindhu",
+    "nameZh": "辛杜",
+    "sex": "F",
+    "country": {
+      "zh": "印度",
+      "es": "India"
+    },
+    "heightCm": 179,
+    "weightKg": 65,
+    "hand": "R",
+    "birthYear": 1995,
+    "status": "active",
+    "retiredYear": null,
+    "style": "attack",
+    "highlights": {
+      "zh": "2016年里约奥运会银牌、2020年东京奥运会铜牌；2019年世锦赛冠军；五枚世锦赛奖牌；2026年日本公开赛（超级750）冠军",
+      "es": "Plata en los Juegos Olímpicos de Río 2016 y bronce en los de Tokio 2020; campeona del Mundial 2019; cinco medallas en el Mundial; campeona del Abierto de Japón 2026 (Super 750)."
+    },
+    "desc": {
+      "zh": "身高179cm、臂展长，以力量型进攻著称，后场杀球下压角度陡、网前扑杀凶狠，能用连续进攻迫使对手被动，BWF称她的进攻“强大有力”；面对速度快、落点刁的技术型对手时有时会被克制。",
+      "es": "Con 1,79 m y una gran envergadura, es conocida por un ataque muy potente: remata desde el fondo con un ángulo muy cerrado y mata en la red con dureza, y su ataque continuo obliga al rival a jugar a la defensiva; la BWF califica su ataque de «fuerte y contundente». Ante rivales técnicas, rápidas y de colocación difícil, a veces se ve neutralizada."
+    }
+  },
+  {
+    "id": "kim-ga-eun",
+    "nameEn": "Kim Ga-eun",
+    "nameZh": "金佳恩",
+    "sex": "F",
+    "country": {
+      "zh": "韩国",
+      "es": "Corea del Sur"
+    },
+    "heightCm": 172,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 1998,
+    "status": "active",
+    "retiredYear": null,
+    "style": "attack",
+    "highlights": {
+      "zh": "2022、2026年尤伯杯冠军成员（2026年决赛战胜陈雨菲）；最高世界第12",
+      "es": "Integrante del equipo campeón de la Copa Uber en 2022 y 2026 (en la final de 2026 venció a Chen Yufei); número 12 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "身高172cm，BWF形容她善于利用身高和陡峭的下压进攻让对手疲于奔命；2026年尤伯杯决赛以出色的斗志、身体素质和控制力直落两局击败陈雨菲，助韩国夺冠。稳定性与顶尖选手仍有差距。",
+      "es": "Con 1,72 m, la BWF la describe como una jugadora que aprovecha bien su altura y sus remates de ángulo muy cerrado para agotar al rival. En la final de la Copa Uber 2026 venció a Chen Yufei en dos sets gracias a su gran determinación, su condición física y su control, ayudando a Corea del Sur a ganar el título. Su regularidad todavía está por debajo de la de las mejores jugadoras."
+    }
+  },
+  {
+    "id": "line-christophersen",
+    "nameEn": "Line Christophersen",
+    "nameZh": "莱恩·克里斯托弗森",
+    "sex": "F",
+    "country": {
+      "zh": "丹麦",
+      "es": "Dinamarca"
+    },
+    "heightCm": 176,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 2000,
+    "status": "active",
+    "retiredYear": null,
+    "style": "attack",
+    "highlights": {
+      "zh": "2021年欧锦赛女单银牌；2018年欧青赛冠军；2026年8月升至个人最高世界第13",
+      "es": "Plata en individual femenino en el Campeonato de Europa 2021; campeona del Campeonato de Europa junior 2018; en agosto de 2026 alcanzó su mejor posición, el número 13 del mundo."
+    },
+    "desc": {
+      "zh": "身高176cm的丹麦高个选手，以主动进攻为主，BWF称赞她拥有“致命的杀球”；但网前处理时有非受迫性失误（BWF报道2021年西班牙大师赛决赛）。2026年世锦赛打进八强。",
+      "es": "Danesa alta, de 1,76 m, que apuesta sobre todo por el ataque; la BWF elogia que tiene «un remate letal». Sin embargo, en la red comete a veces errores no forzados (la BWF lo señaló en la final del Masters de España 2021). En el Mundial de 2026 llegó a cuartos de final."
+    }
+  },
+  {
+    "id": "michelle-li",
+    "nameEn": "Michelle Li",
+    "nameZh": "李文珊",
+    "sex": "F",
+    "country": {
+      "zh": "加拿大",
+      "es": "Canadá"
+    },
+    "heightCm": 173,
+    "weightKg": 66,
+    "hand": "R",
+    "birthYear": 1991,
+    "status": "active",
+    "retiredYear": null,
+    "style": "control",
+    "highlights": {
+      "zh": "2014年英联邦运动会女单金牌；三届泛美运动会女单冠军（2011、2015、2019）；2026年第二次打进世锦赛八强",
+      "es": "Oro en individual femenino en los Juegos de la Commonwealth 2014; campeona de individual femenino en los Juegos Panamericanos en tres ocasiones (2011, 2015 y 2019); en 2026 llegó por segunda vez a cuartos de final del Mundial."
+    },
+    "desc": {
+      "zh": "加拿大羽毛球的开拓者，比赛经验丰富、韧性极强，曾多次从可能终结职业生涯的伤病（包括跟腱伤）中复出；34岁仍在2026年世锦赛第二次打进八强，途中曾挽救两个赛点险胜印度小将。",
+      "es": "Pionera del bádminton canadiense, con una experiencia enorme y una gran capacidad de resistencia mental; se ha recuperado varias veces de lesiones que podrían haber acabado con su carrera, incluida una lesión de tendón de Aquiles. Con 34 años, en el Mundial de 2026 volvió a llegar a cuartos de final por segunda vez, salvando dos bolas de partido en el camino para ganar por poco a una joven india."
+    }
+  },
+  {
+    "id": "mia-blichfeldt",
+    "nameEn": "Mia Blichfeldt",
+    "nameZh": "米娅·布里西费尔特",
+    "sex": "F",
+    "country": {
+      "zh": "丹麦",
+      "es": "Dinamarca"
+    },
+    "heightCm": 172,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 1997,
+    "status": "active",
+    "retiredYear": null,
+    "style": "attack",
+    "highlights": {
+      "zh": "2019年欧洲运动会女单金牌；2015年欧青赛冠军；最高世界第11",
+      "es": "Oro en individual femenino en los Juegos Europeos 2019; campeona del Campeonato de Europa junior 2015; número 11 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "典型的欧洲进攻型选手，打法积极主动，BWF报道称力量训练为她的进攻增添了新的冲击力，多次击败顶尖高手；激进打法与稳定性之间需要平衡，她本人也一直在努力用冷静的心态驾驭进攻。",
+      "es": "Jugadora ofensiva europea por excelencia, con un juego decidido e iniciativa constante; según la BWF, el trabajo de fuerza ha dado a su ataque un impacto renovado, y ha vencido a varias jugadoras de primer nivel. Necesita equilibrar su juego agresivo con la regularidad, y ella misma trabaja continuamente para manejar su ataque con más calma."
+    }
+  },
+  {
+    "id": "busanan-ongbamrungphan",
+    "nameEn": "Busanan Ongbamrungphan",
+    "nameZh": "布萨南",
+    "sex": "F",
+    "country": {
+      "zh": "泰国",
+      "es": "Tailandia"
+    },
+    "heightCm": 168,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 1996,
+    "status": "active",
+    "retiredYear": null,
+    "style": "counter",
+    "highlights": {
+      "zh": "2015年东南亚运动会女单金牌；2014年青奥会女单铜牌；最高世界第九",
+      "es": "Oro en individual femenino en los Juegos del Sudeste Asiático 2015; bronce en individual femenino en los Juegos Olímpicos de la Juventud 2014; número 9 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "BWF评价她的打法不像同胞因达农那样华丽，而是依靠充沛的体能和永不言弃的态度弥补，善于用细小的假动作和持续的回合消耗对手，属于耐打型选手，没有特别突出的招牌技术。",
+      "es": "La BWF opina que su juego no es tan vistoso como el de su compatriota Ratchanok Intanon, sino que compensa con una gran resistencia física y una actitud de no rendirse nunca; usa pequeñas fintas e intercambios prolongados para desgastar al rival. Es una jugadora de resistencia, sin ningún golpe característico especialmente destacado."
+    }
+  },
+  {
+    "id": "tai-tzu-ying",
+    "nameEn": "Tai Tzu-ying",
+    "nameZh": "戴资颖",
+    "sex": "F",
+    "country": {
+      "zh": "中国台北",
+      "es": "China Taipéi"
+    },
+    "heightCm": 163,
+    "weightKg": 57,
+    "hand": "R",
+    "birthYear": 1994,
+    "status": "retired",
+    "retiredYear": 2025,
+    "style": "net",
+    "highlights": {
+      "zh": "2020年东京奥运会银牌；累计214周世界第一；四届年终总决赛冠军、三届全英公开赛冠军",
+      "es": "Plata en los Juegos Olímpicos de Tokio 2020; 214 semanas acumuladas como número 1 del mundo; campeona de las Finales de fin de temporada en cuatro ocasiones y del All England en tres ocasiones."
+    },
+    "desc": {
+      "zh": "以天才般的手感和假动作著称，球路多变、步伐轻快，击球前动作隐蔽，网前勾对角、后场劈吊和各种骗招常让对手原地判断失误；打法偏进攻、随性而难以预测，被动时反手摆脱能力也很强。",
+      "es": "Conocida por un toque de volante y unas fintas de genio, con trayectorias muy variadas y un footwork ligero; oculta la intención antes de golpear, y su red cruzada, su dejada cortada desde el fondo y todo tipo de engaños suelen dejar al rival clavado en el sitio. Su estilo es ofensivo, espontáneo y difícil de predecir, y también tiene una gran capacidad para salir de apuros con golpes de revés cuando está en apuros."
+    }
+  },
+  {
+    "id": "carolina-marin",
+    "nameEn": "Carolina Marín",
+    "nameZh": "马林",
+    "sex": "F",
+    "country": {
+      "zh": "西班牙",
+      "es": "España"
+    },
+    "heightCm": 172,
+    "weightKg": 65,
+    "hand": "L",
+    "birthYear": 1993,
+    "status": "retired",
+    "retiredYear": 2026,
+    "style": "speed",
+    "highlights": {
+      "zh": "2016年里约奥运会女单金牌；2014、2015、2018年三届世锦赛冠军；前世界第一",
+      "es": "Oro en individual femenino en los Juegos Olímpicos de Río 2016; campeona del Mundial en 2014, 2015 y 2018; ex número 1 del mundo."
+    },
+    "desc": {
+      "zh": "左手持拍，以极快的速度、强烈的侵略性和高昂的斗志著称，喜欢抢高点、提速连续进攻，网前质量高，常以呐喊施压；首位夺得奥运羽毛球金牌的非亚洲女选手，2026年3月因膝伤退役。",
+      "es": "Zurda conocida por su enorme velocidad, su agresividad y su gran garra; le gusta adelantarse para golpear arriba y subir el ritmo con un ataque continuo, tiene mucha calidad en la red y a menudo presiona con sus gritos. Fue la primera jugadora no asiática en ganar el oro olímpico en bádminton, y en marzo de 2026 se retiró por una lesión de rodilla."
+    }
+  },
+  {
+    "id": "li-xuerui",
+    "nameEn": "Li Xuerui",
+    "nameZh": "李雪芮",
+    "sex": "F",
+    "country": {
+      "zh": "中国",
+      "es": "China"
+    },
+    "heightCm": 174,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 1991,
+    "status": "retired",
+    "retiredYear": 2019,
+    "style": "attack",
+    "highlights": {
+      "zh": "2012年伦敦奥运会女单金牌；2013、2014年世锦赛银牌；累计124周世界第一",
+      "es": "Oro en individual femenino en los Juegos Olímpicos de Londres 2012; plata en el Mundial de 2013 y 2014; 124 semanas acumuladas como número 1 del mundo."
+    },
+    "desc": {
+      "zh": "BWF资料将她的风格标为“进攻型”，进攻能力强、很有杀伤力，她自己说从小和男孩一起练球，打法偏男性化、比一般女选手更凶狠；2016年里约奥运会半决赛膝盖重伤后状态大受影响。",
+      "es": "La BWF clasifica su estilo como «ofensivo»: tiene un ataque fuerte y muy contundente, y ella misma cuenta que de pequeña entrenaba con chicos, por lo que su juego es más «masculino» y agresivo que el de la mayoría de las jugadoras. Tras una grave lesión de rodilla en semifinales de los Juegos de Río 2016, su nivel se vio muy afectado."
+    }
+  },
+  {
+    "id": "wang-yihan",
+    "nameEn": "Wang Yihan",
+    "nameZh": "王仪涵",
+    "sex": "F",
+    "country": {
+      "zh": "中国",
+      "es": "China"
+    },
+    "heightCm": 178,
+    "weightKg": 65,
+    "hand": "R",
+    "birthYear": 1988,
+    "status": "retired",
+    "retiredYear": 2016,
+    "style": "control",
+    "highlights": {
+      "zh": "2011年世锦赛冠军；2012年伦敦奥运会银牌；前世界第一",
+      "es": "Campeona del Mundial 2011; plata en los Juegos Olímpicos de Londres 2012; ex número 1 del mundo."
+    },
+    "desc": {
+      "zh": "身高178cm的高个控制型选手，后场高远球和劈吊质量高，擅长依靠身高臂展控制全场、以稳健的拉吊积累优势；步伐不如小个子选手灵活，面对快速突击型对手时有时会陷入被动。",
+      "es": "Jugadora alta de control, de 1,78 m, con un clear y una dejada cortada de gran calidad desde el fondo; sabe aprovechar su altura y envergadura para dominar toda la pista y acumular ventaja con un juego de clear y dejada sólido. Su footwork no es tan ágil como el de jugadoras más bajas, y a veces se ve en apuros ante rivales rápidas y de ataque sorpresa."
+    }
+  },
+  {
+    "id": "saina-nehwal",
+    "nameEn": "Saina Nehwal",
+    "nameZh": "塞娜·内维尔",
+    "sex": "F",
+    "country": {
+      "zh": "印度",
+      "es": "India"
+    },
+    "heightCm": 165,
+    "weightKg": 65,
+    "hand": "R",
+    "birthYear": 1990,
+    "status": "retired",
+    "retiredYear": 2026,
+    "style": "attack",
+    "highlights": {
+      "zh": "2012年伦敦奥运会铜牌（印度首枚奥运羽毛球奖牌）；2015年世锦赛银牌；2015年登上世界第一",
+      "es": "Bronce en los Juegos Olímpicos de Londres 2012 (la primera medalla olímpica de bádminton para la India); plata en el Mundial 2015; número 1 del mundo en 2015."
+    },
+    "desc": {
+      "zh": "BWF资料将她的风格标为“进攻型”，以力量和积极的下压进攻为主，斗志顽强，2015年成为首位世界第一的印度女选手；后期受膝关节软骨严重退化困扰，2026年1月正式宣布退役。",
+      "es": "La BWF clasifica su estilo como «ofensivo»: basa su juego en la fuerza y en un ataque de remate decidido, con una garra tremenda, y en 2015 se convirtió en la primera jugadora india en ser número 1 del mundo. En su etapa final sufrió un grave desgaste del cartílago de rodilla, y en enero de 2026 anunció oficialmente su retirada."
+    }
+  },
+  {
+    "id": "zhang-ning",
+    "nameEn": "Zhang Ning",
+    "nameZh": "张宁",
+    "sex": "F",
+    "country": {
+      "zh": "中国",
+      "es": "China"
+    },
+    "heightCm": 175,
+    "weightKg": 65,
+    "hand": "R",
+    "birthYear": 1975,
+    "status": "retired",
+    "retiredYear": 2008,
+    "style": "control",
+    "highlights": {
+      "zh": "2004年雅典、2008年北京奥运会女单金牌（唯一卫冕的奥运女单冠军）；2003年世锦赛冠军",
+      "es": "Oro en individual femenino en los Juegos Olímpicos de Atenas 2004 y Pekín 2008 (la única campeona olímpica de individual femenino que revalidó el título); campeona del Mundial 2003."
+    },
+    "desc": {
+      "zh": "以击球稳定、假动作和持续施压著称，擅长主导回合节奏，用四方拉吊把对手调动到场地四个角落；成名较晚，却在29岁和33岁两夺奥运金牌，是唯一卫冕奥运会女单冠军的选手。",
+      "es": "Conocida por la solidez de sus golpes, sus fintas y una presión constante, dominaba el ritmo del intercambio y sabía mover al rival a las cuatro esquinas de la pista. Alcanzó la cima tarde, pero ganó el oro olímpico a los 29 y a los 33 años, siendo la única jugadora que ha revalidado el título olímpico de individual femenino."
+    }
+  },
+  {
+    "id": "xie-xingfang",
+    "nameEn": "Xie Xingfang",
+    "nameZh": "谢杏芳",
+    "sex": "F",
+    "country": {
+      "zh": "中国",
+      "es": "China"
+    },
+    "heightCm": 178,
+    "weightKg": 60,
+    "hand": "R",
+    "birthYear": 1981,
+    "status": "retired",
+    "retiredYear": 2009,
+    "style": "attack",
+    "highlights": {
+      "zh": "2005、2006年世锦赛冠军；2008年北京奥运会银牌；前世界第一",
+      "es": "Campeona del Mundial en 2005 y 2006; plata en los Juegos Olímpicos de Pekín 2008; ex número 1 del mundo."
+    },
+    "desc": {
+      "zh": "身高178cm、体重约60kg的高瘦型选手，依靠身高在后场抢高点压制，杀球和劈吊下压角度好，与张宁是当时统治女单的两大高手；北京奥运会后受伤病困扰，2009年世锦赛获银牌，同年全运会后退役。",
+      "es": "Jugadora alta y delgada, de 1,78 m y unos 60 kg, que aprovechaba su altura para dominar desde el fondo golpeando arriba; su remate y su dejada cortada tenían buen ángulo de caída, y junto con Zhang Ning era una de las dos grandes dominadoras del individual femenino de su época. Tras los Juegos de Pekín la persiguieron las lesiones; obtuvo la plata en el Mundial de 2009 y se retiró ese mismo año, tras los Juegos Nacionales de China."
+    }
+  },
+  {
+    "id": "he-bingjiao",
+    "nameEn": "He Bingjiao",
+    "nameZh": "何冰娇",
+    "sex": "F",
+    "country": {
+      "zh": "中国",
+      "es": "China"
+    },
+    "heightCm": 169,
+    "weightKg": null,
+    "hand": "L",
+    "birthYear": 1997,
+    "status": "retired",
+    "retiredYear": 2024,
+    "style": "control",
+    "highlights": {
+      "zh": "2024年巴黎奥运会女单银牌；2018、2021年世锦赛铜牌；最高世界第五",
+      "es": "Plata en individual femenino en los Juegos Olímpicos de París 2024; bronce en el Mundial de 2018 y 2021; número 5 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "左手持拍，以细腻的控制和较好的防守见长，善于利用左手的特殊线路调动对手，网前手法和后场劈吊有一定欺骗性；进攻火力不算突出，更多依靠相持中的耐心取胜。巴黎奥运会后退出国际赛场。",
+      "es": "Zurda que destaca por un control fino y una buena defensa, y que sabe aprovechar las trayectorias particulares de su mano zurda para mover al rival; su juego de red y su dejada cortada desde el fondo tienen cierto componente engañoso. Su potencia de ataque no es lo más destacado, y gana sobre todo gracias a la paciencia en los intercambios largos. Se retiró de la competición internacional tras los Juegos de París."
+    }
+  },
+  {
+    "id": "susi-susanti",
+    "nameEn": "Susi Susanti",
+    "nameZh": "王莲香",
+    "sex": "F",
+    "country": {
+      "zh": "印尼",
+      "es": "Indonesia"
+    },
+    "heightCm": 162,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 1971,
+    "status": "retired",
+    "retiredYear": 1998,
+    "style": "counter",
+    "highlights": {
+      "zh": "1992年巴塞罗那奥运会女单金牌（印尼首枚奥运金牌）；1993年世锦赛冠军；1996年奥运会铜牌",
+      "es": "Oro en individual femenino en los Juegos Olímpicos de Barcelona 1992 (la primera medalla de oro olímpica de Indonesia); campeona del Mundial 1993; bronce olímpico en 1996."
+    },
+    "desc": {
+      "zh": "个子不高，却以轻快优雅的移动和漂亮的击球技术著称，是极其耐打的防守型选手，喜欢通过长回合消耗对手体力、诱使对手失误，与同时代多数女选手的进攻打法形成鲜明对比。",
+      "es": "Pese a no ser alta, era conocida por un desplazamiento ligero y elegante y una técnica de golpeo preciosa; era una jugadora defensiva enormemente resistente, a la que le gustaba desgastar físicamente al rival en intercambios largos e inducirlo al error, en marcado contraste con el juego ofensivo de la mayoría de las jugadoras de su época."
+    }
+  }
+]

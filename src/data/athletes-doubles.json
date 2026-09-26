@@ -1,0 +1,1694 @@
+[
+  {
+    "id": "md-kim-won-ho-seo-seung-jae",
+    "event": "MD",
+    "pairZh": "金元浩/徐承宰",
+    "pairEn": "Kim Won-ho / Seo Seung-jae",
+    "country": {
+      "zh": "韩国",
+      "es": "Corea del Sur"
+    },
+    "status": "active",
+    "highlights": {
+      "zh": "2025年世锦赛男双冠军、2025年世界羽联总决赛冠军；2025赛季单季11冠创男双纪录；2025、2026年全英赛两连冠；2026年亚锦赛冠军、世锦赛铜牌；现世界第一",
+      "es": "Campeones del Mundial de dobles masculinos 2025 y de las Finales de la BWF 2025; 11 títulos en la temporada 2025, un récord en dobles masculinos; bicampeones del All England en 2025 y 2026; campeones del Campeonato de Asia 2026 y bronce en el Mundial 2026; número 1 del mundo en la actualidad."
+    },
+    "style": {
+      "zh": "两人前后场都能打到世界顶级，没有固定的“网前手/后场手”，轮转非常流畅。进攻时连续下压不给对手喘息，防守严密得像一张网，能在多拍中由守转攻；专注力极强，先丢一局也常能逆转。",
+      "es": "Los dos juegan tanto en la red como en el fondo de pista a nivel mundial, sin un reparto fijo de «hombre de red» y «hombre de fondo», y su rotación es extremadamente fluida. En ataque encadenan golpes que no dejan respirar al rival, y en defensa forman una red muy tupida capaz de pasar de la defensa al ataque en intercambios largos; tienen una concentración enorme, y suelen remontar incluso después de perder el primer set."
+    },
+    "players": [
+      {
+        "nameEn": "Kim Won-ho",
+        "nameZh": "金元浩",
+        "sex": "M",
+        "heightCm": 184,
+        "weightKg": null,
+        "hand": "R",
+        "position": "both",
+        "role": {
+          "zh": "技术型双打手，网前手感细腻、平抽快挡速度快，防守覆盖面大；轮转中既能封网也能后场连续下压，是组合节奏的稳定器。",
+          "es": "Jugador de dobles muy técnico, con un toque de red fino y un drive y bloqueo muy rápidos, además de una gran cobertura defensiva; en la rotación es capaz tanto de cerrar la red como de encadenar remates desde el fondo, siendo el estabilizador del ritmo de la pareja."
+        }
+      },
+      {
+        "nameEn": "Seo Seung-jae",
+        "nameZh": "徐承宰",
+        "sex": "M",
+        "heightCm": 182,
+        "weightKg": null,
+        "hand": "L",
+        "position": "both",
+        "role": {
+          "zh": "左手进攻型选手，后场起跳重杀角度刁钻，网前截击也快；2023年曾在同一届世锦赛拿下男双、混双两枚金牌，大赛经验极其丰富。",
+          "es": "Zurdo de estilo ofensivo, con remates en salto de gran potencia y ángulo difícil desde el fondo, además de una intercepción muy rápida en la red; en 2023 llegó a ganar el oro en dobles masculinos y en dobles mixtos en el mismo Mundial, por lo que cuenta con una experiencia enorme en grandes torneos."
+        }
+      }
+    ]
+  },
+  {
+    "id": "md-fajar-alfian-muhammad-shohibul-fikri",
+    "event": "MD",
+    "pairZh": "阿尔菲安/菲克里",
+    "pairEn": "Fajar Alfian / Muhammad Shohibul Fikri",
+    "country": {
+      "zh": "印尼",
+      "es": "Indonesia"
+    },
+    "status": "active",
+    "highlights": {
+      "zh": "2025、2026年中国公开赛（超级1000）两连冠；2026年日本公开赛冠军、新加坡公开赛亚军、亚锦赛铜牌；2026年6月升至世界第二（现世界第二）",
+      "es": "Bicampeones del Abierto de China (Super 1000) en 2025 y 2026; campeones del Abierto de Japón 2026, subcampeones del Abierto de Singapur y bronce en el Campeonato de Asia 2026; subieron al número 2 del mundo en junio de 2026 (número 2 del mundo en la actualidad)."
+    },
+    "style": {
+      "zh": "两人原本都是前场型选手，组合后前后场分配接近五五开：谁在网前顺手谁就上前，另一人退到后场补位。打法以快速平抽、前场抢点和连续压制为主，默契来自多年同队训练，是“双前场型”组合的代表。",
+      "es": "Los dos eran originalmente jugadores de red, así que en pareja se reparten la red y el fondo casi a partes iguales: el que esté más cómodo en la red se adelanta, y el otro retrocede a cubrir el fondo. Su juego se basa en un drive rápido, en robar puntos en la red y en una presión continua; su compenetración viene de muchos años entrenando en el mismo equipo, y son el ejemplo de pareja de «doble jugador de red»."
+    },
+    "players": [
+      {
+        "nameEn": "Fajar Alfian",
+        "nameZh": "法贾·阿尔菲安",
+        "sex": "M",
+        "heightCm": 177,
+        "weightKg": null,
+        "hand": "R",
+        "position": "both",
+        "role": {
+          "zh": "经验丰富的前场型老将，曾与阿迪安托登顶世界第一；网前抢点、封网和组织能力强，与菲克里搭档后也要更多承担后场下压。",
+          "es": "Veterano de red con mucha experiencia, que ya fue número 1 del mundo junto a Aidianto; tiene una gran capacidad para robar puntos en la red, cerrar la red y organizar el juego, y desde que hace pareja con Fikri también asume más remates desde el fondo."
+        }
+      },
+      {
+        "nameEn": "Muhammad Shohibul Fikri",
+        "nameZh": "穆罕默德·肖希布·菲克里",
+        "sex": "M",
+        "heightCm": 176,
+        "weightKg": null,
+        "hand": "R",
+        "position": "both",
+        "role": {
+          "zh": "前后场覆盖面都很大的速度型选手，前场抢网积极，退到后场也能连续进攻；与阿尔菲安换位频繁，默契靠临场阅读。",
+          "es": "Jugador rápido con una gran cobertura tanto en la red como en el fondo; se adelanta con decisión a disputar la red, y también puede atacar de forma continua cuando retrocede al fondo. Cambia de posición con Alfian muy a menudo, y su compenetración se apoya en la lectura del juego en el momento."
+        }
+      }
+    ]
+  },
+  {
+    "id": "md-liang-weikeng-wang-chang",
+    "event": "MD",
+    "pairZh": "梁伟铿/王昶",
+    "pairEn": "Liang Weikeng / Wang Chang",
+    "country": {
+      "zh": "中国",
+      "es": "China"
+    },
+    "status": "active",
+    "highlights": {
+      "zh": "2026年世锦赛男双冠军；2024年巴黎奥运会男双银牌；2023年世锦赛铜牌；2023年10月登顶世界第一；2025年世界羽联总决赛亚军",
+      "es": "Campeones del Mundial de dobles masculinos 2026; plata en dobles masculinos en los Juegos Olímpicos de París 2024; bronce en el Mundial 2023; número 1 del mundo desde octubre de 2023; subcampeones de las Finales de la BWF 2025."
+    },
+    "style": {
+      "zh": "典型的“后杀前封”组合：梁伟铿在后场以角度陡的重杀持续施压，王昶在网前靠灵活脚步和手感封网、抢点，把对手的每一次起球都变成连续进攻。两人都是00后，轮转换位积极，越打越放得开。",
+      "es": "Pareja típica de «remate atrás, red delante»: Liang Weikeng presiona sin descanso desde el fondo con remates potentes de ángulo muy cerrado, mientras Wang Chang cierra la red y roba puntos con un footwork ágil y buen toque, convirtiendo cada globo del rival en un ataque continuo. Ambos nacidos después del año 2000, rotan y cambian de posición con mucha iniciativa, y juegan cada vez con más soltura."
+    },
+    "players": [
+      {
+        "nameEn": "Liang Weikeng",
+        "nameZh": "梁伟铿",
+        "sex": "M",
+        "heightCm": 175,
+        "weightKg": null,
+        "hand": "R",
+        "position": "back",
+        "role": {
+          "zh": "后场火力输出点，起跳重杀角度陡、落点狠，能连续下压压住对手站位；被拉出进攻节奏时防守偶有波动，状态好时进攻持续性极强。",
+          "es": "El foco de potencia desde el fondo de pista: sus remates en salto tienen un ángulo muy cerrado y un punto de caída durísimo, capaces de encadenar golpes que fijan la posición del rival; cuando lo sacan de su ritmo ofensivo su defensa flaquea alguna vez, pero cuando está en forma su ataque es extremadamente sostenido."
+        }
+      },
+      {
+        "nameEn": "Wang Chang",
+        "nameZh": "王昶",
+        "sex": "M",
+        "heightCm": 181,
+        "weightKg": null,
+        "hand": "R",
+        "position": "front",
+        "role": {
+          "zh": "网前“节奏发动机”，手感细腻、封网严密，发接发和前三拍主动性强，擅长在平抽快挡中抢到主动，为搭档创造后场杀球机会。",
+          "es": "El «motor del ritmo» en la red: tiene un toque fino y cierra la red con mucha solidez, es muy activo en el saque, la resta y los tres primeros golpes, y sabe tomar la iniciativa en el drive y bloqueo para crear ocasiones de remate a su compañero desde el fondo."
+        }
+      }
+    ]
+  },
+  {
+    "id": "md-aaron-chia-soh-wooi-yik",
+    "event": "MD",
+    "pairZh": "谢定峰/苏伟译",
+    "pairEn": "Aaron Chia / Soh Wooi Yik",
+    "country": {
+      "zh": "马来西亚",
+      "es": "Malasia"
+    },
+    "status": "active",
+    "highlights": {
+      "zh": "2022年世锦赛男双冠军（马来西亚首个世锦赛冠军）；2020东京、2024巴黎两届奥运会铜牌；2026年世锦赛银牌；2025年亚锦赛冠军",
+      "es": "Campeones del Mundial de dobles masculinos 2022 (el primer título mundial de Malasia); bronce en los Juegos Olímpicos de Tokio 2020 y de París 2024; subcampeones del Mundial 2026; campeones del Campeonato de Asia 2025."
+    },
+    "style": {
+      "zh": "身材反差明显的组合：身高168厘米的谢定峰反而主打后场进攻，185厘米的苏伟译在前场做组织者，负责网前控制和创造机会。两人防守扎实，能靠高质量防守把比赛拖入多拍再反击，大赛经验丰富。",
+      "es": "Pareja con un contraste físico llamativo: Aaron Chia, de 1,68 m, es precisamente quien ataca desde el fondo, mientras que Soh Wooi Yik, de 1,85 m, organiza el juego en la red, encargándose del control de la red y de crear ocasiones. Su defensa es muy sólida, capaz de alargar el partido en intercambios largos con una defensa de calidad antes de contraatacar, y cuentan con mucha experiencia en grandes torneos."
+    },
+    "players": [
+      {
+        "nameEn": "Aaron Chia",
+        "nameZh": "谢定峰",
+        "sex": "M",
+        "heightCm": 168,
+        "weightKg": null,
+        "hand": "R",
+        "position": "back",
+        "role": {
+          "zh": "身高仅168厘米却担任后场主攻，靠启动快、弹跳好和连续杀球制造压力；防守也很硬朗，是“个子不高也能打后场”的代表。",
+          "es": "Con solo 1,68 m, es el atacante principal desde el fondo de pista: genera presión con una arrancada rápida, buen salto y remates continuos; su defensa también es muy sólida, y es el ejemplo de que se puede jugar el fondo sin ser alto."
+        }
+      },
+      {
+        "nameEn": "Soh Wooi Yik",
+        "nameZh": "苏伟译",
+        "sex": "M",
+        "heightCm": 185,
+        "weightKg": null,
+        "hand": "R",
+        "position": "front",
+        "role": {
+          "zh": "高个子前场组织者，网前控制、推扑和线路变化好，负责创造机会；近年也加强了后场进攻，可根据需要与搭档换位。",
+          "es": "Organizador alto en la red, con buen control de la red, empuje y matar en la red, y buenos cambios de trayectoria; se encarga de crear ocasiones. En los últimos años también ha reforzado su ataque desde el fondo, y puede cambiar de posición con su compañero según lo requiera el partido."
+        }
+      }
+    ]
+  },
+  {
+    "id": "md-satwiksairaj-rankireddy-chirag-shetty",
+    "event": "MD",
+    "pairZh": "兰基雷迪/谢提",
+    "pairEn": "Satwiksairaj Rankireddy / Chirag Shetty",
+    "country": {
+      "zh": "印度",
+      "es": "India"
+    },
+    "status": "active",
+    "highlights": {
+      "zh": "杭州亚运会男双金牌（印度首枚亚运羽毛球金牌）；亚锦赛冠军；2022年英联邦运动会冠军；2022、2025年世锦赛铜牌；前世界第一；2026年新加坡公开赛（印度首对夺得该赛男双冠军的组合）、中国大师赛冠军",
+      "es": "Oro en dobles masculinos en los Juegos Asiáticos de Hangzhou (la primera medalla de oro asiática de bádminton para la India); campeones del Campeonato de Asia; campeones de los Juegos de la Commonwealth 2022; bronce en el Mundial de 2022 y 2025; ex número 1 del mundo; campeones del Abierto de Singapur 2026 (la primera pareja india en ganar el título de dobles masculinos de ese torneo) y del Masters de China."
+    },
+    "style": {
+      "zh": "两位高个子组成的重炮型组合：兰基雷迪坐镇后场，以世界纪录级的重杀迫使对手被动防守；谢提在前场截击、封网，专抓对手的松软回球。需要时两人也会在回合中主动换位打乱节奏，适合身材高大、以攻为主的球友参考。",
+      "es": "Pareja de dos jugadores altos y de gran potencia: Rankireddy se instala en el fondo y obliga al rival a defender con remates de nivel de récord mundial, mientras Shetty intercepta y cierra la red, cazando las devoluciones blandas del rival. Cuando lo necesitan, también cambian de posición durante el punto para romper el ritmo del rival; un buen referente para jugadores altos que apuesten sobre todo por el ataque."
+    },
+    "players": [
+      {
+        "nameEn": "Satwiksairaj Rankireddy",
+        "nameZh": "萨维克赛拉吉·兰基雷迪",
+        "sex": "M",
+        "heightCm": 184,
+        "weightKg": null,
+        "hand": "R",
+        "position": "back",
+        "role": {
+          "zh": "后场核心火力，2023年以565公里/小时的杀球获吉尼斯“羽毛球最快击球”纪录；起跳重杀连续性强，站在后场时能逼得对手满场防守。",
+          "es": "El motor de ataque desde el fondo: en 2023 logró el récord Guinness del «golpe de bádminton más rápido» con un remate a 565 km/h; sus remates en salto son muy continuos, y cuando se sitúa en el fondo obliga al rival a defender por toda la pista."
+        }
+      },
+      {
+        "nameEn": "Chirag Shetty",
+        "nameZh": "奇拉格·谢提",
+        "sex": "M",
+        "heightCm": 186,
+        "weightKg": null,
+        "hand": "R",
+        "position": "front",
+        "role": {
+          "zh": "身高186厘米的前场手，网前拦截和预判出色，专门“收割”对手的半高球和网前松球；发接发积极，是组合进攻链条的终结者。",
+          "es": "Jugador de red de 1,86 m, con una intercepción y una anticipación excelentes en la red, especializado en «recolectar» los globos cortos y las dejadas flojas del rival; es muy activo en el saque y la resta, y es quien remata la cadena de ataque de la pareja."
+        }
+      }
+    ]
+  },
+  {
+    "id": "md-goh-sze-fei-nur-izzuddin",
+    "event": "MD",
+    "pairZh": "吴世飞/伊祖丁",
+    "pairEn": "Goh Sze Fei / Nur Izzuddin",
+    "country": {
+      "zh": "马来西亚",
+      "es": "Malasia"
+    },
+    "status": "active",
+    "highlights": {
+      "zh": "2025年5月登顶世界第一；2026年印尼公开赛（超级1000）冠军；2024年亚锦赛银牌；2022年德国公开赛获首个世界巡回赛冠军",
+      "es": "Número 1 del mundo desde mayo de 2025; campeones del Abierto de Indonesia 2026 (Super 1000); plata en el Campeonato de Asia 2024; primer título del World Tour en el Abierto de Alemania 2022."
+    },
+    "style": {
+      "zh": "吴世飞在网前敢打敢抢、判断果断，为伊祖丁创造从后场进攻的机会；伊祖丁负责后场下压。两人也习惯在回合中随时前后换位迷惑对手，既能一拍由守转攻，也能全程压着打。",
+      "es": "Goh Sze Fei se atreve a atacar y a disputar la red con decisión, creando ocasiones de ataque desde el fondo para Izzuddin, quien se encarga de rematar desde el fondo. También suelen cambiar de posición entre la red y el fondo en cualquier momento del punto para confundir al rival, capaces tanto de pasar de la defensa al ataque en un solo golpe como de presionar durante todo el intercambio."
+    },
+    "players": [
+      {
+        "nameEn": "Goh Sze Fei",
+        "nameZh": "吴世飞",
+        "sex": "M",
+        "heightCm": 171,
+        "weightKg": null,
+        "hand": "R",
+        "position": "front",
+        "role": {
+          "zh": "前场型选手，网前反应快、敢于抢网和扑球，出手果断，擅长用网前小球逼对手起球，是组合进攻的“开关”。",
+          "es": "Jugador de red, con reflejos rápidos, que se atreve a disputar la red y a matar en la red con decisión; se le da bien usar golpes cortos en la red para forzar el globo del rival, siendo el «interruptor» que activa el ataque de la pareja."
+        }
+      },
+      {
+        "nameEn": "Nur Izzuddin",
+        "nameZh": "努尔·伊祖丁",
+        "sex": "M",
+        "heightCm": 175,
+        "weightKg": null,
+        "hand": "R",
+        "position": "back",
+        "role": {
+          "zh": "后场进攻手，接到搭档制造的机会后以连续杀球和劈吊下压；攻防转换意识好，能一拍把防守变成进攻。",
+          "es": "Atacante desde el fondo, que aprovecha las ocasiones creadas por su compañero rematando de forma continua y con dejadas cortadas; tiene un buen sentido de la transición entre ataque y defensa, capaz de convertir la defensa en ataque con un solo golpe."
+        }
+      }
+    ]
+  },
+  {
+    "id": "md-sabar-karyaman-gutama-reza-pahlevi-isfahani",
+    "event": "MD",
+    "pairZh": "萨巴尔/利萨",
+    "pairEn": "Sabar Karyaman Gutama / Muhammad Reza Pahlevi Isfahani",
+    "country": {
+      "zh": "印尼",
+      "es": "Indonesia"
+    },
+    "status": "active",
+    "highlights": {
+      "zh": "2025年东南亚运动会男双及男团金牌；2025年印尼公开赛（超级1000）亚军、世界羽联总决赛四强；2026年澳大利亚公开赛亚军；世界排名最高第7（现第7）",
+      "es": "Oro en dobles masculinos y por equipos masculinos en los Juegos del Sudeste Asiático 2025; subcampeones del Abierto de Indonesia 2025 (Super 1000) y semifinalistas de las Finales de la BWF; subcampeones del Abierto de Australia 2026; número 7 del mundo en su mejor posición (número 7 en la actualidad)."
+    },
+    "style": {
+      "zh": "印尼经验型组合，强调前场控制，力求从开局就通过前场争夺掌握进攻主动。公开资料没有明确的固定前后场分工，两人按回合需要轮换；利萨背伤复发时，萨巴尔会主动承担更多控制和跑动。",
+      "es": "Pareja indonesia con experiencia que da mucha importancia al control de la red, buscando desde el principio del punto hacerse con la iniciativa ofensiva a través de la disputa de la red. No hay información pública de un reparto fijo entre red y fondo; los dos rotan según lo pide cada punto. Cuando a Isfahani se le resiente la espalda, Gutama asume por iniciativa propia más control y más desplazamiento."
+    },
+    "players": [
+      {
+        "nameEn": "Sabar Karyaman Gutama",
+        "nameZh": "萨巴尔·卡里亚曼·古塔马",
+        "sex": "M",
+        "heightCm": 171,
+        "weightKg": null,
+        "hand": "R",
+        "position": "both",
+        "role": {
+          "zh": "经验丰富、注重控制的双打手，比赛中重视前场控制和节奏把握；搭档状态不佳时能主动多跑多扛，承担组织任务。",
+          "es": "Jugador de dobles experimentado y muy centrado en el control, que da mucha importancia al control de la red y al manejo del ritmo en el partido; cuando su compañero no está fino, corre y aguanta más por iniciativa propia y asume la organización del juego."
+        }
+      },
+      {
+        "nameEn": "Muhammad Reza Pahlevi Isfahani",
+        "nameZh": "穆罕默德·利萨·巴列维·伊斯法哈尼",
+        "sex": "M",
+        "heightCm": 175,
+        "weightKg": null,
+        "hand": "R",
+        "position": "both",
+        "role": {
+          "zh": "进攻积极的印尼男双选手，与萨巴尔轮换前后场；2026年日本公开赛期间伤病复发仍坚持完成比赛，意志力强。",
+          "es": "Jugador indonesio de dobles masculinos de ataque decidido, que rota entre la red y el fondo con Gutama; durante el Abierto de Japón 2026, pese a una recaída de una lesión, insistió en terminar el partido, mostrando una gran fuerza de voluntad."
+        }
+      }
+    ]
+  },
+  {
+    "id": "md-ben-lane-sean-vendy",
+    "event": "MD",
+    "pairZh": "莱恩/文迪",
+    "pairEn": "Ben Lane / Sean Vendy",
+    "country": {
+      "zh": "英格兰",
+      "es": "Inglaterra"
+    },
+    "status": "active",
+    "highlights": {
+      "zh": "2026年欧锦赛男双冠军（英格兰1998年后首次）；2025年北极公开赛（超级500）冠军；2022年英联邦运动会银牌；现世界第8",
+      "es": "Campeones de dobles masculinos del Campeonato de Europa 2026 (el primer título de Inglaterra desde 1998); campeones del Abierto Ártico 2025 (Super 500); plata en los Juegos de la Commonwealth 2022; número 8 del mundo en la actualidad."
+    },
+    "style": {
+      "zh": "搭档超过十年的英格兰组合，最大特点是稳定和默契：防守结构扎实，平抽挡对攻从容，关键分靠变速和突然进攻取胜。公开资料未给出固定的前后场分工，两人按回合需要轮转，是“稳守反击型”双打的参考。",
+      "es": "Pareja inglesa que lleva juntos más de diez años, cuya principal virtud es la estabilidad y la compenetración: su estructura defensiva es sólida, afrontan el drive y bloqueo con tranquilidad, y ganan los puntos clave con cambios de ritmo y ataques repentinos. No hay información pública de un reparto fijo entre red y fondo; rotan según lo pide cada punto, y son un buen referente de dobles «de defensa sólida y contraataque»."
+    },
+    "players": [
+      {
+        "nameEn": "Ben Lane",
+        "nameZh": "本·莱恩",
+        "sex": "M",
+        "heightCm": 175,
+        "weightKg": null,
+        "hand": "L",
+        "position": "both",
+        "role": {
+          "zh": "左手持拍，出球有角度，平抽快挡和网前拦截都比较积极；打法讲究结构和站位，关键分冷静，2025年曾因脚踝伤停赛三个月。",
+          "es": "Zurdo que golpea con ángulo, muy activo tanto en el drive y bloqueo como en la intercepción en la red; su juego cuida mucho la estructura y la colocación, y mantiene la calma en los puntos clave. En 2025 estuvo tres meses de baja por una lesión de tobillo."
+        }
+      },
+      {
+        "nameEn": "Sean Vendy",
+        "nameZh": "肖恩·文迪",
+        "sex": "M",
+        "heightCm": 181,
+        "weightKg": null,
+        "hand": "R",
+        "position": "both",
+        "role": {
+          "zh": "身高181厘米的右手选手，与莱恩轮换压上进攻；他在北极公开赛夺冠后说，是“变速和进攻”帮他们赢下了比赛。",
+          "es": "Diestro de 1,81 m, que rota con Lane para subir a atacar; tras ganar el Abierto Ártico dijo que fueron «los cambios de ritmo y el ataque» los que les dieron la victoria."
+        }
+      }
+    ]
+  },
+  {
+    "id": "md-takuro-hoki-yugo-kobayashi",
+    "event": "MD",
+    "pairZh": "保木卓朗/小林优吾",
+    "pairEn": "Takuro Hoki / Yugo Kobayashi",
+    "country": {
+      "zh": "日本",
+      "es": "Japón"
+    },
+    "status": "active",
+    "highlights": {
+      "zh": "2021年世锦赛男双冠军（日本首个男双世界冠军）、2019年世锦赛银牌；2021年世界巡回赛总决赛冠军；2022年9月登顶世界第一；2025年丹麦公开赛冠军",
+      "es": "Campeones del Mundial de dobles masculinos 2021 (el primer título mundial de dobles masculinos de Japón), plata en el Mundial 2019; campeones de las Finales del World Tour 2021; número 1 del mundo desde septiembre de 2022; campeones del Abierto de Dinamarca 2025."
+    },
+    "style": {
+      "zh": "从中学起就搭档的老牌组合，默契极高。典型得分方式是小林优吾在后场用重杀打乱对手，保木卓朗在网前推扑得分；两人网前手感都好、互相补位出色，必要时保木后场强攻、小林前场压上。",
+      "es": "Pareja veterana que juega junta desde el instituto, con una compenetración enorme. Su forma de anotar típica es que Kobayashi desestabiliza al rival con remates potentes desde el fondo mientras Hoki anota en la red con empujes y mates; los dos tienen buen toque de red y se cubren muy bien mutuamente, y cuando hace falta Hoki ataca con fuerza desde el fondo y Kobayashi presiona en la red."
+    },
+    "players": [
+      {
+        "nameEn": "Takuro Hoki",
+        "nameZh": "保木卓朗",
+        "sex": "M",
+        "heightCm": 167,
+        "weightKg": null,
+        "hand": "R",
+        "position": "front",
+        "role": {
+          "zh": "身材不高但速度快、网前触球早，擅长推扑和前场封堵；攻击力同样不俗，需要时可以退到后场强攻，与搭档互换位置。",
+          "es": "No es alto, pero es rápido y toca el volante muy pronto en la red, con buen empuje, matar en la red y cierre de la zona delantera; su capacidad ofensiva tampoco es nada desdeñable, y cuando hace falta puede retroceder al fondo a atacar con fuerza, cambiando de posición con su compañero."
+        }
+      },
+      {
+        "nameEn": "Yugo Kobayashi",
+        "nameZh": "小林优吾",
+        "sex": "M",
+        "heightCm": 175,
+        "weightKg": null,
+        "hand": "L",
+        "position": "back",
+        "role": {
+          "zh": "左手重炮手，2023年日本公开赛杀球测速443公里/小时；后场连续下压是组合主要得分来源，轮到前场时也敢于压上进攻。",
+          "es": "Zurdo de gran potencia, cuyo remate se midió a 443 km/h en el Abierto de Japón 2023; sus remates continuos desde el fondo son la principal fuente de puntos de la pareja, y cuando le toca la red también se atreve a subir a atacar."
+        }
+      }
+    ]
+  },
+  {
+    "id": "md-chen-boyang-liu-yi",
+    "event": "MD",
+    "pairZh": "陈柏阳/刘毅",
+    "pairEn": "Chen Boyang / Liu Yi",
+    "country": {
+      "zh": "中国",
+      "es": "China"
+    },
+    "status": "active",
+    "highlights": {
+      "zh": "2025年世锦赛男双银牌；2025年亚锦赛银牌、马来西亚公开赛（超级1000）亚军；2026年德国公开赛、澳大利亚公开赛冠军；球迷称“一百分组合”，现世界第10",
+      "es": "Subcampeones del Mundial de dobles masculinos 2025; plata en el Campeonato de Asia 2025 y subcampeones del Abierto de Malasia (Super 1000); campeones del Abierto de Alemania y del Abierto de Australia 2026; los aficionados los llaman «la pareja de los cien puntos»; número 10 del mundo en la actualidad."
+    },
+    "style": {
+      "zh": "以防守反击见长的“一百分组合”：防守稳健、发接发速度快，能通过防守逼对手起球再转入进攻。刘毅的后场杀球越来越重，陈柏阳的网前越来越细腻、变化多。两人关键分互相提醒、沉稳处理，是国羽男双新生力量。",
+      "es": "«La pareja de los cien puntos», destacada por su defensa y contraataque: defienden con solidez y son rápidos en el saque y la resta, forzando el globo del rival con su defensa antes de pasar al ataque. El remate de Liu Yi desde el fondo es cada vez más potente, y el juego de red de Chen Boyang cada vez más fino y variado. En los puntos clave se avisan mutuamente y los resuelven con calma; son la nueva generación de dobles masculinos del equipo chino."
+    },
+    "players": [
+      {
+        "nameEn": "Chen Boyang",
+        "nameZh": "陈柏阳",
+        "sex": "M",
+        "heightCm": 191,
+        "weightKg": null,
+        "hand": "R",
+        "position": "front",
+        "role": {
+          "zh": "身高约1.9米的高个子，却以防守稳和网前细腻见长，出球变化多；比赛中敢打敢拼，心态从“不够亢奋”变得更加释放。",
+          "es": "Con cerca de 1,9 m de estatura, destaca precisamente por una defensa sólida y un juego de red fino, con mucha variedad en sus golpes; en los partidos se atreve a jugar con decisión, y su mentalidad ha pasado de «poco encendida» a mucho más liberada."
+        }
+      },
+      {
+        "nameEn": "Liu Yi",
+        "nameZh": "刘毅",
+        "sex": "M",
+        "heightCm": 182,
+        "weightKg": null,
+        "hand": "R",
+        "position": "back",
+        "role": {
+          "zh": "性格外向、打球充满激情的00后，后场杀球越来越重也更有耐心；偶尔会“打上头”出现失误，2025年世锦赛上情绪控制明显进步。",
+          "es": "Nacido después del año 2000, extrovertido y apasionado en la pista, con un remate desde el fondo cada vez más potente y también más paciente; a veces «se calienta» y comete errores, aunque en el Mundial de 2025 mostró una mejora clara en el control de sus emociones."
+        }
+      }
+    ]
+  },
+  {
+    "id": "md-fu-haifeng-cai-yun",
+    "event": "MD",
+    "pairZh": "傅海峰/蔡赟",
+    "pairEn": "Fu Haifeng / Cai Yun",
+    "country": {
+      "zh": "中国",
+      "es": "China"
+    },
+    "status": "retired",
+    "highlights": {
+      "zh": "“风云组合”：2012年伦敦奥运会男双金牌、2008年北京奥运会银牌；2006、2009、2010、2011年四夺世锦赛冠军；2004—2012年汤姆斯杯五连冠主力；2021年两人同时入选世界羽联名人堂",
+      "es": "«La pareja Feng Yun»: oro en dobles masculinos en los Juegos Olímpicos de Londres 2012 y plata en los de Pekín 2008; campeones del Mundial en 2006, 2009, 2010 y 2011; pilares del equipo que ganó cinco Copas Thomas seguidas entre 2004 y 2012; en 2021 ambos ingresaron juntos en el Salón de la Fama de la BWF."
+    },
+    "style": {
+      "zh": "经典的“前面一堵墙，后面一门炮”：蔡赟网前技术精湛，出球节奏、线路和落点变化控制极好，一切为傅海峰创造机会；左手重炮傅海峰在后场连续重杀、覆盖面大。两人搭档十余年，刚柔相济，是男双前后场分工的教科书。",
+      "es": "El clásico «un muro delante, un cañón detrás»: Cai Yun domina la técnica de red, con un control excelente del ritmo, la trayectoria y el punto de caída de sus golpes, todo pensado para crear ocasiones a Fu Haifeng; el zurdo Fu Haifeng, de gran potencia, remata sin parar desde el fondo con una cobertura amplia. Llevaron más de diez años juntos, combinando fuerza y sutileza, y son el manual de referencia del reparto de red y fondo en dobles masculinos."
+    },
+    "players": [
+      {
+        "nameEn": "Fu Haifeng",
+        "nameZh": "傅海峰",
+        "sex": "M",
+        "heightCm": 181,
+        "weightKg": null,
+        "hand": "L",
+        "position": "back",
+        "role": {
+          "zh": "左手“重炮手”，2005年苏迪曼杯被测出332公里/小时的杀球速度，打破当时的最快球速纪录；后场连续重杀和覆盖能力是组合得分核心。",
+          "es": "Zurdo, «el cañón» de la pareja: en la Copa Sudirman de 2005 se le midió un remate a 332 km/h, que batió entonces el récord de velocidad; sus remates continuos y potentes desde el fondo, junto con su cobertura, eran el núcleo anotador de la pareja."
+        }
+      },
+      {
+        "nameEn": "Cai Yun",
+        "nameZh": "蔡赟",
+        "sex": "M",
+        "heightCm": 182,
+        "weightKg": null,
+        "hand": "R",
+        "position": "front",
+        "role": {
+          "zh": "由单打转为双打的网前大师，善于用脑打球，出手节奏、线路和落点变化控制极佳，专门为搭档制造杀球机会。",
+          "es": "Maestro de la red que pasó de individual a dobles, jugaba con mucha inteligencia y controlaba a la perfección el ritmo, la trayectoria y el punto de caída de sus golpes, todo para crear a su compañero ocasiones de remate."
+        }
+      }
+    ]
+  },
+  {
+    "id": "md-kevin-sukamuljo-marcus-gideon",
+    "event": "MD",
+    "pairZh": "苏卡穆约/吉迪恩",
+    "pairEn": "Kevin Sanjaya Sukamuljo / Marcus Fernaldi Gideon",
+    "country": {
+      "zh": "印尼",
+      "es": "Indonesia"
+    },
+    "status": "retired",
+    "highlights": {
+      "zh": "“小黄人”组合：男双世界第一累计226周；2017、2018年全英赛冠军；2018年亚运会金牌；2020年汤姆斯杯冠军；2017年超级系列赛总决赛冠军",
+      "es": "«Los Minions»: 226 semanas acumuladas como número 1 del mundo en dobles masculinos; campeones del All England en 2017 y 2018; oro en los Juegos Asiáticos 2018; campeones de la Copa Thomas 2020; campeones de las Finales del Super Series 2017."
+    },
+    "style": {
+      "zh": "速度型男双的代表：苏卡穆约在网前以闪电般的反应抢网、截击，吉迪恩主要在后场不知疲倦地连续下压，为搭档制造机会。两人身高都在1.7米左右，却靠极致的速度、防守和前场压迫统治男双多年。",
+      "es": "Representantes del dobles masculino de velocidad: Kevin Sanjaya Sukamuljo disputa la red y la intercepta con reflejos fulminantes, mientras Marcus Fernaldi Gideon remata sin descanso desde el fondo, creando ocasiones a su compañero. Ambos miden alrededor de 1,70 m, pero dominaron el dobles masculino durante años gracias a una velocidad, una defensa y una presión en la red extremas."
+    },
+    "players": [
+      {
+        "nameEn": "Kevin Sanjaya Sukamuljo",
+        "nameZh": "凯文·桑加亚·苏卡穆约",
+        "sex": "M",
+        "heightCm": 170,
+        "weightKg": null,
+        "hand": "R",
+        "position": "front",
+        "role": {
+          "zh": "网前鬼才，反应快、手上假动作多，发接发和网前抢截极具侵略性；身材小巧却能凭速度和预判主宰前场，技术观赏性极高。",
+          "es": "Genio de la red, con reflejos rápidos y muchas fintas de mano, muy agresivo en el saque, la resta y la disputa e intercepción en la red; pese a su complexión menuda, domina la zona de red gracias a su velocidad y su anticipación, con un juego técnico muy vistoso."
+        }
+      },
+      {
+        "nameEn": "Marcus Fernaldi Gideon",
+        "nameZh": "马库斯·费尔纳尔迪·吉迪恩",
+        "sex": "M",
+        "heightCm": 168,
+        "weightKg": null,
+        "hand": "R",
+        "position": "back",
+        "role": {
+          "zh": "组合里的“劳模”，主要在后场，杀球不算顶级重炮，但胜在连续、稳定、不知疲倦，能长时间高强度下压，为搭档的网前终结铺路。",
+          "es": "El «trabajador incansable» de la pareja, principalmente en el fondo; su remate no es de máxima potencia, pero gana por su continuidad, su regularidad y su resistencia infinita, manteniendo remates de alta intensidad durante mucho tiempo y allanando el camino para que su compañero remate en la red."
+        }
+      }
+    ]
+  },
+  {
+    "id": "md-mohammad-ahsan-hendra-setiawan",
+    "event": "MD",
+    "pairZh": "阿山/塞蒂亚万",
+    "pairEn": "Mohammad Ahsan / Hendra Setiawan",
+    "country": {
+      "zh": "印尼",
+      "es": "Indonesia"
+    },
+    "status": "retired",
+    "highlights": {
+      "zh": "“老爹组合”：2013、2015、2019年三夺世锦赛冠军；2019年全英赛冠军；三次赛季总决赛冠军；塞蒂亚万另与基多获2008年北京奥运会男双金牌",
+      "es": "«La pareja de los papás»: campeones del Mundial en 2013, 2015 y 2019; campeones del All England 2019; campeones de las Finales de temporada en tres ocasiones; Setiawan también ganó el oro en dobles masculinos en los Juegos Olímpicos de Pekín 2008 junto a Kido."
+    },
+    "style": {
+      "zh": "经验与智慧型组合：塞蒂亚万在网前站位精准、预判出色，平球很难从他身边穿过；阿山负责后场，用重杀逼对手转入防守。两人不靠绝对速度，而靠站位、线路和冷静的战术执行取胜，塞蒂亚万一直打到40岁。",
+      "es": "Pareja de experiencia e inteligencia: Setiawan se coloca con precisión en la red y anticipa muy bien, de modo que es muy difícil que un drive pase por su lado; Ahsan se encarga del fondo, forzando al rival a defender con remates potentes. No ganan por pura velocidad, sino por su colocación, sus trayectorias y una ejecución táctica fría; Setiawan siguió compitiendo hasta los 40 años."
+    },
+    "players": [
+      {
+        "nameEn": "Mohammad Ahsan",
+        "nameZh": "穆罕默德·阿山",
+        "sex": "M",
+        "heightCm": 173,
+        "weightKg": null,
+        "hand": "R",
+        "position": "back",
+        "role": {
+          "zh": "组合的动力来源，后场杀球凶狠、进攻欲望强，同时跟网衔接意识好；性格幽默乐观，大赛中能扛住压力。",
+          "es": "El motor de la pareja, con un remate feroz desde el fondo y muchas ganas de atacar, además de un buen sentido de la conexión con la red; de carácter divertido y optimista, aguanta bien la presión en los grandes torneos."
+        }
+      },
+      {
+        "nameEn": "Hendra Setiawan",
+        "nameZh": "亨德拉·塞蒂亚万",
+        "sex": "M",
+        "heightCm": 183,
+        "weightKg": null,
+        "hand": "R",
+        "position": "front",
+        "role": {
+          "zh": "冷静型网前大师，动作幅度小、预判精准，平球很难从他身边穿过；2008年奥运会男双冠军，以站位和阅读比赛的能力弥补速度。",
+          "es": "Maestro de la red de estilo frío, con movimientos pequeños y una anticipación precisa, de modo que es muy difícil que un drive pase por su lado; campeón olímpico de dobles masculinos en 2008, compensa la velocidad con su colocación y su lectura del juego."
+        }
+      }
+    ]
+  },
+  {
+    "id": "md-lee-yang-wang-chi-lin",
+    "event": "MD",
+    "pairZh": "李洋/王齐麟",
+    "pairEn": "Lee Yang / Wang Chi-lin",
+    "country": {
+      "zh": "中国台北",
+      "es": "China Taipéi"
+    },
+    "status": "retired",
+    "highlights": {
+      "zh": "“麟洋配”：2020东京、2024巴黎连续两届奥运会男双金牌，首对卫冕奥运男双冠军的组合；最高世界第二（2022年9月）",
+      "es": "«La pareja Lin Yang»: oro en dobles masculinos en dos Juegos Olímpicos consecutivos, Tokio 2020 y París 2024, la primera pareja en revalidar el título olímpico de dobles masculinos; número 2 del mundo en su mejor posición (septiembre de 2022)."
+    },
+    "style": {
+      "zh": "反差互补的奥运冠军组合：李洋在前场组织引导，网前出球有特点、能限制对手，防守稳；身高188厘米的王齐麟在后场担任攻击手，球速快、角度大。两人球质和节奏差异大、线路变化多，让对手难以适应。",
+      "es": "Pareja de campeones olímpicos que se complementan por contraste: Lee Yang organiza y dirige desde la red, con golpes característicos que limitan al rival y una defensa sólida; Wang Chi-lin, de 1,88 m, es el atacante desde el fondo, con golpes rápidos y de ángulo abierto. La gran diferencia de calidad y ritmo entre sus golpes, junto con sus muchos cambios de trayectoria, hace muy difícil que el rival se adapte."
+    },
+    "players": [
+      {
+        "nameEn": "Lee Yang",
+        "nameZh": "李洋",
+        "sex": "M",
+        "heightCm": 178,
+        "weightKg": 77,
+        "hand": "R",
+        "position": "front",
+        "role": {
+          "zh": "前场组织者，速度不慢、网前出球有特色，能用前场控制限制对手，同时防守扎实；球质偏重，与搭档形成快慢反差。",
+          "es": "Organizador desde la red, no lento y con golpes de red característicos, capaz de limitar al rival con el control de la zona de red y con una defensa sólida; sus golpes son pesados, creando un contraste de ritmo con su compañero."
+        }
+      },
+      {
+        "nameEn": "Wang Chi-lin",
+        "nameZh": "王齐麟",
+        "sex": "M",
+        "heightCm": 188,
+        "weightKg": 84,
+        "hand": "R",
+        "position": "back",
+        "role": {
+          "zh": "高个子后场攻击手，借身高优势杀球速度快、角度大，是组合主要得分点；李洋退役后改与邱相榤搭档，继续征战男双。",
+          "es": "Atacante alto desde el fondo, que aprovecha su altura para rematar rápido y con ángulo abierto, siendo el principal punto de anotación de la pareja; tras la retirada de Lee Yang, pasó a hacer pareja con Chiu Hsiang-chieh para seguir compitiendo en dobles masculinos."
+        }
+      }
+    ]
+  },
+  {
+    "id": "wd-liu-shengshu-tan-ning",
+    "event": "WD",
+    "pairZh": "刘圣书/谭宁",
+    "pairEn": "Liu Shengshu / Tan Ning",
+    "country": {
+      "zh": "中国",
+      "es": "China"
+    },
+    "status": "active",
+    "highlights": {
+      "zh": "2025年世锦赛女双冠军、2026年世锦赛银牌；2024年巴黎奥运会银牌；2025年亚锦赛冠军；2026赛季成为世界巡回赛（2018年创立）以来首对单季夺得三个超级1000冠军的女双；现世界第一",
+      "es": "Campeonas del Mundial de dobles femeninos 2025 y subcampeonas del Mundial 2026; plata en los Juegos Olímpicos de París 2024; campeonas del Campeonato de Asia 2025; en la temporada 2026 se convirtieron en la primera pareja de dobles femeninos en ganar tres títulos Super 1000 en una sola temporada desde la creación del World Tour en 2018; número 1 del mundo en la actualidad."
+    },
+    "style": {
+      "zh": "“前封后杀”的立体进攻体系：身高176厘米的刘圣书在后场重杀选点精准，常打对手身体连接位；谭宁把守前场，封网、封斜线速度快，不给对手轻松平抽的机会。两人正从单纯强攻转向“攻中有防、防中带攻”。",
+      "es": "Un sistema de ataque tridimensional de «red delante, remate atrás»: Liu Shengshu, de 1,76 m, coloca sus remates desde el fondo con gran precisión, buscando a menudo el cuerpo del rival; Tan Ning custodia la red, cerrándola y cubriendo la diagonal con rapidez, sin dar al rival opciones fáciles de drive. Están pasando de un ataque puramente directo a un juego de «ataque con defensa, defensa con ataque»."
+    },
+    "players": [
+      {
+        "nameEn": "Liu Shengshu",
+        "nameZh": "刘圣书",
+        "sex": "F",
+        "heightCm": 176,
+        "weightKg": null,
+        "hand": "R",
+        "position": "back",
+        "role": {
+          "zh": "高个子后场主攻手，身高臂展优势明显，杀球角度刁钻、下压连续，能迫使对手被动起球；2022年世青赛女双、混双双冠，成长极快。",
+          "es": "Atacante alta desde el fondo, con una clara ventaja de altura y envergadura; sus remates tienen un ángulo difícil y son continuos, obligando al rival a devolver a la defensiva. En el Mundial junior de 2022 ganó los títulos de dobles femeninos y dobles mixtos, con una progresión muy rápida."
+        }
+      },
+      {
+        "nameEn": "Tan Ning",
+        "nameZh": "谭宁",
+        "sex": "F",
+        "heightCm": 170,
+        "weightKg": null,
+        "hand": "R",
+        "position": "front",
+        "role": {
+          "zh": "网前反应迅速的封网手，前场串联细腻、覆盖面大，擅长封网和抢网，为搭档创造连续进攻；关键分敢于主动出手。",
+          "es": "Cierra la red con reflejos rapidísimos, conecta el juego de red con mucha finura y una gran cobertura, se le da bien cerrar y disputar la red para crear a su compañera ocasiones de ataque continuo; en los puntos clave se atreve a tomar la iniciativa."
+        }
+      }
+    ]
+  },
+  {
+    "id": "wd-baek-ha-na-lee-so-hee",
+    "event": "WD",
+    "pairZh": "白荷娜/李绍希",
+    "pairEn": "Baek Ha-na / Lee So-hee",
+    "country": {
+      "zh": "韩国",
+      "es": "Corea del Sur"
+    },
+    "status": "active",
+    "highlights": {
+      "zh": "2026年世锦赛女双冠军（韩国时隔31年再夺女双世界冠军，32岁的李绍希成为最年长的女双世界冠军）；2025年世界羽联总决赛冠军；2024年亚锦赛冠军；2024年10月登顶世界第一；现世界第二",
+      "es": "Campeonas del Mundial de dobles femeninos 2026 (Corea del Sur volvió a ser campeona mundial de dobles femeninos 31 años después, y Lee So-hee, con 32 años, se convirtió en la campeona mundial de dobles femeninos de más edad); campeonas de las Finales de la BWF 2025; campeonas del Campeonato de Asia 2024; número 1 del mundo desde octubre de 2024; número 2 del mundo en la actualidad."
+    },
+    "style": {
+      "zh": "以稳定和耐心见长的韩国女双：两人在相持中很少送出简单失误，敢于用多拍磨对手，再抓机会连续进攻。2026年世锦赛决赛以21-15、21-15击败此前五连胜她们的世界第一刘圣书/谭宁，靠的正是“不犯简单失误、把球控制在场内”。公开资料未给出权威的固定前后场分工，两人按回合轮转。",
+      "es": "Pareja surcoreana destacada por su solidez y su paciencia: apenas cometen errores tontos en los intercambios, se atreven a desgastar al rival con puntos largos y luego aprovechan la ocasión para atacar sin parar. En la final del Mundial 2026 vencieron 21-15 y 21-15 a Liu Shengshu/Tan Ning, entonces número 1 del mundo y que les había ganado las cinco veces anteriores, precisamente gracias a «no cometer errores tontos y mantener el volante dentro de la pista». No hay información pública que confirme un reparto fijo entre red y fondo; rotan según lo pide cada punto."
+    },
+    "players": [
+      {
+        "nameEn": "Baek Ha-na",
+        "nameZh": "白荷娜",
+        "sex": "F",
+        "heightCm": 164,
+        "weightKg": null,
+        "hand": "R",
+        "position": "both",
+        "role": {
+          "zh": "身材不高但力量和弹跳出色的进攻型选手，步法快、覆盖面大，杀球和劈吊结合；轮转到前场时也能积极封网。",
+          "es": "Jugadora de ataque, no muy alta pero con una fuerza y un salto excelentes; tiene un footwork rápido y una gran cobertura, y combina el remate con la dejada cortada; cuando le toca la red también cierra con decisión."
+        }
+      },
+      {
+        "nameEn": "Lee So-hee",
+        "nameZh": "李绍希",
+        "sex": "F",
+        "heightCm": 171,
+        "weightKg": null,
+        "hand": "R",
+        "position": "both",
+        "role": {
+          "zh": "经验丰富的老将，身高171厘米、臂展长，与多名搭档都打到过世界前二；2026年32岁时夺得世锦赛冠军，成为最年长的女双世界冠军，大赛心理稳定。",
+          "es": "Veterana con mucha experiencia, de 1,71 m y gran envergadura, que ha llegado al top 2 del mundo con varias compañeras distintas; en 2026, con 32 años, ganó el título mundial y se convirtió en la campeona mundial de dobles femeninos de más edad, con una gran estabilidad mental en los grandes torneos."
+        }
+      }
+    ]
+  },
+  {
+    "id": "wd-yuki-fukushima-mayu-matsumoto",
+    "event": "WD",
+    "pairZh": "福岛由纪/松本麻佑",
+    "pairEn": "Yuki Fukushima / Mayu Matsumoto",
+    "country": {
+      "zh": "日本",
+      "es": "Japón"
+    },
+    "status": "active",
+    "highlights": {
+      "zh": "2024年秋组队；2025年马来西亚公开赛（超级1000）、法国公开赛冠军，2025年世界羽联总决赛亚军；2026年印尼公开赛（超级1000）冠军、中国公开赛亚军；现世界第三",
+      "es": "Formaron pareja en el otoño de 2024; campeonas del Abierto de Malasia (Super 1000) y del Abierto de Francia 2025, subcampeonas de las Finales de la BWF 2025; campeonas del Abierto de Indonesia 2026 (Super 1000) y subcampeonas del Abierto de China; número 3 del mundo en la actualidad."
+    },
+    "style": {
+      "zh": "防守与进攻两端都很硬的组合：身高177厘米的松本麻佑以后场强打为主要武器，福岛由纪拥有世界顶级的接杀防守。两人原本都是后场型选手，组队后福岛更多上前承担前场，松本在后场持续施压。",
+      "es": "Pareja muy sólida tanto en defensa como en ataque: Mayu Matsumoto, de 1,77 m, tiene en el golpe potente desde el fondo su principal arma, mientras Yuki Fukushima cuenta con una defensa del remate de nivel mundial. Las dos eran originalmente jugadoras de fondo, pero al formar pareja Fukushima pasó a asumir más la red, mientras Matsumoto mantiene la presión desde el fondo."
+    },
+    "players": [
+      {
+        "nameEn": "Yuki Fukushima",
+        "nameZh": "福岛由纪",
+        "sex": "F",
+        "heightCm": 164,
+        "weightKg": null,
+        "hand": "R",
+        "position": "both",
+        "role": {
+          "zh": "前世界第一（与广田彩花），三次世锦赛银牌得主；接杀防守世界一流，原本打后场，与高个子搭档配对后更多在前场封网、组织。",
+          "es": "Ex número 1 del mundo (junto a Ayane Hirota), tres veces subcampeona mundial; su defensa del remate es de primer nivel mundial; originalmente jugaba en el fondo, pero al hacer pareja con una compañera más alta pasó a cerrar la red y organizar más desde delante."
+        }
+      },
+      {
+        "nameEn": "Mayu Matsumoto",
+        "nameZh": "松本麻佑",
+        "sex": "F",
+        "heightCm": 177,
+        "weightKg": 69,
+        "hand": "R",
+        "position": "back",
+        "role": {
+          "zh": "身高177厘米的后场重炮，强打是最大武器，也能在前场飞身扑球、打防守反击；曾与永原和可那两夺世锦赛冠军（2018、2019）。",
+          "es": "Jugadora de gran potencia desde el fondo, de 1,77 m, cuya arma principal es el golpe fuerte, aunque también sabe lanzarse a matar en la red y jugar la defensa y el contraataque; ganó dos títulos mundiales (2018 y 2019) junto a Wakana Nagahara."
+        }
+      }
+    ]
+  },
+  {
+    "id": "wd-jia-yifan-zhang-shuxian",
+    "event": "WD",
+    "pairZh": "贾一凡/张殊贤",
+    "pairEn": "Jia Yifan / Zhang Shuxian",
+    "country": {
+      "zh": "中国",
+      "es": "China"
+    },
+    "status": "active",
+    "highlights": {
+      "zh": "2024年11月起搭档；2025赛季3冠3亚（含中国大师赛冠军）；2026年新加坡公开赛、澳大利亚公开赛冠军，日本公开赛亚军；2026年6月升至世界第二",
+      "es": "Hacen pareja desde noviembre de 2024; en la temporada 2025 lograron 3 títulos y 3 subcampeonatos (incluido el título del Masters de China); campeonas del Abierto de Singapur y del Abierto de Australia 2026, y subcampeonas del Abierto de Japón; subieron al número 2 del mundo en junio de 2026."
+    },
+    "style": {
+      "zh": "一前一后分工明确：奥运冠军贾一凡在后场以左手重杀开路，落点尖锐、线路开合有度；张殊贤在网前以细腻手感和极快衔接封网，被形容为“定海神针”。两人拉吊稳定、多拍相持能力强，正从磨合走向默契。",
+      "es": "Con un reparto claro entre red y fondo: la campeona olímpica Jia Yifan abre camino desde el fondo con su remate zurdo, con puntos de caída muy afilados y trayectorias muy abiertas; Zhang Shuxian cierra la red con un toque fino y una conexión rapidísima, y se la describe como «el ancla que calma el mar». Su clear y dejada es estable y su capacidad en los intercambios largos es fuerte; están pasando de la adaptación mutua a una compenetración plena."
+    },
+    "players": [
+      {
+        "nameEn": "Jia Yifan",
+        "nameZh": "贾一凡",
+        "sex": "F",
+        "heightCm": 170,
+        "weightKg": null,
+        "hand": "L",
+        "position": "back",
+        "role": {
+          "zh": "左手持拍的奥运冠军，后场重杀凶猛、防守覆盖面大，大赛经验丰富；与陈清晨搭档11年，四夺世锦赛冠军并获巴黎奥运金牌。",
+          "es": "Campeona olímpica zurda, con un remate feroz desde el fondo y una gran cobertura defensiva, y mucha experiencia en grandes torneos; jugó 11 años junto a Chen Qingchen, con quien ganó cuatro títulos mundiales y el oro en los Juegos de París."
+        }
+      },
+      {
+        "nameEn": "Zhang Shuxian",
+        "nameZh": "张殊贤",
+        "sex": "F",
+        "heightCm": 169,
+        "weightKg": null,
+        "hand": "R",
+        "position": "front",
+        "role": {
+          "zh": "速度与灵气兼具的前场型选手，网前小球变化多、衔接快，擅长在快节奏中寻找变线；曾与郑雨搭档打到世界第二。",
+          "es": "Jugadora de red que combina velocidad y talento, con mucha variedad y rapidez de conexión en sus golpes cortos de red, y hábil buscando cambios de trayectoria a ritmo rápido; llegó al número 2 del mundo junto a Zheng Yu."
+        }
+      }
+    ]
+  },
+  {
+    "id": "wd-pearly-tan-thinaah-muralitharan",
+    "event": "WD",
+    "pairZh": "陈康乐/蒂娜",
+    "pairEn": "Pearly Tan / Thinaah Muralitharan",
+    "country": {
+      "zh": "马来西亚",
+      "es": "Malasia"
+    },
+    "status": "active",
+    "highlights": {
+      "zh": "2025年世锦赛女双银牌（马来西亚首枚女双世锦赛奖牌）；2024年巴黎奥运会女双四强；2022年英联邦运动会金牌；最高世界第二",
+      "es": "Subcampeonas del Mundial de dobles femeninos 2025 (la primera medalla mundialista de dobles femeninos de Malasia); semifinalistas de dobles femeninos en los Juegos Olímpicos de París 2024; oro en los Juegos de la Commonwealth 2022; número 2 del mundo en su mejor posición."
+    },
+    "style": {
+      "zh": "马来西亚历史上最成功的女双：陈康乐是后场重炮，曾创吉尼斯女子最快杀球纪录；蒂娜更多在前场衔接与封网。两人拼劲十足，常在长回合相持中顶住压力，再抓机会由守转攻。",
+      "es": "La pareja de dobles femeninos más exitosa de la historia de Malasia: Pearly Tan es la de gran potencia desde el fondo, y llegó a batir el récord Guinness femenino de remate más rápido; Thinaah Muralitharan se ocupa más de la conexión y del cierre de la red. Las dos luchan con mucha garra, aguantando la presión en intercambios largos antes de aprovechar la ocasión para pasar de la defensa al ataque."
+    },
+    "players": [
+      {
+        "nameEn": "Pearly Tan",
+        "nameZh": "陈康乐",
+        "sex": "F",
+        "heightCm": 164,
+        "weightKg": null,
+        "hand": "R",
+        "position": "back",
+        "role": {
+          "zh": "身高164厘米的后场重炮，2023年以438公里/小时创吉尼斯女子最快杀球纪录；打法积极、爆发力强，网前反应也快。",
+          "es": "Jugadora de gran potencia desde el fondo, de 1,64 m; en 2023 batió el récord Guinness femenino de remate más rápido con 438 km/h; su juego es decidido y muy explosivo, y también reacciona rápido en la red."
+        }
+      },
+      {
+        "nameEn": "Thinaah Muralitharan",
+        "nameZh": "蒂娜·穆拉里塔兰",
+        "sex": "F",
+        "heightCm": 164,
+        "weightKg": null,
+        "hand": "R",
+        "position": "front",
+        "role": {
+          "zh": "前场衔接和防守韧性好的拼搏型选手，负责网前封堵和组织，长回合中能顶住压力，被搭档称为“永远并肩作战的人”。",
+          "es": "Jugadora luchadora, con buena conexión en la red y una gran resistencia defensiva; se encarga de cerrar y organizar la red, aguanta la presión en los intercambios largos, y su compañera la describe como «la que siempre lucha a su lado»."
+        }
+      }
+    ]
+  },
+  {
+    "id": "wd-kim-hye-jeong-kong-hee-yong",
+    "event": "WD",
+    "pairZh": "金慧贞/孔熙容",
+    "pairEn": "Kim Hye-jeong / Kong Hee-yong",
+    "country": {
+      "zh": "韩国",
+      "es": "Corea del Sur"
+    },
+    "status": "active",
+    "highlights": {
+      "zh": "2026年日本公开赛冠军（决胜局30-29险胜贾一凡/张殊贤）；2025年10月最高世界第三；孔熙容曾与金昭映登顶世界第一",
+      "es": "Campeonas del Abierto de Japón 2026 (ganaron por 30-29 en el set decisivo a Jia Yifan/Zhang Shuxian); número 3 del mundo en su mejor posición (octubre de 2025); Kong Hee-yong ya fue número 1 del mundo junto a Kim So-yeong."
+    },
+    "style": {
+      "zh": "前后分工鲜明：金慧贞是网前“搅局者”，抢网速度极快，常在对手出手瞬间完成封网预判；孔熙容是后场“重炮手”，起跳杀球角度刁钻、常打边线。两人轮转默契，擅长在防守反击中突然变速。",
+      "es": "Con un reparto claro entre red y fondo: Kim Hye-jeong es la «alborotadora» de la red, que se adelanta a disputarla a una velocidad enorme y suele anticipar el cierre en el mismo instante en que el rival golpea; Kong Hee-yong es el «cañón» desde el fondo, con remates en salto de ángulo difícil que suelen buscar la línea. Rotan con mucha compenetración y saben cambiar de ritmo de repente en la defensa y el contraataque."
+    },
+    "players": [
+      {
+        "nameEn": "Kim Hye-jeong",
+        "nameZh": "金慧贞",
+        "sex": "F",
+        "heightCm": 162,
+        "weightKg": null,
+        "hand": "R",
+        "position": "front",
+        "role": {
+          "zh": "网前抢攻型选手，预判好、出手快，常直接截断对手线路；体能下降时网前判断的精准度会有波动，是对手重点针对的环节。",
+          "es": "Jugadora de ataque en la red, con buena anticipación y golpes rápidos, que suele cortar directamente la trayectoria del rival; cuando baja su condición física, la precisión de sus lecturas en la red se resiente, y es el punto que más suelen atacar sus rivales."
+        }
+      },
+      {
+        "nameEn": "Kong Hee-yong",
+        "nameZh": "孔熙容",
+        "sex": "F",
+        "heightCm": 166,
+        "weightKg": null,
+        "hand": "R",
+        "position": "back",
+        "role": {
+          "zh": "后场起跳重杀角度刁钻，找到节奏后进攻压力极大；被持续压后场时移动会吃亏。曾与金昭映获东京奥运会女双铜牌、登顶世界第一，也参加了巴黎奥运会。",
+          "es": "Sus remates en salto desde el fondo tienen un ángulo muy difícil, y en cuanto encuentra su ritmo su ataque presiona muchísimo; cuando la mantienen presionada en el fondo, su desplazamiento sufre. Ganó el bronce de dobles femeninos en los Juegos de Tokio y fue número 1 del mundo junto a Kim So-yeong, y también compitió en los Juegos de París."
+        }
+      }
+    ]
+  },
+  {
+    "id": "wd-rin-iwanaga-kie-nakanishi",
+    "event": "WD",
+    "pairZh": "岩永铃/中西贵映",
+    "pairEn": "Rin Iwanaga / Kie Nakanishi",
+    "country": {
+      "zh": "日本",
+      "es": "Japón"
+    },
+    "status": "active",
+    "highlights": {
+      "zh": "2025年世锦赛女双铜牌；2024年丹麦公开赛（超级750）冠军；2022年亚锦赛银牌；2025年3月最高世界第四",
+      "es": "Bronce en el Mundial de dobles femeninos 2025; campeonas del Abierto de Dinamarca 2024 (Super 750); plata en el Campeonato de Asia 2022; número 4 del mundo en su mejor posición (marzo de 2025)."
+    },
+    "style": {
+      "zh": "2018年同期加入BIPROGY的高个子组合：左手的中西贵映在后场以独特的蓄力动作打出强攻，岩永铃在网前决胜负，擅长用斜线接杀实现攻守转换。两人打法扎实稳健，是日本女团的主力组合。",
+      "es": "Pareja de jugadoras altas que se incorporaron a BIPROGY el mismo año, 2018: la zurda Kie Nakanishi ataca con fuerza desde el fondo con un peculiar movimiento de carga, mientras Rin Iwanaga decide los puntos en la red y sabe pasar de la defensa al ataque con la defensa del remate en diagonal. Su juego es sólido y consistente, y son la pareja titular del equipo femenino japonés."
+    },
+    "players": [
+      {
+        "nameEn": "Rin Iwanaga (Rin Uesaka)",
+        "nameZh": "岩永铃",
+        "sex": "F",
+        "heightCm": 166,
+        "weightKg": null,
+        "hand": "R",
+        "position": "front",
+        "role": {
+          "zh": "网前型选手，前场出手果断，特色是用斜线接杀打攻守转换；身高166厘米，高中时在全国选拔赛单打、双打都拿到第三。",
+          "es": "Jugadora de red, decidida en sus golpes desde delante, cuya característica es usar la defensa del remate en diagonal para pasar de la defensa al ataque; mide 1,66 m, y en el instituto quedó tercera tanto en individual como en dobles en el torneo de selección nacional."
+        }
+      },
+      {
+        "nameEn": "Kie Nakanishi",
+        "nameZh": "中西贵映",
+        "sex": "F",
+        "heightCm": 170,
+        "weightKg": null,
+        "hand": "L",
+        "position": "back",
+        "role": {
+          "zh": "170厘米的左手后场强攻手，以独特的蓄力动作打出重球，打法扎实稳健；担任BIPROGY队长，是日本女团的核心成员之一。",
+          "es": "Zurda de 1,70 m y ataque potente desde el fondo, que golpea con fuerza gracias a un peculiar movimiento de carga; su juego es sólido y consistente. Es capitana de BIPROGY y una de las jugadoras clave del equipo femenino japonés."
+        }
+      }
+    ]
+  },
+  {
+    "id": "wd-li-yijing-luo-xumin",
+    "event": "WD",
+    "pairZh": "李怡婧/罗徐敏",
+    "pairEn": "Li Yijing / Luo Xumin",
+    "country": {
+      "zh": "中国",
+      "es": "China"
+    },
+    "status": "active",
+    "highlights": {
+      "zh": "2026年亚锦赛女双冠军、2026年世锦赛铜牌；2024年中国公开赛冠军；最高世界第五",
+      "es": "Campeonas del Campeonato de Asia de dobles femeninos 2026 y bronce en el Mundial 2026; campeonas del Abierto de China 2024; número 5 del mundo en su mejor posición."
+    },
+    "style": {
+      "zh": "一攻一控：左手的罗徐敏以后场重杀和积极跑动为招牌，李怡婧以网前控制和防守韧性见长。2026年国羽女双多次调整搭配，两人仍在全英赛、亚锦赛（夺冠）、中国公开赛、世锦赛（铜牌）和中国大师赛搭档出战。",
+      "es": "Una de ataque y otra de control: la zurda Luo Xumin tiene como sello un remate potente desde el fondo y un desplazamiento muy activo, mientras Li Yijing destaca por su control de la red y su resistencia defensiva. En 2026, pese a los muchos cambios de pareja en el dobles femenino del equipo chino, ellas siguieron jugando juntas en el All England, el Campeonato de Asia (que ganaron), el Abierto de China, el Mundial (bronce) y el Masters de China."
+    },
+    "players": [
+      {
+        "nameEn": "Li Yijing",
+        "nameZh": "李怡婧",
+        "sex": "F",
+        "heightCm": 165,
+        "weightKg": null,
+        "hand": "R",
+        "position": "front",
+        "role": {
+          "zh": "网前控制型选手，前场手感细腻、封网积极，防守韧性强；2026年初曾与王艺多搭档夺得瑞士公开赛冠军。",
+          "es": "Jugadora de control en la red, con un toque fino desde delante, que cierra la red con decisión y tiene una gran resistencia defensiva; a principios de 2026 ganó el Abierto de Suiza junto a Wang Yidi."
+        }
+      },
+      {
+        "nameEn": "Luo Xumin",
+        "nameZh": "罗徐敏",
+        "sex": "F",
+        "heightCm": 168,
+        "weightKg": null,
+        "hand": "L",
+        "position": "back",
+        "role": {
+          "zh": "左手后场进攻手，杀球重、跑动积极，能长时间持续下压；2026年曾与鲍骊婧夺德国公开赛冠军、与小将陈樊淑湉夺马来西亚大师赛冠军。",
+          "es": "Zurda de ataque desde el fondo, con un remate pesado y un desplazamiento muy activo, capaz de mantener remates continuos durante mucho tiempo; en 2026 ganó el Abierto de Alemania junto a Bao Lijing y el Masters de Malasia junto a la joven Chen Fanshutian."
+        }
+      }
+    ]
+  },
+  {
+    "id": "wd-rachel-allessya-rose-febi-setianingrum",
+    "event": "WD",
+    "pairZh": "阿莱西娅/费比",
+    "pairEn": "Rachel Allessya Rose / Febi Setianingrum",
+    "country": {
+      "zh": "印尼",
+      "es": "Indonesia"
+    },
+    "status": "active",
+    "highlights": {
+      "zh": "2025年澳大利亚公开赛冠军；2026年亚锦赛淘汰贾一凡/张殊贤；2026年8月升至最高世界第9（现第9）",
+      "es": "Campeonas del Abierto de Australia 2025; eliminaron a Jia Yifan/Zhang Shuxian en el Campeonato de Asia 2026; en agosto de 2026 alcanzaron su mejor posición, el número 9 del mundo (número 9 en la actualidad)."
+    },
+    "style": {
+      "zh": "印尼新生代女双，两人都是2004年出生，近两年上升很快，能在大赛中爆冷击败顶尖组合。公开资料没有明确的固定前后场分工，此处标为前后都打，适合喜欢轮转、不拘泥固定站位的球友参考。",
+      "es": "Nueva generación del dobles femenino indonesio; las dos nacieron en 2004 y han subido muy rápido en los últimos dos años, capaces de dar sorpresas en grandes torneos venciendo a parejas de primer nivel. No hay información pública de un reparto fijo entre red y fondo, así que aquí se indica que juegan en ambas zonas; un buen referente para jugadoras que prefieran rotar sin ceñirse a una posición fija."
+    },
+    "players": [
+      {
+        "nameEn": "Rachel Allessya Rose",
+        "nameZh": "瑞秋·阿莱西娅·罗斯",
+        "sex": "F",
+        "heightCm": 161,
+        "weightKg": null,
+        "hand": "R",
+        "position": "both",
+        "role": {
+          "zh": "印尼新生代女双选手，2022年世青赛获女双银牌、团体铜牌；此前与梅丽莎搭档，与费比组合后迅速打进世界前十。",
+          "es": "Jugadora de la nueva generación indonesia de dobles femeninos; en el Mundial junior 2022 ganó la plata en dobles femeninos y el bronce por equipos; antes hizo pareja con Melisa, y tras unirse a Febi entró rápidamente en el top 10 del mundo."
+        }
+      },
+      {
+        "nameEn": "Febi Setianingrum",
+        "nameZh": "费比·塞蒂安格鲁姆",
+        "sex": "F",
+        "heightCm": 167,
+        "weightKg": null,
+        "hand": "R",
+        "position": "both",
+        "role": {
+          "zh": "与阿莱西娅同龄的印尼女双选手，此前曾与杰西塔搭档；组合在2025年澳大利亚公开赛夺冠，2026年升至世界第9。",
+          "es": "Jugadora indonesia de dobles femeninos de la misma edad que Rachel Allessya Rose; antes hizo pareja con Jesita. La pareja ganó el Abierto de Australia 2025 y subió al número 9 del mundo en 2026."
+        }
+      }
+    ]
+  },
+  {
+    "id": "wd-chen-qingchen-jia-yifan",
+    "event": "WD",
+    "pairZh": "陈清晨/贾一凡",
+    "pairEn": "Chen Qingchen / Jia Yifan",
+    "country": {
+      "zh": "中国",
+      "es": "China"
+    },
+    "status": "retired",
+    "highlights": {
+      "zh": "“凡尘组合”：2024年巴黎奥运会女双金牌、2020东京奥运会银牌；2017、2021、2022、2023年四夺世锦赛冠军；两届亚运会金牌；搭档11年，曾登顶世界第一",
+      "es": "«La pareja Fan Chen»: oro en dobles femeninos en los Juegos Olímpicos de París 2024 y plata en los de Tokio 2020; campeonas del Mundial en 2017, 2021, 2022 y 2023; oro en los Juegos Asiáticos en dos ediciones; jugaron juntas 11 años y llegaron a ser número 1 del mundo."
+    },
+    "style": {
+      "zh": "攻守兼备的“凡尘组合”：陈清晨在网前速度快、截击多，负责组织和封网；左手的贾一凡在后场重杀下压。两人搭档11年，节奏变化丰富、关键分敢打，是国羽女双东京、巴黎两个周期的绝对主力。",
+      "es": "«La pareja Fan Chen», con un buen equilibrio entre ataque y defensa: Chen Qingchen es rápida en la red y con muchas intercepciones, encargándose de organizar y cerrar la red; la zurda Jia Yifan remata con fuerza desde el fondo. Jugaron juntas 11 años, con muchos cambios de ritmo y decisión en los puntos clave, siendo la pareja titular indiscutible del dobles femenino del equipo chino en los ciclos de Tokio y París."
+    },
+    "players": [
+      {
+        "nameEn": "Chen Qingchen",
+        "nameZh": "陈清晨",
+        "sex": "F",
+        "heightCm": 164,
+        "weightKg": null,
+        "hand": "R",
+        "position": "front",
+        "role": {
+          "zh": "网前组织核心，出手快、截击积极，也有顶级混双经验（曾与郑思维登顶混双世界第一）；2025年10月法国公开赛后告别赛场，11月发文告别国家队。",
+          "es": "Núcleo organizador en la red, con golpes rápidos y muchas intercepciones; también tiene experiencia de primer nivel en dobles mixtos (fue número 1 del mundo junto a Zheng Siwei). Se despidió de la competición tras el Abierto de Francia de octubre de 2025, y en noviembre publicó su adiós al equipo nacional."
+        }
+      },
+      {
+        "nameEn": "Jia Yifan",
+        "nameZh": "贾一凡",
+        "sex": "F",
+        "heightCm": 170,
+        "weightKg": null,
+        "hand": "L",
+        "position": "back",
+        "role": {
+          "zh": "左手后场重炮，杀球有力、防守覆盖面大；陈清晨退役后改与张殊贤搭档，继续征战国际赛场。",
+          "es": "Zurda de gran potencia desde el fondo, con un remate contundente y una gran cobertura defensiva; tras la retirada de Chen Qingchen, pasó a hacer pareja con Zhang Shuxian para seguir compitiendo internacionalmente."
+        }
+      }
+    ]
+  },
+  {
+    "id": "wd-ayaka-takahashi-misaki-matsutomo",
+    "event": "WD",
+    "pairZh": "高桥礼华/松友美佐纪",
+    "pairEn": "Ayaka Takahashi / Misaki Matsutomo",
+    "country": {
+      "zh": "日本",
+      "es": "Japón"
+    },
+    "status": "retired",
+    "highlights": {
+      "zh": "“高松组合”：2016年里约奥运会女双金牌；2016年全英赛冠军；2014、2018年年终总决赛冠军；2014年10月登顶世界第一",
+      "es": "«La pareja Takamatsu»: oro en dobles femeninos en los Juegos Olímpicos de Río 2016; campeonas del All England 2016; campeonas de las Finales de fin de temporada en 2014 y 2018; número 1 del mundo desde octubre de 2014."
+    },
+    "style": {
+      "zh": "高中时代起搭档的经典组合：松友美佐纪以前场技术闻名，网前手法细腻、截击迅速、落点精准，掌控比赛节奏；高桥礼华在后场负责进攻下压。一控一攻、互补分明，是“网前控制型”女双的教科书。",
+      "es": "Pareja clásica que juega junta desde el instituto: Misaki Matsutomo es célebre por su técnica en la red, con un toque fino, una intercepción rapidísima y una precisión de caída que le permiten controlar el ritmo del partido; Ayaka Takahashi se encarga del ataque desde el fondo. Una de control y otra de ataque, complementándose con claridad, son el manual de referencia del dobles femenino «de control de red»."
+    },
+    "players": [
+      {
+        "nameEn": "Ayaka Takahashi",
+        "nameZh": "高桥礼华",
+        "sex": "F",
+        "heightCm": 164,
+        "weightKg": null,
+        "hand": "R",
+        "position": "back",
+        "role": {
+          "zh": "组合中的后场进攻手，负责下压和连续进攻，为搭档的网前控制创造条件；2020年8月宣布退役，“高松组合”随之解散。",
+          "es": "La atacante desde el fondo de la pareja, encargada de rematar y de mantener el ataque continuo, creando las condiciones para el control de red de su compañera; anunció su retirada en agosto de 2020, y con ello se disolvió «la pareja Takamatsu»."
+        }
+      },
+      {
+        "nameEn": "Misaki Matsutomo",
+        "nameZh": "松友美佐纪",
+        "sex": "F",
+        "heightCm": 159,
+        "weightKg": null,
+        "hand": "R",
+        "position": "front",
+        "role": {
+          "zh": "网前技术大师，手法细腻、截击迅速、落点精准，能主导比赛节奏；身高仅159厘米却登顶世界第一，与高桥共获2016年BWF年度最佳女运动员。",
+          "es": "Maestra de la técnica de red, con un toque fino, una intercepción rapidísima y una precisión de caída que le permiten dirigir el ritmo del partido; con solo 1,59 m llegó a ser número 1 del mundo, y junto a Takahashi fue nombrada Jugadora del Año de la BWF en 2016."
+        }
+      }
+    ]
+  },
+  {
+    "id": "xd-feng-yanzhe-huang-dongping",
+    "event": "XD",
+    "pairZh": "冯彦哲/黄东萍",
+    "pairEn": "Feng Yanzhe / Huang Dongping",
+    "country": {
+      "zh": "中国",
+      "es": "China"
+    },
+    "status": "active",
+    "highlights": {
+      "zh": "2024年11月登顶世界第一（现世界第一）；2025年世界羽联总决赛冠军；2026年世锦赛银牌；2026年澳大利亚公开赛、中国大师赛冠军；黄东萍另与王懿律获东京奥运会混双金牌",
+      "es": "Número 1 del mundo desde noviembre de 2024 (número 1 del mundo en la actualidad); campeones de las Finales de la BWF 2025; subcampeones del Mundial 2026; campeones del Abierto de Australia y del Masters de China 2026; Huang Dongping también ganó el oro en dobles mixtos en los Juegos Olímpicos de Tokio junto a Wang Yilyu."
+    },
+    "style": {
+      "zh": "标准的“女前男后”：黄东萍的网前控制极难对付，对手甚至不敢把球放到她的网前；身高195厘米的冯彦哲在后场凭身高和力量连续下压。一个控制、一个火力，是当今混双的标杆组合。",
+      "es": "El clásico reparto de «mujer delante, hombre detrás»: el control de red de Huang Dongping es enormemente difícil de superar, hasta el punto de que los rivales no se atreven ni a jugarle dejadas en la red; Feng Yanzhe, de 1,95 m, remata sin parar desde el fondo gracias a su altura y su fuerza. Una de control y otro de potencia, son la pareja de referencia del dobles mixtos actual."
+    },
+    "players": [
+      {
+        "nameEn": "Feng Yanzhe",
+        "nameZh": "冯彦哲",
+        "sex": "M",
+        "heightCm": 195,
+        "weightKg": null,
+        "hand": "R",
+        "position": "back",
+        "role": {
+          "zh": "身高195厘米的后场攻击手，杀球角度陡、覆盖面大；2019年世青赛混双冠军，与黄东萍配对后长期占据世界第一。",
+          "es": "Atacante desde el fondo de 1,95 m, con remates de ángulo muy cerrado y una gran cobertura; campeón mundial junior de dobles mixtos en 2019, y desde que hace pareja con Huang Dongping ha ocupado el número 1 del mundo durante mucho tiempo."
+        }
+      },
+      {
+        "nameEn": "Huang Dongping",
+        "nameZh": "黄东萍",
+        "sex": "F",
+        "heightCm": 165,
+        "weightKg": null,
+        "hand": "R",
+        "position": "front",
+        "role": {
+          "zh": "奥运冠军级别的网前大师，封网、推扑和网前小球都极具威胁，能用前场控制主导比赛；先后与两位搭档登顶世界第一。",
+          "es": "Maestra de la red de nivel de campeona olímpica, con un cierre de red, unos empujes y matares, y unos golpes cortos en la red muy peligrosos, capaz de dirigir el partido con su control de la zona delantera; ha sido número 1 del mundo con dos compañeros distintos."
+        }
+      }
+    ]
+  },
+  {
+    "id": "xd-mathias-christiansen-alexandra-boje",
+    "event": "XD",
+    "pairZh": "克里斯蒂安森/博尔",
+    "pairEn": "Mathias Christiansen / Alexandra Bøje",
+    "country": {
+      "zh": "丹麦",
+      "es": "Dinamarca"
+    },
+    "status": "active",
+    "highlights": {
+      "zh": "2026年印尼公开赛（超级1000）、新加坡公开赛（超级750）、泰国公开赛冠军；2026年欧锦赛混双冠军；2025年许洛公开赛、澳门公开赛冠军；2026年9月升至世界第二（现第二）",
+      "es": "Campeones del Abierto de Indonesia (Super 1000), del Abierto de Singapur (Super 750) y del Abierto de Tailandia 2026; campeones de dobles mixtos del Campeonato de Europa 2026; campeones del Abierto de Hylo y del Abierto de Macao 2025; subieron al número 2 del mundo en septiembre de 2026 (número 2 en la actualidad)."
+    },
+    "style": {
+      "zh": "欧洲混双的代表：经验丰富、身高186厘米的克里斯蒂安森在后场负责进攻，身高173厘米的博尔在前场组织。2026年全英赛后打出一波高峰，四周内连夺三冠并首夺超级1000冠军。",
+      "es": "Representantes del dobles mixtos europeo: el experimentado Mathias Christiansen, de 1,86 m, se encarga del ataque desde el fondo, mientras Alexandra Bøje, de 1,73 m, organiza el juego desde la red. Tras el All England 2026 vivieron un gran momento de forma, encadenando tres títulos en cuatro semanas y logrando su primer Super 1000."
+    },
+    "players": [
+      {
+        "nameEn": "Mathias Christiansen",
+        "nameZh": "马蒂亚斯·克里斯蒂安森",
+        "sex": "M",
+        "heightCm": 186,
+        "weightKg": null,
+        "hand": "R",
+        "position": "back",
+        "role": {
+          "zh": "丹麦混双老将，身高186厘米，后场进攻和经验是组合支柱；曾与佩德森、博尔先后打进混双世界前五，男双也曾进入世界前20。",
+          "es": "Veterano danés de dobles mixtos, de 1,86 m; su ataque desde el fondo y su experiencia son el pilar de la pareja. Llegó al top 5 mundial de dobles mixtos junto a Pedersen y después junto a Bøje, y también llegó al top 20 mundial en dobles masculinos."
+        }
+      },
+      {
+        "nameEn": "Alexandra Bøje",
+        "nameZh": "亚历山德拉·博尔",
+        "sex": "F",
+        "heightCm": 173,
+        "weightKg": null,
+        "hand": "R",
+        "position": "front",
+        "role": {
+          "zh": "身高173厘米的女选手，在混双中承担前场组织；2025年曾与荷兰名将塔贝林搭档夺冠，回到克里斯蒂安森身边后状态火热。",
+          "es": "Jugadora de 1,73 m que se encarga de organizar el juego desde la red en dobles mixtos; en 2025 ganó un título junto al destacado neerlandés Tabeling, y volvió a un gran estado de forma al reunirse con Christiansen."
+        }
+      }
+    ]
+  },
+  {
+    "id": "xd-jiang-zhenbang-wei-yaxin",
+    "event": "XD",
+    "pairZh": "蒋振邦/魏雅欣",
+    "pairEn": "Jiang Zhenbang / Wei Yaxin",
+    "country": {
+      "zh": "中国",
+      "es": "China"
+    },
+    "status": "active",
+    "highlights": {
+      "zh": "2025年3月登顶世界第一；2025年世锦赛银牌、2026年世锦赛铜牌；2025年苏迪曼杯冠军成员；2026年6月重组后首站即夺澳门公开赛冠军",
+      "es": "Número 1 del mundo desde marzo de 2025; subcampeones del Mundial 2025 y bronce en el Mundial 2026; integrantes del equipo campeón de la Copa Sudirman 2025; tras reunirse de nuevo en junio de 2026, ganaron el título en su primer torneo, el Abierto de Macao."
+    },
+    "style": {
+      "zh": "国羽混双主力之一：身高184厘米的蒋振邦是后场重炮，需要网前“托举”来发挥进攻；魏雅欣身高175厘米、左手持拍，在前场控制。2026年春两人曾分开约三个月，6月重组后首站夺冠，默契仍在。",
+      "es": "Una de las parejas titulares de dobles mixtos del equipo chino: Jiang Zhenbang, de 1,84 m, es de gran potencia desde el fondo y necesita que la red lo «impulse» para desplegar su ataque; Wei Yaxin, de 1,75 m y zurda, controla el juego desde delante. En la primavera de 2026 estuvieron separados unos tres meses, y al reunirse en junio ganaron el título en su primer torneo, prueba de que su compenetración seguía intacta."
+    },
+    "players": [
+      {
+        "nameEn": "Jiang Zhenbang",
+        "nameZh": "蒋振邦",
+        "sex": "M",
+        "heightCm": 184,
+        "weightKg": null,
+        "hand": "R",
+        "position": "back",
+        "role": {
+          "zh": "后场重炮型男选手，杀球力量大，需要搭档在网前创造机会；2026年初曾随组合获马来西亚公开赛亚军，全英赛后与魏雅欣分开约三个月，6月重组即夺澳门公开赛冠军。",
+          "es": "Jugador de gran potencia desde el fondo, con un remate muy fuerte, que necesita que su compañera cree ocasiones desde la red; a principios de 2026 fue subcampeón del Abierto de Malasia con la pareja, estuvo separado de Wei Yaxin unos tres meses tras el All England, y al reunirse en junio ganó el Abierto de Macao."
+        }
+      },
+      {
+        "nameEn": "Wei Yaxin",
+        "nameZh": "魏雅欣",
+        "sex": "F",
+        "heightCm": 175,
+        "weightKg": null,
+        "hand": "L",
+        "position": "front",
+        "role": {
+          "zh": "高个子左手女选手，网前覆盖面大；2026年短暂与高家炫搭档便夺得马来西亚大师赛冠军，适应能力强。",
+          "es": "Jugadora zurda y alta, con una gran cobertura en la red; en 2026, tras hacer pareja brevemente con Kao Chia-hsuan, ganó el Masters de Malasia, mostrando una gran capacidad de adaptación."
+        }
+      }
+    ]
+  },
+  {
+    "id": "xd-thom-gicquel-delphine-delrue",
+    "event": "XD",
+    "pairZh": "吉凯尔/德尔吕",
+    "pairEn": "Thom Gicquel / Delphine Delrue",
+    "country": {
+      "zh": "法国",
+      "es": "Francia"
+    },
+    "status": "active",
+    "highlights": {
+      "zh": "2026年世锦赛混双冠军（法国首枚世锦赛金牌，决赛逆转世界第一冯彦哲/黄东萍）；2025年世锦赛铜牌；2024年欧锦赛冠军；2026年全英赛亚军（法国首对打进全英赛决赛的双打组合）",
+      "es": "Campeones de dobles mixtos del Mundial 2026 (el primer oro mundialista de Francia, remontando en la final al número 1 del mundo Feng Yanzhe/Huang Dongping); bronce en el Mundial 2025; campeones del Campeonato de Europa 2024; subcampeones del All England 2026 (la primera pareja francesa en llegar a una final del All England)."
+    },
+    "style": {
+      "zh": "法国混双王牌，全场压迫感强：德尔吕在网前拦截平抽、为进攻铺路，身高186厘米的吉凯尔在后场进攻。两人自评“网前和中场是强项”，近年重点提升进攻得分效率，2026年登上世界之巅。",
+      "es": "Pareja de bandera del dobles mixtos francés, con una presión constante en toda la pista: Delphine Delrue intercepta los drives en la red y allana el camino al ataque, mientras Thom Gicquel, de 1,86 m, ataca desde el fondo. Ellos mismos consideran que «la red y la media pista» son sus puntos fuertes, y en los últimos años se han centrado en mejorar la eficacia anotadora de su ataque, hasta llegar a lo más alto del mundo en 2026."
+    },
+    "players": [
+      {
+        "nameEn": "Thom Gicquel",
+        "nameZh": "汤姆·吉凯尔",
+        "sex": "M",
+        "heightCm": 186,
+        "weightKg": null,
+        "hand": "R",
+        "position": "back",
+        "role": {
+          "zh": "身高186厘米的后场进攻手，男双出身（2018年地中海运动会男双金牌），平抽和中场对抗能力强，近年主攻进攻站位和得分效率。",
+          "es": "Atacante desde el fondo de 1,86 m, procedente del dobles masculino (oro en dobles masculinos en los Juegos del Mediterráneo 2018), con gran capacidad en el drive y en el enfrentamiento de media pista; en los últimos años se ha centrado en su colocación ofensiva y en la eficacia anotadora."
+        }
+      },
+      {
+        "nameEn": "Delphine Delrue",
+        "nameZh": "德尔菲娜·德尔吕",
+        "sex": "F",
+        "heightCm": 171,
+        "weightKg": null,
+        "hand": "R",
+        "position": "front",
+        "role": {
+          "zh": "网前拦截型女选手，反应快、敢压上，擅长截断对手平抽并为搭档创造进攻；比赛中喜欢持续向对手施压。",
+          "es": "Jugadora de red especializada en la intercepción, con reflejos rápidos y que se atreve a presionar; se le da bien cortar el drive del rival y crear ocasiones de ataque a su compañero, y le gusta mantener la presión constante sobre el rival durante el partido."
+        }
+      }
+    ]
+  },
+  {
+    "id": "xd-dechapol-puavaranukroh-supissara-paewsampran",
+    "event": "XD",
+    "pairZh": "德差蓬/素比莎拉",
+    "pairEn": "Dechapol Puavaranukroh / Supissara Paewsampran",
+    "country": {
+      "zh": "泰国",
+      "es": "Tailandia"
+    },
+    "status": "active",
+    "highlights": {
+      "zh": "2025年马来西亚公开赛（超级1000）、新加坡公开赛、中国大师赛冠军（中国大师赛史上首对外国混双冠军）；2025年7月最高世界第三；德差蓬另与沙西丽获2021年世锦赛冠军、曾登顶世界第一",
+      "es": "Campeones del Abierto de Malasia (Super 1000), del Abierto de Singapur y del Masters de China 2025 (la primera pareja extranjera de dobles mixtos en ganar el Masters de China); número 3 del mundo en su mejor posición (julio de 2025); Dechapol Puavaranukroh también ganó el Mundial 2021 junto a Sapsiree y fue número 1 del mundo."
+    },
+    "style": {
+      "zh": "以德差蓬的后场杀球为核心火力，对手常刻意少起高球、改打快平来限制他；素比莎拉在前场衔接。组合2026年退出全英赛、9月因伤缺席中国大师赛，但仍保持世界前五。",
+      "es": "El núcleo del ataque es el remate desde el fondo de Dechapol; los rivales suelen limitarlo evitando los globos altos y jugando más plano y rápido, mientras Supissara Paewsampran se encarga de la conexión desde delante. En 2026 se retiraron del All England y en septiembre no jugaron el Masters de China por lesión, pero siguieron en el top 5 mundial."
+    },
+    "players": [
+      {
+        "nameEn": "Dechapol Puavaranukroh",
+        "nameZh": "德差蓬·保乌拉努科",
+        "sex": "M",
+        "heightCm": 169,
+        "weightKg": null,
+        "hand": "R",
+        "position": "back",
+        "role": {
+          "zh": "身高169厘米却是顶级混双后场攻击手，杀球凶狠、连续进攻能力强；2021年与沙西丽夺得世锦赛混双冠军，并登顶世界第一。",
+          "es": "Con solo 1,69 m, es un atacante de primer nivel desde el fondo en dobles mixtos, con un remate feroz y una gran capacidad de ataque continuo; en 2021 ganó el título mundial de dobles mixtos junto a Sapsiree y llegó a ser número 1 del mundo."
+        }
+      },
+      {
+        "nameEn": "Supissara Paewsampran",
+        "nameZh": "素比莎拉·飘讪攀",
+        "sex": "F",
+        "heightCm": 163,
+        "weightKg": null,
+        "hand": "R",
+        "position": "front",
+        "role": {
+          "zh": "女双出身的泰国选手（女双最高世界第17），在混双中负责前场衔接与封网，为德差蓬创造进攻机会。",
+          "es": "Jugadora tailandesa procedente del dobles femeninos (número 17 del mundo en su mejor posición en esa modalidad), que en dobles mixtos se encarga de la conexión y del cierre de la red desde delante, creando ocasiones de ataque a Dechapol."
+        }
+      }
+    ]
+  },
+  {
+    "id": "xd-cheng-xing-zhang-chi",
+    "event": "XD",
+    "pairZh": "程星/张驰",
+    "pairEn": "Cheng Xing / Zhang Chi",
+    "country": {
+      "zh": "中国",
+      "es": "China"
+    },
+    "status": "active",
+    "highlights": {
+      "zh": "2026年瑞士公开赛、德国公开赛冠军；2026年印尼公开赛（超级1000）亚军；2026年9月最高世界第七",
+      "es": "Campeones del Abierto de Suiza y del Abierto de Alemania 2026; subcampeones del Abierto de Indonesia 2026 (Super 1000); número 7 del mundo en su mejor posición (septiembre de 2026)."
+    },
+    "style": {
+      "zh": "国羽混双新生代组合，程星身高185厘米、张驰171厘米，身材条件好。按混双常规由程星负责后场、张驰负责前场。2026赛季进步明显，连续打进高级别决赛。",
+      "es": "Pareja de la nueva generación de dobles mixtos del equipo chino, con buenas condiciones físicas: Cheng Xing mide 1,85 m y Zhang Chi 1,71 m. Como es habitual en dobles mixtos, Cheng Xing se encarga del fondo y Zhang Chi de la red. En la temporada 2026 mejoraron claramente, llegando a varias finales de alto nivel seguidas."
+    },
+    "players": [
+      {
+        "nameEn": "Cheng Xing",
+        "nameZh": "程星",
+        "sex": "M",
+        "heightCm": 185,
+        "weightKg": null,
+        "hand": "R",
+        "position": "back",
+        "role": {
+          "zh": "身高185厘米的年轻男选手，后场进攻条件好；2026年与张驰先后打进瑞士公开赛、德国公开赛和印尼公开赛决赛。",
+          "es": "Joven jugador de 1,85 m, con buenas condiciones para el ataque desde el fondo; en 2026 llegó, junto a Zhang Chi, a las finales del Abierto de Suiza, del Abierto de Alemania y del Abierto de Indonesia."
+        }
+      },
+      {
+        "nameEn": "Zhang Chi",
+        "nameZh": "张驰",
+        "sex": "F",
+        "heightCm": 171,
+        "weightKg": null,
+        "hand": "R",
+        "position": "front",
+        "role": {
+          "zh": "女双出身（曾与耿淑亮搭档女双），身高171厘米，在混双中负责前场组织；2026年与程星升至世界第七。",
+          "es": "Procedente del dobles femeninos (hizo pareja con Geng Shuliang), mide 1,71 m y en dobles mixtos organiza el juego desde delante; en 2026 subió con Cheng Xing hasta el número 7 del mundo."
+        }
+      }
+    ]
+  },
+  {
+    "id": "xd-chen-tang-jie-toh-ee-wei",
+    "event": "XD",
+    "pairZh": "陈堂杰/杜颐沩",
+    "pairEn": "Chen Tang Jie / Toh Ee Wei",
+    "country": {
+      "zh": "马来西亚",
+      "es": "Malasia"
+    },
+    "status": "active",
+    "highlights": {
+      "zh": "2025年世锦赛混双冠军（马来西亚首个混双世界冠军）；2025年1月最高世界第三",
+      "es": "Campeones de dobles mixtos del Mundial 2025 (el primer título mundial de dobles mixtos de Malasia); número 3 del mundo en su mejor posición (enero de 2025)."
+    },
+    "style": {
+      "zh": "马来西亚混双的突破者：身高180厘米的陈堂杰在后场进攻，杜颐沩在前场控制。两人以韧性著称，常能在落后时追回，2025年巴黎世锦赛为马来西亚拿下历史首个混双世界冠军。",
+      "es": "Los que abrieron el camino del dobles mixtos malasio: Chen Tang Jie, de 1,80 m, ataca desde el fondo, mientras Toh Ee Wei controla el juego desde delante. Son conocidos por su resistencia mental, capaces de remontar a menudo cuando van por detrás, y en el Mundial de París 2025 le dieron a Malasia su primer título mundial de dobles mixtos de la historia."
+    },
+    "players": [
+      {
+        "nameEn": "Chen Tang Jie",
+        "nameZh": "陈堂杰",
+        "sex": "M",
+        "heightCm": 180,
+        "weightKg": null,
+        "hand": "R",
+        "position": "back",
+        "role": {
+          "zh": "马来西亚混双主力男选手，身高180厘米，负责后场进攻；与杜颐沩成为继谢定峰/苏伟译之后马来西亚第二对世界冠军组合。",
+          "es": "Jugador titular malasio de dobles mixtos, de 1,80 m, encargado del ataque desde el fondo; junto a Toh Ee Wei se convirtió en la segunda pareja campeona mundial de Malasia, tras Aaron Chia/Soh Wooi Yik."
+        }
+      },
+      {
+        "nameEn": "Toh Ee Wei",
+        "nameZh": "杜颐沩",
+        "sex": "F",
+        "heightCm": 161,
+        "weightKg": null,
+        "hand": "R",
+        "position": "front",
+        "role": {
+          "zh": "身高约161厘米的前场型女选手，负责网前控制；曾与何邦荣搭档打进世界前20，2026年新加坡公开赛八强战中扭伤膝盖退赛。",
+          "es": "Jugadora de red de cerca de 1,61 m, encargada del control desde delante; llegó al top 20 mundial junto a Hoo Pang Ron, y se retiró en cuartos de final del Abierto de Singapur 2026 tras torcerse la rodilla."
+        }
+      }
+    ]
+  },
+  {
+    "id": "xd-goh-soon-huat-shevon-jemie-lai",
+    "event": "XD",
+    "pairZh": "吴顺发/赖洁敏",
+    "pairEn": "Goh Soon Huat / Shevon Jemie Lai",
+    "country": {
+      "zh": "马来西亚",
+      "es": "Malasia"
+    },
+    "status": "active",
+    "highlights": {
+      "zh": "2018年新加坡公开赛冠军（决赛击败里约奥运冠军艾哈迈德/纳西尔）；2024年中国公开赛冠军（决赛击败冯彦哲/黄东萍）；2025年2月最高世界第三",
+      "es": "Campeones del Abierto de Singapur 2018 (vencieron en la final a los campeones olímpicos de Río, Tontowi Ahmad/Liliyana Natsir); campeones del Abierto de China 2024 (vencieron en la final a Feng Yanzhe/Huang Dongping); número 3 del mundo en su mejor posición (febrero de 2025)."
+    },
+    "style": {
+      "zh": "长期搭档的马来西亚老将组合，两人都已三十出头。按混双常规吴顺发后场、左手的赖洁敏前场。经验丰富、心态稳定，是马来西亚混双多年的中坚力量，也是业余“老搭档”的好榜样。",
+      "es": "Pareja veterana malasia que lleva mucho tiempo junta, ambos ya con algo más de treinta años. Como es habitual en dobles mixtos, Goh Soon Huat juega el fondo y la zurda Shevon Jemie Lai la red. Con mucha experiencia y una gran estabilidad mental, han sido durante años el pilar del dobles mixtos malasio, y también un buen ejemplo para los «compañeros de toda la vida» amateurs."
+    },
+    "players": [
+      {
+        "nameEn": "Goh Soon Huat",
+        "nameZh": "吴顺发",
+        "sex": "M",
+        "heightCm": 178,
+        "weightKg": null,
+        "hand": "R",
+        "position": "back",
+        "role": {
+          "zh": "由单打转型混双的男选手，身高178厘米，负责后场进攻；1990年出生，是当前混双世界前十中最年长的球员。",
+          "es": "Jugador que pasó de individual a dobles mixtos, de 1,78 m, encargado del ataque desde el fondo; nacido en 1990, es el jugador de más edad entre los diez primeros del mundo en dobles mixtos."
+        }
+      },
+      {
+        "nameEn": "Shevon Jemie Lai",
+        "nameZh": "赖洁敏",
+        "sex": "F",
+        "heightCm": 169,
+        "weightKg": null,
+        "hand": "L",
+        "position": "front",
+        "role": {
+          "zh": "左手持拍的女选手，身高169厘米，在混双中负责前场；与吴顺发长期合作，2018年新加坡公开赛击败奥运冠军夺冠。",
+          "es": "Jugadora zurda de 1,69 m, encargada de la red en dobles mixtos; lleva mucho tiempo junto a Goh Soon Huat, con quien ganó el Abierto de Singapur 2018 tras vencer a los campeones olímpicos."
+        }
+      }
+    ]
+  },
+  {
+    "id": "xd-zheng-siwei-huang-yaqiong",
+    "event": "XD",
+    "pairZh": "郑思维/黄雅琼",
+    "pairEn": "Zheng Siwei / Huang Yaqiong",
+    "country": {
+      "zh": "中国",
+      "es": "China"
+    },
+    "status": "retired",
+    "highlights": {
+      "zh": "“雅思组合”：2024年巴黎奥运会混双金牌；2018、2019、2022年三夺世锦赛冠军；两届亚运会金牌；四次世界羽联总决赛冠军",
+      "es": "«La pareja Ya Si»: oro en dobles mixtos en los Juegos Olímpicos de París 2024; campeones del Mundial en 2018, 2019 y 2022; oro en los Juegos Asiáticos en dos ediciones; campeones de las Finales de la BWF en cuatro ocasiones."
+    },
+    "style": {
+      "zh": "混双史上最成功的组合之一：黄雅琼在网前控制、封网，郑思维在后场以速度和爆发力连续进攻，轮转快、衔接紧，攻势如潮。两人搭档七年，以创新战术重塑了混双打法。",
+      "es": "Una de las parejas más exitosas de la historia del dobles mixtos: Huang Yaqiong controla y cierra la red, mientras Zheng Siwei ataca sin parar desde el fondo con velocidad y explosividad; su rotación es rápida y su conexión muy estrecha, con un ataque que llega en oleadas. Jugaron juntos siete años y redefinieron el dobles mixtos con tácticas innovadoras."
+    },
+    "players": [
+      {
+        "nameEn": "Zheng Siwei",
+        "nameZh": "郑思维",
+        "sex": "M",
+        "heightCm": 175,
+        "weightKg": null,
+        "hand": "R",
+        "position": "back",
+        "role": {
+          "zh": "速度与爆发力极强的后场攻击手，身材不算高但起跳快、连续进攻能力突出；也曾与陈清晨登顶混双世界第一，2024年底退役。",
+          "es": "Atacante desde el fondo con una velocidad y una explosividad enormes; no es muy alto, pero salta rápido y su capacidad de ataque continuo es sobresaliente. También fue número 1 del mundo en dobles mixtos junto a Chen Qingchen, y se retiró a finales de 2024."
+        }
+      },
+      {
+        "nameEn": "Huang Yaqiong",
+        "nameZh": "黄雅琼",
+        "sex": "F",
+        "heightCm": 165,
+        "weightKg": null,
+        "hand": "R",
+        "position": "front",
+        "role": {
+          "zh": "网前控制型女选手，封网积极、网前小球细腻，能稳住节奏为搭档创造进攻；2025年1月提交退役申请。",
+          "es": "Jugadora de control en la red, que cierra con decisión y tiene un toque fino en los golpes cortos, capaz de mantener el ritmo y crear ocasiones de ataque a su compañero; presentó su solicitud de retirada en enero de 2025."
+        }
+      }
+    ]
+  },
+  {
+    "id": "xd-zhang-nan-zhao-yunlei",
+    "event": "XD",
+    "pairZh": "张楠/赵芸蕾",
+    "pairEn": "Zhang Nan / Zhao Yunlei",
+    "country": {
+      "zh": "中国",
+      "es": "China"
+    },
+    "status": "retired",
+    "highlights": {
+      "zh": "2012年伦敦奥运会混双金牌；2011、2014、2015年三夺世锦赛冠军；2014年亚运会金牌；赵芸蕾同届伦敦奥运会还获女双金牌，张楠另获里约奥运会男双金牌",
+      "es": "Oro en dobles mixtos en los Juegos Olímpicos de Londres 2012; campeones del Mundial en 2011, 2014 y 2015; oro en los Juegos Asiáticos 2014; Zhao Yunlei también ganó el oro en dobles femeninos en esos mismos Juegos de Londres, y Zhang Nan ganó además el oro en dobles masculinos en los Juegos de Río."
+    },
+    "style": {
+      "zh": "攻防全面的混双王者：赵芸蕾网前技术全面、控制力强，女双、混双都登顶世界第一；张楠身高1.8米以上、动作灵活、后场有力。两人把传统“女前男后”打到极致，曾包揽奥运、世锦赛、亚运会等大赛冠军。",
+      "es": "Reyes del dobles mixtos con un juego completo entre ataque y defensa: Zhao Yunlei tiene una técnica de red muy completa y un gran control, y fue número 1 del mundo tanto en dobles femeninos como en mixtos; Zhang Nan, de más de 1,80 m, es ágil y potente desde el fondo. Llevaron el clásico reparto de «mujer delante, hombre detrás» a su máxima expresión, y llegaron a acumular títulos olímpicos, mundiales y asiáticos, entre otros grandes torneos."
+    },
+    "players": [
+      {
+        "nameEn": "Zhang Nan",
+        "nameZh": "张楠",
+        "sex": "M",
+        "heightCm": 184,
+        "weightKg": null,
+        "hand": "R",
+        "position": "back",
+        "role": {
+          "zh": "身材高、动作灵活的全能型双打手，网前反应快、预判强；混双中主打后场，还与傅海峰搭档获里约奥运男双金牌。",
+          "es": "Jugador de dobles muy completo, alto y ágil, con reflejos rápidos y buena anticipación en la red; en dobles mixtos ataca sobre todo desde el fondo, y también ganó el oro en dobles masculinos en los Juegos de Río junto a Fu Haifeng."
+        }
+      },
+      {
+        "nameEn": "Zhao Yunlei",
+        "nameZh": "赵芸蕾",
+        "sex": "F",
+        "heightCm": 173,
+        "weightKg": null,
+        "hand": "R",
+        "position": "front",
+        "role": {
+          "zh": "身高173厘米的全能型女双打手，女双、混双都登顶世界第一，2012年伦敦奥运会独揽女双、混双两枚金牌；混双中负责网前控制。",
+          "es": "Jugadora de dobles muy completa, de 1,73 m, número 1 del mundo tanto en dobles femeninos como en mixtos; en los Juegos de Londres 2012 se llevó ella sola el oro en dobles femeninos y en dobles mixtos, y en este último se encarga del control de la red."
+        }
+      }
+    ]
+  },
+  {
+    "id": "xd-tontowi-ahmad-liliyana-natsir",
+    "event": "XD",
+    "pairZh": "艾哈迈德/纳西尔",
+    "pairEn": "Tontowi Ahmad / Liliyana Natsir",
+    "country": {
+      "zh": "印尼",
+      "es": "Indonesia"
+    },
+    "status": "retired",
+    "highlights": {
+      "zh": "2016年里约奥运会混双金牌；2013、2017年世锦赛冠军；2012-2014年全英赛三连冠；2018年5月登顶世界第一；纳西尔2022年入选BWF名人堂",
+      "es": "Oro en dobles mixtos en los Juegos Olímpicos de Río 2016; campeones del Mundial en 2013 y 2017; tricampeones del All England entre 2012 y 2014; número 1 del mundo desde mayo de 2018; Liliyana Natsir ingresó en el Salón de la Fama de la BWF en 2022."
+    },
+    "style": {
+      "zh": "印尼混双传奇：入选BWF名人堂的纳西尔负责网前控制与调动，身材高大的艾哈迈德在后场负责进攻。一控一攻，把“女前男后”的经典分工演绎到极致，是混双网前型女选手的经典参照。",
+      "es": "Leyendas del dobles mixtos indonesio: Liliyana Natsir, miembro del Salón de la Fama de la BWF, se encarga del control de la red y de mover al rival, mientras el alto Tontowi Ahmad ataca desde el fondo. Una de control y otro de ataque, llevaron el clásico reparto de «mujer delante, hombre detrás» a su máxima expresión, siendo la referencia clásica de la jugadora de red en dobles mixtos."
+    },
+    "players": [
+      {
+        "nameEn": "Tontowi Ahmad",
+        "nameZh": "通托维·艾哈迈德",
+        "sex": "M",
+        "heightCm": 179,
+        "weightKg": null,
+        "hand": "R",
+        "position": "back",
+        "role": {
+          "zh": "身材高大的后场进攻手，2010年起与纳西尔搭档后迅速崛起，负责后场下压；2020年5月退役。",
+          "es": "Atacante alto desde el fondo, que ascendió rápidamente al hacer pareja con Natsir desde 2010, encargado de rematar desde el fondo; se retiró en mayo de 2020."
+        }
+      },
+      {
+        "nameEn": "Liliyana Natsir",
+        "nameZh": "利利亚纳·纳西尔",
+        "sex": "F",
+        "heightCm": 168,
+        "weightKg": null,
+        "hand": "R",
+        "position": "front",
+        "role": {
+          "zh": "混双网前控制的代表人物，先后与诺瓦、艾哈迈德两位搭档登顶世界第一，四夺世锦赛冠军，2022年入选BWF名人堂。",
+          "es": "Representante del control de red en dobles mixtos, fue número 1 del mundo junto a dos compañeros distintos, Nova y Ahmad, ganó cuatro títulos mundiales y en 2022 ingresó en el Salón de la Fama de la BWF."
+        }
+      }
+    ]
+  }
+]
