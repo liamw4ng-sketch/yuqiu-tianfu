@@ -1,6 +1,6 @@
 # Cómo continuar — 羽球天赋 (app de bádminton)
 
-Última sesión: 2026-09-26. Pausado a petición del usuario hasta la semana que viene (tokens semanales).
+Última sesión: 2026-09-26. **Hito 1 terminado**: el 天赋测评 funciona (tareas 1–13). Pausado hasta la semana que viene.
 
 ## Estado
 
@@ -11,7 +11,7 @@
 | Prototipo del motor de cálculo | ✅ Verificado: `docs/superpowers/prototype/` |
 | Investigación del dominio (jugadores, estudios, tácticas, nivel, MBTI) | ✅ Terminada y verificada el 2026-09-26 (ver «Resultados de la investigación») |
 | Plan de implementación | ✅ Escrito: `docs/superpowers/plans/2026-09-26-yuqiu-tianfu.md` (21 tareas). Falta que el usuario lo revise y elija el modo de ejecución |
-| Programación | ⏳ Pendiente. Primera pregunta al retomar: ¿el plan recoge lo que quiere? y ¿ejecución directa (native, recomendada por tokens) o con agentes (subagent-driven)? |
+| Programación | 🟡 Hito 1 hecho en la rama `feat/hito-1` (tareas 1–13, 102 tests). Ejecución directa (executing-plans). Faltan las tareas 14–21 |
 
 ## Prompt para retomar (copiar y pegar)
 
@@ -81,3 +81,20 @@ Todo en `docs/superpowers/research/`. 9 agentes, verificación adversarial de ju
 - Algunos nombres chinos de medios continentales no confirmados (Alwi Farhan, Putri KW, Mia Blichfeldt, Line Christophersen, Pornpawee, Busanan).
 - Gregoria Mariska Tunjung excluida porque no está claro si está retirada.
 - Algunas parejas de dobles tienen la posición red/fondo como `both`, con confianza baja.
+
+## Probar la app en el móvil
+
+1. En el Mac, dentro de la carpeta del proyecto, arranca el servidor de desarrollo:
+
+```bash
+npm run dev -- --host
+```
+
+2. Con el móvil conectado a la **misma wifi** que el Mac, abre la dirección que la terminal muestra como `Network`. El 2026-09-26 era `http://192.168.1.131:5173`, pero puede cambiar.
+3. La primera vez, macOS puede preguntar si deja entrar conexiones a Node: hay que aceptar.
+
+## Detalles menores pendientes (hito 1)
+
+- Las bandas "SINGLE STRATEGY · 单打专属" y "DOUBLE TACTICS · 双打专属" conservan el chino en modo español.
+- En español, las etiquetas usan los dos puntos chinos "：" en lugar de ": ".
+- 瘦高长臂型 aparece aunque la envergadura no sea larga; la investigación sugiere usar 瘦高型 en ese caso.
