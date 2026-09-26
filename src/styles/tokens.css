@@ -1,0 +1,25 @@
+:root {
+  --bg: #e9edf7;
+  --card: #ffffff;
+  --ink: #0b0b0f;
+  --ink-2: #3a3d46;
+  --muted: #8a8f9c;
+  --line: #eceef3;
+  --field: #f3f4f6;
+  --accent: #2f6bff;
+  --blue-1: #2447c9;
+  --blue-2: #3d6df2;
+  --amber-1: #b8610f;
+  --amber-2: #e39a33;
+  --good: #1f9d55;
+  --warn: #c2700a;
+  --bad: #d12f2f;
+  --radius-card: 28px;
+  --radius-field: 18px;
+  --radius-pill: 999px;
+  --shadow-card: 0 10px 30px rgba(20, 30, 60, 0.08);
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei',
+    'Noto Sans SC', sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+  --maxw: 640px;
+}

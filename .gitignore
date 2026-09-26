@@ -1,1 +1,5 @@
 docs/superpowers/research/_raw_primera_ejecucion/
+node_modules/
+dist/
+.DS_Store
+.superpowers/
