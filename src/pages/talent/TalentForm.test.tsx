@@ -31,9 +31,9 @@ describe('TalentForm', () => {
     renderApp('/talent')
     const u = await fillGolden('51,5')
     await u.click(screen.getByRole('button', { name: c.form.submit }))
-    const id = screen.getByTestId('report-id').textContent!
+    expect(screen.getByRole('heading', { name: new RegExp(c.report.title) })).toBeInTheDocument()
     const saved = JSON.parse(localStorage.getItem(STORAGE_KEY)!)
-    expect(saved.talent[0].id).toBe(id)
+    expect(saved.talent).toHaveLength(1)
     expect(saved.talent[0].input.weightKg).toBe(51.5)
   })
   it('pide confirmación con envergadura anómala', async () => {
@@ -44,10 +44,10 @@ describe('TalentForm', () => {
     await u.click(screen.getByRole('button', { name: c.form.submit }))
     expect(screen.getByText(c.form.warnings.wingspanDiff)).toBeInTheDocument()
     await u.click(screen.getByRole('button', { name: c.form.confirmWarnings }))
-    expect(screen.getByTestId('report-id')).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: new RegExp(c.report.title) })).toBeInTheDocument()
   })
   it('avisa si llega desde un informe inexistente', () => {
     renderApp('/talent/report/nope')
-    expect(screen.queryByTestId('report-id')).not.toBeNull()
+    expect(screen.getByText(c.form.missingReport)).toBeInTheDocument()
   })
 })

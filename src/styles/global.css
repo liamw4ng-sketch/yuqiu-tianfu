@@ -130,3 +130,17 @@ select.field-input {
 .tests[open] { display: grid; gap: 12px; }
 .tests .field-input { background: #fff; }
 .card > form { margin-top: 20px; }
+
+.report-mono { text-align: right; }
+.report-title { margin: 0; font-size: 26px; font-weight: 900; padding-bottom: 16px; border-bottom: 1px solid var(--line); }
+.report p { margin: 0; }
+.small { font-size: 14px; color: var(--ink-2); }
+.style-name { margin: 8px 0 0; font-size: 24px; font-weight: 900; }
+.diag h3 { margin: 8px 0 4px; font-size: 16px; }
+.claim { padding-left: 12px; border-left: 3px solid var(--line); }
+.mirror-card { border: 1px solid var(--line); border-radius: 22px; padding: 18px; display: grid; gap: 8px; }
+.mirror-card h3 { margin: 0; font-size: 22px; font-weight: 900; }
+.mono-label.left { text-align: left; }
+.drills, .refs { margin: 0; padding-left: 20px; display: grid; gap: 12px; }
+.refs { font-size: 14px; }
+.refs a { word-break: break-word; }
