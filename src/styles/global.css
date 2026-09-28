@@ -144,3 +144,22 @@ select.field-input {
 .drills, .refs { margin: 0; padding-left: 20px; display: grid; gap: 12px; }
 .refs { font-size: 14px; }
 .refs a { word-break: break-word; }
+
+.choice { border: 0; margin: 0; padding: 16px; background: var(--field); border-radius: var(--radius-field); display: grid; gap: 8px; min-width: 0; }
+.choice legend { font-weight: 800; padding: 0; margin-bottom: 8px; float: left; width: 100%; }
+.choice-option { display: flex; gap: 10px; align-items: flex-start; padding: 10px 12px; background: #fff; border-radius: 14px; border: 2px solid transparent; cursor: pointer; }
+.choice-option.is-selected { border-color: var(--ink); }
+.choice-option input { margin-top: 5px; accent-color: var(--ink); flex: none; }
+.progress { font-family: var(--font-mono); color: var(--muted); margin: 0; }
+.center { text-align: center; }
+.list { margin: 0; padding-left: 20px; display: grid; gap: 6px; }
+.level-badge { display: flex; gap: 12px; justify-content: center; align-items: baseline; flex-wrap: wrap; }
+.level-code { font-family: var(--font-mono); font-size: 44px; font-weight: 700; }
+.level-name { font-size: 28px; font-weight: 900; }
+.mbti-code { margin: 0; text-align: center; font-family: var(--font-mono); font-size: 32px; font-weight: 700; letter-spacing: 0.2em; }
+.axes { display: grid; gap: 10px; }
+.axis { display: grid; grid-template-columns: 1fr 2fr 1fr; gap: 8px; align-items: center; font-size: 13px; }
+.axis span:last-child { text-align: right; }
+.axis .win { font-weight: 800; }
+.axis-track { height: 10px; border-radius: 999px; background: #dfe6ff; overflow: hidden; }
+.axis-fill { height: 100%; background: var(--ink); }

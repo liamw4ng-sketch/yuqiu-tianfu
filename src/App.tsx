@@ -7,7 +7,9 @@ import { StoreProvider, useStore } from './lib/StoreProvider'
 import HomePage from './pages/HomePage'
 import ProfilePage from './pages/ProfilePage'
 import MbtiPage from './pages/mbti/MbtiPage'
+import MbtiResultPage from './pages/mbti/MbtiResultPage'
 import RatingPage from './pages/rating/RatingPage'
+import RatingResultPage from './pages/rating/RatingResultPage'
 import ReportPage from './pages/talent/ReportPage'
 import TalentPage from './pages/talent/TalentPage'
 
@@ -42,7 +44,9 @@ export function AppRoutes() {
           <Route path="/talent" element={<TalentPage />} />
           <Route path="/talent/report/:id" element={<ReportPage />} />
           <Route path="/rating" element={<RatingPage />} />
+          <Route path="/rating/result/:id" element={<RatingResultPage />} />
           <Route path="/mbti" element={<MbtiPage />} />
+          <Route path="/mbti/result/:id" element={<MbtiResultPage />} />
           <Route path="/profile" element={<ProfilePage />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
