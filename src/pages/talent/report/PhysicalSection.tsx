@@ -1,5 +1,5 @@
 import { SectionHeader } from '../../../components/SectionHeader'
-import { useTalentContent } from '../../../content'
+import { bodyTypeName, useTalentContent } from '../../../content'
 import type { TalentResult } from '../../../engine/talent'
 import type { TalentInput } from '../../../engine/types'
 import { format } from '../../../i18n/I18nProvider'
@@ -36,7 +36,9 @@ export function PhysicalSection({ input, result }: { input: TalentInput; result:
       <p>{format(r.yearsLine, { years: input.yearsPlaying })}</p>
       <p>
         <strong>
-          {r.bodyTypeLabel}：{c.bodyTypes[body.bodyType].name}
+          {r.bodyTypeLabel}
+          {c.list.colon}
+          {bodyTypeName(c, body)}
         </strong>{' '}
         — {c.bodyTypes[body.bodyType].summary}
       </p>
@@ -49,7 +51,9 @@ export function PhysicalSection({ input, result }: { input: TalentInput; result:
         </p>
       ))}
       <p>
-        <strong>{r.ageBands[body.ageBand].name}</strong>：{r.ageBands[body.ageBand].advice}
+        <strong>{r.ageBands[body.ageBand].name}</strong>
+        {c.list.colon}
+        {r.ageBands[body.ageBand].advice}
       </p>
       <p>
         {format(r.strongWeak, {

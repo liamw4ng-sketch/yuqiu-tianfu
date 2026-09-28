@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
 import { SelectField, TextField } from '../../components/fields'
-import { useTalentContent } from '../../content'
+import { paren, useTalentContent } from '../../content'
 import { ABILITY_KEYS, FIELD_TEST_KEYS, type AbilityKey, type FieldTestKey, type Level } from '../../engine/types'
 import { emptyTalentForm, RANGES, validateTalentForm, type FormField, type TalentFormValues, type WarningCode } from '../../engine/validate'
 import { format } from '../../i18n/I18nProvider'
@@ -111,7 +111,7 @@ export function TalentForm() {
         <SelectField
           key={k}
           id={`level-${k}`}
-          label={`${c.abilities[k].name}（${c.abilities[k].hint}）`}
+          label={`${c.abilities[k].name}${paren(c, c.abilities[k].hint)}`}
           value={values.levels[k] === 0 ? '' : String(values.levels[k])}
           placeholder={c.form.choose}
           options={c.abilities[k].levels.map((text, i) => ({ value: String(i + 1), label: `${i + 1} · ${text}` }))}
@@ -127,7 +127,7 @@ export function TalentForm() {
           <TextField
             key={k}
             id={k}
-            label={`${c.tests[k].label}（${c.tests[k].unit}）`}
+            label={`${c.tests[k].label}${paren(c, c.tests[k].unit)}`}
             value={values.tests[k]}
             onChange={setTest(k)}
             error={errors[k]}

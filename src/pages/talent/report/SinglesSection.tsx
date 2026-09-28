@@ -14,7 +14,7 @@ export function SinglesSection({ result }: { input: TalentInput; result: TalentR
   const names = (keys: AbilityKey[]) => joinList(c, keys.map((k) => c.abilities[k].name))
   return (
     <section className="stack">
-      <SectionHeader variant="blue" mono="SINGLE STRATEGY · 单打专属" title={r.singlesBand} />
+      <SectionHeader variant="blue" mono={r.singlesMono} title={r.singlesBand} />
       <p className="small">{r.singlesIntro}</p>
       <h3 className="style-name">
         {style.emoji} {style.name}
@@ -22,14 +22,14 @@ export function SinglesSection({ result }: { input: TalentInput; result: TalentR
       <p className="muted">{style.tagline}</p>
       <FitMeter fit={s.ranking[0].fit} label={format(r.fitLine, { fit: s.ranking[0].fit, band: r.fitBands[s.fitBand] })} />
       <p>
-        <strong>{r.fitAnalysis}：</strong>
+        <strong>{r.fitAnalysis}{c.list.colon}</strong>
         {format(style.fitIntro, { fit: s.ranking[0].fit })}
       </p>
       <p>{s.drivers.length ? format(r.driversLine, { list: names(s.drivers) }) : r.noDrivers}</p>
       <p>{s.gaps.length ? format(r.gapsLine, { list: names(s.gaps) }) : r.noGaps}</p>
       {(['coreTactic', 'opening', 'midgame', 'keyPoints', 'stamina', 'pitfalls', 'matchups'] as const).map((k) => (
         <p key={k}>
-          <strong>{r.singlesLabels[k]}：</strong>
+          <strong>{r.singlesLabels[k]}{c.list.colon}</strong>
           {style[k]}
         </p>
       ))}

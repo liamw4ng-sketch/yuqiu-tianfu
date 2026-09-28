@@ -1,6 +1,6 @@
 import { CompareBars } from '../../../components/CompareBars'
 import { SectionHeader } from '../../../components/SectionHeader'
-import { pick, useTalentContent } from '../../../content'
+import { paren, pick, useTalentContent } from '../../../content'
 import { athleteBmi } from '../../../engine/mirror'
 import type { TalentResult } from '../../../engine/talent'
 import type { TalentInput } from '../../../engine/types'
@@ -45,7 +45,9 @@ export function MirrorSection({ input, result }: { input: TalentInput; result: T
           />
           {alternates.length > 0 && (
             <p className="muted">
-              {r.alternates}：{alternates.map((m) => `${m.athlete.nameEn}（${m.athlete.heightCm}cm）`).join(c.list.sep)}
+              {r.alternates}
+              {c.list.colon}
+              {alternates.map((m) => `${m.athlete.nameEn}${paren(c, `${m.athlete.heightCm}cm`)}`).join(c.list.sep)}
             </p>
           )}
         </div>

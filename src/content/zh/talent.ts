@@ -1,7 +1,7 @@
 import type { TalentContent } from '../types'
 
 export const talentZh: TalentContent = {
-  list: { sep: '、' },
+  list: { sep: '、', colon: '：', open: '（', close: '）' },
 
   form: {
     moduleLabel: 'MODULE 01 | TALENT & BODY TYPE',
@@ -268,7 +268,8 @@ export const talentZh: TalentContent = {
       summary: '体重/身高比偏高、身形结实。若以肌肉为主，是打出更重杀球和平抽的有利条件；需要留意的是移动负担和膝踝保护。',
     },
     tallLean: {
-      name: '瘦高长臂型',
+      name: '瘦高型',
+      nameLongArms: '瘦高长臂型',
       summary: '身材在同性别中偏高、体重偏轻。击球点高、覆盖面大，是压制后场和控制落点的有利条件；天然难点是重心偏高，低位防守和急停变向需要靠步法和下肢力量来补。',
     },
     tallPower: {
@@ -453,8 +454,10 @@ export const talentZh: TalentContent = {
     strongWeak: '你的相对强项是{strong}（{strongScore}/10），相对短板是{weak}（{weakScore}/10）。',
     tacticsTitle: '🧠 球路意识诊断（{score}/10）',
     mentalTitle: '💪 心态诊断（{score}/10）',
+    singlesMono: 'SINGLE STRATEGY · 单打专属',
     singlesBand: '单打风格推荐',
     singlesIntro: '根据你的八项能力和身材倾向，我们计算了你与六种单打风格的契合度，按分数从高到低排列。',
+    doublesMono: 'DOUBLE TACTICS · 双打专属',
     doublesBand: '双打角色推荐',
     doublesIntro: '双打站位分"前场"和"后场"两种角色，另外还有"防守反击"特长标签，可以叠加在任意角色上。',
     fitBands: {

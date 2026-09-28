@@ -5,6 +5,8 @@ import type {
   AbilityKey, AgeBand, BmiBand, BodyType, DiagLevel, DoublesRole, FieldTestKey, FitBand, Flag, Freq, Hand,
   MixedNote, Preference, Sex, SinglesStyle,
 } from '../engine/types'
+import type { MbtiAxis, MbtiCode, MbtiQuestionId } from '../engine/mbti'
+import type { RatingLevel, RatingQuestionId, RatingRuleId } from '../engine/rating'
 import type { FieldErrorCode, WarningCode } from '../engine/validate'
 
 export type Five = [string, string, string, string, string]
@@ -27,6 +29,8 @@ export interface BodyTypeText {
   name: string
   /** 1–2 frases sobre ventajas y desventajas naturales en pista */
   summary: string
+  /** Nombre alternativo cuando la envergadura supera la altura en ≥ 3 cm (solo tallLean) */
+  nameLongArms?: string
 }
 
 export interface StyleText {
@@ -74,7 +78,8 @@ export interface Reference {
 }
 
 export interface TalentContent {
-  list: { sep: string }
+  /** Puntuación propia de cada idioma: separador de listas, dos puntos y paréntesis */
+  list: { sep: string; colon: string; open: string; close: string }
   form: {
     moduleLabel: string
     title: string
@@ -131,8 +136,11 @@ export interface TalentContent {
     /** {score} */
     tacticsTitle: string
     mentalTitle: string
+    /** Etiqueta decorativa de la banda azul */
+    singlesMono: string
     singlesBand: string
     singlesIntro: string
+    doublesMono: string
     doublesBand: string
     doublesIntro: string
     fitBands: Record<FitBand, string>
@@ -175,6 +183,78 @@ export interface TalentContent {
     referencesTitle: string
     references: Reference[]
     disclaimer: string
+  }
+}
+
+export interface RatingContent {
+  moduleLabel: string
+  title: string
+  subtitle: string
+  intro: string
+  /** {done} {total} */
+  progress: string
+  submit: string
+  /** {n} */
+  incomplete: string
+  /** Opciones a–e en orden creciente de nivel (a = 0 puntos … e = 4 puntos) */
+  questions: Record<RatingQuestionId, { title: string; options: Five }>
+  levels: Record<RatingLevel, { code: string; name: string; tagline: string; can: string[]; typical: string; next: string[] }>
+  rules: Record<RatingRuleId, string>
+  result: {
+    title: string
+    /** {points} {max} {percent} */
+    scoreLine: string
+    capsTitle: string
+    /** {question} {level} */
+    cap: string
+    warningsTitle: string
+    canTitle: string
+    typicalTitle: string
+    nextTitle: string
+    basis: string
+    retake: string
+    disclaimer: string
+    missing: string
+  }
+}
+
+export interface MbtiTypeText {
+  nickname: string
+  emoji: string
+  tagline: string
+  desc: string
+  strengths: [string, string, string]
+  weaknesses: [string, string]
+  partnerWhy: string
+  clashWhy: string
+  pro: string
+  tips: [string, string]
+}
+
+export interface MbtiContent {
+  moduleLabel: string
+  title: string
+  subtitle: string
+  disclaimer: string
+  /** {done} {total} */
+  progress: string
+  submit: string
+  /** {n} */
+  incomplete: string
+  axes: Record<MbtiAxis, { name: string; first: string; second: string }>
+  /** `a` expresa el polo de MBTI_QUESTIONS[id].aPole; `b`, el opuesto */
+  questions: Record<MbtiQuestionId, { text: string; a: string; b: string }>
+  types: Record<MbtiCode, MbtiTypeText>
+  result: {
+    title: string
+    strengthsTitle: string
+    weaknessesTitle: string
+    bestPartnerTitle: string
+    worstPartnerTitle: string
+    proTitle: string
+    tipsTitle: string
+    retake: string
+    missing: string
   }
 }
 

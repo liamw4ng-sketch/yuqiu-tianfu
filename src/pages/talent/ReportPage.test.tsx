@@ -40,5 +40,9 @@ describe('ReportPage', () => {
     await userEvent.click(screen.getByRole('button', { name: '切换到西班牙语' }))
     expect(screen.getAllByText(new RegExp(talentEs.singles.control.name)).length).toBeGreaterThan(0)
     expect(document.body.textContent).not.toMatch(new RegExp(c.singles.control.name))
+    // Sin restos de chino en la maquetación: bandas y dos puntos.
+    expect(document.body.textContent).not.toContain('单打专属')
+    expect(document.body.textContent).not.toContain('双打专属')
+    expect(document.body.textContent).not.toContain('：')
   })
 })

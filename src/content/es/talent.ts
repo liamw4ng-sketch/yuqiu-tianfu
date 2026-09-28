@@ -1,7 +1,7 @@
 import type { TalentContent } from '../types'
 
 export const talentEs: TalentContent = {
-  list: { sep: ', ' },
+  list: { sep: ', ', colon: ': ', open: ' (', close: ')' },
 
   form: {
     moduleLabel: 'MODULE 01 | TALENT & BODY TYPE',
@@ -268,7 +268,8 @@ export const talentEs: TalentContent = {
       summary: 'Tu proporción peso/altura es elevada y tienes una complexión fuerte. Si esa masa es sobre todo muscular, es una condición favorable para rematar y hacer drive con más contundencia; hay que vigilar la carga en los desplazamientos y proteger rodillas y tobillos.',
     },
     tallLean: {
-      name: 'Alto y de brazos largos',
+      name: 'Alto y delgado',
+      nameLongArms: 'Alto y de brazos largos',
       summary: 'Tu cuerpo es, dentro de tu sexo, de estatura alta y peso ligero. Un punto de golpeo alto y buen alcance son una condición favorable para presionar el fondo de pista y controlar la colocación; la dificultad natural es un centro de gravedad alto, así que la defensa en posición baja y los cambios bruscos de dirección necesitan apoyarse en el footwork y en la fuerza de piernas.',
     },
     tallPower: {
@@ -453,8 +454,10 @@ export const talentEs: TalentContent = {
     strongWeak: 'Tu punto relativamente fuerte es {strong} ({strongScore}/10) y tu punto relativamente débil es {weak} ({weakScore}/10).',
     tacticsTitle: '🧠 Diagnóstico de lectura táctica ({score}/10)',
     mentalTitle: '💪 Diagnóstico de mentalidad ({score}/10)',
+    singlesMono: 'SINGLE STRATEGY',
     singlesBand: 'Recomendación de estilo en individuales',
     singlesIntro: 'A partir de tus ocho capacidades y de tu tendencia corporal, hemos calculado tu encaje con los seis estilos de individuales, ordenados de mayor a menor puntuación.',
+    doublesMono: 'DOUBLE TACTICS',
     doublesBand: 'Recomendación de rol en dobles',
     doublesIntro: 'En dobles, la formación se reparte entre los roles de "zona de red" y "fondo de pista"; además existe la etiqueta de especialidad "defensor contraatacante", que se puede sumar a cualquiera de los dos roles.',
     fitBands: {
