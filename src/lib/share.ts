@@ -1,7 +1,7 @@
 import { toBlob } from 'html-to-image'
 
 export async function renderPng(node: HTMLElement): Promise<Blob> {
-  const blob = await toBlob(node, { pixelRatio: 1, width: 1080, height: 1440, cacheBust: true })
+  const blob = await toBlob(node, { pixelRatio: 1, width: 1080, height: 1440, cacheBust: true, skipFonts: true })
   if (!blob) throw new Error('empty image')
   return blob
 }
