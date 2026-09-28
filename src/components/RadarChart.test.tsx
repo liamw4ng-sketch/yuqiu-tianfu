@@ -27,3 +27,22 @@ describe('RadarChart', () => {
     expect(screen.queryByTestId('radar-secondary')).toBeNull()
   })
 })
+
+describe('RadarChart para la imagen compartida', () => {
+  const axes = ['a', 'b', 'c', 'd', 'e', 'f'].map((label) => ({ label, value: 5, secondary: 4 }))
+  it('lleva colores como atributos SVG (la captura PNG no copia el CSS de los SVG)', () => {
+    const { container } = render(<RadarChart axes={axes} />)
+    const rings = container.querySelectorAll('polygon.radar-ring')
+    expect(rings.length).toBe(5)
+    rings.forEach((r) => expect(r.getAttribute('fill')).toBe('none'))
+    expect(screen.getByTestId('radar-primary').getAttribute('stroke')).toBeTruthy()
+    expect(screen.getByTestId('radar-secondary').getAttribute('fill')).toBe('none')
+    expect(container.querySelector('text.radar-label')!.getAttribute('font-size')).toBeTruthy()
+  })
+  it('con pixelSize fija el ancho y alto del SVG', () => {
+    const { container } = render(<RadarChart axes={axes} size={500} pixelSize />)
+    const svg = container.querySelector('svg')!
+    expect(svg.getAttribute('width')).toBe('500')
+    expect(svg.getAttribute('height')).toBe('500')
+  })
+})

@@ -22,7 +22,7 @@ export const ShareCard = forwardRef<HTMLDivElement, { profile: LatestProfile }>(
     <div ref={ref} className="share-card">
       <p className="share-mono">BADMINTON TALENT LAB · {t('app.name')}</p>
       <h1 className="share-title">{bodyTypeName(tc, talent.result.body)}</h1>
-      <RadarChart size={620} axes={RADAR_KEYS.map((k) => ({ label: tc.abilities[k].name, value: talent.result.current[k] }))} />
+      <RadarChart size={500} pixelSize axes={RADAR_KEYS.map((k) => ({ label: tc.abilities[k].name, value: talent.result.current[k] }))} />
       <div className="share-grid">
         <div>
           <small>Single Style</small>
