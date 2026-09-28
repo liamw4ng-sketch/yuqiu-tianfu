@@ -1,21 +1,45 @@
 # Cómo continuar — 羽球天赋 (app de bádminton)
 
-Última sesión: 2026-09-26. **Hito 1 terminado**: el 天赋测评 funciona (tareas 1–13). Pausado hasta la semana que viene.
+Última sesión: 2026-09-28. **App completa**: las 21 tareas del plan están hechas en la rama `feat/hito-1` (148 tests), con revisión final y sus arreglos. Falta decidir cómo integrar la rama y publicar.
 
 ## Estado
 
 | Paso | Estado |
 |---|---|
-| Brainstorming y decisiones con el usuario | ✅ Hecho |
-| Especificación de diseño | ✅ Aprobada: `docs/superpowers/specs/2026-09-25-badminton-app-design.md` |
-| Prototipo del motor de cálculo | ✅ Verificado: `docs/superpowers/prototype/` |
-| Investigación del dominio (jugadores, estudios, tácticas, nivel, MBTI) | ✅ Terminada y verificada el 2026-09-26 (ver «Resultados de la investigación») |
-| Plan de implementación | ✅ Escrito: `docs/superpowers/plans/2026-09-26-yuqiu-tianfu.md` (21 tareas). Falta que el usuario lo revise y elija el modo de ejecución |
-| Programación | 🟡 Hito 1 hecho en la rama `feat/hito-1` (tareas 1–13, 102 tests). Ejecución directa (executing-plans). Faltan las tareas 14–21 |
+| Especificación | ✅ `docs/superpowers/specs/2026-09-25-badminton-app-design.md` (con nota de implementación en §5.3) |
+| Investigación verificada | ✅ `docs/superpowers/research/` |
+| Plan | ✅ `docs/superpowers/plans/2026-09-26-yuqiu-tianfu.md` |
+| Programación | ✅ 5 pestañas, zh/es, imagen para compartir, instalable (rama `feat/hito-1`) |
+| Revisión final | ✅ 3 revisores + verificación; 12 arreglos con test |
+| Publicación | ⏳ Pendiente: el usuario elige Netlify o Vercel (ver README) |
 
-## Prompt para retomar (copiar y pegar)
+## Prompt para retomar
 
-> Lee `CONTINUAR.md`. Comprueba qué archivos de investigación hay en `docs/superpowers/research/` y relanza solo lo que falte con `research-workflow.js`. Pregúntame si el plan `docs/superpowers/plans/2026-09-26-yuqiu-tianfu.md` está bien y qué modo de ejecución quiero (directa o con agentes). Después ejecútalo tarea a tarea empezando por el hito 1 (tareas 1–13: el 天赋测评 funcionando) y enséñamelo antes de seguir.
+> Lee `CONTINUAR.md`. La app está terminada en la rama `feat/hito-1`. Ayúdame a publicarla (o a arreglar los detalles menores pendientes).
+
+## Detalles menores pendientes (no bloquean)
+
+- En un informe antiguo, el botón de compartir genera la imagen del perfil más reciente, no la del informe abierto.
+- El bloque de 业余评级 "por qué no más alto" lista también topes que no bajaron el nivel.
+- El espejo de dobles penaliza la posición en vez de filtrarla.
+- Los principiantes (< 1 año) no reciben primero ejercicios de fundamentos.
+- A 375 px solo se ven 3 de las 5 pestañas sin deslizar.
+- Los mensajes de error del formulario no cambian de idioma hasta que se vuelve a enviar.
+- Con dos pestañas abiertas, una puede sobrescribir lo guardado por la otra.
+- La etiqueta accesible del radar usa una coma china en modo español.
+- Las barras comparativas redondean altura y peso decimales.
+- A menores de 18 se les aplican los umbrales de IMC de adultos.
+- En perfiles totalmente planos, la pareja de 全能轮转 recomienda por defecto "爆发力".
+
+## Probar en el móvil
+
+1. En el Mac, en la carpeta del proyecto, arranca el servidor de desarrollo:
+
+```bash
+npm run dev -- --host
+```
+
+2. Con el móvil en la misma wifi, abre la dirección `Network` que muestra la terminal (por ejemplo `http://192.168.1.131:5173`).
 
 ## Qué hay en el prototipo (`docs/superpowers/prototype/`)
 
@@ -82,19 +106,3 @@ Todo en `docs/superpowers/research/`. 9 agentes, verificación adversarial de ju
 - Gregoria Mariska Tunjung excluida porque no está claro si está retirada.
 - Algunas parejas de dobles tienen la posición red/fondo como `both`, con confianza baja.
 
-## Probar la app en el móvil
-
-1. En el Mac, dentro de la carpeta del proyecto, arranca el servidor de desarrollo:
-
-```bash
-npm run dev -- --host
-```
-
-2. Con el móvil conectado a la **misma wifi** que el Mac, abre la dirección que la terminal muestra como `Network`. El 2026-09-26 era `http://192.168.1.131:5173`, pero puede cambiar.
-3. La primera vez, macOS puede preguntar si deja entrar conexiones a Node: hay que aceptar.
-
-## Detalles menores pendientes (hito 1)
-
-- Las bandas "SINGLE STRATEGY · 单打专属" y "DOUBLE TACTICS · 双打专属" conservan el chino en modo español.
-- En español, las etiquetas usan los dos puntos chinos "：" en lugar de ": ".
-- 瘦高长臂型 aparece aunque la envergadura no sea larga; la investigación sugiere usar 瘦高型 en ese caso.

@@ -130,6 +130,11 @@ Fiel a las capturas:
    - Franjas 31–40, 41–50 y 51+: bloque de prevención de lesiones.
    - 16 años o menos: bloque de desarrollo juvenil.
 
+> **Nota de implementación (2026-09-28).** Tras la revisión final:
+> - El encaje es `round(100·(0.7·m + 0.3·bodyFit))` con `m = 0.6·forma + 0.4·nivel`. La forma es la correlación entre el perfil y los pesos del estilo, amortiguada si el perfil es plano. El nivel es la suma ponderada normalizada de las capacidades del estilo.
+> - La banda "高度契合" exige al menos una capacidad clave ≥ 6. Si todas las capacidades clave son ≤ 4, la banda es "初步倾向".
+> - El 身材画像 solo afirma ventajas o desventajas que la capa de tendencia corporal respalda (> 5 o < 5).
+
 ### 5.4 Informe (orden de secciones)
 
 1. Radar con dos capas (actual continuo + tendencia corporal discontinua). Leyenda.
