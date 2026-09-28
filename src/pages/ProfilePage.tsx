@@ -4,7 +4,7 @@ import { CompareBars } from '../components/CompareBars'
 import { RadarChart } from '../components/RadarChart'
 import { SectionHeader } from '../components/SectionHeader'
 import { ShareButton } from '../components/ShareButton'
-import { pick, useTalentContent } from '../content'
+import { pick, statusLabel, useTalentContent } from '../content'
 import { useMbtiContent } from '../content/useMbtiContent'
 import { useRatingContent } from '../content/useRatingContent'
 import { currentScores } from '../engine/abilities'
@@ -68,7 +68,9 @@ export default function ProfilePage() {
                 <h3>
                   {mirror.athlete.nameEn} {mirror.athlete.nameZh}
                 </h3>
-                <p className="muted">{pick(mirror.athlete.country, lang)}</p>
+                <p className="muted">
+                  {pick(mirror.athlete.country, lang)} · {mirror.athlete.heightCm}cm · {statusLabel(tc, mirror.athlete.status, mirror.athlete.retiredYear)}
+                </p>
                 <CompareBars
                   youLabel={tc.report.you}
                   themLabel={tc.report.mirror}

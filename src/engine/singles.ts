@@ -38,8 +38,24 @@ export function fitBandOf(fit: number): FitBand {
   return 'lean'
 }
 
+/**
+ * Encaje con un estilo (0–1): 60 % forma del perfil (correlación con los pesos, amortiguada si el perfil es plano)
+ * + 40 % nivel absoluto en las capacidades que el estilo pide (suma ponderada normalizada, spec §5.3.4).
+ */
+/**
+ * La banda de encaje también exige capacidad real: sin ninguna capacidad clave ≥ 6 no pasa de 'good',
+ * y si todas las capacidades clave son carencias (≤ 4) queda en 'lean' (初步倾向).
+ */
+export function cappedFitBand(fit: number, keys: AbilityKey[], drivers: AbilityKey[], gaps: AbilityKey[]): FitBand {
+  if (keys.length > 0 && gaps.length === keys.length) return 'lean'
+  const band = fitBandOf(fit)
+  return band === 'high' && drivers.length === 0 ? 'good' : band
+}
+
 export function profileMatch(u: readonly number[], weights: Weights): number {
-  return (correlation(u, toVector(weights)) * spreadOf(u) + 1) / 2
+  const shape = (correlation(u, toVector(weights)) * spreadOf(u) + 1) / 2
+  const level = ABILITY_KEYS.reduce((s, k, i) => s + weights[k] * u[i], 0) / 10
+  return 0.6 * shape + 0.4 * level
 }
 
 export function allroundMatch(u: readonly number[]): number {
@@ -106,20 +122,22 @@ export function rankSingles(blended: Scores, current: Scores, body: BodyProfile)
   const top = ranking[0].style
   let drivers: AbilityKey[]
   let gaps: AbilityKey[]
+  let keys: AbilityKey[]
   if (top === 'allround') {
-    const byCurrent = [...ABILITY_KEYS].sort((a, b) => current[b] - current[a] || ABILITY_KEYS.indexOf(a) - ABILITY_KEYS.indexOf(b))
-    const dg = driversAndGaps(byCurrent, current)
+    keys = [...ABILITY_KEYS].sort((a, b) => current[b] - current[a] || ABILITY_KEYS.indexOf(a) - ABILITY_KEYS.indexOf(b))
+    const dg = driversAndGaps(keys, current)
     drivers = dg.drivers.slice(0, 2)
     gaps = dg.gaps.slice(-2)
   } else {
-    ;({ drivers, gaps } = driversAndGaps(keyAbilities(SINGLES_WEIGHTS[top]), current))
+    keys = keyAbilities(SINGLES_WEIGHTS[top])
+    ;({ drivers, gaps } = driversAndGaps(keys, current))
   }
   return {
     ranking,
     top,
     runnerUp: ranking[1].style,
     margin: ranking[0].fit - ranking[1].fit,
-    fitBand: fitBandOf(ranking[0].fit),
+    fitBand: cappedFitBand(ranking[0].fit, keys, drivers, gaps),
     drivers,
     gaps,
   }

@@ -3,7 +3,7 @@ import userEvent from '@testing-library/user-event'
 import { describe, expect, it } from 'vitest'
 import { talentEs } from '../../content/es/talent'
 import { talentZh as c } from '../../content/zh/talent'
-import { GOLDEN } from '../../engine/testkit'
+import { GOLDEN, makeInput } from '../../engine/testkit'
 import { emptyState, STORAGE_KEY } from '../../lib/storage'
 import { renderApp } from '../../test/renderApp'
 
@@ -44,5 +44,16 @@ describe('ReportPage', () => {
     expect(document.body.textContent).not.toContain('单打专属')
     expect(document.body.textContent).not.toContain('双打专属')
     expect(document.body.textContent).not.toContain('：')
+  })
+})
+
+describe('ReportPage con perfil plano', () => {
+  it('no dice que la misma capacidad es la más fuerte y la más débil', () => {
+    localStorage.setItem(
+      STORAGE_KEY,
+      JSON.stringify({ ...emptyState(), talent: [{ id: 'flat', createdAt: '2026-09-26T10:00:00.000Z', engineVersion: 1, input: makeInput('M', 25, 172, 66, null, 2, [3, 3, 3, 3, 3, 3, 3, 3]) }] }),
+    )
+    renderApp('/talent/report/flat')
+    expect(screen.getByText(c.report.flatProfile)).toBeInTheDocument()
   })
 })

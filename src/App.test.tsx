@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
-import { expect, it } from 'vitest'
+import { expect, it, vi } from 'vitest'
 import App from './App'
 
 it('muestra las 5 pestañas en chino y cambia a español', async () => {
@@ -19,4 +19,13 @@ it('recuerda el idioma elegido al volver a abrir la app', async () => {
   first.unmount()
   render(<App />)
   expect(screen.getByRole('link', { name: 'Test de talento' })).toBeInTheDocument()
+})
+
+it('al cambiar de página vuelve arriba', async () => {
+  const scroll = vi.spyOn(window, 'scrollTo').mockImplementation(() => {})
+  render(<App />)
+  scroll.mockClear()
+  await userEvent.click(screen.getByRole('link', { name: '业余评级' }))
+  expect(scroll).toHaveBeenCalledWith(0, 0)
+  scroll.mockRestore()
 })

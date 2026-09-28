@@ -376,7 +376,7 @@ export const talentZh: TalentContent = {
       name: '后场攻击型',
       emoji: '💣',
       tagline: '双打的炮台——后场连续下压，覆盖后场两角，把机会留给网前搭档。',
-      fitIntro: '后场攻击型和你的契合度是 {fit}%——爆发力和后场高远让你能在后场连续下压，是双打里的"炮台"。',
+      fitIntro: '后场攻击型和你的契合度是 {fit}%——这个角色靠爆发力和后场高远在后场连续下压，是双打里的"炮台"；在前后场两种分工中，你的能力结构和体型更接近这一边。',
       coreTactic: '重杀、点杀、劈吊结合，杀对方两人中间（中路）或追身；杀完向前半步，准备连续进攻，逼对方挡网给前场搭档。中后场用平抽压制、抢攻；被动时把高远打到底线，然后转为左右站位。',
       rotation: '对方挡网到前场、前场搭档来不及时，你上网、搭档后撤；对方挑斜线高球时，你横移覆盖后场，前场搭档不要退；你被迫起高球时，两人转为左右站位。',
       positioning: '进攻时站在中场偏后，在搭档身后同侧偏移；杀直线后，站位偏向直线一侧。',
@@ -452,6 +452,7 @@ export const talentZh: TalentContent = {
       },
     },
     strongWeak: '你的相对强项是{strong}（{strongScore}/10），相对短板是{weak}（{weakScore}/10）。',
+    flatProfile: '六维雷达诊断：六项能力目前处在同一水平，没有明显的强项或短板——按推荐风格的重点逐项突破即可。',
     tacticsTitle: '🧠 球路意识诊断（{score}/10）',
     mentalTitle: '💪 心态诊断（{score}/10）',
     singlesMono: 'SINGLE STRATEGY · 单打专属',
@@ -459,7 +460,7 @@ export const talentZh: TalentContent = {
     singlesIntro: '根据你的八项能力和身材倾向，我们计算了你与六种单打风格的契合度，按分数从高到低排列。',
     doublesMono: 'DOUBLE TACTICS · 双打专属',
     doublesBand: '双打角色推荐',
-    doublesIntro: '双打站位分"前场"和"后场"两种角色，另外还有"防守反击"特长标签，可以叠加在任意角色上。',
+    doublesIntro: '双打站位分"前场"和"后场"两种分工；两边适配度接近、整体能力又不弱时，推荐"全能轮转"。',
     fitBands: {
       high: '高度契合',
       good: '较为契合',
@@ -519,7 +520,7 @@ export const talentZh: TalentContent = {
     },
     status: {
       active: '现役',
-      retired: '已退役（{year}）',
+      retired: '已退役（{year}）', retiredNoYear: '已退役',
       split: '已拆对',
     },
     events: {

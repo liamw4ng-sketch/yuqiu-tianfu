@@ -1,5 +1,5 @@
-import type { ReactNode } from 'react'
-import { HashRouter, Navigate, Route, Routes } from 'react-router-dom'
+import { useEffect, type ReactNode } from 'react'
+import { HashRouter, Navigate, Route, Routes, useLocation } from 'react-router-dom'
 import { BackToTop } from './components/BackToTop'
 import { NavBar } from './components/NavBar'
 import { I18nProvider, useI18n } from './i18n/I18nProvider'
@@ -33,9 +33,19 @@ function StorageNotice() {
   )
 }
 
+/** Cada cambio de página empieza arriba (HashRouter no restaura el scroll). */
+function ScrollToTop() {
+  const { pathname } = useLocation()
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [pathname])
+  return null
+}
+
 export function AppRoutes() {
   return (
     <>
+      <ScrollToTop />
       <NavBar />
       <main className="page">
         <StorageNotice />

@@ -26,6 +26,8 @@ describe('TalentForm', () => {
     renderApp('/talent')
     await userEvent.click(screen.getByRole('button', { name: c.form.submit }))
     expect(screen.getAllByText(c.form.errors.required).length).toBeGreaterThanOrEqual(13)
+    // En el móvil hay que llevar al usuario al primer error.
+    expect(document.activeElement?.id).toBe('sex')
   })
   it('guarda el perfil y abre el informe', async () => {
     renderApp('/talent')

@@ -28,6 +28,11 @@ describe('loadState', () => {
     expect(s.lang).toBe('es')
     expect(s.talent.map((r) => r.id)).toEqual(['a'])
   })
+  it('descarta registros con fecha ilegible (evita que el perfil se rompa al formatearla)', () => {
+    const bad = { id: 'x', createdAt: 'not a date', engineVersion: 1, input: GOLDEN }
+    const s = loadState(memoryStore({ [STORAGE_KEY]: JSON.stringify({ ...emptyState(), talent: [bad] }) }))
+    expect(s.talent).toEqual([])
+  })
   it('ida y vuelta', () => {
     const store = memoryStore()
     const state = { ...emptyState(), lang: 'es' as const }

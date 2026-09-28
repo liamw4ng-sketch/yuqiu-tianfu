@@ -1,6 +1,6 @@
 import { CompareBars } from '../../../components/CompareBars'
 import { SectionHeader } from '../../../components/SectionHeader'
-import { paren, pick, useTalentContent } from '../../../content'
+import { paren, pick, statusLabel, useTalentContent } from '../../../content'
 import { athleteBmi } from '../../../engine/mirror'
 import type { TalentResult } from '../../../engine/talent'
 import type { TalentInput } from '../../../engine/types'
@@ -12,8 +12,7 @@ export function MirrorSection({ input, result }: { input: TalentInput; result: T
   const r = c.report
   const [top, ...alternates] = result.mirrors.singles
   const pairMirror = result.mirrors.doubles[0]
-  const statusText = (status: 'active' | 'retired' | 'split', year?: number | null) =>
-    status === 'retired' ? format(r.status.retired, { year: year ?? '' }) : r.status[status]
+  const statusText = (status: 'active' | 'retired' | 'split', year?: number | null) => statusLabel(c, status, year)
   const matched = pairMirror ? pairMirror.pair.players[pairMirror.playerIndex] : null
   return (
     <section className="stack">

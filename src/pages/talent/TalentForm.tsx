@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
 import { SelectField, TextField } from '../../components/fields'
 import { paren, useTalentContent } from '../../content'
@@ -9,6 +9,15 @@ import { useStore } from '../../lib/StoreProvider'
 
 type NumericKey = 'age' | 'heightCm' | 'weightKg' | 'wingspanCm' | 'yearsPlaying'
 const NUMERIC: NumericKey[] = ['age', 'heightCm', 'weightKg', 'wingspanCm', 'yearsPlaying']
+// Orden visual de los campos: id del elemento de cada campo del formulario.
+const FIELD_ORDER: [FormField, string][] = [
+  ['sex', 'sex'],
+  ...NUMERIC.map((k): [FormField, string] => [k, k]),
+  ...ABILITY_KEYS.map((k): [FormField, string] => [k, `level-${k}`]),
+  ...FIELD_TEST_KEYS.map((k): [FormField, string] => [k, k]),
+]
+
+const firstErrorId = (fields: FormField[]) => FIELD_ORDER.find(([f]) => fields.includes(f))?.[1] ?? null
 
 export function TalentForm() {
   const c = useTalentContent()
@@ -19,6 +28,14 @@ export function TalentForm() {
   const [values, setValues] = useState<TalentFormValues>(emptyTalentForm)
   const [errors, setErrors] = useState<Partial<Record<FormField, string>>>({})
   const [pendingWarnings, setPendingWarnings] = useState<WarningCode[]>([])
+  // En el móvil, un envío fallido lleva al primer campo con error (tras el render, con <details> ya abierto).
+  const [focusRequest, setFocusRequest] = useState<{ id: string; n: number } | null>(null)
+  useEffect(() => {
+    if (!focusRequest) return
+    const el = document.getElementById(focusRequest.id)
+    el?.focus()
+    el?.scrollIntoView?.({ block: 'center' })
+  }, [focusRequest])
 
   const errorText = (field: FormField, code: 'required' | 'number' | 'range') => {
     if (code !== 'range') return c.form.errors[code]
@@ -33,6 +50,8 @@ export function TalentForm() {
     setErrors(next)
     if (!r.input) {
       setPendingWarnings([])
+      const id = firstErrorId(Object.keys(r.errors) as FormField[])
+      if (id) setFocusRequest((prev) => ({ id, n: (prev?.n ?? 0) + 1 }))
       return
     }
     if (r.warnings.length > 0 && !confirmed) {

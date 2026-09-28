@@ -16,10 +16,10 @@ describe('analyzeTalent', () => {
     expect(r.flags).toEqual([])
     expect(r.diagnosis.reaction).toBe('weak')
     expect(r.diagnosis.endurance).toBe('medium')
+    // power no es desventaja: su tendencia corporal (5.1) está por encima del punto neutro.
     expect(r.bodyClaims).toEqual([
       { key: 'speed', kind: 'advantage', level: 'medium' },
       { key: 'endurance', kind: 'advantage', level: 'medium' },
-      { key: 'power', kind: 'disadvantage', level: 'medium' },
     ])
     expect(r.mirrors.singles.length).toBeGreaterThan(0)
     expect(r.mirrors.singles.every((m) => m.athlete.sex === 'F')).toBe(true)

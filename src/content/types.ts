@@ -133,6 +133,8 @@ export interface TalentContent {
     ageBands: Record<AgeBand, { name: string; advice: string }>
     /** {strong} {strongScore} {weak} {weakScore} */
     strongWeak: string
+    /** Cuando las seis capacidades del radar están al mismo nivel */
+    flatProfile: string
     /** {score} */
     tacticsTitle: string
     mentalTitle: string
@@ -171,7 +173,7 @@ export interface TalentContent {
     /** {diff} */
     bmiDiffLine: string
     styleMatch: Record<StyleMatch, string>
-    status: { active: string; retired: string; split: string }
+    status: { active: string; retired: string; retiredNoYear: string; split: string }
     events: Record<PairEvent, string>
     positions: Record<Position, string>
     /** {name} {position} */

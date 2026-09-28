@@ -56,12 +56,14 @@ export function PhysicalSection({ input, result }: { input: TalentInput; result:
         {r.ageBands[body.ageBand].advice}
       </p>
       <p>
-        {format(r.strongWeak, {
+        {result.current[result.strongest] === result.current[result.weakest]
+          ? r.flatProfile
+          : format(r.strongWeak, {
           strong: c.abilities[result.strongest].name,
           strongScore: one(result.current[result.strongest]),
           weak: c.abilities[result.weakest].name,
-          weakScore: one(result.current[result.weakest]),
-        })}
+              weakScore: one(result.current[result.weakest]),
+            })}
       </p>
       {diag('tactics', r.tacticsTitle)}
       {diag('mental', r.mentalTitle)}

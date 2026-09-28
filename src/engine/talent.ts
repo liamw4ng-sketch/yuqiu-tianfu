@@ -79,7 +79,7 @@ export function analyzeTalent(input: TalentInput, data: AthleteData = { singles:
     diagnosis,
     strongest: argBy(RADAR_KEYS, (k) => current[k], (a, b) => a > b),
     weakest: argBy(RADAR_KEYS, (k) => current[k], (a, b) => a < b),
-    bodyClaims: bodyClaims(body.bodyType, current),
+    bodyClaims: bodyClaims(body.bodyType, current, tendency),
     singles,
     doubles,
     mirrors: {

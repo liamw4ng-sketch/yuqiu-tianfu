@@ -1,5 +1,5 @@
 import { BMI_LIMITS, BODY_TRAITS, DIAG_STRONG_FROM, DIAG_WEAK_BELOW, HEIGHT_BAND_Z, HEIGHT_REF } from './constants'
-import type { AgeBand, BmiBand, BodyClaim, BodyProfile, BodyType, DiagLevel, HeightBand, Scores, Sex, TalentInput } from './types'
+import type { AgeBand, BmiBand, BodyClaim, BodyProfile, BodyType, DiagLevel, HeightBand, RadarScores, Scores, Sex, TalentInput } from './types'
 
 export function bmiOf(heightCm: number, weightKg: number): number {
   const m = heightCm / 100
@@ -52,7 +52,7 @@ export function analyzeBody(input: Pick<TalentInput, 'sex' | 'age' | 'heightCm' 
     heightBand,
     wingspanCm,
     wingspanAssumed: input.wingspanCm == null,
-    apeIndexCm: wingspanCm - input.heightCm,
+    apeIndexCm: Math.round((wingspanCm - input.heightCm) * 10) / 10,
     apeRatio: Math.round((wingspanCm / input.heightCm) * 1000) / 1000,
     ageBand: ageBandOf(input.age),
     bodyType: bodyTypeOf(heightBand, bmiBand),
@@ -65,10 +65,18 @@ export function diagLevel(score: number): DiagLevel {
   return 'strong'
 }
 
-export function bodyClaims(bodyType: BodyType, current: Scores): BodyClaim[] {
+/**
+ * Ventajas y desventajas del 身材画像. BODY_TRAITS da las candidatas del tipo, pero solo se afirman las que
+ * la capa de tendencia corporal respalda (> 5 ventaja, < 5 desventaja): así el texto nunca contradice al radar.
+ */
+export function bodyClaims(bodyType: BodyType, current: Scores, tendency: RadarScores): BodyClaim[] {
   const traits = BODY_TRAITS[bodyType]
   return [
-    ...traits.advantages.map((key) => ({ key, kind: 'advantage' as const, level: diagLevel(current[key]) })),
-    ...traits.disadvantages.map((key) => ({ key, kind: 'disadvantage' as const, level: diagLevel(current[key]) })),
+    ...traits.advantages
+      .filter((key) => tendency[key] > 5)
+      .map((key) => ({ key, kind: 'advantage' as const, level: diagLevel(current[key]) })),
+    ...traits.disadvantages
+      .filter((key) => tendency[key] < 5)
+      .map((key) => ({ key, kind: 'disadvantage' as const, level: diagLevel(current[key]) })),
   ]
 }

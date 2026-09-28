@@ -69,11 +69,17 @@ describe('diagnóstico y claims', () => {
   })
   it('bodyClaims refleja el nivel actual, no el potencial', () => {
     const current: Scores = { power: 4, endurance: 6, reaction: 2, netTouch: 4, speed: 8, rearCourt: 4, tactics: 2, mental: 6 }
-    expect(bodyClaims('compactQuick', current)).toEqual([
+    const supportive = { power: 5, endurance: 5, reaction: 5.4, netTouch: 5, speed: 6, rearCourt: 4.2 }
+    expect(bodyClaims('compactQuick', current, supportive)).toEqual([
       { key: 'speed', kind: 'advantage', level: 'strong' },
       { key: 'reaction', kind: 'advantage', level: 'weak' },
       { key: 'rearCourt', kind: 'disadvantage', level: 'medium' },
     ])
-    expect(bodyClaims('balanced', current)).toEqual([])
+    expect(bodyClaims('balanced', current, supportive)).toEqual([])
+  })
+  it('bodyClaims omite lo que la tendencia corporal no respalda', () => {
+    const current: Scores = { power: 4, endurance: 6, reaction: 2, netTouch: 4, speed: 8, rearCourt: 4, tactics: 2, mental: 6 }
+    const against = { power: 5, endurance: 5, reaction: 4.8, netTouch: 5, speed: 6, rearCourt: 5.3 }
+    expect(bodyClaims('compactQuick', current, against)).toEqual([{ key: 'speed', kind: 'advantage', level: 'strong' }])
   })
 })

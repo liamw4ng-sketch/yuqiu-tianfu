@@ -376,7 +376,7 @@ export const talentEs: TalentContent = {
       name: 'Atacante de fondo',
       emoji: '💣',
       tagline: 'La artillería de los dobles: presión continua de remate desde el fondo, cubriendo las dos esquinas de fondo y dejando las ocasiones a tu pareja de red.',
-      fitIntro: 'Tu encaje con el atacante de fondo es del {fit}%: la potencia y el fondo de pista te permiten encadenar remates desde el fondo — eres la "artillería" de los dobles.',
+      fitIntro: 'Tu encaje con el atacante de fondo es del {fit}%: este rol vive de la potencia y del fondo de pista para encadenar remates — es la "artillería" de los dobles; de los dos repartos, red o fondo, tu perfil y tu cuerpo se acercan más a este.',
       coreTactic: 'Combina remate fuerte, remate corto y dejada cortada, atacando el centro entre los dos rivales o al cuerpo; tras rematar, da medio paso adelante para seguir presionando y obligar al rival a bloquear hacia tu pareja de red. En el medio fondo, usa el drive para presionar y atacar; en desventaja, da un clear a la línea de fondo y pasad a la formación de lado a lado.',
       rotation: 'Si el rival bloquea hacia la zona de red y tu pareja no llega a tiempo, sube tú a la red y que tu pareja retroceda; si el rival da un globo cruzado, desplázate tú en horizontal para cubrir el fondo y que tu pareja de red no retroceda; si te ves obligado/a a dar un globo, pasad los dos a la formación de lado a lado.',
       positioning: 'En ataque, colócate en el medio campo hacia atrás, desplazándote hacia el mismo lado detrás de tu pareja; tras rematar en línea, mantén la posición hacia ese lado.',
@@ -452,6 +452,7 @@ export const talentEs: TalentContent = {
       },
     },
     strongWeak: 'Tu punto relativamente fuerte es {strong} ({strongScore}/10) y tu punto relativamente débil es {weak} ({weakScore}/10).',
+    flatProfile: 'Diagnóstico del radar: tus seis capacidades están ahora al mismo nivel, sin un punto fuerte ni débil claro; ve mejorándolas una a una según las prioridades de tu estilo.',
     tacticsTitle: '🧠 Diagnóstico de lectura táctica ({score}/10)',
     mentalTitle: '💪 Diagnóstico de mentalidad ({score}/10)',
     singlesMono: 'SINGLE STRATEGY',
@@ -459,7 +460,7 @@ export const talentEs: TalentContent = {
     singlesIntro: 'A partir de tus ocho capacidades y de tu tendencia corporal, hemos calculado tu encaje con los seis estilos de individuales, ordenados de mayor a menor puntuación.',
     doublesMono: 'DOUBLE TACTICS',
     doublesBand: 'Recomendación de rol en dobles',
-    doublesIntro: 'En dobles, la formación se reparte entre los roles de "zona de red" y "fondo de pista"; además existe la etiqueta de especialidad "defensor contraatacante", que se puede sumar a cualquiera de los dos roles.',
+    doublesIntro: 'En dobles, el reparto se divide entre "zona de red" y "fondo de pista"; cuando tu encaje con ambos es parecido y tu nivel general no es bajo, se recomienda la "rotación todoterreno".',
     fitBands: {
       high: 'Encaje alto',
       good: 'Buen encaje',
@@ -519,7 +520,7 @@ export const talentEs: TalentContent = {
     },
     status: {
       active: 'En activo',
-      retired: 'Retirado/a ({year})',
+      retired: 'Retirado/a ({year})', retiredNoYear: 'Retirado/a',
       split: 'Pareja separada',
     },
     events: {

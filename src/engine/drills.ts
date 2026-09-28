@@ -37,7 +37,10 @@ export function pickDrills(style: SinglesStyle, current: Scores): DrillId[] {
   const chosen: DrillId[] = []
   for (const k of [...focus, ...fallback]) {
     if (chosen.length === 3) break
-    const drill = DRILLS.find((d) => (d.targets as readonly AbilityKey[]).includes(k) && !chosen.includes(d.id))
+    // Primero el ejercicio cuyo objetivo principal es esa capacidad (p. ej. clear antes que multivolante de remate).
+    const drill =
+      DRILLS.find((d) => d.targets[0] === k && !chosen.includes(d.id)) ??
+      DRILLS.find((d) => (d.targets as readonly AbilityKey[]).includes(k) && !chosen.includes(d.id))
     if (drill) chosen.push(drill.id)
   }
   return chosen

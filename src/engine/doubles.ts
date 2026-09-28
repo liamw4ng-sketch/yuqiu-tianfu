@@ -1,4 +1,4 @@
-import { driversAndGaps, fitBandOf, fitFrom, keyAbilities, makeWeights, profileMatch, toVector, type Weights } from './singles'
+import { cappedFitBand, driversAndGaps, fitFrom, keyAbilities, makeWeights, profileMatch, toVector, type Weights } from './singles'
 import { argBy, clamp, mean } from './stats'
 import { ABILITY_KEYS, RADAR_KEYS, type BodyProfile, type DoublesResult, type DoublesRole, type MixedNote, type PartnerAdvice, type Scores, type Sex } from './types'
 
@@ -48,11 +48,12 @@ export function pickDoublesRole(blended: Scores, current: Scores, body: BodyProf
     Math.abs(diff) < ROTATION_GAP && mean(u) >= ROTATION_MIN_MEAN ? 'rotation' : diff >= 0 ? 'front' : 'back'
   const fit = role === 'rotation' ? Math.min(100, Math.round((frontFit + backFit) / 2) + 5) : Math.max(frontFit, backFit)
   const weights = role === 'front' ? FRONT_WEIGHTS : role === 'back' ? BACK_WEIGHTS : ROTATION_WEIGHTS
-  const { drivers, gaps } = driversAndGaps(keyAbilities(weights), current)
+  const keys = keyAbilities(weights)
+  const { drivers, gaps } = driversAndGaps(keys, current)
   return {
     role,
     fit,
-    fitBand: fitBandOf(fit),
+    fitBand: cappedFitBand(fit, keys, drivers, gaps),
     frontFit,
     backFit,
     partner: partnerFor(role, current),

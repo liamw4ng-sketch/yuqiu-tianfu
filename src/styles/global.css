@@ -117,7 +117,7 @@ select.field-input {
 .compare-row { display: grid; grid-template-columns: 48px 1fr auto; gap: 10px; align-items: center; }
 .compare-label { font-weight: 700; font-size: 14px; }
 .compare-bars { display: grid; gap: 4px; }
-.compare-line { display: grid; grid-template-columns: 28px 1fr 44px; gap: 6px; align-items: center; font-size: 13px; }
+.compare-line { display: grid; grid-template-columns: minmax(28px, max-content) 1fr 44px; gap: 6px; align-items: center; font-size: 13px; }
 .compare-bar { height: 8px; border-radius: 999px; background: var(--ink); min-width: 2px; }
 .compare-bar.them { background: var(--accent); }
 .compare-who.them { color: var(--accent); }
@@ -189,3 +189,6 @@ select.field-input {
 .share-grid strong { font-size: 34px; font-weight: 900; line-height: 1.25; }
 .share-grid span { font-size: 24px; color: var(--ink-2); }
 .share-footer { margin-top: auto; font-size: 24px; color: var(--muted); }
+
+.share-grid div { min-width: 0; }
+.share-grid strong, .share-grid span, .share-title { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }

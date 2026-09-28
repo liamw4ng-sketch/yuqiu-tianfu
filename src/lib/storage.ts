@@ -49,7 +49,8 @@ export function browserStore(): KeyValueStore | null {
 
 const isNum = (x: unknown): x is number => typeof x === 'number' && Number.isFinite(x)
 const isObj = (x: unknown): x is Record<string, unknown> => typeof x === 'object' && x !== null
-const hasMeta = (r: Record<string, unknown>) => typeof r.id === 'string' && typeof r.createdAt === 'string'
+const hasMeta = (r: Record<string, unknown>) =>
+  typeof r.id === 'string' && typeof r.createdAt === 'string' && !Number.isNaN(Date.parse(r.createdAt))
 
 export function isTalentInput(x: unknown): x is TalentInput {
   if (!isObj(x)) return false
