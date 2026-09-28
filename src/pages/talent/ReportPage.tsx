@@ -1,5 +1,6 @@
 import { useMemo } from 'react'
 import { Link, Navigate, useParams } from 'react-router-dom'
+import { ShareButton } from '../../components/ShareButton'
 import { useTalentContent } from '../../content'
 import { analyzeTalent } from '../../engine/talent'
 import { useStore } from '../../lib/StoreProvider'
@@ -30,6 +31,7 @@ export default function ReportPage() {
         <Link to="/talent" className="btn">
           🔄 {c.report.retest}
         </Link>
+        <ShareButton />
       </div>
       <p className="mono-label report-mono">REPORT</p>
       <h1 className="report-title">🏸 {c.report.title}</h1>
