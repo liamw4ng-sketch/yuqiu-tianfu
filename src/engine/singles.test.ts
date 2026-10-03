@@ -9,19 +9,20 @@ const rank = (input: TalentInput) => {
 }
 
 describe('rankSingles', () => {
-  it('perfil de referencia: 四方拉吊控制型 59', () => {
+  it('perfil de referencia sin preferencias: 四方拉吊控制型 56', () => {
     const r = rank(GOLDEN)
     expect(r.ranking).toEqual([
-      { style: 'control', fit: 59 },
+      { style: 'control', fit: 56 },
       { style: 'attack', fit: 51 },
       { style: 'speed', fit: 51 },
-      { style: 'counter', fit: 49 },
+      { style: 'counter', fit: 50 },
       { style: 'allround', fit: 49 },
-      { style: 'net', fit: 42 },
+      { style: 'net', fit: 44 },
     ])
     expect(r.top).toBe('control')
     expect(r.runnerUp).toBe('attack')
-    expect(r.margin).toBe(8)
+    expect(r.margin).toBe(5)
+    expect(r.preferred).toBeNull()
     expect(r.fitBand).toBe('good')
     expect(r.drivers).toEqual(['endurance'])
     expect(r.gaps).toEqual(['tactics', 'netTouch', 'rearCourt'])

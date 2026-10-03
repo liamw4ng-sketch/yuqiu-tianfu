@@ -9,13 +9,13 @@ const role = (input: TalentInput) => {
 }
 
 describe('pickDoublesRole', () => {
-  it('perfil de referencia: 后场 57 con pareja de red', () => {
+  it('perfil de referencia sin preferencias: 后场 55 con pareja de red', () => {
     expect(role(GOLDEN)).toEqual({
       role: 'back',
-      fit: 57,
+      fit: 55,
       fitBand: 'good',
-      frontFit: 39,
-      backFit: 57,
+      frontFit: 42,
+      backFit: 55,
       partner: { role: 'front', strength: 'reaction' },
       mixedNote: 'femaleBack',
       drivers: ['endurance'],

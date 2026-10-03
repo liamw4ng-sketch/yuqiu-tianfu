@@ -5,7 +5,7 @@ import { GOLDEN } from './testkit'
 describe('analyzeTalent', () => {
   it('perfil de referencia completo', () => {
     const r = analyzeTalent(GOLDEN)
-    expect(r.engineVersion).toBe(1)
+    expect(r.engineVersion).toBe(2)
     expect(r.body.bodyType).toBe('lightAgile')
     expect(r.strongest).toBe('endurance')
     expect(r.weakest).toBe('reaction')

@@ -68,8 +68,8 @@ export function analyzeTalent(input: TalentInput, data: AthleteData = { singles:
   const blended = blendScores(current, tendency, input.yearsPlaying)
   const diagnosis = {} as Record<AbilityKey, DiagLevel>
   for (const k of ABILITY_KEYS) diagnosis[k] = diagLevel(current[k])
-  const singles = rankSingles(blended, current, body)
-  const doubles = pickDoublesRole(blended, current, body, input.sex, tendency)
+  const singles = rankSingles(blended, current, body, input.prefs)
+  const doubles = pickDoublesRole(blended, current, body, input.sex, tendency, input.prefs)
   const user = { sex: input.sex, heightCm: input.heightCm, bmi: body.bmi, preference: input.preference }
   return {
     engineVersion: ENGINE_VERSION,

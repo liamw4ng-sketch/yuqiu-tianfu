@@ -1,3 +1,4 @@
+import { doublesPreference, type Prefs } from './prefs'
 import { cappedFitBand, driversAndGaps, fitFrom, keyAbilities, makeWeights, profileMatch, toVector, type Weights } from './singles'
 import { clamp, mean } from './stats'
 import {
@@ -21,6 +22,7 @@ const ROTATION_WEIGHTS: Weights = Object.fromEntries(
 ) as Weights
 
 const ROTATION_GAP = 8
+const ROTATION_GAP_PREFERRED = 15
 const ROTATION_MIN_MEAN = 5
 
 export function frontBodyFit(body: BodyProfile): number {
@@ -56,13 +58,22 @@ export function partnerFor(role: DoublesRole, current: Scores, tendency?: RadarS
   return { role: 'rotation', strength: RADAR_KEYS.reduce((best, k) => (lower(k, best) ? k : best)) }
 }
 
-export function pickDoublesRole(blended: Scores, current: Scores, body: BodyProfile, sex: Sex, tendency?: RadarScores): DoublesResult {
+export function pickDoublesRole(
+  blended: Scores,
+  current: Scores,
+  body: BodyProfile,
+  sex: Sex,
+  tendency?: RadarScores,
+  prefs?: Prefs,
+): DoublesResult {
   const u = toVector(blended)
-  const frontFit = fitFrom(profileMatch(u, FRONT_WEIGHTS), frontBodyFit(body))
-  const backFit = fitFrom(profileMatch(u, BACK_WEIGHTS), backBodyFit(body))
+  const pref = doublesPreference(prefs)
+  const frontFit = fitFrom(profileMatch(u, FRONT_WEIGHTS), pref.front, frontBodyFit(body))
+  const backFit = fitFrom(profileMatch(u, BACK_WEIGHTS), pref.back, backBodyFit(body))
   const diff = frontFit - backFit
-  const role: DoublesRole =
-    Math.abs(diff) < ROTATION_GAP && mean(u) >= ROTATION_MIN_MEAN ? 'rotation' : diff >= 0 ? 'front' : 'back'
+  // Quien prefiere rotar acepta 全能轮转 con una diferencia mayor entre red y fondo.
+  const gap = prefs?.doublesSpot === 'rotate' ? ROTATION_GAP_PREFERRED : ROTATION_GAP
+  const role: DoublesRole = Math.abs(diff) < gap && mean(u) >= ROTATION_MIN_MEAN ? 'rotation' : diff >= 0 ? 'front' : 'back'
   const fit = role === 'rotation' ? Math.min(100, Math.round((frontFit + backFit) / 2) + 5) : Math.max(frontFit, backFit)
   const weights = role === 'front' ? FRONT_WEIGHTS : role === 'back' ? BACK_WEIGHTS : ROTATION_WEIGHTS
   const keys = keyAbilities(weights)

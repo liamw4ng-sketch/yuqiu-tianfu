@@ -1,3 +1,4 @@
+import { preferredStyle, singlesPreference, type Prefs } from './prefs'
 import { clamp, correlation, mean, sd } from './stats'
 import {
   ABILITY_KEYS,
@@ -30,7 +31,10 @@ export const toVector = (s: Scores): number[] => ABILITY_KEYS.map((k) => s[k])
 /** Cuánto se diferencia el perfil (0–1). Un perfil casi plano no debe dar encajes extremos. */
 export const spreadOf = (u: readonly number[]): number => Math.min(1, sd(u) / 1.0)
 
-export const fitFrom = (score01: number, body01: number): number => Math.round(100 * (0.7 * score01 + 0.3 * body01))
+/** Encaje 0–100: capacidades 50 %, gustos (球风偏好) 30 %, cuerpo 20 %. */
+export const FIT_WEIGHTS = { ability: 0.5, pref: 0.3, body: 0.2 } as const
+export const fitFrom = (ability01: number, pref01: number, body01: number): number =>
+  Math.round(100 * (FIT_WEIGHTS.ability * ability01 + FIT_WEIGHTS.pref * pref01 + FIT_WEIGHTS.body * body01))
 
 export function fitBandOf(fit: number): FitBand {
   if (fit >= 70) return 'high'
@@ -113,11 +117,12 @@ export function driversAndGaps(keys: AbilityKey[], current: Scores) {
   }
 }
 
-export function rankSingles(blended: Scores, current: Scores, body: BodyProfile): SinglesResult {
+export function rankSingles(blended: Scores, current: Scores, body: BodyProfile, prefs?: Prefs): SinglesResult {
   const u = toVector(blended)
+  const pref = singlesPreference(prefs)
   const ranking = SINGLES_STYLES.map((style) => {
     const match = style === 'allround' ? allroundMatch(u) : profileMatch(u, SINGLES_WEIGHTS[style])
-    return { style, fit: fitFrom(match, singlesBodyFit(style, body)) }
+    return { style, fit: fitFrom(match, pref[style], singlesBodyFit(style, body)) }
   }).sort((a, b) => b.fit - a.fit || SINGLES_STYLES.indexOf(a.style) - SINGLES_STYLES.indexOf(b.style))
   const top = ranking[0].style
   let drivers: AbilityKey[]
@@ -140,5 +145,6 @@ export function rankSingles(blended: Scores, current: Scores, body: BodyProfile)
     fitBand: cappedFitBand(ranking[0].fit, keys, drivers, gaps),
     drivers,
     gaps,
+    preferred: preferredStyle(prefs),
   }
 }

@@ -28,6 +28,8 @@ export interface TalentInput {
   preference: Preference
   levels: Record<AbilityKey, Level>
   tests: FieldTests
+  /** 球风偏好. Opcional: los registros guardados antes de la v2 no lo tienen. */
+  prefs?: import('./prefs').Prefs
 }
 
 export type BmiBand = 'under' | 'lean' | 'normal' | 'solid' | 'heavy'
@@ -75,6 +77,8 @@ export interface SinglesResult {
   fitBand: FitBand
   drivers: AbilityKey[]
   gaps: AbilityKey[]
+  /** Estilo que más le gusta según 球风偏好 (null si no respondió) */
+  preferred: SinglesStyle | null
 }
 export interface PartnerAdvice {
   role: DoublesRole
