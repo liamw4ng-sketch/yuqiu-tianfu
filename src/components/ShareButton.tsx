@@ -5,11 +5,11 @@ import { renderPng, shareOrDownload } from '../lib/share'
 import { useStore } from '../lib/StoreProvider'
 import { ShareCard } from './ShareCard'
 
-/** Comparte como imagen el perfil más reciente. No se muestra si no hay 天赋测评. */
-export function ShareButton() {
+/** Comparte como imagen el perfil (el 天赋测评 indicado o el más reciente). No se muestra si no hay 天赋测评. */
+export function ShareButton({ talentId }: { talentId?: string }) {
   const { t } = useI18n()
   const { state } = useStore()
-  const profile = useMemo(() => latestProfile(state), [state])
+  const profile = useMemo(() => latestProfile(state, talentId), [state, talentId])
   const ref = useRef<HTMLDivElement>(null)
   const [busy, setBusy] = useState(false)
   const [error, setError] = useState(false)

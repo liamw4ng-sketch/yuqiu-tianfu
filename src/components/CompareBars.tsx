@@ -6,7 +6,9 @@ export interface CompareRow {
   digits?: number
 }
 
-const show = (v: number | null, digits = 0) => (v === null || !Number.isFinite(v) ? '—' : v.toFixed(digits))
+// Sin `digits`, enteros sin decimales y el resto con 1 decimal (51.5 kg no se redondea a 52).
+const show = (v: number | null, digits?: number) =>
+  v === null || !Number.isFinite(v) ? '—' : v.toFixed(digits ?? (Number.isInteger(v) ? 0 : 1))
 
 export function CompareBars({ rows, youLabel, themLabel }: { rows: CompareRow[]; youLabel: string; themLabel: string }) {
   return (

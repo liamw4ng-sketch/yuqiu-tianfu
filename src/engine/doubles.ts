@@ -1,6 +1,18 @@
 import { cappedFitBand, driversAndGaps, fitFrom, keyAbilities, makeWeights, profileMatch, toVector, type Weights } from './singles'
-import { argBy, clamp, mean } from './stats'
-import { ABILITY_KEYS, RADAR_KEYS, type BodyProfile, type DoublesResult, type DoublesRole, type MixedNote, type PartnerAdvice, type Scores, type Sex } from './types'
+import { clamp, mean } from './stats'
+import {
+  ABILITY_KEYS,
+  RADAR_KEYS,
+  type BodyProfile,
+  type DoublesResult,
+  type DoublesRole,
+  type MixedNote,
+  type PartnerAdvice,
+  type RadarKey,
+  type RadarScores,
+  type Scores,
+  type Sex,
+} from './types'
 
 export const FRONT_WEIGHTS: Weights = makeWeights({ endurance: 0.05, reaction: 0.3, netTouch: 0.3, speed: 0.2, tactics: 0.1, mental: 0.05 })
 export const BACK_WEIGHTS: Weights = makeWeights({ power: 0.35, endurance: 0.2, reaction: 0.05, speed: 0.1, rearCourt: 0.25, mental: 0.05 })
@@ -32,14 +44,19 @@ export function mixedNoteFor(sex: Sex, role: DoublesRole): MixedNote {
   return 'conventional'
 }
 
-/** La pareja se deriva del rol propio: nunca se escribe a mano. */
-export function partnerFor(role: DoublesRole, current: Scores): PartnerAdvice {
+/**
+ * La pareja se deriva del rol propio: nunca se escribe a mano. En 全能轮转 busca a alguien fuerte en tu capacidad
+ * más floja; si hay empate, desempata la tendencia corporal más baja.
+ */
+export function partnerFor(role: DoublesRole, current: Scores, tendency?: RadarScores): PartnerAdvice {
   if (role === 'front') return { role: 'back', strength: 'power' }
   if (role === 'back') return { role: 'front', strength: 'reaction' }
-  return { role: 'rotation', strength: argBy(RADAR_KEYS, (k) => current[k], (a, b) => a < b) }
+  const lower = (a: RadarKey, b: RadarKey) =>
+    current[a] < current[b] || (current[a] === current[b] && tendency !== undefined && tendency[a] < tendency[b])
+  return { role: 'rotation', strength: RADAR_KEYS.reduce((best, k) => (lower(k, best) ? k : best)) }
 }
 
-export function pickDoublesRole(blended: Scores, current: Scores, body: BodyProfile, sex: Sex): DoublesResult {
+export function pickDoublesRole(blended: Scores, current: Scores, body: BodyProfile, sex: Sex, tendency?: RadarScores): DoublesResult {
   const u = toVector(blended)
   const frontFit = fitFrom(profileMatch(u, FRONT_WEIGHTS), frontBodyFit(body))
   const backFit = fitFrom(profileMatch(u, BACK_WEIGHTS), backBodyFit(body))
@@ -56,7 +73,7 @@ export function pickDoublesRole(blended: Scores, current: Scores, body: BodyProf
     fitBand: cappedFitBand(fit, keys, drivers, gaps),
     frontFit,
     backFit,
-    partner: partnerFor(role, current),
+    partner: partnerFor(role, current, tendency),
     mixedNote: mixedNoteFor(sex, role),
     drivers,
     gaps,

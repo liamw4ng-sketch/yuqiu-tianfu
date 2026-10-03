@@ -87,7 +87,7 @@ export function validateTalentForm(v: TalentFormValues): {
   const warnings: WarningCode[] = []
   if (wingspanCm !== null && Math.abs(wingspanCm - heightCm) > 20) warnings.push('wingspanDiff')
   const bmi = bmiOf(heightCm, weightKg)
-  if (bmi < 16 || bmi > 35) warnings.push('bmiExtreme')
+  if (age >= 18 && (bmi < 16 || bmi > 35)) warnings.push('bmiExtreme')
   if (age < 16) warnings.push('minor')
   return {
     input: {

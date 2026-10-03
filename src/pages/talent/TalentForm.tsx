@@ -3,7 +3,15 @@ import { useLocation, useNavigate } from 'react-router-dom'
 import { SelectField, TextField } from '../../components/fields'
 import { paren, useTalentContent } from '../../content'
 import { ABILITY_KEYS, FIELD_TEST_KEYS, type AbilityKey, type FieldTestKey, type Level } from '../../engine/types'
-import { emptyTalentForm, RANGES, validateTalentForm, type FormField, type TalentFormValues, type WarningCode } from '../../engine/validate'
+import {
+  emptyTalentForm,
+  RANGES,
+  validateTalentForm,
+  type FieldErrorCode,
+  type FormField,
+  type TalentFormValues,
+  type WarningCode,
+} from '../../engine/validate'
 import { format } from '../../i18n/I18nProvider'
 import { useStore } from '../../lib/StoreProvider'
 
@@ -26,7 +34,8 @@ export function TalentForm() {
   const location = useLocation()
   const missing = (location.state as { missingReport?: boolean } | null)?.missingReport === true
   const [values, setValues] = useState<TalentFormValues>(emptyTalentForm)
-  const [errors, setErrors] = useState<Partial<Record<FormField, string>>>({})
+  // Se guardan códigos, no textos: así los mensajes cambian de idioma con el botón 中/ES.
+  const [errorCodes, setErrorCodes] = useState<Partial<Record<FormField, FieldErrorCode>>>({})
   const [pendingWarnings, setPendingWarnings] = useState<WarningCode[]>([])
   // En el móvil, un envío fallido lleva al primer campo con error (tras el render, con <details> ya abierto).
   const [focusRequest, setFocusRequest] = useState<{ id: string; n: number } | null>(null)
@@ -37,7 +46,7 @@ export function TalentForm() {
     el?.scrollIntoView?.({ block: 'center' })
   }, [focusRequest])
 
-  const errorText = (field: FormField, code: 'required' | 'number' | 'range') => {
+  const errorText = (field: FormField, code: FieldErrorCode) => {
     if (code !== 'range') return c.form.errors[code]
     const [min, max] = RANGES[field as keyof typeof RANGES]
     return format(c.form.errors.range, { min, max })
@@ -45,9 +54,7 @@ export function TalentForm() {
 
   const submit = (confirmed: boolean) => {
     const r = validateTalentForm(values)
-    const next: Partial<Record<FormField, string>> = {}
-    for (const [f, code] of Object.entries(r.errors)) next[f as FormField] = errorText(f as FormField, code!)
-    setErrors(next)
+    setErrorCodes(r.errors)
     if (!r.input) {
       setPendingWarnings([])
       const id = firstErrorId(Object.keys(r.errors) as FormField[])
@@ -66,6 +73,8 @@ export function TalentForm() {
   const setTest = (k: FieldTestKey) => (v: string) => setValues((s) => ({ ...s, tests: { ...s.tests, [k]: v } }))
   const setLevel = (k: AbilityKey) => (v: string) =>
     setValues((s) => ({ ...s, levels: { ...s.levels, [k]: Number(v) as Level | 0 } }))
+  const errors: Partial<Record<FormField, string>> = {}
+  for (const [f, code] of Object.entries(errorCodes)) errors[f as FormField] = errorText(f as FormField, code!)
   const testsHaveErrors = FIELD_TEST_KEYS.some((k) => errors[k])
 
   return (

@@ -1,6 +1,6 @@
 # Cómo continuar — 羽球天赋 (app de bádminton)
 
-Última sesión: 2026-09-28. **App completa**: las 21 tareas del plan están hechas en la rama `feat/hito-1` (148 tests), con revisión final y sus arreglos. Falta decidir cómo integrar la rama y publicar.
+Última sesión: 2026-10-03. **App completa y fusionada en `main`** (159 tests), subida a GitHub. Solo falta publicarla en Netlify.
 
 ## Estado
 
@@ -9,28 +9,18 @@
 | Especificación | ✅ `docs/superpowers/specs/2026-09-25-badminton-app-design.md` (con nota de implementación en §5.3) |
 | Investigación verificada | ✅ `docs/superpowers/research/` |
 | Plan | ✅ `docs/superpowers/plans/2026-09-26-yuqiu-tianfu.md` |
-| Programación | ✅ 5 pestañas, zh/es, imagen para compartir, instalable (rama `feat/hito-1`) |
+| Programación | ✅ 5 pestañas, zh/es, imagen para compartir, instalable, barra de pestañas inferior en el móvil (en `main`) |
 | Revisión final | ✅ 3 revisores + verificación; 12 arreglos con test |
 | GitHub | ✅ Público: https://github.com/liamw4ng-sketch/yuqiu-tianfu (ramas `main` y `feat/hito-1`). Subir con `git -c credential.helper='!gh auth git-credential' push` (no hay clave SSH) |
 | Publicación | ⏳ Pendiente: Netlify (elegido por el usuario), conectado al repositorio de GitHub |
 
 ## Prompt para retomar
 
-> Lee `CONTINUAR.md`. La app está terminada en la rama `feat/hito-1`. Ayúdame a publicarla (o a arreglar los detalles menores pendientes).
+> Lee `CONTINUAR.md`. La app está terminada en `main` y en GitHub. Ayúdame a publicarla en Netlify conectando el repositorio.
 
-## Detalles menores pendientes (no bloquean)
+## Detalles menores
 
-- En un informe antiguo, el botón de compartir genera la imagen del perfil más reciente, no la del informe abierto.
-- El bloque de 业余评级 "por qué no más alto" lista también topes que no bajaron el nivel.
-- El espejo de dobles penaliza la posición en vez de filtrarla.
-- Los principiantes (< 1 año) no reciben primero ejercicios de fundamentos.
-- A 375 px solo se ven 3 de las 5 pestañas sin deslizar.
-- Los mensajes de error del formulario no cambian de idioma hasta que se vuelve a enviar.
-- Con dos pestañas abiertas, una puede sobrescribir lo guardado por la otra.
-- La etiqueta accesible del radar usa una coma china en modo español.
-- Las barras comparativas redondean altura y peso decimales.
-- A menores de 18 se les aplican los umbrales de IMC de adultos.
-- En perfiles totalmente planos, la pareja de 全能轮转 recomienda por defecto "爆发力".
+Los 11 quedaron arreglados el 2026-10-03, cada uno con su test (159 tests en total).
 
 ## Probar en el móvil
 

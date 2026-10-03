@@ -23,8 +23,11 @@ export type DrillId = (typeof DRILLS)[number]['id']
 
 const idx = (k: AbilityKey) => ABILITY_KEYS.indexOf(k)
 
-/** 3 ejercicios para las capacidades clave del estilo en las que el usuario está más flojo. */
-export function pickDrills(style: SinglesStyle, current: Scores): DrillId[] {
+/**
+ * 3 ejercicios para las capacidades clave del estilo en las que el usuario está más flojo.
+ * Con menos de 1 año jugando, el primero es siempre de fundamentos (footwork).
+ */
+export function pickDrills(style: SinglesStyle, current: Scores, beginner = false): DrillId[] {
   const focus =
     style === 'allround'
       ? [...ABILITY_KEYS]
@@ -34,7 +37,7 @@ export function pickDrills(style: SinglesStyle, current: Scores): DrillId[] {
           .slice(0, 5)
   focus.sort((a, b) => current[a] - current[b] || idx(a) - idx(b))
   const fallback = [...ABILITY_KEYS].sort((a, b) => current[a] - current[b] || idx(a) - idx(b))
-  const chosen: DrillId[] = []
+  const chosen: DrillId[] = beginner ? ['shadowFootwork'] : []
   for (const k of [...focus, ...fallback]) {
     if (chosen.length === 3) break
     // Primero el ejercicio cuyo objetivo principal es esa capacidad (p. ej. clear antes que multivolante de remate).

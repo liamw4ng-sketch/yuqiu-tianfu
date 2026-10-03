@@ -55,8 +55,9 @@ export function collectFlags(input: TalentInput, body: BodyProfile, current: Sco
   if (body.wingspanAssumed) flags.push('wingspanAssumed')
   if (singles.margin < 3) flags.push('closeCall')
   if (input.yearsPlaying < 1 && mean(ABILITY_KEYS.map((k) => current[k])) >= 7) flags.push('selfRatingHigh')
-  if (body.bmi >= 28) flags.push('bmiHigh')
-  if (body.bmi < 17) flags.push('bmiLow')
+  // Los umbrales de IMC son de adultos: a menores de 18 no se les aplican.
+  if (input.age >= 18 && body.bmi >= 28) flags.push('bmiHigh')
+  if (input.age >= 18 && body.bmi < 17) flags.push('bmiLow')
   return flags
 }
 
@@ -68,7 +69,7 @@ export function analyzeTalent(input: TalentInput, data: AthleteData = { singles:
   const diagnosis = {} as Record<AbilityKey, DiagLevel>
   for (const k of ABILITY_KEYS) diagnosis[k] = diagLevel(current[k])
   const singles = rankSingles(blended, current, body)
-  const doubles = pickDoublesRole(blended, current, body, input.sex)
+  const doubles = pickDoublesRole(blended, current, body, input.sex, tendency)
   const user = { sex: input.sex, heightCm: input.heightCm, bmi: body.bmi, preference: input.preference }
   return {
     engineVersion: ENGINE_VERSION,
@@ -86,7 +87,7 @@ export function analyzeTalent(input: TalentInput, data: AthleteData = { singles:
       singles: findSinglesMirrors(user, singles, data.singles),
       doubles: findDoublesMirrors(user, doubles.role, data.pairs),
     },
-    drills: pickDrills(singles.top, current),
+    drills: pickDrills(singles.top, current, input.yearsPlaying < 1),
     flags: collectFlags(input, body, current, singles),
   }
 }

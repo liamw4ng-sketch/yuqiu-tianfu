@@ -192,3 +192,25 @@ select.field-input {
 
 .share-grid div { min-width: 0; }
 .share-grid strong, .share-grid span, .share-title { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+/* Pestañas: en escritorio, texto completo arriba; en el móvil, barra inferior con icono y etiqueta corta. */
+.tab-icon, .tab-short { display: none; }
+@media (max-width: 640px) {
+  /* backdrop-filter crea un bloque contenedor: sin quitarlo, la barra "fija" se pegaría a la cabecera. */
+  .navbar { backdrop-filter: none; background: rgba(255, 255, 255, 0.97); }
+  .navbar-tabs {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 30;
+    display: grid; grid-template-columns: repeat(5, 1fr); gap: 0;
+    background: rgba(255, 255, 255, 0.96); backdrop-filter: saturate(160%) blur(12px);
+    border-top: 1px solid var(--line); padding: 6px 4px calc(6px + env(safe-area-inset-bottom));
+    overflow: visible;
+  }
+  .navbar-tab { display: grid; justify-items: center; gap: 2px; padding: 4px 2px; border-radius: 12px; font-size: 11px; color: var(--ink-2); }
+  .navbar-tab.is-active { background: var(--ink); color: #fff; }
+  .tab-icon { display: block; font-size: 20px; line-height: 1.1; }
+  .tab-short { display: block; white-space: nowrap; }
+  .tab-full { display: none; }
+  .navbar-inner { justify-content: space-between; }
+  .page { padding-bottom: calc(120px + env(safe-area-inset-bottom)); }
+  .back-to-top { bottom: calc(84px + env(safe-area-inset-bottom)); }
+}

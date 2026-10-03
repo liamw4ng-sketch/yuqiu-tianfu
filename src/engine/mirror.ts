@@ -27,6 +27,12 @@ export interface DoublesMirror {
 const UNKNOWN_BMI_PENALTY = 1
 const INACTIVE_PENALTY = 0.2
 const STYLE_PENALTY: Record<StyleMatch, number> = { primary: 0, secondary: 0.5, none: 1 }
+// Posiciones que cuentan como "coinciden con el rol" (spec §5.3.6); 'both' sirve para ambos lados.
+const ALLOWED_POSITIONS: Record<DoublesRole, Position[]> = {
+  front: ['front', 'both'],
+  back: ['back', 'both'],
+  rotation: ['front', 'back', 'both'],
+}
 const POSITION_PENALTY: Record<DoublesRole, Record<Position, number>> = {
   front: { front: 0, both: 0.5, back: 2 },
   back: { back: 0, both: 0.5, front: 2 },
@@ -84,10 +90,13 @@ export function findDoublesMirrors(user: MirrorUser, role: DoublesRole, pairs: D
       candidates.push({ pair, playerIndex: i as 0 | 1, distance, heightDiff, bmiDiff })
     })
   }
-  candidates.sort((x, y) => x.distance - y.distance || x.pair.id.localeCompare(y.pair.id) || x.playerIndex - y.playerIndex)
+  // Filtro duro por posición; si no queda nadie, se usan todos los candidatos.
+  const matching = candidates.filter((c) => ALLOWED_POSITIONS[role].includes(c.pair.players[c.playerIndex].position))
+  const pool = matching.length > 0 ? matching : candidates
+  pool.sort((x, y) => x.distance - y.distance || x.pair.id.localeCompare(y.pair.id) || x.playerIndex - y.playerIndex)
   const seen = new Set<string>()
   const out: DoublesMirror[] = []
-  for (const c of candidates) {
+  for (const c of pool) {
     if (seen.has(c.pair.id)) continue
     seen.add(c.pair.id)
     out.push(c)

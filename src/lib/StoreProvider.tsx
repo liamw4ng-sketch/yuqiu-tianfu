@@ -1,4 +1,4 @@
-import { createContext, useCallback, useContext, useMemo, useRef, useState, type ReactNode } from 'react'
+import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
 import { ENGINE_VERSION } from '../engine/constants'
 import type { TalentInput } from '../engine/types'
 import type { Lang } from '../i18n/types'
@@ -9,6 +9,7 @@ import {
   loadState,
   newId,
   saveState,
+  STORAGE_KEY,
   type KeyValueStore,
   type MbtiRecord,
   type RatingRecord,
@@ -35,6 +36,18 @@ export function StoreProvider({ children, store }: { children: ReactNode; store?
   // Copia síncrona del estado: así dos acciones seguidas en el mismo evento no se pisan
   // y el guardado queda fuera del updater de React.
   const stateRef = useRef(state)
+
+  // Otra pestaña guardó: se recarga desde el almacenamiento para no pisar sus datos al guardar aquí.
+  useEffect(() => {
+    const onStorage = (e: StorageEvent) => {
+      if (e.key !== STORAGE_KEY && e.key !== null) return
+      const next = loadState(kv)
+      stateRef.current = next
+      setState(next)
+    }
+    window.addEventListener('storage', onStorage)
+    return () => window.removeEventListener('storage', onStorage)
+  }, [kv])
 
   const update = useCallback(
     (f: (prev: StoredState) => StoredState) => {

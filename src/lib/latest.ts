@@ -9,9 +9,12 @@ export interface LatestProfile {
   mbti: { record: MbtiRecord; result: MbtiResult } | null
 }
 
-/** Último resultado válido de cada módulo, recalculado con el motor actual. */
-export function latestProfile(state: StoredState): LatestProfile {
-  const t = state.talent.at(-1)
+/**
+ * Último resultado válido de cada módulo, recalculado con el motor actual.
+ * Con `talentId` se usa ese 天赋测评 concreto (p. ej. el informe abierto) en vez del último.
+ */
+export function latestProfile(state: StoredState, talentId?: string): LatestProfile {
+  const t = (talentId && state.talent.find((r) => r.id === talentId)) || state.talent.at(-1)
   const r = [...state.rating].reverse().find((x) => isRatingComplete(x.answers))
   const m = [...state.mbti].reverse().find((x) => isMbtiComplete(x.answers))
   return {

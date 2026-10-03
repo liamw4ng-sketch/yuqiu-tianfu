@@ -4,11 +4,11 @@ import { isRatingComplete, levelFromPercent, RATING_QUESTION_IDS, scoreRating, t
 const all = (o: RatingOption) => Object.fromEntries(RATING_QUESTION_IDS.map((id) => [id, o])) as Record<RatingQuestionId, RatingOption>
 
 describe('scoreRating', () => {
-  it('todo a → L1 con topes', () => {
+  it('todo a → L1, sin topes que mostrar (ninguno baja el nivel)', () => {
     const r = scoreRating(all('a'))
     expect(r.points).toBe(0)
     expect(r.level).toBe(1)
-    expect(r.caps.map((c) => c.question)).toEqual(['clear', 'footwork', 'defense', 'serve', 'grip', 'match', 'training'])
+    expect(r.caps).toEqual([])
   })
   it('todo e → L8 sin topes ni avisos', () => {
     const r = scoreRating(all('e'))

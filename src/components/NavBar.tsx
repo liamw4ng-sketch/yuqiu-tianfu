@@ -3,12 +3,13 @@ import { useI18n } from '../i18n/I18nProvider'
 import type { UiKey } from '../i18n/ui.zh'
 import { LangToggle } from './LangToggle'
 
-const TABS: { to: string; key: UiKey; end: boolean }[] = [
-  { to: '/', key: 'nav.home', end: true },
-  { to: '/talent', key: 'nav.talent', end: false },
-  { to: '/rating', key: 'nav.rating', end: false },
-  { to: '/mbti', key: 'nav.mbti', end: false },
-  { to: '/profile', key: 'nav.profile', end: false },
+// En el móvil las pestañas pasan a una barra inferior con icono y etiqueta corta (ver global.css).
+const TABS: { to: string; key: UiKey; short: UiKey; icon: string; end: boolean }[] = [
+  { to: '/', key: 'nav.home', short: 'nav.short.home', icon: '🏠', end: true },
+  { to: '/talent', key: 'nav.talent', short: 'nav.short.talent', icon: '🏸', end: false },
+  { to: '/rating', key: 'nav.rating', short: 'nav.short.rating', icon: '📈', end: false },
+  { to: '/mbti', key: 'nav.mbti', short: 'nav.short.mbti', icon: '🧠', end: false },
+  { to: '/profile', key: 'nav.profile', short: 'nav.short.profile', icon: '👤', end: false },
 ]
 
 export function NavBar() {
@@ -25,9 +26,16 @@ export function NavBar() {
               key={tab.to}
               to={tab.to}
               end={tab.end}
+              aria-label={t(tab.key)}
               className={({ isActive }) => 'navbar-tab' + (isActive ? ' is-active' : '')}
             >
-              {t(tab.key)}
+              <span className="tab-icon" aria-hidden>
+                {tab.icon}
+              </span>
+              <span className="tab-full">{t(tab.key)}</span>
+              <span className="tab-short" aria-hidden>
+                {t(tab.short)}
+              </span>
             </NavLink>
           ))}
         </nav>

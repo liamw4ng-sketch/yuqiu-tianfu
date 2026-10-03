@@ -31,7 +31,7 @@ export default function ReportPage() {
         <Link to="/talent" className="btn">
           🔄 {c.report.retest}
         </Link>
-        <ShareButton />
+        <ShareButton talentId={record.id} />
       </div>
       <p className="mono-label report-mono">REPORT</p>
       <h1 className="report-title">🏸 {c.report.title}</h1>

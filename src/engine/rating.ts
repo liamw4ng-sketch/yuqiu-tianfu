@@ -68,7 +68,11 @@ export function scoreRating(a: Complete): RatingResult {
   const maxPoints = RATING_QUESTION_IDS.length * 4
   const percent = Math.round((points / maxPoints) * 100)
   const rawLevel = levelFromPercent(percent)
-  const caps = RATING_CAPS.filter((c) => c.options.includes(a[c.question])).map(({ question, maxLevel }) => ({ question, maxLevel }))
+  // Solo cuentan los topes que de verdad bajan el nivel calculado.
+  const caps = RATING_CAPS.filter((c) => c.options.includes(a[c.question]) && c.maxLevel < rawLevel).map(({ question, maxLevel }) => ({
+    question,
+    maxLevel,
+  }))
   const level = Math.min(rawLevel, ...caps.map((c) => c.maxLevel)) as RatingLevel
   const warnings = RATING_RULES.filter((r) => r.when(a)).map((r) => r.id)
   return { points, maxPoints, percent, rawLevel, level, caps, warnings }

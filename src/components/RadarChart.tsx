@@ -47,7 +47,7 @@ export function RadarChart({
         height={pixelSize ? size : undefined}
         style={pixelSize ? { maxWidth: 'none' } : undefined}
         role="img"
-        aria-label={axes.map((a) => `${a.label} ${a.value.toFixed(1)}`).join('，')}
+        aria-label={axes.map((a) => `${a.label} ${a.value.toFixed(1)}`).join(' · ')}
       >
         {[0.2, 0.4, 0.6, 0.8, 1].map((r) => (
           <polygon key={r} points={pts(axes.map((_, i) => at(i, r)))} className="radar-ring" fill="none" stroke="#e6e8ee" />
