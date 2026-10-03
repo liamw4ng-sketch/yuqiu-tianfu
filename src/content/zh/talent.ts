@@ -23,6 +23,8 @@ export const talentZh: TalentContent = {
     abilitiesHint: '对照每一档的具体描述，选择最符合你当前水平的一档，越具体越准确。',
     testsTitle: '实测项目（选填）',
     testsHint: '有实测数据时，会与自评取平均，让结果更准确；没有条件测试也可以直接提交。',
+    prefsTitle: '球风偏好（你喜欢怎么打）',
+    prefsHint: '没有对错，选最接近你真实习惯的选项——这会影响推荐的打法。',
     choose: '请选择',
     submit: '生成我的测评报告',
     confirmWarnings: '你的填写有几项提示，确认信息无误后再继续？',
@@ -56,6 +58,14 @@ export const talentZh: TalentContent = {
     },
   },
 
+  prefs: {
+    scoring: { question: '你最享受哪种得分方式？', options: { smash: '后场杀球直接得分', net: '网前小球骗出对手失误', rally: '多拍拉吊，等对手先失误', counter: '先防住，再打反击' } },
+    midcourt: { question: '对手回了一个半场高球，你通常…', options: { smash: '直接杀下去', drop: '轻吊或劈吊到网前', push: '推到后场两角调动' } },
+    tempo: { question: '你喜欢的比赛节奏？', options: { fast: '越快越好，抢先手', grind: '稳一点，慢慢磨', adapt: '看对手调整，快慢都行' } },
+    underAttack: { question: '对手连续猛攻时，你更想…', options: { drive: '硬顶反抽，打回去', block: '稳稳挡网前，化解攻势', lift: '挑高后场，重新组织' } },
+    rally: { question: '你更喜欢哪种回合？', options: { short: '短回合，三五拍解决', long: '长回合，拼耐心和体能', either: '都可以，看情况' } },
+    doublesSpot: { question: '打双打时你更喜欢站…', options: { front: '网前封网', back: '后场进攻', rotate: '前后都行，随时轮转', none: '很少打双打 / 没想法' } },
+  },
   abilities: {
     power: {
       name: '爆发力',
@@ -473,6 +483,11 @@ export const talentZh: TalentContent = {
     noDrivers: '目前没有特别突出的驱动维度。',
     noGaps: '没有明显拖后腿的维度。',
     runnerUp: '第二风格：{emoji} {name} · 契合度 {fit}%',
+    prefLabel: '球风偏好',
+    prefAligned: '你的球风偏好也指向「{style}」——喜欢的打法和能力结构一致，可以放心朝这个方向练。',
+    prefConflict: '你最喜欢的打法是「{pref}」，但目前的能力和体型更适合「{rec}」。可以把「{pref}」当作长期目标：先用「{rec}」的打法赢球，同时补齐「{pref}」需要的能力。',
+    prefNone: '这份报告没有填写球风偏好，推荐只基于能力和体型。重新测评可以加上偏好。',
+    doublesPrefConflict: '你更喜欢站「{pref}」，但能力结构更接近「{rec}」；和固定搭档打时可以先按你喜欢的站位，关键分回到更擅长的位置。',
     singlesLabels: {
       coreTactic: '核心战术',
       opening: '开局策略',

@@ -1,4 +1,4 @@
-import { screen } from '@testing-library/react'
+import { screen, within } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { describe, expect, it } from 'vitest'
 import { talentZh as c } from '../../content/zh/talent'
@@ -18,6 +18,12 @@ async function fillGolden(weight = '51') {
     // Anclado al inicio: la etiqueta empieza por el nombre y así no choca con las aclaraciones de otras capacidades.
     await u.selectOptions(screen.getByLabelText(new RegExp('^' + c.abilities[k as keyof typeof levels].name)), String(v))
   }
+  const prefs = { scoring: 'rally', midcourt: 'push', tempo: 'grind', underAttack: 'lift', rally: 'long', doublesSpot: 'front' } as const
+  for (const [k, v] of Object.entries(prefs)) {
+    const q = c.prefs[k as keyof typeof prefs]
+    const group = screen.getByRole('group', { name: q.question })
+    await u.click(within(group).getByLabelText((q.options as Record<string, string>)[v]))
+  }
   return u
 }
 
@@ -25,7 +31,7 @@ describe('TalentForm', () => {
   it('muestra los errores obligatorios al enviar vacío', async () => {
     renderApp('/talent')
     await userEvent.click(screen.getByRole('button', { name: c.form.submit }))
-    expect(screen.getAllByText(c.form.errors.required).length).toBeGreaterThanOrEqual(13)
+    expect(screen.getAllByText(c.form.errors.required).length).toBeGreaterThanOrEqual(19)
     // En el móvil hay que llevar al usuario al primer error.
     expect(document.activeElement?.id).toBe('sex')
   })

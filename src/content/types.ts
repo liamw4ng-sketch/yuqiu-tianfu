@@ -6,6 +6,7 @@ import type {
   MixedNote, Preference, Sex, SinglesStyle,
 } from '../engine/types'
 import type { MbtiAxis, MbtiCode, MbtiQuestionId } from '../engine/mbti'
+import type { PREF_OPTIONS, PrefKey } from '../engine/prefs'
 import type { RatingLevel, RatingQuestionId, RatingRuleId } from '../engine/rating'
 import type { FieldErrorCode, WarningCode } from '../engine/validate'
 
@@ -90,6 +91,8 @@ export interface TalentContent {
     abilitiesHint: string
     testsTitle: string
     testsHint: string
+    prefsTitle: string
+    prefsHint: string
     choose: string
     submit: string
     confirmWarnings: string
@@ -104,6 +107,8 @@ export interface TalentContent {
     freq: Record<Freq, string>
     preference: Record<Preference, string>
   }
+  /** Preguntas de 球风偏好: enunciado y texto de cada opción */
+  prefs: { [K in PrefKey]: { question: string; options: Record<(typeof PREF_OPTIONS)[K][number], string> } }
   abilities: Record<AbilityKey, AbilityText>
   tests: Record<FieldTestKey, { label: string; unit: string; hint: string }>
   bodyTypes: Record<BodyType, BodyTypeText>
@@ -156,6 +161,14 @@ export interface TalentContent {
     noGaps: string
     /** {emoji} {name} {fit} */
     runnerUp: string
+    prefLabel: string
+    /** {style} */
+    prefAligned: string
+    /** {pref} {rec} */
+    prefConflict: string
+    prefNone: string
+    /** {pref} {rec} */
+    doublesPrefConflict: string
     singlesLabels: Record<'coreTactic' | 'opening' | 'midgame' | 'keyPoints' | 'stamina' | 'pitfalls' | 'matchups', string>
     doublesLabels: Record<'coreTactic' | 'rotation' | 'positioning' | 'positioningDont' | 'signals' | 'signalsDont' | 'partner' | 'mixed', string>
     /** Plantillas con {role} y {strength} */

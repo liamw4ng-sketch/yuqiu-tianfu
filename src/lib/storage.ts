@@ -1,3 +1,4 @@
+import { isPrefs } from '../engine/prefs'
 import { ABILITY_KEYS, FIELD_TEST_KEYS, type TalentInput } from '../engine/types'
 import type { Lang } from '../i18n/types'
 
@@ -64,7 +65,8 @@ export function isTalentInput(x: unknown): x is TalentInput {
     ['lt1', '1', '2-3', '4+'].includes(x.freq as string) &&
     ['singles', 'doubles', 'mixed', 'all'].includes(x.preference as string) &&
     isObj(levels) && ABILITY_KEYS.every((k) => [1, 2, 3, 4, 5].includes(levels[k] as number)) &&
-    isObj(tests) && FIELD_TEST_KEYS.every((k) => tests[k] === null || isNum(tests[k]))
+    isObj(tests) && FIELD_TEST_KEYS.every((k) => tests[k] === null || isNum(tests[k])) &&
+    (x.prefs === undefined || isPrefs(x.prefs))
   )
 }
 

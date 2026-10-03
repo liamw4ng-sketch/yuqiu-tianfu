@@ -1,7 +1,8 @@
 import { bmiOf } from './body'
+import { PREF_KEYS, PREF_OPTIONS, type PrefKey, type Prefs } from './prefs'
 import { ABILITY_KEYS, FIELD_TEST_KEYS, type AbilityKey, type FieldTestKey, type Freq, type Hand, type Level, type Preference, type Sex, type TalentInput } from './types'
 
-export type FormField = 'sex' | 'age' | 'heightCm' | 'weightKg' | 'wingspanCm' | 'yearsPlaying' | AbilityKey | FieldTestKey
+export type FormField = 'sex' | 'age' | 'heightCm' | 'weightKg' | 'wingspanCm' | 'yearsPlaying' | AbilityKey | FieldTestKey | PrefKey
 export type FieldErrorCode = 'required' | 'number' | 'range'
 export type WarningCode = 'wingspanDiff' | 'bmiExtreme' | 'minor'
 
@@ -17,6 +18,8 @@ export interface TalentFormValues {
   preference: Preference
   levels: Record<AbilityKey, Level | 0>
   tests: Record<FieldTestKey, string>
+  /** 球风偏好: id de la opción elegida o '' */
+  prefs: Record<PrefKey, string>
 }
 
 type NumericField = 'age' | 'heightCm' | 'weightKg' | 'wingspanCm' | 'yearsPlaying' | FieldTestKey
@@ -37,7 +40,8 @@ export function emptyTalentForm(): TalentFormValues {
   for (const k of ABILITY_KEYS) levels[k] = 0
   const tests = {} as Record<FieldTestKey, string>
   for (const k of FIELD_TEST_KEYS) tests[k] = ''
-  return { sex: '', age: '', heightCm: '', weightKg: '', wingspanCm: '', yearsPlaying: '', hand: 'R', freq: '1', preference: 'all', levels, tests }
+  const prefs = Object.fromEntries(PREF_KEYS.map((k) => [k, ''])) as Record<PrefKey, string>
+  return { sex: '', age: '', heightCm: '', weightKg: '', wingspanCm: '', yearsPlaying: '', hand: 'R', freq: '1', preference: 'all', levels, tests, prefs }
 }
 
 /** '' → null; admite coma decimal; texto no numérico → NaN. */
@@ -80,6 +84,7 @@ export function validateTalentForm(v: TalentFormValues): {
   const tests = {} as TalentInput['tests']
   for (const k of FIELD_TEST_KEYS) tests[k] = read(k, v.tests[k], false)
   for (const k of ABILITY_KEYS) if (v.levels[k] === 0) errors[k] = 'required'
+  for (const k of PREF_KEYS) if (!(PREF_OPTIONS[k] as readonly string[]).includes(v.prefs[k])) errors[k] = 'required'
 
   if (Object.keys(errors).length > 0 || v.sex === '' || age === null || heightCm === null || weightKg === null || yearsPlaying === null) {
     return { input: null, errors, warnings: [] }
@@ -95,6 +100,7 @@ export function validateTalentForm(v: TalentFormValues): {
       hand: v.hand, freq: v.freq, preference: v.preference,
       levels: v.levels as Record<AbilityKey, Level>,
       tests,
+      prefs: v.prefs as Prefs,
     },
     errors,
     warnings,

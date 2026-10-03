@@ -5,7 +5,7 @@ import type { TalentResult } from '../../../engine/talent'
 import type { AbilityKey, TalentInput } from '../../../engine/types'
 import { format } from '../../../i18n/I18nProvider'
 
-export function SinglesSection({ result }: { input: TalentInput; result: TalentResult }) {
+export function SinglesSection({ input, result }: { input: TalentInput; result: TalentResult }) {
   const c = useTalentContent()
   const r = c.report
   const s = result.singles
@@ -21,6 +21,17 @@ export function SinglesSection({ result }: { input: TalentInput; result: TalentR
       </h3>
       <p className="muted">{style.tagline}</p>
       <FitMeter fit={s.ranking[0].fit} label={format(r.fitLine, { fit: s.ranking[0].fit, band: r.fitBands[s.fitBand] })} />
+      <p className="pref-note">
+        <strong>
+          {r.prefLabel}
+          {c.list.colon}
+        </strong>
+        {!input.prefs || !s.preferred
+          ? r.prefNone
+          : s.preferred === s.top
+            ? format(r.prefAligned, { style: style.name })
+            : format(r.prefConflict, { pref: c.singles[s.preferred].name, rec: style.name })}
+      </p>
       <p>
         <strong>{r.fitAnalysis}{c.list.colon}</strong>
         {format(style.fitIntro, { fit: s.ranking[0].fit })}

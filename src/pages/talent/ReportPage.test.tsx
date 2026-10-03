@@ -3,7 +3,9 @@ import userEvent from '@testing-library/user-event'
 import { describe, expect, it } from 'vitest'
 import { talentEs } from '../../content/es/talent'
 import { talentZh as c } from '../../content/zh/talent'
+import { analyzeTalent } from '../../engine/talent'
 import { GOLDEN, makeInput } from '../../engine/testkit'
+import { format } from '../../i18n/I18nProvider'
 import { emptyState, STORAGE_KEY } from '../../lib/storage'
 import { renderApp } from '../../test/renderApp'
 
@@ -58,5 +60,30 @@ describe('ReportPage con perfil plano', () => {
     )
     renderApp('/talent/report/flat')
     expect(screen.getByText(c.report.flatProfile)).toBeInTheDocument()
+  })
+})
+
+describe('ReportPage con 球风偏好', () => {
+  const seedWith = (prefs: NonNullable<typeof GOLDEN.prefs>) =>
+    localStorage.setItem(
+      STORAGE_KEY,
+      JSON.stringify({ ...emptyState(), talent: [{ id: 'p', createdAt: '2026-10-03T10:00:00.000Z', engineVersion: 2, input: { ...GOLDEN, prefs } }] }),
+    )
+  it('explica si el gusto y la recomendación coinciden o no', () => {
+    const prefs = { scoring: 'net', midcourt: 'drop', tempo: 'adapt', underAttack: 'block', rally: 'either', doublesSpot: 'back' } as const
+    seedWith(prefs)
+    renderApp('/talent/report/p')
+    const r = analyzeTalent({ ...GOLDEN, prefs })
+    const pref = r.singles.preferred!
+    const expected =
+      pref === r.singles.top
+        ? format(c.report.prefAligned, { style: c.singles[pref].name })
+        : format(c.report.prefConflict, { pref: c.singles[pref].name, rec: c.singles[r.singles.top].name })
+    expect(screen.getByText(expected)).toBeInTheDocument()
+  })
+  it('un informe antiguo sin preferencias lo dice', () => {
+    seed()
+    renderApp('/talent/report/r1')
+    expect(screen.getByText(c.report.prefNone)).toBeInTheDocument()
   })
 })

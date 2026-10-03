@@ -1,7 +1,9 @@
 import { useEffect, useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
+import { ChoiceGroup } from '../../components/ChoiceGroup'
 import { SelectField, TextField } from '../../components/fields'
 import { paren, useTalentContent } from '../../content'
+import { PREF_KEYS, PREF_OPTIONS, type PrefKey } from '../../engine/prefs'
 import { ABILITY_KEYS, FIELD_TEST_KEYS, type AbilityKey, type FieldTestKey, type Level } from '../../engine/types'
 import {
   emptyTalentForm,
@@ -22,6 +24,7 @@ const FIELD_ORDER: [FormField, string][] = [
   ['sex', 'sex'],
   ...NUMERIC.map((k): [FormField, string] => [k, k]),
   ...ABILITY_KEYS.map((k): [FormField, string] => [k, `level-${k}`]),
+  ...PREF_KEYS.map((k): [FormField, string] => [k, `pref-${k}`]),
   ...FIELD_TEST_KEYS.map((k): [FormField, string] => [k, k]),
 ]
 
@@ -71,6 +74,7 @@ export function TalentForm() {
 
   const setNum = (k: NumericKey) => (v: string) => setValues((s) => ({ ...s, [k]: v }))
   const setTest = (k: FieldTestKey) => (v: string) => setValues((s) => ({ ...s, tests: { ...s.tests, [k]: v } }))
+  const setPref = (k: PrefKey) => (v: string) => setValues((s) => ({ ...s, prefs: { ...s.prefs, [k]: v } }))
   const setLevel = (k: AbilityKey) => (v: string) =>
     setValues((s) => ({ ...s, levels: { ...s.levels, [k]: Number(v) as Level | 0 } }))
   const errors: Partial<Record<FormField, string>> = {}
@@ -144,6 +148,21 @@ export function TalentForm() {
           placeholder={c.form.choose}
           options={c.abilities[k].levels.map((text, i) => ({ value: String(i + 1), label: `${i + 1} · ${text}` }))}
           onChange={setLevel(k)}
+          error={errors[k]}
+        />
+      ))}
+
+      <h2 className="form-section">{c.form.prefsTitle}</h2>
+      <p className="field-hint">{c.form.prefsHint}</p>
+      {PREF_KEYS.map((k) => (
+        <ChoiceGroup
+          key={k}
+          id={`pref-${k}`}
+          name={`pref-${k}`}
+          legend={c.prefs[k].question}
+          value={values.prefs[k] || undefined}
+          options={(PREF_OPTIONS[k] as readonly string[]).map((o) => ({ value: o, label: (c.prefs[k].options as Record<string, string>)[o] }))}
+          onChange={setPref(k)}
           error={errors[k]}
         />
       ))}

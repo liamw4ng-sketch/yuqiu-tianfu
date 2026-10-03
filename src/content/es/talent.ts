@@ -23,6 +23,8 @@ export const talentEs: TalentContent = {
     abilitiesHint: 'Compara cada nivel con su descripción concreta y elige el que más se ajuste a tu nivel actual; cuanto más específico seas, más preciso será el resultado.',
     testsTitle: 'Pruebas de campo (opcional)',
     testsHint: 'Si tienes datos de alguna prueba, se promediarán con tu autoevaluación para afinar el resultado; también puedes enviar el formulario sin haberlas hecho.',
+    prefsTitle: 'Tus gustos de juego',
+    prefsHint: 'No hay respuestas buenas ni malas: elige lo que más se parece a cómo te gusta jugar. Influye en el estilo recomendado.',
     choose: 'Selecciona',
     submit: 'Generar mi informe de talento',
     confirmWarnings: 'Hay algunos avisos sobre tus datos. ¿Confirmas que son correctos y quieres continuar?',
@@ -56,6 +58,14 @@ export const talentEs: TalentContent = {
     },
   },
 
+  prefs: {
+    scoring: { question: '¿Cómo disfrutas más ganando el punto?', options: { smash: 'Rematando desde el fondo', net: 'Con dejadas y engaños en la red', rally: 'Con peloteos largos hasta que falle el rival', counter: 'Defendiendo primero y contraatacando' } },
+    midcourt: { question: 'Te devuelven una bola alta a media pista. Normalmente…', options: { smash: 'Remato', drop: 'Hago una dejada o una dejada cortada', push: 'Empujo al fondo para mover al rival' } },
+    tempo: { question: '¿Qué ritmo de partido te gusta?', options: { fast: 'Cuanto más rápido mejor, tomar la iniciativa', grind: 'Tranquilo, desgastando poco a poco', adapt: 'Me adapto al rival' } },
+    underAttack: { question: 'Cuando el rival ataca sin parar, prefieres…', options: { drive: 'Devolver con drive y plantar cara', block: 'Bloquear a la red con calma', lift: 'Levantar al fondo y reorganizarme' } },
+    rally: { question: '¿Qué tipo de peloteo prefieres?', options: { short: 'Cortos: resolver en 3–5 golpes', long: 'Largos: paciencia y físico', either: 'Me da igual, depende' } },
+    doublesSpot: { question: 'En dobles prefieres jugar…', options: { front: 'En la red, cerrando', back: 'En el fondo, atacando', rotate: 'Donde toque, rotando', none: 'Casi no juego dobles / no lo sé' } },
+  },
   abilities: {
     power: {
       name: 'Potencia',
@@ -473,6 +483,11 @@ export const talentEs: TalentContent = {
     noDrivers: 'Por ahora no hay ninguna capacidad especialmente destacada como impulsora.',
     noGaps: 'No hay ninguna capacidad que te esté frenando de forma clara.',
     runnerUp: 'Segundo estilo: {emoji} {name} · Encaje {fit}%',
+    prefLabel: 'Tus gustos',
+    prefAligned: 'Tus gustos de juego también apuntan a «{style}»: lo que te gusta y tus capacidades van en la misma dirección.',
+    prefConflict: 'El estilo que más te gusta es «{pref}», pero hoy tus capacidades y tu cuerpo encajan mejor con «{rec}». Toma «{pref}» como objetivo a largo plazo: gana partidos con «{rec}» mientras entrenas lo que pide «{pref}».',
+    prefNone: 'Este informe no tiene gustos de juego: la recomendación se basa solo en capacidades y cuerpo. Repite el test para añadirlos.',
+    doublesPrefConflict: 'Prefieres jugar en «{pref}», pero tu perfil se acerca más a «{rec}»; con pareja fija puedes empezar en tu sitio favorito y volver al que mejor dominas en los puntos clave.',
     singlesLabels: {
       coreTactic: 'Táctica principal',
       opening: 'Estrategia de apertura',

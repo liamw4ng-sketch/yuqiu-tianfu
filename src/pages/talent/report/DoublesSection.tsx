@@ -5,7 +5,9 @@ import type { TalentResult } from '../../../engine/talent'
 import type { AbilityKey, TalentInput } from '../../../engine/types'
 import { format } from '../../../i18n/I18nProvider'
 
-export function DoublesSection({ result }: { input: TalentInput; result: TalentResult }) {
+const SPOT_ROLE = { front: 'front', back: 'back', rotate: 'rotation' } as const
+
+export function DoublesSection({ input, result }: { input: TalentInput; result: TalentResult }) {
   const c = useTalentContent()
   const r = c.report
   const d = result.doubles
@@ -32,6 +34,13 @@ export function DoublesSection({ result }: { input: TalentInput; result: TalentR
           {role[k]}
         </p>
       ))}
+      {(() => {
+        const spot = input.prefs?.doublesSpot
+        const liked = spot && spot !== 'none' ? SPOT_ROLE[spot] : null
+        return liked && liked !== d.role ? (
+          <p className="pref-note">{format(r.doublesPrefConflict, { pref: c.doubles[liked].name, rec: role.name })}</p>
+        ) : null
+      })()}
       <p data-testid="partner-advice">
         <strong>{r.doublesLabels.partner}{c.list.colon}</strong>
         {format(r.partner[d.role], { role: c.doubles[d.partner.role].name, strength: c.abilities[d.partner.strength].name })}
