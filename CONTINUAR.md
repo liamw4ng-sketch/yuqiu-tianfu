@@ -1,6 +1,12 @@
 # Cómo continuar — 羽球天赋 (app de bádminton)
 
-Última sesión: 2026-10-03. **App completa y fusionada en `main`** (159 tests), subida a GitHub. Solo falta publicarla en Netlify.
+Última sesión: 2026-10-04. **v2 en `main`** (182 tests), subida a GitHub:
+- 球风偏好 (gustos de juego) en el estilo recomendado;
+- dos jugadores espejo (estilo y cuerpo) con variedad;
+- 81 jugadores;
+- fotos de Wikipedia y vídeos.
+
+Solo falta publicarla en Netlify.
 
 ## Estado
 
