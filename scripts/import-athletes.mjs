@@ -1,7 +1,9 @@
 // Convierte la investigación verificada (docs/superpowers/research) al formato de la app (src/data).
 // Uso: node scripts/import-athletes.mjs
-// Los campos .es quedan como "TRADUCIR" para traducirlos a mano (Tarea 5 del plan).
-import { readFileSync, writeFileSync } from 'node:fs'
+// - Suma los archivos athletes_singles_new_*.json si existen.
+// - Conserva las traducciones .es ya hechas (por id); lo nuevo queda como "TRADUCIR".
+// - Saca de las fuentes los enlaces a la ficha BWF y a Wikipedia (en/zh) del propio jugador.
+import { existsSync, readFileSync, writeFileSync } from 'node:fs'
 
 const R = 'docs/superpowers/research'
 const COUNTRY_ES = {
@@ -20,8 +22,50 @@ const country = (zh) => {
   return { zh, es: COUNTRY_ES[zh] }
 }
 
-const singles = JSON.parse(readFileSync(`${R}/athletes_singles.json`, 'utf8')).athletes
-  .filter((a) => a.verified === true)
+const readJson = (path) => (existsSync(path) ? JSON.parse(readFileSync(path, 'utf8')) : null)
+const prevSingles = new Map((readJson('src/data/athletes-singles.json') ?? []).map((a) => [a.id, a]))
+const prevPairs = new Map((readJson('src/data/athletes-doubles.json') ?? []).map((p) => [p.id, p]))
+const keepEs = (prev, zh) => (prev && prev.zh === zh && prev.es && prev.es !== TODO ? prev.es : TODO)
+
+const decode = (u) => {
+  try {
+    return decodeURIComponent(u)
+  } catch {
+    return u
+  }
+}
+const norm = (x) => x.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9\u4e00-\u9fff]/g, '')
+function linksOf(a) {
+  const src = a.sources ?? []
+  const bwf = src.find((u) => /bwfbadminton\.com\/player\/\d+\//.test(u))
+  const last = norm(a.name_en.split(/[\s-]+/).at(-1) ?? '')
+  const first = norm(a.name_en.split(/[\s-]+/)[0] ?? '')
+  const wikiEn = src.find((u) => {
+    const m = u.match(/^https:\/\/en\.wikipedia\.org\/wiki\/([^#?]+)$/)
+    if (!m) return false
+    const t = norm(decode(m[1]))
+    return t.includes(last) && t.includes(first)
+  })
+  const zhName = norm(a.name_zh)
+  const wikiZh = src.find((u) => {
+    const m = u.match(/^https:\/\/zh\.wikipedia\.org\/wiki\/([^#?]+)$/)
+    return m ? norm(decode(m[1])).includes(zhName.slice(0, 2)) : false
+  })
+  const links = {}
+  if (bwf) links.bwf = bwf
+  if (wikiEn) links.wikiEn = wikiEn
+  if (wikiZh) links.wikiZh = wikiZh
+  return Object.keys(links).length ? links : undefined
+}
+
+const singlesRaw = [
+  ...JSON.parse(readFileSync(`${R}/athletes_singles.json`, 'utf8')).athletes,
+  ...(readJson(`${R}/athletes_singles_new_m.json`)?.athletes ?? []),
+  ...(readJson(`${R}/athletes_singles_new_f.json`)?.athletes ?? []),
+]
+const seenIds = new Set()
+const singles = singlesRaw
+  .filter((a) => a.verified === true && !seenIds.has(a.id) && seenIds.add(a.id))
   .map((a) => {
     if (!STYLE[a.style_primary]) throw new Error(`Estilo desconocido: ${a.style_primary}`)
     return {
@@ -37,8 +81,9 @@ const singles = JSON.parse(readFileSync(`${R}/athletes_singles.json`, 'utf8')).a
       status: a.status,
       retiredYear: a.status === 'retired' ? a.retired_year : null,
       style: STYLE[a.style_primary],
-      highlights: { zh: a.highlights_zh, es: TODO },
-      desc: { zh: a.style_desc_zh, es: TODO },
+      highlights: { zh: a.highlights_zh, es: keepEs(prevSingles.get(a.id)?.highlights, a.highlights_zh) },
+      desc: { zh: a.style_desc_zh, es: keepEs(prevSingles.get(a.id)?.desc, a.style_desc_zh) },
+      ...(linksOf(a) ? { links: linksOf(a) } : {}),
     }
   })
 
@@ -53,9 +98,9 @@ const pairs = allPairs
     pairEn: p.pair_name_en,
     country: country(p.country_zh),
     status: p.status,
-    highlights: { zh: p.highlights_zh, es: TODO },
-    style: { zh: p.pair_style_zh, es: TODO },
-    players: p.players.map((pl) => ({
+    highlights: { zh: p.highlights_zh, es: keepEs(prevPairs.get(p.id)?.highlights, p.highlights_zh) },
+    style: { zh: p.pair_style_zh, es: keepEs(prevPairs.get(p.id)?.style, p.pair_style_zh) },
+    players: p.players.map((pl, i) => ({
       nameEn: pl.name_en,
       nameZh: pl.name_zh,
       sex: pl.gender,
@@ -63,7 +108,7 @@ const pairs = allPairs
       weightKg: pl.weight_kg ?? null,
       hand: pl.handedness ?? null,
       position: pl.typical_position,
-      role: { zh: pl.role_desc_zh, es: TODO },
+      role: { zh: pl.role_desc_zh, es: keepEs(prevPairs.get(p.id)?.players?.[i]?.role, pl.role_desc_zh) },
     })),
   }))
 
