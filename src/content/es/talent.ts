@@ -65,7 +65,15 @@ export const talentEs: TalentContent = {
     underAttack: { question: 'Cuando el rival ataca sin parar, prefieres…', options: { drive: 'Devolver con drive y plantar cara', block: 'Bloquear a la red con calma', lift: 'Levantar al fondo y reorganizarme' } },
     rally: { question: '¿Qué tipo de peloteo prefieres?', options: { short: 'Cortos: resolver en 3–5 golpes', long: 'Largos: paciencia y físico', either: 'Me da igual, depende' } },
     doublesSpot: { question: 'En dobles prefieres jugar…', options: { front: 'En la red, cerrando', back: 'En el fondo, atacando', rotate: 'Donde toque, rotando', none: 'Casi no juego dobles / no lo sé' } },
+    signature: { question: '¿Qué golpe te gustaría tener como arma?', options: { smash: 'Remate potente o en salto', deception: 'Fintas que engañan al rival', netShot: 'Toque de red: dejada, cortada y cruzado', retrieve: 'Devolver todos los remates', placement: 'Dejadas y cortados a las líneas y a las cuatro esquinas' } },
+    feints: { question: '¿Haces fintas a propósito cuando juegas?', options: { often: 'A menudo: engañar al rival me encanta', sometimes: 'A veces', rarely: 'Casi nunca: juego golpes directos' } },
+    footwork: { question: 'Tu forma de moverte se parece más a…', options: { explosive: 'Salida explosiva: llego pronto al volante', reach: 'Zancada amplia: cubro mucha pista', anticipate: 'Corro poco: me anticipo y me coloco bien' } },
+    decider: { question: 'En el set decisivo, cuando te fallan las fuerzas, sueles…', options: { steady: 'Jugar más seguro, con menos errores', fight: 'Apretar los dientes y pelear cada punto', finish: 'Buscar la ocasión de acabar cuanto antes' } },
+    receive: { question: 'Al restar el saque prefieres…', options: { rush: 'Atacar en la red y matar', netReply: 'Responder con una dejada o un toque de red', deep: 'Mandarla al fondo y asegurar' } },
+    behind: { question: 'Cuando vas perdiendo…', options: { change: 'Cambio de ritmo y de plan', persist: 'Sigo con mi juego y desgasto', attack: 'Ataco más y arriesgo' } },
   },
+  traits: { power: 'Remate potente', deception: 'Engaño', net: 'Toque de red', defense: 'Defensa', stamina: 'Resistencia', speed: 'Velocidad', placement: 'Colocación', fight: 'Garra' },
+
   abilities: {
     power: {
       name: 'Potencia',
@@ -522,6 +530,8 @@ export const talentEs: TalentContent = {
     mirrorTitle: 'Jugador espejo',
     singlesMirror: 'Espejo de estilo (individuales)',
     bodyMirror: 'Espejo de cuerpo (individuales)',
+    sharedTraits: 'En común',
+    signatureTraits: { M: 'Su sello', F: 'Su sello' },
     doublesMirror: 'Espejo en dobles',
     alternates: 'Otras opciones',
     you: 'Tú',

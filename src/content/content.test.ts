@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'vitest'
+import { TRAIT_KEYS } from '../engine/traits'
 import { talentEs } from './es/talent'
 import { HAN, leaves, placeholders } from './testUtils'
 import { talentZh } from './zh/talent'
@@ -30,6 +31,12 @@ describe('zh y es', () => {
 })
 
 describe('chino', () => {
+  it('los 8 rasgos tienen nombre en los dos idiomas y el español no lleva chino', () => {
+    for (const t of TRAIT_KEYS) {
+      expect(talentZh.traits[t]).toMatch(HAN)
+      expect(talentEs.traits[t]).not.toMatch(HAN)
+    }
+  })
   it('los nombres de estilo y rol son los del informe', () => {
     expect(talentZh.singles.control.name).toContain('四方拉吊')
     expect(talentZh.doubles.front.name).toContain('封网')
