@@ -11,7 +11,8 @@
 | Plan | ✅ `docs/superpowers/plans/2026-09-26-yuqiu-tianfu.md` |
 | Programación | ✅ 5 pestañas, zh/es, imagen para compartir, instalable (rama `feat/hito-1`) |
 | Revisión final | ✅ 3 revisores + verificación; 12 arreglos con test |
-| Publicación | ⏳ Pendiente: el usuario elige Netlify o Vercel (ver README) |
+| GitHub | ✅ Público: https://github.com/liamw4ng-sketch/yuqiu-tianfu (ramas `main` y `feat/hito-1`). Subir con `git -c credential.helper='!gh auth git-credential' push` (no hay clave SSH) |
+| Publicación | ⏳ Pendiente: Netlify (elegido por el usuario), conectado al repositorio de GitHub |
 
 ## Prompt para retomar
 
