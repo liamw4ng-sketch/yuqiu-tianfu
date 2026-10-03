@@ -28,9 +28,11 @@ export function SinglesSection({ input, result }: { input: TalentInput; result: 
         </strong>
         {!input.prefs || !s.preferred
           ? r.prefNone
-          : s.preferred === s.top
-            ? format(r.prefAligned, { style: style.name })
-            : format(r.prefConflict, { pref: c.singles[s.preferred].name, rec: style.name })}
+          : s.preferred !== s.top
+            ? format(r.prefConflict, { pref: c.singles[s.preferred].name, rec: style.name })
+            : s.abilityTop === s.top
+              ? format(r.prefAligned, { style: style.name })
+              : format(r.prefLed, { pref: style.name, ability: c.singles[s.abilityTop].name })}
       </p>
       <p>
         <strong>{r.fitAnalysis}{c.list.colon}</strong>

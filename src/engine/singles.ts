@@ -117,13 +117,17 @@ export function driversAndGaps(keys: AbilityKey[], current: Scores) {
   }
 }
 
-export function rankSingles(blended: Scores, current: Scores, body: BodyProfile, prefs?: Prefs): SinglesResult {
-  const u = toVector(blended)
-  const pref = singlesPreference(prefs)
-  const ranking = SINGLES_STYLES.map((style) => {
+function rankStyles(u: number[], body: BodyProfile, pref: Record<SinglesStyle, number>) {
+  return SINGLES_STYLES.map((style) => {
     const match = style === 'allround' ? allroundMatch(u) : profileMatch(u, SINGLES_WEIGHTS[style])
     return { style, fit: fitFrom(match, pref[style], singlesBodyFit(style, body)) }
   }).sort((a, b) => b.fit - a.fit || SINGLES_STYLES.indexOf(a.style) - SINGLES_STYLES.indexOf(b.style))
+}
+
+export function rankSingles(blended: Scores, current: Scores, body: BodyProfile, prefs?: Prefs): SinglesResult {
+  const u = toVector(blended)
+  const ranking = rankStyles(u, body, singlesPreference(prefs))
+  const abilityTop = prefs ? rankStyles(u, body, singlesPreference(undefined))[0].style : ranking[0].style
   const top = ranking[0].style
   let drivers: AbilityKey[]
   let gaps: AbilityKey[]
@@ -146,5 +150,6 @@ export function rankSingles(blended: Scores, current: Scores, body: BodyProfile,
     drivers,
     gaps,
     preferred: preferredStyle(prefs),
+    abilityTop,
   }
 }

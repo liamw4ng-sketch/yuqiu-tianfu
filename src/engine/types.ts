@@ -79,6 +79,8 @@ export interface SinglesResult {
   gaps: AbilityKey[]
   /** Estilo que más le gusta según 球风偏好 (null si no respondió) */
   preferred: SinglesStyle | null
+  /** Estilo que darían solo capacidades y cuerpo, sin gustos: dice si el gusto decidió la recomendación */
+  abilityTop: SinglesStyle
 }
 export interface PartnerAdvice {
   role: DoublesRole

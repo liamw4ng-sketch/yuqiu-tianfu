@@ -486,6 +486,7 @@ export const talentEs: TalentContent = {
     prefLabel: 'Tus gustos',
     prefAligned: 'Tus gustos de juego también apuntan a «{style}»: lo que te gusta y tus capacidades van en la misma dirección.',
     prefConflict: 'El estilo que más te gusta es «{pref}», pero hoy tus capacidades y tu cuerpo encajan mejor con «{rec}». Toma «{pref}» como objetivo a largo plazo: gana partidos con «{rec}» mientras entrenas lo que pide «{pref}».',
+    prefLed: 'La recomendación «{pref}» sale sobre todo de tus gustos; mirando solo tus capacidades y tu cuerpo actuales, encajas más con «{ability}». «{pref}» es un buen objetivo, pero primero tendrás que reforzar las carencias de abajo para poder jugar así en partido.',
     prefNone: 'Este informe no tiene gustos de juego: la recomendación se basa solo en capacidades y cuerpo. Repite el test para añadirlos.',
     doublesPrefConflict: 'Prefieres jugar en «{pref}», pero tu perfil se acerca más a «{rec}»; con pareja fija puedes empezar en tu sitio favorito y volver al que mejor dominas en los puntos clave.',
     singlesLabels: {

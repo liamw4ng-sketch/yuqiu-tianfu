@@ -51,3 +51,13 @@ describe('las preferencias cambian la recomendación', () => {
     expect(r.singles.top).toBe('control')
   })
 })
+
+describe('qué decidió la recomendación', () => {
+  it('abilityTop es el estilo que darían solo capacidades y cuerpo', () => {
+    const counterFan: Prefs = { scoring: 'counter', midcourt: 'push', tempo: 'grind', underAttack: 'drive', rally: 'long', doublesSpot: 'front' }
+    const r = analyzeTalent({ ...GOLDEN, prefs: counterFan })
+    expect(r.singles.abilityTop).toBe('control')
+    expect(r.singles.top).toBe('counter')
+    expect(r.singles.preferred).toBe('counter')
+  })
+})

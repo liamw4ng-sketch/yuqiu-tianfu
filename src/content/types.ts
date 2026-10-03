@@ -166,6 +166,8 @@ export interface TalentContent {
     prefAligned: string
     /** {pref} {rec} */
     prefConflict: string
+    /** El gusto decidió la recomendación; las capacidades solas apuntan a otro estilo. {pref} {ability} */
+    prefLed: string
     prefNone: string
     /** {pref} {rec} */
     doublesPrefConflict: string

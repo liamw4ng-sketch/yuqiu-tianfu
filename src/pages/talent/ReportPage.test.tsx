@@ -76,10 +76,19 @@ describe('ReportPage con 球风偏好', () => {
     const r = analyzeTalent({ ...GOLDEN, prefs })
     const pref = r.singles.preferred!
     const expected =
-      pref === r.singles.top
-        ? format(c.report.prefAligned, { style: c.singles[pref].name })
-        : format(c.report.prefConflict, { pref: c.singles[pref].name, rec: c.singles[r.singles.top].name })
+      pref !== r.singles.top
+        ? format(c.report.prefConflict, { pref: c.singles[pref].name, rec: c.singles[r.singles.top].name })
+        : r.singles.abilityTop === pref
+          ? format(c.report.prefAligned, { style: c.singles[pref].name })
+          : format(c.report.prefLed, { pref: c.singles[pref].name, ability: c.singles[r.singles.abilityTop].name })
     expect(screen.getByText(expected)).toBeInTheDocument()
+  })
+  it('si el gusto decide la recomendación, no dice que las capacidades coinciden', () => {
+    const prefs = { scoring: 'counter', midcourt: 'push', tempo: 'grind', underAttack: 'drive', rally: 'long', doublesSpot: 'front' } as const
+    seedWith(prefs)
+    renderApp('/talent/report/p')
+    expect(screen.getByText(format(c.report.prefLed, { pref: c.singles.counter.name, ability: c.singles.control.name }))).toBeInTheDocument()
+    expect(screen.queryByText(format(c.report.prefAligned, { style: c.singles.counter.name }))).toBeNull()
   })
   it('un informe antiguo sin preferencias lo dice', () => {
     seed()

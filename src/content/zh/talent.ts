@@ -486,6 +486,7 @@ export const talentZh: TalentContent = {
     prefLabel: '球风偏好',
     prefAligned: '你的球风偏好也指向「{style}」——喜欢的打法和能力结构一致，可以放心朝这个方向练。',
     prefConflict: '你最喜欢的打法是「{pref}」，但目前的能力和体型更适合「{rec}」。可以把「{pref}」当作长期目标：先用「{rec}」的打法赢球，同时补齐「{pref}」需要的能力。',
+    prefLed: '推荐「{pref}」主要来自你的球风偏好；只看目前的能力和体型，更接近「{ability}」。「{pref}」值得作为目标，但下面列出的短板要先补上，否则比赛中很难打出这种风格。',
     prefNone: '这份报告没有填写球风偏好，推荐只基于能力和体型。重新测评可以加上偏好。',
     doublesPrefConflict: '你更喜欢站「{pref}」，但能力结构更接近「{rec}」；和固定搭档打时可以先按你喜欢的站位，关键分回到更擅长的位置。',
     singlesLabels: {
