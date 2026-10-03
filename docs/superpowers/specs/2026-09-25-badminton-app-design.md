@@ -250,3 +250,126 @@ Aprobado por el usuario el 2026-10-03, tras observar que la recomendación depen
 - **Medios:**
   - Foto de Wikipedia (Wikimedia Commons, con crédito), cargada en vivo; si falla, se oculta.
   - Enlaces a la ficha oficial y a búsquedas de vídeo: YouTube siempre y Bilibili en chino. Al ser búsquedas, no se rompen.
+
+## 17. v3 (2026-10-04): más jugadores, 12 preguntas de gustos y rasgos en el espejo
+
+Aprobado por el usuario el 2026-10-04. Pidió dos cosas:
+- más jugadores conocidos: leyendas y top 30 actual;
+- más preguntas en el test, para afinar el estilo y elegir un jugador espejo más parecido.
+
+### 17.1 Jugadores nuevos (solo individual; los dobles no cambian)
+
+- **Leyendas:** unas 15 por sexo.
+  - Hombres, por ejemplo: Rudy Hartono, Liem Swie King, Morten Frost, Prakash Padukone, Zhao Jianhua, Yang Yang, Joko Supriyanto, Poul-Erik Høyer Larsen, Hendrawan, Sun Jun, Park Sung-hwan, Sony Dwi Kuncoro, Chen Jin, Du Pengyu y Son Wan-ho.
+  - Mujeres, por ejemplo: Li Lingwei, Han Aiping, Tang Jiuhong, Bang Soo-hyun, Ye Zhaoying, Gong Zhichao, Camilla Martin, Mia Audina, Gong Ruina, Zhou Mi, Zhu Lin, Tine Baun, Wang Lin, Wang Xin y Sung Ji-hyun.
+- **Actuales:** los que estén en el top 30 de la BWF a 2026-10-04 y todavía no estén en la app, según el ranking de bwfbadminton.com.
+- **Reglas de entrada:** las mismas que en la v1.
+  - Un agente investiga y otro verifica de forma adversarial.
+  - **Sin altura de fuente fiable** (BWF, Olympedia, federación o Wikipedia con cita), **el jugador no entra**.
+  - El peso solo se pone si hay fuente; si no, `null`.
+  - También llevan estado 现役/已退役 con año, estilo (uno de los 6), `highlights` y `desc` en chino, y enlaces BWF/Wikipedia.
+  - El nombre chino sigue la Wikipedia china o los medios de China continental.
+- **Archivos:** la investigación queda en `docs/superpowers/research/athletes_singles_v3_{m,f}.json`, con el mismo esquema que `athletes_singles_new_{m,f}.json`. `scripts/import-athletes.mjs` los fusiona y el español se traduce después.
+- **Objetivo:** unos 120–130 jugadores, con los 6 estilos representados en cada sexo.
+
+### 17.2 Seis preguntas nuevas en 球风偏好 (de 6 a 12)
+
+Las 12 son obligatorias en el formulario. Ids de pregunta y de opción:
+
+| Pregunta | Opciones |
+|---|---|
+| `signature` 你最想拥有哪一拍武器？ | `smash` 重杀跳杀 · `deception` 假动作骗过对手 · `netShot` 网前搓放勾对角 · `retrieve` 接住所有杀球 · `placement` 吊劈压线打四角 |
+| `feints` 打球时你会故意做假动作吗？ | `often` 经常 · `sometimes` 偶尔 · `rarely` 很少，打实在的球 |
+| `footwork` 你的步法更像… | `explosive` 启动快、抢点早 · `reach` 步子大、覆盖面广 · `anticipate` 跑得不多，靠预判站位 |
+| `decider` 决胜局体力下降时，你通常… | `steady` 越打越稳、少失误 · `fight` 咬牙拼每一分 · `finish` 抓机会尽快结束 |
+| `receive` 接发球时你更想… | `rush` 抢网扑球 · `netReply` 放网或搓网 · `deep` 推挑后场先稳住 |
+| `behind` 比分落后时你会… | `change` 改变节奏和打法 · `persist` 坚持打法慢慢磨 · `attack` 加强进攻主动冒险 |
+
+**Puntos de estilo**, que suman a los de §16 con la misma normalización (el estilo con más puntos vale 1):
+- signature:
+  - smash {attack 2}
+  - deception {allround 1, net 1}
+  - netShot {net 2}
+  - retrieve {counter 2}
+  - placement {control 2}
+- feints: often {allround 1, net 1}; sometimes {}; rarely {}.
+- footwork: explosive {speed 2}; reach {counter 1, allround 1}; anticipate {control 1, allround 1}.
+- decider: steady {control 1, counter 1}; fight {counter 1}; finish {attack 1}.
+- receive: rush {speed 1, net 1}; netReply {net 1}; deep {control 1}.
+- behind: change {allround 2}; persist {control 1, counter 1}; attack {attack 1}.
+
+La pregunta `scoring` sigue valiendo 3. El encaje no cambia: `100 · (0,5 · capacidades + 0,3 · gustos + 0,2 · cuerpo)`.
+
+### 17.3 Rasgos (球风特点)
+
+**Vocabulario fijo de 8 rasgos:**
+
+| Id | Chino | Español |
+|---|---|---|
+| `power` | 重杀 | Remate potente |
+| `deception` | 假动作 | Engaño |
+| `net` | 网前手感 | Toque de red |
+| `defense` | 防守 | Defensa |
+| `stamina` | 体能相持 | Resistencia |
+| `speed` | 速度步法 | Velocidad |
+| `placement` | 落点控制 | Colocación |
+| `fight` | 斗志 | Garra |
+
+**Puntos de rasgo del usuario** (las 12 preguntas; `doublesSpot` no suma nada):
+- scoring: smash {power 2}; net {net 2}; rally {stamina 1, placement 1}; counter {defense 2}.
+- midcourt: smash {power 1}; drop {placement 1}; push {placement 1}.
+- tempo: fast {speed 1}; grind {stamina 1}; adapt {}.
+- underAttack: drive {speed 1}; block {defense 1}; lift {defense 1}.
+- rally: short {power 1}; long {stamina 1}; either {}.
+- signature:
+  - smash {power 2}
+  - deception {deception 2}
+  - netShot {net 2}
+  - retrieve {defense 2}
+  - placement {placement 2}
+- feints: often {deception 2}; sometimes {deception 1}; rarely {}.
+- footwork: explosive {speed 2}; reach {defense 1, stamina 1}; anticipate {placement 1}.
+- decider: steady {stamina 2}; fight {fight 2}; finish {power 1}.
+- receive: rush {speed 1, net 1}; netReply {net 1}; deep {placement 1}.
+- behind: change {deception 1, placement 1}; persist {stamina 1}; attack {power 1, fight 1}.
+
+**Rasgos principales del usuario:** los 3 con más puntos y más de 0; los empates se deciden por el orden del vocabulario.
+
+**Rasgos de cada jugador:**
+- Campo `traits: Trait[]` con 2–3 rasgos sin repetir; el primero es su seña de identidad. Es obligatorio en todos los jugadores de individual y la validación de datos lo comprueba.
+- Los asigna un agente con evidencia y fuentes (análisis, perfiles de la BWF, prensa especializada) y lo revisa un verificador.
+- Las evidencias y fuentes quedan en `docs/superpowers/research/traits_singles.json`, con el formato `id → { traits, evidence, sources }`.
+
+### 17.4 Espejo de estilo con rasgos
+
+- **Vector del jugador:** traits[0] = 1, traits[1] = 0,7 y traits[2] = 0,5. El vector del usuario son sus puntos de rasgo.
+- **Similitud:** `sim` es el coseno entre los dos vectores (0–1). Si el usuario no tiene puntos, `sim` es 0 para todos y el orden no cambia.
+- **Distancia del 🎯 打法镜像:**
+  - `estilo (0 / 0,6 / 1,5) + 0,6 · (1 − sim) + 0,35 · cuerpo + 0,2 si no está en activo − 0,4 si ambos son zurdos`.
+  - Con el peso 0,6, un jugador del estilo principal sin rasgos en común empata con uno del segundo estilo con los mismos rasgos, y el cuerpo desempata. El estilo sigue mandando.
+- **Ventana de variedad del espejo de estilo:** baja de 0,5 a 0,2 para que los rasgos se noten.
+- **Sin cambios:** el 📏 espejo de cuerpo y los dobles.
+
+### 17.5 Informe
+
+- La tarjeta del espejo de estilo muestra **共同特点 / En común: …** con los rasgos principales del usuario que también tiene el jugador.
+- Si no comparten ninguno, muestra **他/她的招牌 / Su sello: …** con los rasgos del jugador.
+
+### 17.6 Compatibilidad
+
+- `ENGINE_VERSION` pasa a 3.
+- Los registros guardados con las 6 preguntas de la v2 cargan y se calculan igual: las preguntas nuevas que falten no suman puntos.
+- `isPrefs` exige las 6 originales y, si las nuevas existen, que sean válidas.
+- Los registros de la v1, sin gustos, siguen como en §16.
+
+### 17.7 Pruebas
+
+- **Gustos:** puntos de estilo y de rasgo de cada respuesta nueva. `scoring` sigue siendo la pregunta de más peso.
+- **Datos:** todos los jugadores de individual tienen 2–3 rasgos válidos y sin repetir, y los 6 estilos tienen jugadores en cada sexo.
+- **Espejo, caso controlado:** con el mismo estilo y cuerpo, gana el jugador con más rasgos en común.
+- **Espejo, población:**
+  - en una muestra de usuarios típicos, el espejo de estilo comparte al menos un rasgo principal en ≥ 70 % de los casos y siempre es del estilo principal o del segundo;
+  - se mantienen los umbrales de variedad de §16 (≤ 12 % y ≥ 25 jugadores distintos por sexo).
+- **Formulario:** exige las 12 preguntas.
+- **Contenido:** los 8 rasgos y las 6 preguntas tienen texto en chino y en español con las mismas claves.
+- **Compatibilidad:** un registro v2 con 6 gustos carga y da un informe sin errores.
