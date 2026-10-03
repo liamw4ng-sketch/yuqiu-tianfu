@@ -269,7 +269,7 @@ Aprobado por el usuario el 2026-10-04. Pidió dos cosas:
   - El peso solo se pone si hay fuente; si no, `null`.
   - También llevan estado 现役/已退役 con año, estilo (uno de los 6), `highlights` y `desc` en chino, y enlaces BWF/Wikipedia.
   - El nombre chino sigue la Wikipedia china o los medios de China continental.
-- **Archivos:** la investigación queda en `docs/superpowers/research/athletes_singles_v3_{m,f}.json`, con el mismo esquema que `athletes_singles_new_{m,f}.json`. `scripts/import-athletes.mjs` los fusiona y el español se traduce después.
+- **Archivos:** la investigación queda en `docs/superpowers/research/athletes_singles_v3_{legends,top}_{m,f}.json`, con el mismo esquema que `athletes_singles_new_{m,f}.json`. `scripts/import-athletes.mjs` los fusiona. El español va en `translations_es.json` (`id → { highlights, desc }`).
 - **Objetivo:** unos 120–130 jugadores, con los 6 estilos representados en cada sexo.
 
 ### 17.2 Seis preguntas nuevas en 球风偏好 (de 6 a 12)
