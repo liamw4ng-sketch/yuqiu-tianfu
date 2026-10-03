@@ -54,7 +54,7 @@ export function AthleteMedia({ athlete, lang }: { athlete: MediaAthlete; lang: L
     <div className="athlete-media">
       {photo && (
         <figure className="athlete-photo">
-          <img src={photo} alt={athlete.nameEn} loading="lazy" referrerPolicy="no-referrer" />
+          <img src={photo} alt={athlete.nameEn} loading="lazy" referrerPolicy="no-referrer" onError={() => setPhoto(null)} />
           <figcaption>
             <a href={links.wiki!} target="_blank" rel="noreferrer">
               {t('media.photoCredit')}

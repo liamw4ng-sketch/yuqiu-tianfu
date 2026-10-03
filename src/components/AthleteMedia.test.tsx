@@ -1,4 +1,4 @@
-import { render, screen, waitFor } from '@testing-library/react'
+import { fireEvent, render, screen, waitFor } from '@testing-library/react'
 import { afterEach, describe, expect, it, vi } from 'vitest'
 import { I18nProvider } from '../i18n/I18nProvider'
 import { AthleteMedia, mediaLinks } from './AthleteMedia'
@@ -29,6 +29,9 @@ describe('enlaces de foto y vídeo', () => {
     expect(img).toHaveAttribute('src', 'https://upload.wikimedia.org/x.jpg')
     expect(globalThis.fetch).toHaveBeenCalledWith('https://en.wikipedia.org/api/rest_v1/page/summary/Loh_Kean_Yew')
     expect(screen.getByText('Foto: Wikipedia')).toBeInTheDocument()
+    // Si la imagen no llega a cargar, no deja un hueco gris.
+    fireEvent.error(img)
+    expect(screen.queryByRole('img', { name: 'Loh Kean Yew' })).toBeNull()
   })
   it('sin Wikipedia o si falla la red: sin foto y sin romperse', async () => {
     vi.spyOn(globalThis, 'fetch').mockRejectedValue(new Error('offline'))
