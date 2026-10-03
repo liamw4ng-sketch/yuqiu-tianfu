@@ -1,55 +1,68 @@
+import { AthleteMedia } from '../../../components/AthleteMedia'
 import { CompareBars } from '../../../components/CompareBars'
 import { SectionHeader } from '../../../components/SectionHeader'
 import { paren, pick, statusLabel, useTalentContent } from '../../../content'
-import { athleteBmi } from '../../../engine/mirror'
+import { athleteBmi, type SinglesMirror } from '../../../engine/mirror'
 import type { TalentResult } from '../../../engine/talent'
 import type { TalentInput } from '../../../engine/types'
 import { format, useI18n } from '../../../i18n/I18nProvider'
+
+function SinglesMirrorCard({ mirror, label, input, result }: { mirror: SinglesMirror; label: string; input: TalentInput; result: TalentResult }) {
+  const c = useTalentContent()
+  const { lang } = useI18n()
+  const r = c.report
+  const a = mirror.athlete
+  return (
+    <div className="mirror-card">
+      <p className="mono-label left">{label}</p>
+      <h3>
+        {a.nameEn} {a.nameZh}
+      </h3>
+      <p className="muted">
+        {pick(a.country, lang)} · {a.heightCm}cm
+        {a.weightKg !== null && ` / ${a.weightKg}kg`} · {statusLabel(c, a.status, a.retiredYear)}
+      </p>
+      <AthleteMedia athlete={a} lang={lang} />
+      <p>{pick(a.highlights, lang)}</p>
+      <p>{pick(a.desc, lang)}</p>
+      <p className="muted">
+        {r.styleMatch[mirror.styleMatch]}
+        {mirror.bmiDiff !== null && ` · ${format(r.bmiDiffLine, { diff: Math.abs(mirror.bmiDiff).toFixed(1) })}`}
+      </p>
+      <CompareBars
+        youLabel={r.you}
+        themLabel={r.mirror}
+        rows={[
+          { label: r.height, you: input.heightCm, them: a.heightCm, unit: 'cm' },
+          { label: r.weight, you: input.weightKg, them: a.weightKg, unit: 'kg' },
+          { label: r.bmi, you: result.body.bmi, them: athleteBmi(a.heightCm, a.weightKg), digits: 1 },
+        ]}
+      />
+    </div>
+  )
+}
 
 export function MirrorSection({ input, result }: { input: TalentInput; result: TalentResult }) {
   const c = useTalentContent()
   const { lang } = useI18n()
   const r = c.report
-  const [top, ...alternates] = result.mirrors.singles
+  const [styleTop, ...styleRest] = result.mirrors.style
+  const bodyTop = result.mirrors.body[0]
   const pairMirror = result.mirrors.doubles[0]
-  const statusText = (status: 'active' | 'retired' | 'split', year?: number | null) => statusLabel(c, status, year)
   const matched = pairMirror ? pairMirror.pair.players[pairMirror.playerIndex] : null
+  const shown = new Set([styleTop?.athlete.id, bodyTop?.athlete.id])
+  const alternates = styleRest.filter((m) => !shown.has(m.athlete.id))
   return (
     <section className="stack">
       <SectionHeader mono="PRO MIRROR" title={r.mirrorTitle} />
-      {top && (
-        <div className="mirror-card">
-          <p className="mono-label left">🎯 {r.singlesMirror}</p>
-          <h3>
-            {top.athlete.nameEn} {top.athlete.nameZh}
-          </h3>
-          <p className="muted">
-            {pick(top.athlete.country, lang)} · {top.athlete.heightCm}cm
-            {top.athlete.weightKg !== null && ` / ${top.athlete.weightKg}kg`} · {statusText(top.athlete.status, top.athlete.retiredYear)}
-          </p>
-          <p>{pick(top.athlete.highlights, lang)}</p>
-          <p>{pick(top.athlete.desc, lang)}</p>
-          <p className="muted">
-            {r.styleMatch[top.styleMatch]}
-            {top.bmiDiff !== null && ` · ${format(r.bmiDiffLine, { diff: Math.abs(top.bmiDiff).toFixed(1) })}`}
-          </p>
-          <CompareBars
-            youLabel={r.you}
-            themLabel={r.mirror}
-            rows={[
-              { label: r.height, you: input.heightCm, them: top.athlete.heightCm, unit: 'cm' },
-              { label: r.weight, you: input.weightKg, them: top.athlete.weightKg, unit: 'kg' },
-              { label: r.bmi, you: result.body.bmi, them: athleteBmi(top.athlete.heightCm, top.athlete.weightKg), digits: 1 },
-            ]}
-          />
-          {alternates.length > 0 && (
-            <p className="muted">
-              {r.alternates}
-              {c.list.colon}
-              {alternates.map((m) => `${m.athlete.nameEn}${paren(c, `${m.athlete.heightCm}cm`)}`).join(c.list.sep)}
-            </p>
-          )}
-        </div>
+      {styleTop && <SinglesMirrorCard mirror={styleTop} label={`🎯 ${r.singlesMirror}`} input={input} result={result} />}
+      {bodyTop && <SinglesMirrorCard mirror={bodyTop} label={`📏 ${r.bodyMirror}`} input={input} result={result} />}
+      {alternates.length > 0 && (
+        <p className="muted">
+          {r.alternates}
+          {c.list.colon}
+          {alternates.map((m) => `${m.athlete.nameEn}${paren(c, `${m.athlete.heightCm}cm`)}`).join(c.list.sep)}
+        </p>
       )}
       {pairMirror && matched && (
         <div className="mirror-card">
@@ -57,8 +70,9 @@ export function MirrorSection({ input, result }: { input: TalentInput; result: T
           <h3>{pairMirror.pair.pairEn}</h3>
           <p className="muted">
             {pairMirror.pair.pairZh} · {r.events[pairMirror.pair.event]} · {pick(pairMirror.pair.country, lang)} ·{' '}
-            {statusText(pairMirror.pair.status)}
+            {statusLabel(c, pairMirror.pair.status)}
           </p>
+          <AthleteMedia athlete={{ nameEn: pairMirror.pair.pairEn, nameZh: pairMirror.pair.pairZh }} lang={lang} />
           <p>{pick(pairMirror.pair.style, lang)}</p>
           <p>
             <strong>{format(r.matchedPlayer, { name: `${matched.nameEn} ${matched.nameZh}`, position: r.positions[matched.position] })}</strong>{' '}

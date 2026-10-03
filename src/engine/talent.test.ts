@@ -21,8 +21,9 @@ describe('analyzeTalent', () => {
       { key: 'speed', kind: 'advantage', level: 'medium' },
       { key: 'endurance', kind: 'advantage', level: 'medium' },
     ])
-    expect(r.mirrors.singles.length).toBeGreaterThan(0)
-    expect(r.mirrors.singles.every((m) => m.athlete.sex === 'F')).toBe(true)
+    expect(r.mirrors.style.length).toBeGreaterThan(0)
+    expect([...r.mirrors.style, ...r.mirrors.body].every((m) => m.athlete.sex === 'F')).toBe(true)
+    expect(r.mirrors.body[0].athlete.id).not.toBe(r.mirrors.style[0].athlete.id)
   })
   it('flags de principiante, edad y envergadura', () => {
     const r = analyzeTalent({ ...GOLDEN, age: 45, yearsPlaying: 0.5, wingspanCm: null })

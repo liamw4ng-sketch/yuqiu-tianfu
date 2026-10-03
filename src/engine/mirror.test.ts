@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import type { Athlete, DoublesPair, DoublesPlayer, Position } from '../data/athletes'
-import { athleteBmi, findDoublesMirrors, findSinglesMirrors, type MirrorUser } from './mirror'
+import { athleteBmi, findBodyMirrors, findDoublesMirrors, type MirrorUser } from './mirror'
 import type { Sex, SinglesStyle } from './types'
 
 const L = { zh: 'x', es: 'x' }
@@ -17,28 +17,27 @@ const pair = (id: string, event: DoublesPair['event'], a: DoublesPlayer, b: Doub
 
 const user: MirrorUser = { sex: 'F', heightCm: 163, bmi: 19.2, preference: 'all' }
 
-describe('findSinglesMirrors', () => {
+describe('findBodyMirrors', () => {
   const list = [
     athlete('f-same-body-other-style', 'F', 163, 51, 'attack'),
     athlete('m-same-body', 'M', 163, 51, 'control'),
     athlete('f-taller', 'F', 170, 60, 'control'),
     athlete('f-twin', 'F', 163, 51, 'control'),
   ]
-  it('solo mismo sexo, ordenados por cuerpo + estilo', () => {
-    const r = findSinglesMirrors(user, { top: 'control', runnerUp: 'speed' }, list)
+  it('solo mismo sexo, ordenados por cuerpo y luego estilo', () => {
+    const r = findBodyMirrors(user, { top: 'control', runnerUp: 'speed' }, list)
     expect(r.map((m) => m.athlete.id)).toEqual(['f-twin', 'f-same-body-other-style', 'f-taller'])
-    expect(r[0].distance).toBeCloseTo(0, 6)
     expect(r[0].styleMatch).toBe('primary')
     expect(r[2].heightDiff).toBe(-7)
     expect(r[2].bmiDiff).toBe(-1.6)
   })
-  it('peso desconocido → bmiDiff null y penalización fija de 1', () => {
-    const r = findSinglesMirrors(user, { top: 'control', runnerUp: 'speed' }, [athlete('f-noweight', 'F', 163, null, 'control')])
+  it('peso desconocido → bmiDiff null y penalización moderada (0.35)', () => {
+    const r = findBodyMirrors(user, { top: 'control', runnerUp: 'speed' }, [athlete('f-noweight', 'F', 163, null, 'control')])
     expect(r[0].bmiDiff).toBeNull()
-    expect(r[0].distance).toBeCloseTo(1, 6)
+    expect(r[0].distance).toBeCloseTo(0.35, 6)
   })
   it('a igualdad de cuerpo prefiere a quien sigue en activo', () => {
-    const r = findSinglesMirrors(user, { top: 'control', runnerUp: 'speed' }, [
+    const r = findBodyMirrors(user, { top: 'control', runnerUp: 'speed' }, [
       athlete('a-retired', 'F', 163, 51, 'control', 'retired'),
       athlete('b-active', 'F', 163, 51, 'control'),
     ])

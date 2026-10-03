@@ -4,7 +4,7 @@ import { analyzeBody, bodyClaims, diagLevel } from './body'
 import { ENGINE_VERSION } from './constants'
 import { pickDoublesRole } from './doubles'
 import { pickDrills, type DrillId } from './drills'
-import { findDoublesMirrors, findSinglesMirrors, type DoublesMirror, type SinglesMirror } from './mirror'
+import { findBodyMirrors, findDoublesMirrors, findStyleMirrors, seedOf, type DoublesMirror, type SinglesMirror } from './mirror'
 import { rankSingles } from './singles'
 import { argBy, mean } from './stats'
 import {
@@ -40,7 +40,8 @@ export interface TalentResult {
   bodyClaims: BodyClaim[]
   singles: SinglesResult
   doubles: DoublesResult
-  mirrors: { singles: SinglesMirror[]; doubles: DoublesMirror[] }
+  /** style = 打法镜像, body = 体型镜像 (sin repetir al de estilo), doubles = pareja espejo */
+  mirrors: { style: SinglesMirror[]; body: SinglesMirror[]; doubles: DoublesMirror[] }
   drills: DrillId[]
   flags: Flag[]
 }
@@ -70,7 +71,8 @@ export function analyzeTalent(input: TalentInput, data: AthleteData = { singles:
   for (const k of ABILITY_KEYS) diagnosis[k] = diagLevel(current[k])
   const singles = rankSingles(blended, current, body, input.prefs)
   const doubles = pickDoublesRole(blended, current, body, input.sex, tendency, input.prefs)
-  const user = { sex: input.sex, heightCm: input.heightCm, bmi: body.bmi, preference: input.preference }
+  const user = { sex: input.sex, heightCm: input.heightCm, bmi: body.bmi, preference: input.preference, hand: input.hand, seed: seedOf(input) }
+  const styleMirrors = findStyleMirrors(user, singles, data.singles)
   return {
     engineVersion: ENGINE_VERSION,
     body,
@@ -84,7 +86,8 @@ export function analyzeTalent(input: TalentInput, data: AthleteData = { singles:
     singles,
     doubles,
     mirrors: {
-      singles: findSinglesMirrors(user, singles, data.singles),
+      style: styleMirrors,
+      body: findBodyMirrors(user, singles, data.singles, 3, styleMirrors[0]?.athlete.id),
       doubles: findDoublesMirrors(user, doubles.role, data.pairs),
     },
     drills: pickDrills(singles.top, current, input.yearsPlaying < 1),

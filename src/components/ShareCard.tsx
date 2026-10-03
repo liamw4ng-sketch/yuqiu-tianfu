@@ -17,7 +17,7 @@ export const ShareCard = forwardRef<HTMLDivElement, { profile: LatestProfile }>(
   if (!talent) return null
   const s = tc.singles[talent.result.singles.top]
   const d = tc.doubles[talent.result.doubles.role]
-  const mirror = talent.result.mirrors.singles[0]
+  const mirror = talent.result.mirrors.style[0]
   return (
     <div ref={ref} className="share-card">
       <p className="share-mono">BADMINTON TALENT LAB · {t('app.name')}</p>

@@ -41,5 +41,10 @@ export const uiEs: Record<UiKey, string> = {
   'share.working': 'Generando…',
   'share.error': 'No se pudo crear la imagen. Inténtalo de nuevo o haz una captura.',
   'share.footer': 'Descubre tu talento en bádminton: {url}',
+  'media.photoCredit': 'Foto: Wikipedia',
+  'media.profile': 'Ficha oficial',
+  'media.wiki': 'Wikipedia',
+  'media.youtube': '▶ Vídeos en YouTube',
+  'media.bilibili': '▶ Vídeos en Bilibili',
   'common.backTop': 'Volver arriba',
 }

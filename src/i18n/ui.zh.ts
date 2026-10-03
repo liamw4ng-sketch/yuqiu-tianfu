@@ -39,6 +39,11 @@ export const uiZh = {
   'share.working': '生成中…',
   'share.error': '生成图片失败，请重试或直接截图。',
   'share.footer': '来测测你的羽球天赋：{url}',
+  'media.photoCredit': '图片：Wikipedia',
+  'media.profile': '官方资料',
+  'media.wiki': '维基百科',
+  'media.youtube': '▶ YouTube 集锦',
+  'media.bilibili': '▶ B站集锦（Bilibili）',
   'common.backTop': '回到顶部',
 } as const
 

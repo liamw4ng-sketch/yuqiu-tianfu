@@ -162,7 +162,10 @@ export interface TalentContent {
     partner: Record<DoublesRole, string>
     mixedNotes: Record<MixedNote, string>
     mirrorTitle: string
+    /** 打法镜像: quien juega como tú */
     singlesMirror: string
+    /** 体型镜像: quien tiene un cuerpo como el tuyo */
+    bodyMirror: string
     doublesMirror: string
     alternates: string
     you: string

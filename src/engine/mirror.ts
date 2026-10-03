@@ -1,12 +1,15 @@
 import type { Athlete, DoublesPair, PairEvent, Position } from '../data/athletes'
 import { bmiOf } from './body'
-import type { DoublesRole, Preference, Sex, SinglesStyle } from './types'
+import type { DoublesRole, Hand, Preference, Sex, SinglesStyle, TalentInput } from './types'
 
 export interface MirrorUser {
   sex: Sex
   heightCm: number
   bmi: number
   preference: Preference
+  hand?: Hand
+  /** Semilla estable derivada de todas las respuestas: reparte entre candidatos casi iguales */
+  seed?: number
 }
 export type StyleMatch = 'primary' | 'secondary' | 'none'
 export interface SinglesMirror {
@@ -24,9 +27,15 @@ export interface DoublesMirror {
   bmiDiff: number | null
 }
 
-const UNKNOWN_BMI_PENALTY = 1
+// Sin peso fiable se compara por altura y se suma la diferencia de IMC típica, sin castigar al jugador.
+const UNKNOWN_BMI_PENALTY = 0.35
 const INACTIVE_PENALTY = 0.2
-const STYLE_PENALTY: Record<StyleMatch, number> = { primary: 0, secondary: 0.5, none: 1 }
+const STYLE_DISTANCE: Record<StyleMatch, number> = { primary: 0, secondary: 0.6, none: 1.5 }
+const LEFTY_BONUS = 0.4
+// Ventanas de "casi igual de parecidos" dentro de las cuales elige la semilla del usuario.
+const STYLE_WINDOW = 0.5
+const BODY_WINDOW = 0.3
+const DOUBLES_WINDOW = 0.3
 // Posiciones que cuentan como "coinciden con el rol" (spec §5.3.6); 'both' sirve para ambos lados.
 const ALLOWED_POSITIONS: Record<DoublesRole, Position[]> = {
   front: ['front', 'both'],
@@ -61,22 +70,68 @@ function eventPenalty(event: PairEvent, user: MirrorUser): number {
   return 0
 }
 
-export function findSinglesMirrors(
+/** FNV-1a de todas las respuestas: la misma persona ve siempre los mismos espejos, otra distinta puede ver otros. */
+export function seedOf(input: TalentInput): number {
+  const text = JSON.stringify([input.sex, input.age, input.heightCm, input.weightKg, input.wingspanCm, input.yearsPlaying, input.hand, input.levels, input.prefs ?? null, input.tests])
+  let h = 0x811c9dc5
+  for (let i = 0; i < text.length; i++) {
+    h ^= text.charCodeAt(i)
+    h = Math.imul(h, 0x01000193) >>> 0
+  }
+  return h
+}
+
+/** Ordena por distancia y, entre los que están dentro de `window` del mejor, la semilla elige el primero. */
+function withVariety<T extends { distance: number }>(sorted: T[], seed: number, window: number): T[] {
+  if (sorted.length === 0) return sorted
+  const pool = sorted.filter((c) => c.distance <= sorted[0].distance + window)
+  const first = pool[seed % pool.length]
+  return [first, ...sorted.filter((c) => c !== first)]
+}
+
+function styleMatchOf(athlete: Athlete, style: { top: SinglesStyle; runnerUp: SinglesStyle }): StyleMatch {
+  return athlete.style === style.top ? 'primary' : athlete.style === style.runnerUp ? 'secondary' : 'none'
+}
+
+/** 打法镜像: quien juega como tú (estilo, mano); el cuerpo solo desempata. */
+export function findStyleMirrors(
   user: MirrorUser,
   style: { top: SinglesStyle; runnerUp: SinglesStyle },
   athletes: Athlete[],
   n = 3,
 ): SinglesMirror[] {
-  return athletes
+  const scored = athletes
     .filter((a) => a.sex === user.sex)
     .map((athlete) => {
       const { heightDiff, bmiDiff, d } = bodyDistance(user, athlete.heightCm, athlete.weightKg)
-      const styleMatch: StyleMatch = athlete.style === style.top ? 'primary' : athlete.style === style.runnerUp ? 'secondary' : 'none'
-      const distance = d + STYLE_PENALTY[styleMatch] + (athlete.status === 'active' ? 0 : INACTIVE_PENALTY)
+      const styleMatch = styleMatchOf(athlete, style)
+      const lefty = user.hand === 'L' && athlete.hand === 'L' ? LEFTY_BONUS : 0
+      const distance = STYLE_DISTANCE[styleMatch] + 0.35 * d + (athlete.status === 'active' ? 0 : INACTIVE_PENALTY) - lefty
       return { athlete, distance, heightDiff, bmiDiff, styleMatch }
     })
     .sort((x, y) => x.distance - y.distance || x.athlete.id.localeCompare(y.athlete.id))
-    .slice(0, n)
+  return withVariety(scored, user.seed ?? 0, STYLE_WINDOW).slice(0, n)
+}
+
+/** 体型镜像: quien tiene un cuerpo como el tuyo; el estilo pesa poco. `excludeId` evita repetir el espejo de estilo. */
+export function findBodyMirrors(
+  user: MirrorUser,
+  style: { top: SinglesStyle; runnerUp: SinglesStyle },
+  athletes: Athlete[],
+  n = 3,
+  excludeId?: string,
+): SinglesMirror[] {
+  const pool = athletes.filter((a) => a.sex === user.sex)
+  const candidates = excludeId && pool.length > 1 ? pool.filter((a) => a.id !== excludeId) : pool
+  const scored = candidates
+    .map((athlete) => {
+      const { heightDiff, bmiDiff, d } = bodyDistance(user, athlete.heightCm, athlete.weightKg)
+      const styleMatch = styleMatchOf(athlete, style)
+      const distance = d + 0.25 * STYLE_DISTANCE[styleMatch] + (athlete.status === 'active' ? 0 : INACTIVE_PENALTY)
+      return { athlete, distance, heightDiff, bmiDiff, styleMatch }
+    })
+    .sort((x, y) => x.distance - y.distance || x.athlete.id.localeCompare(y.athlete.id))
+  return withVariety(scored, user.seed ?? 0, BODY_WINDOW).slice(0, n)
 }
 
 export function findDoublesMirrors(user: MirrorUser, role: DoublesRole, pairs: DoublesPair[], n = 3): DoublesMirror[] {
@@ -96,7 +151,7 @@ export function findDoublesMirrors(user: MirrorUser, role: DoublesRole, pairs: D
   pool.sort((x, y) => x.distance - y.distance || x.pair.id.localeCompare(y.pair.id) || x.playerIndex - y.playerIndex)
   const seen = new Set<string>()
   const out: DoublesMirror[] = []
-  for (const c of pool) {
+  for (const c of withVariety(pool, user.seed ?? 0, DOUBLES_WINDOW)) {
     if (seen.has(c.pair.id)) continue
     seen.add(c.pair.id)
     out.push(c)

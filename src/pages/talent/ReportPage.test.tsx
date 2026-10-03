@@ -28,6 +28,9 @@ describe('ReportPage', () => {
     expect(partner).toContain(c.doubles.front.name)
     expect(document.body.textContent).not.toContain('NaN')
     expect(document.body.textContent).not.toContain('undefined')
+    // Dos espejos de individual: estilo y cuerpo.
+    expect(screen.getByText(new RegExp(c.report.singlesMirror.replace(/[()（）]/g, '.')))).toBeInTheDocument()
+    expect(screen.getByText(new RegExp(c.report.bodyMirror.replace(/[()（）]/g, '.')))).toBeInTheDocument()
   })
   it('id inexistente → vuelve al formulario con aviso', () => {
     renderApp('/talent/report/nope')

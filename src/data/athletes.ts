@@ -7,6 +7,13 @@ export interface Localized {
   es: string
 }
 
+/** Enlaces del jugador sacados de las fuentes de la investigación */
+export interface AthleteLinks {
+  bwf?: string
+  wikiEn?: string
+  wikiZh?: string
+}
+
 export interface Athlete {
   id: string
   nameEn: string
@@ -22,6 +29,7 @@ export interface Athlete {
   style: SinglesStyle
   highlights: Localized
   desc: Localized
+  links?: AthleteLinks
 }
 
 export type Position = 'front' | 'back' | 'both'

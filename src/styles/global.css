@@ -214,3 +214,10 @@ select.field-input {
   .page { padding-bottom: calc(120px + env(safe-area-inset-bottom)); }
   .back-to-top { bottom: calc(84px + env(safe-area-inset-bottom)); }
 }
+
+.athlete-media { display: grid; gap: 10px; }
+.athlete-photo { margin: 0; display: grid; gap: 4px; justify-items: start; }
+.athlete-photo img { width: 100%; max-width: 240px; aspect-ratio: 3 / 4; object-fit: cover; border-radius: 18px; background: var(--field); }
+.athlete-photo figcaption { font-size: 12px; color: var(--muted); }
+.media-links { display: flex; flex-wrap: wrap; gap: 8px; }
+.small-btn { padding: 8px 12px; font-size: 13px; }

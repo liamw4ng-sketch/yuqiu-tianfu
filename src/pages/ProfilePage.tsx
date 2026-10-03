@@ -38,7 +38,7 @@ export default function ProfilePage() {
 
   const first = state.talent[0]
   const talent = p.talent
-  const mirror = talent?.result.mirrors.singles[0]
+  const mirror = talent?.result.mirrors.style[0]
   return (
     <>
       {talent && (

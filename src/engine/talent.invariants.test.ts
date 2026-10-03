@@ -28,7 +28,7 @@ describe('invariantes sobre ~8.600 perfiles', () => {
       expect(r.singles.top, tag).toBe(r.singles.ranking[0].style)
       expect(r.doubles.partner.role, tag).toBe(partnerOf[r.doubles.role])
       expect(r.doubles.fit >= 0 && r.doubles.fit <= 100, tag).toBe(true)
-      for (const m of r.mirrors.singles) expect(m.athlete.sex, tag).toBe(input.sex)
+      for (const m of [...r.mirrors.style, ...r.mirrors.body]) expect(m.athlete.sex, tag).toBe(input.sex)
       for (const m of r.mirrors.doubles) expect(m.pair.players[m.playerIndex].sex, tag).toBe(input.sex)
       for (const c of r.bodyClaims) {
         if (r.current[c.key] < 3.5) expect(c.level, tag).toBe('weak')
