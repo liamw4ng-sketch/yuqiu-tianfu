@@ -1,0 +1,661 @@
+{
+  "athletes": [
+    {
+      "id": "panitchaphon-teeraratsakul",
+      "name_en": "Panitchaphon Teeraratsakul",
+      "name_zh": "帕尼查蓬",
+      "country_zh": "泰国",
+      "gender": "M",
+      "height_cm": 182,
+      "weight_kg": null,
+      "handedness": "L",
+      "birth_year": 2004,
+      "status": "active",
+      "highlights_zh": "2025年越南公开赛冠军（超级100，生涯首个世界巡回赛冠军）；2026年印尼大师赛、泰国大师赛、马来西亚大师赛三站亚军；2026年亚运会男团铜牌；最高世界第16",
+      "style_primary": "速度突击型",
+      "style_tags_zh": [
+        "左手持拍",
+        "速度快",
+        "爆发突击",
+        "全场技术"
+      ],
+      "style_desc_zh": "左手持拍，以速度和突然加速的爆发力见长，全场技术比较全面，状态好时满场飞奔，2026年马来西亚大师赛半决赛以21:13、21:13击败克里斯托·波波夫，对手赛后称他“在场上像飞起来一样”。2026年三次闯进世界巡回赛决赛但均告负，大赛决胜经验仍在积累。",
+      "signature_skills_zh": [
+        "快速启动",
+        "爆发突击",
+        "全场跑动"
+      ],
+      "sources": [
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=85845",
+        "https://extranet-lv.bwfbadminton.com/api/vue-rankingtable?rankId=2&catId=6&publicationId=4477&doubles=false&page=2",
+        "https://bwfworldtour.bwfbadminton.com/news-single/2026/05/23/malaysia-masters-superr-saturday-for-thailand/",
+        "https://www.nst.com.my/amp/sports/badminton/2026/05/1446421/third-time-charm-panitchaphon-malaysia-masters-final",
+        "https://web.archive.org/web/20240916111120/https://www.ocagames.com/HZ_Info/AG2022-/en/results/badminton/athlete-profile-n2022076-teeraratsakul-panitchaphon.htm",
+        "https://en.wikipedia.org/wiki/Panitchaphon_Teeraratsakul",
+        "https://zh.wikipedia.org/wiki/帕尼差蓬·提拉拉沙恭",
+        "https://m.sohu.com/a/1031801856_122424921/",
+        "https://www.news.cn/20260524/251a85a8fe0e4d5594dc42f514becf13/c.html",
+        "https://www.khaosodenglish.com/news/2026/09/22/thailand-beats-chinese-taipei-3-1-to-reach-badminton-semis/"
+      ],
+      "confidence": {
+        "height": "medium",
+        "weight": "low",
+        "status": "high"
+      },
+      "notes": "身高：杭州亚运会官方资料1.82m，英文/中文维基182cm；Wikidata为178cm；BWF资料身高与持拍手均为空。左手持拍由BWF 2026年马来西亚大师赛报道（“The left-handed Panitchaphon”）及维基确认。未找到可靠体重。中文名：大陆媒体（新华社、搜狐）用“帕尼查蓬”，中文维基作“帕尼差蓬·提拉拉沙恭”。双胞胎哥哥帕卡蓬（BWF报道称其为哥哥）打男双和混双。2026年亚运会男团四分之一决赛他在第二单打中因背伤退赛（Khaosod）。",
+      "retired_year": null,
+      "verified": true,
+      "verification_note": "2026-10-03二次核验：BWF资料出生日期2004-11-11（身高/持拍手为空）；BWF第40周男单排名第17；BWF 2026年马来西亚大师赛报道原文“The left-handed Panitchaphon’s speed, explosive bursts and all-court skills”，波波夫称其“really flying in court”；越南公开赛为超级100，三站亚军与亚运男团铜牌见英文维基和Khaosod；新华社用名“帕尼查蓬”。"
+    },
+    {
+      "id": "yushi-tanaka",
+      "name_en": "Yushi Tanaka",
+      "name_zh": "田中涌士",
+      "country_zh": "日本",
+      "gender": "M",
+      "height_cm": 170,
+      "weight_kg": null,
+      "handedness": "R",
+      "birth_year": 1999,
+      "status": "active",
+      "highlights_zh": "2024年奥尔良大师赛、美国公开赛及2026年瑞士公开赛冠军（均为超级300）；2025年澳大利亚公开赛亚军；2026年日本公开赛四强；两夺全日本综合锦标赛男单冠军；最高世界第18",
+      "style_primary": "速度突击型",
+      "style_tags_zh": [
+        "速度快",
+        "主动进攻",
+        "拼抢积极",
+        "后场启动快"
+      ],
+      "style_desc_zh": "身高170cm，自述打法是“利用速度的进攻型”，移动快、拼抢积极，力求每球不落地；桃田贤斗评价他后场启动达世界顶尖水平，出手犀利、防守也不差，但性格容易较劲，急躁时失误增多。",
+      "signature_skills_zh": [
+        "快速启动",
+        "后场突击下压",
+        "连续拼抢"
+      ],
+      "sources": [
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=86672",
+        "https://extranet-lv.bwfbadminton.com/api/vue-rankingtable?rankId=2&catId=6&publicationId=4477&doubles=false&page=2",
+        "https://www.badminton.or.jp/national/player/view/49",
+        "https://www.badspi.jp/202212291812/",
+        "https://en.wikipedia.org/wiki/Yushi_Tanaka",
+        "https://www.news.cn/sports/20260716/fb0e2b4843e94c3f9c981449477cc1f4/c.html",
+        "https://bwfworldtour.bwfbadminton.com/news-single/2026/07/17/japan-open-yamaguchi-leads-home-surge/"
+      ],
+      "confidence": {
+        "height": "high",
+        "weight": "low",
+        "status": "high"
+      },
+      "notes": "身高170cm、右手：日本羽协（JBA）国家队资料与英文维基一致；BWF资料身高、持拍手为空。中文维基列65kg但无官方出处，未采用。打法自述见JBA资料“スピードを活かした攻めのプレー”；桃田评价见2022年全日本综合赛后采访（バドスピ）。中文名按新华社用法“田中涌士”（日文原名田中湧士）。",
+      "retired_year": null,
+      "verified": true,
+      "verification_note": "2026-10-03二次核验：BWF第40周男单排名第18；BWF资料出生日期1999-10-05；JBA官方资料170cm/右手、自述“スピードを活かした攻めのプレー”；桃田评价（後ろの入りは世界トップレベル、ショットのキレ、ディフェンス力、ムキになる性格）经バドスピ原文核对；2026年日本公开赛八强20-22、21-16、21-18胜昆拉武特进四强（BWF报道/英文维基），新华社用名“田中涌士”。"
+    },
+    {
+      "id": "lee-cheuk-yiu",
+      "name_en": "Lee Cheuk Yiu",
+      "name_zh": "李卓耀",
+      "country_zh": "中国香港",
+      "gender": "M",
+      "height_cm": 178,
+      "weight_kg": null,
+      "handedness": "R",
+      "birth_year": 1996,
+      "status": "active",
+      "highlights_zh": "2019年香港公开赛冠军（超级500，本在资格赛、因他人退赛递补进正赛后夺冠）；2024年、2025年印度公开赛及2026年中国大师赛亚军（均为超级750）；2024年巴黎奥运会男单参赛；最高世界第13",
+      "style_primary": "进攻压制型",
+      "style_tags_zh": [
+        "重杀",
+        "杀吊结合",
+        "上网快",
+        "敢打敢拼"
+      ],
+      "style_desc_zh": "以重杀为主要武器，对手一起高球就全力下压，再用轻吊改变节奏，2019年香港赛一路击败石宇奇、安赛龙、斯里坎特和金廷夺冠；脚下快、上网早，网前小球手感细腻。敢打敢拼，关键分不怯场。",
+      "signature_skills_zh": [
+        "后场重杀",
+        "杀吊结合",
+        "快速上网"
+      ],
+      "sources": [
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=94780",
+        "https://extranet-lv.bwfbadminton.com/api/vue-rankingtable?rankId=2&catId=6&publicationId=4477&doubles=false&page=2",
+        "https://bwfworldtour.bwfbadminton.com/news-single/2019/11/17/cheuk-yiu-hometown-hero-hong-kong-open-final",
+        "https://www.olympedia.org/athletes/2103543",
+        "https://en.wikipedia.org/wiki/Lee_Cheuk_Yiu",
+        "https://zh.wikipedia.org/wiki/李卓耀"
+      ],
+      "confidence": {
+        "height": "high",
+        "weight": "low",
+        "status": "high"
+      },
+      "notes": "身高178cm、右手：BWF资料与英文/中文维基一致。Olympedia无身高体重记录；未找到可靠体重。2026年中国大师赛决赛负于队友吴英伦（Jason Gunawan），为世界巡回赛时代首次港将包办男单冠亚军。",
+      "retired_year": null,
+      "verified": true,
+      "verification_note": "2026-10-03二次核验：BWF第40周男单排名第19；BWF资料出生日期1996-08-28、178cm、右手；BWF 2019年香港公开赛决赛报道确认递补进正赛、重杀加轻吊、“quicksilver feet found him take the net early”；英文维基列出2024、2025年印度公开赛及2026年中国大师赛亚军；巴黎奥运参赛见Olympedia。原稿“冲网过急时会出现关键失误”仅据一次失误推断，已删去。"
+    },
+    {
+      "id": "rasmus-gemke",
+      "name_en": "Rasmus Gemke",
+      "name_zh": "杰姆克",
+      "country_zh": "丹麦",
+      "gender": "M",
+      "height_cm": 185,
+      "weight_kg": null,
+      "handedness": "R",
+      "birth_year": 1997,
+      "status": "active",
+      "highlights_zh": "2018年西班牙大师赛冠军；2020年丹麦公开赛、2022年法国公开赛亚军（均为超级750）；汤姆斯杯铜牌（2020、2022）；最高世界第10",
+      "style_primary": "进攻压制型",
+      "style_tags_zh": [
+        "主动进攻",
+        "重杀",
+        "身体对抗",
+        "敢打敢拼"
+      ],
+      "style_desc_zh": "身高185cm，打法积极、身体对抗强，喜欢抢先发力，用又重又准的杀球把对手压在被动中，2020年丹麦公开赛决赛一度压着安东森打。但多次在大赛决赛功亏一篑，巡回赛决赛1胜4负。",
+      "signature_skills_zh": [
+        "后场重杀",
+        "抢先下压",
+        "长回合对抗"
+      ],
+      "sources": [
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=62855",
+        "https://extranet-lv.bwfbadminton.com/api/vue-rankingtable?rankId=2&catId=6&publicationId=4477&doubles=false&page=2",
+        "https://bwfworldtour.bwfbadminton.com/news-single/2020/10/19/denmark-open-ms-final-test/",
+        "https://bwfworldtour.bwfbadminton.com/news-single/2020/12/20/bangkok-beckons-watch-out-for-rasmus-gemke/",
+        "https://en.wikipedia.org/wiki/Rasmus_Gemke",
+        "https://m.163.com/dy/article_cambrian/KIOSFVGD0556BW62.html"
+      ],
+      "confidence": {
+        "height": "medium",
+        "weight": "low",
+        "status": "high"
+      },
+      "notes": "身高185cm仅BWF资料有记录（维基信息框为空），置信度中。未找到可靠体重。中文名：中文维基作“拉斯穆斯·杰姆克”，大陆媒体（网易等报道石宇奇与其交手）用“杰姆克”。世界巡回赛战绩为1冠4亚（英文维基）。",
+      "retired_year": null,
+      "verified": true,
+      "verification_note": "2026-10-03核验：BWF第40周男单排名第21；BWF资料出生日期1997-01-11、右手；打法描述见BWF 2020年丹麦公开赛决赛报道（fierce and precise smashes）及“fearless style and physical play”。"
+    },
+    {
+      "id": "nhat-nguyen",
+      "name_en": "Nhat Nguyen",
+      "name_zh": "阮日",
+      "country_zh": "爱尔兰",
+      "gender": "M",
+      "height_cm": 175,
+      "weight_kg": null,
+      "handedness": "R",
+      "birth_year": 2000,
+      "status": "active",
+      "highlights_zh": "两届奥运会男单参赛（2020东京、2024巴黎）；2026年中国公开赛八强（爱尔兰选手首次闯进超级1000八强）；爱尔兰公开赛冠军（2023、2024）；最高世界第24",
+      "style_primary": "全面型",
+      "style_tags_zh": [
+        "技术均衡",
+        "后场有爆发",
+        "网前手感好",
+        "靠头脑取胜"
+      ],
+      "style_desc_zh": "越南出生的爱尔兰选手，身高175cm。后场起跳下压有爆发力，网前小球和挑推细腻，接杀时手上卸力好，技术比较均衡；他自己说小时候既不是最强壮也不是最高的，只能靠技术和头脑赢球。",
+      "signature_skills_zh": [
+        "后场起跳下压",
+        "网前挑推",
+        "接杀卸力"
+      ],
+      "sources": [
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=85095",
+        "https://extranet-lv.bwfbadminton.com/api/vue-rankingtable?rankId=2&catId=6&publicationId=4477&doubles=false&page=2",
+        "https://badmintonscotland.org.uk/news/scottish-open-day-3-nhats-the-way-to-do-it/",
+        "https://stacy.olympics.com/tokyo-2020/olympic-games/en/results/badminton/athlete-profile-n1281420-nguyen-nhat.htm",
+        "https://www.olympedia.org/athletes/2503262",
+        "https://en.wikipedia.org/wiki/Nhat_Nguyen",
+        "https://zh.wikipedia.org/wiki/阮日",
+        "https://cn.chinadaily.com.cn/a/202607/22/WS6a601f70a310d709c2fbeebb.html"
+      ],
+      "confidence": {
+        "height": "medium",
+        "weight": "low",
+        "status": "high"
+      },
+      "notes": "身高：BWF资料175cm，英文维基175cm（引巴黎奥运资料）；Olympedia为170cm/65kg，与另两处不符，故Olympedia的65kg也未采用，体重留空。风格归为全面型属归纳（来源描述为后场爆发+网前细腻+手上卸力），并非球员自称。 中文名：大陆媒体（中国日报中文网2026年中国公开赛报道）用“阮日”。",
+      "retired_year": null,
+      "verified": true,
+      "verification_note": "2026-10-03核验：BWF第40周男单排名第25；BWF资料出生日期2000-06-16、右手；东京奥运资料确认右手及“靠技术取胜”的自述；两届奥运参赛见Olympedia。"
+    },
+    {
+      "id": "yudai-okimoto",
+      "name_en": "Yudai Okimoto",
+      "name_zh": "冲本优大",
+      "country_zh": "日本",
+      "gender": "M",
+      "height_cm": 165,
+      "weight_kg": 62,
+      "handedness": "R",
+      "birth_year": 2005,
+      "status": "active",
+      "highlights_zh": "2026年加拿大公开赛、台北公开赛冠军（均为超级300，台北公开赛为日本男单首冠）；2023年亚青赛男单银牌；2026年亚洲男团锦标赛冠军成员；最高世界第21",
+      "style_primary": "防守反击型",
+      "style_tags_zh": [
+        "身材小巧",
+        "防守韧性强",
+        "预判好",
+        "耐心相持"
+      ],
+      "style_desc_zh": "身高约165cm，靠出色的预判和满场跑动弥补身材劣势，自称看点是“用小个子在场上到处跑”；以耐心相持为主，回球细致、失误少。周天成评价他体能好、防守稳，落点有迷惑性，还能在网前主动提速。",
+      "signature_skills_zh": [
+        "预判救球",
+        "耐心多拍",
+        "网前提速"
+      ],
+      "sources": [
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=90735",
+        "https://extranet-lv.bwfbadminton.com/api/vue-rankingtable?rankId=2&catId=6&publicationId=4477&doubles=false&page=2",
+        "https://www.biprogy.com/badminton/team/okimoto.html",
+        "https://www.badminton.or.jp/national/player/view/53",
+        "https://www.jsports.co.jp/badminton/bwf/player/okimoto/",
+        "https://en.wikipedia.org/wiki/Yudai_Okimoto",
+        "https://www.news.cn/sports/20260715/0a4c59e900334ef7a9fda759270a58b9/c.html"
+      ],
+      "confidence": {
+        "height": "high",
+        "weight": "medium",
+        "status": "high"
+      },
+      "notes": "身高/体重：所属BIPROGY队官方资料165cm/62kg，日本羽协资料164cm；BWF资料身高为空。体重仅BIPROGY资料页一处（官方资料页），置信度中。周天成的评价出自台媒TSNA报道（经英文维基转引，原文未直接打开）。中文名按新华社用法。",
+      "retired_year": null,
+      "verified": true,
+      "verification_note": "2026-10-03二次核验：BWF第40周男单排名第24；BWF资料出生日期2005-05-28；BIPROGY官方资料165cm/62kg、右手，JBA资料164cm、右手、自述“小さい体でコートを動き回るところ”；J SPORTS资料称其“小柄ながら優れた予測と丁寧なショットで粘り強くラリーを組み立てる”；周天成评价经英文维基转引（stamina, solid defense, low error rate, deceptive shot placement, push the pace in the front court）。原稿“不怕脏累的拼劲”“限制对手进攻”无出处，已删改。"
+    },
+    {
+      "id": "kenta-nishimoto",
+      "name_en": "Kenta Nishimoto",
+      "name_zh": "西本拳太",
+      "country_zh": "日本",
+      "gender": "M",
+      "height_cm": 180,
+      "weight_kg": null,
+      "handedness": "R",
+      "birth_year": 1994,
+      "status": "active",
+      "highlights_zh": "2022年日本公开赛冠军（超级750）；2023年西班牙大师赛、2025年加拿大公开赛冠军；2018年亚运会男单铜牌；最高世界第9",
+      "style_primary": "防守反击型",
+      "style_tags_zh": [
+        "防守稳",
+        "多拍消耗",
+        "三局韧性",
+        "落点细"
+      ],
+      "style_desc_zh": "典型的“磨”型打法，防守稳、回球质量高，擅长把回合拖长，靠稳定性逼对手失误，拖进第三局往往对他有利；落点和隐蔽性也是得分手段。遇到能把回合压短、连续下压的快节奏对手会吃亏。",
+      "signature_skills_zh": [
+        "防守过渡",
+        "多拍相持",
+        "落点调动"
+      ],
+      "sources": [
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=85394",
+        "https://extranet-lv.bwfbadminton.com/api/vue-rankingtable?rankId=2&catId=6&publicationId=4477&doubles=false&page=2",
+        "https://www.badminton.or.jp/national/player/view/9",
+        "https://www.indiasportshub.com/articles/lakshya-sen-vs-kenta-nishimoto-a-semifinal-of-contrasts-momentum-and-high-stakes-at-the-kumamoto-masters-japan-2025",
+        "https://www.badmintonplanet.com/?p=24682",
+        "https://en.wikipedia.org/wiki/Kenta_Nishimoto"
+      ],
+      "confidence": {
+        "height": "high",
+        "weight": "low",
+        "status": "high"
+      },
+      "notes": "身高：BWF资料与英文维基180cm，日本羽协资料181cm。体重来源互相矛盾（英文维基75kg、中文维基72kg、Wikidata 71kg），均无官方出处，留空。2026年上半年受肩伤影响，8月世锦赛首轮击败克里斯托·波波夫（英文维基）。",
+      "retired_year": null,
+      "verified": true,
+      "verification_note": "2026-10-03核验：BWF第40周男单排名第27；BWF资料出生日期1994-08-30、右手；JBA资料右手；打法描述见IndiaSportsHub赛前分析（disciplined, defensive, methodical）和BadmintonPlanet 2025年加拿大公开赛报道。"
+    },
+    {
+      "id": "srikanth-kidambi",
+      "name_en": "Srikanth Kidambi",
+      "name_zh": "斯里坎特",
+      "country_zh": "印度",
+      "gender": "M",
+      "height_cm": 178,
+      "weight_kg": 66,
+      "handedness": "R",
+      "birth_year": 1993,
+      "status": "active",
+      "highlights_zh": "前世界第一（2018年4月，继帕杜科内之后首位登顶的印度男单）；2021年世锦赛银牌；2017年一年内夺得印尼、澳大利亚、丹麦、法国四站超级赛冠军；2014年中国公开赛冠军（决赛胜林丹）；2022年汤姆斯杯冠军队队长",
+      "style_primary": "网前技巧型",
+      "style_tags_zh": [
+        "网前细腻",
+        "手上假动作",
+        "后场有杀伤",
+        "起伏较大"
+      ],
+      "style_desc_zh": "网前小球是他最好看的部分，搓、放细腻，反手挑球隐蔽，常把对手骗出位置；后场杀球同样有威胁，能杀吊结合。主要问题是比赛中容易一口气连丢多分，大比分领先时也可能被追回。",
+      "signature_skills_zh": [
+        "网前搓放",
+        "反手挑后场",
+        "杀吊结合"
+      ],
+      "sources": [
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=93627",
+        "https://extranet-lv.bwfbadminton.com/api/vue-rankingtable?rankId=2&catId=6&publicationId=4477&doubles=false&page=2",
+        "https://www.olympedia.org/athletes/134435",
+        "https://africa.espn.com/badminton/story/_/id/19660728/kidambi-srikanth-expands-game-reach-another-final",
+        "https://en.wikipedia.org/wiki/Srikanth_Kidambi"
+      ],
+      "confidence": {
+        "height": "high",
+        "weight": "low",
+        "status": "high"
+      },
+      "notes": "身高178cm：BWF、Olympedia、英文维基一致（中文维基180cm）。体重：Olympedia 66kg（2016年里约奥运资料），英文维基73kg，中文维基65kg，差异较大；按“资料页优先”采用Olympedia，置信度低。风格也可归为进攻压制型（杀球是重要得分手段），此处按其网前与手上假动作特点归为网前技巧型（手法型）。",
+      "retired_year": null,
+      "verified": true,
+      "verification_note": "2026-10-03核验：BWF第40周男单排名第29；BWF资料出生日期1993-02-07、右手；ESPN 2017年报道称其“net play is a treat to watch”、反手挑球多次骗过对手，并指出其“losing points in a bunch”的问题；世界第一、世锦赛银牌见英文维基。"
+    },
+    {
+      "id": "ng-ka-long-angus",
+      "name_en": "Ng Ka Long Angus",
+      "name_zh": "伍家朗",
+      "country_zh": "中国香港",
+      "gender": "M",
+      "height_cm": 181,
+      "weight_kg": 70,
+      "handedness": "R",
+      "birth_year": 1994,
+      "status": "active",
+      "highlights_zh": "2016年香港公开赛冠军（超级赛）；2020年泰国大师赛、2023年德国公开赛、2024年澳门公开赛冠军；2016、2020年两届奥运会男单参赛；最高世界第6",
+      "style_primary": "四方拉吊控制型",
+      "style_tags_zh": [
+        "拉吊突击",
+        "控节奏",
+        "落点刁钻",
+        "调动对手"
+      ],
+      "style_desc_zh": "风格属拉吊突击，擅长打节奏、控球，用轻灵的手法和刁钻落点调动对手全场跑动，再抓机会突击；遇到防守好的对手会更耐心地多拍。自认不是力量型，碰上出手快、力量刚猛的对手容易被压制。",
+      "signature_skills_zh": [
+        "四方拉吊",
+        "落点调动",
+        "变速突击"
+      ],
+      "sources": [
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=45171",
+        "https://extranet-lv.bwfbadminton.com/api/vue-rankingtable?rankId=2&catId=6&publicationId=4477&doubles=false&page=2",
+        "https://www.olympedia.org/athletes/134320",
+        "https://zh.wikipedia.org/wiki/伍家朗",
+        "https://global.hk01.com/即时体育/60382119/羽毛球世锦赛-伍家朗力战负兰尼亚-轻灵刁钻难敌对手刚猛高速",
+        "https://www.nst.com.my/amp/sports/badminton/2025/03/1187140/angus-reveals-tactics-outfox-zii-jia-all-england",
+        "https://stacy.olympics.com/tokyo-2020/olympic-games/en/results/badminton/athlete-profile-n1419491-ng-ka-long-angus.htm",
+        "https://en.wikipedia.org/wiki/Ng_Ka_Long"
+      ],
+      "confidence": {
+        "height": "high",
+        "weight": "medium",
+        "status": "high"
+      },
+      "notes": "身高181cm：BWF、Olympedia、英文维基一致（中文维基180cm）。体重70kg：Olympedia资料页，与中英文维基一致。中文维基“技术特点”：拉吊突击、打节奏、控球，自认并非力量型；港队教练刘志恒称其打法近似杨阳、力量不是很足。东京奥运资料显示其偶像是鲍春来。",
+      "retired_year": null,
+      "verified": true,
+      "verification_note": "2026-10-03核验：BWF第40周男单排名第30；BWF资料出生日期1994-06-24、右手；香港01 2026年世锦赛报道（轻灵刁钻、调动对手全场跑动，难敌兰尼亚刚猛高速）与中文维基一致。"
+    },
+    {
+      "id": "prannoy-h-s",
+      "name_en": "Prannoy H. S.",
+      "name_zh": "普兰诺伊",
+      "country_zh": "印度",
+      "gender": "M",
+      "height_cm": 179,
+      "weight_kg": null,
+      "handedness": "R",
+      "birth_year": 1992,
+      "status": "active",
+      "highlights_zh": "2023年世锦赛铜牌；杭州亚运会（2023年举行）男单铜牌、男团银牌；2026年亚运会男团铜牌；2023年马来西亚大师赛冠军（超级500）；2022年汤姆斯杯冠军成员；最高世界第6",
+      "style_primary": "进攻压制型",
+      "style_tags_zh": [
+        "跳杀凶狠",
+        "连续进攻",
+        "压迫感强",
+        "出手积极"
+      ],
+      "style_desc_zh": "典型的进攻型选手，出手积极，靠连续跳杀和重杀压迫对手，2015年印度公开赛就以满场跳杀击败当届全英亚军约根森，对手直言“太有侵略性”。生涯中伤病和状态起伏多次打断他的上升势头。",
+      "signature_skills_zh": [
+        "跳杀",
+        "连续下压",
+        "主动抢攻"
+      ],
+      "sources": [
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=83950",
+        "https://extranet-lv.bwfbadminton.com/api/vue-rankingtable?rankId=2&catId=6&publicationId=4477&doubles=false&page=3",
+        "https://bwfbadminton.com/news-single/2015/03/26/aggressive-prannoy-trips-jorgensen-yonex-sunrise-india-open-day-3/",
+        "https://www.olympedia.org/athletes/1303425",
+        "https://en.wikipedia.org/wiki/Prannoy_H._S.",
+        "https://zh.wikipedia.org/wiki/普兰诺伊·哈塞纳·苏尼尔·库马尔",
+        "https://www.outlookindia.com/sports/asian-games-2026-indian-mens-badminton-team-takes-bronze-after-1-3-loss-to-china"
+      ],
+      "confidence": {
+        "height": "high",
+        "weight": "low",
+        "status": "high"
+      },
+      "notes": "身高179cm：BWF资料与中英文维基一致。英文维基列73kg但无官方出处（Olympedia无身高体重），体重留空。中文名：中文维基作“普兰诺伊·哈塞纳·苏尼尔·库马尔”，简称普兰诺伊。",
+      "retired_year": null,
+      "verified": true,
+      "verification_note": "2026-10-03核验：BWF第40周男单排名第38；BWF资料出生日期1992-07-17、右手；BWF 2015年报道描述其“muscular performance full of jump smashes”“relentless attack”；世锦赛铜牌、亚运铜牌见英文维基。"
+    },
+    {
+      "id": "bao-chunlai",
+      "name_en": "Bao Chunlai",
+      "name_zh": "鲍春来",
+      "country_zh": "中国",
+      "gender": "M",
+      "height_cm": 188,
+      "weight_kg": 80,
+      "handedness": "L",
+      "birth_year": 1983,
+      "status": "retired",
+      "highlights_zh": "2006年世锦赛银牌，2003、2007年世锦赛铜牌；2009年亚锦赛冠军；四次汤姆斯杯冠军成员（2004、2006、2008、2010）；2000年世青赛男单冠军",
+      "style_primary": "四方拉吊控制型",
+      "style_tags_zh": [
+        "左手持拍",
+        "高个拉吊",
+        "技术细腻",
+        "防守顽强"
+      ],
+      "style_desc_zh": "左手持拍的高个子选手，技术特点是典型的拉吊型：身高臂长、动作灵活、球感好，靠细腻的拉吊和顽强的防守控制回合。弱点是进入比赛状态慢、杀球力量不足，难以一拍制胜。",
+      "signature_skills_zh": [
+        "四方拉吊",
+        "劈吊",
+        "防守过渡"
+      ],
+      "sources": [
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=51274",
+        "https://www.olympedia.org/athletes/105853",
+        "https://en.wikipedia.org/wiki/Bao_Chunlai",
+        "https://zh.wikipedia.org/wiki/鲍春来"
+      ],
+      "confidence": {
+        "height": "medium",
+        "weight": "medium",
+        "status": "high"
+      },
+      "notes": "身高：BWF资料与中文维基188cm，Olympedia与英文维基190cm，取188cm。体重：Olympedia 80kg（与英文维基一致），中文维基78kg。技术特点原文出自中文维基（典型的拉吊型……优点是技术较细、防守顽强，弱点是进入比赛状态慢、力量不足）。英文维基称最高世界第1、中文维基称第2，互相矛盾，未写入。",
+      "retired_year": 2011,
+      "verified": true,
+      "verification_note": "2026-10-03核验：BWF资料左手（plays=2）、身高188cm、1983-02-17出生；2011年9月21日正式退出国家队（英文维基）；世锦赛奖牌与汤姆斯杯见英文维基。"
+    },
+    {
+      "id": "lee-hyun-il",
+      "name_en": "Lee Hyun-il",
+      "name_zh": "李炫一",
+      "country_zh": "韩国",
+      "gender": "M",
+      "height_cm": 176,
+      "weight_kg": 67,
+      "handedness": "L",
+      "birth_year": 1980,
+      "status": "retired",
+      "highlights_zh": "2008、2012年两届奥运会男单第四名；2006年世锦赛铜牌；2006年全英公开赛亚军；2002年日本公开赛、2008年韩国公开赛冠军；2002、2014年亚运会男团金牌",
+      "style_primary": "四方拉吊控制型",
+      "style_tags_zh": [
+        "左手持拍",
+        "拉吊结合",
+        "慢吊",
+        "步法轻盈"
+      ],
+      "style_desc_zh": "技术型代表，步法轻盈、平衡好，打法拉吊结合，不靠速度和爆发力，而是每一分都精心组织，用精准的落点把对手从一角调到另一角，慢慢收紧；招牌是如今少见的慢吊，晚年仍能击败一线高手。",
+      "signature_skills_zh": [
+        "慢吊",
+        "四方拉吊",
+        "落点控制"
+      ],
+      "sources": [
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=11704",
+        "https://www.olympedia.org/athletes/105839",
+        "https://bwfbadminton.com/news-single/2020/09/19/stars-of-the-past-lee-hyun-il/",
+        "https://baike.baidu.com/en/item/Lee%20Hyun-il/3381147",
+        "https://en.badminton-navi.net/player/detail/2120",
+        "https://en.wikipedia.org/wiki/Lee_Hyun-il",
+        "https://www.seoul.co.kr/news/2003/07/29/20030729031001",
+        "https://www.khan.co.kr/article/200204071951121"
+      ],
+      "confidence": {
+        "height": "high",
+        "weight": "medium",
+        "status": "high"
+      },
+      "notes": "左手持拍：BWF资料（plays=2）、英文/中文维基、badminton-navi、百度百科英文版一致。身高176cm/体重67kg：Olympedia资料页与维基一致。2008、2012年两次退役后复出，2019年11月最终退役（英文维基、百度百科）。BWF资料自填打法为“Offensive”，但BWF“Stars of the Past”专题与百度百科（拉吊结合）都描述为控制型，故归为四方拉吊控制型。曾有维基称其最高世界第1，未写入。",
+      "retired_year": 2019,
+      "verified": true,
+      "verification_note": "2026-10-03核验：BWF资料1980-04-17出生、身高176cm；BWF专题称其为“strokeplayer extraordinaire”、擅用慢吊、以精准控制把对手从一角调到另一角；奥运两次第四见Olympedia。"
+    },
+    {
+      "id": "tian-houwei",
+      "name_en": "Tian Houwei",
+      "name_zh": "田厚威",
+      "country_zh": "中国",
+      "gender": "M",
+      "height_cm": 179,
+      "weight_kg": null,
+      "handedness": "L",
+      "birth_year": 1992,
+      "status": "retired",
+      "highlights_zh": "2016年全英公开赛亚军；2016年超级赛总决赛亚军；2015年亚锦赛亚军；2009年世青赛、亚青赛男单冠军；最高世界第6",
+      "style_primary": "防守反击型",
+      "style_tags_zh": [
+        "左手持拍",
+        "防守稳",
+        "耐心拉吊",
+        "跑动积极"
+      ],
+      "style_desc_zh": "左手持拍，擅长防守反击，进攻能力相对较弱，场上多以反复拉吊为主，凭不停跑动和耐心防守拖住对手，直到对方失误；福建队总教练胡芝兰也曾指出他的进攻需要提高。",
+      "signature_skills_zh": [
+        "防守过渡",
+        "反复拉吊",
+        "耐心多拍"
+      ],
+      "sources": [
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=12903",
+        "https://en.wikipedia.org/wiki/Tian_Houwei",
+        "https://zh.wikipedia.org/wiki/田厚威"
+      ],
+      "confidence": {
+        "height": "high",
+        "weight": "low",
+        "status": "medium"
+      },
+      "notes": "身高179cm、左手：BWF资料（plays=2）与中英文维基一致。体重来源矛盾（英文维基70kg、中文维基72kg引2013年世大运资料），留空。退役情况：中文维基称其2018年离开国家队回福建省队，2021年2月在微博表示已成为大学教师，BWF无当前排名；未找到正式退役公告，故retired_year留空。技术特点出自中文维基（引爱羽客2016年文章，原文未能打开）。",
+      "retired_year": null,
+      "verified": true,
+      "verification_note": "2026-10-03核验：BWF资料1992-01-11出生、左手、179cm；2016年全英亚军、2015年亚锦赛亚军、最高世界第6见中英文维基；已转任大学教师，判定为退役。"
+    },
+    {
+      "id": "b-sai-praneeth",
+      "name_en": "B. Sai Praneeth",
+      "name_zh": "普拉尼斯",
+      "country_zh": "印度",
+      "gender": "M",
+      "height_cm": 176,
+      "weight_kg": null,
+      "handedness": "R",
+      "birth_year": 1992,
+      "status": "retired",
+      "highlights_zh": "2019年世锦赛男单铜牌（印度男单时隔36年再获世锦赛奖牌）；2017年新加坡公开赛冠军（超级赛）；2020年东京奥运会男单参赛；最高世界第10",
+      "style_primary": "网前技巧型",
+      "style_tags_zh": [
+        "网前小球",
+        "假动作",
+        "切吊",
+        "杀吊结合"
+      ],
+      "style_desc_zh": "手上功夫细腻的技术型攻击手，招牌是网前小球，挑推、平抽与切吊变化多，半杀伪装性强，常先用假动作骗出空当，再用直线或斜线杀球终结。职业后期饱受伤病困扰，2024年3月宣布退役。",
+      "signature_skills_zh": [
+        "网前搓放",
+        "切吊",
+        "伪装半杀"
+      ],
+      "sources": [
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=42776",
+        "https://www.olympedia.org/athletes/1303424",
+        "https://scroll.in/field/834754/scroll_in",
+        "https://scroll.in/field/839642/scroll_in",
+        "https://scroll.in/field/934826/badminton-worlds-confident-sai-praneeth-raises-hopes-of-ending-indias-wait-for-mens-singles-medal",
+        "https://thebridge.in/badminton/b-sai-praneeth-announces-retirement-international-badminton-46313",
+        "https://en.wikipedia.org/wiki/B._Sai_Praneeth",
+        "https://sports.sina.cn/others/badmin/2019-08-24/detail-ihytcitn1640772.d.html",
+        "http://sports.people.com.cn/n1/2019/0824/c429276-31314899.html"
+      ],
+      "confidence": {
+        "height": "high",
+        "weight": "low",
+        "status": "high"
+      },
+      "notes": "身高176cm、右手：BWF资料与英文维基一致；Olympedia无身高体重，未找到可靠体重。中文名：大陆媒体译名不统一——新浪体育一贯用“普拉尼斯”（与普兰诺伊区分），新华社2019年世锦赛报道用“帕尼特”，中文维基作“塞·帕拉内斯·巴米迪帕提”；此处取新浪用法“普拉尼斯”。退役后赴美国任教练（The Bridge/英文维基）。",
+      "retired_year": 2024,
+      "verified": true,
+      "verification_note": "2026-10-03二次核验：BWF资料1992-08-10出生、右手、176cm；最高世界第10（2019-11-12）；2024年3月4日宣布退役（The Bridge/英文维基）；2019年世锦赛铜牌为印度男单36年来首枚（新华社）；Scroll赛事报道描述其“trademark net dribbles”“well disguised half smash”“deceptive drop slices”、斜线半杀与切吊。中文名由“塞·帕拉内斯”改为大陆媒体用法“普拉尼斯”。"
+    },
+    {
+      "id": "kanta-tsuneyama",
+      "name_en": "Kanta Tsuneyama",
+      "name_zh": "常山干太",
+      "country_zh": "日本",
+      "gender": "M",
+      "height_cm": 173,
+      "weight_kg": null,
+      "handedness": "R",
+      "birth_year": 1996,
+      "status": "retired",
+      "highlights_zh": "2021年法国公开赛冠军（超级750）；2018年泰国公开赛、2019年韩国大师赛冠军（决赛胜林丹）；2018年汤姆斯杯银牌；2018、2022年亚运会男团铜牌；2020年东京奥运会男单参赛；最高世界第10",
+      "style_primary": "网前技巧型",
+      "style_tags_zh": [
+        "手法细腻",
+        "吊球隐蔽",
+        "网前好",
+        "防守韧性"
+      ],
+      "style_desc_zh": "身高173cm，更依赖手上技术而非力量，吊球伪装性强、网前处理细腻，常用落点变化打乱对手；防守也有韧性，2021年法国公开赛决赛靠关键救球击败周天成夺冠。缺点是有时耐心不足。",
+      "signature_skills_zh": [
+        "隐蔽吊球",
+        "网前小球",
+        "防守救球"
+      ],
+      "sources": [
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=57823",
+        "https://www.olympedia.org/athletes/2103734",
+        "https://www.ibtimes.sg/A00093n",
+        "https://bwfworldtour.bwfbadminton.com/news-single/2021/11/01/tsuneyama-hits-the-high-notes",
+        "https://www.yonexifb.com/uk/news/2021-10-31/ms-finals-tsuneyama-stop-chou-from-being-crowned-again",
+        "https://www.badspi.jp/202408221603/",
+        "https://stacy.olympics.com/tokyo-2020/olympic-games/en/results/badminton/athlete-profile-n1313478-tsuneyama-kanta.htm",
+        "https://en.wikipedia.org/wiki/Kanta_Tsuneyama"
+      ],
+      "confidence": {
+        "height": "high",
+        "weight": "low",
+        "status": "high"
+      },
+      "notes": "身高173cm、右手：BWF资料、东京奥运资料（右手）与维基一致。中英文维基均列60kg，但未找到官方出处，留空。2024年日本公开赛后结束日本国家队生涯（バドスピ赛后采访“日本代表として最後の試合”），英文维基称其退出职业赛场并于2025年起执教北都银行女队（执教信息未另行核实）。风格依据较少（IBTimes：relies more on skill、deceptive drop shots、good net-play、less patient at times），归类置信度一般。",
+      "retired_year": 2024,
+      "verified": true,
+      "verification_note": "2026-10-03核验：BWF资料1996-06-21出生、173cm、右手；2021年法国公开赛冠军见BWF报道；2024年8月结束国家队生涯见バドスピ。 二次核验：Yonex法国公开赛官网报道决胜局18:16、19:16两次“来自另一个星系的防守”锁定胜局；2019年韩国大师赛决赛胜林丹见IBTimes/英文维基。日文原名常山幹太，简体作“常山干太”。"
+    }
+  ]
+}

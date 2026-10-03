@@ -83,7 +83,8 @@ export function athleteErrors(a: Athlete): string[] {
   if (!a.id || !a.nameEn || !a.nameZh) e.push(`${a.id}: faltan id o nombres`)
   if (a.sex !== 'M' && a.sex !== 'F') e.push(`${a.id}: sexo inválido`)
   if (!(SINGLES_STYLES as readonly string[]).includes(a.style)) e.push(`${a.id}: estilo inválido`)
-  if (a.status === 'retired' && !(typeof a.retiredYear === 'number' && a.retiredYear <= 2026)) e.push(`${a.id}: retirado sin año`)
+  // Retirado con año desconocido es válido (p. ej. Tian Houwei): la app muestra 已退役 sin paréntesis vacíos.
+  if (a.status === 'retired' && a.retiredYear !== null && !(a.retiredYear >= 1980 && a.retiredYear <= 2026)) e.push(`${a.id}: año de retirada imposible`)
   if (a.status === 'active' && a.retiredYear !== null) e.push(`${a.id}: activo con año de retirada`)
   for (const [k, v] of Object.entries({ country: a.country, highlights: a.highlights, desc: a.desc })) {
     if (!filled(v)) e.push(`${a.id}: ${k} incompleto`)

@@ -9,7 +9,7 @@
       "es": "Indonesia"
     },
     "heightCm": 179,
-    "weightKg": null,
+    "weightKg": 79,
     "hand": "R",
     "birthYear": 1997,
     "status": "active",
@@ -39,7 +39,7 @@
       "es": "Tailandia"
     },
     "heightCm": 173,
-    "weightKg": null,
+    "weightKg": 74,
     "hand": "R",
     "birthYear": 2001,
     "status": "active",
@@ -98,7 +98,7 @@
       "es": "Dinamarca"
     },
     "heightCm": 183,
-    "weightKg": null,
+    "weightKg": 80,
     "hand": "R",
     "birthYear": 1997,
     "status": "active",
@@ -544,7 +544,7 @@
       "es": "Indonesia"
     },
     "heightCm": 171,
-    "weightKg": null,
+    "weightKg": 65,
     "hand": "R",
     "birthYear": 1996,
     "status": "active",
@@ -693,7 +693,7 @@
       "es": "China"
     },
     "heightCm": 187,
-    "weightKg": null,
+    "weightKg": 81,
     "hand": "R",
     "birthYear": 1989,
     "status": "retired",
@@ -723,7 +723,7 @@
       "es": "Japón"
     },
     "heightCm": 175,
-    "weightKg": null,
+    "weightKg": 72,
     "hand": "L",
     "birthYear": 1994,
     "status": "retired",
@@ -903,7 +903,7 @@
       "es": "Tailandia"
     },
     "heightCm": 169,
-    "weightKg": null,
+    "weightKg": 59,
     "hand": "R",
     "birthYear": 1995,
     "status": "active",
@@ -1229,7 +1229,7 @@
       "es": "Tailandia"
     },
     "heightCm": 168,
-    "weightKg": null,
+    "weightKg": 58,
     "hand": "R",
     "birthYear": 1996,
     "status": "active",
@@ -1317,7 +1317,7 @@
       "es": "China"
     },
     "heightCm": 174,
-    "weightKg": null,
+    "weightKg": 65,
     "hand": "R",
     "birthYear": 1991,
     "status": "retired",
@@ -1515,6 +1515,854 @@
       "bwf": "https://bwfbadminton.com/player/542/susi-susanti",
       "wikiEn": "https://en.wikipedia.org/wiki/Susi_Susanti",
       "wikiZh": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%8E%B2%E9%A6%99"
+    }
+  },
+  {
+    "id": "panitchaphon-teeraratsakul",
+    "nameEn": "Panitchaphon Teeraratsakul",
+    "nameZh": "帕尼查蓬",
+    "sex": "M",
+    "country": {
+      "zh": "泰国",
+      "es": "Tailandia"
+    },
+    "heightCm": 182,
+    "weightKg": null,
+    "hand": "L",
+    "birthYear": 2004,
+    "status": "active",
+    "retiredYear": null,
+    "style": "speed",
+    "highlights": {
+      "zh": "2025年越南公开赛冠军（超级100，生涯首个世界巡回赛冠军）；2026年印尼大师赛、泰国大师赛、马来西亚大师赛三站亚军；2026年亚运会男团铜牌；最高世界第16",
+      "es": "Campeón del Abierto de Vietnam 2025 (Super 100, su primer título del World Tour); subcampeón del Masters de Indonesia, del Masters de Tailandia y del Masters de Malasia en 2026; bronce por equipos masculinos en los Juegos Asiáticos 2026; número 16 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "左手持拍，以速度和突然加速的爆发力见长，全场技术比较全面，状态好时满场飞奔，2026年马来西亚大师赛半决赛以21:13、21:13击败克里斯托·波波夫，对手赛后称他“在场上像飞起来一样”。2026年三次闯进世界巡回赛决赛但均告负，大赛决胜经验仍在积累。",
+      "es": "Zurdo que destaca por su velocidad y su explosividad en las aceleraciones repentinas, con un juego bastante completo por toda la pista; cuando está en forma corre de un lado a otro sin parar. En las semifinales del Masters de Malasia 2026 derrotó a Christo Popov por 21-13 y 21-13, y el rival dijo después que «en la pista parecía volar». En 2026 llegó a tres finales del World Tour, pero perdió las tres, y aún está acumulando experiencia para los partidos decisivos de los grandes torneos."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Panitchaphon_Teeraratsakul",
+      "wikiZh": "https://zh.wikipedia.org/wiki/帕尼差蓬·提拉拉沙恭"
+    }
+  },
+  {
+    "id": "yushi-tanaka",
+    "nameEn": "Yushi Tanaka",
+    "nameZh": "田中涌士",
+    "sex": "M",
+    "country": {
+      "zh": "日本",
+      "es": "Japón"
+    },
+    "heightCm": 170,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 1999,
+    "status": "active",
+    "retiredYear": null,
+    "style": "speed",
+    "highlights": {
+      "zh": "2024年奥尔良大师赛、美国公开赛及2026年瑞士公开赛冠军（均为超级300）；2025年澳大利亚公开赛亚军；2026年日本公开赛四强；两夺全日本综合锦标赛男单冠军；最高世界第18",
+      "es": "Campeón del Masters de Orleans y del Abierto de Estados Unidos 2024 y del Abierto de Suiza 2026 (todos Super 300); subcampeón del Abierto de Australia 2025; semifinalista del Abierto de Japón 2026; dos veces campeón de individual masculino del Campeonato Absoluto de Japón; número 18 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "身高170cm，自述打法是“利用速度的进攻型”，移动快、拼抢积极，力求每球不落地；桃田贤斗评价他后场启动达世界顶尖水平，出手犀利、防守也不差，但性格容易较劲，急躁时失误增多。",
+      "es": "Mide 170 cm y define su juego como «ofensivo, basado en la velocidad»: se mueve rápido, pelea cada punto con ganas e intenta que ningún volante toque el suelo. Kento Momota ha dicho que su arranque desde el fondo de pista es de nivel mundial, que golpea con filo y que tampoco defiende mal, pero que por carácter tiende a obcecarse y, cuando se impacienta, aumentan sus errores."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Yushi_Tanaka"
+    }
+  },
+  {
+    "id": "lee-cheuk-yiu",
+    "nameEn": "Lee Cheuk Yiu",
+    "nameZh": "李卓耀",
+    "sex": "M",
+    "country": {
+      "zh": "中国香港",
+      "es": "Hong Kong (China)"
+    },
+    "heightCm": 178,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 1996,
+    "status": "active",
+    "retiredYear": null,
+    "style": "attack",
+    "highlights": {
+      "zh": "2019年香港公开赛冠军（超级500，本在资格赛、因他人退赛递补进正赛后夺冠）；2024年、2025年印度公开赛及2026年中国大师赛亚军（均为超级750）；2024年巴黎奥运会男单参赛；最高世界第13",
+      "es": "Campeón del Abierto de Hong Kong 2019 (Super 500; estaba en la fase de clasificación y entró en el cuadro principal como sustituto por la baja de otro jugador, y acabó ganando el título); subcampeón del Abierto de India 2024 y 2025 y del Masters de China 2026 (todos Super 750); participó en individual masculino en los Juegos Olímpicos de París 2024; número 13 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "以重杀为主要武器，对手一起高球就全力下压，再用轻吊改变节奏，2019年香港赛一路击败石宇奇、安赛龙、斯里坎特和金廷夺冠；脚下快、上网早，网前小球手感细腻。敢打敢拼，关键分不怯场。",
+      "es": "Su arma principal es el remate fuerte: en cuanto el rival levanta un volante alto, lo remata con todas sus fuerzas y después cambia el ritmo con una dejada suave. En el Abierto de Hong Kong de 2019 fue derrotando en el camino a Shi Yuqi, Viktor Axelsen, Srikanth y Ginting para llevarse el título. Es rápido de piernas, sube pronto a la red y tiene un tacto muy fino en el juego corto de red. Es valiente y combativo, y no se achica en los puntos importantes."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Lee_Cheuk_Yiu",
+      "wikiZh": "https://zh.wikipedia.org/wiki/李卓耀"
+    }
+  },
+  {
+    "id": "rasmus-gemke",
+    "nameEn": "Rasmus Gemke",
+    "nameZh": "杰姆克",
+    "sex": "M",
+    "country": {
+      "zh": "丹麦",
+      "es": "Dinamarca"
+    },
+    "heightCm": 185,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 1997,
+    "status": "active",
+    "retiredYear": null,
+    "style": "attack",
+    "highlights": {
+      "zh": "2018年西班牙大师赛冠军；2020年丹麦公开赛、2022年法国公开赛亚军（均为超级750）；汤姆斯杯铜牌（2020、2022）；最高世界第10",
+      "es": "Campeón del Masters de España 2018; subcampeón del Abierto de Dinamarca 2020 y del Abierto de Francia 2022 (ambos Super 750); bronce en la Copa Thomas (2020 y 2022); número 10 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "身高185cm，打法积极、身体对抗强，喜欢抢先发力，用又重又准的杀球把对手压在被动中，2020年丹麦公开赛决赛一度压着安东森打。但多次在大赛决赛功亏一篑，巡回赛决赛1胜4负。",
+      "es": "Mide 185 cm y tiene un juego agresivo y un fuerte choque físico; le gusta tomar la iniciativa y mantener al rival a la defensiva con remates muy pesados y precisos. En la final del Abierto de Dinamarca 2020 llegó a dominar a Antonsen durante un tramo del partido. Sin embargo, se ha quedado a las puertas en muchas finales de grandes torneos: su balance en finales del World Tour es de 1 victoria y 4 derrotas."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Rasmus_Gemke"
+    }
+  },
+  {
+    "id": "nhat-nguyen",
+    "nameEn": "Nhat Nguyen",
+    "nameZh": "阮日",
+    "sex": "M",
+    "country": {
+      "zh": "爱尔兰",
+      "es": "Irlanda"
+    },
+    "heightCm": 175,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 2000,
+    "status": "active",
+    "retiredYear": null,
+    "style": "allround",
+    "highlights": {
+      "zh": "两届奥运会男单参赛（2020东京、2024巴黎）；2026年中国公开赛八强（爱尔兰选手首次闯进超级1000八强）；爱尔兰公开赛冠军（2023、2024）；最高世界第24",
+      "es": "Participó en individual masculino en dos Juegos Olímpicos (Tokio 2020 y París 2024); cuartos de final del Abierto de China 2026 (primer jugador irlandés en llegar a cuartos de final de un Super 1000); campeón del Abierto de Irlanda (2023 y 2024); número 24 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "越南出生的爱尔兰选手，身高175cm。后场起跳下压有爆发力，网前小球和挑推细腻，接杀时手上卸力好，技术比较均衡；他自己说小时候既不是最强壮也不是最高的，只能靠技术和头脑赢球。",
+      "es": "Jugador irlandés nacido en Vietnam, de 175 cm. Tiene un remate en salto explosivo desde el fondo de pista, un juego fino de golpes cortos en la red y de globos y empujes, y amortigua muy bien con la mano en la defensa del remate; su técnica es bastante equilibrada. Él mismo cuenta que de pequeño no era ni el más fuerte ni el más alto, y que solo podía ganar con técnica e inteligencia."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Nhat_Nguyen",
+      "wikiZh": "https://zh.wikipedia.org/wiki/阮日"
+    }
+  },
+  {
+    "id": "yudai-okimoto",
+    "nameEn": "Yudai Okimoto",
+    "nameZh": "冲本优大",
+    "sex": "M",
+    "country": {
+      "zh": "日本",
+      "es": "Japón"
+    },
+    "heightCm": 165,
+    "weightKg": 62,
+    "hand": "R",
+    "birthYear": 2005,
+    "status": "active",
+    "retiredYear": null,
+    "style": "counter",
+    "highlights": {
+      "zh": "2026年加拿大公开赛、台北公开赛冠军（均为超级300，台北公开赛为日本男单首冠）；2023年亚青赛男单银牌；2026年亚洲男团锦标赛冠军成员；最高世界第21",
+      "es": "Campeón del Abierto de Canadá y del Abierto de Taipéi 2026 (ambos Super 300; el de Taipéi fue el primer título de un japonés en individual masculino en ese torneo); plata en individual masculino en el Campeonato de Asia junior 2023; integrante del equipo campeón del Campeonato de Asia por Equipos Masculinos 2026; número 21 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "身高约165cm，靠出色的预判和满场跑动弥补身材劣势，自称看点是“用小个子在场上到处跑”；以耐心相持为主，回球细致、失误少。周天成评价他体能好、防守稳，落点有迷惑性，还能在网前主动提速。",
+      "es": "Mide unos 165 cm y compensa su desventaja física con una excelente anticipación y mucha carrera por toda la pista; dice que lo que hay que ver de él es «un jugador bajito corriendo por todas partes». Se basa en la paciencia en los intercambios, con devoluciones cuidadas y pocos errores. Chou Tien-chen lo describe como un jugador con buena condición física y defensa sólida, con puntos de caída que despistan y capaz de acelerar por iniciativa propia en la red."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Yudai_Okimoto"
+    }
+  },
+  {
+    "id": "kenta-nishimoto",
+    "nameEn": "Kenta Nishimoto",
+    "nameZh": "西本拳太",
+    "sex": "M",
+    "country": {
+      "zh": "日本",
+      "es": "Japón"
+    },
+    "heightCm": 180,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 1994,
+    "status": "active",
+    "retiredYear": null,
+    "style": "counter",
+    "highlights": {
+      "zh": "2022年日本公开赛冠军（超级750）；2023年西班牙大师赛、2025年加拿大公开赛冠军；2018年亚运会男单铜牌；最高世界第9",
+      "es": "Campeón del Abierto de Japón 2022 (Super 750); campeón del Masters de España 2023 y del Abierto de Canadá 2025; bronce en individual masculino en los Juegos Asiáticos de 2018; número 9 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "典型的“磨”型打法，防守稳、回球质量高，擅长把回合拖长，靠稳定性逼对手失误，拖进第三局往往对他有利；落点和隐蔽性也是得分手段。遇到能把回合压短、连续下压的快节奏对手会吃亏。",
+      "es": "Un jugador típico de desgaste: defensa sólida y devoluciones de mucha calidad, se le da bien alargar los intercambios y forzar el error del rival con su regularidad, y llevar el partido al tercer set suele favorecerle; la colocación y el disimulo del golpe también le dan puntos. Sufre ante rivales de ritmo rápido capaces de acortar los intercambios y presionar con remates continuados."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Kenta_Nishimoto"
+    }
+  },
+  {
+    "id": "srikanth-kidambi",
+    "nameEn": "Srikanth Kidambi",
+    "nameZh": "斯里坎特",
+    "sex": "M",
+    "country": {
+      "zh": "印度",
+      "es": "India"
+    },
+    "heightCm": 178,
+    "weightKg": 66,
+    "hand": "R",
+    "birthYear": 1993,
+    "status": "active",
+    "retiredYear": null,
+    "style": "net",
+    "highlights": {
+      "zh": "前世界第一（2018年4月，继帕杜科内之后首位登顶的印度男单）；2021年世锦赛银牌；2017年一年内夺得印尼、澳大利亚、丹麦、法国四站超级赛冠军；2014年中国公开赛冠军（决赛胜林丹）；2022年汤姆斯杯冠军队队长",
+      "es": "Ex número 1 del mundo (abril de 2018, el primer indio de individual masculino en alcanzarlo después de Padukone); plata en el Mundial de 2021; en 2017 ganó en un solo año cuatro torneos Super Series: Indonesia, Australia, Dinamarca y Francia; campeón del Abierto de China 2014 (venció a Lin Dan en la final); capitán del equipo campeón de la Copa Thomas 2022"
+    },
+    "desc": {
+      "zh": "网前小球是他最好看的部分，搓、放细腻，反手挑球隐蔽，常把对手骗出位置；后场杀球同样有威胁，能杀吊结合。主要问题是比赛中容易一口气连丢多分，大比分领先时也可能被追回。",
+      "es": "Los golpes cortos de red son lo más vistoso de su juego: con red con efecto y toques muy finos, y un globo de revés bien disimulado, a menudo saca al rival de su posición; su remate desde el fondo de pista también es peligroso y sabe combinar remate y dejada. Su principal problema es que durante los partidos puede perder muchos puntos seguidos, y a veces le remontan incluso cuando va ganando por mucha diferencia."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Srikanth_Kidambi"
+    }
+  },
+  {
+    "id": "ng-ka-long-angus",
+    "nameEn": "Ng Ka Long Angus",
+    "nameZh": "伍家朗",
+    "sex": "M",
+    "country": {
+      "zh": "中国香港",
+      "es": "Hong Kong (China)"
+    },
+    "heightCm": 181,
+    "weightKg": 70,
+    "hand": "R",
+    "birthYear": 1994,
+    "status": "active",
+    "retiredYear": null,
+    "style": "control",
+    "highlights": {
+      "zh": "2016年香港公开赛冠军（超级赛）；2020年泰国大师赛、2023年德国公开赛、2024年澳门公开赛冠军；2016、2020年两届奥运会男单参赛；最高世界第6",
+      "es": "Campeón del Abierto de Hong Kong 2016 (torneo Super Series); campeón del Masters de Tailandia 2020, del Abierto de Alemania 2023 y del Abierto de Macao 2024; participó en individual masculino en los Juegos Olímpicos de 2016 y 2020; número 6 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "风格属拉吊突击，擅长打节奏、控球，用轻灵的手法和刁钻落点调动对手全场跑动，再抓机会突击；遇到防守好的对手会更耐心地多拍。自认不是力量型，碰上出手快、力量刚猛的对手容易被压制。",
+      "es": "Su estilo se basa en el clear y la dejada con ataques sorpresa: es bueno marcando el ritmo y controlando el volante, y con una mano ligera y colocaciones traicioneras hace correr al rival por toda la pista antes de aprovechar la ocasión para atacar; ante rivales con buena defensa se arma de más paciencia y juega más golpes. Él mismo reconoce que no es un jugador de fuerza, y que se ve dominado ante rivales rápidos y de golpeo contundente."
+    },
+    "links": {
+      "wikiZh": "https://zh.wikipedia.org/wiki/伍家朗"
+    }
+  },
+  {
+    "id": "prannoy-h-s",
+    "nameEn": "Prannoy H. S.",
+    "nameZh": "普兰诺伊",
+    "sex": "M",
+    "country": {
+      "zh": "印度",
+      "es": "India"
+    },
+    "heightCm": 179,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 1992,
+    "status": "active",
+    "retiredYear": null,
+    "style": "attack",
+    "highlights": {
+      "zh": "2023年世锦赛铜牌；杭州亚运会（2023年举行）男单铜牌、男团银牌；2026年亚运会男团铜牌；2023年马来西亚大师赛冠军（超级500）；2022年汤姆斯杯冠军成员；最高世界第6",
+      "es": "Bronce en el Mundial de 2023; bronce en individual masculino y plata por equipos masculinos en los Juegos Asiáticos de Hangzhou (celebrados en 2023); bronce por equipos masculinos en los Juegos Asiáticos 2026; campeón del Masters de Malasia 2023 (Super 500); integrante del equipo campeón de la Copa Thomas 2022; número 6 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "典型的进攻型选手，出手积极，靠连续跳杀和重杀压迫对手，2015年印度公开赛就以满场跳杀击败当届全英亚军约根森，对手直言“太有侵略性”。生涯中伤病和状态起伏多次打断他的上升势头。",
+      "es": "Un jugador claramente ofensivo, de golpeo agresivo, que presiona al rival con remates en salto seguidos y remates fuertes. En el Abierto de India de 2015 derrotó a base de remates en salto por toda la pista a Jørgensen, subcampeón del All England de ese año, y este reconoció que era «demasiado agresivo». A lo largo de su carrera las lesiones y los altibajos de forma han frenado en varias ocasiones su progresión."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Prannoy_H._S.",
+      "wikiZh": "https://zh.wikipedia.org/wiki/普兰诺伊·哈塞纳·苏尼尔·库马尔"
+    }
+  },
+  {
+    "id": "bao-chunlai",
+    "nameEn": "Bao Chunlai",
+    "nameZh": "鲍春来",
+    "sex": "M",
+    "country": {
+      "zh": "中国",
+      "es": "China"
+    },
+    "heightCm": 188,
+    "weightKg": 80,
+    "hand": "L",
+    "birthYear": 1983,
+    "status": "retired",
+    "retiredYear": 2011,
+    "style": "control",
+    "highlights": {
+      "zh": "2006年世锦赛银牌，2003、2007年世锦赛铜牌；2009年亚锦赛冠军；四次汤姆斯杯冠军成员（2004、2006、2008、2010）；2000年世青赛男单冠军",
+      "es": "Plata en el Mundial de 2006 y bronce en 2003 y 2007; campeón del Campeonato de Asia 2009; miembro del equipo campeón de la Copa Thomas en cuatro ocasiones (2004, 2006, 2008 y 2010); campeón mundial junior en individual masculino en 2000."
+    },
+    "desc": {
+      "zh": "左手持拍的高个子选手，技术特点是典型的拉吊型：身高臂长、动作灵活、球感好，靠细腻的拉吊和顽强的防守控制回合。弱点是进入比赛状态慢、杀球力量不足，难以一拍制胜。",
+      "es": "Jugador alto y zurdo, con un estilo típico de clear y dejada: su altura y la longitud de sus brazos, su movilidad y su buen tacto le permiten controlar los intercambios con un juego de clear y dejada muy fino y una defensa tenaz. Sus puntos débiles son que tarda en entrar en el partido y que su remate carece de potencia, por lo que le cuesta resolver un punto con un solo golpe."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Bao_Chunlai",
+      "wikiZh": "https://zh.wikipedia.org/wiki/鲍春来"
+    }
+  },
+  {
+    "id": "lee-hyun-il",
+    "nameEn": "Lee Hyun-il",
+    "nameZh": "李炫一",
+    "sex": "M",
+    "country": {
+      "zh": "韩国",
+      "es": "Corea del Sur"
+    },
+    "heightCm": 176,
+    "weightKg": 67,
+    "hand": "L",
+    "birthYear": 1980,
+    "status": "retired",
+    "retiredYear": 2019,
+    "style": "control",
+    "highlights": {
+      "zh": "2008、2012年两届奥运会男单第四名；2006年世锦赛铜牌；2006年全英公开赛亚军；2002年日本公开赛、2008年韩国公开赛冠军；2002、2014年亚运会男团金牌",
+      "es": "Cuarto puesto en individual masculino en los Juegos Olímpicos de 2008 y 2012; bronce en el Mundial de 2006; subcampeón del All England 2006; campeón del Abierto de Japón 2002 y del Abierto de Corea 2008; oro por equipos masculinos en los Juegos Asiáticos de 2002 y 2014."
+    },
+    "desc": {
+      "zh": "技术型代表，步法轻盈、平衡好，打法拉吊结合，不靠速度和爆发力，而是每一分都精心组织，用精准的落点把对手从一角调到另一角，慢慢收紧；招牌是如今少见的慢吊，晚年仍能击败一线高手。",
+      "es": "Un referente del juego técnico: de footwork ligero y buen equilibrio, combina clear y dejada y no se apoya en la velocidad ni en la explosividad, sino que construye cada punto con esmero, llevando al rival de una esquina a otra con colocaciones precisas y cerrando poco a poco el cerco; su sello es una dejada lenta, hoy poco frecuente, y en la última etapa de su carrera aún era capaz de derrotar a jugadores de primer nivel."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Lee_Hyun-il"
+    }
+  },
+  {
+    "id": "tian-houwei",
+    "nameEn": "Tian Houwei",
+    "nameZh": "田厚威",
+    "sex": "M",
+    "country": {
+      "zh": "中国",
+      "es": "China"
+    },
+    "heightCm": 179,
+    "weightKg": null,
+    "hand": "L",
+    "birthYear": 1992,
+    "status": "retired",
+    "retiredYear": null,
+    "style": "counter",
+    "highlights": {
+      "zh": "2016年全英公开赛亚军；2016年超级赛总决赛亚军；2015年亚锦赛亚军；2009年世青赛、亚青赛男单冠军；最高世界第6",
+      "es": "Subcampeón del All England 2016; subcampeón de las Finales del Super Series 2016; subcampeón del Campeonato de Asia 2015; campeón mundial junior y campeón de Asia junior en individual masculino en 2009; número 6 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "左手持拍，擅长防守反击，进攻能力相对较弱，场上多以反复拉吊为主，凭不停跑动和耐心防守拖住对手，直到对方失误；福建队总教练胡芝兰也曾指出他的进攻需要提高。",
+      "es": "Zurdo, bueno en la defensa y el contraataque, con un ataque relativamente débil; en pista se apoya sobre todo en repetir clears y dejadas, y frena al rival a base de correr sin descanso y defender con paciencia hasta que este falla. Hu Zhilan, entrenadora jefa del equipo de Fujian, también ha señalado que debe mejorar su ataque."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Tian_Houwei",
+      "wikiZh": "https://zh.wikipedia.org/wiki/田厚威"
+    }
+  },
+  {
+    "id": "b-sai-praneeth",
+    "nameEn": "B. Sai Praneeth",
+    "nameZh": "普拉尼斯",
+    "sex": "M",
+    "country": {
+      "zh": "印度",
+      "es": "India"
+    },
+    "heightCm": 176,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 1992,
+    "status": "retired",
+    "retiredYear": 2024,
+    "style": "net",
+    "highlights": {
+      "zh": "2019年世锦赛男单铜牌（印度男单时隔36年再获世锦赛奖牌）；2017年新加坡公开赛冠军（超级赛）；2020年东京奥运会男单参赛；最高世界第10",
+      "es": "Bronce en individual masculino en el Mundial de 2019 (primera medalla de la India en individual masculino en un Mundial desde hacía 36 años); campeón del Abierto de Singapur 2017 (torneo Super Series); participó en individual masculino en los Juegos Olímpicos de Tokio 2020; número 10 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "手上功夫细腻的技术型攻击手，招牌是网前小球，挑推、平抽与切吊变化多，半杀伪装性强，常先用假动作骗出空当，再用直线或斜线杀球终结。职业后期饱受伤病困扰，2024年3月宣布退役。",
+      "es": "Jugador técnico y atacante de manos finas; su sello son los golpes cortos en la red, con globos y empujes, drive y dejadas cortadas muy variados, y un semirremate muy bien disimulado: a menudo engaña primero con una finta para abrir un hueco y remata después en línea o en diagonal para cerrar el punto. En la última etapa de su carrera las lesiones le castigaron mucho y en marzo de 2024 anunció su retirada."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/B._Sai_Praneeth"
+    }
+  },
+  {
+    "id": "kanta-tsuneyama",
+    "nameEn": "Kanta Tsuneyama",
+    "nameZh": "常山干太",
+    "sex": "M",
+    "country": {
+      "zh": "日本",
+      "es": "Japón"
+    },
+    "heightCm": 173,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 1996,
+    "status": "retired",
+    "retiredYear": 2024,
+    "style": "net",
+    "highlights": {
+      "zh": "2021年法国公开赛冠军（超级750）；2018年泰国公开赛、2019年韩国大师赛冠军（决赛胜林丹）；2018年汤姆斯杯银牌；2018、2022年亚运会男团铜牌；2020年东京奥运会男单参赛；最高世界第10",
+      "es": "Campeón del Abierto de Francia 2021 (Super 750); campeón del Abierto de Tailandia 2018 y del Masters de Corea 2019 (venció a Lin Dan en la final); plata en la Copa Thomas 2018; bronce por equipos masculinos en los Juegos Asiáticos 2018 y 2022; participó en individual masculino en los Juegos Olímpicos de Tokio 2020; número 10 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "身高173cm，更依赖手上技术而非力量，吊球伪装性强、网前处理细腻，常用落点变化打乱对手；防守也有韧性，2021年法国公开赛决赛靠关键救球击败周天成夺冠。缺点是有时耐心不足。",
+      "es": "Mide 173 cm y depende más de la técnica de mano que de la fuerza: su dejada está muy disimulada y trata la red con finura, y suele descolocar al rival variando los puntos de caída; también es tenaz en defensa, y en la final del Abierto de Francia 2021 se impuso a Chou Tien-chen y ganó el título gracias a rescates clave. Su defecto es que a veces le falta paciencia."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Kanta_Tsuneyama"
+    }
+  },
+  {
+    "id": "hina-akechi",
+    "nameEn": "Hina Akechi",
+    "nameZh": "明地阳菜",
+    "sex": "F",
+    "country": {
+      "zh": "日本",
+      "es": "Japón"
+    },
+    "heightCm": 155,
+    "weightKg": null,
+    "hand": "L",
+    "birthYear": 2005,
+    "status": "active",
+    "retiredYear": null,
+    "style": "counter",
+    "highlights": {
+      "zh": "2025年赛义德·莫迪印度国际赛（超级300）女单冠军；2026年马来西亚大师赛（超级500）女单四强；最高世界第21",
+      "es": "Campeona de individual femenino del Syed Modi International de la India 2025 (Super 300); semifinalista de individual femenino del Masters de Malasia 2026 (Super 500); número 21 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "身高仅155cm的左手将。她在日本羽协问答中希望观众看她“粘”的打法，回合里韧性十足；球队官网则写明她最拿手的是用网前小球打乱对手、制造破绽，属于先守住再找机会反击的类型。",
+      "es": "Zurda de solo 155 cm de estatura. En un cuestionario de la federación japonesa de bádminton pidió a los aficionados que se fijaran en su juego «pegajoso»: es muy tenaz en los intercambios. La web de su equipo señala que lo que mejor domina es descolocar al rival con golpes cortos en la red y crear fisuras, el perfil de quien primero resiste y luego busca el contraataque."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Hina_Akechi"
+    }
+  },
+  {
+    "id": "riko-gunji",
+    "nameEn": "Riko Gunji",
+    "nameZh": "郡司莉子",
+    "sex": "F",
+    "country": {
+      "zh": "日本",
+      "es": "Japón"
+    },
+    "heightCm": 160,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 2002,
+    "status": "active",
+    "retiredYear": null,
+    "style": "attack",
+    "highlights": {
+      "zh": "2019年世青赛女单冠军；2026年加拿大公开赛（超级300）女单冠军；2025年日本公开赛女单四强；最高世界第18",
+      "es": "Campeona mundial junior de individual femenino 2019; campeona de individual femenino del Abierto de Canadá 2026 (Super 300); semifinalista de individual femenino del Abierto de Japón 2025; número 18 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "身高仅160cm，却以杀球为主要武器：球队官网写明她最拿手的是“以杀球为中心的进攻”，日本羽协问答中她也把杀球列为自己最值得关注的技术，是个子不高但主动下压的进攻型选手。",
+      "es": "Mide solo 160 cm, pero su arma principal es el remate: la web de su equipo señala que lo que mejor domina es «el ataque centrado en el remate», y en un cuestionario de la federación japonesa de bádminton también puso el remate como la técnica en la que más hay que fijarse. Es una jugadora ofensiva que, pese a su baja estatura, toma la iniciativa y presiona hacia abajo."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Riko_Gunji"
+    }
+  },
+  {
+    "id": "supanida-katethong",
+    "nameEn": "Supanida Katethong",
+    "nameZh": "素尼达·革通",
+    "sex": "F",
+    "country": {
+      "zh": "泰国",
+      "es": "Tailandia"
+    },
+    "heightCm": 163,
+    "weightKg": null,
+    "hand": "L",
+    "birthYear": 1997,
+    "status": "active",
+    "retiredYear": null,
+    "style": "speed",
+    "highlights": {
+      "zh": "2023年东南亚运动会女单金牌；2024年泰国公开赛（超级500）、2023年美国公开赛女单冠军；2026年瑞士公开赛（超级300）女单冠军；最高世界第6",
+      "es": "Oro en individual femenino en los Juegos del Sudeste Asiático 2023; campeona de individual femenino del Abierto de Tailandia 2024 (Super 500) y del Abierto de Estados Unidos 2023; campeona de individual femenino del Abierto de Suiza 2026 (Super 300); número 6 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "绰号“左手May”。她在BWF采访中说自己的风格就是“保持高节奏，更偏进攻、速度快”，先把吊球落点打准，逼对手起高球，再抓机会突击下压，是典型的快节奏左手进攻手。",
+      "es": "Apodada «May la zurda». En una entrevista de la BWF dijo que su estilo es «mantener un ritmo alto, más ofensivo y rápido»: primero coloca con precisión la dejada para obligar al rival a levantar el volante y luego aprovecha la ocasión para atacar con remates; es una atacante zurda típica de ritmo rápido."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Supanida_Katethong"
+    }
+  },
+  {
+    "id": "yeo-jia-min",
+    "nameEn": "Yeo Jia Min",
+    "nameZh": "杨佳敏",
+    "sex": "F",
+    "country": {
+      "zh": "新加坡",
+      "es": "Singapur"
+    },
+    "heightCm": 163,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 1999,
+    "status": "active",
+    "retiredYear": null,
+    "style": "speed",
+    "highlights": {
+      "zh": "2019年世锦赛爆冷淘汰头号种子山口茜；2025年德国公开赛女单冠军；2022年英联邦运动会女单铜牌；最高世界第11",
+      "es": "En el Mundial de 2019 eliminó por sorpresa a la cabeza de serie número 1, Akane Yamaguchi; campeona de individual femenino del Abierto de Alemania 2025; bronce en individual femenino en los Juegos de la Commonwealth 2022; número 11 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "戴资颖评价她“在场上移动得非常好、非常快”，给对手很大压力；她自己说耐力逐年提高，正练习在比赛不同阶段提速。2019年世锦赛她先耐心相持，再找机会用精准有力的击球进攻，淘汰山口茜。",
+      "es": "Tai Tzu-ying dijo de ella que «se mueve por la pista muy bien y muy rápido», lo que pone mucha presión sobre sus rivales; ella cuenta que su resistencia mejora año tras año y que está practicando cómo acelerar en distintas fases del partido. En el Mundial de 2019 primero aguantó con paciencia en los intercambios y luego buscó la ocasión de atacar con golpes precisos y potentes, y así eliminó a Yamaguchi."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Yeo_Jia_Min"
+    }
+  },
+  {
+    "id": "line-kjaersfeldt",
+    "nameEn": "Line Kjærsfeldt",
+    "nameZh": "莱恩·霍尔马克·杰克斯菲德",
+    "sex": "F",
+    "country": {
+      "zh": "丹麦",
+      "es": "Dinamarca"
+    },
+    "heightCm": 174,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 1994,
+    "status": "active",
+    "retiredYear": null,
+    "style": "speed",
+    "highlights": {
+      "zh": "2025年欧锦赛女单冠军；2026年欧锦赛女单亚军；2015年欧洲运动会女单金牌；最高世界第16",
+      "es": "Campeona de individual femenino del Campeonato de Europa 2025; subcampeona de individual femenino del Campeonato de Europa 2026; oro en individual femenino en los Juegos Europeos 2015; número 16 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "身高174cm。2016年印尼公开赛被她淘汰的对手赛后说“她的节奏非常快，一直在进攻”，决胜局她打得更快、持续压迫，防守也很难被打穿，是靠快节奏连续进攻压缩对手时间的选手。",
+      "es": "Mide 174 cm. Una rival a la que eliminó en el Abierto de Indonesia 2016 dijo después que «su ritmo es muy rápido y ataca sin parar»; en el set decisivo jugó aún más rápido y presionó sin descanso, y su defensa también es muy difícil de perforar. Es una jugadora que reduce el tiempo del rival con ataques continuos a ritmo rápido."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Line_Kj%C3%A6rsfeldt"
+    }
+  },
+  {
+    "id": "kirsty-gilmour",
+    "nameEn": "Kirsty Gilmour",
+    "nameZh": "克里斯蒂·吉尔莫",
+    "sex": "F",
+    "country": {
+      "zh": "苏格兰",
+      "es": "Escocia"
+    },
+    "heightCm": 168,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 1993,
+    "status": "active",
+    "retiredYear": null,
+    "style": "counter",
+    "highlights": {
+      "zh": "2026年欧锦赛女单冠军（苏格兰首位欧锦赛冠军）；2014年英联邦运动会女单银牌；2016、2020、2024年三届奥运会；最高世界第14",
+      "es": "Campeona de individual femenino del Campeonato de Europa 2026 (primera campeona de Europa de Escocia); plata en individual femenino en los Juegos de la Commonwealth 2014; tres Juegos Olímpicos (2016, 2020 y 2024); número 14 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "BWF称她为“坚韧的苏格兰人”。2013年伦敦大奖赛，她扎实的防守让对手杀球急躁、频频失误；在苏格兰公开赛决赛中，她耐心、有纪律地控制回合，靠变速和精准的收尾球赢下比赛。",
+      "es": "La BWF la ha calificado de «escocesa tenaz». En el Grand Prix de Londres de 2013, su defensa sólida hizo que su rival se precipitara al rematar y cometiera errores constantes; en la final del Abierto de Escocia ganó controlando los intercambios con paciencia y disciplina, apoyándose en los cambios de ritmo y en golpes de cierre precisos."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Kirsty_Gilmour"
+    }
+  },
+  {
+    "id": "beiwen-zhang",
+    "nameEn": "Beiwen Zhang",
+    "nameZh": "张蓓雯",
+    "sex": "F",
+    "country": {
+      "zh": "美国",
+      "es": "Estados Unidos"
+    },
+    "heightCm": 169,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 1990,
+    "status": "active",
+    "retiredYear": null,
+    "style": "control",
+    "highlights": {
+      "zh": "2018年印度公开赛女单冠军；2023年泛美运动会女单金牌；2025年美国公开赛女单冠军；最高世界第9",
+      "es": "Campeona de individual femenino del Abierto de India 2018; oro en individual femenino en los Juegos Panamericanos 2023; campeona de individual femenino del Abierto de Estados Unidos 2025; número 9 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "她自称“更像相持型选手，平时不太主动进攻”。2018年印度公开赛决赛，她用平抽和连续快速平推压缩辛杜的时间和空间，不给对方从容组织进攻的机会，最终夺冠；以多拍相持、控制落点和节奏见长。",
+      "es": "Se define como «más una jugadora de intercambios largos, que normalmente no ataca mucho por iniciativa propia». En la final del Abierto de India de 2018 utilizó el drive y empujes planos rápidos y continuos para reducir el tiempo y el espacio de Sindhu, sin dejarle organizar el ataque con calma, y ganó el título; destaca por los intercambios largos y por controlar los puntos de caída y el ritmo."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Beiwen_Zhang"
+    }
+  },
+  {
+    "id": "nguyen-thuy-linh",
+    "nameEn": "Nguyen Thuy Linh",
+    "nameZh": "阮翠玲",
+    "sex": "F",
+    "country": {
+      "zh": "越南",
+      "es": "Vietnam"
+    },
+    "heightCm": 163,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 1997,
+    "status": "active",
+    "retiredYear": null,
+    "style": "net",
+    "highlights": {
+      "zh": "2022—2024年越南公开赛女单三连冠；2026年台北公开赛女单亚军；2020、2024年两届奥运会；最高世界第17",
+      "es": "Tres títulos consecutivos de individual femenino del Abierto de Vietnam (2022 a 2024); subcampeona de individual femenino del Abierto de Taipéi 2026; dos Juegos Olímpicos (2020 y 2024); número 17 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "越南媒体报道2026年台北公开赛半决赛时写道：她用底线高远球接细腻的网前小球，反复攻击对手反手位，逼对方被动回球。她以网前手感配合拉吊来控制节奏，是越南女单头号选手。",
+      "es": "Los medios vietnamitas, al informar de la semifinal del Abierto de Taipéi 2026, escribieron que combinó el clear desde la línea de fondo con golpes cortos muy finos en la red y atacó una y otra vez el revés de su rival, obligándole a devolver en situación incómoda. Controla el ritmo con su tacto en la red y su juego de clear y dejada, y es la jugadora de individual femenino número uno de Vietnam."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_Th%C3%B9y_Linh"
+    }
+  },
+  {
+    "id": "chiu-pin-chian",
+    "nameEn": "Chiu Pin-chian",
+    "nameZh": "邱品蒨",
+    "sex": "F",
+    "country": {
+      "zh": "中国台北",
+      "es": "China Taipéi"
+    },
+    "heightCm": 164,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 1999,
+    "status": "active",
+    "retiredYear": null,
+    "style": "net",
+    "highlights": {
+      "zh": "2025年韩国大师赛（超级300）女单冠军；最高世界第11（2026年6月）；中国台北女单头号选手之一",
+      "es": "Campeona de individual femenino del Masters de Corea 2025 (Super 300); número 11 del mundo en su mejor posición (junio de 2026); una de las principales jugadoras de individual femenino de Taipéi Chino."
+    },
+    "desc": {
+      "zh": "台湾中央社报道她在2025年韩国大师赛首轮“靠着出色的前后场吊动以及网前小球，始终握有领先”。她以网前小球配合吊球调动对手来控制比赛，本人也说过去关键分容易怯场，现在心态更成熟。",
+      "es": "La Agencia Central de Noticias de Taiwán informó de que en la primera ronda del Masters de Corea 2025 «gracias a sus excelentes dejadas entre el fondo de pista y la red y a sus golpes cortos en la red, siempre mantuvo la ventaja». Controla el partido moviendo al rival con golpes cortos en la red combinados con dejadas; ella misma ha dicho que antes se encogía en los puntos clave y que ahora tiene una mentalidad más madura."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Chiu_Pin-chian",
+      "wikiZh": "https://zh.wikipedia.org/wiki/%E9%82%B1%E5%93%81%E8%92%A8"
+    }
+  },
+  {
+    "id": "malvika-bansod",
+    "nameEn": "Malvika Bansod",
+    "nameZh": "玛尔薇卡·班索德",
+    "sex": "F",
+    "country": {
+      "zh": "印度",
+      "es": "India"
+    },
+    "heightCm": 160,
+    "weightKg": null,
+    "hand": "L",
+    "birthYear": 2001,
+    "status": "active",
+    "retiredYear": null,
+    "style": "control",
+    "highlights": {
+      "zh": "2022年印度公开赛击败塞娜·内维尔；2022年赛义德·莫迪国际赛女单亚军；2024年德国海洛公开赛女单亚军；最高世界第22",
+      "es": "Venció a Saina Nehwal en el Abierto de India 2022; subcampeona de individual femenino del Syed Modi International 2022; subcampeona de individual femenino del Abierto de Hylo (Alemania) 2024; número 22 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "左手持拍。ESPN评价这位年轻左手将“喜欢把回合拉长，也能打出轻巧的吊球”，常与对手多拍周旋，但收尾时容易下网；她本人也说要加强力量与体能，才能和经验更丰富的对手抗衡。",
+      "es": "Zurda. ESPN dijo de esta joven jugadora zurda que «le gusta alargar los intercambios y también sabe hacer dejadas ligeras»; suele pelear con sus rivales en intercambios largos, pero al cerrar el punto tiende a enviar el volante a la red. Ella misma ha dicho que debe reforzar su fuerza y su condición física para poder competir con rivales de más experiencia."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Malvika_Bansod"
+    }
+  },
+  {
+    "id": "goh-jin-wei",
+    "nameEn": "Goh Jin Wei",
+    "nameZh": "吴堇溦",
+    "sex": "F",
+    "country": {
+      "zh": "马来西亚",
+      "es": "Malasia"
+    },
+    "heightCm": 164,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 2000,
+    "status": "active",
+    "retiredYear": null,
+    "style": "allround",
+    "highlights": {
+      "zh": "2015、2018年两届世青赛女单冠军；2018年青奥会女单金牌；2017年东南亚运动会女单金牌；2026年泰国大师赛女单亚军",
+      "es": "Campeona mundial junior de individual femenino en 2015 y 2018; oro en individual femenino en los Juegos Olímpicos de la Juventud 2018; oro en individual femenino en los Juegos del Sudeste Asiático 2017; subcampeona de individual femenino del Masters de Tailandia 2026."
+    },
+    "desc": {
+      "zh": "15岁就拿下世青赛女单金牌，台湾中央社称她“打法相当全面”，被誉为“天才少女”“女版李宗伟”。2019年因病被迫切除大肠，2021年一度宣布退役，之后以自由球员身份复出。",
+      "es": "Ganó el oro de individual femenino en el Mundial junior con solo 15 años; la Agencia Central de Noticias de Taiwán dijo que «tiene un juego muy completo», y se la ha llamado «niña prodigio» y «la Lee Chong Wei femenina». En 2019 tuvo que someterse a una extirpación del intestino grueso por una enfermedad, en 2021 llegó a anunciar su retirada y después volvió como jugadora independiente."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Goh_Jin_Wei"
+    }
+  },
+  {
+    "id": "jiang-yanjiao",
+    "nameEn": "Jiang Yanjiao",
+    "nameZh": "蒋燕皎",
+    "sex": "F",
+    "country": {
+      "zh": "中国",
+      "es": "China"
+    },
+    "heightCm": 167,
+    "weightKg": 55,
+    "hand": "L",
+    "birthYear": 1986,
+    "status": "retired",
+    "retiredYear": 2013,
+    "style": "counter",
+    "highlights": {
+      "zh": "中国公开赛女单三连冠（2008—2010）；2007、2008年亚锦赛女单冠军；2005年全运会女单冠军；最高世界第3",
+      "es": "Tres títulos consecutivos de individual femenino del Abierto de China (2008 a 2010); campeona de individual femenino del Campeonato de Asia 2007 y 2008; campeona de individual femenino de los Juegos Nacionales de China 2005; número 3 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "左手持拍，羽毛球资料站把她的打法概括为“拉吊、防守反击”。2005年全运会她接连击败龚智超、龚睿那等名将夺冠，时任国家乒羽中心书记刘凤岩形容她“有脑子、打不死”，以韧性见长。",
+      "es": "Zurda; una web de datos de bádminton resume su estilo como «clear y dejada, defensa y contraataque». En los Juegos Nacionales de 2005 derrotó una tras otra a figuras como Gong Zhichao y Gong Ruina y ganó el título; Liu Fengyan, entonces secretario del Centro Nacional de Tenis de Mesa y Bádminton, la describió como «inteligente e imposible de abatir», y destaca por su tenacidad."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Jiang_Yanjiao"
+    }
+  },
+  {
+    "id": "wang-shixian",
+    "nameEn": "Wang Shixian",
+    "nameZh": "王适娴",
+    "sex": "F",
+    "country": {
+      "zh": "中国",
+      "es": "China"
+    },
+    "heightCm": 168,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 1990,
+    "status": "retired",
+    "retiredYear": 2017,
+    "style": "net",
+    "highlights": {
+      "zh": "前世界第一；2011、2014年全英公开赛女单冠军；2010年广州亚运会女单金牌；2010年世锦赛女单铜牌",
+      "es": "Ex número 1 del mundo; campeona de individual femenino del All England 2011 y 2014; oro en individual femenino en los Juegos Asiáticos de Guangzhou 2010; bronce en individual femenino en el Mundial de 2010."
+    },
+    "desc": {
+      "zh": "2009年全运会决赛，中新社报道她“利用网前轻吊、拉吊突击占据场上主动”，并“利用出色的网前技术接连得分”；李永波评价她“攻防俱佳，打球聪明有灵气”，靠网前手上功夫和落点变化得分。",
+      "es": "En la final de los Juegos Nacionales de 2009, la agencia China News Service informó de que «aprovechó las dejadas suaves en la red y los ataques sorpresa con clear y dejada para dominar la pista» y «sumó puntos seguidos con su excelente juego de red»; Li Yongbo la elogió como «completa en ataque y defensa, inteligente y con talento», y gana puntos gracias a su habilidad de manos en la red y a la variedad de colocaciones."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Wang_Shixian"
+    }
+  },
+  {
+    "id": "bae-yeon-ju",
+    "nameEn": "Bae Yeon-ju",
+    "nameZh": "裴延姝",
+    "sex": "F",
+    "country": {
+      "zh": "韩国",
+      "es": "Corea del Sur"
+    },
+    "heightCm": 166,
+    "weightKg": null,
+    "hand": "L",
+    "birthYear": 1990,
+    "status": "retired",
+    "retiredYear": 2016,
+    "style": "control",
+    "highlights": {
+      "zh": "2013年世锦赛女单铜牌；2010年尤伯杯冠军成员；2010年超级系列赛总决赛女单亚军；最高世界第5",
+      "es": "Bronce en individual femenino en el Mundial de 2013; miembro del equipo campeón de la Copa Uber 2010; subcampeona de individual femenino de las Finales del Super Series 2010; número 5 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "左手持拍。2014年韩国公开赛击败中国选手后，她说自己的强项是在后场底线打球；比赛中她不断变换发球，先做出要放网前的样子骗对手上前，再推后场，让对手重心反向，靠落点变化和假动作得分。",
+      "es": "Zurda. Tras derrotar a una jugadora china en el Abierto de Corea 2014, dijo que su punto fuerte es jugar desde la línea de fondo; durante los partidos varía continuamente los saques: primero aparenta que va a dejar el volante en la red para engañar al rival y hacerle subir, y luego lo envía al fondo con un empuje, de modo que el rival cambia el peso del cuerpo en sentido contrario, y gana puntos con la variedad de colocaciones y las fintas."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Bae_Yeon-ju",
+      "wikiZh": "https://zh.wikipedia.org/wiki/%E8%A3%B4%E5%BB%B6%E5%A7%9D"
+    }
+  },
+  {
+    "id": "juliane-schenk",
+    "nameEn": "Juliane Schenk",
+    "nameZh": "申克",
+    "sex": "F",
+    "country": {
+      "zh": "德国",
+      "es": "Alemania"
+    },
+    "heightCm": 173,
+    "weightKg": 64,
+    "hand": "R",
+    "birthYear": 1982,
+    "status": "retired",
+    "retiredYear": 2014,
+    "style": "attack",
+    "highlights": {
+      "zh": "2011年世锦赛女单铜牌；最高世界第2（2013年）；2012年新加坡超级系列赛冠军；2004、2008、2012年三届奥运会",
+      "es": "Bronce en individual femenino en el Mundial de 2011; número 2 del mundo en su mejor posición (2013); campeona del Super Series de Singapur 2012; tres Juegos Olímpicos (2004, 2008 y 2012)."
+    },
+    "desc": {
+      "zh": "BWF资料中她自填的打法是“进攻型”。2013年印尼公开赛半决赛，她用跳杀、犀利的拦截和细腻的网前球压制塞娜；2012年丹麦公开赛击败李雪芮时，她移动好、击球又重又准。",
+      "es": "En su ficha de la BWF ella misma indica que su estilo es «ofensivo». En la semifinal del Abierto de Indonesia 2013 dominó a Saina Nehwal con remates en salto, interceptaciones incisivas y golpes finos en la red; al derrotar a Li Xuerui en el Abierto de Dinamarca 2012, se movió bien y golpeó con mucha potencia y precisión."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Juliane_Schenk"
     }
   }
 ]

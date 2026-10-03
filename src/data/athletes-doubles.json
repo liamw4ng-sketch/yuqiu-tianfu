@@ -70,7 +70,7 @@
         "nameZh": "法贾·阿尔菲安",
         "sex": "M",
         "heightCm": 177,
-        "weightKg": null,
+        "weightKg": 68,
         "hand": "R",
         "position": "both",
         "role": {
@@ -164,7 +164,7 @@
         "nameZh": "谢定峰",
         "sex": "M",
         "heightCm": 168,
-        "weightKg": null,
+        "weightKg": 68,
         "hand": "R",
         "position": "back",
         "role": {
@@ -211,7 +211,7 @@
         "nameZh": "萨维克赛拉吉·兰基雷迪",
         "sex": "M",
         "heightCm": 184,
-        "weightKg": null,
+        "weightKg": 77,
         "hand": "R",
         "position": "back",
         "role": {
@@ -352,7 +352,7 @@
         "nameZh": "本·莱恩",
         "sex": "M",
         "heightCm": 175,
-        "weightKg": null,
+        "weightKg": 70,
         "hand": "L",
         "position": "both",
         "role": {
@@ -399,7 +399,7 @@
         "nameZh": "保木卓朗",
         "sex": "M",
         "heightCm": 167,
-        "weightKg": null,
+        "weightKg": 62,
         "hand": "R",
         "position": "front",
         "role": {
@@ -412,7 +412,7 @@
         "nameZh": "小林优吾",
         "sex": "M",
         "heightCm": 175,
-        "weightKg": null,
+        "weightKg": 72,
         "hand": "L",
         "position": "back",
         "role": {
@@ -493,7 +493,7 @@
         "nameZh": "傅海峰",
         "sex": "M",
         "heightCm": 181,
-        "weightKg": null,
+        "weightKg": 78,
         "hand": "L",
         "position": "back",
         "role": {
@@ -506,7 +506,7 @@
         "nameZh": "蔡赟",
         "sex": "M",
         "heightCm": 182,
-        "weightKg": null,
+        "weightKg": 68,
         "hand": "R",
         "position": "front",
         "role": {
@@ -540,7 +540,7 @@
         "nameZh": "凯文·桑加亚·苏卡穆约",
         "sex": "M",
         "heightCm": 170,
-        "weightKg": null,
+        "weightKg": 60,
         "hand": "R",
         "position": "front",
         "role": {
@@ -553,7 +553,7 @@
         "nameZh": "马库斯·费尔纳尔迪·吉迪恩",
         "sex": "M",
         "heightCm": 168,
-        "weightKg": null,
+        "weightKg": 66,
         "hand": "R",
         "position": "back",
         "role": {
@@ -587,7 +587,7 @@
         "nameZh": "穆罕默德·阿山",
         "sex": "M",
         "heightCm": 173,
-        "weightKg": null,
+        "weightKg": 72,
         "hand": "R",
         "position": "back",
         "role": {
@@ -600,7 +600,7 @@
         "nameZh": "亨德拉·塞蒂亚万",
         "sex": "M",
         "heightCm": 183,
-        "weightKg": null,
+        "weightKg": 82,
         "hand": "R",
         "position": "front",
         "role": {
@@ -741,7 +741,7 @@
         "nameZh": "李绍希",
         "sex": "F",
         "heightCm": 171,
-        "weightKg": null,
+        "weightKg": 67,
         "hand": "R",
         "position": "both",
         "role": {
@@ -775,7 +775,7 @@
         "nameZh": "福岛由纪",
         "sex": "F",
         "heightCm": 164,
-        "weightKg": null,
+        "weightKg": 57,
         "hand": "R",
         "position": "both",
         "role": {
@@ -882,7 +882,7 @@
         "nameZh": "蒂娜·穆拉里塔兰",
         "sex": "F",
         "heightCm": 164,
-        "weightKg": null,
+        "weightKg": 60,
         "hand": "R",
         "position": "front",
         "role": {
@@ -1151,7 +1151,7 @@
         "nameZh": "高桥礼华",
         "sex": "F",
         "heightCm": 164,
-        "weightKg": null,
+        "weightKg": 60,
         "hand": "R",
         "position": "back",
         "role": {
@@ -1164,7 +1164,7 @@
         "nameZh": "松友美佐纪",
         "sex": "F",
         "heightCm": 159,
-        "weightKg": null,
+        "weightKg": 50,
         "hand": "R",
         "position": "front",
         "role": {
@@ -1540,7 +1540,7 @@
         "nameZh": "赖洁敏",
         "sex": "F",
         "heightCm": 169,
-        "weightKg": null,
+        "weightKg": 60,
         "hand": "L",
         "position": "front",
         "role": {
@@ -1621,7 +1621,7 @@
         "nameZh": "张楠",
         "sex": "M",
         "heightCm": 184,
-        "weightKg": null,
+        "weightKg": 75,
         "hand": "R",
         "position": "back",
         "role": {
@@ -1634,7 +1634,7 @@
         "nameZh": "赵芸蕾",
         "sex": "F",
         "heightCm": 173,
-        "weightKg": null,
+        "weightKg": 60,
         "hand": "R",
         "position": "front",
         "role": {
@@ -1668,7 +1668,7 @@
         "nameZh": "通托维·艾哈迈德",
         "sex": "M",
         "heightCm": 179,
-        "weightKg": null,
+        "weightKg": 72,
         "hand": "R",
         "position": "back",
         "role": {
@@ -1681,7 +1681,7 @@
         "nameZh": "利利亚纳·纳西尔",
         "sex": "F",
         "heightCm": 168,
-        "weightKg": null,
+        "weightKg": 62,
         "hand": "R",
         "position": "front",
         "role": {

@@ -10,7 +10,7 @@ const COUNTRY_ES = {
   中国: 'China', 中国台北: 'China Taipéi', 中国香港: 'Hong Kong (China)', 印尼: 'Indonesia', 马来西亚: 'Malasia',
   丹麦: 'Dinamarca', 日本: 'Japón', 韩国: 'Corea del Sur', 泰国: 'Tailandia', 印度: 'India', 西班牙: 'España',
   新加坡: 'Singapur', 法国: 'Francia', 加拿大: 'Canadá', 英格兰: 'Inglaterra', 美国: 'Estados Unidos',
-  越南: 'Vietnam', 德国: 'Alemania',
+  越南: 'Vietnam', 德国: 'Alemania', 爱尔兰: 'Irlanda', 苏格兰: 'Escocia',
 }
 const STYLE = {
   进攻压制型: 'attack', 四方拉吊控制型: 'control', 防守反击型: 'counter',

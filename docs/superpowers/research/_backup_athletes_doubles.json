@@ -83,7 +83,7 @@
           "name_zh": "法贾·阿尔菲安",
           "gender": "M",
           "height_cm": 177,
-          "weight_kg": 68,
+          "weight_kg": null,
           "handedness": "R",
           "birth_year": 1995,
           "typical_position": "both",
@@ -114,18 +114,15 @@
         "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=88876",
         "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=91440",
         "https://en.wikipedia.org/wiki/2026_China_Open_(badminton)",
-        "https://www.olympedia.org/athletes/quick_search?query=Fajar+Alfian",
-        "https://pbsi.id/2018/08/17/profil-tim-bulutangkis-di-asian-games-2018/",
-        "https://pbsi.id/2019/05/18/profil-tim-piala-sudirman-2019/"
+        "https://www.olympedia.org/athletes/quick_search?query=Fajar+Alfian"
       ],
       "confidence": {
         "pairing_status": "high",
         "highlights": "high",
         "positions": "high",
-        "body_data": "medium",
-        "weight": "medium"
+        "body_data": "medium"
       },
-      "notes": "阿尔菲安出生年份：英文/印尼文维基与Olympedia均为1995年3月7日，BWF官网为1996-03-07，采用1995；身高BWF 177cm、维基176cm。阿尔菲安体重68kg：印尼羽协（PBSI）2018年亚运会、2019年苏迪曼杯参赛名单资料（2018–2019年数据，2026-10-03补充）；菲克里体重无可靠来源，仍为null。2025年因阿迪安托家庭原因、马丁受伤而临时组合，夺中国公开赛后转为固定搭档；2026年7月卫冕中国公开赛。2026年9月随印尼队夺亚运会男团金牌。",
+      "notes": "阿尔菲安出生年份：英文/印尼文维基与Olympedia均为1995年3月7日，BWF官网为1996-03-07，采用1995；身高BWF 177cm、维基176cm。体重仅有维基无引用数据，置null。2025年因阿迪安托家庭原因、马丁受伤而临时组合，夺中国公开赛后转为固定搭档；2026年7月卫冕中国公开赛。2026年9月随印尼队夺亚运会男团金牌。",
       "verified": true,
       "verification_note": "已复核：BWF第39周第2；2025、2026中国公开赛冠军，2026日本公开赛冠军、新加坡公开赛亚军（18-21 21-17 21-16负兰基雷迪/谢提）。修正：补2026中国公开赛卫冕；删除无法在所引来源中找到的菲克里‘原话’；法贾体重置null。"
     },
@@ -205,7 +202,7 @@
           "name_zh": "谢定峰",
           "gender": "M",
           "height_cm": 168,
-          "weight_kg": 68,
+          "weight_kg": null,
           "handedness": "R",
           "birth_year": 1997,
           "typical_position": "back",
@@ -232,17 +229,15 @@
         "https://en.wikipedia.org/wiki/Aaron_Chia",
         "https://en.wikipedia.org/wiki/Soh_Wooi_Yik",
         "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=56203",
-        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=99389",
-        "https://web.archive.org/web/20240303120119/https://www.birmingham2022.com/athletes/teng-fong-aaron-chia/5a32f682-b5c0-446f-a8ce-33175dc88aa7"
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=99389"
       ],
       "confidence": {
         "pairing_status": "high",
         "highlights": "high",
         "positions": "high",
-        "body_data": "high",
-        "weight": "high"
+        "body_data": "high"
       },
-      "notes": "注意：这是“矮个后场、高个前场”的反例组合，不要按身高想当然。苏伟译体重仅有无引用的维基数据，置null。谢定峰体重68kg：2022年伯明翰英联邦运动会官方运动员资料（2022年数据，当时身高记为170cm；2026-10-03补充）。",
+      "notes": "注意：这是“矮个后场、高个前场”的反例组合，不要按身高想当然。苏伟译体重仅有无引用的维基数据，置null。",
       "verified": true,
       "verification_note": "已复核：BWF第39周第4；2022世锦赛冠军（马来西亚首个世锦赛冠军）、东京/巴黎两届奥运铜牌、2026世锦赛银牌、2025亚锦赛冠军均确认；Tatler Asia原文确认“苏伟译前场组织、谢定峰后场进攻”。修正：苏伟译体重置null。"
     },
@@ -262,7 +257,7 @@
           "name_zh": "萨维克赛拉吉·兰基雷迪",
           "gender": "M",
           "height_cm": 184,
-          "weight_kg": 77,
+          "weight_kg": null,
           "handedness": "R",
           "birth_year": 2000,
           "typical_position": "back",
@@ -291,17 +286,15 @@
         "https://en.wikipedia.org/wiki/Chirag_Shetty",
         "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=72435",
         "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=70500",
-        "https://en.wikipedia.org/wiki/2026_China_Masters",
-        "https://web.archive.org/web/20180625132430/https://results.gc2018.com/en/badminton/athlete-profile-n6018898-satwik-rankireddy.htm"
+        "https://en.wikipedia.org/wiki/2026_China_Masters"
       ],
       "confidence": {
         "pairing_status": "high",
         "highlights": "high",
         "positions": "high",
-        "body_data": "medium",
-        "weight": "medium"
+        "body_data": "medium"
       },
-      "notes": "杭州亚运会为第19届亚运会（2023年举行）。谢提身高BWF 186cm、维基187cm，采用BWF。兰基雷迪体重77kg：2018年黄金海岸英联邦运动会官方运动员资料（2018年数据，时年17岁，身高183cm；2026-10-03补充）。谢提同一资料记为180cm/62kg，与其现身高186–187cm明显不符，判断为旧数据，体重仍为null。2026年9月随印度队获名古屋亚运会男团铜牌。",
+      "notes": "杭州亚运会为第19届亚运会（2023年举行）。谢提身高BWF 186cm、维基187cm，采用BWF。两人体重仅有无引用的维基数据，置null。2026年9月随印度队获名古屋亚运会男团铜牌。",
       "verified": true,
       "verification_note": "已复核：BWF第39周第5；2022、2025世锦赛铜牌、2026新加坡公开赛冠军均确认。修正：补2026年中国大师赛冠军（9月，决赛胜何济霆/任翔宇）；两人体重置null；更新亚运会信息。"
     },
@@ -432,7 +425,7 @@
           "name_zh": "本·莱恩",
           "gender": "M",
           "height_cm": 175,
-          "weight_kg": 70,
+          "weight_kg": null,
           "handedness": "L",
           "birth_year": 1997,
           "typical_position": "both",
@@ -461,17 +454,15 @@
         "https://en.wikipedia.org/wiki/Sean_Vendy",
         "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=76278",
         "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=72478",
-        "https://en.wikipedia.org/wiki/European_Badminton_Championships",
-        "https://web.archive.org/web/20190826022338/https://results.gc2018.com/en/badminton/athlete-profile-n6031875-ben-lane.htm"
+        "https://en.wikipedia.org/wiki/European_Badminton_Championships"
       ],
       "confidence": {
         "pairing_status": "high",
         "highlights": "high",
         "positions": "low",
-        "body_data": "high",
-        "weight": "high"
+        "body_data": "high"
       },
-      "notes": "欧锦赛2026冠军为英格兰自1998年阿彻/亨特之后首个欧锦赛男双冠军（维基欧锦赛历届冠军表）。莱恩体重70kg：2018年黄金海岸英联邦运动会官方运动员资料（2018年数据，身高175cm一致；2026-10-03补充）；文迪体重无可靠来源，仍为null。",
+      "notes": "欧锦赛2026冠军为英格兰自1998年阿彻/亨特之后首个欧锦赛男双冠军（维基欧锦赛历届冠军表）。莱恩体重仅有无引用维基数据，置null。",
       "verified": true,
       "verification_note": "已复核：BWF第39周第8；2026欧锦赛冠军（英格兰1998年后首次）、2025北极公开赛冠军（决赛胜谢定峰/苏伟译，为其第三个世界巡回赛冠军）、2022英联邦银牌确认；BWF报道确认莱恩脚踝伤停赛三个月、文迪“变速和进攻”原话、搭档超过十年。修正：莱恩体重置null。"
     },
@@ -491,7 +482,7 @@
           "name_zh": "保木卓朗",
           "gender": "M",
           "height_cm": 167,
-          "weight_kg": 62,
+          "weight_kg": null,
           "handedness": "R",
           "birth_year": 1995,
           "typical_position": "front",
@@ -503,7 +494,7 @@
           "name_zh": "小林优吾",
           "gender": "M",
           "height_cm": 175,
-          "weight_kg": 72,
+          "weight_kg": null,
           "handedness": "L",
           "birth_year": 1995,
           "typical_position": "back",
@@ -519,18 +510,15 @@
         "https://en.wikipedia.org/wiki/Takuro_Hoki",
         "https://en.wikipedia.org/wiki/Yugo_Kobayashi",
         "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=81657",
-        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=67903",
-        "https://web.archive.org/web/20191230023858/http://www.tonami-badminton.jp/players/takurou_hoki.html",
-        "https://web.archive.org/web/20200410131403/http://www.tonami-badminton.jp/players/yuugo_kobayashi.html"
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=67903"
       ],
       "confidence": {
         "pairing_status": "high",
         "highlights": "high",
         "positions": "high",
-        "body_data": "high",
-        "weight": "high"
+        "body_data": "high"
       },
-      "notes": "保木身高：BWF与日文维基167cm，英文维基166cm。体重：保木62kg、小林72kg，来自所属队砺波运输（トナミ運輸）官网选手资料（2019–2020年存档，身高166/175cm；2026-10-03补充）。保木生日BWF为8月14日、日文维基为8月15日，年份一致。小林2023年日本公开赛443km/h杀球见日文维基。",
+      "notes": "保木身高：BWF与日文维基167cm，英文维基166cm。两人体重仅有无引用的维基数据，置null。保木生日BWF为8月14日、日文维基为8月15日，年份一致。小林2023年日本公开赛443km/h杀球见日文维基。",
       "verified": true,
       "verification_note": "已复核：BWF第39周第9；2021世锦赛冠军、2019世锦赛银牌、2021总决赛冠军（决赛胜吉迪恩/苏卡穆约）、2022-09-20登顶均确认；日文维基确认小林左手、443km/h及两人可互换前后场。修正：补2025丹麦公开赛冠军；两人体重置null。"
     },
@@ -608,7 +596,7 @@
           "name_zh": "傅海峰",
           "gender": "M",
           "height_cm": 181,
-          "weight_kg": 78,
+          "weight_kg": null,
           "handedness": "L",
           "birth_year": 1984,
           "typical_position": "back",
@@ -620,7 +608,7 @@
           "name_zh": "蔡赟",
           "gender": "M",
           "height_cm": 182,
-          "weight_kg": 68,
+          "weight_kg": null,
           "handedness": "R",
           "birth_year": 1980,
           "typical_position": "front",
@@ -637,18 +625,15 @@
         "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=51729",
         "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=50251",
         "https://www.olympedia.org/athletes/quick_search?query=Fu+Haifeng",
-        "https://www.olympedia.org/athletes/quick_search?query=Cai+Yun",
-        "https://www.olympedia.org/athletes/105879",
-        "https://www.olympedia.org/athletes/105880"
+        "https://www.olympedia.org/athletes/quick_search?query=Cai+Yun"
       ],
       "confidence": {
         "pairing_status": "high",
         "highlights": "high",
         "positions": "high",
-        "body_data": "medium",
-        "weight": "medium"
+        "body_data": "medium"
       },
-      "notes": "两人均已退役：蔡赟2016年6月宣布退役；傅海峰2017年9月天津全运会后退役。傅海峰出生日期：BWF与Olympedia均为1984-01-02，中英文维基为1983-08-23，采用1984；身高BWF与Olympedia 181cm。蔡赟身高BWF 182cm、Olympedia 181cm。体重取Olympedia运动员资料：傅海峰78kg、蔡赟68kg（2026-10-03补充）；维基另有傅海峰70kg、蔡赟65/70kg等无出处或旧数据。",
+      "notes": "两人均已退役：蔡赟2016年6月宣布退役；傅海峰2017年9月天津全运会后退役。傅海峰出生日期：BWF与Olympedia均为1984-01-02，中英文维基为1983-08-23，采用1984；身高BWF与Olympedia 181cm。蔡赟身高BWF 182cm、Olympedia 181cm。两人体重各来源冲突（傅海峰70/78kg，蔡赟65/68/70kg），均置null。",
       "verified": true,
       "verification_note": "已复核：奥运、世锦赛、汤杯战绩与名人堂均确认；蔡赟由单打转双打、网前分工（中文维基）确认。修正：“搭档13年”改为“十余年”；补2021名人堂；傅海峰体重因来源冲突置null；补充退役时间出处。"
     },
@@ -668,7 +653,7 @@
           "name_zh": "凯文·桑加亚·苏卡穆约",
           "gender": "M",
           "height_cm": 170,
-          "weight_kg": 60,
+          "weight_kg": null,
           "handedness": "R",
           "birth_year": 1995,
           "typical_position": "front",
@@ -680,7 +665,7 @@
           "name_zh": "马库斯·费尔纳尔迪·吉迪恩",
           "gender": "M",
           "height_cm": 168,
-          "weight_kg": 66,
+          "weight_kg": null,
           "handedness": "R",
           "birth_year": 1991,
           "typical_position": "back",
@@ -695,20 +680,15 @@
         "https://en.wikipedia.org/wiki/Marcus_Fernaldi_Gideon",
         "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=80057",
         "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=26394",
-        "https://www.olympedia.org/athletes/quick_search?query=Kevin+Sanjaya+Sukamuljo",
-        "https://pbsi.id/2018/08/17/profil-tim-bulutangkis-di-asian-games-2018/",
-        "https://pbsi.id/2019/05/18/profil-tim-piala-sudirman-2019/",
-        "https://web.archive.org/web/20181108065604/https://en.asiangames2018.id/athletes/athlete/SUKAMULJO-Kevin-Sanjaya-3017905/",
-        "https://web.archive.org/web/20180907195002/https://www.asiangames2018.id/athletes/athlete/GIDEON-Marcus-Fernaldi-3017906/"
+        "https://www.olympedia.org/athletes/quick_search?query=Kevin+Sanjaya+Sukamuljo"
       ],
       "confidence": {
         "pairing_status": "high",
         "highlights": "high",
         "positions": "high",
-        "body_data": "medium",
-        "weight": "medium"
+        "body_data": "medium"
       },
-      "notes": "吉迪恩2024年3月宣布退役，苏卡穆约2024年5月16日宣布退役。苏卡穆约出生年份：英文维基与Olympedia均为1995-08-02，BWF为1996-08-02，采用1995。体重：苏卡穆约60kg、吉迪恩66kg，来自印尼羽协（PBSI）2018年亚运会、2019年苏迪曼杯参赛名单资料（2018–2019年数据，2026-10-03补充）；2018年亚运会官网资料记为59kg、70kg。",
+      "notes": "吉迪恩2024年3月宣布退役，苏卡穆约2024年5月16日宣布退役。苏卡穆约出生年份：英文维基与Olympedia均为1995-08-02，BWF为1996-08-02，采用1995。体重无可靠来源。",
       "verified": true,
       "verification_note": "已复核：BWF 2024-03-21长文确认“226周世界第一”、2018亚运金牌、2020汤杯冠军、苏卡穆约网前抢截/吉迪恩主要在后场；2017超级系列赛总决赛冠军确认。修正：苏卡穆约体重置null；出生年份补Olympedia佐证。"
     },
@@ -728,7 +708,7 @@
           "name_zh": "穆罕默德·阿山",
           "gender": "M",
           "height_cm": 173,
-          "weight_kg": 72,
+          "weight_kg": null,
           "handedness": "R",
           "birth_year": 1987,
           "typical_position": "back",
@@ -740,7 +720,7 @@
           "name_zh": "亨德拉·塞蒂亚万",
           "gender": "M",
           "height_cm": 183,
-          "weight_kg": 82,
+          "weight_kg": null,
           "handedness": "R",
           "birth_year": 1984,
           "typical_position": "front",
@@ -756,19 +736,15 @@
         "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=52749",
         "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=51074",
         "https://www.olympedia.org/athletes/quick_search?query=Mohammad+Ahsan",
-        "https://www.olympedia.org/athletes/quick_search?query=Hendra+Setiawan",
-        "https://www.olympedia.org/athletes/124951",
-        "https://www.olympedia.org/athletes/112858",
-        "https://pbsi.id/2019/05/18/profil-tim-piala-sudirman-2019/"
+        "https://www.olympedia.org/athletes/quick_search?query=Hendra+Setiawan"
       ],
       "confidence": {
         "pairing_status": "high",
         "highlights": "high",
         "positions": "high",
-        "body_data": "medium",
-        "weight": "high"
+        "body_data": "medium"
       },
-      "notes": "塞蒂亚万2024年12月宣布退役，两人以2025年1月印尼大师赛为告别赛。三次赛季总决赛冠军为2013、2015年超级系列赛总决赛与2019年世界巡回赛总决赛。体重取Olympedia运动员资料：阿山72kg、塞蒂亚万82kg，与印尼羽协2019年苏迪曼杯参赛资料（73kg、80kg）相差不超过2kg（2026-10-03补充）。",
+      "notes": "塞蒂亚万2024年12月宣布退役，两人以2025年1月印尼大师赛为告别赛。三次赛季总决赛冠军为2013、2015年超级系列赛总决赛与2019年世界巡回赛总决赛。体重维基与Olympedia冲突，置null。",
       "verified": true,
       "verification_note": "已复核：2013/2015/2019世锦赛、2019全英赛、三次赛季总决赛冠军、塞蒂亚万2008奥运金牌与退役时间均确认。修正：两人体重因与Olympedia冲突置null。"
     },
@@ -912,7 +888,7 @@
           "name_zh": "李绍希",
           "gender": "F",
           "height_cm": 171,
-          "weight_kg": 67,
+          "weight_kg": null,
           "handedness": "R",
           "birth_year": 1994,
           "typical_position": "both",
@@ -929,17 +905,15 @@
         "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=56706",
         "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=91292",
         "https://bwfworldchampionships.bwfbadminton.com/news-single/2026/08/24/french-scale-dizzy-heights/",
-        "https://en.wikipedia.org/wiki/2024_Badminton_Asia_Championships",
-        "https://www.olympedia.org/athletes/130928"
+        "https://en.wikipedia.org/wiki/2024_Badminton_Asia_Championships"
       ],
       "confidence": {
         "pairing_status": "high",
         "highlights": "high",
         "positions": "low",
-        "body_data": "high",
-        "weight": "medium"
+        "body_data": "high"
       },
-      "notes": "前后场分工未找到可核实的权威资料，两人均标为both。李绍希体重67kg：Olympedia运动员资料（2026-10-03补充）；2015年光州大运会资料为64kg（旧数据）。白荷娜体重无可靠来源，仍为null。",
+      "notes": "前后场分工未找到可核实的权威资料，两人均标为both。李绍希体重无可靠来源，置null。",
       "verified": true,
       "verification_note": "已复核：BWF第39周第2；2026世锦赛冠军（韩国第二枚、31年来首枚女双世锦赛金牌）、2025总决赛冠军（决赛胜福岛由纪/松本麻佑）、2024-10-29登顶确认。修正：删除无法核实的“双后场型”描述，李绍希位置改为both，体重置null；补2024亚锦赛冠军与“最年长女双世界冠军”。"
     },
@@ -959,7 +933,7 @@
           "name_zh": "福岛由纪",
           "gender": "F",
           "height_cm": 164,
-          "weight_kg": 57,
+          "weight_kg": null,
           "handedness": "R",
           "birth_year": 1993,
           "typical_position": "both",
@@ -989,17 +963,15 @@
         "https://en.wikipedia.org/wiki/Yuki_Fukushima",
         "https://en.wikipedia.org/wiki/Mayu_Matsumoto",
         "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=71023",
-        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=81609",
-        "https://web.archive.org/web/20220117115009/https://www.badminton.or.jp/profile/fukushima_yuki.html"
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=81609"
       ],
       "confidence": {
         "pairing_status": "high",
         "highlights": "high",
         "positions": "medium",
-        "body_data": "high",
-        "weight": "high"
+        "body_data": "high"
       },
-      "notes": "首站为2024年11月熊本大师赛（亚军，决赛负刘圣书/谭宁）。松本体重69kg来自英文维基所引日本羽协官方选手资料（旧数据）。福岛体重57kg：日本羽协官网选手资料（2019–2022年存档，身高164cm一致；2026-10-03补充）。",
+      "notes": "首站为2024年11月熊本大师赛（亚军，决赛负刘圣书/谭宁）。松本体重69kg来自英文维基所引日本羽协官方选手资料（旧数据）。",
       "verified": true,
       "verification_note": "已复核：BWF第39周第3；2025马来西亚公开赛冠军、2025总决赛亚军、2026印尼公开赛冠军、2026中国公开赛亚军确认；J SPORTS原文确认福岛为“后卫选手、正在打磨前场”；福岛三次世锦赛银牌（2017-2019）确认。修正：补2025法国公开赛冠军。"
     },
@@ -1088,7 +1060,7 @@
           "name_zh": "蒂娜·穆拉里塔兰",
           "gender": "F",
           "height_cm": 164,
-          "weight_kg": 60,
+          "weight_kg": null,
           "handedness": "R",
           "birth_year": 1998,
           "typical_position": "front",
@@ -1105,17 +1077,15 @@
         "https://en.wikipedia.org/wiki/Pearly_Tan",
         "https://en.wikipedia.org/wiki/Thinaah_Muralitharan",
         "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=85551",
-        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=68628",
-        "https://web.archive.org/web/20240303115805/https://www.birmingham2022.com/athletes/thinaah-muralitharan/b985ee41-a4c1-4dfa-ba17-29e8037c98b8"
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=68628"
       ],
       "confidence": {
         "pairing_status": "high",
         "highlights": "high",
         "positions": "medium",
-        "body_data": "high",
-        "weight": "high"
+        "body_data": "high"
       },
-      "notes": "穆拉里塔兰体重60kg：2022年伯明翰英联邦运动会官方运动员资料（2022年数据，身高164cm一致；2026-10-03补充）；陈康乐体重无可靠来源，仍为null。",
+      "notes": "体重无可靠来源。",
       "verified": true,
       "verification_note": "已复核：BWF第39周第5；2025世锦赛银牌（维基世锦赛奖牌榜显示为马来西亚唯一一枚女双奖牌）、巴黎奥运四强、2022英联邦金牌、2025-07-29最高第2均确认。无需修改。"
     },
@@ -1473,7 +1443,7 @@
           "name_zh": "高桥礼华",
           "gender": "F",
           "height_cm": 164,
-          "weight_kg": 60,
+          "weight_kg": null,
           "handedness": "R",
           "birth_year": 1990,
           "typical_position": "back",
@@ -1485,7 +1455,7 @@
           "name_zh": "松友美佐纪",
           "gender": "F",
           "height_cm": 159,
-          "weight_kg": 50,
+          "weight_kg": null,
           "handedness": "R",
           "birth_year": 1992,
           "typical_position": "front",
@@ -1499,18 +1469,15 @@
         "https://ja.wikipedia.org/wiki/松友美佐紀",
         "https://ja.wikipedia.org/wiki/高橋礼華_(バドミントン選手)",
         "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=16981",
-        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=43851",
-        "https://www.olympedia.org/athletes/130764",
-        "https://www.olympedia.org/athletes/130765"
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=43851"
       ],
       "confidence": {
         "pairing_status": "high",
         "highlights": "high",
         "positions": "medium",
-        "body_data": "high",
-        "weight": "medium"
+        "body_data": "high"
       },
-      "notes": "高桥2020年8月退役；松友此后改打混双，2025年落选日本国家队、3月底离开BIPROGY后以自由身继续活动（日文维基；BIPROGY官网队员名单已无松友）。高桥身高BWF 164cm、日文维基与Olympedia 165cm。体重取Olympedia运动员资料：高桥60kg、松友50kg（2026-10-03补充）。",
+      "notes": "高桥2020年8月退役；松友此后改打混双，2025年落选日本国家队、3月底离开BIPROGY后以自由身继续活动（日文维基；BIPROGY官网队员名单已无松友）。高桥身高BWF 164cm、日文维基与Olympedia 165cm。",
       "verified": true,
       "verification_note": "已复核：里约奥运金牌、2016全英赛冠军、2014/2018年终总决赛冠军、2014-10-20登顶、高桥2020年退役确认。修正：年度最佳女运动员为2016年而非2017年。"
     },
@@ -2047,7 +2014,7 @@
           "name_zh": "赖洁敏",
           "gender": "F",
           "height_cm": 169,
-          "weight_kg": 60,
+          "weight_kg": null,
           "handedness": "L",
           "birth_year": 1993,
           "typical_position": "front",
@@ -2061,17 +2028,15 @@
         "https://en.wikipedia.org/wiki/Shevon_Jemie_Lai",
         "https://zh.wikipedia.org/wiki/吳塤閥",
         "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=92593",
-        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=56352",
-        "https://web.archive.org/web/20180411174458/https://results.gc2018.com/en/badminton/athlete-profile-n6027431-shevon-jemie-lai.htm"
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=56352"
       ],
       "confidence": {
         "pairing_status": "high",
         "highlights": "medium",
         "positions": "medium",
-        "body_data": "medium",
-        "weight": "high"
+        "body_data": "medium"
       },
-      "notes": "吴顺发身高BWF 178cm、维基179cm；体重英文维基65kg、中文维基75kg，冲突，置null。赖洁敏体重60kg：2018年黄金海岸英联邦运动会官方运动员资料（2018年数据，身高169cm一致；2026-10-03补充）。吴顺发两份官方资料冲突（2013年喀山大运会75kg、2018年英联邦运动会65kg），仍为null。吴顺发曾是单打选手（2013年马来西亚大奖赛金奖男单亚军）。",
+      "notes": "吴顺发身高BWF 178cm、维基179cm；体重英文维基65kg、中文维基75kg，冲突，置null。赖洁敏体重仅有无引用维基数据，置null。吴顺发曾是单打选手（2013年马来西亚大奖赛金奖男单亚军）。",
       "verified": true,
       "verification_note": "已复核：BWF第39周第10；2018新加坡公开赛冠军（21-19 21-18胜艾哈迈德/纳西尔）、2025-02-18最高第3、赖洁敏左手（BWF）确认。修正：补2024中国公开赛冠军；赖洁敏体重置null。"
     },
@@ -2144,7 +2109,7 @@
           "name_zh": "张楠",
           "gender": "M",
           "height_cm": 184,
-          "weight_kg": 75,
+          "weight_kg": null,
           "handedness": "R",
           "birth_year": 1990,
           "typical_position": "back",
@@ -2156,7 +2121,7 @@
           "name_zh": "赵芸蕾",
           "gender": "F",
           "height_cm": 173,
-          "weight_kg": 60,
+          "weight_kg": null,
           "handedness": "R",
           "birth_year": 1986,
           "typical_position": "front",
@@ -2171,18 +2136,15 @@
         "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=35357",
         "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=54522",
         "https://www.olympedia.org/athletes/quick_search?query=Zhang+Nan",
-        "https://www.olympedia.org/athletes/quick_search?query=Zhao+Yunlei",
-        "https://www.olympedia.org/athletes/121936",
-        "https://www.olympedia.org/athletes/121939"
+        "https://www.olympedia.org/athletes/quick_search?query=Zhao+Yunlei"
       ],
       "confidence": {
         "pairing_status": "high",
         "highlights": "high",
         "positions": "medium",
-        "body_data": "medium",
-        "weight": "high"
+        "body_data": "medium"
       },
-      "notes": "赵芸蕾2016年里约奥运会（与张楠获混双铜牌）后退出国际赛场，2018年回国家队任助理教练；张楠2022年8月宣布退出国家队（表示将以职业球员身份继续参赛），组合早已不再出赛。张楠身高BWF 184cm、维基与Olympedia 183cm；赵芸蕾身高BWF与Olympedia 173cm。体重取Olympedia运动员资料：张楠75kg、赵芸蕾60kg，与Sports-Reference（74kg、61kg）相差不超过2kg（2026-10-03补充）。",
+      "notes": "赵芸蕾2016年里约奥运会（与张楠获混双铜牌）后退出国际赛场，2018年回国家队任助理教练；张楠2022年8月宣布退出国家队（表示将以职业球员身份继续参赛），组合早已不再出赛。张楠身高BWF 184cm、维基与Olympedia 183cm；赵芸蕾身高BWF与Olympedia 173cm。两人体重各来源不一致（张楠74/75kg，赵芸蕾60/61kg），置null。",
       "verified": true,
       "verification_note": "已复核：伦敦奥运混双金牌、2011/2014/2015世锦赛混双冠军、2014亚运会混双金牌、赵芸蕾伦敦女双金牌、张楠里约男双金牌确认。修正：原注释“张楠已退役”无法证实（他2022年只宣布退出国家队），改为准确表述；pair_style身高表述与数据统一。"
     },
@@ -2202,7 +2164,7 @@
           "name_zh": "通托维·艾哈迈德",
           "gender": "M",
           "height_cm": 179,
-          "weight_kg": 72,
+          "weight_kg": null,
           "handedness": "R",
           "birth_year": 1987,
           "typical_position": "back",
@@ -2214,7 +2176,7 @@
           "name_zh": "利利亚纳·纳西尔",
           "gender": "F",
           "height_cm": 168,
-          "weight_kg": 62,
+          "weight_kg": null,
           "handedness": "R",
           "birth_year": 1985,
           "typical_position": "front",
@@ -2228,19 +2190,15 @@
         "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=54267",
         "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=14727",
         "https://www.olympedia.org/athletes/quick_search?query=Tontowi+Ahmad",
-        "https://www.olympedia.org/athletes/quick_search?query=Liliyana+Natsir",
-        "https://www.olympedia.org/athletes/124904",
-        "https://www.olympedia.org/athletes/112841",
-        "https://pbsi.id/2019/05/18/profil-tim-piala-sudirman-2019/"
+        "https://www.olympedia.org/athletes/quick_search?query=Liliyana+Natsir"
       ],
       "confidence": {
         "pairing_status": "high",
         "highlights": "high",
         "positions": "medium",
-        "body_data": "medium",
-        "weight": "medium"
+        "body_data": "medium"
       },
-      "notes": "艾哈迈德身高BWF与Olympedia 179cm、英文维基183cm，采用BWF；纳西尔身高BWF 168cm、Olympedia 169cm。体重取Olympedia运动员资料：艾哈迈德72kg、纳西尔62kg（2026-10-03补充）；印尼羽协2019年资料记艾哈迈德75kg，2010年广州亚运会资料记两人70kg、59kg（年份不同）。纳西尔2019年1月退役，艾哈迈德2020年5月退役。",
+      "notes": "艾哈迈德身高BWF与Olympedia 179cm、英文维基183cm，采用BWF；纳西尔身高BWF 168cm、Olympedia 169cm。两人体重维基与Olympedia冲突，置null。纳西尔2019年1月退役，艾哈迈德2020年5月退役。",
       "verified": true,
       "verification_note": "已复核：里约奥运金牌、2013/2017世锦赛冠军、2012-2014全英三连冠、2018-05-03登顶、纳西尔2022年入选名人堂确认。修正：两人体重因与Olympedia冲突置null。"
     }

@@ -8,7 +8,7 @@
       "country_zh": "印尼",
       "gender": "M",
       "height_cm": 179,
-      "weight_kg": 79,
+      "weight_kg": null,
       "handedness": "R",
       "birth_year": 1997,
       "status": "active",
@@ -31,17 +31,14 @@
         "https://en.wikipedia.org/wiki/Jonatan_Christie",
         "https://zh.wikipedia.org/wiki/%E4%B9%94%E7%BA%B3%E5%9D%A6%C2%B7%E5%85%8B%E9%87%8C%E6%96%AF%E8%92%82",
         "https://en.wikipedia.org/wiki/BWF_World_Ranking",
-        "https://www.olympics.com/en/news/badminton-bwf-singles-world-rankings-complete-list",
-        "https://pbsi.id/2018/08/17/profil-tim-bulutangkis-di-asian-games-2018/",
-        "https://pbsi.id/2019/05/18/profil-tim-piala-sudirman-2019/",
-        "https://web.archive.org/web/20181112101322/https://en.asiangames2018.id/athletes/athlete/CHRISTIE-Jonatan-3017902/"
+        "https://www.olympics.com/en/news/badminton-bwf-singles-world-rankings-complete-list"
       ],
       "confidence": {
         "height": "high",
-        "weight": "high",
+        "weight": "low",
         "status": "high"
       },
-      "notes": "身高179cm：BWF、英文维基、中文维基一致。体重79kg：印尼羽协（PBSI）2018年亚运会、2019年苏迪曼杯参赛名单资料与2018年雅加达亚运会官方运动员资料一致（2018–2019年数据，2026-10-03补充）。2026年9月22日BWF排名第一（维基与Olympics.com一致）。",
+      "notes": "身高179cm：BWF、英文维基、中文维基一致。体重：英文维基80kg、中文维基78kg，均无可靠出处，故留空。2026年9月22日BWF排名第一（维基与Olympics.com一致）。",
       "retired_year": null,
       "verified": true,
       "verification_note": "2026-09-26复核：BWF球员资料接口（出生日期/身高/持拍手）与BWF 2026年9月世界排名（现第1）一致；英文维基记2026年8月25日升至第一；全英2024、亚运会2018男单金牌核实。体重无可靠来源，保持留空。"
@@ -53,7 +50,7 @@
       "country_zh": "泰国",
       "gender": "M",
       "height_cm": 173,
-      "weight_kg": 74,
+      "weight_kg": null,
       "handedness": "R",
       "birth_year": 2001,
       "status": "active",
@@ -77,15 +74,14 @@
         "https://en.wikipedia.org/wiki/Kunlavut_Vitidsarn",
         "https://th.wikipedia.org/wiki/%E0%B8%81%E0%B8%B8%E0%B8%A5%E0%B8%A7%E0%B8%B8%E0%B8%92%E0%B8%B4_%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%B4%E0%B8%95%E0%B8%A8%E0%B8%B2%E0%B8%99%E0%B8%95%E0%B9%8C",
         "https://en.wikipedia.org/wiki/2025_BWF_World_Championships",
-        "https://en.wikipedia.org/wiki/BWF_World_Ranking",
-        "https://www.olympedia.org/athletes/2504061"
+        "https://en.wikipedia.org/wiki/BWF_World_Ranking"
       ],
       "confidence": {
         "height": "low",
-        "weight": "medium",
+        "weight": "low",
         "status": "high"
       },
-      "notes": "身高存在分歧：BWF官方资料现为173cm；英文、中文、泰文维基均为177cm（英文维基注明引自BWF页面，可能是旧数据）。按优先官方来源取173cm，置信度低。体重74kg取自Olympedia运动员资料（2026-10-03补充；该资料未注明年份，同页身高175cm，疑为2018年青奥会时数据）；英文维基85kg无出处，未采用。中文名：大陆媒体通常简称“昆拉武特”，全名译法不一（中文维基作“昆拉武特·威提讪”）。",
+      "notes": "身高存在分歧：BWF官方资料现为173cm；英文、中文、泰文维基均为177cm（英文维基注明引自BWF页面，可能是旧数据）。按优先官方来源取173cm，置信度低。英文维基列85kg但无出处，未采用。中文名：大陆媒体通常简称“昆拉武特”，全名译法不一（中文维基作“昆拉武特·威提讪”）。",
       "retired_year": null,
       "verified": true,
       "verification_note": "2026-09-26复核：BWF球员资料接口（出生日期/身高/持拍手）身高173cm、右手、2001年生；世锦赛2023金、2022/2025银，奥运2024银，2025年亚锦赛冠军均核实（英文维基+赛事页）。身高仍与维基177cm冲突，置信度低。“三局之神”对应英文维基所列绰号“Three-Game God”，大陆媒体用法未核实。"
@@ -140,7 +136,7 @@
       "country_zh": "丹麦",
       "gender": "M",
       "height_cm": 183,
-      "weight_kg": 80,
+      "weight_kg": null,
       "handedness": "R",
       "birth_year": 1997,
       "status": "active",
@@ -165,15 +161,14 @@
         "https://zh.wikipedia.org/wiki/%E5%AE%89%E5%BE%B7%E6%96%AF%C2%B7%E5%AE%89%E4%B8%9C%E6%A3%AE",
         "https://bwfworldchampionships.bwfbadminton.com/news-single/2026/08/29/world-championships-review-memorable-matches/",
         "https://en.wikipedia.org/wiki/2025_BWF_World_Championships",
-        "https://en.wikipedia.org/wiki/BWF_World_Ranking",
-        "https://web.archive.org/web/20190825144207/https://minsk2019.by/en/tsrd/athletes/1010464"
+        "https://en.wikipedia.org/wiki/BWF_World_Ranking"
       ],
       "confidence": {
         "height": "high",
-        "weight": "medium",
+        "weight": "low",
         "status": "high"
       },
-      "notes": "身高：BWF、Olympedia、中文维基均为183cm；英文维基185cm（引自2019年欧洲运动会官网）。体重80kg：已通过存档核实2019年明斯克欧洲运动会官网运动员资料（2019年数据；2026-10-03补充）。注意该资料身高记为188cm，与BWF/Olympedia的183cm不符，身高仍取183cm。",
+      "notes": "身高：BWF、Olympedia、中文维基均为183cm；英文维基185cm（引自2019年欧洲运动会官网）。英文维基体重80kg引自该失效页面，未能核实，故留空。",
       "retired_year": null,
       "verified": true,
       "verification_note": "2026-09-26复核：BWF球员资料接口（出生日期/身高/持拍手）183cm、右手；世锦赛2019银+2021/2023/2025铜、欧锦赛2021/2024冠军核实。删除无法找到出处的“BWF称他以稳定著称”；与裁判争执一事有BWF世锦赛回顾报道支持。"
@@ -777,7 +772,7 @@
       "country_zh": "印尼",
       "gender": "M",
       "height_cm": 171,
-      "weight_kg": 65,
+      "weight_kg": null,
       "handedness": "R",
       "birth_year": 1996,
       "status": "active",
@@ -801,16 +796,14 @@
         "https://en.wikipedia.org/wiki/Anthony_Sinisuka_Ginting",
         "https://zh.wikipedia.org/wiki/%E5%AE%89%E4%B8%9C%E5%B0%BC%C2%B7%E8%A5%BF%E5%B0%BC%E8%8B%8F%E5%8D%A1%C2%B7%E9%87%91%E5%BB%B7",
         "https://bwfworldtour.bwfbadminton.com/news-single/2026/05/18/malaysia-masters-ginting-ends-three-year-absence",
-        "https://bwfworldtour.bwfbadminton.com/news-single/2026/03/10/swiss-open-lee-ginting-back-in-action-lin-pulls-out/",
-        "https://pbsi.id/2018/08/17/profil-tim-bulutangkis-di-asian-games-2018/",
-        "https://pbsi.id/2019/05/18/profil-tim-piala-sudirman-2019/"
+        "https://bwfworldtour.bwfbadminton.com/news-single/2026/03/10/swiss-open-lee-ginting-back-in-action-lin-pulls-out/"
       ],
       "confidence": {
         "height": "high",
-        "weight": "medium",
+        "weight": "low",
         "status": "high"
       },
-      "notes": "身高171cm：印尼羽协、BWF、英文维基一致。体重65kg：印尼羽协（PBSI）2018年亚运会、2019年苏迪曼杯参赛名单资料（2018–2019年数据，2026-10-03补充；英文维基66kg无出处）。BWF出生日期记录为1996-05-11，PBSI与维基为1996-10-20，出生年份一致。全名“安东尼·西尼苏卡·金廷”，大陆媒体常称“金廷”。",
+      "notes": "身高171cm：印尼羽协、BWF、英文维基一致。英文维基66kg无出处，未采用。BWF出生日期记录为1996-05-11，PBSI与维基为1996-10-20，出生年份一致。全名“安东尼·西尼苏卡·金廷”，大陆媒体常称“金廷”。",
       "retired_year": null,
       "verified": true,
       "verification_note": "2026-09-26复核：BWF球员资料接口（出生日期/身高/持拍手）171cm、右手；东京奥运铜牌、2018亚运会铜牌、最高世界第二核实，补入2023年亚锦赛冠军。“肩伤”无法核实，改为“伤病”；BWF确认2026年复出。"
@@ -989,7 +982,7 @@
       "country_zh": "中国",
       "gender": "M",
       "height_cm": 187,
-      "weight_kg": 81,
+      "weight_kg": null,
       "handedness": "R",
       "birth_year": 1989,
       "status": "retired",
@@ -1017,10 +1010,10 @@
       ],
       "confidence": {
         "height": "high",
-        "weight": "medium",
+        "weight": "low",
         "status": "high"
       },
-      "notes": "2021年东京奥运会后未再参赛，2023年5月正式宣布退役（新华网、海峡时报2023年5月20日报道），现任国青队男单主管教练。身高：BWF与英文维基187cm，Olympedia与中文维基188cm。体重81kg取自Olympedia运动员资料（2026-10-03补充）；2012年伦敦奥运会官网资料为78kg、英文维基75kg无出处，数据年份不同。“长城”绰号见英文维基（球迷称其为The Great Wall of China）。",
+      "notes": "2021年东京奥运会后未再参赛，2023年5月正式宣布退役（新华网、海峡时报2023年5月20日报道），现任国青队男单主管教练。身高：BWF与英文维基187cm，Olympedia与中文维基188cm。体重分歧大（英文维基75kg、中文维基78kg、Olympedia 81kg），故留空。“长城”绰号见英文维基（球迷称其为The Great Wall of China）。",
       "verified": true,
       "verification_note": "2026-09-26复核：BWF球员资料接口（出生日期/身高/持拍手）187cm、右手；奥运2012铜/2016金/2020银、2014/2015世锦赛冠军核实；退役公告见2023年5月20日新华网、海峡时报报道。"
     },
@@ -1031,7 +1024,7 @@
       "country_zh": "日本",
       "gender": "M",
       "height_cm": 175,
-      "weight_kg": 72,
+      "weight_kg": null,
       "handedness": "L",
       "birth_year": 1994,
       "status": "retired",
@@ -1054,15 +1047,14 @@
         "https://www.olympics.com/en/news/badminton-japan-momota-kento-retirement",
         "https://bwfbadminton.com/player/89785/kento-momota",
         "https://en.wikipedia.org/wiki/Kento_Momota",
-        "https://zh.wikipedia.org/wiki/%E6%A1%83%E7%94%B0%E8%B3%A2%E6%96%97",
-        "https://web.archive.org/web/20211108045332/https://www.badminton.or.jp/profile/momota_kento.html"
+        "https://zh.wikipedia.org/wiki/%E6%A1%83%E7%94%B0%E8%B3%A2%E6%96%97"
       ],
       "confidence": {
         "height": "high",
-        "weight": "medium",
+        "weight": "low",
         "status": "high"
       },
-      "notes": "2024年4月18日宣布退出日本国家队，2024年汤姆斯杯为最后一次国际比赛（英文维基记退役日期为2024年5月6日）；此后留在NTT东日本队参加国内比赛并兼任教练（英文维基）。体重72kg：日本羽协官网选手资料（2019–2021年存档，身高175cm一致；2026-10-03补充）；英文、中文维基68kg无出处。",
+      "notes": "2024年4月18日宣布退出日本国家队，2024年汤姆斯杯为最后一次国际比赛（英文维基记退役日期为2024年5月6日）；此后留在NTT东日本队参加国内比赛并兼任教练（英文维基）。英文、中文维基均列68kg但无出处，未采用。",
       "verified": true,
       "verification_note": "2026-09-26复核：BWF球员资料接口（出生日期/身高/持拍手）175cm、左手；2018/2019世锦赛冠军、前世界第一核实；2024年退出国家队与国际赛场，此后在NTT东日本打国内赛并执教（英文维基）。"
     },
@@ -1289,7 +1281,7 @@
       "country_zh": "泰国",
       "gender": "F",
       "height_cm": 169,
-      "weight_kg": 59,
+      "weight_kg": null,
       "handedness": "R",
       "birth_year": 1995,
       "status": "active",
@@ -1311,15 +1303,14 @@
         "https://en.wikipedia.org/wiki/Ratchanok_Intanon",
         "https://zh.wikipedia.org/wiki/%E6%8B%89%E5%B7%AE%E8%AF%BA%C2%B7%E5%9B%A0%E8%BE%BE%E5%86%9C",
         "https://th.wikipedia.org/wiki/%E0%B8%A3%E0%B8%B1%E0%B8%8A%E0%B8%99%E0%B8%81_%E0%B8%AD%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%99%E0%B8%99%E0%B8%97%E0%B9%8C",
-        "https://en.wikipedia.org/wiki/BWF_World_Ranking",
-        "https://www.olympedia.org/athletes/124519"
+        "https://en.wikipedia.org/wiki/BWF_World_Ranking"
       ],
       "confidence": {
         "height": "high",
-        "weight": "high",
+        "weight": "low",
         "status": "high"
       },
-      "notes": "身高169cm：BWF、英文、中文、泰文维基一致。体重59kg：Olympedia运动员资料，与2010年广州亚运会官网资料一致（2026-10-03补充）。全名拉差诺·因达农，大陆媒体常称“因达农”。“手腕控制、假动作”为业内普遍评价，缺少单一权威技术分析来源。",
+      "notes": "身高169cm：BWF、英文、中文、泰文维基一致。体重英文/泰文维基58kg、中文维基59kg，均无可靠出处，留空。全名拉差诺·因达农，大陆媒体常称“因达农”。“手腕控制、假动作”为业内普遍评价，缺少单一权威技术分析来源。",
       "retired_year": null,
       "verified": true,
       "verification_note": "2026-09-26复核：BWF球员资料接口（出生日期/身高/持拍手）169cm、右手；2013年世锦赛冠军（18岁，史上最年轻单打世界冠军）、三届世青赛冠军、前世界第一核实；2026年仍在役。"
@@ -1752,7 +1743,7 @@
       "country_zh": "泰国",
       "gender": "F",
       "height_cm": 168,
-      "weight_kg": 58,
+      "weight_kg": null,
       "handedness": "R",
       "birth_year": 1996,
       "status": "active",
@@ -1773,15 +1764,14 @@
         "https://en.wikipedia.org/wiki/Busanan_Ongbamrungphan",
         "https://zh.wikipedia.org/wiki/%E5%B8%83%E6%A1%91%E5%85%B0%C2%B7%E6%81%A9%E5%B8%83%E9%B2%81%E5%BA%9E",
         "https://bwfbadminton.com/news-single/2021/06/13/40-days-to-tokyo-2020-womens-singles-dark-horses/",
-        "https://bwfbadminton.com/news-single/2022/03/27/swiss-open-prannoy-soars-past-ginting-into-final/",
-        "https://web.archive.org/web/20150615010152/http://results.seagames2015.com/eng/zb/engzb_badminton_biography_overview_n1005566_ongbumrungpan_b_.htm"
+        "https://bwfbadminton.com/news-single/2022/03/27/swiss-open-prannoy-soars-past-ginting-into-final/"
       ],
       "confidence": {
         "height": "medium",
-        "weight": "medium",
+        "weight": "low",
         "status": "high"
       },
-      "notes": "身高：BWF与英文维基168cm，中文维基165cm。2026年8月排名第24，仍在役。中文名：大陆媒体常用“布萨南”，中文维基作“布桑兰·恩布鲁庞”，未能通过检索核实。体重58kg：2015年新加坡东南亚运动会官方运动员资料（2015年数据，当时身高记为165cm；2026-10-03补充）。",
+      "notes": "身高：BWF与英文维基168cm，中文维基165cm。2026年8月排名第24，仍在役。中文名：大陆媒体常用“布萨南”，中文维基作“布桑兰·恩布鲁庞”，未能通过检索核实。",
       "retired_year": null,
       "verified": true,
       "verification_note": "2026-09-26复核：BWF球员资料接口（出生日期/身高/持拍手）168cm、右手；2015年东南亚运动会金牌、2014年青奥会铜牌、最高世界第九核实；风格评价与BWF 2021年报道一致。"
@@ -1878,7 +1868,7 @@
       "country_zh": "中国",
       "gender": "F",
       "height_cm": 174,
-      "weight_kg": 65,
+      "weight_kg": null,
       "handedness": "R",
       "birth_year": 1991,
       "status": "retired",
@@ -1898,15 +1888,14 @@
       "sources": [
         "https://bwfbadminton.com/player/64643/li-xue-rui",
         "https://en.wikipedia.org/wiki/Li_Xuerui",
-        "https://zh.wikipedia.org/wiki/%E6%9D%8E%E9%9B%AA%E8%8A%AE",
-        "https://www.olympedia.org/athletes/126158"
+        "https://zh.wikipedia.org/wiki/%E6%9D%8E%E9%9B%AA%E8%8A%AE"
       ],
       "confidence": {
         "height": "high",
-        "weight": "medium",
+        "weight": "low",
         "status": "high"
       },
-      "notes": "2019年10月17日宣布退役。身高174cm：BWF、英文维基、中文维基一致。体重65kg：Olympedia运动员资料（2026-10-03补充）；中文维基69kg无出处。",
+      "notes": "2019年10月17日宣布退役。身高174cm：BWF、英文维基、中文维基一致。中文维基69kg无出处，未采用。",
       "verified": true,
       "verification_note": "2026-09-26复核：BWF球员资料接口（出生日期/身高/持拍手）174cm、右手、BWF风格标注Offensive；伦敦奥运金牌、世锦赛2013/2014银牌、累计124周世界第一、2019年10月退役核实。"
     },

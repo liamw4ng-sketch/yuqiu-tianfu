@@ -229,3 +229,24 @@ Botones: ← 首页, 🔄 重新测评, 保存到档案 (automático), 生成分
 - `npm run build` → carpeta `dist/` estática.
 - Se incluyen `vercel.json` / `netlify.toml` mínimos y PWA básica (manifest e iconos) para "añadir a pantalla de inicio".
 - La publicación en Vercel o Netlify la hace el usuario o se hace con su confirmación explícita.
+
+## 16. v2 (2026-10-03): gustos de juego, espejos con variedad y medios
+
+Aprobado por el usuario el 2026-10-03, tras observar que la recomendación dependía demasiado del físico y que casi todos los hombres de ~175 cm / 70 kg recibían el mismo espejo (Loh Kean Yew).
+
+- **球风偏好 (6 preguntas obligatorias):**
+  - Preguntas: cómo te gusta ganar el punto (vale 3), bola alta a media pista, ritmo, respuesta al ataque, longitud de los peloteos y posición favorita en dobles.
+  - Cada respuesta suma puntos a los estilos. El estilo con más puntos vale 1 y los demás en proporción. Sin respuestas (registros antiguos), todos valen 0,5.
+- **Encaje:** `100 · (0,5 · capacidades + 0,3 · gustos + 0,2 · cuerpo)`.
+  - En dobles, la posición favorita pesa como gusto. Quien prefiere rotar acepta 全能轮转 con una diferencia de hasta 15 puntos entre red y fondo.
+  - El informe dice si el gusto y la recomendación coinciden ("你最喜欢的是X，但目前更适合Y…").
+- **Espejos:**
+  - 🎯 **打法镜像:** estilo primero, mano dominante después y cuerpo como desempate.
+  - 📏 **体型镜像:** cuerpo primero; nunca repite al jugador del espejo de estilo.
+  - Sin peso fiable se compara por altura más una diferencia típica (0,35), sin castigo.
+  - Entre candidatos casi igual de parecidos, una semilla estable derivada de todas las respuestas elige. Así la misma persona ve siempre lo mismo y dos personas con el mismo cuerpo pueden ver jugadores distintos.
+  - Test: en cuerpos típicos, ningún jugador supera el 12 % (espejo de estilo) ni el 18 % (espejo de cuerpo).
+- **Datos:** 81 jugadores de individual (41 hombres y 40 mujeres) y 36 parejas. Se completaron 31 pesos con fuente verificada. Cada jugador tiene enlaces a su ficha BWF y Wikipedia sacados de las fuentes.
+- **Medios:**
+  - Foto de Wikipedia (Wikimedia Commons, con crédito), cargada en vivo; si falla, se oculta.
+  - Enlaces a la ficha oficial y a búsquedas de vídeo: YouTube siempre y Bilibili en chino. Al ser búsquedas, no se rompen.

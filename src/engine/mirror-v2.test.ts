@@ -51,21 +51,26 @@ describe('espejo de estilo y espejo de cuerpo', () => {
 })
 
 describe('variedad real con la base de datos', () => {
-  it('en hombres de cuerpo típico ningún jugador acapara el espejo de estilo', () => {
-    const SCORING = ['smash', 'net', 'rally', 'counter'] as const
-    const TEMPO = ['fast', 'grind', 'adapt'] as const
-    const PATTERNS: Level[][] = [[3, 3, 3, 3, 3, 3, 3, 3], [4, 3, 2, 2, 3, 4, 2, 3], [2, 2, 4, 4, 3, 2, 4, 3], [2, 4, 4, 3, 4, 2, 3, 4], [3, 2, 3, 3, 4, 2, 2, 3]]
-    const count: Record<string, number> = {}
+  const PATTERNS: Level[][] = [[3, 3, 3, 3, 3, 3, 3, 3], [4, 3, 2, 2, 3, 4, 2, 3], [2, 2, 4, 4, 3, 2, 4, 3], [2, 4, 4, 3, 4, 2, 3, 4], [3, 2, 3, 3, 4, 2, 2, 3]]
+  const BODIES: Record<Sex, { h: number[]; w: number[] }> = {
+    M: { h: [170, 173, 175, 178, 180], w: [64, 68, 72, 76] },
+    F: { h: [156, 160, 163, 166, 170], w: [48, 52, 56, 60] },
+  }
+  it.each(['M', 'F'] as const)('cuerpos típicos (%s): ningún jugador acapara los espejos', (sex) => {
+    const style: Record<string, number> = {}
+    const body: Record<string, number> = {}
     let n = 0
-    for (const h of [170, 173, 175, 178, 180]) for (const w of [64, 68, 72, 76]) for (const p of PATTERNS) for (const sc of SCORING) for (const tp of TEMPO) {
-      const prefs: Prefs = { scoring: sc, midcourt: 'drop', tempo: tp, underAttack: 'block', rally: 'either', doublesSpot: 'none' }
-      const r = analyzeTalent({ ...makeInput('M', 28, h, w, null, 3, p), prefs })
-      const id = r.mirrors.style[0].athlete.id
-      count[id] = (count[id] ?? 0) + 1
-      n++
-    }
-    const max = Math.max(...Object.values(count))
-    expect(max / n).toBeLessThanOrEqual(0.15)
-    expect(Object.keys(count).length).toBeGreaterThanOrEqual(12)
+    for (const h of BODIES[sex].h) for (const w of BODIES[sex].w) for (const p of PATTERNS)
+      for (const sc of ['smash', 'net', 'rally', 'counter'] as const) for (const tp of ['fast', 'grind', 'adapt'] as const) {
+        const prefs: Prefs = { scoring: sc, midcourt: 'drop', tempo: tp, underAttack: 'block', rally: 'either', doublesSpot: 'none' }
+        const r = analyzeTalent({ ...makeInput(sex, 28, h, w, null, 3, p), prefs })
+        style[r.mirrors.style[0].athlete.id] = (style[r.mirrors.style[0].athlete.id] ?? 0) + 1
+        body[r.mirrors.body[0].athlete.id] = (body[r.mirrors.body[0].athlete.id] ?? 0) + 1
+        n++
+      }
+    expect(Math.max(...Object.values(style)) / n).toBeLessThanOrEqual(0.12)
+    expect(Math.max(...Object.values(body)) / n).toBeLessThanOrEqual(0.18)
+    expect(Object.keys(style).length).toBeGreaterThanOrEqual(25)
+    expect(Object.keys(body).length).toBeGreaterThanOrEqual(20)
   })
 })
