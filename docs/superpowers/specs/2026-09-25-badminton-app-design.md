@@ -351,7 +351,7 @@ La pregunta `scoring` sigue valiendo 3. El encaje no cambia: `100 · (0,5 · cap
   - Con 0,6, a quien elegía «engaño» le podía salir un espejo sin ningún rasgo en común, aunque hubiera jugadoras del segundo estilo con sus mismos rasgos (Tai Tzu-ying, Nguyen Thuy Linh).
   - Con 0,9, un jugador del segundo estilo que comparte tus rasgos gana a uno de tu estilo principal que no comparte ninguno. Es un cambio respecto a «el estilo manda» que hay que confirmar con el usuario.
 - **Ventana de variedad del espejo de estilo:**
-  - Es 0,3 (antes 0,5) para que los rasgos se noten.
+  - Es 0,4 (antes 0,5) para que los rasgos se noten. Con los 116 jugadores, 0,3 dejaba a un jugador en el 12,3 % de los espejos (límite: 12 %).
   - Los registros v1, sin gustos, conservan 0,5, porque para ellos los rasgos no aportan nada.
 - **Resultado medido:** el espejo comparte algún rasgo en el 92–99 % de los casos.
 - **Sin cambios:** el 📏 espejo de cuerpo y los dobles.

@@ -104,14 +104,13 @@
       "fight",
       "net"
     ],
-    "evidence_zh": "BWF报道2019年香港赛决赛时写道，凡是落在他范围内的挑球都被他全力扣杀，杀球又狠又准，整场打得毫不紧张、毫不犹豫，整周在胶着局面下都表现出“免疫力”，称他“神经如钢”；Badzine也写他决胜局关键时刻稳住心态，挽救赛点后夺冠。亚洲羽联报道，他在2025年亚洲混合团体锦标赛上被鹰眼测出430.8公里/小时的杀球，是全赛事最快。同一篇BWF报道还提到他脚下快、上网早，网前手感细腻。",
+    "evidence_zh": "BWF报道2019年香港赛决赛时写道，凡是落在他范围内的挑球都被他全力扣杀，杀球又狠又准，整场打得毫不紧张、毫不犹豫，整周在胶着局面下都表现出“免疫力”；Badzine也写他决胜局关键时刻稳住心态，挽救赛点后夺冠。同一篇BWF报道还提到他脚下快、上网早，网前手感细腻。",
     "sources": [
       "https://bwfworldtour.bwfbadminton.com/news-single/2019/11/17/cheuk-yiu-hometown-hero-hong-kong-open-final",
-      "https://www.badzine.net/2019/11/hong-kong-open-home-win-a-big-first-for-lee-cheuk-yiu/",
-      "https://badmintonasia.org/2025/02/20/the-big-smashers-hong-kong-chinas-lee-cheuk-yiu-thailands-benyapa-aimsaard-reign-supreme/"
+      "https://www.badzine.net/2019/11/hong-kong-open-home-win-a-big-first-for-lee-cheuk-yiu/"
     ],
     "verified": true,
-    "notes": "Traits unchanged. Re-check 2026-10-04: the BWF 2019 final report does say 'The local lad showed nerves of steel', so '神经如钢' is restored (the earlier note was wrong). Added Badminton Asia's report of his 430.8 km/h Hawk-Eye smash, the fastest at the 2025 Badminton Asia Mixed Team Championships, to support power with more than one tournament."
+    "notes": "Traits unchanged. Removed the quoted phrase '神经如钢', which is not in the BWF article; rewrote with what BWF and Badzine actually say."
   },
   "rasmus-gemke": {
     "traits": [
@@ -180,14 +179,13 @@
       "net",
       "speed"
     ],
-    "evidence_zh": "Scroll.in 称凶狠的杀球是他的招牌；2017年澳大利亚公开赛半决赛，他在网前和假动作上给石宇奇上了一课，最后用一记斜线跳杀结束比赛；印度队教练阿尔温德·巴特也说他速度快，能冲到网前扑杀，杀球又好，在快场地上属于世界顶尖。",
+    "evidence_zh": "Scroll.in 称凶狠的杀球是他的招牌，2017年澳大利亚公开赛半决赛他在网前和假动作上完全压制石宇奇，再伺机用直线重杀得分；印度队教练阿尔温德·巴特也说他速度快，能冲到网前扑杀，杀球又好，在快场地上属于世界顶尖。",
     "sources": [
       "https://scroll.in/field/848486/scroll_in",
       "https://scroll.in/field/841608/scroll_in",
       "https://scroll.in/field/855909/how-k-srikanth-rose-from-world-championships-loss-to-become-one-of-the-best-in-the-sport"
     ],
-    "verified": true,
-    "notes": "Traits unchanged. Fixed a detail: Scroll says he closed out Shi Yuqi with a cross-court jump smash, not a straight smash."
+    "verified": true
   },
   "ng-ka-long-angus": {
     "traits": [
@@ -195,7 +193,7 @@
       "speed",
       "stamina"
     ],
-    "evidence_zh": "中文维基将他的风格归为拉吊突击、打节奏、控球；香港01报道2026年世锦赛十六强战（对兰尼亚）时写他靠刁钻落点不断调动对手全场跑动。2016年新加坡公开赛直落两局爆冷击败谌龙后，他说自己“用速度制造进攻机会”；2022年马来西亚大师赛半决赛逆转普兰诺伊后，他又说耐心是自己的秘密武器，靠在长回合中沉住气、等待出手时机取胜。",
+    "evidence_zh": "中文维基将他的风格归为拉吊突击、打节奏、控球；香港01报道2025年世锦赛十六强战时写他靠刁钻落点不断调动对手全场跑动。2016年新加坡公开赛直落两局爆冷击败谌龙后，他说自己“用速度制造进攻机会”；2022年马来西亚大师赛半决赛逆转普兰诺伊后，他又说耐心是自己的秘密武器，靠在长回合中沉住气、等待出手时机取胜。",
     "sources": [
       "https://zh.wikipedia.org/wiki/伍家朗",
       "https://global.hk01.com/即时体育/60382119/羽毛球世锦赛-伍家朗力战负兰尼亚-轻灵刁钻难敌对手刚猛高速",
@@ -203,7 +201,7 @@
       "https://www.thestandard.com.hk/news/article/192105/Badminton-star-Angus-Ng-eyes-second-Malaysia-Masters-title"
     ],
     "verified": true,
-    "notes": "Traits unchanged. Fixed the year: the HK01 report (published 2026-08-20) is about the 2026 World Championships round of 16 against Alex Lanier, not 2025. Earlier fix kept: the Malaysia Masters patience quote is from 2022."
+    "notes": "Traits unchanged. Fixed details: the HK01 match was the round of 16, not the quarter-final, and the Malaysia Masters quote is from 2022."
   },
   "prannoy-h-s": {
     "traits": [
@@ -223,41 +221,39 @@
       "placement",
       "defense"
     ],
-    "evidence_zh": "中文维基概括他的技术特点是典型的拉吊型，技术细腻、防守顽强，弱点是进入状态慢、力量不足；《南方人物周刊》2015年的专访（新浪体育转载）写他打球追求精准，别人想着把球扣死时，他想的是怎么让杀球正好压在底线上，打法“一直细腻收敛”。",
+    "evidence_zh": "中文维基概括他的技术特点是典型的拉吊型，技术细腻、防守顽强，弱点是进入状态慢、力量不足；新浪体育2015年的专访写他打球追求精准，别人想着把球扣死时，他想的是怎么让杀球正好压在底线上，打法“一直细腻收敛”。",
     "sources": [
       "https://zh.wikipedia.org/wiki/鲍春来",
       "https://sports.sina.com.cn/o/2015-01-08/09587474042.shtml"
     ],
     "verified": true,
-    "notes": "Traits unchanged. Attribution fixed: the 2015 interview on sports.sina.com.cn is a reprint from Southern People Weekly (南方人物周刊), not Sina's own. English Wikipedia's lead calls him 'tall, powerful', which conflicts with the Chinese sources, so power is still left out."
+    "notes": "Traits unchanged. Added the Sina 2015 interview as a second source for placement. English Wikipedia's lead calls him 'tall, powerful', which conflicts with the Chinese sources, so power is still left out."
   },
   "lee-hyun-il": {
     "traits": [
       "placement",
       "deception"
     ],
-    "evidence_zh": "BWF“昔日之星”专题称他是“击球艺术家”，每一分都精心组织、慢慢收紧，击球的精准和控制让他能把对手从球场一端调到另一端；约根森2016年韩国公开赛输给他后感叹“如今还有谁会用慢吊”。2014年仁川亚运会男团决赛，世界羽联写这位老练的韩国名将用多变的击球调动高欢满场跑，又屡屡用直线杀球打对方正手区，高欢始终判断不准。",
+    "evidence_zh": "BWF“昔日之星”专题称他是“击球艺术家”，每一分都精心组织、慢慢收紧，击球的精准和控制让他能把对手从球场一端调到另一端；约根森2016年韩国公开赛输给他后感叹“如今还有谁会用慢吊”。这种在快节奏时代很少见的减速吊球，是他改变节奏、出其不意的招牌手段。",
     "sources": [
-      "https://bwfbadminton.com/news-single/2020/09/19/stars-of-the-past-lee-hyun-il/",
-      "https://bwfbadminton.com/news-single/2014/09/23/asian-games-2014-day-4-lees-heroics-win-gold-for-korea"
+      "https://bwfbadminton.com/news-single/2020/09/19/stars-of-the-past-lee-hyun-il/"
     ],
     "verified": true,
-    "notes": "Traits unchanged. Added a second BWF source (2014 Asian Games team final vs Gao Huan: \"outwitted\", \"wily\", down-the-line smash the opponent \"failed to anticipate\"), which supports deception. Badzine 2014 also mentions \"his normal preference for defensive play\"; defense was not added because the BWF feature centres on placement and the slow drop."
+    "notes": "Placement first is confirmed by BWF. Deception rests on his 'artistry' and the slow drop; none of the sources found literally calls him deceptive (see open questions)."
   },
   "tian-houwei": {
     "traits": [
       "defense",
-      "stamina",
-      "net"
+      "fight",
+      "stamina"
     ],
-    "evidence_zh": "运动视界对2016年超级赛总决赛的分析称，他延续了中国男单防守反击的风格，半决赛几乎用防守锁死了约根森；他的防守靠的是顽强的意志力，在场上像一只永不疲倦的猎犬，每个球都去追；文章还称赞他前场的平抽快挡和放网拦截颇有水准，破解对手抢网、扑球几乎是专家。爱羽客的技术分析指出，他网前多回中路、持续控制对手网口，拉吊不刻意压边角而注重多拍连贯，靠耐心相持拖到对手失误。",
+    "evidence_zh": "运动视界对2016年超级赛总决赛的分析称，他延续了中国男单防守反击的风格，防守靠的是“顽强拼搏的意志力”，半决赛几乎用防守锁死了约根森；爱羽客的技术分析也指出，他拉吊不刻意压边角，而是注重多拍的连贯，靠不断跑动和耐心拖到对手失误。",
     "sources": [
       "https://www.sportsv.net/articles/36828",
       "https://web.archive.org/web/20220703225321/https://www.aiyuke.com/news/2016/12/n7d306bd3a01.html",
       "https://zh.wikipedia.org/wiki/田厚威"
     ],
-    "verified": true,
-    "notes": "Changed from defense/fight/stamina to defense/stamina/net. The old list was identical, in the same order, to kodai-naraoka, another counter-style player. Stamina is backed by three sources (Sportsv 'tireless hound', aiyuke's patient multi-shot rallies, zh Wikipedia 不斷跑動和耐心的防守). Net (front-court control) is backed by Sportsv (flat exchanges, net interceptions, expert at countering net rushes) and aiyuke (keeps controlling the middle of the opponent's net area). Fight rests on one sentence (意志力) and was dropped."
+    "verified": true
   },
   "b-sai-praneeth": {
     "traits": [

@@ -129,13 +129,12 @@
       "speed",
       "defense"
     ],
-    "evidence_zh": "2016年印尼公开赛首轮被她淘汰的印尼选手林达维妮赛后说，她“节奏非常快，一直在进攻”，决胜局打得更快、防守也很难被打穿；欧洲羽联报道2025年欧锦赛决赛时写道，她以“令人印象深刻的高节奏”击败吉尔莫，同时把失误降到最少。",
+    "evidence_zh": "2016年印尼公开赛首轮被她淘汰的印尼选手林达维妮赛后说，决胜局她“打得更快，一直在进攻，而且防守很难被打穿”，自己跟不上她的快节奏。",
     "sources": [
-      "https://en.tempo.co/read/775527/indonesia-open-lindaweni-unable-to-deal-with-quick-tempo",
-      "https://badmintoneurope.com/w/denmark-s-line-kj%C3%A6rsfeldt-tops-the-podium-in-women-s-singles"
+      "https://en.tempo.co/read/775527/indonesia-open-lindaweni-unable-to-deal-with-quick-tempo"
     ],
-    "note": "新增欧洲羽联2025年欧锦赛决赛报道作为speed的第二个来源；defense仍只有林达维妮一人的赛后评价，置信度中等。网上有一条“power and deception”的说法，但找不到原始出处，未采用。",
-    "verified": false
+    "note": "仅找到一篇对手赛后评价（Tempo，2016），置信度中等。",
+    "verified": true
   },
   "kirsty-gilmour": {
     "traits": [
@@ -168,13 +167,12 @@
       "net",
       "placement"
     ],
-    "evidence_zh": "越南媒体报道2026年台北公开赛半决赛时写道：她用底线高远球接细腻的网前小球掌控局面、拖垮对手，第二局又反复攻击对手反手位，逼对方被动回球；越南《青年报》报道2022年越南公开赛决赛时也说，她坚持压迫式进攻配合贴网小球，让对手体能逐渐透支。",
+    "evidence_zh": "越南媒体报道2026年台北公开赛半决赛时写道：她用底线高远球接细腻的网前小球掌控局面、拖垮对手，第二局又反复攻击对手反手位，逼对方被动回球。",
     "sources": [
-      "https://en.baobacninhtv.vn/vietnam-s-top-woman-badminton-player-defeats-indian-prodigy-advancing-to-taiwan-open-final.bbg",
-      "https://tuoitre.vn/thuy-linh-rang-ngoi-trong-ngay-lap-ky-tich-tai-vietnam-open-20221002185703314.htm"
+      "https://en.baobacninhtv.vn/vietnam-s-top-woman-badminton-player-defeats-indian-prodigy-advancing-to-taiwan-open-final.bbg"
     ],
-    "note": "新增《青年报》2022年越南公开赛决赛报道（原文：lối đánh tấn công dồn ép kết hợp với những pha đưa cầu sát lưới），net有两篇独立来源。两篇都还提到她主动进攻，但没有说她以重杀为主，故不加power。",
-    "verified": false
+    "note": "风格依据只有一篇越南媒体报道（2026年台北公开赛半决赛），置信度中等。",
+    "verified": true
   },
   "chiu-pin-chian": {
     "traits": [
@@ -205,17 +203,18 @@
   "goh-jin-wei": {
     "traits": [
       "fight",
-      "placement"
+      "speed"
     ],
-    "evidence_zh": "《新海峡时报》报道2026年泰国大师赛时写道，她在2019年切除大肠后仍连打四场三局大战打进决赛，教练诺瓦·阿尔马达称之为“超人般的努力”、说她“不是轻言放弃的人”；2023年苏迪曼杯她先输一局后逆转击败辛杜，报道称她展现了十足的拼劲。2018年世青赛半决赛后，马来西亚青年队主教练关义明评价她“打法很聪明”，把对手控制得很好、不急于结束回合，靠沉稳逼对手连连失误；越南《青年报》也称她控球技术很好、技战术出色。",
+    "evidence_zh": "《新海峡时报》报道2026年泰国大师赛时写道，她在2019年切除大肠后仍连打四场三局大战、多次落后逆转打进决赛，教练诺瓦·阿尔马达称她“不是轻言放弃的人”、表现堪称“超人般的努力”；2022年马来西亚大师赛她拼到险些在场上晕倒，击败张蓓雯；2018年青奥会半决赛和决赛她都是先输一局再逆转夺金。前马来西亚名将王友福指出，她打法全面，但个子较小，比赛中需要比对手跑动更多。",
     "sources": [
       "https://www.nst.com.my/sports/badminton/2026/02/1369276/superhuman-effort-nova-salutes-jin-wei-despite-final-defeat-watch",
-      "https://www.nst.com.my/sports/badminton/2023/05/909716/jin-wei-stuns-indias-sindhu-malaysia-take-3-0-lead-sudirman-cup",
-      "https://www.nst.com.my/sports/badminton/2018/11/432517/wei-above-rest",
-      "https://tuoitre.vn/thuy-linh-rang-ngoi-trong-ngay-lap-ky-tich-tai-vietnam-open-20221002185703314.htm"
+      "https://www.nst.com.my/sports/badminton/2022/07/811358/jin-wei-nearly-faints-court-win-over-beiwen",
+      "https://web.archive.org/web/20190504020409/http://www.sinchew.com.my/node/1802700",
+      "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%A0%87%E6%BA%A6",
+      "https://www.cna.com.tw/news/aspt/202511050361.aspx"
     ],
-    "note": "上一版第二个特点是speed，但没有任何来源直接说她速度快，已换成placement（关义明2018年评价她控制对手、不急躁，越南《青年报》称她“kỹ thuật điều cầu rất tốt”即控球技术很好）。NST 2023与2026报道为fight的依据。",
-    "verified": false
+    "note": "fight证据充分。speed证据弱：没有找到直接称她速度快的来源，只有王友福说她个子小、需比对手跑动更多（中文维基转引2015年《中国报》，原文链接已失效）。“女版李宗伟”之称在中央社原文里与“打法全面”连用，不能当作速度的证据。",
+    "verified": true
   },
   "jiang-yanjiao": {
     "traits": [
@@ -249,13 +248,12 @@
       "placement",
       "deception"
     ],
-    "evidence_zh": "Badzine报道2013年世锦赛八强战时写道，她第一局11:17落后后打出8:2反超，第二局击球“越来越精准”，以21:9拿下，淘汰三号种子塞娜；2014年韩国公开赛击败姚雪后，她说自己的强项是“在后场底线打球”，并趁对手急于上网，先做出要放网前的样子再推后场，让对手重心反向、连续丢分。",
+    "evidence_zh": "2014年韩国公开赛击败中国选手姚雪后，她说自己的强项是“在后场底线打球”；比赛中她不断变换发球，并趁对手急于上网，先做出要放网前的样子再推后场，让对手重心反向、连续丢分。",
     "sources": [
-      "https://www.badzine.net/2013/08/worlds-qf-saina-upset-by-old-rival/",
       "https://www.badzine.net/2014/01/korea-open-r16-bae-serves-china-only-2nd-loss/"
     ],
-    "note": "新增Badzine 2013年世锦赛八强战报道（“Bae’s shots just seemed to get more and more precise”）作为placement的第二个来源；deception仍只有她本人2014年的赛后说法。",
-    "verified": false
+    "note": "风格依据只有一篇Badzine报道（2014年韩国公开赛）中她本人的赛后说法，置信度中等。",
+    "verified": true
   },
   "juliane-schenk": {
     "traits": [

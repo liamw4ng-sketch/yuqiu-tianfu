@@ -41,8 +41,9 @@ const LEFTY_BONUS = 0.4
 // en común aunque hubiera uno del segundo estilo con sus rasgos. El tercer estilo se descarta aparte (findStyleMirrors).
 const TRAIT_WEIGHT = 0.9
 // Ventanas de "casi igual de parecidos" dentro de las cuales elige la semilla del usuario.
-// La del espejo de estilo es más estrecha que antes (0,5) para que los rasgos se noten. Calibrado 0,3 (spec decía 0,2) por variedad.
-const STYLE_WINDOW = 0.3
+// La del espejo de estilo es más estrecha que antes (0,5) para que los rasgos se noten. Calibrado 0,4 (spec decía 0,2) con
+// los 116 jugadores: es el valor que mantiene la variedad de la v2 (≤ 12 %) sin perder los rasgos en común.
+const STYLE_WINDOW = 0.4
 const V1_STYLE_WINDOW = 0.5
 const BODY_WINDOW = 0.3
 const DOUBLES_WINDOW = 0.3

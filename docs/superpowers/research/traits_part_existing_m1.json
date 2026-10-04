@@ -156,15 +156,12 @@
     "traits": [
       "speed",
       "defense",
-      "power"
+      "stamina"
     ],
-    "evidence_zh": "安东森在2023年全英赛半决赛与他鏖战95分钟后形容他“非常稳，节奏快得惊人”，尤尼克斯也介绍他以快节奏的打法著称；世界羽联提到他在全英赛决赛关键分打出堪比谌龙的防守救球，ESPN报道2025年马来西亚大师赛决赛时写到，他先出色地顶住斯里坎特一整个回合的连续进攻，随即转入全力进攻，用一记直线重杀得分，比赛中还用追身杀和对角跳杀得分；Scroll的分析称他是速度与力量兼备、喜欢早早掌握主动的进攻型选手，头顶区重杀加上杀后衔接属于顶尖水平。",
+    "evidence_zh": "安东森在2023年全英赛半决赛与他鏖战95分钟后形容他“非常稳，节奏快得惊人”；世界羽联提到他在决赛关键分打出堪比谌龙的防守救球，并指出他那段时间连续赢下多场马拉松式的比赛。",
     "sources": [
-      "https://bwfworldtour.bwfbadminton.com/news-single/2023/03/18/all-england-daddies-prevail-in-crackling-semifinal/",
-      "https://us.yonex.com/pages/athlete/li-shi-feng",
       "https://olympics.bwfbadminton.com/news-single/2023/04/22/new-ace-in-the-pack-for-china",
-      "https://africa.espn.com/badminton/story/_/id/45303162/kidambi-srikanth-vs-li-shi-feng-live-scores-updates-news-result-2025-malaysia-masters-final",
-      "https://scroll.in/field/1042922/shuttle-zone-from-naraoka-to-treesa-gayatri-new-kids-on-the-block-who-could-make-their-mark"
+      "https://bwfworldtour.bwfbadminton.com/news-single/2023/03/18/all-england-daddies-prevail-in-crackling-semifinal/"
     ],
     "verified": true
   },
@@ -229,10 +226,9 @@
       "deception",
       "power"
     ],
-    "evidence_zh": "ESPN在2023年马来西亚大师赛决赛报道中写到，他主要靠出色的网前表现咬住比分，反应快、手感干净，常让普兰诺伊难以招架；他还从中场打出大角度吊球，并用直线杀球接隐蔽的对角吊球连续得分，进攻同样有威胁；尤尼克斯的球员介绍也提到他以强力杀球赢得认可。",
+    "evidence_zh": "ESPN在2023年马来西亚大师赛决赛报道中写到，他主要靠出色的网前表现咬住比分，反应快、手感干净，常让普兰诺伊难以招架；他还从中场打出大角度吊球，并用直线杀球接隐蔽的对角吊球连续得分，进攻同样有威胁。",
     "sources": [
-      "https://africa.espn.com/badminton/story/_/id/37745901/bwf-malaysia-masters-2023-hs-prannoy-wins-first-world-tour-title-big-win-weng-hong-yang",
-      "https://us.yonex.com/pages/athlete/weng-hong-yang"
+      "https://africa.espn.com/badminton/story/_/id/37745901/bwf-malaysia-masters-2023-hs-prannoy-wins-first-world-tour-title-big-win-weng-hong-yang"
     ],
     "verified": true
   },
