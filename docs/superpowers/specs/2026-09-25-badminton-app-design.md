@@ -348,6 +348,9 @@ La pregunta `scoring` sigue valiendo 3. El encaje no cambia: `100 · (0,5 · cap
   - `estilo (0 / 0,6 / 1,5) + 0,6 · (1 − sim) + 0,35 · cuerpo + 0,2 si no está en activo − 0,4 si ambos son zurdos`.
   - Con el peso 0,6, un jugador del estilo principal sin rasgos en común empata con uno del segundo estilo con los mismos rasgos, y el cuerpo desempata. El estilo sigue mandando.
 - **Ventana de variedad del espejo de estilo:** baja de 0,5 a 0,2 para que los rasgos se noten.
+- **Calibrado (2026-10-04):** peso de los rasgos **0,9** y ventana **0,3**.
+  - Con 0,6, a quien elegía «engaño» le podía salir un espejo sin ningún rasgo en común, aunque hubiera jugadoras del segundo estilo con sus mismos rasgos (Tai Tzu-ying, Nguyen Thuy Linh).
+  - Con 0,9 y 0,3, el espejo comparte algún rasgo en el 92–99 % de los casos y nunca sale del tercer estilo o de los siguientes.
 - **Sin cambios:** el 📏 espejo de cuerpo y los dobles.
 
 ### 17.5 Informe

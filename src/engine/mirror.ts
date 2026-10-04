@@ -37,11 +37,12 @@ const UNKNOWN_BMI_PENALTY = 0.35
 const INACTIVE_PENALTY = 0.2
 const STYLE_DISTANCE: Record<StyleMatch, number> = { primary: 0, secondary: 0.6, none: 1.5 }
 const LEFTY_BONUS = 0.4
-// Rasgos (spec §17.4): con 0,6 un jugador de tu estilo sin rasgos en común empata con uno del segundo estilo con tus rasgos.
-const TRAIT_WEIGHT = 0.6
+// Rasgos (spec §17.4). Calibrado 0,9 (spec decía 0,6): con 0,6 quien elige «engaño» podía recibir un espejo sin ningún rasgo
+// en común aunque hubiera uno del segundo estilo con sus rasgos. El tercer estilo (1,5) sigue sin poder ganar.
+const TRAIT_WEIGHT = 0.9
 // Ventanas de "casi igual de parecidos" dentro de las cuales elige la semilla del usuario.
-// La del espejo de estilo es estrecha para que los rasgos se noten (antes 0,5).
-const STYLE_WINDOW = 0.2
+// La del espejo de estilo es más estrecha que antes (0,5) para que los rasgos se noten. Calibrado 0,3 (spec decía 0,2) por variedad.
+const STYLE_WINDOW = 0.3
 const BODY_WINDOW = 0.3
 const DOUBLES_WINDOW = 0.3
 // Posiciones que cuentan como "coinciden con el rol" (spec §5.3.6); 'both' sirve para ambos lados.
