@@ -22,6 +22,13 @@ const STYLE = {
   速度突击型: 'speed', 全面型: 'allround', 网前技巧型: 'net',
 }
 const TODO = 'TRADUCIR'
+// Decisión del usuario (2026-10-05): fuera quien se retiró antes de 2010. Igual que RETIRED_CUTOFF_YEAR y
+// RETIRED_BEFORE_CUTOFF_NO_YEAR en src/data/athletes.ts (el test de datos comprueba el resultado).
+const RETIRED_CUTOFF_YEAR = 2010
+const RETIRED_BEFORE_CUTOFF_NO_YEAR = ['icuk-sugiarto', 'ardy-wiranata', 'hariyanto-arbi', 'dong-jiong', 'chen-hong', 'bang-soo-hyun', 'huang-hua']
+const retiredTooEarly = (a) =>
+  a.status === 'retired' &&
+  (typeof a.retired_year === 'number' ? a.retired_year < RETIRED_CUTOFF_YEAR : RETIRED_BEFORE_CUTOFF_NO_YEAR.includes(a.id))
 const country = (zh) => {
   if (!COUNTRY_ES[zh]) throw new Error(`País sin traducción: ${zh}`)
   return { zh, es: COUNTRY_ES[zh] }
@@ -83,7 +90,7 @@ const traitsOf = (id) => {
 }
 const seenIds = new Set()
 const singles = singlesRaw
-  .filter((a) => a.verified === true && !seenIds.has(a.id) && seenIds.add(a.id))
+  .filter((a) => a.verified === true && !retiredTooEarly(a) && !seenIds.has(a.id) && seenIds.add(a.id))
   .map((a) => {
     if (!STYLE[a.style_primary]) throw new Error(`Estilo desconocido: ${a.style_primary}`)
     return {

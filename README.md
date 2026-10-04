@@ -3,7 +3,7 @@
 Web app para jugadores de bádminton, en chino con botón de español. A partir de tu cuerpo, tus capacidades y 12 preguntas sobre cómo te gusta jugar, te recomienda:
 - un estilo de individual;
 - un rol en dobles;
-- jugadores profesionales parecidos a ti ("espejo"): uno por estilo, que comparte tus rasgos de juego, y otro por cuerpo. Hay 116 jugadores de individual, entre actuales y leyendas, y 36 parejas.
+- jugadores profesionales parecidos a ti ("espejo"): uno por estilo, que comparte tus rasgos de juego, y otro por cuerpo. Hay 93 jugadores de individual, entre actuales y leyendas retiradas desde 2010, y 36 parejas.
 
 También incluye un test de nivel amateur (L1–L8), un test tipo MBTI de personalidad en pista y un perfil con historial.
 

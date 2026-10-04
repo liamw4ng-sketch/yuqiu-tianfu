@@ -1,9 +1,9 @@
 # Cómo continuar — 羽球天赋 (app de bádminton)
 
-Última sesión: 2026-10-04. **v3 en `main`** (213 tests), subida a GitHub:
+Última sesión: 2026-10-04. **v3 en `main`** (214 tests), subida a GitHub:
 - 12 preguntas de 球风偏好 (gustos de juego) y 8 rasgos (重杀, 假动作, 网前手感, 防守, 体能相持, 速度步法, 落点控制, 斗志);
 - espejo de estilo que comparte tus rasgos («共同特点 / En común»), más el espejo de cuerpo;
-- 116 jugadores de individual: los de antes, más leyendas y el top 30 actual que faltaba. Todos tienen rasgos verificados con fuentes.
+- 93 jugadores de individual, con rasgos verificados con fuentes. El 2026-10-05 el usuario decidió quitar a quien se retiró antes de 2010; la regla está en el importador.
 
 Solo falta publicarla en Netlify.
 

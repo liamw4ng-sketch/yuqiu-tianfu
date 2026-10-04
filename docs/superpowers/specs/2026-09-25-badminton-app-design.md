@@ -271,6 +271,10 @@ Aprobado por el usuario el 2026-10-04. Pidió dos cosas:
   - El nombre chino sigue la Wikipedia china o los medios de China continental.
 - **Archivos:** la investigación queda en `docs/superpowers/research/athletes_singles_v3_{legends,top}_{m,f}.json`, con el mismo esquema que `athletes_singles_new_{m,f}.json`. `scripts/import-athletes.mjs` los fusiona. El español va en `translations_es.json` (`id → { highlights, desc }`).
 - **Objetivo:** unos 120–130 jugadores, con los 6 estilos representados en cada sexo.
+- **Decisión del usuario (2026-10-05): fuera quien se retiró antes de 2010.**
+  - Se quitaron 23 jugadores: 16 con año de retirada y 7 sin año exacto pero claramente anteriores (lista en `src/data/athletes.ts`).
+  - Quedan 93 jugadores de individual (47 hombres y 46 mujeres) y las 36 parejas, porque todas las parejas retiradas lo hicieron después de 2010.
+  - El importador aplica la regla, así que si se reimporta no vuelven a entrar.
 
 ### 17.2 Seis preguntas nuevas en 球风偏好 (de 6 a 12)
 
@@ -352,9 +356,9 @@ La pregunta `scoring` sigue valiendo 3. El encaje no cambia: `100 · (0,5 · cap
   - Con 0,6, a quien elegía «engaño» le podía salir un espejo sin ningún rasgo en común, aunque hubiera jugadoras del segundo estilo con sus mismos rasgos (Tai Tzu-ying, Nguyen Thuy Linh).
   - Con 0,9, un jugador del segundo estilo que comparte tus rasgos gana a uno de tu estilo principal que no comparte ninguno. Es un cambio respecto a «el estilo manda» que hay que confirmar con el usuario.
 - **Ventana de variedad del espejo de estilo:**
-  - Es 0,4 (antes 0,5) para que los rasgos se noten. Con los 116 jugadores, 0,3 dejaba a un jugador en el 12,3 % de los espejos (límite: 12 %).
+  - Es 0,6. Al principio era más estrecha (0,3–0,4) para que los rasgos se notaran. Desde que la variedad solo elige entre jugadores con algún rasgo en común, ya no hace falta: con 93 jugadores, 0,6 deja a todos por debajo del 10 % y el espejo comparte rasgos en el 100 % de los casos de prueba.
   - Los registros v1, sin gustos, conservan 0,5, porque para ellos los rasgos no aportan nada.
-- **Resultado medido:** con los 116 jugadores, el espejo comparte algún rasgo en el 100 % de los casos de prueba, y ningún jugador supera el 12 %.
+- **Resultado medido (93 jugadores):** el espejo comparte algún rasgo en el 100 % de los casos de prueba y ningún jugador pasa del 9,6 %.
 - **Sin cambios:** el 📏 espejo de cuerpo y los dobles.
 
 ### 17.5 Informe

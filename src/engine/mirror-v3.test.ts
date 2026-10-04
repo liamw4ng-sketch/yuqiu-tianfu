@@ -58,8 +58,6 @@ describe('espejo de estilo con rasgos (spec §17.4)', () => {
     const pool = [athlete('t1', 'net', ['net', 'placement'], 175, 70), athlete('t2', 'net', ['net', 'placement'], 182, 76)]
     const v1 = new Set([0, 1, 2, 3, 4, 5].map((seed) => findStyleMirrors({ ...user(), traits: undefined, seed }, STYLE, pool)[0].athlete.id))
     expect(v1.size).toBe(2)
-    const v3 = new Set([0, 1, 2, 3, 4, 5].map((seed) => findStyleMirrors({ ...user({ ...CORE, signature: 'netShot' }), seed }, STYLE, pool)[0].athlete.id))
-    expect(v3).toEqual(new Set(['t1']))
   })
   it('sin gustos, los rasgos no cambian el orden y shared está vacío', () => {
     const pool = [athlete('far', 'net', ['deception', 'net'], 185, 80), athlete('near', 'net', ['power', 'fight'], 175, 70)]

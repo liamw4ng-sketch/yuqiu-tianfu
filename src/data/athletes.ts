@@ -35,6 +35,13 @@ export interface Athlete {
   links?: AthleteLinks
 }
 
+/** Decisión del usuario (2026-10-05): fuera quien se retiró antes de 2010. scripts/import-athletes.mjs aplica la misma regla. */
+export const RETIRED_CUTOFF_YEAR = 2010
+/** Retirados sin año exacto en las fuentes pero claramente antes de 2010 (ver notes en la investigación):
+ *  Icuk Sugiarto ~1990, Ardy Wiranata ~1998–2003, Hariyanto Arbi ~2001, Dong Jiong 2000–2001,
+ *  Chen Hong (último torneo 2009), Bang Soo-hyun 1996–97, Huang Hua 1992–93. */
+export const RETIRED_BEFORE_CUTOFF_NO_YEAR = ['icuk-sugiarto', 'ardy-wiranata', 'hariyanto-arbi', 'dong-jiong', 'chen-hong', 'bang-soo-hyun', 'huang-hua']
+
 export type Position = 'front' | 'back' | 'both'
 export type PairEvent = 'MD' | 'WD' | 'XD'
 
