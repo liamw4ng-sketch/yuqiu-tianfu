@@ -1,0 +1,288 @@
+{
+  "lee-chong-wei": {
+    "traits": [
+      "speed",
+      "defense",
+      "power"
+    ],
+    "evidence_zh": "法新社在他退役时的长篇报道中写他“反应快如闪电”，每天花数小时打磨灵巧的步法，常让陪练脚下发僵；他的武器从闪电般的防守到又重又深的杀球，还曾保持最快杀球纪录。马来西亚队单打教练亨德拉万也说，速度、力量和进攻打法是他相对其他选手的最大优势。",
+    "sources": [
+      "https://www.malaymail.com/news/sports/2019/06/13/lee-chong-wei-badmintons-beloved-nearly-man/1761805",
+      "https://www.france24.com/en/20190613-lee-chong-wei-badmintons-beloved-nearly-man",
+      "https://www.badmintonplanet.com/?p=4044"
+    ],
+    "verified": true,
+    "notes": "Traits unchanged. Removed the SCMP Angus Ng article (not about Lee Chong Wei); added the France 24 copy of the AFP retirement piece."
+  },
+  "taufik-hidayat": {
+    "traits": [
+      "power",
+      "deception",
+      "net"
+    ],
+    "evidence_zh": "人称“反手先生”，最出名的是力量惊人的反手杀球，2006年世锦赛的正手跳杀还测出305公里/小时；报道同时形容他出手极具欺骗性，看似松弛却会突然启动，网前小球也让人难以捉摸。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Taufik_Hidayat",
+      "https://www.badmintonplanet.com/?p=1099"
+    ],
+    "verified": true
+  },
+  "chen-long": {
+    "traits": [
+      "defense",
+      "stamina",
+      "placement"
+    ],
+    "evidence_zh": "BWF退役专题说同时代对手最常用“稳”来形容他，能长时间打出几乎零失误、精准稳定的比赛，根基是出色的防守；“长城”这个绰号也对应他的耐力、掌控回合节奏和防守型打法，莫滕·弗罗斯特点评他与李宗伟的比赛时也说他“防守非常强”。",
+    "sources": [
+      "https://bwfbadminton.com/news-single/2023/06/02/chen-long-consistency-personified/",
+      "https://en.wikipedia.org/wiki/Chen_Long",
+      "https://www.badmintonplanet.com/?p=3892"
+    ],
+    "verified": true
+  },
+  "kento-momota": {
+    "traits": [
+      "net",
+      "defense",
+      "stamina"
+    ],
+    "evidence_zh": "Scroll.in 的分析称他最让人着迷的是网前的控制力，打法建立在扎实的防守和全场覆盖上，对手常被拖进长回合和稳妥的相持里，最后体力和心态先崩；2022年全英赛输给他的许侊熙也说，他这次在网前的存在感更强。",
+    "sources": [
+      "https://scroll.in/field/916181/art-of-controlled-aggression-how-kento-momota-is-dominating-badminton-with-a-steady-hand",
+      "https://bwfworldtour.bwfbadminton.com/news-single/2022/03/18/all-england-kento-strikes-back",
+      "https://bwfworldchampionships.bwfbadminton.com/news-single/2019/09/12/momota-in-the-eyes-of-his-opponents/"
+    ],
+    "verified": true
+  },
+  "peter-gade": {
+    "traits": [
+      "deception",
+      "speed",
+      "net"
+    ],
+    "evidence_zh": "公认的假动作大师，招牌“二次击球”作势放网再推后场，2004年全英赛决赛就用它骗得林丹反方向启动；他的打法以快速进攻、步法和持续压迫著称，2010年全英赛半决赛又用旋转网前球让李宗伟毫无办法。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Peter_Gade",
+      "https://www.badzine.net/?p=16807"
+    ],
+    "verified": true
+  },
+  "panitchaphon-teeraratsakul": {
+    "traits": [
+      "speed",
+      "deception",
+      "fight"
+    ],
+    "evidence_zh": "BWF报道2026年马来西亚大师赛半决赛时称，这位左手将的速度、突然爆发和全面技术让波波夫难以招架，波波夫赛后说他“在场上像飞起来一样”；BWF 2022年的泰国新星专题中，被他淘汰的马来西亚对手称赞他的二次动作和网前小球，“我每次往一边走，球就去了另一边”，泰国前国家队教练也说他斗志好、从不放弃。",
+    "sources": [
+      "https://bwfworldtour.bwfbadminton.com/news-single/2026/05/23/malaysia-masters-superr-saturday-for-thailand/",
+      "https://bwfbadminton.com/news-single/2022/12/17/pink-eq-thailands-exciting-next-gen"
+    ],
+    "verified": true,
+    "notes": "Traits unchanged. Fixed attribution: the 'good fighting spirit, never gives up' quote is from former Thai national coach Udom Luangpetcharapon, not a teammate."
+  },
+  "yushi-tanaka": {
+    "traits": [
+      "speed",
+      "power",
+      "fight"
+    ],
+    "evidence_zh": "他在NTT东日本的资料里自荐的看点是“有速度感的进攻”，座右铭是“累了之后再顶一下”，J SPORTS也称他是“兼具韧劲的进攻手”；桃田贤斗在2022年全日本综合赛半决赛后评价他“速度快得不得了”、后场启动达世界顶尖水平，进攻有威力；2026年日本公开赛被他击败的昆拉武特也说他速度快、跳得高，网前抢点也高。",
+    "sources": [
+      "https://www.ntt-east.co.jp/symbol/badminton/contents/tanaka.html",
+      "https://www.jsports.co.jp/badminton/bwf/player/tanaka/",
+      "https://www.badspi.jp/202212291812/",
+      "https://bwfworldtour.bwfbadminton.com/news-single/2026/07/17/japan-open-yamaguchi-leads-home-surge/"
+    ],
+    "verified": true,
+    "notes": "Traits unchanged. Added J SPORTS profile ('粘り強さを兼ね備えたアタッカー') to support fight."
+  },
+  "lee-cheuk-yiu": {
+    "traits": [
+      "power",
+      "fight",
+      "net"
+    ],
+    "evidence_zh": "BWF报道2019年香港赛决赛时写道，凡是落在他范围内的挑球都被他全力扣杀，杀球又狠又准，整场打得毫不紧张、毫不犹豫，整周在胶着局面下都表现出“免疫力”；Badzine也写他决胜局关键时刻稳住心态，挽救赛点后夺冠。同一篇BWF报道还提到他脚下快、上网早，网前手感细腻。",
+    "sources": [
+      "https://bwfworldtour.bwfbadminton.com/news-single/2019/11/17/cheuk-yiu-hometown-hero-hong-kong-open-final",
+      "https://www.badzine.net/2019/11/hong-kong-open-home-win-a-big-first-for-lee-cheuk-yiu/"
+    ],
+    "verified": true,
+    "notes": "Traits unchanged. Removed the quoted phrase '神经如钢', which is not in the BWF article; rewrote with what BWF and Badzine actually say."
+  },
+  "rasmus-gemke": {
+    "traits": [
+      "power",
+      "speed",
+      "fight"
+    ],
+    "evidence_zh": "BWF报道2020年丹麦公开赛决赛时写他抢先发力、杀球又狠又准，由他掌控比赛节奏，压得安东森满场奔跑，最后两人都拼到抽筋；ESPN报道2022年印尼公开赛时也写他爆发力十足、跟得上对手的节奏。2025年北极公开赛，他首局5:21大败后连扳两局击败世界第八的波波夫，丹麦《B.T.》形容他“拼得很凶、打得聪明”，到最后体能也明显占优。",
+    "sources": [
+      "https://bwfworldtour.bwfbadminton.com/news-single/2020/10/19/denmark-open-ms-final-test/",
+      "https://africa.espn.com/badminton/story/_/id/34107945/hs-prannoy-beats-rasmus-gemke-indonesia-open-quaterfinal-indian-badminton",
+      "https://www.bt.dk/sport/rasmus-gemke-nedkaemper-fransk-topspiller-i-finland"
+    ],
+    "verified": true,
+    "notes": "Traits unchanged. Replaced the Flashscore Worlds match report with a B.T. (Denmark) report of his 5-21 21-10 21-19 comeback over Popov at the 2025 Arctic Open, which supports fight."
+  },
+  "nhat-nguyen": {
+    "traits": [
+      "net",
+      "power",
+      "defense"
+    ],
+    "evidence_zh": "苏格兰羽协2023年苏格兰公开赛的报道形容他后场腾空下压有爆发力，网前搓放和挑推手感细腻，接杀时手上能卸力；他本人也说小时候既不是最壮也不是最高的，只能靠技术和头脑赢球。",
+    "sources": [
+      "https://badmintonscotland.org.uk/news/scottish-open-day-3-nhats-the-way-to-do-it/",
+      "https://stacy.olympics.com/tokyo-2020/olympic-games/en/results/badminton/athlete-profile-n1281420-nguyen-nhat.htm"
+    ],
+    "verified": true,
+    "notes": "Traits unchanged; evidence lightly reworded to match the sources."
+  },
+  "yudai-okimoto": {
+    "traits": [
+      "defense",
+      "stamina",
+      "speed"
+    ],
+    "evidence_zh": "他所属的BIPROGY队专访介绍他“以防守力为武器”，他本人说高中时为了弥补165cm的身材而专攻防守，靠一次次救球把长回合拖进自己的节奏；J SPORTS也说他凭出色的预判和细致的击球，韧性十足地组织多拍。2026年台北公开赛半决赛输给他后，周天成说他“体力很好，可以一直往前加速，而且不太失误”，防守也相当稳；乔纳坦·克里斯蒂则形容他韧性强、很难被打死。",
+    "sources": [
+      "https://terasu.biprogy.com/article/breakthrough-okimoto/",
+      "https://www.jsports.co.jp/badminton/bwf/player/okimoto/",
+      "https://tsna.com/article/200534",
+      "https://pbsi.id/2026/07/22/china-open-2026-jonatan-dipaksa-kerja-keras-alwi-tersandung-ayush/"
+    ],
+    "verified": true,
+    "notes": "Reordered: defense is now first. His club feature and English Wikipedia both present defence as his signature ('守備力を武器'; 'defensive, highly tenacious playing style'). This also separates him from Nishimoto, who keeps stamina first."
+  },
+  "kenta-nishimoto": {
+    "traits": [
+      "stamina",
+      "power",
+      "placement"
+    ],
+    "evidence_zh": "J SPORTS的介绍说他身体素质强悍，擅长在比拼耐力的苦战中胜出，180cm身高打出的重击是他的武器；2022年日本公开赛他场均打了70多分钟才进决赛，赛前直言比赛拖得越久，自己赢周天成的机会越大。富士通FMV的分析写他善用场地四角展开大范围拉吊，耐心相持到对手回球变浅，再提速连续重击；2025年加拿大公开赛的报道也称落点控制是他夺冠的关键。",
+    "sources": [
+      "https://www.jsports.co.jp/badminton/bwf/player/nishimoto/",
+      "https://www.badmintonplanet.com/?p=20407",
+      "https://fmv-mypage.fmworld.net/fmv-sports/post-16986/",
+      "https://www.badmintonplanet.com/?p=24682"
+    ],
+    "verified": true,
+    "notes": "Replaced deception (which came from a single match report) with power, now second. J SPORTS ('180センチの上背から繰り出す強打が武器') and FMV both name his heavy smashing as a main weapon. Placement is kept, now third."
+  },
+  "srikanth-kidambi": {
+    "traits": [
+      "power",
+      "net",
+      "speed"
+    ],
+    "evidence_zh": "Scroll.in 称凶狠的杀球是他的招牌，2017年澳大利亚公开赛半决赛他在网前和假动作上完全压制石宇奇，再伺机用直线重杀得分；印度队教练阿尔温德·巴特也说他速度快，能冲到网前扑杀，杀球又好，在快场地上属于世界顶尖。",
+    "sources": [
+      "https://scroll.in/field/848486/scroll_in",
+      "https://scroll.in/field/841608/scroll_in",
+      "https://scroll.in/field/855909/how-k-srikanth-rose-from-world-championships-loss-to-become-one-of-the-best-in-the-sport"
+    ],
+    "verified": true
+  },
+  "ng-ka-long-angus": {
+    "traits": [
+      "placement",
+      "speed",
+      "stamina"
+    ],
+    "evidence_zh": "中文维基将他的风格归为拉吊突击、打节奏、控球；香港01报道2025年世锦赛十六强战时写他靠刁钻落点不断调动对手全场跑动。2016年新加坡公开赛直落两局爆冷击败谌龙后，他说自己“用速度制造进攻机会”；2022年马来西亚大师赛半决赛逆转普兰诺伊后，他又说耐心是自己的秘密武器，靠在长回合中沉住气、等待出手时机取胜。",
+    "sources": [
+      "https://zh.wikipedia.org/wiki/伍家朗",
+      "https://global.hk01.com/即时体育/60382119/羽毛球世锦赛-伍家朗力战负兰尼亚-轻灵刁钻难敌对手刚猛高速",
+      "https://bwfbadminton.com/news-single/2016/04/15/angus-steaks-his-claim-day-4-oue-singapore-open-2016/",
+      "https://www.thestandard.com.hk/news/article/192105/Badminton-star-Angus-Ng-eyes-second-Malaysia-Masters-title"
+    ],
+    "verified": true,
+    "notes": "Traits unchanged. Fixed details: the HK01 match was the round of 16, not the quarter-final, and the Malaysia Masters quote is from 2022."
+  },
+  "prannoy-h-s": {
+    "traits": [
+      "power",
+      "deception"
+    ],
+    "evidence_zh": "BWF报道2015年印度公开赛时写他满场跳杀击败约根森，攻势毫不松懈，对手直言“太有侵略性”；ESPN在2022年印尼公开赛和2023年马来西亚大师赛的报道中，多次提到他伪装很好的劈吊、斜线吊球和“不看球”的斜线杀球骗过对手。",
+    "sources": [
+      "https://bwfbadminton.com/news-single/2015/03/26/aggressive-prannoy-trips-jorgensen-yonex-sunrise-india-open-day-3/",
+      "https://africa.espn.com/badminton/story/_/id/34107945/hs-prannoy-beats-rasmus-gemke-indonesia-open-quaterfinal-indian-badminton",
+      "https://africa.espn.com/badminton/story/_/id/37745901/bwf-malaysia-masters-2023-hs-prannoy-wins-first-world-tour-title-big-win-weng-hong-yang"
+    ],
+    "verified": true
+  },
+  "bao-chunlai": {
+    "traits": [
+      "placement",
+      "defense"
+    ],
+    "evidence_zh": "中文维基概括他的技术特点是典型的拉吊型，技术细腻、防守顽强，弱点是进入状态慢、力量不足；新浪体育2015年的专访写他打球追求精准，别人想着把球扣死时，他想的是怎么让杀球正好压在底线上，打法“一直细腻收敛”。",
+    "sources": [
+      "https://zh.wikipedia.org/wiki/鲍春来",
+      "https://sports.sina.com.cn/o/2015-01-08/09587474042.shtml"
+    ],
+    "verified": true,
+    "notes": "Traits unchanged. Added the Sina 2015 interview as a second source for placement. English Wikipedia's lead calls him 'tall, powerful', which conflicts with the Chinese sources, so power is still left out."
+  },
+  "lee-hyun-il": {
+    "traits": [
+      "placement",
+      "deception"
+    ],
+    "evidence_zh": "BWF“昔日之星”专题称他是“击球艺术家”，每一分都精心组织、慢慢收紧，击球的精准和控制让他能把对手从球场一端调到另一端；约根森2016年韩国公开赛输给他后感叹“如今还有谁会用慢吊”。这种在快节奏时代很少见的减速吊球，是他改变节奏、出其不意的招牌手段。",
+    "sources": [
+      "https://bwfbadminton.com/news-single/2020/09/19/stars-of-the-past-lee-hyun-il/"
+    ],
+    "verified": true,
+    "notes": "Placement first is confirmed by BWF. Deception rests on his 'artistry' and the slow drop; none of the sources found literally calls him deceptive (see open questions)."
+  },
+  "tian-houwei": {
+    "traits": [
+      "defense",
+      "fight",
+      "stamina"
+    ],
+    "evidence_zh": "运动视界对2016年超级赛总决赛的分析称，他延续了中国男单防守反击的风格，防守靠的是“顽强拼搏的意志力”，半决赛几乎用防守锁死了约根森；爱羽客的技术分析也指出，他拉吊不刻意压边角，而是注重多拍的连贯，靠不断跑动和耐心拖到对手失误。",
+    "sources": [
+      "https://www.sportsv.net/articles/36828",
+      "https://web.archive.org/web/20220703225321/https://www.aiyuke.com/news/2016/12/n7d306bd3a01.html",
+      "https://zh.wikipedia.org/wiki/田厚威"
+    ],
+    "verified": true
+  },
+  "b-sai-praneeth": {
+    "traits": [
+      "deception",
+      "net",
+      "placement"
+    ],
+    "evidence_zh": "ESPN 2017年的报道引述印度名将卡什亚普的评价：他是当今最有技巧的球员之一，“打法全靠手腕”，手腕柔韧到能在最后一刻改变出球；ESPN同年另一篇也写他斜线一打开，半杀和网前都几乎无人能挡。Scroll.in的赛事报道则提到他招牌的网前搓放、伪装很好的半杀，以及用压线的落点压制斯里坎特。",
+    "sources": [
+      "https://africa.espn.com/badminton/story/_/id/19164440/kidambi-srikanth-b-sai-praneeth-star-india-first-all-indian-men-final-singapore-open-superseries",
+      "https://africa.espn.com/badminton/story/_/id/19705410/too-close-call",
+      "https://scroll.in/field/839642/scroll_in",
+      "https://scroll.in/field/834754/scroll_in"
+    ],
+    "verified": true,
+    "notes": "Traits unchanged. Fixed attribution: the 'most skilful player' and 'supple wrists' lines are Parupalli Kashyap's words as quoted by ESPN, not ESPN's own."
+  },
+  "kanta-tsuneyama": {
+    "traits": [
+      "deception",
+      "net",
+      "defense"
+    ],
+    "evidence_zh": "IBTimes对2019年韩国大师赛的报道称他更依赖技术，击球巧妙、网前好，伪装吊球尤其有效，但有时耐心不足；2021年法国公开赛决赛，赛事官网报道称他总逼着周天成多打一拍，决胜局18:16和19:16时两次“来自另一个星系的防守”锁定胜局。",
+    "sources": [
+      "https://www.ibtimes.sg/A00093n",
+      "https://www.yonexifb.com/uk/news/2021-10-31/ms-finals-tsuneyama-stop-chou-from-being-crowned-again",
+      "https://bwfworldtour.bwfbadminton.com/news-single/2021/11/01/tsuneyama-hits-the-high-notes"
+    ],
+    "verified": true
+  }
+}

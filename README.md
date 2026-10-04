@@ -1,9 +1,9 @@
 # 羽球天赋 · Badminton Talent Lab
 
-Web app para jugadores de bádminton, en chino con botón de español. A partir de tu cuerpo y de tus capacidades te recomienda:
+Web app para jugadores de bádminton, en chino con botón de español. A partir de tu cuerpo, tus capacidades y 12 preguntas sobre cómo te gusta jugar, te recomienda:
 - un estilo de individual;
 - un rol en dobles;
-- jugadores profesionales parecidos a ti ("espejo").
+- jugadores profesionales parecidos a ti ("espejo"): uno por estilo, que comparte tus rasgos de juego, y otro por cuerpo. Hay 116 jugadores de individual, entre actuales y leyendas, y 36 parejas.
 
 También incluye un test de nivel amateur (L1–L8), un test tipo MBTI de personalidad en pista y un perfil con historial.
 
@@ -47,8 +47,9 @@ La app usa `HashRouter` (`#/talent`…), así que no necesita reglas de reescrit
 - `src/data/athletes-*.json`: jugadores que usa la app. Para actualizarlos:
   1. Cambia los JSON de la investigación.
   2. Ejecuta `node scripts/import-athletes.mjs`.
-  3. Traduce los campos que queden como `"TRADUCIR"`.
-  4. Pasa los tests: `npx vitest run src/data`.
+  3. Comprueba la investigación de la v3 con `node scripts/check-research-v3.mjs`. Cada jugador necesita sus rasgos verificados en `traits_singles.json`; si no, el importador falla.
+  4. Traduce los campos que queden como `"TRADUCIR"`.
+  5. Pasa los tests: `npx vitest run src/data`.
 - `src/content/{zh,es}/`: todos los textos. Los tests comprueban que chino y español tengan las mismas claves y los mismos marcadores.
 
 ## Estructura

@@ -2,14 +2,15 @@ import { describe, expect, it } from 'vitest'
 import type { Athlete } from '../data/athletes'
 import { findBodyMirrors, findStyleMirrors, seedOf, type MirrorUser } from './mirror'
 import type { Prefs } from './prefs'
+import type { Trait } from './traits'
 import { analyzeTalent } from './talent'
 import { makeInput } from './testkit'
 import type { Level, Sex, SinglesStyle } from './types'
 
 const L = { zh: 'x', es: 'x' }
-const athlete = (id: string, sex: Sex, h: number, w: number | null, style: SinglesStyle, hand: 'R' | 'L' = 'R'): Athlete => ({
+const athlete = (id: string, sex: Sex, h: number, w: number | null, style: SinglesStyle, hand: 'R' | 'L' = 'R', traits: Trait[] = ['placement', 'stamina']): Athlete => ({
   id, nameEn: id, nameZh: id, sex, country: L, heightCm: h, weightKg: w, hand, birthYear: 1995,
-  status: 'active', retiredYear: null, style, highlights: L, desc: L,
+  status: 'active', retiredYear: null, style, traits, highlights: L, desc: L,
 })
 const user = (over: Partial<MirrorUser> = {}): MirrorUser => ({ sex: 'M', heightCm: 175, bmi: 22.9, preference: 'all', hand: 'R', seed: 0, ...over })
 

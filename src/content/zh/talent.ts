@@ -65,7 +65,15 @@ export const talentZh: TalentContent = {
     underAttack: { question: '对手连续猛攻时，你更想…', options: { drive: '硬顶反抽，打回去', block: '稳稳挡网前，化解攻势', lift: '挑高后场，重新组织' } },
     rally: { question: '你更喜欢哪种回合？', options: { short: '短回合，三五拍解决', long: '长回合，拼耐心和体能', either: '都可以，看情况' } },
     doublesSpot: { question: '打双打时你更喜欢站…', options: { front: '网前封网', back: '后场进攻', rotate: '前后都行，随时轮转', none: '很少打双打 / 没想法' } },
+    signature: { question: '你最想拥有哪一拍武器？', options: { smash: '重杀跳杀', deception: '假动作骗过对手', netShot: '网前搓放勾对角', retrieve: '接住所有杀球', placement: '吊劈压线打四角' } },
+    feints: { question: '打球时你会故意做假动作吗？', options: { often: '经常，骗到对手很爽', sometimes: '偶尔', rarely: '很少，打实在的球' } },
+    footwork: { question: '你的步法更像…', options: { explosive: '启动快、抢点早', reach: '步子大、覆盖面广', anticipate: '跑得不多，靠预判站位' } },
+    decider: { question: '决胜局体力下降时，你通常…', options: { steady: '越打越稳、少失误', fight: '咬牙拼每一分', finish: '抓机会尽快结束' } },
+    receive: { question: '接发球时你更想…', options: { rush: '抢网扑球', netReply: '放网或搓网', deep: '推挑后场先稳住' } },
+    behind: { question: '比分落后时你会…', options: { change: '改变节奏和打法', persist: '坚持打法慢慢磨', attack: '加强进攻主动冒险' } },
   },
+  traits: { power: '重杀', deception: '假动作', net: '网前手感', defense: '防守', stamina: '体能相持', speed: '速度步法', placement: '落点控制', fight: '斗志' },
+
   abilities: {
     power: {
       name: '爆发力',
@@ -522,6 +530,8 @@ export const talentZh: TalentContent = {
     mirrorTitle: '镜像运动员',
     singlesMirror: '打法镜像（单打）',
     bodyMirror: '体型镜像（单打）',
+    sharedTraits: '共同特点',
+    signatureTraits: { M: '他的招牌', F: '她的招牌' },
     doublesMirror: '双打镜像',
     alternates: '其他可能',
     you: '你',

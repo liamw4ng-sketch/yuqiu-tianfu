@@ -1,0 +1,57 @@
+{
+  "chi-yu-jen": {
+    "traits": [
+      "fight",
+      "power"
+    ],
+    "evidence_zh": "他的代表性胜利多来自三局拉锯和关键分上的韧性：2023年赛义德·莫迪赛决赛先丢一局，决胜局被西本拳太17:16反超后稳住局面，最终逆转夺冠（三立新闻）；2026年新加坡公开赛先失一局，决胜局19:15领先被追平、前两个赛点也被对手化解，仍靠第三个赛点以23:21拿下波波夫（丽台运动报称他“没有放弃”“没乱掉”）；同年印尼公开赛对石宇奇，第二局14:20落后时连续挽救5个赛点（最终19:21告负，联合新闻网）。技术上以进攻为主：三立新闻称他在那场决赛中“猛烈进攻，打得对手无力招架”，Rti中央广播电台（转载中央社）也写到他“靠着多拍来回趁机抢攻”。",
+    "sources": [
+      "https://www.setn.com/News.aspx?NewsID=1392334",
+      "https://www.ltsports.com.tw/article/184291",
+      "https://udn.com/news/story/7001/9540788",
+      "https://www.rti.org.tw/news?uid=3&pid=188265",
+      "https://tw.sports.yahoo.com/news/%E5%8D%B0%E5%B0%BC%E5%A4%A7%E5%B8%AB%E8%B3%BD-%E6%88%9A%E5%8F%88%E4%BB%81%E9%A6%96%E9%97%96500%E8%B3%BD4%E5%BC%B7-%E5%91%A8%E5%A4%A9%E6%88%908%E5%BC%B7%E6%AD%A2%E6%AD%A5-120504120.html"
+    ],
+    "verified": true,
+    "notes": "2026-10-04对抗式复核：5个来源均已打开核对，都是戚又仁本人的比赛报道，引语与原文一致。fight有多场比赛支撑（2023赛义德·莫迪、2026新加坡、2026印尼公开赛），作为首要特征。没有找到专门描述他杀球力量的可靠来源，power依据的是“猛烈进攻”“趁机抢攻”等对其进攻打法的描述，是词表中最接近的一项，置信度中等。修改：原文“浪费两个赛点”不准确（实为前两个赛点被对手化解），已改；补充“最终19:21告负”，避免误读为胜利；补充赛义德·莫迪决胜局被反超后稳住的细节。"
+  },
+  "jason-gunawan": {
+    "traits": [
+      "power",
+      "fight",
+      "defense"
+    ],
+    "evidence_zh": "2026年中国大师赛他按与教练商定的方案“打得更主动、更具进攻性”（世界羽联），印尼《罗盘报》称他提高攻击性后“一连串犀利的杀球”让乔纳坦频频来不及启动，腾讯新闻也写他决赛首局“火力全开”；关键分上他屡次顶住压力——2025年赛义德·莫迪赛决胜局11:14落后时连得6分，被斯里坎特连追4分后仍以22:20夺冠（Telangana Today、世界羽联），中国大师赛半决赛鏖战98分钟逆转安东森（世界羽联），决赛第二局被李卓耀从8:1追到12:11时仍保持冷静（南华早报），香港电台称他以沉稳的节奏掌控决赛。防守方面，他在2024年香港公开赛赛后自述靠耐心和防守化解对手的重杀，等对方体能消耗后再找机会。",
+    "sources": [
+      "https://bwfworldtour.bwfbadminton.com/news-single/2026/09/03/china-masters-underdogs-deliver-upset-bonanza/",
+      "https://www.kompas.com/badminton/read/2026/09/03/10450268/hasil-china-masters-2026-kalah-dari-jason-gunawan-jonatan-christie",
+      "https://news.qq.com/rain/a/20260906A0B0HC00",
+      "https://web.archive.org/web/20260902192847/https://telanganatoday.com/gayatri-and-treesa-retain-syed-modi-international-doubles-title-srikanth-falls-short",
+      "https://bwfworldtour.bwfbadminton.com/news-single/2025/12/01/syed-modi-gunawans-great-step/",
+      "https://bwfworldtour.bwfbadminton.com/news-single/2026/09/05/china-masters-teammates-lee-gunawan-in-historic-final/",
+      "https://www.scmp.com/sport/hong-kong/article/3366554/lee-cheuk-yiu-hails-best-day-hong-kongs-badminton-history-despite-china-masters-loss",
+      "https://news.rthk.hk/rthk/en/component/k2/1869026-20260906.htm",
+      "https://web.archive.org/web/20260118180053/https://hkopenbadminton.org/li-ning-hong-kong-open-badminton-championships%EF%BD%9C-jason-gunawan-reaches-first-quarterfinals-after-thrashing-french-opponent-youngster-hopes-to-keep-desire-to-win-in-next-round/"
+    ],
+    "verified": true,
+    "notes": "2026-10-04对抗式复核：9个来源均已打开核对，都是吴英伦本人的比赛报道（世界羽联赛义德·莫迪报道的原址被网站限流，经Wayback存档核对内容）。power作为首项的依据集中在2026年中国大师赛一站（世界羽联、罗盘报、腾讯），且主动进攻是针对乔纳坦的战术安排；fight有跨赛事证据（2025赛义德·莫迪、2026中国大师赛）。两者都可作首项，保留power与其“进攻压制型”归类一致，置信度中等。defense只有2024年本人自述一处来源，排第三。修改：罗盘报原文为“mati langkah”（来不及启动），“失位”改为“来不及启动”；补充赛义德·莫迪决胜局被连追4分的经过和南华早报8:1→12:11的比分。注意：特征组合与林丹（全面型）相同，但两人打法归类不同。"
+  },
+  "moh-zaki-ubaidillah": {
+    "traits": [
+      "fight",
+      "speed"
+    ],
+    "evidence_zh": "印尼羽协训练竞赛部负责人Eng Hian在他夺得泰国大师赛冠军后点评，他在决赛中的亮点是能闯过关键时刻，展现出的“不肯认输”的态度是重要资本；世界羽联报道那场决赛他三局都曾落后（首局16:19落后时反超，第二局追回6分差距、最终20:22失利，第三局中段扳回4分劣势）；亚运会男团决赛首局也是在翁泓阳先拿到局点后逆转（本人赛后自述，印尼羽协）；印尼国家广播RRI称他的比赛风格常与马都拉人“倔强、永不言弃”的性格联系在一起。速度方面，翁泓阳赛后称对手“速度非常快”、给他很大压力（新华社），他本人赛后也谈到想“加快节奏”（2026年奥尔良大师赛）、“一开始就先压制对手”（2026年澳大利亚公开赛）（印尼羽协）。",
+    "sources": [
+      "https://pbsi.id/2026/02/02/raih-4-gelar-juara-dan-2-runner-up-eng-hian-evaluasi-debut-pasangan-baru-kebangkitan-sektor-ganda-dan-progres-pemain-muda/",
+      "https://web.archive.org/web/20260302025952/https://bwfworldtour.bwfbadminton.com/news-single/2026/02/01/thailand-masters-ubaidillah-wins-thriller-indonesia-dominate",
+      "https://pbsi.id/2026/09/25/asian-games-2026-remontada-beregu-putra-sumbang-emas-pertama-untuk-indonesia/",
+      "https://rri.co.id/sumenep/berita-lain/2751500/mengenal-zaki-ubaidillah-kacong-madura-yang-bersinar-di-pelatnas-pbsi",
+      "http://www3.xinhuanet.com/sports/20260924/93c15d9ac61948ecbefe31bea9c64e40/c.html",
+      "https://pbsi.id/2026/03/19/orleans-masters-2026-ubed-belajar-banyak-dari-tur-eropa/",
+      "https://pbsi.id/2026/06/12/australian-open-2026-ubed-sampai-ke-semifinal-super-500-pertama/"
+    ],
+    "verified": true,
+    "notes": "2026-10-04对抗式复核：7个来源均已打开核对，都是乌拜迪拉本人的报道，引语与原文一致。fight有印尼羽协、世界羽联、RRI三方来源，作为首要特征；speed主要依据翁泓阳的评价，另有本人谈节奏的表述，没有找到教练或专业分析对其步法的具体描述，置信度中等。修改：Eng Hian原话为“亮点”（poin positif），“最大的亮点”改掉；“三局都是从落后中追回”改为“三局都曾落后”（第二局追回后仍以20:22失利）；“多次谈到”改为具体两场比赛。"
+  }
+}

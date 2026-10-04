@@ -1,0 +1,667 @@
+{
+  "updated": "2026-10-04",
+  "athletes": [
+    {
+      "id": "rudy-hartono",
+      "name_en": "Rudy Hartono",
+      "name_zh": "梁海量",
+      "country_zh": "印尼",
+      "gender": "M",
+      "height_cm": 182,
+      "weight_kg": null,
+      "handedness": "R",
+      "birth_year": 1949,
+      "status": "retired",
+      "highlights_zh": "全英公开赛男单8冠（1968–1974年七连冠、1976年）；1980年世锦赛男单冠军；1972年慕尼黑奥运会表演项目男单冠军；4次汤姆斯杯冠军（1970、1973、1976、1979）；1997年入选国际羽联名人堂",
+      "style_primary": "全面型",
+      "style_tags_zh": [
+        "技术全面",
+        "中场突击",
+        "头顶杀对角",
+        "体能出众"
+      ],
+      "style_desc_zh": "技术全面、几乎没有明显弱点，被同时代名将评为“改变了羽毛球打法”的完整型球员。上网速度快，中场善于突击，后场头顶杀对角和直线尤为凌厉；自幼苦练体能，作风极其自律。",
+      "signature_skills_zh": [
+        "头顶杀对角",
+        "中场突击",
+        "快速上网"
+      ],
+      "sources": [
+        "https://www.olympedia.org/athletes/901583",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=89540",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-bio?activeTab=1&playerId=89540",
+        "https://www.kompas.com/sports/read/2021/03/15/09400078/profil-rudy-hartono-legenda-bulu-tangkis-indonesia-yang-merajai-all?page=all",
+        "https://en.wikipedia.org/wiki/Rudy_Hartono",
+        "https://zh.wikipedia.org/wiki/梁海量",
+        "https://baike.baidu.com/item/梁海量",
+        "https://web.archive.org/web/2018/http://bwfmuseum.isida.pro/library/profiles/news-317-9/",
+        "https://web.archive.org/web/20061215001724/http://tangkis.tripod.com/player/indonesia/rudy.htm"
+      ],
+      "confidence": {
+        "height": "medium",
+        "weight": "low",
+        "status": "high"
+      },
+      "notes": "身高分歧大：Kompas人物资料“Tinggi badan: 182 cm”、英文维基1.82 m（无引注）；百度百科1.79米；旧站Smash（tangkis.tripod，转引bolanews）178 cm；Olympedia（1972年表演赛）与BWF资料均无身高。暂取182（Kompas为主流媒体），建议核验。未找到可靠体重。右手：Kompas“Pegangan raket: Kanan”、Smash资料一致。中文名：中文维基与百度百科均作“梁海量”（印尼语名鲁迪·哈托诺），部分大陆媒体也用“哈托诺”。退役：英文维基称其1982年汤姆斯杯后宣布退役；百度百科称1981年宣布退出正式比赛、1982年又被召回打汤姆斯杯决赛。风格依据：BWF虚拟博物馆引帕杜恭评语“He changed the way badminton was played. He was a complete player with hardly any weak links”；百度百科“技术全面，战术富于变化，上网速度快，中场善于突击，尤精于后场头顶杀对角和直线”。",
+      "retired_year": 1982,
+      "verified": true,
+      "verification_note": "2026-10-04 复核：BWF API（Rudy Hartono KURNIAWAN，INA，1949-08-18）、Olympedia（1972年表演项目男单第1）确认身份与生年；BWF虚拟博物馆存档确认全英8冠、1980年世锦赛冠军、4次汤姆斯杯冠军、1997年入选名人堂及帕杜恭评语；英文维基（引《海峡时报》）确认1982年汤姆斯杯后宣布退役。身高：Kompas人物资料原文“182 cm”、右手（已直接核对），百度百科作1.79米，取Kompas，置信度由low调为medium。内容无改动。"
+    },
+    {
+      "id": "liem-swie-king",
+      "name_en": "Liem Swie King",
+      "name_zh": "林水镜",
+      "country_zh": "印尼",
+      "gender": "M",
+      "height_cm": 168,
+      "weight_kg": null,
+      "handedness": "R",
+      "birth_year": 1956,
+      "status": "retired",
+      "highlights_zh": "全英公开赛男单冠军（1978、1979、1981），1976–1981年连续6年打进全英决赛；世锦赛男单亚军（1980、1983）；1978年曼谷亚运会男单金牌；1978年世界排名第一；汤姆斯杯冠军（1976、1979、1984）；2002年入选名人堂",
+      "style_primary": "进攻压制型",
+      "style_tags_zh": [
+        "跳杀代表人物",
+        "快捷凶猛",
+        "网前小球",
+        "高点下压"
+      ],
+      "style_desc_zh": "以垂直高跳的“King Smash”跳杀闻名，被公认为推广跳杀的代表人物。常先用贴网的网前小球制造机会，再高点重杀，或在对手等杀时突然改用假动作吊球；身材不高，全靠弹跳与速度。",
+      "signature_skills_zh": [
+        "高跳跳杀",
+        "网前搓放",
+        "假动作吊球"
+      ],
+      "sources": [
+        "https://www.kompas.com/sports/read/2021/03/16/13450058/profil-liem-swie-king-si-raja-smash-pengoleksi-tiga-gelar-all-england?page=all",
+        "https://en.wikipedia.org/wiki/Liem_Swie_King",
+        "https://zh.wikipedia.org/wiki/林水镜",
+        "https://id.wikipedia.org/wiki/Liem_Swie_King",
+        "https://baike.baidu.com/item/林水镜",
+        "https://pbdjarum.org/profil/alumni/l/5dfbc1a8b32e589228/liem-swie-king",
+        "https://web.archive.org/web/20171229011222/http://bwfmuseum.isida.pro/library/profiles/news-1870/",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=80528"
+      ],
+      "confidence": {
+        "height": "medium",
+        "weight": "low",
+        "status": "high"
+      },
+      "notes": "身高：Kompas人物资料“Tinggi: 168 cm”，英文、中文、印尼文维基均为1.68 m/168 cm（英文维基无引注，Kompas可能同源）；百度百科为172 cm。BWF资料与Olympedia无身高（非奥运选手）。未找到可靠体重。右手：PB Djarum官网“Tangan: Kanan”、Kompas一致。退役：BWF虚拟博物馆与英文维基均称1984年后转打双打、1988年退役。“1978年世界第一”依据英文维基（称其为1978年首期国际羽联排名男单第一）。风格：BWF虚拟博物馆“fearless jump smasher who loved to set up his attack with tight shots at the net”；英文维基称其跳杀时也会改用欺骗性吊球。",
+      "retired_year": 1988,
+      "verified": true,
+      "verification_note": "2026-10-04 复核：BWF API（LIEM Swie King，INA，1956-02-28）；BWF虚拟博物馆存档确认1976–1981年连续6次打进全英决赛并3次夺冠、1980/1983年世锦赛亚军、1978年曼谷亚运会男单金牌、1984年后转双打、1988年退役，以及“fearless jump smasher … tight shots at the net”；Kompas人物资料原文“Tinggi: 168 cm”“Pegangan raket: Kanan”“Tahun aktif: 1974-1988”、2002年入选名人堂；1978年首期国际羽联排名第一见英文维基（引《World Badminton》1978年8月刊）。修改：style_desc_zh 中“网前搓、推”改为“贴网的网前小球”、“劈吊”改为“假动作吊球”（原始资料只说 deceptive drop shot，未说劈吊；也未见“推球”），“双脚起跳”改为“垂直高跳”（资料只写 vertical leap）；相应调整 style_tags_zh 与 signature_skills_zh。"
+    },
+    {
+      "id": "zhao-jianhua",
+      "name_en": "Zhao Jianhua",
+      "name_zh": "赵剑华",
+      "country_zh": "中国",
+      "gender": "M",
+      "height_cm": 183,
+      "weight_kg": 75,
+      "handedness": "L",
+      "birth_year": 1965,
+      "status": "retired",
+      "highlights_zh": "1991年世锦赛男单冠军；全英公开赛男单冠军（1985、1990）；亚运会男单金牌（1986、1990）；1987年世界杯男单冠军；汤姆斯杯冠军（1988、1990）；1987年世锦赛男单铜牌",
+      "style_primary": "进攻压制型",
+      "style_tags_zh": [
+        "左手持拍",
+        "后场重杀",
+        "动作一致",
+        "落点精准"
+      ],
+      "style_desc_zh": "左手进攻型选手，力量大、速度快，后场扣杀有力，网前凶狠，落点准确；动作一致性好，出手隐蔽，假动作和技术细腻度在当年顶尖。短板是体能稍差，职业生涯还两度被大病打断。",
+      "signature_skills_zh": [
+        "后场重杀",
+        "隐蔽假动作",
+        "精准落点"
+      ],
+      "sources": [
+        "https://www.olympedia.org/athletes/2334",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=670",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-bio?activeTab=1&playerId=670",
+        "https://en.wikipedia.org/wiki/Zhao_Jianhua",
+        "https://zh.wikipedia.org/wiki/赵剑华",
+        "https://baike.baidu.com/item/赵剑华",
+        "https://baike.baidu.com/item/阿迪"
+      ],
+      "confidence": {
+        "height": "high",
+        "weight": "medium",
+        "status": "high"
+      },
+      "notes": "身高：BWF资料183、英文与中文维基1.83 m；Olympedia为182 cm/75 kg。取183（BWF与维基一致）。体重仅Olympedia有（75 kg）。左手：BWF资料hand=L，中英文维基“左手”一致。注意BWF的ZHAO Jianhua档案（ID 670）国籍标为SGP、出生日期1965-04-04，与Olympedia（1965年4月21日生于南通）不符，原因是他1994年起移居新加坡（中文维基、百度百科：曾任新加坡国家队顾问），档案并非他人。退役：百度百科与中文维基称1993年七运会夺男单冠军后退役（1997年曾短暂复出代表江苏打八运会团体）。风格：百度百科（楚天运动频道评）“进攻型选手，力量大……后场扣杀有力，网前凶狠，落点准确”；英文维基“speed and power as well as deception and technique”；中文维基“完美的动作一致性”。“体能稍差”出自百度百科阿迪词条（“赵剑华这种体力稍差又以进攻为主的球员”）；“两度大病”出自中文维基（急性胸膜炎等）。百度百科称其为中国羽协“原副主席”。",
+      "retired_year": 1993,
+      "verified": true,
+      "verification_note": "2026-10-04 复核：Olympedia（1965-04-21生于南通，182 cm/75 kg，1992年奥运男单并列第5）、BWF API（183 cm、左手）；英文维基确认1991年世锦赛（决赛胜魏仁芳）、1987年世锦赛铜牌、全英1985/1990、亚运会1986/1990（两次决赛均胜杨阳）、1987年世界杯、汤姆斯杯1988/1990、1992年奥运头号种子八强出局；百度百科确认1993年七运会后退役、1997年短暂复出、“进攻型选手…后场扣杀有力，网前凶狠，落点准确”。修改：highlights_zh 删去“1992年奥运会男单头号种子”（非成绩，且最终八强出局），换成已核实的1987年世锦赛铜牌。BWF档案显示SGP系因其1994年后移居新加坡，不影响 country_zh。"
+    },
+    {
+      "id": "icuk-sugiarto",
+      "name_en": "Icuk Sugiarto",
+      "name_zh": "苏吉亚托",
+      "country_zh": "印尼",
+      "gender": "M",
+      "height_cm": 173,
+      "weight_kg": 70,
+      "handedness": "R",
+      "birth_year": 1962,
+      "status": "retired",
+      "highlights_zh": "1983年世锦赛男单冠军（决赛胜林水镜）；世界杯男单冠军（1985、1986）；世锦赛男单铜牌（1987、1989）；1984年汤姆斯杯冠军；1989年苏迪曼杯冠军；1988年汉城奥运会表演项目男单亚军",
+      "style_primary": "全面型",
+      "style_tags_zh": [
+        "体能充沛",
+        "拉吊多拍",
+        "起拍劈杀",
+        "手腕爆发力"
+      ],
+      "style_desc_zh": "体能充沛、步伐稳健，擅长用高远球和吊球打多拍、靠防守消耗对手；手腕爆发力好，甩腕击球出色，敢于起拍劈杀，扣球凶狠，网前贴地救球和吊球也很精彩，攻守兼备。",
+      "signature_skills_zh": [
+        "多拍拉吊",
+        "起拍劈杀",
+        "网前贴地救球"
+      ],
+      "sources": [
+        "https://www.olympedia.org/athletes/1202159",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-bio?activeTab=1&playerId=535",
+        "https://en.wikipedia.org/wiki/Icuk_Sugiarto",
+        "https://id.wikipedia.org/wiki/Icuk_Sugiarto",
+        "https://baike.baidu.com/item/苏吉亚托",
+        "https://web.archive.org/web/20171229011222/http://bwfmuseum.isida.pro/library/profiles/news-1870/",
+        "https://bwfbadminton.com/news-single/2014/08/26/li-ning-bwf-world-championships-2014-day-2-father-figures-in-sugiarto-bid"
+      ],
+      "confidence": {
+        "height": "high",
+        "weight": "high",
+        "status": "high"
+      },
+      "notes": "身高体重：Olympedia 173 cm/70 kg，英文与印尼文维基同为173 cm/70 kg；百度百科为170 cm。BWF资料无身高，hand=R。风格资料有分歧：英文维基既称其“largely a speed and power player”，又称“known for his rally game, with lobs and dropshots, relying on his physical fitness and defensive game”；百度百科称“传统的主攻型选手，体力充沛，步伐稳健，敢于起拍劈杀……网前贴地救球和网前吊球令人叫绝，后场控球能力较强，手腕爆发力好”。因此归为全面型（攻守兼备），归类置信度一般。退役年份：百度百科称1989年退役，但BWF记录中仍有1990年赛事报名，故retired_year留空。1988年汉城奥运会表演项目亚军见Olympedia（名次2）。",
+      "retired_year": null,
+      "verified": true,
+      "verification_note": "2026-10-04 复核：Olympedia（1962-10-04，173 cm/70 kg，1988年表演项目男单第2）、BWF API（右手）；英文维基确认1983年世锦赛冠军、1987/1989年世锦赛铜牌（两次均负杨阳）、1985/1986年世界杯冠军、1984年汤姆斯杯、1989年苏迪曼杯。风格：BWF 2014年报道称其成功靠“good defence and exceptional court coverage”，英文维基称其以拉吊多拍、体能和防守著称；百度百科（已直接查看）称“主攻型…敢于起拍劈杀…网前贴地救球…手腕爆发力好”。两类资料攻守侧重不同，维持“全面型（攻守兼备）”。修改：highlights_zh 补入1989年苏迪曼杯冠军。退役：百度百科作1989年，但他1990年仍参加汤姆斯杯（获铜牌），retired_year 维持 null。"
+    },
+    {
+      "id": "ardy-wiranata",
+      "name_en": "Ardy Wiranata",
+      "name_zh": "阿迪",
+      "country_zh": "印尼",
+      "gender": "M",
+      "height_cm": 171,
+      "weight_kg": 67,
+      "handedness": "R",
+      "birth_year": 1970,
+      "status": "retired",
+      "highlights_zh": "1991年全英公开赛男单冠军；1992年巴塞罗那奥运会男单银牌；1991年世界杯男单冠军；1994年世界大奖赛总决赛冠军；世锦赛男单银牌（1989）、铜牌（1991、1993）；汤姆斯杯冠军（1994、1996）；曾列世界第一",
+      "style_primary": "网前技巧型",
+      "style_tags_zh": [
+        "网前小球",
+        "跑动范围大",
+        "点杀",
+        "作风顽强"
+      ],
+      "style_desc_zh": "网前小球质量极高，步法灵活、跑动范围大，常倒地救球后起身再战；进攻以点杀为主，手腕灵活、球路刁钻，反手区多用正手侧身处理。打法很耗体能，年龄增长后速度下降成为短板。",
+      "signature_skills_zh": [
+        "网前小球",
+        "点杀",
+        "倒地救球"
+      ],
+      "sources": [
+        "https://www.olympedia.org/athletes/268",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=621",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-tmt-years?playerId=621",
+        "https://en.wikipedia.org/wiki/Ardy_Wiranata",
+        "https://baike.baidu.com/item/阿迪",
+        "https://worldbadminton.com/news/19981017.htm",
+        "https://zh.wikipedia.org/wiki/阿迪"
+      ],
+      "confidence": {
+        "height": "high",
+        "weight": "high",
+        "status": "high"
+      },
+      "notes": "身高体重：Olympedia 171 cm/67 kg，英文维基1.71 m/67 kg，百度百科171 cm，一致。右手依据英文维基（BWF资料hand为空）。BWF档案（ID 621）国籍显示CAN：他2014年入籍加拿大，但现役时代表印尼，故country_zh取印尼。退役：英文维基称2000年退役（无引注），百度百科称1998年全英赛后赴美执教；BWF记录还有2001年美国公开赛、2003年加拿大国际赛，故retired_year留空。风格依据百度百科“技术特点”（网前小球质量极高、跑动范围大、倒地救球、主要进攻技术是点杀、反手头顶区多用正手侧身接、年龄增长后跑动速度降低是制约因素）及英文维基“Quick, supple, and powerful”。中文名：百度百科及其世锦赛词条均作“阿迪”（全名阿迪·伯纳德斯·维拉纳塔）。",
+      "retired_year": null,
+      "verified": true,
+      "verification_note": "2026-10-04 复核：Olympedia（1970-02-10，171 cm/67 kg，1992年奥运男单银牌）；英文维基确认1989年世锦赛银牌（负杨阳）、1991/1993年铜牌、1991年全英与世界杯、1994年大奖赛总决赛、1994与1996年汤姆斯杯冠军、2000年退役、2014年入籍加拿大。“曾列世界第一”：worldbadminton.com 1998年报道原文“ranked as high as #1 in the WORLD in singles”。百度百科（已直接查看）确认技术特点（网前小球、跑动范围大、倒地救球、点杀、反手区多用正手侧身）。修改：汤姆斯杯由“1994年”补全为“1994、1996”。百度称其1998年也随队夺冠，英文维基奖牌栏无此项，未采用。"
+    },
+    {
+      "id": "hariyanto-arbi",
+      "name_en": "Hariyanto Arbi",
+      "name_zh": "阿尔比",
+      "country_zh": "印尼",
+      "gender": "M",
+      "height_cm": 178,
+      "weight_kg": 70,
+      "handedness": "R",
+      "birth_year": 1972,
+      "status": "retired",
+      "highlights_zh": "1995年世锦赛男单冠军（全程一局未失）；全英公开赛男单冠军（1993、1994）；1994年广岛亚运会男单金牌；1994年世界杯男单冠军；汤姆斯杯冠军（1994、1996、1998、2000）；1997年世锦赛男单铜牌；1996年亚特兰大奥运会男单第四",
+      "style_primary": "进攻压制型",
+      "style_tags_zh": [
+        "重杀",
+        "起跳扣杀",
+        "100瓦扣杀",
+        "后场进攻"
+      ],
+      "style_desc_zh": "典型的强攻型选手，后场重杀凶狠、常起跳扣杀，早年被外媒称作“Jumping Jack”。“100瓦扣杀”的绰号源自他与队友阿迪的一句玩笑，随后他在马来西亚击败拉希德·西德克，绰号由此叫响。",
+      "signature_skills_zh": [
+        "后场重杀",
+        "起跳扣杀"
+      ],
+      "sources": [
+        "https://www.olympedia.org/athletes/253",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=1720",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-bio?activeTab=1&playerId=1720",
+        "https://en.wikipedia.org/wiki/Hariyanto_Arbi",
+        "https://id.wikipedia.org/wiki/Hariyanto_Arbi",
+        "https://baike.baidu.com/item/世界羽毛球锦标赛",
+        "https://www.cnnindonesia.com/olahraga/20200304171906-170-480525/smash-100-watt-hariyanto-arbi",
+        "https://bwfworldchampionships.bwfbadminton.com/news-single/2019/08/17/the-100-watt-smash-that-lit-up-lausanne"
+      ],
+      "confidence": {
+        "height": "high",
+        "weight": "medium",
+        "status": "high"
+      },
+      "notes": "替补人选（原候选中Joko Suprianto与Park Sung-hwan虽有身高来源，但找不到可靠的技术风格描述，未收录）。身高：Olympedia 178 cm/70 kg、BWF资料178/右手、英文与印尼文维基178 cm，一致；体重仅Olympedia。风格：英文维基“The hard smashing Arbi”；BWF 2019年文章称其为“hard-hitting Indonesian”、以“powerful attack”一局未失赢得1995年世锦赛。绰号来源以本人在CNN Indonesia（2020年）的自述为准：先被外媒称为“Jumping Jack”，“Smash 100 Watt”出自他在马来西亚迎战曾击败阿迪的拉希德·西德克前与阿迪的玩笑，当晚获胜后被记者听到传开；印尼文维基所称“来自1994年汤姆斯杯决赛”无引注，且该决赛在雅加达举行，不采用。退役：印尼文维基称1997年退役，但英文维基列有1999年新加坡公开赛冠军及2000年汤姆斯杯冠军，BWF记录至2001年（之后为元老赛），故retired_year留空。中文名：百度百科世锦赛词条1995年男单冠军作“阿尔比”。",
+      "retired_year": null,
+      "verified": true,
+      "verification_note": "2026-10-04 复核：Olympedia（1972-01-21，178 cm/70 kg，1996年奥运男单第4）、BWF API（178 cm、右手）；英文维基确认1995年世锦赛冠军、1997年铜牌、全英1993/1994、1994年亚运会男单金牌、1994年世界杯、汤姆斯杯1994–2000四连冠；BWF 2019年文章确认1995年世锦赛一局未失。纠错：原 style_desc_zh 称“100瓦扣杀”绰号得自1994年汤姆斯杯决赛与拉希德·西德克互轰重杀——与本人在CNN Indonesia的自述不符（绰号源自在马来西亚对拉希德前与阿迪的玩笑；1994年汤姆斯杯决赛在雅加达），已改写；原描述大半是战绩而非打法，也一并改为打法描述。highlights_zh 补入1997年世锦赛铜牌与“全程一局未失”。"
+    },
+    {
+      "id": "hendrawan",
+      "name_en": "Hendrawan",
+      "name_zh": "叶诚万",
+      "country_zh": "印尼",
+      "gender": "M",
+      "height_cm": 170,
+      "weight_kg": 68,
+      "handedness": "R",
+      "birth_year": 1972,
+      "status": "retired",
+      "highlights_zh": "2001年世锦赛男单冠军；2000年悉尼奥运会男单银牌；汤姆斯杯冠军（1998、2000、2002，三届决赛单打全胜）；1998年曼谷亚运会男单银牌",
+      "style_primary": "防守反击型",
+      "style_tags_zh": [
+        "防守顽强",
+        "网前小球",
+        "网前假动作",
+        "消耗战"
+      ],
+      "style_desc_zh": "典型的防守反击打法：用顽强的接杀和多变的网前小球消耗对手，再伺机反攻；搓球、扑球动作隐蔽，网前假动作令顶尖选手头疼。网前小球逼出机会后也能用杀球得分，整体靠轻快步伐和手上技术取胜。",
+      "signature_skills_zh": [
+        "接杀防守",
+        "网前搓球",
+        "网前假动作"
+      ],
+      "sources": [
+        "https://www.olympedia.org/athletes/82732",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-bio?activeTab=1&playerId=3036",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-tmt-years?playerId=3036",
+        "https://en.wikipedia.org/wiki/Hendrawan",
+        "https://zh.wikipedia.org/wiki/叶诚万",
+        "https://baike.baidu.com/item/叶诚万"
+      ],
+      "confidence": {
+        "height": "high",
+        "weight": "medium",
+        "status": "high"
+      },
+      "notes": "身高：Olympedia 170 cm/68 kg、BWF资料170、英文维基1.70 m，一致；百度百科为175 cm，英文维基体重65 kg。右手：BWF、维基、百度百科一致。退役：英文维基与百度百科均称2003年退出印尼国家队，BWF记录也止于2003年；之后转任教练（印尼、马来西亚）。风格：中文维基“典型的重视防守类型选手，用顽强的接球和灵活多变的网前小球来消耗对手……几乎没有一击致命的大力杀球”；百度百科“网前小球技术堪称是当时羽坛之最，搓球和扑球的动作极为隐蔽……网前假动作变幻莫测”。中文名：百度百科及其世锦赛词条作“叶诚万”（亦有媒体音译为亨德拉万）。 2026-10-04: 去掉\"几乎没有一击致命的重杀\"（1998年报道称其网前之后有\"point-scoring smashes\"）。",
+      "retired_year": 2003,
+      "verified": true,
+      "verification_note": "2026-10-04 复核：Olympedia（1972-06-27生于玛琅，170 cm/68 kg，2000年奥运男单银牌，别名Ye Chengwan）、BWF API（170 cm、右手）；英文维基确认2001年世锦赛冠军（决赛胜盖德）、1998/2000/2002年汤姆斯杯决赛单打全胜（2002年决胜场胜罗斯林·哈希姆）、1998年亚运会男单银牌、2003年退出印尼国家队；中文维基“风格类型”段落与 style_desc_zh 一致。无需修改。"
+    },
+    {
+      "id": "poul-erik-hoyer-larsen",
+      "name_en": "Poul-Erik Høyer Larsen",
+      "name_zh": "拉尔森",
+      "country_zh": "丹麦",
+      "gender": "M",
+      "height_cm": 188,
+      "weight_kg": 79,
+      "handedness": "L",
+      "birth_year": 1965,
+      "status": "retired",
+      "highlights_zh": "1996年亚特兰大奥运会男单金牌；全英公开赛男单冠军（1995、1996）；欧锦赛男单冠军（1992、1994、1996）；世锦赛男单铜牌（1995、1997、1999）；2013–2025年任世界羽联主席",
+      "style_primary": "四方拉吊控制型",
+      "style_tags_zh": [
+        "左手持拍",
+        "控制型打法",
+        "网前搓球",
+        "出手隐蔽"
+      ],
+      "style_desc_zh": "身高188厘米的左手将，以控制见长：用旋转的网前搓球和吊球把球控在前场、调动对手，出手隐蔽、手感细腻，常诱使对手失误，不靠蛮力强攻。大器晚成，30岁时一局未失夺得1996年奥运金牌。",
+      "signature_skills_zh": [
+        "网前搓球",
+        "吊球控制",
+        "假动作"
+      ],
+      "sources": [
+        "https://www.olympedia.org/athletes/2383",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-bio?activeTab=1&playerId=207",
+        "https://en.wikipedia.org/wiki/Poul-Erik_Høyer_Larsen",
+        "https://da.wikipedia.org/wiki/Poul-Erik_Høyer",
+        "https://lex.dk/Poul-Erik_Høyer",
+        "https://m.rediff.com/sports/2000/sep/19bad.htm",
+        "https://baike.baidu.com/item/波尔-埃里克·赫耶尔·拉尔森",
+        "https://baike.baidu.com/item/世界羽毛球锦标赛",
+        "https://worldbadminton.com/shuttlenws/960801.txt",
+        "https://www.worldbadminton.com/shuttlenws/19970914b.html",
+        "https://www.olympedia.org/results/42214",
+        "https://www.malaymail.com/news/sports/2025/04/26/malaysias-norza-zakaria-joins-bwf-council-as-thailands-patama-leeswadtrakul-becomes-new-president-succeeding-hoyer/174597"
+      ],
+      "confidence": {
+        "height": "high",
+        "weight": "medium",
+        "status": "high"
+      },
+      "notes": "身高：Olympedia 188 cm/79 kg、BWF资料188、百度百科188厘米；英文维基1.89 m。左手：BWF资料hand=L、英文维基Left。退役：Rediff（路透）2000年9月19日报道他在悉尼奥运会首战负于孙俊后宣布退出顶级赛事，lex.dk亦称2000年结束运动生涯。世界羽联主席任期2013–2025（英文维基：2025年4月26日卸任，由Patama Leeswadtrakul接任；Olympedia同）。风格（复核后改为四方拉吊控制型）：worldbadminton.com 1996年8月1日奥运决赛报道“The lefthanded Hoyer played a controlled style … keep the shuttle in the front court with spinning netshots and drops and away from Dong's jumpsmash attack … deceptive or surprise shots”；1997年美国公开赛决赛报道称其控制节奏、以连续贴网吊球和网前得分迫使盖德失误。原描述中的事实另有来源：描述中的事实来自：Rediff引其本人语“That's one of the things I'm known for”（指落后时奋力反扑）、丹麦文维基（1996年汤姆斯杯对董炯次局1-13落后逆转；亚特兰大奥运会一局未失）、lex.dk（大器晚成）。中文名：大陆媒体及百度百科世锦赛词条多称“拉尔森”，百度百科词条名为“保罗·埃里克·霍耶尔”。百度百科称其2026年入选世界羽联名人堂（行政管理人类别），未另行核实，未写入。",
+      "retired_year": 2000,
+      "verified": true,
+      "verification_note": "2026-10-04 复核：Olympedia（1965-09-20，188 cm/79 kg，1996年金牌，赛事页注明全程一局未失）、BWF API（188 cm、左手）；英文维基确认全英1995/1996、欧锦赛1992/1994/1996、世锦赛铜牌1995/1997/1999、2000年退役；多家媒体（Malay Mail等）确认2025年4月26日Patama Leeswadtrakul接任世界羽联主席，其任期2013–2025。中文名：光明网/广州日报、新浪等大陆媒体称“拉尔森”。修改：style_primary 由“全面型”改为“四方拉吊控制型”，并重写 style_tags_zh / style_desc_zh / signature_skills_zh——原描述只有逆转经历，没有打法；新描述依据1996、1997年 worldbadminton.com 赛事报道（控制型打法、旋转网前球与吊球、出手隐蔽）。"
+    },
+    {
+      "id": "sun-jun",
+      "name_en": "Sun Jun",
+      "name_zh": "孙俊",
+      "country_zh": "中国",
+      "gender": "M",
+      "height_cm": 174,
+      "weight_kg": 65,
+      "handedness": "R",
+      "birth_year": 1975,
+      "status": "retired",
+      "highlights_zh": "1999年世锦赛男单冠军；1997年世锦赛男单亚军；1998年全英公开赛男单冠军；1997年世界杯、亚锦赛男单冠军；世界大奖赛总决赛冠军（1997、1998）；1998年曾列世界第一",
+      "style_primary": "防守反击型",
+      "style_tags_zh": [
+        "防守全面",
+        "拉开突击",
+        "稳定少失误",
+        "永不言弃"
+      ],
+      "style_desc_zh": "右手防守型选手，防守覆盖全面，擅长先拉开再突击，球打得稳、失误少。以永不言弃著称：1997年世锦赛决赛中途腿部抽筋，仍拖着伤腿打完决胜局并一度10:3领先，最终惜败。",
+      "signature_skills_zh": [
+        "接杀防守",
+        "拉开突击",
+        "稳定相持"
+      ],
+      "sources": [
+        "https://www.olympedia.org/athletes/2324",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-bio?activeTab=1&playerId=4971",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-tmt-years?playerId=4971",
+        "https://en.wikipedia.org/wiki/Sun_Jun_(badminton)",
+        "https://baike.baidu.com/item/孙俊",
+        "https://baike.baidu.com/item/世界羽毛球锦标赛",
+        "https://en.wikipedia.org/wiki/1998_World_Badminton_Grand_Prix_Finals"
+      ],
+      "confidence": {
+        "height": "high",
+        "weight": "medium",
+        "status": "high"
+      },
+      "notes": "身高：BWF资料174、百度百科1.74 m、英文维基1.74 m；Olympedia为175 cm/65 kg。取174（BWF与另两源一致）。体重：Olympedia 65 kg，英文维基73 kg，取Olympedia。右手：BWF与百度百科一致。退役：百度百科称2001年退出国家队，BWF记录止于2001年。风格：百度百科“右手握拍，防守型打法”“擅长打拉开突击，球打得稳，失误少（央视网评）”；英文维基“known for his all-round defensive ability as well as his never-say-die attitude”，并记1997年世锦赛决赛抽筋仍在决胜局10-3领先后告负。“世界第一”依据英文维基（former world number 1），BWF历史排名接口无数据。",
+      "retired_year": 2001,
+      "verified": true,
+      "verification_note": "2026-10-04 复核：Olympedia（1975-06-16，175 cm/65 kg，1996/2000年奥运）、BWF API（174 cm、右手）；英文维基确认1999年世锦赛冠军（决赛胜中华台北的Fung Permadi）、1997年亚军（抽筋仍决胜局10-3领先后告负）、1997年世界杯、1997年亚锦赛、1998年全英；百度百科（已直接查看）：身高1.74 m、“右手握拍，防守型打法”、“擅长打拉开突击，球打得稳，失误少（央视网评）”、1998年3–4月世界排名第1、2001年退役。纠错：世界大奖赛总决赛冠军不止1997年，1998年（1999年2月在文莱举行）他再次夺冠、成为首位卫冕者，highlights_zh 已改为“（1997、1998）”。"
+    },
+    {
+      "id": "dong-jiong",
+      "name_en": "Dong Jiong",
+      "name_zh": "董炯",
+      "country_zh": "中国",
+      "gender": "M",
+      "height_cm": 180,
+      "weight_kg": 68,
+      "handedness": "R",
+      "birth_year": 1973,
+      "status": "retired",
+      "highlights_zh": "1996年亚特兰大奥运会男单银牌；1997年全英公开赛、丹麦公开赛男单冠军；1996年世界杯男单冠军；1998年曼谷亚运会男单金牌；1996年曾列世界第一",
+      "style_primary": "进攻压制型",
+      "style_tags_zh": [
+        "跳杀凶猛",
+        "拼劲足",
+        "体能好"
+      ],
+      "style_desc_zh": "进攻型打法，场上拼劲足，跳起扣杀凶猛，是90年代中期中国男单重新崛起的代表人物之一，但长时间相持时体能偶有不支。1996年奥运会决赛两局惜败拉尔森；生涯高峰期较短，2000年前后因伤病退役。",
+      "signature_skills_zh": [
+        "跳杀",
+        "后场连续进攻"
+      ],
+      "sources": [
+        "https://www.olympedia.org/athletes/2307",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=4856",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-bio?activeTab=1&playerId=4856",
+        "https://en.wikipedia.org/wiki/Dong_Jiong",
+        "https://baike.baidu.com/item/董炯",
+        "https://worldbadminton.com/shuttlenws/960801.txt"
+      ],
+      "confidence": {
+        "height": "high",
+        "weight": "medium",
+        "status": "high"
+      },
+      "notes": "替补人选（替代因缺少风格资料而未收录的Park Sung-hwan）。身高：BWF资料180、百度百科180 cm；Olympedia 179 cm/68 kg，英文维基1.79 m/68 kg（引Sports-Reference，与Olympedia同源）。取180。体重：Olympedia 68 kg，百度百科65公斤。右手：BWF hand=R、英文维基一致。退役年份有分歧：百度百科称2000年因伤病退役，英文维基称2001年退役，BWF记录止于2000年，故retired_year留空。风格：百度百科“特长是场上拼劲足，体力好，跳起扣杀凶猛，属进攻型打法”；英文维基称他与孙俊的成功标志着中国男单复兴的开始。“世界第一”依据英文维基信息框（无引注）；英文维基Joko Suprianto条目亦称1996年9月Joko“took top spot … over Chinese top player Dong Jiong”。 复核补充：百度百科“世界排名”一节列出1996年5月、6月国际羽联排名男单第1位；1996年奥运决赛报道（worldbadminton.com）提到“Dong's jumpsmash attack”，与“跳起扣杀凶猛”一致。 2026-10-04: 去掉\"体力好\"（1997、1999年比赛报道称其耐力不足、后段体能下降）。",
+      "retired_year": null,
+      "verified": true,
+      "verification_note": "2026-10-04 复核：Olympedia（1973-08-20，179 cm/68 kg，1996年奥运银牌）、BWF API（180 cm、右手，记录止于2000年）；英文维基确认1997年全英与丹麦公开赛、1996年世界杯、1998年亚运会男单金牌，称2001年退役；百度百科（已直接查看）称2000年因伤病退役、“特长是场上拼劲足，体力好，跳起扣杀凶猛，属进攻型打法”、1996年5–6月世界第一。退役年份两说，retired_year 维持 null。修改：highlights_zh 中“曾列世界第一”补上年份（1996年）。"
+    },
+    {
+      "id": "ji-xinpeng",
+      "name_en": "Ji Xinpeng",
+      "name_zh": "吉新鹏",
+      "country_zh": "中国",
+      "gender": "M",
+      "height_cm": 181,
+      "weight_kg": 70,
+      "handedness": "R",
+      "birth_year": 1977,
+      "status": "retired",
+      "highlights_zh": "2000年悉尼奥运会男单金牌（中国首位奥运男单冠军）；2000年日本公开赛男单冠军；2001年苏迪曼杯冠军",
+      "style_primary": "速度突击型",
+      "style_tags_zh": [
+        "拉开突击",
+        "变速进攻",
+        "大赛爆发"
+      ],
+      "style_desc_zh": "打法以拉开突击、变速进攻为特点：先用拉吊调动对手，再突然提速下压。2000年悉尼奥运会并非夺冠热门，却接连击败陶菲克、盖德，决赛战胜叶诚万，成为中国首位奥运男单冠军。",
+      "signature_skills_zh": [
+        "拉开突击",
+        "变速进攻"
+      ],
+      "sources": [
+        "https://www.olympedia.org/athletes/89247",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-bio?activeTab=1&playerId=8272",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-tmt-years?playerId=8272",
+        "https://en.wikipedia.org/wiki/Ji_Xinpeng",
+        "https://zh.wikipedia.org/wiki/吉新鹏",
+        "https://baike.baidu.com/item/吉新鹏"
+      ],
+      "confidence": {
+        "height": "high",
+        "weight": "medium",
+        "status": "high"
+      },
+      "notes": "替补人选（原候选Du Pengyu无可靠身高来源）。身高：Olympedia 181 cm/70 kg、英文与中文维基1.81 m、百度百科1.81 m，一致；体重百度百科为79 kg，取Olympedia 70 kg。BWF资料身高与持拍手为空；右手依据中英文维基。出生日期：Olympedia为1977年12月30日，BWF为1977-12-20，年份一致。退役：百度百科称2002年底从国家队退役，BWF记录止于2001年。执教：中文维基与百度百科称2002年11月起任国家三队教练、2005年调一队任男单助理教练、2008年10月离开国家队，后任职厦门市体育局；英文维基“2008年起任国家队教练”的说法有误。风格：百度百科“专业特点：拉开突击、变速进攻”；悉尼奥运会爆冷击败陶菲克、盖德、叶诚万见英文维基。",
+      "retired_year": 2002,
+      "verified": true,
+      "verification_note": "2026-10-04 复核：Olympedia（1977-12-30，181 cm/70 kg，2000年金牌）、BWF API（CHN，1977-12-20，无身高与持拍手）；中文维基确认悉尼奥运会八强胜世界第一陶菲克、半决赛2-1胜盖德、决赛胜叶诚万，以及2000年4月日本公开赛冠军、2001年苏迪曼杯冠军成员；百度百科（已直接查看）“专业特点：拉开突击、变速进攻”、2002年退役。修改：highlights_zh 补入2001年苏迪曼杯冠军；notes 纠正执教经历。style_primary“速度突击型”与“变速进攻、突击”相符，但“拉开”也带拉吊属性，归类置信度一般。"
+    },
+    {
+      "id": "chen-hong",
+      "name_en": "Chen Hong",
+      "name_zh": "陈宏",
+      "country_zh": "中国",
+      "gender": "M",
+      "height_cm": 182,
+      "weight_kg": 72,
+      "handedness": "R",
+      "birth_year": 1979,
+      "status": "retired",
+      "highlights_zh": "全英公开赛男单冠军（2002、2005）；2002–2003年曾列世界第一；世锦赛男单铜牌（2001、2006）；汤姆斯杯冠军（2004、2006）；1999年亚锦赛男单冠军",
+      "style_primary": "进攻压制型",
+      "style_tags_zh": [
+        "进攻锐利",
+        "拉开突击",
+        "手法多变",
+        "技术全面"
+      ],
+      "style_desc_zh": "右手拉开突击型选手，进攻锐利、攻击性强，手法富于变化，技术纯熟全面，2002、2005年两夺全英冠军。短板是关键分信心容易动摇，世锦赛和奥运会的成绩不及他在全英赛上的表现。",
+      "signature_skills_zh": [
+        "拉开突击",
+        "后场进攻",
+        "手法变化"
+      ],
+      "sources": [
+        "https://www.olympedia.org/athletes/105856",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-bio?activeTab=1&playerId=9689",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-tmt-years?playerId=9689",
+        "https://en.wikipedia.org/wiki/Chen_Hong_(badminton)",
+        "https://baike.baidu.com/item/陈宏",
+        "https://www.dawn.com/news/114386"
+      ],
+      "confidence": {
+        "height": "high",
+        "weight": "medium",
+        "status": "high"
+      },
+      "notes": "替补人选。身高：Olympedia 182 cm/72 kg、英文维基1.82 m、百度百科1.82 m；BWF资料181。取182。右手：BWF hand=R、百度百科一致。退役年份有分歧：英文维基称2007年退出竞技，但BWF记录中仍有2008年（香港、中国、马来西亚等）及2009年中华台北大奖赛，故retired_year留空；百度百科称2014年起任福建队副总教练。风格：百度百科“进攻锐利，技术全面，拉开突击型打法，攻击性很强，手法富于变化（搜狐体育评）”“不足之处是在关键时刻信心容易动摇（新浪体育评）”；英文维基称其在世锦赛和奥运会的表现“not among his finest”。英文维基另称其2006年世锦赛对陶菲克打出303 km/h跳杀，但无引注，检索到的报道将该届最快杀球记在陶菲克名下，复核后删去。",
+      "retired_year": null,
+      "verified": true,
+      "verification_note": "2026-10-04 复核：Olympedia（1979-11-28，182 cm/72 kg，2004年奥运并列第5）、BWF API（181 cm、右手，记录至2009年）；英文维基各届全英赛条目确认2002（胜布迪·桑托索）、2005（胜林丹）夺冠，2003年为亚军；世锦赛2001/2006铜牌、汤姆斯杯2004/2006、1999年亚锦赛冠军均核实；Dawn（法新社）2003年9月8日报道称其为“world No. 1”。百度百科（已直接查看）“拉开突击型打法，攻击性很强，手法富于变化”“关键时刻信心容易动摇”。纠错：删去 style_desc_zh 中“2006年世锦赛对陶菲克打出时速303公里的跳杀”（英文维基无引注，无法证实），相应删去标签“跳杀”和技能“重扣跳杀”。退役：英文维基称2007年，BWF记录到2009年，retired_year 维持 null。"
+    },
+    {
+      "id": "sony-dwi-kuncoro",
+      "name_en": "Sony Dwi Kuncoro",
+      "name_zh": "索尼·昆科罗",
+      "country_zh": "印尼",
+      "gender": "M",
+      "height_cm": 174,
+      "weight_kg": 63,
+      "handedness": "R",
+      "birth_year": 1984,
+      "status": "retired",
+      "highlights_zh": "2004年雅典奥运会男单铜牌；世锦赛男单银牌（2007）、铜牌（2009）；亚锦赛男单冠军（2002、2003、2005）；2008年连夺印尼、日本超级赛和中国大师赛冠军；最高世界第3（2004年）",
+      "style_primary": "进攻压制型",
+      "style_tags_zh": [
+        "暴力进攻",
+        "头顶突击",
+        "起跳下压"
+      ],
+      "style_desc_zh": "以暴力打法、擅长突击著称，年轻时常强行起跳在头顶区突击下压，因此长年受腰伤困扰。2007、2009年世锦赛两胜李宗伟，2016年从资格赛起步，连胜林丹、孙完虎夺得新加坡公开赛冠军。",
+      "signature_skills_zh": [
+        "头顶突击",
+        "起跳杀球"
+      ],
+      "sources": [
+        "https://www.olympedia.org/athletes/105849",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-bio?activeTab=1&playerId=50427",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-tmt-years?playerId=50427",
+        "https://en.wikipedia.org/wiki/Sony_Dwi_Kuncoro",
+        "https://baike.baidu.com/item/索尼·昆科罗",
+        "https://baike.baidu.com/item/世界羽毛球锦标赛"
+      ],
+      "confidence": {
+        "height": "high",
+        "weight": "high",
+        "status": "medium"
+      },
+      "notes": "身高：BWF资料174、英文维基1.74 m、百度百科174 cm；Olympedia为172 cm/63 kg。取174（BWF与另两源一致）。体重：Olympedia 63 kg、百度百科63公斤，一致。右手：BWF与英文维基一致。状态：英文维基称其为“former badminton player”；百度百科称2014年退出印尼国家队，曾表示“虽淡出主流赛场但仍未退役”；BWF记录最后一站为2019年10月印尼国际挑战赛，此后再无国际赛事，未找到正式退役公告，故status=retired、retired_year留空，状态置信度为medium。风格：百度百科“专业特点：暴力打法，擅长突击”“年轻时打法暴力，甚至经常强行起跳头顶位置突击，导致他多年以来被腰伤困扰”；两胜李宗伟及2016年新加坡公开赛战绩见英文维基。中文名依百度百科词条“索尼·昆科罗”（大陆媒体常简称“索尼”）。 复核补充：BWF API 最后一站为2019年10月印尼国际挑战赛（亚军），此后至2026-10无任何BWF赛事；百度百科引其旧采访称“虽淡出主流赛场但仍未退役”，未找到正式退役声明，status=retired 属事实上退役。最高排名第3（2004-10-07）见英文维基信息框；BWF API（2009年后数据）最高为第4（2013-05-23）。",
+      "retired_year": null,
+      "verified": true,
+      "verification_note": "2026-10-04 复核：BWF API（1984-07-07，174 cm、右手）、Olympedia（172 cm/63 kg，2004年铜牌、2008年并列第5）；英文维基确认2007年世锦赛银牌（第三轮胜李宗伟）、2009年铜牌（八强胜世界第一李宗伟）、亚锦赛2002/2003/2005、2008年印尼—日本—中国大师赛三连冠、2016年新加坡公开赛从资格赛打起，半决赛胜林丹、决赛胜孙完虎；百度百科（已直接查看）“暴力打法，擅长突击”及腰伤描述。状态：7年无国际赛事、英文维基称 former player，但无正式退役声明（见notes），status 置信度维持 medium。内容无改动。"
+    },
+    {
+      "id": "chen-jin",
+      "name_en": "Chen Jin",
+      "name_zh": "陈金",
+      "country_zh": "中国",
+      "gender": "M",
+      "height_cm": 181,
+      "weight_kg": 73,
+      "handedness": "R",
+      "birth_year": 1986,
+      "status": "retired",
+      "highlights_zh": "2010年世锦赛男单冠军；2008年北京奥运会男单铜牌；2008年全英公开赛男单冠军；世锦赛男单银牌（2009）、铜牌（2011）；汤姆斯杯冠军（2006、2008、2010、2012）；最高世界第2",
+      "style_primary": "四方拉吊控制型",
+      "style_tags_zh": [
+        "拉开突击",
+        "跑动能力强",
+        "连续进攻",
+        "心理稳定"
+      ],
+      "style_desc_zh": "右手拉开突击型选手，先用四方拉吊调动对手，再凭出色的跑动能力发动连续进攻；关键时刻敢于下手，心理素质好，多数比赛都能发挥出水平。2008年全英决赛击败林丹，2010年世锦赛夺冠。",
+      "signature_skills_zh": [
+        "四方拉吊",
+        "连续进攻",
+        "快速跑动"
+      ],
+      "sources": [
+        "https://www.olympedia.org/athletes/112833",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-bio?activeTab=1&playerId=51592",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-ranking-highest?rankingEvent=6-0&playerId=51592",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-tmt-years?playerId=51592",
+        "https://en.wikipedia.org/wiki/Chen_Jin_(badminton)",
+        "https://baike.baidu.com/item/陈金",
+        "https://en.wikipedia.org/wiki/2007_BWF_World_Championships_–_Men's_singles",
+        "https://en.wikipedia.org/wiki/2011_BWF_World_Championships_–_Men's_singles"
+      ],
+      "confidence": {
+        "height": "medium",
+        "weight": "medium",
+        "status": "high"
+      },
+      "notes": "身高三说：Olympedia 181 cm/73 kg、百度百科1.81 m/65 kg；英文维基1.82 m/72 kg（引腾讯2008陈金官网存档）；BWF资料183。取181（Olympedia与百度百科一致）。体重取Olympedia 73 kg。右手：BWF、百度百科、英文维基一致。最高排名：BWF接口最高第2（2010-04-15），英文维基亦为第2。退役：百度百科称2013年全运会后退役，BWF记录止于2013年；之后曾任国家队女单主教练，现任教于哈尔滨工业大学。风格：百度百科“右手握拍，拉开突击，跑动能力强。连续进攻能力强，在关键时刻敢于下手去打，心理素质比较好”。归为四方拉吊控制型（“拉开”为主线），也带进攻属性，归类置信度一般。",
+      "retired_year": 2013,
+      "verified": true,
+      "verification_note": "2026-10-04 复核：Olympedia（1986-01-10，181 cm/73 kg，2008年铜牌、2012年并列第5）、BWF API（183 cm、右手、最高第2）；百度百科（已直接查看）：1.81 m、“右手握拍，拉开突击，跑动能力强，连续进攻能力强…心理素质比较好”、四届汤姆斯杯冠军、2013年全运会后退役。纠错：原 highlights_zh 的“世锦赛铜牌（2007）”有误——2007年世锦赛男单铜牌是鲍春来和陈宇；陈金的世锦赛铜牌是2011年（半决赛负李宗伟），已改正。"
+    },
+    {
+      "id": "son-wan-ho",
+      "name_en": "Son Wan-ho",
+      "name_zh": "孙完虎",
+      "country_zh": "韩国",
+      "gender": "M",
+      "height_cm": 176,
+      "weight_kg": 70,
+      "handedness": "R",
+      "birth_year": 1988,
+      "status": "retired",
+      "highlights_zh": "2017年登上世界第一；2017年世锦赛男单铜牌；2017年苏迪曼杯冠军；2014年仁川亚运会男团金牌；2012年印度公开赛（决赛胜李宗伟）、2014年香港公开赛冠军；参加2012、2016年奥运会",
+      "style_primary": "防守反击型",
+      "style_tags_zh": [
+        "防守型",
+        "多拍相持",
+        "伺机反击"
+      ],
+      "style_desc_zh": "以防守为主，BWF资料将其风格标为“Defensive”；擅长稳住多拍相持再伺机反击，曾在2014年仁川亚运会男团决赛和两次公开赛决赛中击败谌龙。2017年登上世界第一，2025年5月退役。",
+      "signature_skills_zh": [
+        "接杀防守",
+        "多拍相持",
+        "防守反击"
+      ],
+      "sources": [
+        "https://www.olympedia.org/athletes/123526",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=54346",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-bio?activeTab=1&playerId=54346",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-ranking-highest?rankingEvent=6-0&playerId=54346",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-tmt-years?playerId=54346",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-tournaments?playerId=54346&tmtYear=2025",
+        "https://en.wikipedia.org/wiki/Son_Wan-ho",
+        "https://baike.baidu.com/item/孙完虎",
+        "https://namu.wiki/w/손완호",
+        "https://kpinews.kr/newsView/1065596861071351",
+        "https://en.wikipedia.org/wiki/2017_BWF_World_Championships_–_Men's_singles",
+        "https://www.rmzxw.com.cn/sy/yw/2014/09/24/383560.shtml"
+      ],
+      "confidence": {
+        "height": "high",
+        "weight": "medium",
+        "status": "high"
+      },
+      "notes": "身高：Olympedia 176 cm/70 kg、BWF资料176/右手、英文维基1.76 m；百度百科与namu.wiki为177 cm。体重：Olympedia与namu.wiki均为70 kg，英文维基143 lb（约65 kg）。状态：百度百科（引中羽在线）称其2025年5月16日在社交媒体宣布结束28年运动员生涯并出任韩国国家队教练；namu.wiki称其为“前羽毛球选手、现任国家队教练”；BWF记录最后一站为2025年4月普吉岛国际系列赛，2026年无赛事。复核：百度百科（已直接查看）写明2025年5月16日在社交媒体宣布结束运动员生涯、出任韩国国家队教练；KPI뉴스2025-05-01报道其入选2025年韩国国家队教练组；namu.wiki 称其为“前羽毛球选手、现任国家队教练”。社交媒体原帖未直接查看。世界第一：英文维基为2017年5月；BWF最高排名接口显示第1名（日期2017-09-21，共17周）。风格：BWF资料style_of_play为“Defensive”，英文维基“He plays primarily defensively”，百度百科“因其防守型的比赛风格”；原稿“被中国媒体称为‘谌龙克星’”在现行百度百科及检索到的报道中均未找到，复核时删去；2014年仁川亚运会男团决赛首场胜谌龙（21-5、22-24、21-14）见人民政协网2014-09-24报道；两次决赛胜谌龙为2014年香港公开赛与2019年马来西亚大师赛（英文维基）。",
+      "retired_year": 2025,
+      "verified": true,
+      "verification_note": "2026-10-04 复核：Olympedia（1988-05-17，176 cm/70 kg，2012/2016年奥运）、BWF API（176 cm、右手、style_of_play=Defensive、最高第1共17周、最后一站2025年4月普吉国际系列赛）；英文维基确认2017年5月世界第一、2017年世锦赛铜牌、2017年苏迪曼杯冠军、2014年仁川亚运会男团金牌、2012年印度公开赛决赛21-18/14-21/21-19胜李宗伟、2014年香港公开赛和2019年马来西亚大师赛决赛两胜谌龙；退役与转任教练见notes。修改：style_desc_zh 删去无法证实的“被中国媒体称为‘谌龙克星’”，改为已核实的胜谌龙战例（2014年亚运会男团决赛、2014年香港公开赛和2019年马来西亚大师赛决赛）。他是已在App中的成池铉的丈夫，但本人不在App中，不重复。"
+    }
+  ]
+}

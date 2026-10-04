@@ -15,6 +15,10 @@
     "status": "active",
     "retiredYear": null,
     "style": "attack",
+    "traits": [
+      "power",
+      "defense"
+    ],
     "highlights": {
       "zh": "2026年8月升至世界第一；2024年全英公开赛冠军；2018年亚运会男单金牌",
       "es": "Número 1 del mundo desde agosto de 2026; campeón del All England 2024; oro en individual masculino en los Juegos Asiáticos de 2018."
@@ -45,6 +49,11 @@
     "status": "active",
     "retiredYear": null,
     "style": "counter",
+    "traits": [
+      "stamina",
+      "defense",
+      "placement"
+    ],
     "highlights": {
       "zh": "2023年世锦赛冠军（泰国首位男单世界冠军）；2024年巴黎奥运会银牌；2022、2025年世锦赛银牌；2025年亚锦赛冠军；前世界第一（泰国首位）",
       "es": "Campeón del Mundial 2023 (primer campeón mundial tailandés en individual masculino); plata en los Juegos Olímpicos de París 2024; plata en el Mundial de 2022 y 2025; campeón del Campeonato de Asia 2025; ex número 1 del mundo (el primero de Tailandia)."
@@ -74,6 +83,11 @@
     "status": "active",
     "retiredYear": null,
     "style": "speed",
+    "traits": [
+      "speed",
+      "net",
+      "stamina"
+    ],
     "highlights": {
       "zh": "2025年世界羽联年终总决赛冠军；2026年日本公开赛冠军、欧锦赛男单冠军；最高世界第二",
       "es": "Campeón de las Finales de la BWF 2025; campeón del Abierto de Japón 2026 y del Campeonato de Europa individual masculino; número 2 del mundo en su mejor posición."
@@ -104,6 +118,11 @@
     "status": "active",
     "retiredYear": null,
     "style": "allround",
+    "traits": [
+      "deception",
+      "placement",
+      "net"
+    ],
     "highlights": {
       "zh": "世锦赛四枚奖牌（2019年银牌，2021、2023、2025年铜牌）；两届欧锦赛冠军；最高世界第二",
       "es": "Cuatro medallas en el Mundial (plata en 2019, bronce en 2021, 2023 y 2025); campeón del Campeonato de Europa en dos ocasiones; número 2 del mundo en su mejor posición."
@@ -134,6 +153,11 @@
     "status": "active",
     "retiredYear": null,
     "style": "attack",
+    "traits": [
+      "fight",
+      "power",
+      "stamina"
+    ],
     "highlights": {
       "zh": "2022、2026年世锦赛铜牌（36岁成为史上最年长的男单世锦赛奖牌得主）；2026年中国公开赛（超级1000）冠军，成为最年长的超级1000冠军；最高世界第二",
       "es": "Bronce en el Mundial de 2022 y 2026 (con 36 años, el medallista más veterano de la historia en individual masculino del Mundial); campeón del Abierto de China 2026 (Super 1000), el campeón de un Super 1000 de más edad; número 2 del mundo en su mejor posición."
@@ -164,6 +188,11 @@
     "status": "active",
     "retiredYear": null,
     "style": "allround",
+    "traits": [
+      "net",
+      "fight",
+      "placement"
+    ],
     "highlights": {
       "zh": "2025年世锦赛冠军；2018、2025年全英公开赛冠军；前世界第一",
       "es": "Campeón del Mundial 2025; campeón del All England en 2018 y 2025; ex número 1 del mundo."
@@ -194,6 +223,11 @@
     "status": "active",
     "retiredYear": null,
     "style": "counter",
+    "traits": [
+      "defense",
+      "fight",
+      "stamina"
+    ],
     "highlights": {
       "zh": "2023、2026年世锦赛银牌；最高世界第二",
       "es": "Plata en el Mundial de 2023 y 2026; número 2 del mundo en su mejor posición."
@@ -223,6 +257,11 @@
     "status": "active",
     "retiredYear": null,
     "style": "allround",
+    "traits": [
+      "stamina",
+      "speed",
+      "power"
+    ],
     "highlights": {
       "zh": "2026年世锦赛冠军（法国首位男单世界冠军）；2025年欧锦赛冠军；法国首位超级750赛男单冠军",
       "es": "Campeón del Mundial 2026 (primer campeón mundial francés en individual masculino); campeón del Campeonato de Europa 2025; primer francés en ganar un Super 750 en individual masculino."
@@ -253,6 +292,11 @@
     "status": "active",
     "retiredYear": null,
     "style": "control",
+    "traits": [
+      "defense",
+      "placement",
+      "fight"
+    ],
     "highlights": {
       "zh": "2025、2026年连续两届世锦赛铜牌（2025年为加拿大首枚世锦赛奖牌）；2026年印尼公开赛冠军（加拿大首个超级1000冠军）；最高世界第七",
       "es": "Bronce en el Mundial en dos ediciones consecutivas, 2025 y 2026 (en 2025, la primera medalla mundialista de Canadá); campeón del Abierto de Indonesia 2026 (el primer título Super 1000 de Canadá); número 7 del mundo en su mejor posición."
@@ -283,6 +327,10 @@
     "status": "active",
     "retiredYear": null,
     "style": "speed",
+    "traits": [
+      "speed",
+      "power"
+    ],
     "highlights": {
       "zh": "2023年世青赛男单冠军；2025年东南亚运动会男单金牌；2026年首次跻身世界前十",
       "es": "Campeón mundial junior 2023 en individual masculino; oro en individual masculino en los Juegos del Sudeste Asiático 2025; entró por primera vez en el top 10 del mundo en 2026."
@@ -313,6 +361,11 @@
     "status": "active",
     "retiredYear": null,
     "style": "attack",
+    "traits": [
+      "power",
+      "placement",
+      "net"
+    ],
     "highlights": {
       "zh": "2026年全英公开赛冠军；最高世界第八",
       "es": "Campeón del All England 2026; número 8 del mundo en su mejor posición."
@@ -343,6 +396,11 @@
     "status": "active",
     "retiredYear": null,
     "style": "attack",
+    "traits": [
+      "speed",
+      "defense",
+      "stamina"
+    ],
     "highlights": {
       "zh": "2022年杭州亚运会男单金牌；2023年全英公开赛冠军；最高世界第三",
       "es": "Oro en individual masculino en los Juegos Asiáticos de Hangzhou 2022; campeón del All England 2023; número 3 del mundo en su mejor posición."
@@ -373,6 +431,11 @@
     "status": "active",
     "retiredYear": null,
     "style": "speed",
+    "traits": [
+      "speed",
+      "power",
+      "defense"
+    ],
     "highlights": {
       "zh": "2021年世锦赛冠军（新加坡首位世界冠军）；最高世界第三",
       "es": "Campeón del Mundial 2021 (primer campeón mundial de Singapur); número 3 del mundo en su mejor posición."
@@ -402,6 +465,11 @@
     "status": "active",
     "retiredYear": null,
     "style": "allround",
+    "traits": [
+      "defense",
+      "speed",
+      "net"
+    ],
     "highlights": {
       "zh": "2021年世锦赛铜牌；2022年英联邦运动会男单金牌；2024年巴黎奥运会第四名",
       "es": "Bronce en el Mundial 2021; oro en individual masculino en los Juegos de la Commonwealth 2022; cuarto puesto en los Juegos Olímpicos de París 2024."
@@ -432,6 +500,10 @@
     "status": "active",
     "retiredYear": null,
     "style": "attack",
+    "traits": [
+      "power",
+      "net"
+    ],
     "highlights": {
       "zh": "2025年欧锦赛男双冠军（与弟弟克里斯托搭档）；2026年中国公开赛（超级1000）男单亚军，成为首位打进超级1000决赛的法国单打选手；男单最高世界第13",
       "es": "Campeón del Campeonato de Europa de dobles masculinos 2025 (haciendo pareja con su hermano Christo); subcampeón de individual masculino en el Abierto de China 2026 (Super 1000), lo que lo convirtió en el primer jugador francés de individuales en llegar a una final de un Super 1000; número 13 del mundo en individual masculino en su mejor posición."
@@ -461,6 +533,10 @@
     "status": "active",
     "retiredYear": null,
     "style": "speed",
+    "traits": [
+      "speed",
+      "placement"
+    ],
     "highlights": {
       "zh": "2023年瑞士公开赛、2024年加拿大公开赛冠军；2026年日本公开赛亚军；最高世界第11",
       "es": "Campeón del Abierto de Suiza 2023 y del Abierto de Canadá 2024; subcampeón del Abierto de Japón 2026; número 11 del mundo en su mejor posición."
@@ -490,6 +566,11 @@
     "status": "active",
     "retiredYear": null,
     "style": "net",
+    "traits": [
+      "net",
+      "deception",
+      "power"
+    ],
     "highlights": {
       "zh": "2024、2026年汤姆斯杯冠军成员；2025年中国大师赛（超级750）冠军；2022年韩国公开赛冠军；最高世界第十",
       "es": "Miembro del equipo campeón de la Copa Thomas en 2024 y 2026; campeón del Masters de China 2025 (Super 750); campeón del Abierto de Corea 2022; número 10 del mundo en su mejor posición."
@@ -520,6 +601,10 @@
     "status": "active",
     "retiredYear": null,
     "style": "attack",
+    "traits": [
+      "power",
+      "speed"
+    ],
     "highlights": {
       "zh": "2024年巴黎奥运会铜牌；2021年全英公开赛冠军；2022年亚锦赛冠军；最高世界第二",
       "es": "Bronce en los Juegos Olímpicos de París 2024; campeón del All England 2021; campeón del Campeonato de Asia 2022; número 2 del mundo en su mejor posición."
@@ -550,6 +635,11 @@
     "status": "active",
     "retiredYear": null,
     "style": "speed",
+    "traits": [
+      "speed",
+      "net",
+      "deception"
+    ],
     "highlights": {
       "zh": "2020年东京奥运会铜牌；2018年亚运会铜牌；2023年亚锦赛冠军；最高世界第二",
       "es": "Bronce en los Juegos Olímpicos de Tokio 2020; bronce en los Juegos Asiáticos 2018; campeón del Campeonato de Asia 2023; número 2 del mundo en su mejor posición."
@@ -580,6 +670,11 @@
     "status": "retired",
     "retiredYear": 2026,
     "style": "attack",
+    "traits": [
+      "power",
+      "placement",
+      "defense"
+    ],
     "highlights": {
       "zh": "东京2020、巴黎2024奥运会男单金牌；2017、2022年世锦赛冠军；前世界第一",
       "es": "Oro en individual masculino en los Juegos Olímpicos de Tokio 2020 y de París 2024; campeón del Mundial en 2017 y 2022; ex número 1 del mundo."
@@ -609,6 +704,11 @@
     "status": "retired",
     "retiredYear": 2020,
     "style": "allround",
+    "traits": [
+      "power",
+      "fight",
+      "defense"
+    ],
     "highlights": {
       "zh": "北京2008、伦敦2012奥运会男单金牌；五届世锦赛冠军；首位“超级全满贯”得主",
       "es": "Oro en individual masculino en los Juegos Olímpicos de Pekín 2008 y Londres 2012; campeón del Mundial en cinco ocasiones; primer jugador en lograr el «Super Grand Slam»."
@@ -639,6 +739,11 @@
     "status": "retired",
     "retiredYear": 2019,
     "style": "speed",
+    "traits": [
+      "speed",
+      "defense",
+      "power"
+    ],
     "highlights": {
       "zh": "三届奥运会男单银牌（2008、2012、2016）；累计349周世界第一；三届世锦赛银牌",
       "es": "Plata en individual masculino en tres Juegos Olímpicos (2008, 2012 y 2016); 349 semanas acumuladas como número 1 del mundo; plata en el Mundial en tres ocasiones."
@@ -669,6 +774,11 @@
     "status": "retired",
     "retiredYear": 2013,
     "style": "net",
+    "traits": [
+      "power",
+      "deception",
+      "net"
+    ],
     "highlights": {
       "zh": "2004年雅典奥运会男单金牌；2005年世锦赛冠军；前世界第一",
       "es": "Oro en individual masculino en los Juegos Olímpicos de Atenas 2004; campeón del Mundial 2005; ex número 1 del mundo."
@@ -699,6 +809,11 @@
     "status": "retired",
     "retiredYear": 2023,
     "style": "control",
+    "traits": [
+      "defense",
+      "stamina",
+      "placement"
+    ],
     "highlights": {
       "zh": "2016年里约奥运会男单金牌；2014、2015年世锦赛冠军；奥运会金、银、铜牌各一枚（2016金、2020银、2012铜）",
       "es": "Oro en individual masculino en los Juegos Olímpicos de Río 2016; campeón del Mundial en 2014 y 2015; una medalla de oro, una de plata y una de bronce olímpicas (oro en 2016, plata en 2020 y bronce en 2012)."
@@ -729,6 +844,11 @@
     "status": "retired",
     "retiredYear": 2024,
     "style": "control",
+    "traits": [
+      "net",
+      "defense",
+      "stamina"
+    ],
     "highlights": {
       "zh": "2018、2019年世锦赛冠军；2019年单赛季11个冠军；前世界第一",
       "es": "Campeón del Mundial en 2018 y 2019; 11 títulos en una sola temporada en 2019; ex número 1 del mundo."
@@ -759,6 +879,11 @@
     "status": "retired",
     "retiredYear": 2012,
     "style": "net",
+    "traits": [
+      "deception",
+      "speed",
+      "net"
+    ],
     "highlights": {
       "zh": "1999年全英公开赛冠军；1998至2001年世界第一；五届欧锦赛冠军",
       "es": "Campeón del All England 1999; número 1 del mundo de 1998 a 2001; campeón del Campeonato de Europa en cinco ocasiones."
@@ -789,6 +914,11 @@
     "status": "active",
     "retiredYear": null,
     "style": "counter",
+    "traits": [
+      "defense",
+      "stamina",
+      "speed"
+    ],
     "highlights": {
       "zh": "2024年巴黎奥运会女单金牌；2023、2026年世锦赛冠军；世界第一，2025年单赛季11冠",
       "es": "Oro en individual femenino en los Juegos Olímpicos de París 2024; campeona del Mundial en 2023 y 2026; número 1 del mundo, con 11 títulos en la temporada 2025."
@@ -819,6 +949,11 @@
     "status": "active",
     "retiredYear": null,
     "style": "allround",
+    "traits": [
+      "fight",
+      "defense",
+      "stamina"
+    ],
     "highlights": {
       "zh": "2026年全英公开赛冠军（决赛击败安洗莹）；2026年世锦赛铜牌；两届亚锦赛冠军；最高世界第二",
       "es": "Campeona del All England 2026 (venció en la final a An Se-young); bronce en el Mundial 2026; campeona del Campeonato de Asia en dos ocasiones; número 2 del mundo en su mejor posición."
@@ -849,6 +984,11 @@
     "status": "active",
     "retiredYear": null,
     "style": "speed",
+    "traits": [
+      "speed",
+      "defense",
+      "deception"
+    ],
     "highlights": {
       "zh": "2021、2022、2025年三届世锦赛冠军；2026年世锦赛亚军；前世界第一",
       "es": "Campeona del Mundial en 2021, 2022 y 2025; subcampeona del Mundial 2026; ex número 1 del mundo."
@@ -879,6 +1019,11 @@
     "status": "active",
     "retiredYear": null,
     "style": "control",
+    "traits": [
+      "placement",
+      "stamina",
+      "defense"
+    ],
     "highlights": {
       "zh": "2020年东京奥运会女单金牌；2019年年终总决赛冠军；前世界第一；五枚世锦赛奖牌",
       "es": "Oro en individual femenino en los Juegos Olímpicos de Tokio 2020; campeona de las Finales de fin de temporada 2019; ex número 1 del mundo; cinco medallas en el Mundial."
@@ -909,6 +1054,11 @@
     "status": "active",
     "retiredYear": null,
     "style": "net",
+    "traits": [
+      "net",
+      "deception",
+      "placement"
+    ],
     "highlights": {
       "zh": "2013年世锦赛冠军（史上最年轻的女单世界冠军）；三届世青赛冠军；前世界第一",
       "es": "Campeona del Mundial 2013 (la campeona mundial más joven de la historia en individual femenino); campeona mundial junior en tres ocasiones; ex número 1 del mundo."
@@ -939,6 +1089,10 @@
     "status": "active",
     "retiredYear": null,
     "style": "allround",
+    "traits": [
+      "power",
+      "placement"
+    ],
     "highlights": {
       "zh": "2025年世锦赛铜牌；最高世界第六（2025年12月）",
       "es": "Bronce en el Mundial 2025; número 6 del mundo en su mejor posición (diciembre de 2025)."
@@ -969,6 +1123,11 @@
     "status": "active",
     "retiredYear": null,
     "style": "control",
+    "traits": [
+      "deception",
+      "placement",
+      "speed"
+    ],
     "highlights": {
       "zh": "2022年世青赛女单冠军；最高世界第六（2025年6月）；2026年亚运会女团银牌成员",
       "es": "Campeona mundial junior 2022 en individual femenino; número 6 del mundo en su mejor posición (junio de 2025); integrante del equipo que logró la plata por equipos femeninos en los Juegos Asiáticos 2026."
@@ -998,6 +1157,11 @@
     "status": "active",
     "retiredYear": null,
     "style": "control",
+    "traits": [
+      "fight",
+      "placement",
+      "stamina"
+    ],
     "highlights": {
       "zh": "2026年世锦赛铜牌（1/8决赛逆转陈雨菲）；最高世界第六",
       "es": "Bronce en el Mundial 2026 (remontó a Chen Yufei en octavos de final); número 6 del mundo en su mejor posición."
@@ -1027,6 +1191,11 @@
     "status": "active",
     "retiredYear": null,
     "style": "control",
+    "traits": [
+      "defense",
+      "net",
+      "stamina"
+    ],
     "highlights": {
       "zh": "最高世界第三（2025年3月）；2025年亚锦赛银牌；第31届世界大学生夏季运动会（成都，2023年举行）女单金牌；2026年亚运会女团金牌成员",
       "es": "Número 3 del mundo en su mejor posición (marzo de 2025); plata en el Campeonato de Asia 2025; oro en individual femenino en la XXXI Universiada de Verano (Chengdu, celebrada en 2023); integrante del equipo campeón por equipos femeninos en los Juegos Asiáticos 2026."
@@ -1057,6 +1226,11 @@
     "status": "active",
     "retiredYear": null,
     "style": "counter",
+    "traits": [
+      "stamina",
+      "defense",
+      "placement"
+    ],
     "highlights": {
       "zh": "2017年世锦赛冠军；2016年里约奥运会铜牌；前世界第一",
       "es": "Campeona del Mundial 2017; bronce en los Juegos Olímpicos de Río 2016; ex número 1 del mundo."
@@ -1086,6 +1260,11 @@
     "status": "active",
     "retiredYear": null,
     "style": "attack",
+    "traits": [
+      "power",
+      "fight",
+      "net"
+    ],
     "highlights": {
       "zh": "2016年里约奥运会银牌、2020年东京奥运会铜牌；2019年世锦赛冠军；五枚世锦赛奖牌；2026年日本公开赛（超级750）冠军",
       "es": "Plata en los Juegos Olímpicos de Río 2016 y bronce en los de Tokio 2020; campeona del Mundial 2019; cinco medallas en el Mundial; campeona del Abierto de Japón 2026 (Super 750)."
@@ -1116,6 +1295,10 @@
     "status": "active",
     "retiredYear": null,
     "style": "attack",
+    "traits": [
+      "deception",
+      "power"
+    ],
     "highlights": {
       "zh": "2022、2026年尤伯杯冠军成员（2026年决赛战胜陈雨菲）；最高世界第12",
       "es": "Integrante del equipo campeón de la Copa Uber en 2022 y 2026 (en la final de 2026 venció a Chen Yufei); número 12 del mundo en su mejor posición."
@@ -1146,6 +1329,10 @@
     "status": "active",
     "retiredYear": null,
     "style": "attack",
+    "traits": [
+      "power",
+      "net"
+    ],
     "highlights": {
       "zh": "2021年欧锦赛女单银牌；2018年欧青赛冠军；2026年8月升至个人最高世界第13",
       "es": "Plata en individual femenino en el Campeonato de Europa 2021; campeona del Campeonato de Europa junior 2018; en agosto de 2026 alcanzó su mejor posición, el número 13 del mundo."
@@ -1175,6 +1362,10 @@
     "status": "active",
     "retiredYear": null,
     "style": "control",
+    "traits": [
+      "fight",
+      "deception"
+    ],
     "highlights": {
       "zh": "2014年英联邦运动会女单金牌；三届泛美运动会女单冠军（2011、2015、2019）；2026年第二次打进世锦赛八强",
       "es": "Oro en individual femenino en los Juegos de la Commonwealth 2014; campeona de individual femenino en los Juegos Panamericanos en tres ocasiones (2011, 2015 y 2019); en 2026 llegó por segunda vez a cuartos de final del Mundial."
@@ -1205,6 +1396,10 @@
     "status": "active",
     "retiredYear": null,
     "style": "attack",
+    "traits": [
+      "power",
+      "fight"
+    ],
     "highlights": {
       "zh": "2019年欧洲运动会女单金牌；2015年欧青赛冠军；最高世界第11",
       "es": "Oro en individual femenino en los Juegos Europeos 2019; campeona del Campeonato de Europa junior 2015; número 11 del mundo en su mejor posición."
@@ -1235,6 +1430,11 @@
     "status": "active",
     "retiredYear": null,
     "style": "counter",
+    "traits": [
+      "stamina",
+      "fight",
+      "deception"
+    ],
     "highlights": {
       "zh": "2015年东南亚运动会女单金牌；2014年青奥会女单铜牌；最高世界第九",
       "es": "Oro en individual femenino en los Juegos del Sudeste Asiático 2015; bronce en individual femenino en los Juegos Olímpicos de la Juventud 2014; número 9 del mundo en su mejor posición."
@@ -1264,6 +1464,11 @@
     "status": "retired",
     "retiredYear": 2025,
     "style": "net",
+    "traits": [
+      "deception",
+      "net",
+      "speed"
+    ],
     "highlights": {
       "zh": "2020年东京奥运会银牌；累计214周世界第一；四届年终总决赛冠军、三届全英公开赛冠军",
       "es": "Plata en los Juegos Olímpicos de Tokio 2020; 214 semanas acumuladas como número 1 del mundo; campeona de las Finales de fin de temporada en cuatro ocasiones y del All England en tres ocasiones."
@@ -1293,6 +1498,11 @@
     "status": "retired",
     "retiredYear": 2026,
     "style": "speed",
+    "traits": [
+      "fight",
+      "speed",
+      "power"
+    ],
     "highlights": {
       "zh": "2016年里约奥运会女单金牌；2014、2015、2018年三届世锦赛冠军；前世界第一",
       "es": "Oro en individual femenino en los Juegos Olímpicos de Río 2016; campeona del Mundial en 2014, 2015 y 2018; ex número 1 del mundo."
@@ -1323,6 +1533,10 @@
     "status": "retired",
     "retiredYear": 2019,
     "style": "attack",
+    "traits": [
+      "power",
+      "speed"
+    ],
     "highlights": {
       "zh": "2012年伦敦奥运会女单金牌；2013、2014年世锦赛银牌；累计124周世界第一",
       "es": "Oro en individual femenino en los Juegos Olímpicos de Londres 2012; plata en el Mundial de 2013 y 2014; 124 semanas acumuladas como número 1 del mundo."
@@ -1353,6 +1567,11 @@
     "status": "retired",
     "retiredYear": 2016,
     "style": "control",
+    "traits": [
+      "power",
+      "fight",
+      "stamina"
+    ],
     "highlights": {
       "zh": "2011年世锦赛冠军；2012年伦敦奥运会银牌；前世界第一",
       "es": "Campeona del Mundial 2011; plata en los Juegos Olímpicos de Londres 2012; ex número 1 del mundo."
@@ -1383,6 +1602,11 @@
     "status": "retired",
     "retiredYear": 2026,
     "style": "attack",
+    "traits": [
+      "fight",
+      "power",
+      "stamina"
+    ],
     "highlights": {
       "zh": "2012年伦敦奥运会铜牌（印度首枚奥运羽毛球奖牌）；2015年世锦赛银牌；2015年登上世界第一",
       "es": "Bronce en los Juegos Olímpicos de Londres 2012 (la primera medalla olímpica de bádminton para la India); plata en el Mundial 2015; número 1 del mundo en 2015."
@@ -1413,6 +1637,11 @@
     "status": "retired",
     "retiredYear": 2008,
     "style": "control",
+    "traits": [
+      "stamina",
+      "placement",
+      "fight"
+    ],
     "highlights": {
       "zh": "2004年雅典、2008年北京奥运会女单金牌（唯一卫冕的奥运女单冠军）；2003年世锦赛冠军",
       "es": "Oro en individual femenino en los Juegos Olímpicos de Atenas 2004 y Pekín 2008 (la única campeona olímpica de individual femenino que revalidó el título); campeona del Mundial 2003."
@@ -1443,6 +1672,11 @@
     "status": "retired",
     "retiredYear": 2009,
     "style": "attack",
+    "traits": [
+      "speed",
+      "placement",
+      "defense"
+    ],
     "highlights": {
       "zh": "2005、2006年世锦赛冠军；2008年北京奥运会银牌；前世界第一",
       "es": "Campeona del Mundial en 2005 y 2006; plata en los Juegos Olímpicos de Pekín 2008; ex número 1 del mundo."
@@ -1473,6 +1707,11 @@
     "status": "retired",
     "retiredYear": 2024,
     "style": "control",
+    "traits": [
+      "power",
+      "speed",
+      "fight"
+    ],
     "highlights": {
       "zh": "2024年巴黎奥运会女单银牌；2018、2021年世锦赛铜牌；最高世界第五",
       "es": "Plata en individual femenino en los Juegos Olímpicos de París 2024; bronce en el Mundial de 2018 y 2021; número 5 del mundo en su mejor posición."
@@ -1503,6 +1742,11 @@
     "status": "retired",
     "retiredYear": 1998,
     "style": "counter",
+    "traits": [
+      "defense",
+      "speed",
+      "stamina"
+    ],
     "highlights": {
       "zh": "1992年巴塞罗那奥运会女单金牌（印尼首枚奥运金牌）；1993年世锦赛冠军；1996年奥运会铜牌",
       "es": "Oro en individual femenino en los Juegos Olímpicos de Barcelona 1992 (la primera medalla de oro olímpica de Indonesia); campeona del Mundial 1993; bronce olímpico en 1996."
@@ -1533,6 +1777,11 @@
     "status": "active",
     "retiredYear": null,
     "style": "speed",
+    "traits": [
+      "speed",
+      "deception",
+      "fight"
+    ],
     "highlights": {
       "zh": "2025年越南公开赛冠军（超级100，生涯首个世界巡回赛冠军）；2026年印尼大师赛、泰国大师赛、马来西亚大师赛三站亚军；2026年亚运会男团铜牌；最高世界第16",
       "es": "Campeón del Abierto de Vietnam 2025 (Super 100, su primer título del World Tour); subcampeón del Masters de Indonesia, del Masters de Tailandia y del Masters de Malasia en 2026; bronce por equipos masculinos en los Juegos Asiáticos 2026; número 16 del mundo en su mejor posición."
@@ -1562,6 +1811,11 @@
     "status": "active",
     "retiredYear": null,
     "style": "speed",
+    "traits": [
+      "speed",
+      "power",
+      "fight"
+    ],
     "highlights": {
       "zh": "2024年奥尔良大师赛、美国公开赛及2026年瑞士公开赛冠军（均为超级300）；2025年澳大利亚公开赛亚军；2026年日本公开赛四强；两夺全日本综合锦标赛男单冠军；最高世界第18",
       "es": "Campeón del Masters de Orleans y del Abierto de Estados Unidos 2024 y del Abierto de Suiza 2026 (todos Super 300); subcampeón del Abierto de Australia 2025; semifinalista del Abierto de Japón 2026; dos veces campeón de individual masculino del Campeonato Absoluto de Japón; número 18 del mundo en su mejor posición."
@@ -1590,6 +1844,11 @@
     "status": "active",
     "retiredYear": null,
     "style": "attack",
+    "traits": [
+      "power",
+      "fight",
+      "net"
+    ],
     "highlights": {
       "zh": "2019年香港公开赛冠军（超级500，本在资格赛、因他人退赛递补进正赛后夺冠）；2024年、2025年印度公开赛及2026年中国大师赛亚军（均为超级750）；2024年巴黎奥运会男单参赛；最高世界第13",
       "es": "Campeón del Abierto de Hong Kong 2019 (Super 500; estaba en la fase de clasificación y entró en el cuadro principal como sustituto por la baja de otro jugador, y acabó ganando el título); subcampeón del Abierto de India 2024 y 2025 y del Masters de China 2026 (todos Super 750); participó en individual masculino en los Juegos Olímpicos de París 2024; número 13 del mundo en su mejor posición."
@@ -1619,6 +1878,11 @@
     "status": "active",
     "retiredYear": null,
     "style": "attack",
+    "traits": [
+      "power",
+      "speed",
+      "fight"
+    ],
     "highlights": {
       "zh": "2018年西班牙大师赛冠军；2020年丹麦公开赛、2022年法国公开赛亚军（均为超级750）；汤姆斯杯铜牌（2020、2022）；最高世界第10",
       "es": "Campeón del Masters de España 2018; subcampeón del Abierto de Dinamarca 2020 y del Abierto de Francia 2022 (ambos Super 750); bronce en la Copa Thomas (2020 y 2022); número 10 del mundo en su mejor posición."
@@ -1647,6 +1911,11 @@
     "status": "active",
     "retiredYear": null,
     "style": "allround",
+    "traits": [
+      "net",
+      "power",
+      "defense"
+    ],
     "highlights": {
       "zh": "两届奥运会男单参赛（2020东京、2024巴黎）；2026年中国公开赛八强（爱尔兰选手首次闯进超级1000八强）；爱尔兰公开赛冠军（2023、2024）；最高世界第24",
       "es": "Participó en individual masculino en dos Juegos Olímpicos (Tokio 2020 y París 2024); cuartos de final del Abierto de China 2026 (primer jugador irlandés en llegar a cuartos de final de un Super 1000); campeón del Abierto de Irlanda (2023 y 2024); número 24 del mundo en su mejor posición."
@@ -1676,6 +1945,11 @@
     "status": "active",
     "retiredYear": null,
     "style": "counter",
+    "traits": [
+      "defense",
+      "stamina",
+      "speed"
+    ],
     "highlights": {
       "zh": "2026年加拿大公开赛、台北公开赛冠军（均为超级300，台北公开赛为日本男单首冠）；2023年亚青赛男单银牌；2026年亚洲男团锦标赛冠军成员；最高世界第21",
       "es": "Campeón del Abierto de Canadá y del Abierto de Taipéi 2026 (ambos Super 300; el de Taipéi fue el primer título de un japonés en individual masculino en ese torneo); plata en individual masculino en el Campeonato de Asia junior 2023; integrante del equipo campeón del Campeonato de Asia por Equipos Masculinos 2026; número 21 del mundo en su mejor posición."
@@ -1704,6 +1978,11 @@
     "status": "active",
     "retiredYear": null,
     "style": "counter",
+    "traits": [
+      "stamina",
+      "power",
+      "placement"
+    ],
     "highlights": {
       "zh": "2022年日本公开赛冠军（超级750）；2023年西班牙大师赛、2025年加拿大公开赛冠军；2018年亚运会男单铜牌；最高世界第9",
       "es": "Campeón del Abierto de Japón 2022 (Super 750); campeón del Masters de España 2023 y del Abierto de Canadá 2025; bronce en individual masculino en los Juegos Asiáticos de 2018; número 9 del mundo en su mejor posición."
@@ -1732,6 +2011,11 @@
     "status": "active",
     "retiredYear": null,
     "style": "net",
+    "traits": [
+      "power",
+      "net",
+      "speed"
+    ],
     "highlights": {
       "zh": "前世界第一（2018年4月，继帕杜科内之后首位登顶的印度男单）；2021年世锦赛银牌；2017年一年内夺得印尼、澳大利亚、丹麦、法国四站超级赛冠军；2014年中国公开赛冠军（决赛胜林丹）；2022年汤姆斯杯冠军队队长",
       "es": "Ex número 1 del mundo (abril de 2018, el primer indio de individual masculino en alcanzarlo después de Padukone); plata en el Mundial de 2021; en 2017 ganó en un solo año cuatro torneos Super Series: Indonesia, Australia, Dinamarca y Francia; campeón del Abierto de China 2014 (venció a Lin Dan en la final); capitán del equipo campeón de la Copa Thomas 2022"
@@ -1760,6 +2044,11 @@
     "status": "active",
     "retiredYear": null,
     "style": "control",
+    "traits": [
+      "placement",
+      "speed",
+      "stamina"
+    ],
     "highlights": {
       "zh": "2016年香港公开赛冠军（超级赛）；2020年泰国大师赛、2023年德国公开赛、2024年澳门公开赛冠军；2016、2020年两届奥运会男单参赛；最高世界第6",
       "es": "Campeón del Abierto de Hong Kong 2016 (torneo Super Series); campeón del Masters de Tailandia 2020, del Abierto de Alemania 2023 y del Abierto de Macao 2024; participó en individual masculino en los Juegos Olímpicos de 2016 y 2020; número 6 del mundo en su mejor posición."
@@ -1788,6 +2077,10 @@
     "status": "active",
     "retiredYear": null,
     "style": "attack",
+    "traits": [
+      "power",
+      "deception"
+    ],
     "highlights": {
       "zh": "2023年世锦赛铜牌；杭州亚运会（2023年举行）男单铜牌、男团银牌；2026年亚运会男团铜牌；2023年马来西亚大师赛冠军（超级500）；2022年汤姆斯杯冠军成员；最高世界第6",
       "es": "Bronce en el Mundial de 2023; bronce en individual masculino y plata por equipos masculinos en los Juegos Asiáticos de Hangzhou (celebrados en 2023); bronce por equipos masculinos en los Juegos Asiáticos 2026; campeón del Masters de Malasia 2023 (Super 500); integrante del equipo campeón de la Copa Thomas 2022; número 6 del mundo en su mejor posición."
@@ -1817,6 +2110,10 @@
     "status": "retired",
     "retiredYear": 2011,
     "style": "control",
+    "traits": [
+      "placement",
+      "defense"
+    ],
     "highlights": {
       "zh": "2006年世锦赛银牌，2003、2007年世锦赛铜牌；2009年亚锦赛冠军；四次汤姆斯杯冠军成员（2004、2006、2008、2010）；2000年世青赛男单冠军",
       "es": "Plata en el Mundial de 2006 y bronce en 2003 y 2007; campeón del Campeonato de Asia 2009; miembro del equipo campeón de la Copa Thomas en cuatro ocasiones (2004, 2006, 2008 y 2010); campeón mundial junior en individual masculino en 2000."
@@ -1846,6 +2143,10 @@
     "status": "retired",
     "retiredYear": 2019,
     "style": "control",
+    "traits": [
+      "placement",
+      "deception"
+    ],
     "highlights": {
       "zh": "2008、2012年两届奥运会男单第四名；2006年世锦赛铜牌；2006年全英公开赛亚军；2002年日本公开赛、2008年韩国公开赛冠军；2002、2014年亚运会男团金牌",
       "es": "Cuarto puesto en individual masculino en los Juegos Olímpicos de 2008 y 2012; bronce en el Mundial de 2006; subcampeón del All England 2006; campeón del Abierto de Japón 2002 y del Abierto de Corea 2008; oro por equipos masculinos en los Juegos Asiáticos de 2002 y 2014."
@@ -1874,6 +2175,11 @@
     "status": "retired",
     "retiredYear": null,
     "style": "counter",
+    "traits": [
+      "defense",
+      "fight",
+      "stamina"
+    ],
     "highlights": {
       "zh": "2016年全英公开赛亚军；2016年超级赛总决赛亚军；2015年亚锦赛亚军；2009年世青赛、亚青赛男单冠军；最高世界第6",
       "es": "Subcampeón del All England 2016; subcampeón de las Finales del Super Series 2016; subcampeón del Campeonato de Asia 2015; campeón mundial junior y campeón de Asia junior en individual masculino en 2009; número 6 del mundo en su mejor posición."
@@ -1903,6 +2209,11 @@
     "status": "retired",
     "retiredYear": 2024,
     "style": "net",
+    "traits": [
+      "deception",
+      "net",
+      "placement"
+    ],
     "highlights": {
       "zh": "2019年世锦赛男单铜牌（印度男单时隔36年再获世锦赛奖牌）；2017年新加坡公开赛冠军（超级赛）；2020年东京奥运会男单参赛；最高世界第10",
       "es": "Bronce en individual masculino en el Mundial de 2019 (primera medalla de la India en individual masculino en un Mundial desde hacía 36 años); campeón del Abierto de Singapur 2017 (torneo Super Series); participó en individual masculino en los Juegos Olímpicos de Tokio 2020; número 10 del mundo en su mejor posición."
@@ -1931,6 +2242,11 @@
     "status": "retired",
     "retiredYear": 2024,
     "style": "net",
+    "traits": [
+      "deception",
+      "net",
+      "defense"
+    ],
     "highlights": {
       "zh": "2021年法国公开赛冠军（超级750）；2018年泰国公开赛、2019年韩国大师赛冠军（决赛胜林丹）；2018年汤姆斯杯银牌；2018、2022年亚运会男团铜牌；2020年东京奥运会男单参赛；最高世界第10",
       "es": "Campeón del Abierto de Francia 2021 (Super 750); campeón del Abierto de Tailandia 2018 y del Masters de Corea 2019 (venció a Lin Dan en la final); plata en la Copa Thomas 2018; bronce por equipos masculinos en los Juegos Asiáticos 2018 y 2022; participó en individual masculino en los Juegos Olímpicos de Tokio 2020; número 10 del mundo en su mejor posición."
@@ -1959,6 +2275,10 @@
     "status": "active",
     "retiredYear": null,
     "style": "counter",
+    "traits": [
+      "net",
+      "defense"
+    ],
     "highlights": {
       "zh": "2025年赛义德·莫迪印度国际赛（超级300）女单冠军；2026年马来西亚大师赛（超级500）女单四强；最高世界第21",
       "es": "Campeona de individual femenino del Syed Modi International de la India 2025 (Super 300); semifinalista de individual femenino del Masters de Malasia 2026 (Super 500); número 21 del mundo en su mejor posición."
@@ -1987,6 +2307,10 @@
     "status": "active",
     "retiredYear": null,
     "style": "attack",
+    "traits": [
+      "power",
+      "defense"
+    ],
     "highlights": {
       "zh": "2019年世青赛女单冠军；2026年加拿大公开赛（超级300）女单冠军；2025年日本公开赛女单四强；最高世界第18",
       "es": "Campeona mundial junior de individual femenino 2019; campeona de individual femenino del Abierto de Canadá 2026 (Super 300); semifinalista de individual femenino del Abierto de Japón 2025; número 18 del mundo en su mejor posición."
@@ -2015,6 +2339,10 @@
     "status": "active",
     "retiredYear": null,
     "style": "speed",
+    "traits": [
+      "speed",
+      "placement"
+    ],
     "highlights": {
       "zh": "2023年东南亚运动会女单金牌；2024年泰国公开赛（超级500）、2023年美国公开赛女单冠军；2026年瑞士公开赛（超级300）女单冠军；最高世界第6",
       "es": "Oro en individual femenino en los Juegos del Sudeste Asiático 2023; campeona de individual femenino del Abierto de Tailandia 2024 (Super 500) y del Abierto de Estados Unidos 2023; campeona de individual femenino del Abierto de Suiza 2026 (Super 300); número 6 del mundo en su mejor posición."
@@ -2043,6 +2371,10 @@
     "status": "active",
     "retiredYear": null,
     "style": "speed",
+    "traits": [
+      "speed",
+      "stamina"
+    ],
     "highlights": {
       "zh": "2019年世锦赛爆冷淘汰头号种子山口茜；2025年德国公开赛女单冠军；2022年英联邦运动会女单铜牌；最高世界第11",
       "es": "En el Mundial de 2019 eliminó por sorpresa a la cabeza de serie número 1, Akane Yamaguchi; campeona de individual femenino del Abierto de Alemania 2025; bronce en individual femenino en los Juegos de la Commonwealth 2022; número 11 del mundo en su mejor posición."
@@ -2071,6 +2403,10 @@
     "status": "active",
     "retiredYear": null,
     "style": "speed",
+    "traits": [
+      "speed",
+      "defense"
+    ],
     "highlights": {
       "zh": "2025年欧锦赛女单冠军；2026年欧锦赛女单亚军；2015年欧洲运动会女单金牌；最高世界第16",
       "es": "Campeona de individual femenino del Campeonato de Europa 2025; subcampeona de individual femenino del Campeonato de Europa 2026; oro en individual femenino en los Juegos Europeos 2015; número 16 del mundo en su mejor posición."
@@ -2099,6 +2435,11 @@
     "status": "active",
     "retiredYear": null,
     "style": "counter",
+    "traits": [
+      "power",
+      "speed",
+      "defense"
+    ],
     "highlights": {
       "zh": "2026年欧锦赛女单冠军（苏格兰首位欧锦赛冠军）；2014年英联邦运动会女单银牌；2016、2020、2024年三届奥运会；最高世界第14",
       "es": "Campeona de individual femenino del Campeonato de Europa 2026 (primera campeona de Europa de Escocia); plata en individual femenino en los Juegos de la Commonwealth 2014; tres Juegos Olímpicos (2016, 2020 y 2024); número 14 del mundo en su mejor posición."
@@ -2127,6 +2468,10 @@
     "status": "active",
     "retiredYear": null,
     "style": "control",
+    "traits": [
+      "defense",
+      "placement"
+    ],
     "highlights": {
       "zh": "2018年印度公开赛女单冠军；2023年泛美运动会女单金牌；2025年美国公开赛女单冠军；最高世界第9",
       "es": "Campeona de individual femenino del Abierto de India 2018; oro en individual femenino en los Juegos Panamericanos 2023; campeona de individual femenino del Abierto de Estados Unidos 2025; número 9 del mundo en su mejor posición."
@@ -2155,6 +2500,10 @@
     "status": "active",
     "retiredYear": null,
     "style": "net",
+    "traits": [
+      "net",
+      "placement"
+    ],
     "highlights": {
       "zh": "2022—2024年越南公开赛女单三连冠；2026年台北公开赛女单亚军；2020、2024年两届奥运会；最高世界第17",
       "es": "Tres títulos consecutivos de individual femenino del Abierto de Vietnam (2022 a 2024); subcampeona de individual femenino del Abierto de Taipéi 2026; dos Juegos Olímpicos (2020 y 2024); número 17 del mundo en su mejor posición."
@@ -2183,6 +2532,11 @@
     "status": "active",
     "retiredYear": null,
     "style": "net",
+    "traits": [
+      "placement",
+      "net",
+      "defense"
+    ],
     "highlights": {
       "zh": "2025年韩国大师赛（超级300）女单冠军；最高世界第11（2026年6月）；中国台北女单头号选手之一",
       "es": "Campeona de individual femenino del Masters de Corea 2025 (Super 300); número 11 del mundo en su mejor posición (junio de 2026); una de las principales jugadoras de individual femenino de Taipéi Chino."
@@ -2212,6 +2566,10 @@
     "status": "active",
     "retiredYear": null,
     "style": "control",
+    "traits": [
+      "stamina",
+      "placement"
+    ],
     "highlights": {
       "zh": "2022年印度公开赛击败塞娜·内维尔；2022年赛义德·莫迪国际赛女单亚军；2024年德国海洛公开赛女单亚军；最高世界第22",
       "es": "Venció a Saina Nehwal en el Abierto de India 2022; subcampeona de individual femenino del Syed Modi International 2022; subcampeona de individual femenino del Abierto de Hylo (Alemania) 2024; número 22 del mundo en su mejor posición."
@@ -2240,6 +2598,10 @@
     "status": "active",
     "retiredYear": null,
     "style": "allround",
+    "traits": [
+      "fight",
+      "speed"
+    ],
     "highlights": {
       "zh": "2015、2018年两届世青赛女单冠军；2018年青奥会女单金牌；2017年东南亚运动会女单金牌；2026年泰国大师赛女单亚军",
       "es": "Campeona mundial junior de individual femenino en 2015 y 2018; oro en individual femenino en los Juegos Olímpicos de la Juventud 2018; oro en individual femenino en los Juegos del Sudeste Asiático 2017; subcampeona de individual femenino del Masters de Tailandia 2026."
@@ -2268,6 +2630,11 @@
     "status": "retired",
     "retiredYear": 2013,
     "style": "counter",
+    "traits": [
+      "defense",
+      "stamina",
+      "fight"
+    ],
     "highlights": {
       "zh": "中国公开赛女单三连冠（2008—2010）；2007、2008年亚锦赛女单冠军；2005年全运会女单冠军；最高世界第3",
       "es": "Tres títulos consecutivos de individual femenino del Abierto de China (2008 a 2010); campeona de individual femenino del Campeonato de Asia 2007 y 2008; campeona de individual femenino de los Juegos Nacionales de China 2005; número 3 del mundo en su mejor posición."
@@ -2296,6 +2663,10 @@
     "status": "retired",
     "retiredYear": 2017,
     "style": "net",
+    "traits": [
+      "net",
+      "defense"
+    ],
     "highlights": {
       "zh": "前世界第一；2011、2014年全英公开赛女单冠军；2010年广州亚运会女单金牌；2010年世锦赛女单铜牌",
       "es": "Ex número 1 del mundo; campeona de individual femenino del All England 2011 y 2014; oro en individual femenino en los Juegos Asiáticos de Guangzhou 2010; bronce en individual femenino en el Mundial de 2010."
@@ -2324,6 +2695,10 @@
     "status": "retired",
     "retiredYear": 2016,
     "style": "control",
+    "traits": [
+      "placement",
+      "deception"
+    ],
     "highlights": {
       "zh": "2013年世锦赛女单铜牌；2010年尤伯杯冠军成员；2010年超级系列赛总决赛女单亚军；最高世界第5",
       "es": "Bronce en individual femenino en el Mundial de 2013; miembro del equipo campeón de la Copa Uber 2010; subcampeona de individual femenino de las Finales del Super Series 2010; número 5 del mundo en su mejor posición."
@@ -2353,6 +2728,11 @@
     "status": "retired",
     "retiredYear": 2014,
     "style": "attack",
+    "traits": [
+      "power",
+      "net",
+      "fight"
+    ],
     "highlights": {
       "zh": "2011年世锦赛女单铜牌；最高世界第2（2013年）；2012年新加坡超级系列赛冠军；2004、2008、2012年三届奥运会",
       "es": "Bronce en individual femenino en el Mundial de 2011; número 2 del mundo en su mejor posición (2013); campeona del Super Series de Singapur 2012; tres Juegos Olímpicos (2004, 2008 y 2012)."
@@ -2363,6 +2743,1166 @@
     },
     "links": {
       "wikiEn": "https://en.wikipedia.org/wiki/Juliane_Schenk"
+    }
+  },
+  {
+    "id": "rudy-hartono",
+    "nameEn": "Rudy Hartono",
+    "nameZh": "梁海量",
+    "sex": "M",
+    "country": {
+      "zh": "印尼",
+      "es": "Indonesia"
+    },
+    "heightCm": 182,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 1949,
+    "status": "retired",
+    "retiredYear": 1982,
+    "style": "allround",
+    "traits": [
+      "power",
+      "stamina",
+      "speed"
+    ],
+    "highlights": {
+      "zh": "全英公开赛男单8冠（1968–1974年七连冠、1976年）；1980年世锦赛男单冠军；1972年慕尼黑奥运会表演项目男单冠军；4次汤姆斯杯冠军（1970、1973、1976、1979）；1997年入选国际羽联名人堂",
+      "es": "Ocho títulos en el All England (siete seguidos entre 1968 y 1974, más el de 1976); campeón del Mundial 1980; campeón de individual masculino en los Juegos Olímpicos de Múnich 1972, donde el bádminton fue deporte de exhibición; cuatro veces campeón de la Copa Thomas (1970, 1973, 1976 y 1979); ingresó en el Salón de la Fama de la Federación Internacional de Bádminton en 1997."
+    },
+    "desc": {
+      "zh": "技术全面、几乎没有明显弱点，被同时代名将评为“改变了羽毛球打法”的完整型球员。上网速度快，中场善于突击，后场头顶杀对角和直线尤为凌厉；自幼苦练体能，作风极其自律。",
+      "es": "Técnicamente completo y casi sin puntos débiles, era un jugador total del que una gran figura de su misma época dijo que «cambió la forma de jugar al bádminton». Llegaba muy rápido a la red, sabía atacar por sorpresa desde el centro de la pista y era especialmente letal con el remate alrededor de la cabeza desde el fondo, tanto cruzado como en paralelo. Desde niño entrenó muy duro su condición física y tenía una disciplina extrema."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Rudy_Hartono",
+      "wikiZh": "https://zh.wikipedia.org/wiki/梁海量"
+    }
+  },
+  {
+    "id": "liem-swie-king",
+    "nameEn": "Liem Swie King",
+    "nameZh": "林水镜",
+    "sex": "M",
+    "country": {
+      "zh": "印尼",
+      "es": "Indonesia"
+    },
+    "heightCm": 168,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 1956,
+    "status": "retired",
+    "retiredYear": 1988,
+    "style": "attack",
+    "traits": [
+      "power",
+      "speed",
+      "net"
+    ],
+    "highlights": {
+      "zh": "全英公开赛男单冠军（1978、1979、1981），1976–1981年连续6年打进全英决赛；世锦赛男单亚军（1980、1983）；1978年曼谷亚运会男单金牌；1978年世界排名第一；汤姆斯杯冠军（1976、1979、1984）；2002年入选名人堂",
+      "es": "Campeón del All England en 1978, 1979 y 1981, y finalista seis años seguidos entre 1976 y 1981; subcampeón del Mundial en 1980 y 1983; oro en individual masculino en los Juegos Asiáticos de Bangkok 1978; número 1 del mundo en 1978; campeón de la Copa Thomas en 1976, 1979 y 1984; ingresó en el Salón de la Fama en 2002."
+    },
+    "desc": {
+      "zh": "以垂直高跳的“King Smash”跳杀闻名，被公认为推广跳杀的代表人物。常先用贴网的网前小球制造机会，再高点重杀，或在对手等杀时突然改用假动作吊球；身材不高，全靠弹跳与速度。",
+      "es": "Famoso por su remate en salto con un gran salto vertical, el «King Smash», se le reconoce como la figura emblemática de la popularización del remate en salto. Solía crear la ocasión con golpes de red muy pegados a la cinta y después rematar con fuerza desde muy arriba, o bien, cuando el rival esperaba el remate, cambiar de repente a una dejada con finta. No era alto: todo lo basaba en su salto y su velocidad."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Liem_Swie_King",
+      "wikiZh": "https://zh.wikipedia.org/wiki/林水镜"
+    }
+  },
+  {
+    "id": "zhao-jianhua",
+    "nameEn": "Zhao Jianhua",
+    "nameZh": "赵剑华",
+    "sex": "M",
+    "country": {
+      "zh": "中国",
+      "es": "China"
+    },
+    "heightCm": 183,
+    "weightKg": 75,
+    "hand": "L",
+    "birthYear": 1965,
+    "status": "retired",
+    "retiredYear": 1993,
+    "style": "attack",
+    "traits": [
+      "deception",
+      "power",
+      "placement"
+    ],
+    "highlights": {
+      "zh": "1991年世锦赛男单冠军；全英公开赛男单冠军（1985、1990）；亚运会男单金牌（1986、1990）；1987年世界杯男单冠军；汤姆斯杯冠军（1988、1990）；1987年世锦赛男单铜牌",
+      "es": "Campeón del Mundial 1991; campeón del All England en 1985 y 1990; oro en individual masculino en los Juegos Asiáticos de 1986 y 1990; campeón de la Copa del Mundo 1987; campeón de la Copa Thomas en 1988 y 1990; bronce en el Mundial de 1987."
+    },
+    "desc": {
+      "zh": "左手进攻型选手，力量大、速度快，后场扣杀有力，网前凶狠，落点准确；动作一致性好，出手隐蔽，假动作和技术细腻度在当年顶尖。短板是体能稍差，职业生涯还两度被大病打断。",
+      "es": "Zurdo de corte ofensivo, con mucha potencia y velocidad: remataba con fuerza desde el fondo, era agresivo en la red y muy preciso en la colocación. Todos sus golpes salían del mismo gesto y eran muy difíciles de leer, y sus fintas y su finura técnica estaban entre las mejores de su época. Su punto débil era que iba algo justo de físico, y su carrera se vio interrumpida dos veces por enfermedades graves."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Zhao_Jianhua",
+      "wikiZh": "https://zh.wikipedia.org/wiki/赵剑华"
+    }
+  },
+  {
+    "id": "icuk-sugiarto",
+    "nameEn": "Icuk Sugiarto",
+    "nameZh": "苏吉亚托",
+    "sex": "M",
+    "country": {
+      "zh": "印尼",
+      "es": "Indonesia"
+    },
+    "heightCm": 173,
+    "weightKg": 70,
+    "hand": "R",
+    "birthYear": 1962,
+    "status": "retired",
+    "retiredYear": null,
+    "style": "allround",
+    "traits": [
+      "stamina",
+      "defense",
+      "fight"
+    ],
+    "highlights": {
+      "zh": "1983年世锦赛男单冠军（决赛胜林水镜）；世界杯男单冠军（1985、1986）；世锦赛男单铜牌（1987、1989）；1984年汤姆斯杯冠军；1989年苏迪曼杯冠军；1988年汉城奥运会表演项目男单亚军",
+      "es": "Campeón del Mundial 1983 (venció a Liem Swie King en la final); campeón de la Copa del Mundo en 1985 y 1986; bronce en los Mundiales de 1987 y 1989; campeón de la Copa Thomas 1984; campeón de la Copa Sudirman 1989; subcampeón de individual masculino en los Juegos Olímpicos de Seúl 1988, donde el bádminton fue deporte de exhibición."
+    },
+    "desc": {
+      "zh": "体能充沛、步伐稳健，擅长用高远球和吊球打多拍、靠防守消耗对手；手腕爆发力好，甩腕击球出色，敢于起拍劈杀，扣球凶狠，网前贴地救球和吊球也很精彩，攻守兼备。",
+      "es": "Con una condición física excelente y un footwork muy seguro, era experto en alargar los intercambios con despejes y dejadas y en desgastar al rival desde la defensa. Tenía una muñeca muy explosiva y un latigazo de muñeca excelente, se atrevía a lanzar remates cortados y remataba con contundencia; también eran brillantes sus recuperaciones a ras de suelo en la red y sus dejadas, con un juego equilibrado entre ataque y defensa."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Icuk_Sugiarto"
+    }
+  },
+  {
+    "id": "ardy-wiranata",
+    "nameEn": "Ardy Wiranata",
+    "nameZh": "阿迪",
+    "sex": "M",
+    "country": {
+      "zh": "印尼",
+      "es": "Indonesia"
+    },
+    "heightCm": 171,
+    "weightKg": 67,
+    "hand": "R",
+    "birthYear": 1970,
+    "status": "retired",
+    "retiredYear": null,
+    "style": "net",
+    "traits": [
+      "defense",
+      "speed",
+      "stamina"
+    ],
+    "highlights": {
+      "zh": "1991年全英公开赛男单冠军；1992年巴塞罗那奥运会男单银牌；1991年世界杯男单冠军；1994年世界大奖赛总决赛冠军；世锦赛男单银牌（1989）、铜牌（1991、1993）；汤姆斯杯冠军（1994、1996）；曾列世界第一",
+      "es": "Campeón del All England 1991; plata en individual masculino en los Juegos Olímpicos de Barcelona 1992; campeón de la Copa del Mundo 1991; campeón de las Finales del Grand Prix Mundial 1994; plata en el Mundial de 1989 y bronce en los de 1991 y 1993; campeón de la Copa Thomas en 1994 y 1996; ex número 1 del mundo."
+    },
+    "desc": {
+      "zh": "网前小球质量极高，步法灵活、跑动范围大，常倒地救球后起身再战；进攻以点杀为主，手腕灵活、球路刁钻，反手区多用正手侧身处理。打法很耗体能，年龄增长后速度下降成为短板。",
+      "es": "Sus golpes de red eran de altísima calidad; tenía un footwork ágil y cubría muchísima pista, y a menudo se lanzaba al suelo para salvar un volante y se levantaba para seguir el punto. En ataque se apoyaba sobre todo en el remate corto y seco, con una muñeca flexible y trayectorias muy difíciles de leer, y en la zona de revés solía girarse para jugar de derecha. Su estilo exigía mucho físico y, con la edad, la pérdida de velocidad se convirtió en su punto débil."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Ardy_Wiranata",
+      "wikiZh": "https://zh.wikipedia.org/wiki/阿迪"
+    }
+  },
+  {
+    "id": "hariyanto-arbi",
+    "nameEn": "Hariyanto Arbi",
+    "nameZh": "阿尔比",
+    "sex": "M",
+    "country": {
+      "zh": "印尼",
+      "es": "Indonesia"
+    },
+    "heightCm": 178,
+    "weightKg": 70,
+    "hand": "R",
+    "birthYear": 1972,
+    "status": "retired",
+    "retiredYear": null,
+    "style": "attack",
+    "traits": [
+      "power",
+      "speed"
+    ],
+    "highlights": {
+      "zh": "1995年世锦赛男单冠军（全程一局未失）；全英公开赛男单冠军（1993、1994）；1994年广岛亚运会男单金牌；1994年世界杯男单冠军；汤姆斯杯冠军（1994、1996、1998、2000）；1997年世锦赛男单铜牌；1996年亚特兰大奥运会男单第四",
+      "es": "Campeón del Mundial 1995 (sin ceder un solo set en todo el torneo); campeón del All England en 1993 y 1994; oro en individual masculino en los Juegos Asiáticos de Hiroshima 1994; campeón de la Copa del Mundo 1994; campeón de la Copa Thomas en 1994, 1996, 1998 y 2000; bronce en el Mundial de 1997; cuarto puesto en individual masculino en los Juegos Olímpicos de Atlanta 1996."
+    },
+    "desc": {
+      "zh": "典型的强攻型选手，后场重杀凶狠、常起跳扣杀，早年被外媒称作“Jumping Jack”。“100瓦扣杀”的绰号源自他与队友阿迪的一句玩笑，随后他在马来西亚击败拉希德·西德克，绰号由此叫响。",
+      "es": "Típico jugador de ataque potente, con un remate demoledor desde el fondo y muy dado a rematar en salto; al principio de su carrera la prensa extranjera lo apodó «Jumping Jack». El apodo de «remate de 100 vatios» nació de una broma con su compañero Ardy Wiranata y se hizo popular cuando, poco después, derrotó a Rashid Sidek en Malasia."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Hariyanto_Arbi"
+    }
+  },
+  {
+    "id": "hendrawan",
+    "nameEn": "Hendrawan",
+    "nameZh": "叶诚万",
+    "sex": "M",
+    "country": {
+      "zh": "印尼",
+      "es": "Indonesia"
+    },
+    "heightCm": 170,
+    "weightKg": 68,
+    "hand": "R",
+    "birthYear": 1972,
+    "status": "retired",
+    "retiredYear": 2003,
+    "style": "counter",
+    "traits": [
+      "net",
+      "defense",
+      "deception"
+    ],
+    "highlights": {
+      "zh": "2001年世锦赛男单冠军；2000年悉尼奥运会男单银牌；汤姆斯杯冠军（1998、2000、2002，三届决赛单打全胜）；1998年曼谷亚运会男单银牌",
+      "es": "Campeón del Mundial 2001; plata en individual masculino en los Juegos Olímpicos de Sídney 2000; campeón de la Copa Thomas en 1998, 2000 y 2002 (ganó todos sus partidos individuales en las tres finales); plata en individual masculino en los Juegos Asiáticos de Bangkok 1998."
+    },
+    "desc": {
+      "zh": "典型的防守反击打法：用顽强的接杀和多变的网前小球消耗对手，再伺机反攻；搓球、扑球动作隐蔽，网前假动作令顶尖选手头疼。网前小球逼出机会后也能用杀球得分，整体靠轻快步伐和手上技术取胜。",
+      "es": "Practicaba un juego típico de defensa y contraataque: desgastaba al rival con una defensa tenaz del remate y un juego de red muy variado, y después buscaba el momento para contraatacar. Sus redes con efecto y sus remates en la red eran muy disimulados, y sus fintas en la red traían de cabeza a los mejores. Cuando su juego de red le abría la ocasión, también sabía rematar para ganar el punto; en conjunto, ganaba gracias a un juego de pies ligero y a su técnica de manos."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Hendrawan",
+      "wikiZh": "https://zh.wikipedia.org/wiki/叶诚万"
+    }
+  },
+  {
+    "id": "poul-erik-hoyer-larsen",
+    "nameEn": "Poul-Erik Høyer Larsen",
+    "nameZh": "拉尔森",
+    "sex": "M",
+    "country": {
+      "zh": "丹麦",
+      "es": "Dinamarca"
+    },
+    "heightCm": 188,
+    "weightKg": 79,
+    "hand": "L",
+    "birthYear": 1965,
+    "status": "retired",
+    "retiredYear": 2000,
+    "style": "control",
+    "traits": [
+      "net",
+      "deception",
+      "placement"
+    ],
+    "highlights": {
+      "zh": "1996年亚特兰大奥运会男单金牌；全英公开赛男单冠军（1995、1996）；欧锦赛男单冠军（1992、1994、1996）；世锦赛男单铜牌（1995、1997、1999）；2013–2025年任世界羽联主席",
+      "es": "Oro en individual masculino en los Juegos Olímpicos de Atlanta 1996; campeón del All England en 1995 y 1996; campeón del Campeonato de Europa en 1992, 1994 y 1996; bronce en los Mundiales de 1995, 1997 y 1999; presidente de la BWF de 2013 a 2025."
+    },
+    "desc": {
+      "zh": "身高188厘米的左手将，以控制见长：用旋转的网前搓球和吊球把球控在前场、调动对手，出手隐蔽、手感细腻，常诱使对手失误，不靠蛮力强攻。大器晚成，30岁时一局未失夺得1996年奥运金牌。",
+      "es": "Zurdo de 1,88 m cuyo gran punto fuerte era el control: con redes con efecto y dejadas mantenía el volante en la parte delantera de la pista y movía al rival; sus golpes salían muy disimulados, tenía un tacto muy fino y a menudo provocaba el error del contrario, sin recurrir a ataques de pura fuerza. Alcanzó su mejor nivel tarde: con 30 años ganó el oro olímpico de 1996 sin ceder un solo set."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Poul-Erik_Høyer_Larsen"
+    }
+  },
+  {
+    "id": "sun-jun",
+    "nameEn": "Sun Jun",
+    "nameZh": "孙俊",
+    "sex": "M",
+    "country": {
+      "zh": "中国",
+      "es": "China"
+    },
+    "heightCm": 174,
+    "weightKg": 65,
+    "hand": "R",
+    "birthYear": 1975,
+    "status": "retired",
+    "retiredYear": 2001,
+    "style": "counter",
+    "traits": [
+      "defense",
+      "fight",
+      "speed"
+    ],
+    "highlights": {
+      "zh": "1999年世锦赛男单冠军；1997年世锦赛男单亚军；1998年全英公开赛男单冠军；1997年世界杯、亚锦赛男单冠军；世界大奖赛总决赛冠军（1997、1998）；1998年曾列世界第一",
+      "es": "Campeón del Mundial 1999; subcampeón del Mundial 1997; campeón del All England 1998; campeón de la Copa del Mundo y del Campeonato de Asia en 1997; campeón de las Finales del Grand Prix Mundial en 1997 y 1998; número 1 del mundo en 1998."
+    },
+    "desc": {
+      "zh": "右手防守型选手，防守覆盖全面，擅长先拉开再突击，球打得稳、失误少。以永不言弃著称：1997年世锦赛决赛中途腿部抽筋，仍拖着伤腿打完决胜局并一度10:3领先，最终惜败。",
+      "es": "Diestro de perfil defensivo, con una defensa que cubría toda la pista; su especialidad era abrir la pista primero y atacar después por sorpresa, y jugaba con mucha solidez y pocos errores. Era famoso por no rendirse nunca: en la final del Mundial de 1997 sufrió un calambre en la pierna a mitad de partido y, aun así, terminó el set decisivo arrastrando la pierna lesionada; llegó a ir 10-3 por delante y al final perdió por poco."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Sun_Jun_(badminton)"
+    }
+  },
+  {
+    "id": "dong-jiong",
+    "nameEn": "Dong Jiong",
+    "nameZh": "董炯",
+    "sex": "M",
+    "country": {
+      "zh": "中国",
+      "es": "China"
+    },
+    "heightCm": 180,
+    "weightKg": 68,
+    "hand": "R",
+    "birthYear": 1973,
+    "status": "retired",
+    "retiredYear": null,
+    "style": "attack",
+    "traits": [
+      "power",
+      "deception",
+      "defense"
+    ],
+    "highlights": {
+      "zh": "1996年亚特兰大奥运会男单银牌；1997年全英公开赛、丹麦公开赛男单冠军；1996年世界杯男单冠军；1998年曼谷亚运会男单金牌；1996年曾列世界第一",
+      "es": "Plata en individual masculino en los Juegos Olímpicos de Atlanta 1996; campeón del All England y del Abierto de Dinamarca en 1997; campeón de la Copa del Mundo 1996; oro en individual masculino en los Juegos Asiáticos de Bangkok 1998; número 1 del mundo en 1996."
+    },
+    "desc": {
+      "zh": "进攻型打法，场上拼劲足，跳起扣杀凶猛，是90年代中期中国男单重新崛起的代表人物之一，但长时间相持时体能偶有不支。1996年奥运会决赛两局惜败拉尔森；生涯高峰期较短，2000年前后因伤病退役。",
+      "es": "Jugador de estilo ofensivo, con mucha garra en la pista y un remate en salto demoledor; fue una de las figuras del resurgir del individual masculino chino a mediados de los años noventa, aunque en los intercambios largos a veces le fallaba el físico. En la final de los Juegos Olímpicos de 1996 perdió por poco en dos sets ante Poul-Erik Høyer Larsen; su etapa de máximo nivel fue relativamente corta y se retiró por lesiones hacia el año 2000."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Dong_Jiong"
+    }
+  },
+  {
+    "id": "ji-xinpeng",
+    "nameEn": "Ji Xinpeng",
+    "nameZh": "吉新鹏",
+    "sex": "M",
+    "country": {
+      "zh": "中国",
+      "es": "China"
+    },
+    "heightCm": 181,
+    "weightKg": 70,
+    "hand": "R",
+    "birthYear": 1977,
+    "status": "retired",
+    "retiredYear": 2002,
+    "style": "speed",
+    "traits": [
+      "stamina",
+      "fight",
+      "placement"
+    ],
+    "highlights": {
+      "zh": "2000年悉尼奥运会男单金牌（中国首位奥运男单冠军）；2000年日本公开赛男单冠军；2001年苏迪曼杯冠军",
+      "es": "Oro en individual masculino en los Juegos Olímpicos de Sídney 2000 (primer campeón olímpico chino en individual masculino); campeón del Abierto de Japón 2000; campeón de la Copa Sudirman 2001."
+    },
+    "desc": {
+      "zh": "打法以拉开突击、变速进攻为特点：先用拉吊调动对手，再突然提速下压。2000年悉尼奥运会并非夺冠热门，却接连击败陶菲克、盖德，决赛战胜叶诚万，成为中国首位奥运男单冠军。",
+      "es": "Su juego se caracterizaba por abrir la pista para atacar por sorpresa y por los cambios de ritmo en ataque: primero movía al rival con despejes y dejadas y luego aceleraba de golpe para atacar con remates. En los Juegos Olímpicos de Sídney 2000 no figuraba entre los favoritos, pero eliminó uno tras otro a Taufik Hidayat y a Peter Gade y en la final venció a Hendrawan, convirtiéndose en el primer campeón olímpico chino en individual masculino."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Ji_Xinpeng",
+      "wikiZh": "https://zh.wikipedia.org/wiki/吉新鹏"
+    }
+  },
+  {
+    "id": "chen-hong",
+    "nameEn": "Chen Hong",
+    "nameZh": "陈宏",
+    "sex": "M",
+    "country": {
+      "zh": "中国",
+      "es": "China"
+    },
+    "heightCm": 182,
+    "weightKg": 72,
+    "hand": "R",
+    "birthYear": 1979,
+    "status": "retired",
+    "retiredYear": null,
+    "style": "attack",
+    "traits": [
+      "deception",
+      "placement",
+      "power"
+    ],
+    "highlights": {
+      "zh": "全英公开赛男单冠军（2002、2005）；2002–2003年曾列世界第一；世锦赛男单铜牌（2001、2006）；汤姆斯杯冠军（2004、2006）；1999年亚锦赛男单冠军",
+      "es": "Campeón del All England en 2002 y 2005; número 1 del mundo entre 2002 y 2003; bronce en los Mundiales de 2001 y 2006; campeón de la Copa Thomas en 2004 y 2006; campeón del Campeonato de Asia 1999."
+    },
+    "desc": {
+      "zh": "右手拉开突击型选手，进攻锐利、攻击性强，手法富于变化，技术纯熟全面，2002、2005年两夺全英冠军。短板是关键分信心容易动摇，世锦赛和奥运会的成绩不及他在全英赛上的表现。",
+      "es": "Diestro cuyo juego consistía en abrir la pista para atacar por sorpresa: tenía un ataque incisivo y muy agresivo, mucha variedad en el manejo de la raqueta y una técnica depurada y completa, y ganó dos veces el All England, en 2002 y 2005. Su punto débil era que en los puntos decisivos su confianza se tambaleaba con facilidad, y sus resultados en el Mundial y en los Juegos Olímpicos no estuvieron a la altura de los del All England."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Chen_Hong_(badminton)"
+    }
+  },
+  {
+    "id": "sony-dwi-kuncoro",
+    "nameEn": "Sony Dwi Kuncoro",
+    "nameZh": "索尼·昆科罗",
+    "sex": "M",
+    "country": {
+      "zh": "印尼",
+      "es": "Indonesia"
+    },
+    "heightCm": 174,
+    "weightKg": 63,
+    "hand": "R",
+    "birthYear": 1984,
+    "status": "retired",
+    "retiredYear": null,
+    "style": "attack",
+    "traits": [
+      "power",
+      "fight",
+      "speed"
+    ],
+    "highlights": {
+      "zh": "2004年雅典奥运会男单铜牌；世锦赛男单银牌（2007）、铜牌（2009）；亚锦赛男单冠军（2002、2003、2005）；2008年连夺印尼、日本超级赛和中国大师赛冠军；最高世界第3（2004年）",
+      "es": "Bronce en individual masculino en los Juegos Olímpicos de Atenas 2004; plata en el Mundial de 2007 y bronce en el de 2009; campeón del Campeonato de Asia en 2002, 2003 y 2005; en 2008 encadenó los títulos de los Abiertos de Indonesia y Japón (Super Series) y del Masters de China; número 3 del mundo en su mejor posición (2004)."
+    },
+    "desc": {
+      "zh": "以暴力打法、擅长突击著称，年轻时常强行起跳在头顶区突击下压，因此长年受腰伤困扰。2007、2009年世锦赛两胜李宗伟，2016年从资格赛起步，连胜林丹、孙完虎夺得新加坡公开赛冠军。",
+      "es": "Conocido por un juego de pura potencia y por sus ataques sorpresa; de joven solía forzar el salto para rematar por sorpresa desde la zona alrededor de la cabeza, lo que le provocó problemas lumbares durante muchos años. Venció a Lee Chong Wei en los Mundiales de 2007 y 2009, y en 2016, partiendo desde la fase previa, derrotó a Lin Dan y a Son Wan-ho para ganar el Abierto de Singapur."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Sony_Dwi_Kuncoro"
+    }
+  },
+  {
+    "id": "chen-jin",
+    "nameEn": "Chen Jin",
+    "nameZh": "陈金",
+    "sex": "M",
+    "country": {
+      "zh": "中国",
+      "es": "China"
+    },
+    "heightCm": 181,
+    "weightKg": 73,
+    "hand": "R",
+    "birthYear": 1986,
+    "status": "retired",
+    "retiredYear": 2013,
+    "style": "control",
+    "traits": [
+      "placement",
+      "stamina",
+      "speed"
+    ],
+    "highlights": {
+      "zh": "2010年世锦赛男单冠军；2008年北京奥运会男单铜牌；2008年全英公开赛男单冠军；世锦赛男单银牌（2009）、铜牌（2011）；汤姆斯杯冠军（2006、2008、2010、2012）；最高世界第2",
+      "es": "Campeón del Mundial 2010; bronce en individual masculino en los Juegos Olímpicos de Pekín 2008; campeón del All England 2008; plata en el Mundial de 2009 y bronce en el de 2011; campeón de la Copa Thomas en 2006, 2008, 2010 y 2012; número 2 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "右手拉开突击型选手，先用四方拉吊调动对手，再凭出色的跑动能力发动连续进攻；关键时刻敢于下手，心理素质好，多数比赛都能发挥出水平。2008年全英决赛击败林丹，2010年世锦赛夺冠。",
+      "es": "Diestro cuyo juego consistía en abrir la pista para atacar por sorpresa: primero movía al rival a las cuatro esquinas con despejes y dejadas y luego, gracias a su gran capacidad de desplazamiento, lanzaba ataques encadenados. En los momentos clave no le temblaba el pulso, tenía mucha fortaleza mental y rendía a su nivel en la mayoría de los partidos. Derrotó a Lin Dan en la final del All England 2008 y se proclamó campeón del Mundial en 2010."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Chen_Jin_(badminton)"
+    }
+  },
+  {
+    "id": "son-wan-ho",
+    "nameEn": "Son Wan-ho",
+    "nameZh": "孙完虎",
+    "sex": "M",
+    "country": {
+      "zh": "韩国",
+      "es": "Corea del Sur"
+    },
+    "heightCm": 176,
+    "weightKg": 70,
+    "hand": "R",
+    "birthYear": 1988,
+    "status": "retired",
+    "retiredYear": 2025,
+    "style": "counter",
+    "traits": [
+      "defense",
+      "stamina",
+      "placement"
+    ],
+    "highlights": {
+      "zh": "2017年登上世界第一；2017年世锦赛男单铜牌；2017年苏迪曼杯冠军；2014年仁川亚运会男团金牌；2012年印度公开赛（决赛胜李宗伟）、2014年香港公开赛冠军；参加2012、2016年奥运会",
+      "es": "Alcanzó el número 1 del mundo en 2017; bronce en el Mundial 2017; campeón de la Copa Sudirman 2017; oro por equipos masculinos en los Juegos Asiáticos de Incheon 2014; campeón del Abierto de la India 2012 (venció a Lee Chong Wei en la final) y del Abierto de Hong Kong 2014; participó en los Juegos Olímpicos de 2012 y 2016."
+    },
+    "desc": {
+      "zh": "以防守为主，BWF资料将其风格标为“Defensive”；擅长稳住多拍相持再伺机反击，曾在2014年仁川亚运会男团决赛和两次公开赛决赛中击败谌龙。2017年登上世界第一，2025年5月退役。",
+      "es": "Basaba su juego en la defensa, y la ficha de la BWF define su estilo como «Defensive» (defensivo); sabía sostener con solidez los intercambios largos para contraatacar en el momento oportuno, y venció a Chen Long en la final por equipos masculinos de los Juegos Asiáticos de Incheon 2014 y en dos finales de torneos abiertos. Llegó al número 1 del mundo en 2017 y se retiró en mayo de 2025."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Son_Wan-ho"
+    }
+  },
+  {
+    "id": "tang-jiuhong",
+    "nameEn": "Tang Jiuhong",
+    "nameZh": "唐九红",
+    "sex": "F",
+    "country": {
+      "zh": "中国",
+      "es": "China"
+    },
+    "heightCm": 172,
+    "weightKg": 65,
+    "hand": "R",
+    "birthYear": 1969,
+    "status": "retired",
+    "retiredYear": 1994,
+    "style": "attack",
+    "traits": [
+      "power",
+      "speed"
+    ],
+    "highlights": {
+      "zh": "1991年世锦赛冠军；1992年全英公开赛冠军；1992年巴塞罗那奥运会女单铜牌；1990年北京亚运会女单金牌；1992年世界杯冠军；1990、1992年尤伯杯冠军成员",
+      "es": "Campeona del Mundial 1991; campeona del All England 1992; bronce en individual femenino en los Juegos Olímpicos de Barcelona 1992; oro en individual femenino en los Juegos Asiáticos de Pekín 1990; campeona de la Copa del Mundo 1992; miembro del equipo campeón de la Copa Uber en 1990 y 1992."
+    },
+    "desc": {
+      "zh": "身材高挑、运动能力出众，打法以力量和速度见长，方铢贤评价她力量足、速度快。为争取奥运积分她一年打了14站公开赛，长期高强度比赛让她积劳成疾，1992年奥运会半决赛0:2负于方铢贤，获得铜牌。",
+      "es": "Alta y con unas condiciones atléticas sobresalientes, basaba su juego en la potencia y la velocidad; Bang Soo-hyun destacaba de ella su gran potencia y su rapidez. Para sumar puntos de cara a los Juegos Olímpicos llegó a disputar 14 torneos abiertos en un solo año, y tanta competición de alta intensidad acabó minando su salud: en las semifinales de los Juegos de 1992 cayó por 2-0 ante Bang Soo-hyun y se quedó con el bronce."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Tang_Jiuhong"
+    }
+  },
+  {
+    "id": "bang-soo-hyun",
+    "nameEn": "Bang Soo-hyun",
+    "nameZh": "方铢贤",
+    "sex": "F",
+    "country": {
+      "zh": "韩国",
+      "es": "Corea del Sur"
+    },
+    "heightCm": 170,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 1972,
+    "status": "retired",
+    "retiredYear": null,
+    "style": "allround",
+    "traits": [
+      "speed",
+      "placement",
+      "power"
+    ],
+    "highlights": {
+      "zh": "1996年亚特兰大奥运会女单金牌（决赛胜张海丽）、1992年巴塞罗那奥运会银牌；1996年全英公开赛冠军；1994年广岛亚运会女单金牌；1993年世锦赛银牌、1995年铜牌；1991、1993年苏迪曼杯冠军成员；2019年入选世界羽联名人堂",
+      "es": "Oro en individual femenino en los Juegos Olímpicos de Atlanta 1996 (venció a Mia Audina en la final) y plata en los de Barcelona 1992; campeona del All England 1996; oro en individual femenino en los Juegos Asiáticos de Hiroshima 1994; plata en el Mundial de 1993 y bronce en el de 1995; miembro del equipo campeón de la Copa Sudirman en 1991 y 1993; ingresó en el Salón de la Fama de la BWF en 2019."
+    },
+    "desc": {
+      "zh": "力量与移动兼备，是1990年代与王莲香、叶钊颖齐名的女单顶尖选手。1992年奥运会半决赛以11:3、11:2大胜世界冠军唐九红，1996年奥运会一局未失夺冠，此后不久便退役。",
+      "es": "Combinaba potencia y movilidad, y fue una de las mejores jugadoras de individual femenino de los años noventa, a la altura de Susi Susanti y Ye Zhaoying. En las semifinales de los Juegos de 1992 arrolló a la campeona del mundo Tang Jiuhong por 11-3 y 11-2, y en los Juegos de 1996 se colgó el oro sin ceder un solo set; poco después se retiró."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Bang_Soo-hyun"
+    }
+  },
+  {
+    "id": "ye-zhaoying",
+    "nameEn": "Ye Zhaoying",
+    "nameZh": "叶钊颖",
+    "sex": "F",
+    "country": {
+      "zh": "中国",
+      "es": "China"
+    },
+    "heightCm": 175,
+    "weightKg": 65,
+    "hand": "R",
+    "birthYear": 1974,
+    "status": "retired",
+    "retiredYear": 2000,
+    "style": "attack",
+    "traits": [
+      "deception",
+      "speed",
+      "power"
+    ],
+    "highlights": {
+      "zh": "1995、1997年世锦赛冠军；1997、1998、1999年全英公开赛冠军；2000年悉尼奥运会女单铜牌；1995年世界杯冠军；1992、1998、2000年尤伯杯冠军成员；最高世界第一；2009年入选世界羽联名人堂",
+      "es": "Campeona del Mundial en 1995 y 1997; campeona del All England en 1997, 1998 y 1999; bronce en individual femenino en los Juegos Olímpicos de Sídney 2000; campeona de la Copa del Mundo 1995; miembro del equipo campeón de la Copa Uber en 1992, 1998 y 2000; ex número 1 del mundo; ingresó en el Salón de la Fama de la BWF en 2009."
+    },
+    "desc": {
+      "zh": "以进攻为主的打法在当时独树一帜，方铢贤评价她是无所畏惧的进攻型选手、步法极佳。1995年底首次登上世界第一，此后几度失而复得，两夺世锦赛、三夺全英赛，但1996年奥运会在八强爆冷出局。",
+      "es": "Su juego, basado en el ataque, era único en su época; Bang Soo-hyun la definió como una atacante sin miedo y con un footwork excelente. Alcanzó por primera vez el número 1 del mundo a finales de 1995 y lo perdió y recuperó varias veces; ganó dos Mundiales y tres All England, pero en los Juegos Olímpicos de 1996 cayó por sorpresa en cuartos de final."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Ye_Zhaoying",
+      "wikiZh": "https://zh.wikipedia.org/wiki/叶钊颖"
+    }
+  },
+  {
+    "id": "gong-zhichao",
+    "nameEn": "Gong Zhichao",
+    "nameZh": "龚智超",
+    "sex": "F",
+    "country": {
+      "zh": "中国",
+      "es": "China"
+    },
+    "heightCm": 163,
+    "weightKg": 52,
+    "hand": null,
+    "birthYear": 1977,
+    "status": "retired",
+    "retiredYear": 2002,
+    "style": "control",
+    "traits": [
+      "stamina",
+      "defense",
+      "fight"
+    ],
+    "highlights": {
+      "zh": "2000年悉尼奥运会女单金牌（决赛胜马尔廷）；2000、2001年全英公开赛冠军；1997年世锦赛银牌、2001年铜牌；1998、2000年尤伯杯冠军成员；最高世界第一；入选世界羽联名人堂（2013年颁授）",
+      "es": "Oro en individual femenino en los Juegos Olímpicos de Sídney 2000 (venció a Camilla Martin en la final); campeona del All England en 2000 y 2001; plata en el Mundial de 1997 y bronce en el de 2001; miembro del equipo campeón de la Copa Uber en 1998 y 2000; ex número 1 del mundo; miembro del Salón de la Fama de la BWF (distinción entregada en 2013)."
+    },
+    "desc": {
+      "zh": "身高仅1.63米，打法稳健、球路多变，属拉开突击型：步法灵活、跑动范围大、控球能力强。她临场头脑冷静、发挥稳定，被视为马尔廷的克星，2000年奥运会决赛击败马尔廷夺冠。",
+      "es": "Con solo 1,63 m de estatura, tenía un juego sólido y de trayectorias muy variadas, basado en abrir la pista para atacar por sorpresa: footwork ágil, mucho radio de cobertura y un gran control del volante. En la pista mantenía la cabeza fría y un rendimiento estable; se la consideraba la «bestia negra» de Camilla Martin, a la que derrotó en la final de los Juegos Olímpicos de 2000 para ganar el oro."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Gong_Zhichao",
+      "wikiZh": "https://zh.wikipedia.org/wiki/龚智超"
+    }
+  },
+  {
+    "id": "camilla-martin",
+    "nameEn": "Camilla Martin",
+    "nameZh": "马尔廷",
+    "sex": "F",
+    "country": {
+      "zh": "丹麦",
+      "es": "Dinamarca"
+    },
+    "heightCm": 174,
+    "weightKg": 59,
+    "hand": "R",
+    "birthYear": 1974,
+    "status": "retired",
+    "retiredYear": 2004,
+    "style": "control",
+    "traits": [
+      "placement",
+      "deception",
+      "fight"
+    ],
+    "highlights": {
+      "zh": "1999年世锦赛冠军；2000年悉尼奥运会女单银牌；2002年全英公开赛冠军；1996、1998、2000年欧锦赛冠军；连续13年丹麦全国冠军；最高世界第一",
+      "es": "Campeona del Mundial 1999; plata en individual femenino en los Juegos Olímpicos de Sídney 2000; campeona del All England 2002; campeona del Campeonato de Europa en 1996, 1998 y 2000; campeona de Dinamarca durante 13 años consecutivos; ex número 1 del mundo."
+    },
+    "desc": {
+      "zh": "打法自信从容，常用有力的高远球把对手压在后场，再配合隐蔽的吊球得分，尤其是从反手区吊出的球常常直接致胜。她连续13年获丹麦全国冠军，1999年在哥本哈根主场夺得世锦赛冠军。",
+      "es": "Tenía un juego seguro y sereno: con despejes altos y profundos encerraba a la rival en el fondo de la pista y luego sumaba puntos combinándolos con dejadas disimuladas; en especial, la dejada desde su esquina de revés solía ser un golpe ganador directo. Fue campeona de Dinamarca 13 años seguidos y en 1999 ganó el Mundial en casa, en Copenhague."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Camilla_Martin",
+      "wikiZh": "https://zh.wikipedia.org/wiki/卡米拉·马尔廷"
+    }
+  },
+  {
+    "id": "mia-audina",
+    "nameEn": "Mia Audina",
+    "nameZh": "张海丽",
+    "sex": "F",
+    "country": {
+      "zh": "荷兰",
+      "es": "Países Bajos"
+    },
+    "heightCm": 163,
+    "weightKg": 67,
+    "hand": "R",
+    "birthYear": 1979,
+    "status": "retired",
+    "retiredYear": 2006,
+    "style": "net",
+    "traits": [
+      "speed",
+      "fight",
+      "deception"
+    ],
+    "highlights": {
+      "zh": "1996年（代表印尼）、2004年（代表荷兰）两届奥运会女单银牌；2003年世锦赛铜牌；1994、1996年尤伯杯冠军成员（代表印尼）；2004年欧锦赛女单冠军；最高世界第一（1996年）",
+      "es": "Plata en individual femenino en dos Juegos Olímpicos: 1996 (con Indonesia) y 2004 (con los Países Bajos); bronce en el Mundial 2003; miembro del equipo campeón de la Copa Uber en 1994 y 1996 (con Indonesia); campeona de individual femenino del Campeonato de Europa 2004; ex número 1 del mundo (1996)."
+    },
+    "desc": {
+      "zh": "手法细腻、击球隐蔽多变，假动作是她的招牌，发挥也非常稳定；反手是她明显的短板，后场反手区的来球她常把身体像弓一样大幅伸展去救。14岁就为印尼出战尤伯杯，1994年决赛赢下决定胜负的一场；后移居荷兰，又代表荷兰夺得2004年奥运会银牌。",
+      "es": "Extremadamente ágil en sus desplazamientos y muy flexible, de joven rara vez se veía obligada a golpear de revés, y en la pista mostraba una garra tenaz. Con 14 años ya jugaba la Copa Uber con Indonesia, y en la final de 1994 ganó el partido decisivo; más tarde se trasladó a los Países Bajos y, representando a ese país, logró la plata en los Juegos Olímpicos de 2004."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Mia_Audina"
+    }
+  },
+  {
+    "id": "gong-ruina",
+    "nameEn": "Gong Ruina",
+    "nameZh": "龚睿那",
+    "sex": "F",
+    "country": {
+      "zh": "中国",
+      "es": "China"
+    },
+    "heightCm": 170,
+    "weightKg": 60,
+    "hand": "R",
+    "birthYear": 1981,
+    "status": "retired",
+    "retiredYear": 2005,
+    "style": "speed",
+    "traits": [
+      "speed",
+      "placement"
+    ],
+    "highlights": {
+      "zh": "2001年世锦赛冠军；2004年全英公开赛冠军；2003年世锦赛银牌、1999年铜牌；2002年釜山亚运会女单银牌；2002、2004年尤伯杯冠军成员；2004年雅典奥运会女单第四；最高世界第一",
+      "es": "Campeona del Mundial 2001; campeona del All England 2004; plata en el Mundial de 2003 y bronce en el de 1999; plata en individual femenino en los Juegos Asiáticos de Busan 2002; miembro del equipo campeón de la Copa Uber en 2002 y 2004; cuarta en individual femenino en los Juegos Olímpicos de Atenas 2004; ex número 1 del mundo."
+    },
+    "desc": {
+      "zh": "打法属拉吊突击型，以主动进攻为主，常在突击中几拍内就把对手压住；技术全面、步法灵活、球路刁钻，弱点是力量和耐力不够强。2001年世锦赛和2004年全英赛决赛都击败队友周蜜夺冠。",
+      "es": "Su estilo era el de clear y dejada con ataques sorpresa, y jugaba sobre todo tomando la iniciativa en ataque: cuando lanzaba un ataque, a menudo sometía a la rival en pocos golpes. Tenía una técnica completa, un footwork ágil y unas colocaciones muy incómodas para la rival; sus puntos débiles eran la potencia y la resistencia, que no eran lo bastante buenas. Tanto en la final del Mundial 2001 como en la del All England 2004 se proclamó campeona ante su compañera de equipo Zhou Mi."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Gong_Ruina"
+    }
+  },
+  {
+    "id": "zhou-mi",
+    "nameEn": "Zhou Mi",
+    "nameZh": "周蜜",
+    "sex": "F",
+    "country": {
+      "zh": "中国香港",
+      "es": "Hong Kong (China)"
+    },
+    "heightCm": 175,
+    "weightKg": 65,
+    "hand": "R",
+    "birthYear": 1979,
+    "status": "retired",
+    "retiredYear": 2011,
+    "style": "allround",
+    "traits": [
+      "power",
+      "net",
+      "defense"
+    ],
+    "highlights": {
+      "zh": "2004年雅典奥运会女单铜牌（代表中国）；2002年釜山亚运会女单金牌；2003年全英公开赛冠军；2001年世锦赛银牌、2003年铜牌；2008年超级系列赛总决赛冠军（代表中国香港）；最高世界第一",
+      "es": "Bronce en individual femenino en los Juegos Olímpicos de Atenas 2004 (con China); oro en individual femenino en los Juegos Asiáticos de Busan 2002; campeona del All England 2003; plata en el Mundial de 2001 y bronce en el de 2003; campeona de las Finales del Super Series 2008 (representando a Hong Kong, China); ex número 1 del mundo."
+    },
+    "desc": {
+      "zh": "属拉吊突击型打法，技术较全面，动作耐看又实用，网前球处理细腻。她善于在周旋中捕捉对手的漏洞，无论面对谁都敢于主动进攻，2002年亚运会决赛以两个11:1横扫龚睿那夺冠。",
+      "es": "Jugaba un estilo de clear y dejada con ataques sorpresa, con una técnica bastante completa, unos golpes vistosos y a la vez eficaces, y un trato muy fino del volante en la red. Sabía detectar los huecos de la rival en los intercambios y no dudaba en tomar la iniciativa en ataque fuera quien fuera la rival; en la final de los Juegos Asiáticos de 2002 arrolló a Gong Ruina con un doble 11-1 y se llevó el oro."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Zhou_Mi_(badminton)",
+      "wikiZh": "https://zh.wikipedia.org/wiki/周蜜"
+    }
+  },
+  {
+    "id": "zhu-lin",
+    "nameEn": "Zhu Lin",
+    "nameZh": "朱琳",
+    "sex": "F",
+    "country": {
+      "zh": "中国",
+      "es": "China"
+    },
+    "heightCm": 172,
+    "weightKg": 57,
+    "hand": "R",
+    "birthYear": 1984,
+    "status": "retired",
+    "retiredYear": null,
+    "style": "control",
+    "traits": [
+      "placement",
+      "speed"
+    ],
+    "highlights": {
+      "zh": "2007年世锦赛冠军；2009年亚锦赛女单冠军；2007年苏迪曼杯冠军成员；2008年尤伯杯冠军成员；2006年多哈亚运会女团金牌",
+      "es": "Campeona del Mundial 2007; campeona de individual femenino del Campeonato de Asia 2009; miembro del equipo campeón de la Copa Sudirman 2007; miembro del equipo campeón de la Copa Uber 2008; oro por equipos femeninos en los Juegos Asiáticos de Doha 2006."
+    },
+    "desc": {
+      "zh": "以拉吊突击为主，跑动积极、速度快，善于控球，常用平高球配合吊球调动对手。她自认主要依靠技术而非身体能力，打球爱动脑子。2007年世锦赛决赛以21:8、21:12击败王晨夺冠。",
+      "es": "Basaba su juego en el clear y la dejada con ataques sorpresa; se movía con mucha actividad y rapidez, controlaba muy bien el volante y solía mover a la rival combinando despejes tensos con dejadas. Ella misma reconocía que dependía sobre todo de la técnica y no de sus condiciones físicas, y le gustaba pensar mucho en la pista. En la final del Mundial 2007 venció a Wang Chen por 21-8 y 21-12 y se proclamó campeona."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Zhu_Lin_(badminton)",
+      "wikiZh": "https://zh.wikipedia.org/wiki/朱琳_(羽毛球运动员)"
+    }
+  },
+  {
+    "id": "tine-baun",
+    "nameEn": "Tine Baun",
+    "nameZh": "蒂娜·鲍恩",
+    "sex": "F",
+    "country": {
+      "zh": "丹麦",
+      "es": "Dinamarca"
+    },
+    "heightCm": 181,
+    "weightKg": 71,
+    "hand": "R",
+    "birthYear": 1979,
+    "status": "retired",
+    "retiredYear": 2013,
+    "style": "attack",
+    "traits": [
+      "power",
+      "net",
+      "deception"
+    ],
+    "highlights": {
+      "zh": "2008、2010、2013年全英公开赛冠军；2010年世锦赛铜牌；2010、2012年欧锦赛冠军；最高世界第一（2008年）",
+      "es": "Campeona del All England en 2008, 2010 y 2013; bronce en el Mundial 2010; campeona del Campeonato de Europa en 2010 y 2012; ex número 1 del mundo (2008)."
+    },
+    "desc": {
+      "zh": "身高1.81米，把臂展优势发挥得淋漓尽致，靠大步幅覆盖场地、用角度很陡的下压进攻得分，移动有时显得不够灵巧。她大器晚成，28岁才凭2007年日本公开赛冠军迎来国际突破，此后三夺全英赛，2013年第三次全英赛夺冠后退役。",
+      "es": "Con 1,81 m, más alta y corpulenta que la mayoría de las jugadoras, era conocida por un juego de ataque basado en la potencia. Fue una jugadora de maduración tardía: hasta los 28 años no ganó su primer torneo Super Series, el Abierto de Japón 2007, y después conquistó tres veces el All England; se retiró tras ganar su tercer All England en 2013."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Tine_Baun"
+    }
+  },
+  {
+    "id": "wang-xin",
+    "nameEn": "Wang Xin",
+    "nameZh": "汪鑫",
+    "sex": "F",
+    "country": {
+      "zh": "中国",
+      "es": "China"
+    },
+    "heightCm": 166,
+    "weightKg": 55,
+    "hand": "L",
+    "birthYear": 1985,
+    "status": "retired",
+    "retiredYear": 2013,
+    "style": "speed",
+    "traits": [
+      "speed",
+      "fight",
+      "placement"
+    ],
+    "highlights": {
+      "zh": "2010年世锦赛银牌、2011年铜牌；2012年伦敦奥运会女单第四（铜牌战领先时因伤退赛）；2010年广州亚运会女单银牌、女团金牌；2012年尤伯杯冠军成员；2010年世界羽联年度最佳女运动员；最高世界第一（2010年）",
+      "es": "Plata en el Mundial de 2010 y bronce en el de 2011; cuarta en individual femenino en los Juegos Olímpicos de Londres 2012 (se retiró lesionada cuando iba ganando el partido por el bronce); plata en individual femenino y oro por equipos femeninos en los Juegos Asiáticos de Guangzhou 2010; miembro del equipo campeón de la Copa Uber 2012; Mejor Jugadora del Año de la BWF en 2010; ex número 1 del mundo (2010)."
+    },
+    "desc": {
+      "zh": "左手持拍，身高仅1.66米，靠预判和灵活迅速的跑动弥补身体条件；球路和落点多变，正手劈吊突出，并非单纯拉吊，常用变速和突击得分。2009年外战不败，被誉为“外战之王”。",
+      "es": "Zurda y de solo 1,66 m, compensaba sus limitaciones físicas con anticipación y unos desplazamientos ágiles y rápidos; variaba mucho las trayectorias y los puntos de caída, destacaba por su dejada cortada de derecha y no se limitaba al clear y la dejada, sino que solía ganar puntos con cambios de ritmo y ataques sorpresa. En 2009 no perdió ningún partido ante rivales extranjeras, por lo que la apodaron «la reina de los duelos internacionales»."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Wang_Xin_(badminton)",
+      "wikiZh": "https://zh.wikipedia.org/wiki/汪鑫"
+    }
+  },
+  {
+    "id": "sung-ji-hyun",
+    "nameEn": "Sung Ji-hyun",
+    "nameZh": "成池铉",
+    "sex": "F",
+    "country": {
+      "zh": "韩国",
+      "es": "Corea del Sur"
+    },
+    "heightCm": 175,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 1991,
+    "status": "retired",
+    "retiredYear": 2022,
+    "style": "control",
+    "traits": [
+      "fight",
+      "placement"
+    ],
+    "highlights": {
+      "zh": "2015年世锦赛铜牌；2014年亚锦赛女单冠军；2013、2015年韩国公开赛冠军；2014、2016年超级系列赛总决赛亚军；2010年尤伯杯、2017年苏迪曼杯冠军成员；2012、2016年两届奥运会女单参赛；最高世界第二",
+      "es": "Bronce en el Mundial 2015; campeona de individual femenino del Campeonato de Asia 2014; campeona del Abierto de Corea en 2013 y 2015; subcampeona de las Finales del Super Series en 2014 y 2016; miembro del equipo campeón de la Copa Uber 2010 y de la Copa Sudirman 2017; participó en individual femenino en dos Juegos Olímpicos (2012 y 2016); número 2 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "身高1.75米，基本功扎实、球风细腻，比赛韧性很强，常在落后时咬住比分完成逆转，2011年一年内先后逆转汪鑫、王适娴和王仪涵。2015年获世锦赛铜牌，退役后转任教练，曾执教安洗莹。",
+      "es": "Con 1,75 m, tenía una base técnica sólida y un juego fino, además de una gran tenacidad en los partidos: a menudo, yendo por detrás, se mantenía pegada en el marcador hasta completar la remontada; solo en 2011 remontó ante Wang Xin, Wang Shixian y Wang Yihan. Ganó el bronce en el Mundial 2015 y, tras retirarse, pasó a ser entrenadora y llegó a dirigir a An Se-young."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Sung_Ji-hyun",
+      "wikiZh": "https://zh.wikipedia.org/wiki/成池鉉"
+    }
+  },
+  {
+    "id": "lu-lan",
+    "nameEn": "Lu Lan",
+    "nameZh": "卢兰",
+    "sex": "F",
+    "country": {
+      "zh": "中国",
+      "es": "China"
+    },
+    "heightCm": 176,
+    "weightKg": 64,
+    "hand": "R",
+    "birthYear": 1987,
+    "status": "retired",
+    "retiredYear": 2013,
+    "style": "speed",
+    "traits": [
+      "speed",
+      "power"
+    ],
+    "highlights": {
+      "zh": "2009年世锦赛冠军；2007年世锦赛铜牌；2008年全英公开赛亚军；2008年北京奥运会女单第四；2006、2008年尤伯杯冠军成员；2010年广州亚运会女团金牌",
+      "es": "Campeona del Mundial 2009; bronce en el Mundial 2007; subcampeona del All England 2008; cuarta en individual femenino en los Juegos Olímpicos de Pekín 2008; miembro del equipo campeón de la Copa Uber en 2006 y 2008; oro por equipos femeninos en los Juegos Asiáticos de Guangzhou 2010."
+    },
+    "desc": {
+      "zh": "身高1.76米，爆发力出众，技术建立在速度和弹跳之上。2009年世锦赛决赛以23:21、21:12击败谢杏芳夺冠；此后足底跖腱膜受伤，速度和弹跳受限，她坦言失去了“杀手锏”。",
+      "es": "Con 1,76 m y una explosividad sobresaliente, construía su técnica sobre la velocidad y la capacidad de salto. En la final del Mundial 2009 venció a Xie Xingfang por 23-21 y 21-12 y se proclamó campeona; después sufrió una lesión en la fascia plantar que le limitó la velocidad y el salto, y ella misma reconoció que había perdido su «arma definitiva»."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Lu_Lan",
+      "wikiZh": "https://zh.wikipedia.org/wiki/卢兰"
+    }
+  },
+  {
+    "id": "huang-hua",
+    "nameEn": "Huang Hua",
+    "nameZh": "黄华",
+    "sex": "F",
+    "country": {
+      "zh": "中国",
+      "es": "China"
+    },
+    "heightCm": 171,
+    "weightKg": 61,
+    "hand": "R",
+    "birthYear": 1969,
+    "status": "retired",
+    "retiredYear": null,
+    "style": "allround",
+    "traits": [
+      "placement",
+      "speed"
+    ],
+    "highlights": {
+      "zh": "1992年巴塞罗那奥运会女单铜牌；1989年世锦赛银牌；1991年世界杯冠军；1990年全英公开赛亚军；1990、1992年尤伯杯冠军成员",
+      "es": "Bronce en individual femenino en los Juegos Olímpicos de Barcelona 1992; plata en el Mundial 1989; campeona de la Copa del Mundo 1991; subcampeona del All England 1990; miembro del equipo campeón de la Copa Uber en 1990 y 1992."
+    },
+    "desc": {
+      "zh": "步法出色、移动轻盈，方铢贤形容她凭借出色的步法在场上像飘着移动，球打得非常漂亮。1989年首次参加世锦赛就闯进决赛，1991年获世界杯冠军，1992年巴塞罗那奥运会获女单铜牌。",
+      "es": "Tenía un footwork excelente y unos desplazamientos ligeros; Bang Soo-hyun contaba que, gracias a ese footwork, parecía flotar por la pista y que su juego era precioso. En su primer Mundial, en 1989, ya llegó a la final; en 1991 ganó la Copa del Mundo y en los Juegos Olímpicos de Barcelona 1992 se colgó el bronce en individual femenino."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Huang_Hua_(badminton)",
+      "wikiZh": "https://zh.wikipedia.org/wiki/黄华_(羽毛球运动员)"
+    }
+  },
+  {
+    "id": "chi-yu-jen",
+    "nameEn": "Chi Yu-jen",
+    "nameZh": "戚又仁",
+    "sex": "M",
+    "country": {
+      "zh": "中国台北",
+      "es": "China Taipéi"
+    },
+    "heightCm": 182,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 1997,
+    "status": "active",
+    "retiredYear": null,
+    "style": "attack",
+    "traits": [
+      "fight",
+      "power"
+    ],
+    "highlights": {
+      "zh": "2023年赛义德·莫迪国际赛冠军（超级300，生涯首个世界巡回赛冠军）；2024年马来西亚超级100赛冠军、台北公开赛（超级300）亚军；2026年印尼大师赛（超级500）、德国公开赛（超级300）四强，印度公开赛、新加坡公开赛（均为超级750）八强；最高世界第18",
+      "es": "Campeón del Syed Modi International 2023 (Super 300, su primer título del World Tour); campeón del Malaysia Super 100 2024 y subcampeón del Abierto de Taipéi 2024; semifinalista del Masters de Indonesia (Super 500) y del Abierto de Alemania en 2026, y cuartofinalista del Abierto de Singapur 2026; número 18 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "右手持拍，打法积极主动，靠提速压迫对手，善于在多拍相持中寻找机会抢攻（2024年台北公开赛半决赛逆转周天成后，他说关键就是把速度提起来）。关键分韧性强：2026年汤姆斯杯对丹麦的决胜场，他挽救多个赛点后以27:25拿下决胜局；同年又在三局大战中先后击败安东森和波波夫，对波波夫是在第三个赛点才拿下。短板是稳定性：2026年世锦赛首轮对奈良冈功大，第二局21:7大胜，决胜局却以12:21落败。",
+      "es": "Diestro, con un juego basado sobre todo en tomar la iniciativa en ataque: sabe buscar en los intercambios largos el momento de lanzarse a atacar. Es muy tenaz en los puntos decisivos: en 2026 derrotó a Anders Antonsen y a Christo Popov en sendos partidos a tres sets, y en el Abierto de Singapur no logró cerrar la victoria ante Popov hasta su tercera bola de partido. Su punto débil es la regularidad: en la primera ronda del Mundial 2026, ante Kodai Naraoka, arrasó en el segundo set por 21-7, pero perdió el set decisivo por 12-21."
+    },
+    "links": {
+      "bwf": "https://bwfbadminton.com/player/77848/chi-yu-jen/",
+      "wikiEn": "https://en.wikipedia.org/wiki/Chi_Yu-jen",
+      "wikiZh": "https://zh.wikipedia.org/wiki/戚又仁"
+    }
+  },
+  {
+    "id": "jason-gunawan",
+    "nameEn": "Jason Gunawan",
+    "nameZh": "吴英伦",
+    "sex": "M",
+    "country": {
+      "zh": "中国香港",
+      "es": "Hong Kong (China)"
+    },
+    "heightCm": 180,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 2004,
+    "status": "active",
+    "retiredYear": null,
+    "style": "attack",
+    "traits": [
+      "power",
+      "fight",
+      "defense"
+    ],
+    "highlights": {
+      "zh": "2026年中国大师赛冠军（超级750，首位夺得该级别单打冠军的中国香港选手；以第一替补身份入围，途中击败时任世界第一乔纳坦、卫冕冠军翁泓阳和安东森）；2026年澳大利亚公开赛（超级500）四强；2025年赛义德·莫迪国际赛冠军（超级300）；2020年16岁成为全港锦标赛最年轻男单冠军；最高世界第23",
+      "es": "Campeón del Masters de China 2026 (Super 750; fue el primer jugador de Hong Kong en ganar un título individual de esa categoría y, por el camino, derrotó al entonces número 1 del mundo, Jonatan Christie, al campeón vigente, Weng Hongyang, y a Anders Antonsen); campeón del Syed Modi International 2025 (Super 300); en 2020, con 16 años, se convirtió en el campeón más joven de individual masculino del Campeonato de Hong Kong; número 23 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "右手持拍。2026年中国大师赛与教练商定主动抢攻，用连续犀利的杀球击败时任世界第一乔纳坦，半决赛鏖战98分钟逆转安东森，决赛以沉稳的节奏掌控比赛。短板是稳定性：此前当年参加的世界巡回赛只在澳大利亚公开赛进过一次四强。",
+      "es": "Es diestro. En el Masters de China 2026 acordó con su entrenador tomar la iniciativa en ataque y derrotó al entonces número 1 del mundo, Jonatan Christie, con una serie de remates incisivos; en semifinales remontó el partido contra Anders Antonsen en una batalla de 98 minutos, y en la final controló el juego con un ritmo sereno. Su punto débil es la regularidad: antes de ese torneo, en los 12 torneos del World Tour que había disputado ese año solo había llegado una vez a semifinales."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Jason_Gunawan",
+      "wikiZh": "https://zh.wikipedia.org/wiki/吴英伦"
+    }
+  },
+  {
+    "id": "moh-zaki-ubaidillah",
+    "nameEn": "Moh. Zaki Ubaidillah",
+    "nameZh": "乌拜迪拉",
+    "sex": "M",
+    "country": {
+      "zh": "印尼",
+      "es": "Indonesia"
+    },
+    "heightCm": 174,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 2007,
+    "status": "active",
+    "retiredYear": null,
+    "style": "speed",
+    "traits": [
+      "fight",
+      "speed"
+    ],
+    "highlights": {
+      "zh": "2026年亚运会男团金牌（决赛决胜场击败翁泓阳）；2026年泰国大师赛冠军（超级300）、澳大利亚公开赛（超级500）四强；2025年东南亚运动会男单银牌、男团金牌；2025年亚青赛男单冠军、世青赛男单亚军；最高世界第25",
+      "es": "Oro por equipos masculinos en los Juegos Asiáticos 2026 (derrotó a Weng Hongyang en el partido decisivo de la final); campeón del Masters de Tailandia 2026 (Super 300); plata en individual masculino y oro por equipos masculinos en los Juegos del Sudeste Asiático 2025; campeón del Campeonato de Asia junior y subcampeón del Mundial junior en individual masculino en 2025; número 25 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "右手持拍，偶像是昆拉武特。节奏快、出手积极，开局就主动施压，不给对手打出自己的节奏；翁泓阳赛后称他“速度非常快”，给自己很大压力。性格倔强、不轻言放弃，2026年亚运会男团1/4决赛和决赛都在决胜场为印尼拿下制胜分，决赛首局在翁泓阳领先的情况下以23:21逆转。2025年还在打青年赛，成年大赛经验尚浅：2026年日本公开赛面对安东森时跟不上对方的节奏，非受迫性失误偏多。",
+      "es": "Es diestro y su ídolo es Kunlavut Vitidsarn. Se desplaza muy rápido: tras enfrentarse a él, Weng Hongyang dijo que era «muy rápido» y que le había metido mucha presión. Aunque es joven, es valiente y combativo y no se rinde con facilidad: en los Juegos Asiáticos 2026 dio a Indonesia el punto de la victoria en el partido decisivo tanto de los cuartos de final como de la final por equipos masculinos, y en el primer set de la final remontó cuando Weng Hongyang iba por delante y lo ganó por 23-21. En 2025 todavía jugaba torneos junior y aún tiene poca experiencia en las grandes competiciones internacionales absolutas."
+    }
+  },
+  {
+    "id": "lin-hsiang-ti",
+    "nameEn": "Lin Hsiang-ti",
+    "nameZh": "林湘缇",
+    "sex": "F",
+    "country": {
+      "zh": "中国台北",
+      "es": "China Taipéi"
+    },
+    "heightCm": 169,
+    "weightKg": null,
+    "hand": "L",
+    "birthYear": 1998,
+    "status": "active",
+    "retiredYear": null,
+    "style": "control",
+    "traits": [
+      "fight",
+      "defense"
+    ],
+    "highlights": {
+      "zh": "2023年瑞昌中国大师赛冠军（超级100，生涯首个世界巡回赛冠军）；2024年澳门公开赛（超级300）亚军；2024年韩国公开赛、2025年香港公开赛（均为超级500）和2026年瑞士公开赛（超级300）四强；2026年爱知·名古屋亚运会女单八强；最高世界第15",
+      "es": "Campeona del Masters de China de Ruichang 2023 (Super 100, su primer título del World Tour); subcampeona del Abierto de Macao 2024 (Super 300); semifinalista del Abierto de Corea 2024 y del Abierto de Hong Kong 2025 (ambos Super 500) y del Abierto de Suiza 2026 (Super 300); cuartofinalista de individual femenino en los Juegos Asiáticos de Aichi-Nagoya 2026; número 15 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "左手持拍，身高169cm，是女单中少见的左手选手。比赛韧性强：2023年瑞昌中国大师赛决赛先以13:21丢掉首局，第二局掌控节奏21:11扳回，决胜局22:20逆转夺冠；她坦言状态不顺时比赛中容易急躁。",
+      "es": "Zurda y de 1,69 m, es una de las pocas jugadoras que juegan con la izquierda en el individual femenino. Es muy tenaz en los partidos: en la final del Masters de China de Ruichang 2023 perdió el primer set por 13-21, dominó el ritmo en el segundo para igualar con un 21-11 y remontó en el set decisivo con un 22-20 para llevarse el título. Ella misma reconoce que, cuando las cosas no le salen, tiende a impacientarse durante los partidos."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Lin_Hsiang-ti",
+      "wikiZh": "https://zh.wikipedia.org/wiki/林湘緹"
+    }
+  },
+  {
+    "id": "letshanaa-karupathevan",
+    "nameEn": "Letshanaa Karupathevan",
+    "nameZh": "莱特沙纳·卡鲁帕特万",
+    "sex": "F",
+    "country": {
+      "zh": "马来西亚",
+      "es": "Malasia"
+    },
+    "heightCm": 166,
+    "weightKg": null,
+    "hand": "R",
+    "birthYear": 2003,
+    "status": "active",
+    "retiredYear": null,
+    "style": "allround",
+    "traits": [
+      "fight",
+      "stamina"
+    ],
+    "highlights": {
+      "zh": "2026年印尼大师赛（超级500）四强；2024年印尼大师赛II（超级100）亚军；2021年、2023年苏迪曼杯铜牌（马来西亚队成员）；2025年东南亚运动会女团铜牌；最高世界第27",
+      "es": "Semifinalista del Masters de Indonesia 2026 (Super 500); subcampeona del Masters de Indonesia II 2024 (Super 100); bronce en la Copa Sudirman 2021 y 2023 (como integrante del equipo de Malasia); bronce por equipos femeninos en los Juegos del Sudeste Asiático 2025; número 27 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "右手持拍，身高166cm，14岁就拿下马来西亚U18全国冠军。2021年因背伤离开国家队，在父亲和哥哥指导下复出，2023年重返国家队后稳步上升，2026年印尼大师赛闯进四强，世界排名升至生涯最高第27。",
+      "es": "Diestra y de 1,66 m, ganó el campeonato nacional sub-18 de Malasia con solo 14 años. En 2021 dejó la selección nacional por una lesión de espalda y volvió a competir entrenada por su padre y su hermano; desde su regreso a la selección en 2023 ha progresado de forma constante: en 2026 llegó a las semifinales del Masters de Indonesia y subió en la clasificación mundial hasta el número 27, el mejor de su carrera."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Letshanaa_Karupathevan"
+    }
+  },
+  {
+    "id": "neslihan-arin",
+    "nameEn": "Neslihan Arın",
+    "nameZh": "内斯莉汗·阿林",
+    "sex": "F",
+    "country": {
+      "zh": "土耳其",
+      "es": "Turquía"
+    },
+    "heightCm": 180,
+    "weightKg": 65,
+    "hand": "R",
+    "birthYear": 1994,
+    "status": "active",
+    "retiredYear": null,
+    "style": "control",
+    "traits": [
+      "stamina",
+      "placement"
+    ],
+    "highlights": {
+      "zh": "三届奥运会参赛（2012、2020、2024）；欧锦赛女单铜牌（2021、2022、2024、2026）；地中海运动会女单金牌（2013、2018、2022）；2025年赛义德·莫迪国际赛（超级300）亚军，成为首位打进世界巡回赛决赛的土耳其选手；最高世界第27",
+      "es": "Ha participado en tres Juegos Olímpicos (2012, 2020 y 2024); bronce en individual femenino en el Campeonato de Europa (2021, 2022, 2024 y 2026); oro en individual femenino en los Juegos Mediterráneos (2013, 2018 y 2022); subcampeona del Syed Modi International 2025 (Super 300), con lo que se convirtió en la primera representante de Turquía en llegar a una final del World Tour; número 27 del mundo en su mejor posición."
+    },
+    "desc": {
+      "zh": "身高180cm，右手持拍，女单中少见的高个子。BWF资料中她自述打法为“多拍相持”，常年征战欧洲赛和国际挑战赛并多次夺冠，2025年31岁时才首次打进世界巡回赛决赛。",
+      "es": "Mide 1,80 m y es diestra; es una de las pocas jugadoras tan altas del individual femenino. En su ficha de la BWF ella misma define su estilo como de «intercambios largos»; durante años ha competido en torneos europeos y en el circuito International Challenge, donde ha ganado varios títulos, y no fue hasta 2025, con 31 años, cuando llegó por primera vez a una final del World Tour."
+    },
+    "links": {
+      "wikiEn": "https://en.wikipedia.org/wiki/Neslihan_Arın",
+      "wikiZh": "https://zh.wikipedia.org/wiki/内斯莉汗·阿林"
     }
   }
 ]

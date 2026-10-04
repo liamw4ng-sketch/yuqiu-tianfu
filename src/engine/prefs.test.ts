@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { doublesPreference, PREF_KEYS, PREF_OPTIONS, singlesPreference, type Prefs } from './prefs'
+import { CORE_PREF_KEYS, doublesPreference, isPrefs, PREF_KEYS, PREF_OPTIONS, preferredStyle, SINGLES_POINTS, singlesPreference, type Prefs } from './prefs'
 import { analyzeTalent } from './talent'
 import { GOLDEN, makeInput } from './testkit'
 import { SINGLES_STYLES } from './types'
@@ -8,9 +8,28 @@ const ATTACKER: Prefs = { scoring: 'smash', midcourt: 'smash', tempo: 'fast', un
 const GRINDER: Prefs = { scoring: 'rally', midcourt: 'push', tempo: 'grind', underAttack: 'lift', rally: 'long', doublesSpot: 'front' }
 
 describe('preferencias de juego (球风偏好)', () => {
-  it('6 preguntas con sus opciones', () => {
-    expect(PREF_KEYS).toEqual(['scoring', 'midcourt', 'tempo', 'underAttack', 'rally', 'doublesSpot'])
+  it('12 preguntas: las 6 de la v2 primero', () => {
+    expect(CORE_PREF_KEYS).toEqual(['scoring', 'midcourt', 'tempo', 'underAttack', 'rally', 'doublesSpot'])
+    expect(PREF_KEYS).toEqual([...CORE_PREF_KEYS, 'signature', 'feints', 'footwork', 'decider', 'receive', 'behind'])
     for (const k of PREF_KEYS) expect(PREF_OPTIONS[k].length).toBeGreaterThanOrEqual(3)
+  })
+  it('scoring sigue siendo la pregunta de más peso (3); las demás dan como mucho 2', () => {
+    for (const k of PREF_KEYS.filter((x) => x !== 'scoring')) {
+      for (const pts of Object.values(SINGLES_POINTS[k])) for (const p of Object.values(pts)) expect(p).toBeLessThanOrEqual(2)
+    }
+  })
+  it('las preguntas nuevas suman al estilo', () => {
+    const wall: Prefs = { ...GRINDER, scoring: 'counter', signature: 'retrieve', feints: 'rarely', footwork: 'reach', decider: 'fight', receive: 'deep', behind: 'persist' }
+    expect(preferredStyle(wall)).toBe('counter')
+    const trick: Prefs = { ...ATTACKER, scoring: 'net', midcourt: 'drop', signature: 'netShot', feints: 'often', receive: 'netReply' }
+    expect(preferredStyle(trick)).toBe('net')
+  })
+  it('isPrefs: acepta v2 (6) y v3 (12); rechaza respuestas inválidas', () => {
+    expect(isPrefs(ATTACKER)).toBe(true)
+    expect(isPrefs({ ...ATTACKER, signature: 'smash', feints: 'often', footwork: 'explosive', decider: 'finish', receive: 'rush', behind: 'attack' })).toBe(true)
+    expect(isPrefs({ ...ATTACKER, signature: 'foo' })).toBe(false)
+    const { tempo: _t, ...noTempo } = ATTACKER
+    expect(isPrefs(noTempo)).toBe(false)
   })
   it('sin preferencias, todas neutras (0.5)', () => {
     const p = singlesPreference(undefined)
@@ -43,7 +62,7 @@ describe('las preferencias cambian la recomendación', () => {
   it('detecta cuando el gusto y la capacidad no coinciden', () => {
     const r = analyzeTalent({ ...GOLDEN, prefs: ATTACKER })
     expect(r.singles.preferred).toBe('attack')
-    expect(r.engineVersion).toBe(2)
+    expect(r.engineVersion).toBe(3)
   })
   it('sin preferencias (registros antiguos) sigue funcionando y preferred es null', () => {
     const r = analyzeTalent(GOLDEN)

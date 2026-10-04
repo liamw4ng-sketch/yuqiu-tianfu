@@ -1,0 +1,244 @@
+{
+  "rudy-hartono": {
+    "traits": [
+      "power",
+      "stamina",
+      "speed"
+    ],
+    "evidence_zh": "国际羽联虚拟博物馆引用他本人的话：自己赶上了羽毛球从技术型转向力量型的年代，而他正是进攻型选手；同一资料称他巅峰期体能极佳、少年时就是“训练狂”，《时代》周刊也形容他的打法以凶猛的力量著称。印尼CNN专访强调他靠出色的身体状态七年蝉联全英，百度百科则称他上网速度快、中场善于突击。",
+    "sources": [
+      "https://web.archive.org/web/2018/http://bwfmuseum.isida.pro/library/profiles/news-317-9/",
+      "https://time.com/archive/6678988/rudy-hartono",
+      "https://www.cnnindonesia.com/olahraga/20150317135345-170-39717/percaya-diri-sakit-gigi-juara-all-england-delapan-kali",
+      "https://baike.baidu.com/item/梁海量"
+    ],
+    "verified": true,
+    "check_note": "复核通过（2026-10-04）：BWF虚拟博物馆存档原文“lucky that (he) came in at a time when the game was in a transition phase from stroke-play to power-play, and that (he) was an attacking player”“Always a superbly fit athlete in his prime”“a training addict”已逐字核对；《时代》周刊“playing style, characterized by its ferocious power”已核对；CNN Indonesia专访确认他靠充分准备和身体状态连续七年保持全英冠军水平。百度百科本轮无法打开（403），“上网速度快、中场善于突击”沿用运动员档案中已直接查看的记录。power 作招牌有《时代》与博物馆两处一手依据；stamina 与 speed 次序可商榷，维持原排序。"
+  },
+  "liem-swie-king": {
+    "traits": [
+      "power",
+      "speed",
+      "net"
+    ],
+    "evidence_zh": "国际羽联虚拟博物馆称他是“进攻型打法之王”、“无所畏惧的跳杀手”，喜欢先用贴网的网前小球为进攻铺路，并引用印度名将帕杜恭的评价：他是那个时代最快的球员之一，强项是速度和侵略性；英文维基称他凶猛的跳杀被球迷称为“King Smash”，他本人也说自己喜欢快节奏、只想更快地击球。",
+    "sources": [
+      "https://web.archive.org/web/20171229011222/http://bwfmuseum.isida.pro/library/profiles/news-1870/",
+      "https://en.wikipedia.org/wiki/Liem_Swie_King"
+    ],
+    "verified": true,
+    "check_note": "修改（2026-10-04）：traits 由 [power, net, deception] 改为 [power, speed, net]。理由：BWF虚拟博物馆存档原文“The monarch of attacking play earned a reputation as a fearless jump smasher who loved to set up his attack with tight shots at the net”，并附帕杜恭评语“One of the fastest players of our times. His forte was speed and aggression”（均已逐字核对）；英文维基“He liked fast-paced style and simply wanted to hit the shuttlecock quicker”。deception 的唯一依据是维基里“sometimes a deceptive drop shot”（“有时”），远弱于速度的证据，故移除。"
+  },
+  "zhao-jianhua": {
+    "traits": [
+      "deception",
+      "power",
+      "placement"
+    ],
+    "evidence_zh": "中文维基称他以“完美的动作一致性”、精确的落点控制和杀伤力极强的中后场杀球驰名羽坛，英文维基也说他的速度、力量以及假动作和技术备受推崇；搜狐的回顾文章称他手腕动作隐蔽而有力，网前假动作等如今的主流技术多源自他的开发，网易文章则说他后场扣杀凶狠、落点准确。",
+    "sources": [
+      "https://zh.wikipedia.org/wiki/赵剑华",
+      "https://en.wikipedia.org/wiki/Zhao_Jianhua",
+      "https://m.163.com/dy/article_cambrian/HFGAH01E0541IW11.html",
+      "https://www.sohu.com/a/392535716_120043661"
+    ],
+    "verified": true,
+    "check_note": "复核通过（2026-10-04）：中文维基原文“以完美的动作一致性，精确的落点控制和杀伤力极强的中后场杀球驰名羽坛”、英文维基“admired for his speed and power as well as for his deception and technique”、搜狐“手腕动作隐蔽而有力”并开创“网前假动作”等打法、网易“进攻力量大，速度快，后场扣杀凶狠，落点准确”均已核对。动作一致性/出手隐蔽是各来源最突出的共同点，deception 作招牌成立。"
+  },
+  "icuk-sugiarto": {
+    "traits": [
+      "stamina",
+      "defense",
+      "fight"
+    ],
+    "evidence_zh": "英文维基称他以高远球加吊球的多拍相持见长，依靠体能和防守取胜；印尼媒体Hipwee说他最出名的是惊人的体能和防守，同时代高手几乎都怕和他打多拍，因为他似乎永远不会累。世界羽联2014年的报道提到他良好的防守和出色的场地覆盖，1983年世锦赛决赛他挽救三个赛点、决胜局17:16逆转林水镜夺冠。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Icuk_Sugiarto",
+      "https://www.hipwee.com/feature/bulu-tangkis-bersinar-lagi-semoga-kevin-marcus-bisa-ikuti-jejak-legendaris-7-pemain-indonesia-ini/",
+      "https://bwfbadminton.com/news-single/2014/08/26/li-ning-bwf-world-championships-2014-day-2-father-figures-in-sugiarto-bid",
+      "https://web.archive.org/web/20171229011222/http://bwfmuseum.isida.pro/library/profiles/news-1870/"
+    ],
+    "verified": true,
+    "check_note": "复核通过（2026-10-04）：英文维基“known for his rally game, with lobs and dropshots, relying on his physical fitness and defensive game”、Hipwee“几乎所有同时代高手面对与他的长回合都只能认输”、BWF 2014年报道称其子汤米展现了“the type of good defence and exceptional court coverage which contributed to his father's success”并提到父亲决赛的第三局逆转（经搜索摘要核对，BWF页面需JS无法直接抓取）、BWF虚拟博物馆林水镜档案“Icuk Sugiarto fought off three match points to win the 1983 epic final”（决胜局17-16）均已核对。注意：英文维基导言另有一句无引注的“Largely a speed and power player”，与正文矛盾，未采用。fight 依据主要是1983年世锦赛决赛逆转这一代表性战役。"
+  },
+  "ardy-wiranata": {
+    "traits": [
+      "defense",
+      "speed",
+      "stamina"
+    ],
+    "evidence_zh": "母队PB Djarum称他是坚韧不服输的“超级防守型”选手，能追到每一个来球，阿尔比1994年也说他“防守非常好”；印尼体育网站Indosport说他因体能好、能满场追球而得名“橡皮球”，英文维基形容他快速、柔韧，1999年世锦赛他靠耐心的多拍扳回局面，耐力一向受质疑的董炯随后体力下滑。",
+    "sources": [
+      "https://pbdjarum.org/berita/diluar-arena/1/1b1ccf8f5e7d841a49/profil-legenda-ardy-bernardus-wiranata-sosok-pemain-ulet",
+      "https://www.indosport.com/raket/20200612/ardy-b-wiranata-si-bola-karet-yang-raih-6-gelar-indonesia-open",
+      "https://www.scmp.com/article/95850/top-seed-downs-countryman",
+      "https://en.wikipedia.org/wiki/Ardy_Wiranata",
+      "https://worldbadminton.com/shuttlenws/19990519B.HTM"
+    ],
+    "verified": true,
+    "check_note": "复核通过（2026-10-04）：PB Djarum原文“di kenal juga sebagai pemain Ultra Defensif”“mengejar setiap bola”、Indosport“kekuatan fisik yang baik dan mampu mengejar bola di seluruh penjuru lapangan”（“橡皮球”绰号由来）、《南华早报》1994年11月14日阿尔比原话“Ardy is more experienced than I am and very good in defence”、英文维基“Quick, supple, and powerful”、worldbadminton 1999年报道“patiently rallied his way back”及“the Chinese player whose endurance has been suspect began to tire”均已核对。PB Djarum 同时称他“ulet dan pantang menyerah”（坚韧不服输），fight 亦有依据，但三项上限内保留防守、速度、体能。"
+  },
+  "hariyanto-arbi": {
+    "traits": [
+      "power",
+      "speed"
+    ],
+    "evidence_zh": "世界羽联称他是“重炮手”，凭强力进攻一局未失拿下1995年世锦赛，1995年苏迪曼杯报道也写他用“雷霆般的跳杀”连得四分；同年全英赛报道称对手拿他“力量加速度”的组合没办法，丹麦老将弗雷德里克森直言他比自己当年遇到的任何人都快，他还常在跳杀后快速上网扑杀。",
+    "sources": [
+      "https://bwfworldchampionships.bwfbadminton.com/news-single/2019/08/17/the-100-watt-smash-that-lit-up-lausanne",
+      "https://worldbadminton.com/text/all_england_1995",
+      "https://worldbadminton.com/results/9505_sudirman.html",
+      "https://www.scmp.com/article/95850/top-seed-downs-countryman"
+    ],
+    "verified": true,
+    "check_note": "复核通过（2026-10-04）：BWF 2019年文章“The hard-hitting Indonesian … swept to the title without dropping a game”、图注“powerful attack”；1995年苏迪曼杯报道“scoring the first four points with his thunderous jumpsmash”；1995年全英赛报道“Arbi's combination of power and quickness”“Arbi's greater speed was the decisive factor”、弗雷德里克森“he is faster than anyone I played then”、“his usual leaping style of smashing and quick dashes to the net for putaways”；《南华早报》1994年“rocked his compatriot with his sharp smashes”，均已逐字核对。"
+  },
+  "hendrawan": {
+    "traits": [
+      "net",
+      "defense",
+      "deception"
+    ],
+    "evidence_zh": "中文维基称他是典型的重视防守型选手，用顽强的接球和灵活多变的网前小球消耗对手，很多顶尖选手都头疼他极逼真的网前假动作；1998年印尼公开赛报道说他的打法建立在“极贴网的网前小球加得分杀球”之上，同年新加坡公开赛报道称盖德招架不住他网前的细腻手感，1998年亚运会决赛报道也提到他拿手的“网前小球加跳杀”套路；网易的悉尼奥运回顾文章称他当年被公认为现役网前技术最细腻的选手。",
+    "sources": [
+      "https://zh.wikipedia.org/wiki/叶诚万",
+      "https://www.worldbadminton.com/shuttlenws/19981030a.htm",
+      "https://worldbadminton.com/shuttlenws/19980816a.htm",
+      "https://worldbadminton.com/shuttlenws/19981217a.htm",
+      "https://www.163.com/dy/article/JBI70LFN05568X1M.html"
+    ],
+    "verified": true,
+    "check_note": "复核通过（2026-10-04），补充来源：worldbadminton 1998年印尼公开赛报道原文“Hendrawan's game, which is based on very tight net shots followed up by point-scoring smashes”、1998年新加坡公开赛报道“not able to cope with Hendrawan's finesse at the net and power from the backcourt”、1998年亚运会报道“his favorite netshot-jumpsmash tactic”、网易“被公认为现役网前技术最细腻的选手”、中文维基“风格类型”段落均已核对。net 作招牌成立。注意：英文赛事报道多次提到他网前之后的杀球得分，与中文维基“几乎没有一击致命的大力杀球”有出入；杀球是网前小球创造机会后的收尾，不构成重杀型，故未加 power。"
+  },
+  "poul-erik-hoyer-larsen": {
+    "traits": [
+      "net",
+      "deception",
+      "placement"
+    ],
+    "evidence_zh": "1996年奥运会决赛报道称他打控制型打法，用旋转的网前搓球和吊球把球控在前场、避开董炯的跳杀，并用假动作和出其不意的球诱使对手失误；1997年美国公开赛报道把“吊球—假装后撤—网前扑杀”称作他的典型套路，1999年丹麦公开赛报道称他打出了“招牌式的脚下灵快、出手欺骗、手感细腻”，并不断变换球路组合；1995年全英决赛和1996年奥运会半决赛，他都把阿尔比的跳杀轻挡回网前或挡到对方难受的位置，从而控制了比赛。",
+    "sources": [
+      "https://worldbadminton.com/shuttlenws/960801.txt",
+      "https://www.worldbadminton.com/shuttlenws/19970914b.html",
+      "https://worldbadminton.com/shuttlenws/19991016a.htm",
+      "https://worldbadminton.com/text/all_england_1995",
+      "https://worldbadminton.com/shuttlenws/960730a.txt"
+    ],
+    "verified": true,
+    "check_note": "修改（2026-10-04）：traits 次序由 [net, placement, deception] 调为 [net, deception, placement]。依据：1999年丹麦公开赛报道原文“displayed vintage Hoyer quickness of foot, deceptiveness of stroke and finesse of touch”（“vintage”即招牌式），1996年决赛“induced Dong into several mistakes with deceptive or surprise shots”“a deceptive crosscourt drop shot”，1997年美国公开赛“a typical dropshot, fake move to the rearcourt and then net kill sequence”——欺骗性的证据多于、强于落点控制；落点控制的依据为“played a controlled style”“direct his smash blocks to spots”“varied his shot selection and combinations”。新增1999年丹麦公开赛与1996年奥运半决赛两篇报道作来源，原有三篇已逐字核对。"
+  },
+  "sun-jun": {
+    "traits": [
+      "defense",
+      "fight",
+      "speed"
+    ],
+    "evidence_zh": "英文维基称他以全面的防守能力和永不言弃的精神著称，1997年世锦赛决赛决胜局抽筋后仍拖着伤腿打完；1999年世锦赛报道称他“素有男单中最快球员之名”，凭防守中的快速移动、跳杀和欺骗性网前球击败拉尔森；赛事报道还写到他在1998年瑞士公开赛带伤上阵，凭场地覆盖和灵活的脚步与盖德抗衡，1999年2月的大奖赛总决赛又靠快速的救球扳回比赛。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sun_Jun_(badminton)",
+      "https://worldbadminton.com/shuttlenws/19970601.html",
+      "https://worldbadminton.com/shuttlenws/19990522A.HTM",
+      "https://worldbadminton.com/shuttlenws/19980322a.html",
+      "https://worldbadminton.com/shuttlenws/19990224a.htm"
+    ],
+    "verified": true,
+    "check_note": "复核通过（2026-10-04），补充来源：英文维基导言“known for his all-round defensive ability as well as his never-say-die attitude”已核对；新增1999年世锦赛半决赛报道原文“The Chinese player who has a deserved reputation of being the quickest of men's singles players … with a combination of defensive quickness, powerful jumpsmashes and deceptive netshots”，加强 speed 的依据；1997年世锦赛决赛（抽筋）、1998年瑞士公开赛“court coverage and fleetness of foot”、1999年2月“quickfooted retrieves”均已核对。维基导言把防守与斗志并列为其主要特点，维持 defense > fight > speed。"
+  },
+  "dong-jiong": {
+    "traits": [
+      "power",
+      "deception",
+      "defense"
+    ],
+    "evidence_zh": "多篇赛事报道称跳杀是他的主要武器，起跳后到最后一刻才决定杀、吊还是打高远球，让对手难以判断，网前小球也颇具欺骗性；1997年丹麦公开赛决赛报道称他凭假动作和重炮击败盖德，并称他开局的防守“非常精彩”，把对方的杀球挡到底线或轻放网前。",
+    "sources": [
+      "https://worldbadminton.com/shuttlenws/960801.txt",
+      "https://worldbadminton.com/shuttlenws/19961215.html",
+      "https://worldbadminton.com/shuttlenws/19961116.html",
+      "https://worldbadminton.com/shuttlenws/19971019a.html"
+    ],
+    "verified": true,
+    "check_note": "复核通过（2026-10-04）：1996年世界杯决赛报道“Dong's jumping strokes which turn into smashes, drops or clears at the last second”“Dong's net shots were also quite deceptive”、1996年泰国公开赛“his deceptive leaping smashes and drops”、1997年丹麦公开赛“Dong's deceptive strokes and powerful shots”“Dong's defense was spectacular in the early going”、1996年奥运会决赛“Dong's jumpsmash attack”均已逐字核对。注意：defense 只有1997年丹麦公开赛一场的依据，且同场报道也说他后来“played defensively too often”，是三项中最弱的一项；另1999年世锦赛和1997年SAS赛报道都说他耐力不足（“endurance has been suspect”“started to run out of energy”），故正确地未给 stamina。"
+  },
+  "ji-xinpeng": {
+    "traits": [
+      "stamina",
+      "fight",
+      "placement"
+    ],
+    "evidence_zh": "搜狐的回顾文章称他在悉尼奥运会上把“年轻体力好、后场相持球出色”的优势发挥得淋漓尽致；另一篇回顾写他半决赛决胜局凭出色的体能和顽强的斗志击败盖德，首战先输一局后逆转，对陶菲克时则在多拍相持中突然变线得分。",
+    "sources": [
+      "https://www.sohu.com/a/392535716_120043661",
+      "https://www.sohu.com/a/792472499_121124660",
+      "https://en.wikipedia.org/wiki/Ji_Xinpeng"
+    ],
+    "verified": true,
+    "check_note": "复核通过（2026-10-04）：搜狐（392535716）原文“将自己年轻体力好和后场相持球出色的优势发挥得淋漓尽致”、搜狐（792472499）“利用自己出色的体能和顽强的斗志与盖德展开了激烈的争夺”“利用一次多拍相持的机会，突然变线得分”已核对。比分经 Olympedia 核对：首战（第二轮，首轮轮空）对中国香港的 Ng Wei 7-15、15-4、15-11 先输后赢；八强胜陶菲克 15-12、15-5；半决赛胜盖德 15-9、1-15、15-9。两篇搜狐文章均为回顾性自媒体文章，属次级来源；英文维基未描述其打法。"
+  },
+  "chen-hong": {
+    "traits": [
+      "deception",
+      "placement",
+      "power"
+    ],
+    "evidence_zh": "搜狐回顾文章称他凭“以柔克刚、变化万千”的精妙打法立足，每个动作都可写进教科书，百度百科也说他手法富于变化；新浪资料称他技术纯熟、是典型的技术型选手，《体坛周报》称很多人认为他技术最完美，李永波也说他是中国男单中技术最全面的。百度百科同时称他进攻锐利，路透社报道他在2002年全英决赛中强势击败桑托索。",
+    "sources": [
+      "https://www.sohu.com/a/392535716_120043661",
+      "https://baike.baidu.com/item/陈宏/28636",
+      "http://sports.sina.com.cn/star/chen_hong/index.shtml",
+      "http://sports.sina.com.cn/o/2004-04-05/1011835259.shtml",
+      "https://www.dawn.com/news/25991"
+    ],
+    "verified": true,
+    "check_note": "复核通过（2026-10-04）：搜狐“以柔克刚、变化万千的精妙打法”“可以写入教科书”、新浪球星资料“技术纯熟，是一名典型的技术型选手”、新浪转载《体坛周报》2004年4月5日报道“很多人认为，技术最完美的陈宏”及“李永波场外音”段落中“陈宏在中国男单中是技术最全面的”、Dawn转载路透社2002年全英决赛报道“Chen Hong powered past unseeded Indonesian Budi Santoso 7-4 7-5 7-1”均已逐字核对。注意：power 依据最弱——同篇《体坛周报》称他“没有非常突出的特点，尤其缺乏夏煊泽的‘狠’”，且关键分三个下压进攻出界；power 主要靠百度百科“进攻锐利、攻击性很强”（本轮403无法重新打开），维持第三位。"
+  },
+  "sony-dwi-kuncoro": {
+    "traits": [
+      "power",
+      "fight",
+      "speed"
+    ],
+    "evidence_zh": "百度百科称他以暴力打法、擅长突击著称，他本人也说常靠稳定发挥等待用杀球得分；世界羽联称他2016年31岁时从资格赛打起，顽强击败林丹、“拒绝倒下”，2008年日本公开赛决赛李宗伟则承认被他的节奏打得跟不上。",
+    "sources": [
+      "https://baike.baidu.com/item/索尼·昆科罗",
+      "https://www.thejakartapost.com/news/2008/06/23/home-shuttlers-win-two-titles-jakarta",
+      "https://www.badmintonplanet.com/?p=1985",
+      "https://bwfbadminton.com/news-single/2016/04/16/sony-days-here-again-day-5-oue-singapore-open-2016",
+      "https://www.badmintonplanet.com/?p=830"
+    ],
+    "verified": true,
+    "check_note": "复核通过（2026-10-04）：《雅加达邮报》2008年6月23日“won the match through consistent play, waiting for the opportunity to score with his smash”、Badminton Planet 2008年日本公开赛报道中李宗伟原话“I was so tired that I was outpaced and outdone by Sony's rhythm”及“three solid jumping smashes”、2012年印尼公开赛报道中索尼原话“on the last points of Game 3 my smash made me a lot of points”（伤停两年后复出连胜林丹、盖德）、BWF 2016年报道“gritty victory”“refused to wilt”均已逐字核对。百度百科“暴力打法，擅长突击”沿用运动员档案中已直接查看的记录。"
+  },
+  "chen-jin": {
+    "traits": [
+      "placement",
+      "stamina",
+      "speed"
+    ],
+    "evidence_zh": "中文维基（引《东方体育日报》、腾讯体育）称中国媒体把他的打法叫作“牛皮糖打法”，李永波封他为“拉吊帮帮主”：用四角拉吊把对手压在底线再抢网突击，这种打法非常消耗体力；新浪资料称他跑动能力强，2010年世锦赛决赛报道也说他比陶菲克移动更好、打得更稳也更有纪律。",
+    "sources": [
+      "https://zh.wikipedia.org/wiki/陈金",
+      "http://sports.sina.com.cn/star/chen_jin/",
+      "https://www.badmintonplanet.com/?p=1729"
+    ],
+    "verified": true,
+    "check_note": "复核通过（2026-10-04）：中文维基原文“陳金的打球風格被中國媒體稱之為「牛皮糖打法」，中國國家隊總教練李永波也曾經給他「拉吊幫幫主」的綽號”（引《东方体育日报》2010年8月31日）及四角拉吊、抢网突击、非常消耗体力的说明已核对；Badminton Planet 2010年世锦赛决赛报道“Chen showed better movement, greater discipline”“the more solid and consistent player”已核对。新浪球星资料“跑动能力强”沿用上一轮记录。"
+  },
+  "son-wan-ho": {
+    "traits": [
+      "defense",
+      "stamina",
+      "placement"
+    ],
+    "evidence_zh": "世界羽联球员资料把他的风格标为“Defensive”，他本人也说稳定是自己的关键，所以别人觉得他偏防守；2016年新加坡公开赛半决赛后他说有意打多拍、比耐心，等对手急躁失误；2018年香港公开赛半决赛他与桃田贤斗鏖战90分钟，以一个44拍的多拍回合拿到赛点逆转取胜，比赛后段桃田明显体力下滑。",
+    "sources": [
+      "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=54346",
+      "https://gulfnews.com/sport/top-ranked-son-seeks-olympic-medal-as-icing-on-the-cake-1.2141111",
+      "https://bwfbadminton.com/news-single/2016/04/16/sony-days-here-again-day-5-oue-singapore-open-2016",
+      "https://bwfworldtour.bwfbadminton.com/news-single/2018/11/17/son-wan-s-ho-w-semi-finals-yonex-sunrise-hong-kong-open-2018/",
+      "https://en.wikipedia.org/wiki/Son_Wan-ho"
+    ],
+    "verified": true,
+    "check_note": "复核通过（2026-10-04），措辞微调：Gulf News 原话“Consistency is the key for me … that is why people say I am more defensive in my approach”、BWF 2016年报道原话“Today I tried to play long rallies rather than fast, straight kills. I tried to be more patient so that my opponent would get impatient and make more mistakes”、BWF 2018年报道“90 absorbing minutes”“Momota clearly exhibiting signs of fatigue”“an exhausting 44-shot rally”均已逐字核对；原文“拖垮了桃田贤斗”略夸张，已改为更贴近原文的描述。BWF API 本轮被 Cloudflare 拦截无法重开，“Defensive”沿用运动员档案复核记录（style_of_play=Defensive）。同一篇2018年报道也说他“admitted mental fragility”，故正确地未给 fight。"
+  }
+}

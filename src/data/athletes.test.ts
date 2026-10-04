@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'vitest'
+import { isTrait } from '../engine/traits'
 import { athleteErrors, pairErrors, PAIRS, SINGLES } from './athletes'
 
 describe('jugadores de individual', () => {
@@ -20,6 +21,33 @@ describe('jugadores de individual', () => {
   })
   it('los 6 estilos tienen al menos un representante', () => {
     expect(new Set(SINGLES.map((a) => a.style)).size).toBe(6)
+  })
+  it('cada jugador tiene 2–3 rasgos válidos y sin repetir', () => {
+    for (const a of SINGLES) {
+      expect(a.traits?.length, a.id).toBeGreaterThanOrEqual(2)
+      expect(a.traits.length, a.id).toBeLessThanOrEqual(3)
+      expect(new Set(a.traits).size, a.id).toBe(a.traits.length)
+      for (const t of a.traits) expect(isTrait(t), `${a.id}: ${t}`).toBe(true)
+    }
+  })
+  it('no hay jugadores duplicados con otro id', () => {
+    const norm = (x: string) => x.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]/g, '')
+    const names = SINGLES.map((a) => norm(a.nameEn))
+    expect(names.filter((n, i) => names.indexOf(n) !== i)).toEqual([])
+    // El nombre chino sigue la Wikipedia china: no depende de acentos ni del orden de los apellidos.
+    const zh = SINGLES.map((a) => a.nameZh)
+    expect(zh.filter((n, i) => zh.indexOf(n) !== i)).toEqual([])
+  })
+  it('v3: al menos 55 por sexo y los 6 estilos en cada sexo', () => {
+    for (const sex of ['M', 'F'] as const) {
+      const xs = SINGLES.filter((a) => a.sex === sex)
+      expect(xs.length).toBeGreaterThanOrEqual(55)
+      expect(new Set(xs.map((a) => a.style)).size).toBe(6)
+    }
+  })
+  it('incluye leyendas (spec §17.1)', () => {
+    const ids = new Set(SINGLES.map((a) => a.id))
+    expect(['zhao-jianhua', 'ye-zhaoying'].filter((id) => ids.has(id))).toHaveLength(2)
   })
   it('Kunlavut Vitidsarn usa la altura de la BWF (decisión del usuario)', () => {
     expect(SINGLES.find((a) => a.id === 'kunlavut-vitidsarn')?.heightCm).toBe(173)

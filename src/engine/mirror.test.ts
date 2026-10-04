@@ -6,7 +6,7 @@ import type { Sex, SinglesStyle } from './types'
 const L = { zh: 'x', es: 'x' }
 const athlete = (id: string, sex: Sex, h: number, w: number | null, style: SinglesStyle, status: 'active' | 'retired' = 'active'): Athlete => ({
   id, nameEn: id, nameZh: id, sex, country: L, heightCm: h, weightKg: w, hand: 'R', birthYear: 1995,
-  status, retiredYear: status === 'retired' ? 2024 : null, style, highlights: L, desc: L,
+  status, retiredYear: status === 'retired' ? 2024 : null, style, traits: ['placement', 'stamina'], highlights: L, desc: L,
 })
 const player = (sex: Sex, h: number, w: number | null, position: Position): DoublesPlayer => ({
   nameEn: `${sex}${h}`, nameZh: `${sex}${h}`, sex, heightCm: h, weightKg: w, hand: 'R', position, role: L,

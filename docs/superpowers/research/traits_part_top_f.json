@@ -1,0 +1,41 @@
+{
+  "lin-hsiang-ti": {
+    "traits": [
+      "fight",
+      "defense"
+    ],
+    "evidence_zh": "自由时报称她在2023年瑞昌中国大师赛决赛中“韧性十足”：先以13:21丢掉首局、第二局21:11扳平，决胜局20:18错失两个赛点后“阵脚未乱”，再连得2分以22:20逆转东道主选手夺冠（全场68分钟）；2026年新加坡公开赛首轮对班索德，她先丢一局、第二局一度10:16落后仍以21:19扳回，最终三局逆转。2026年台北公开赛晋级八强后，她谈到下一轮对手黄宥薰时说对方“偏男生打法、进攻有侵略性，我则是偏防守”。",
+    "sources": [
+      "https://sports.ltn.com.tw/news/breakingnews/4244808",
+      "https://sports.ltn.com.tw/news/breakingnews/5451754",
+      "https://sports.ltn.com.tw/news/breakingnews/5523378"
+    ],
+    "verified": true
+  },
+  "letshanaa-karupathevan": {
+    "traits": [
+      "fight",
+      "stamina"
+    ],
+    "evidence_zh": "马来西亚《新海峡时报》2026年5月以她正变成“心理怪兽”为题，报道她在马来西亚大师赛以21:15、21:17爆冷击败世界第9宫崎友花，称她全场“沉着而无畏”；她说作为下风一方“目标就是拼尽全力”，并称近年身体状态和进攻意识都在提升。2026年尤伯杯以17:21、18:21惜败王祉怡后，她说教练要求她“每一分都去拼、多打相持，不能放弃，也别指望轻松得分”；同年9月中国大师赛再战王祉怡前，她又说脑子里只有一件事：“拼到最后，每一分都拼。”",
+    "sources": [
+      "https://www.nst.com.my/sports/badminton/2026/05/1445007/shuttler-letshanaa-turning-mentality-monster-watch",
+      "https://www.nst.com.my/sports/badminton/2026/04/1429902/uber-cup-carmen-xin-yee-and-letshanaa-earn-chinas-respect-after",
+      "https://www.nst.com.my/sports/badminton/2026/09/1524514/letshanaa-eyes-redemption-after-new-delhi-meltdown-against-zhi-yi"
+    ],
+    "verified": true
+  },
+  "neslihan-arin": {
+    "traits": [
+      "stamina",
+      "placement"
+    ],
+    "evidence_zh": "她在BWF个人资料中自填打法为“Rally”（多拍相持）；欧洲羽联报道2022年马德里欧锦赛八强她（当时仍用原姓Yiğit）以21:10、15:21、21:15击败上届亚军莱恩·克里斯托弗森后说“我专注于控制，打得很好，所以赢了”；2025年土耳其国际挑战赛半决赛她与加拿大选手鏖战65分钟，以21:16、20:22、21:19三局取胜后夺冠。",
+    "sources": [
+      "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=87885",
+      "https://badmintoneurope.com/w/who-can-dethrone-queen-marin-",
+      "https://badmintoneurope.com/w/neslihan-arin-wins-victor-t%C3%BCrkiye-international-challenge-2025"
+    ],
+    "verified": true
+  }
+}

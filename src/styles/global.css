@@ -222,4 +222,5 @@ select.field-input {
 .media-links { display: flex; flex-wrap: wrap; gap: 8px; }
 .small-btn { padding: 8px 12px; font-size: 13px; }
 .pref-note { background: #f1f5ff; border-radius: 14px; padding: 10px 14px; }
+.trait-line { background: #f1f5ff; border-radius: 14px; padding: 8px 12px; margin: 0; }
 .choice.has-error { outline: 2px solid var(--bad); }

@@ -7,6 +7,7 @@ import type {
 } from '../engine/types'
 import type { MbtiAxis, MbtiCode, MbtiQuestionId } from '../engine/mbti'
 import type { PREF_OPTIONS, PrefKey } from '../engine/prefs'
+import type { Trait } from '../engine/traits'
 import type { RatingLevel, RatingQuestionId, RatingRuleId } from '../engine/rating'
 import type { FieldErrorCode, WarningCode } from '../engine/validate'
 
@@ -109,6 +110,8 @@ export interface TalentContent {
   }
   /** Preguntas de 球风偏好: enunciado y texto de cada opción */
   prefs: { [K in PrefKey]: { question: string; options: Record<(typeof PREF_OPTIONS)[K][number], string> } }
+  /** Nombre corto de cada rasgo (球风特点) */
+  traits: Record<Trait, string>
   abilities: Record<AbilityKey, AbilityText>
   tests: Record<FieldTestKey, { label: string; unit: string; hint: string }>
   bodyTypes: Record<BodyType, BodyTypeText>
@@ -181,6 +184,10 @@ export interface TalentContent {
     singlesMirror: string
     /** 体型镜像: quien tiene un cuerpo como el tuyo */
     bodyMirror: string
+    /** Etiqueta de los rasgos que comparten el usuario y su espejo de estilo */
+    sharedTraits: string
+    /** Etiqueta de los rasgos del jugador cuando no comparten ninguno */
+    signatureTraits: Record<Sex, string>
     doublesMirror: string
     alternates: string
     you: string
