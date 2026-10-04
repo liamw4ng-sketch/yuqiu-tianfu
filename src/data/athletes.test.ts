@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { isTrait } from '../engine/traits'
-import { athleteErrors, pairErrors, PAIRS, SINGLES } from './athletes'
+import { athleteErrors, pairErrors, PAIRS, RETIRED_BEFORE_CUTOFF_NO_YEAR, RETIRED_CUTOFF_YEAR, SINGLES } from './athletes'
 
 describe('jugadores de individual', () => {
   it('todos los registros son válidos', () => {
@@ -38,16 +38,22 @@ describe('jugadores de individual', () => {
     const zh = SINGLES.map((a) => a.nameZh)
     expect(zh.filter((n, i) => zh.indexOf(n) !== i)).toEqual([])
   })
-  it('v3: al menos 55 por sexo y los 6 estilos en cada sexo', () => {
+  it('al menos 40 por sexo y los 6 estilos en cada sexo', () => {
     for (const sex of ['M', 'F'] as const) {
       const xs = SINGLES.filter((a) => a.sex === sex)
-      expect(xs.length).toBeGreaterThanOrEqual(55)
+      expect(xs.length).toBeGreaterThanOrEqual(40)
       expect(new Set(xs.map((a) => a.style)).size).toBe(6)
     }
   })
-  it('incluye leyendas (spec §17.1)', () => {
+  it('nadie se retiró antes de 2010 (decisión del usuario, 2026-10-05)', () => {
+    expect(RETIRED_CUTOFF_YEAR).toBe(2010)
+    expect(RETIRED_BEFORE_CUTOFF_NO_YEAR.length).toBeGreaterThan(0)
+    const early = SINGLES.filter((a) => a.status === 'retired' && (a.retiredYear === null ? RETIRED_BEFORE_CUTOFF_NO_YEAR.includes(a.id) : a.retiredYear < RETIRED_CUTOFF_YEAR))
+    expect(early.map((a) => a.id)).toEqual([])
+  })
+  it('las leyendas retiradas desde 2010 siguen (Lin Dan, Lee Chong Wei, Peter Gade, Zhou Mi)', () => {
     const ids = new Set(SINGLES.map((a) => a.id))
-    expect(['zhao-jianhua', 'ye-zhaoying'].filter((id) => ids.has(id))).toHaveLength(2)
+    expect(['lin-dan', 'lee-chong-wei', 'peter-gade', 'zhou-mi'].filter((id) => !ids.has(id))).toEqual([])
   })
   it('Kunlavut Vitidsarn usa la altura de la BWF (decisión del usuario)', () => {
     expect(SINGLES.find((a) => a.id === 'kunlavut-vitidsarn')?.heightCm).toBe(173)
