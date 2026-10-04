@@ -45,6 +45,15 @@ describe('espejo de estilo con rasgos (spec §17.4)', () => {
     expect(r[0].athlete.id).toBe('second-same-traits')
     expect(r[0].styleMatch).toBe('secondary')
   })
+  it('la variedad solo elige entre quienes comparten algún rasgo contigo, si los hay', () => {
+    // 'near-none' está más cerca por cuerpo pero no comparte nada; 'sharer' comparte tu sello y cae dentro de la ventana.
+    const pool = [athlete('near-none', 'net', ['stamina', 'speed', 'fight'], 175, 70), athlete('sharer', 'net', ['deception', 'net'], 190, 84)]
+    for (let seed = 0; seed < 6; seed++) {
+      const r = findStyleMirrors({ ...user({ ...CORE, signature: 'deception', feints: 'often' }), seed }, STYLE, pool)
+      expect(r[0].athlete.id).toBe('sharer')
+      expect(r[0].shared.length).toBeGreaterThan(0)
+    }
+  })
   it('registros v1 (sin gustos) conservan la ventana de variedad de la v2 (0,5)', () => {
     const pool = [athlete('t1', 'net', ['net', 'placement'], 175, 70), athlete('t2', 'net', ['net', 'placement'], 182, 76)]
     const v1 = new Set([0, 1, 2, 3, 4, 5].map((seed) => findStyleMirrors({ ...user(), traits: undefined, seed }, STYLE, pool)[0].athlete.id))

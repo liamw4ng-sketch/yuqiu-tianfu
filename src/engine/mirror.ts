@@ -129,7 +129,10 @@ export function findStyleMirrors(
     .sort((x, y) => x.distance - y.distance || x.athlete.id.localeCompare(y.athlete.id))
   // El espejo de estilo juega tu estilo principal o el segundo; el resto solo si no hay nadie de esos dos.
   const inStyle = scored.filter((c) => c.styleMatch !== 'none')
-  const pool = inStyle.length > 0 ? inStyle : scored
+  const styled = inStyle.length > 0 ? inStyle : scored
+  // Y comparte algún rasgo principal contigo si hay alguien que lo haga: la variedad no puede darte uno sin nada en común.
+  const sharing = styled.filter((c) => c.shared.length > 0)
+  const pool = sharing.length > 0 ? sharing : styled
   // Sin gustos (registros v1) los rasgos no aportan nada: se conserva la ventana de la v2.
   return withVariety(pool, user.seed ?? 0, user.traits ? STYLE_WINDOW : V1_STYLE_WINDOW).slice(0, n)
 }
