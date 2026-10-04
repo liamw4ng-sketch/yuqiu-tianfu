@@ -1,6 +1,6 @@
 import type { AgeBand, BmiBand, BodyType, Level, RadarKey, Sex } from './types'
 
-export const ENGINE_VERSION = 2
+export const ENGINE_VERSION = 3
 
 // Referencia aproximada de adultos jóvenes chinos. La altura del usuario se compara con su sexo.
 export const HEIGHT_REF: Record<Sex, { mean: number; sd: number }> = {

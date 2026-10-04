@@ -1,5 +1,6 @@
 import type { Athlete, DoublesPair, PairEvent, Position } from '../data/athletes'
 import { bmiOf } from './body'
+import { athleteTraitVector, topTraits, traitSimilarity, type Trait, type TraitVector } from './traits'
 import type { DoublesRole, Hand, Preference, Sex, SinglesStyle, TalentInput } from './types'
 
 export interface MirrorUser {
@@ -10,6 +11,8 @@ export interface MirrorUser {
   hand?: Hand
   /** Semilla estable derivada de todas las respuestas: reparte entre candidatos casi iguales */
   seed?: number
+  /** Puntos de rasgo del usuario (spec §17.3). Sin gustos, undefined. */
+  traits?: TraitVector
 }
 export type StyleMatch = 'primary' | 'secondary' | 'none'
 export interface SinglesMirror {
@@ -18,6 +21,8 @@ export interface SinglesMirror {
   heightDiff: number
   bmiDiff: number | null
   styleMatch: StyleMatch
+  /** Rasgos principales del usuario que el jugador también tiene, en el orden del usuario */
+  shared: Trait[]
 }
 export interface DoublesMirror {
   pair: DoublesPair
@@ -32,8 +37,11 @@ const UNKNOWN_BMI_PENALTY = 0.35
 const INACTIVE_PENALTY = 0.2
 const STYLE_DISTANCE: Record<StyleMatch, number> = { primary: 0, secondary: 0.6, none: 1.5 }
 const LEFTY_BONUS = 0.4
+// Rasgos (spec §17.4): con 0,6 un jugador de tu estilo sin rasgos en común empata con uno del segundo estilo con tus rasgos.
+const TRAIT_WEIGHT = 0.6
 // Ventanas de "casi igual de parecidos" dentro de las cuales elige la semilla del usuario.
-const STYLE_WINDOW = 0.5
+// La del espejo de estilo es estrecha para que los rasgos se noten (antes 0,5).
+const STYLE_WINDOW = 0.2
 const BODY_WINDOW = 0.3
 const DOUBLES_WINDOW = 0.3
 // Posiciones que cuentan como "coinciden con el rol" (spec §5.3.6); 'both' sirve para ambos lados.
@@ -89,6 +97,10 @@ function withVariety<T extends { distance: number }>(sorted: T[], seed: number, 
   return [first, ...sorted.filter((c) => c !== first)]
 }
 
+function sharedTraits(user: MirrorUser, athlete: Athlete): Trait[] {
+  return user.traits ? topTraits(user.traits).filter((t) => athlete.traits.includes(t)) : []
+}
+
 function styleMatchOf(athlete: Athlete, style: { top: SinglesStyle; runnerUp: SinglesStyle }): StyleMatch {
   return athlete.style === style.top ? 'primary' : athlete.style === style.runnerUp ? 'secondary' : 'none'
 }
@@ -106,8 +118,10 @@ export function findStyleMirrors(
       const { heightDiff, bmiDiff, d } = bodyDistance(user, athlete.heightCm, athlete.weightKg)
       const styleMatch = styleMatchOf(athlete, style)
       const lefty = user.hand === 'L' && athlete.hand === 'L' ? LEFTY_BONUS : 0
-      const distance = STYLE_DISTANCE[styleMatch] + 0.35 * d + (athlete.status === 'active' ? 0 : INACTIVE_PENALTY) - lefty
-      return { athlete, distance, heightDiff, bmiDiff, styleMatch }
+      const sim = user.traits ? traitSimilarity(user.traits, athleteTraitVector(athlete.traits)) : 0
+      const distance =
+        STYLE_DISTANCE[styleMatch] + TRAIT_WEIGHT * (1 - sim) + 0.35 * d + (athlete.status === 'active' ? 0 : INACTIVE_PENALTY) - lefty
+      return { athlete, distance, heightDiff, bmiDiff, styleMatch, shared: sharedTraits(user, athlete) }
     })
     .sort((x, y) => x.distance - y.distance || x.athlete.id.localeCompare(y.athlete.id))
   return withVariety(scored, user.seed ?? 0, STYLE_WINDOW).slice(0, n)
@@ -128,7 +142,7 @@ export function findBodyMirrors(
       const { heightDiff, bmiDiff, d } = bodyDistance(user, athlete.heightCm, athlete.weightKg)
       const styleMatch = styleMatchOf(athlete, style)
       const distance = d + 0.25 * STYLE_DISTANCE[styleMatch] + (athlete.status === 'active' ? 0 : INACTIVE_PENALTY)
-      return { athlete, distance, heightDiff, bmiDiff, styleMatch }
+      return { athlete, distance, heightDiff, bmiDiff, styleMatch, shared: sharedTraits(user, athlete) }
     })
     .sort((x, y) => x.distance - y.distance || x.athlete.id.localeCompare(y.athlete.id))
   return withVariety(scored, user.seed ?? 0, BODY_WINDOW).slice(0, n)

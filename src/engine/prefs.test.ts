@@ -62,7 +62,7 @@ describe('las preferencias cambian la recomendación', () => {
   it('detecta cuando el gusto y la capacidad no coinciden', () => {
     const r = analyzeTalent({ ...GOLDEN, prefs: ATTACKER })
     expect(r.singles.preferred).toBe('attack')
-    expect(r.engineVersion).toBe(2)
+    expect(r.engineVersion).toBe(3)
   })
   it('sin preferencias (registros antiguos) sigue funcionando y preferred es null', () => {
     const r = analyzeTalent(GOLDEN)

@@ -7,6 +7,7 @@ import { pickDrills, type DrillId } from './drills'
 import { findBodyMirrors, findDoublesMirrors, findStyleMirrors, seedOf, type DoublesMirror, type SinglesMirror } from './mirror'
 import { rankSingles } from './singles'
 import { argBy, mean } from './stats'
+import { userTraits } from './traits'
 import {
   ABILITY_KEYS,
   RADAR_KEYS,
@@ -71,7 +72,7 @@ export function analyzeTalent(input: TalentInput, data: AthleteData = { singles:
   for (const k of ABILITY_KEYS) diagnosis[k] = diagLevel(current[k])
   const singles = rankSingles(blended, current, body, input.prefs)
   const doubles = pickDoublesRole(blended, current, body, input.sex, tendency, input.prefs)
-  const user = { sex: input.sex, heightCm: input.heightCm, bmi: body.bmi, preference: input.preference, hand: input.hand, seed: seedOf(input) }
+  const user = { sex: input.sex, heightCm: input.heightCm, bmi: body.bmi, preference: input.preference, hand: input.hand, seed: seedOf(input), traits: input.prefs ? userTraits(input.prefs) : undefined }
   const styleMirrors = findStyleMirrors(user, singles, data.singles)
   return {
     engineVersion: ENGINE_VERSION,
