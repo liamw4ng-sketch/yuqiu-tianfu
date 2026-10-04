@@ -96,3 +96,49 @@ describe('ReportPage con 球风偏好', () => {
     expect(screen.getByText(c.report.prefNone)).toBeInTheDocument()
   })
 })
+
+describe('rasgos en el espejo de estilo (spec §17.5)', () => {
+  const TRICK = { scoring: 'net', midcourt: 'drop', tempo: 'adapt', underAttack: 'block', rally: 'either', doublesSpot: 'front', signature: 'deception', feints: 'often', footwork: 'anticipate', decider: 'steady', receive: 'netReply', behind: 'change' } as const
+  const seedRecord = (input: object, engineVersion = 3) =>
+    localStorage.setItem(STORAGE_KEY, JSON.stringify({ ...emptyState(), talent: [{ id: 't', createdAt: '2026-10-04T10:00:00.000Z', engineVersion, input }] }))
+
+  it('muestra los rasgos en común o el sello del jugador', () => {
+    seedRecord({ ...GOLDEN, prefs: TRICK })
+    renderApp('/talent/report/t')
+    const m = analyzeTalent({ ...GOLDEN, prefs: TRICK }).mirrors.style[0]
+    const line = screen.getByTestId('mirror-traits').textContent!
+    if (m.shared.length > 0) {
+      expect(line).toContain(c.report.sharedTraits)
+      for (const t of m.shared) expect(line).toContain(c.traits[t])
+    } else {
+      expect(line).toContain(c.report.signatureTraits[m.athlete.sex])
+    }
+    expect(document.body.textContent).not.toMatch(/NaN|undefined/)
+  })
+  it('registro v2 (6 gustos) y v1 (sin gustos) se abren sin errores', () => {
+    const v2prefs = { scoring: 'net', midcourt: 'drop', tempo: 'adapt', underAttack: 'block', rally: 'either', doublesSpot: 'back' }
+    for (const [input, v] of [[{ ...GOLDEN, prefs: v2prefs }, 2], [GOLDEN, 1]] as const) {
+      seedRecord(input, v)
+      const { unmount } = renderApp('/talent/report/t')
+      expect(screen.getByTestId('mirror-traits')).toBeInTheDocument()
+      expect(document.body.textContent).not.toMatch(/NaN|undefined/)
+      unmount()
+    }
+  })
+  it('sin gustos (v1) muestra el sello del jugador, nunca rasgos en común', () => {
+    seedRecord(GOLDEN, 1)
+    renderApp('/talent/report/t')
+    const m = analyzeTalent(GOLDEN).mirrors.style[0]
+    const line = screen.getByTestId('mirror-traits').textContent!
+    expect(line).toContain(c.report.signatureTraits[m.athlete.sex])
+    expect(line).toContain(c.traits[m.athlete.traits[0]])
+  })
+  it('en español los rasgos salen en español', async () => {
+    seedRecord({ ...GOLDEN, prefs: TRICK })
+    renderApp('/talent/report/t')
+    await userEvent.click(screen.getByRole('button', { name: '切换到西班牙语' }))
+    const line = screen.getByTestId('mirror-traits').textContent!
+    expect(line).not.toMatch(/[一-鿿]/)
+    expect(line.includes(talentEs.report.sharedTraits) || line.includes(talentEs.report.signatureTraits.F)).toBe(true)
+  })
+})

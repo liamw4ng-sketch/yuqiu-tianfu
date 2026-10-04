@@ -7,7 +7,9 @@ import type { TalentResult } from '../../../engine/talent'
 import type { TalentInput } from '../../../engine/types'
 import { format, useI18n } from '../../../i18n/I18nProvider'
 
-function SinglesMirrorCard({ mirror, label, input, result }: { mirror: SinglesMirror; label: string; input: TalentInput; result: TalentResult }) {
+function SinglesMirrorCard({
+  mirror, label, input, result, showTraits,
+}: { mirror: SinglesMirror; label: string; input: TalentInput; result: TalentResult; showTraits: boolean }) {
   const c = useTalentContent()
   const { lang } = useI18n()
   const r = c.report
@@ -23,6 +25,13 @@ function SinglesMirrorCard({ mirror, label, input, result }: { mirror: SinglesMi
         {a.weightKg !== null && ` / ${a.weightKg}kg`} · {statusLabel(c, a.status, a.retiredYear)}
       </p>
       <AthleteMedia athlete={a} lang={lang} />
+      {showTraits && (
+        <p className="trait-line" data-testid="mirror-traits">
+          <strong>{mirror.shared.length > 0 ? r.sharedTraits : r.signatureTraits[a.sex]}</strong>
+          {c.list.colon}
+          {(mirror.shared.length > 0 ? mirror.shared : a.traits).map((t) => c.traits[t]).join(c.list.sep)}
+        </p>
+      )}
       <p>{pick(a.highlights, lang)}</p>
       <p>{pick(a.desc, lang)}</p>
       <p className="muted">
@@ -55,8 +64,8 @@ export function MirrorSection({ input, result }: { input: TalentInput; result: T
   return (
     <section className="stack">
       <SectionHeader mono="PRO MIRROR" title={r.mirrorTitle} />
-      {styleTop && <SinglesMirrorCard mirror={styleTop} label={`🎯 ${r.singlesMirror}`} input={input} result={result} />}
-      {bodyTop && <SinglesMirrorCard mirror={bodyTop} label={`📏 ${r.bodyMirror}`} input={input} result={result} />}
+      {styleTop && <SinglesMirrorCard mirror={styleTop} label={`🎯 ${r.singlesMirror}`} input={input} result={result} showTraits />}
+      {bodyTop && <SinglesMirrorCard mirror={bodyTop} label={`📏 ${r.bodyMirror}`} input={input} result={result} showTraits={false} />}
       {alternates.length > 0 && (
         <p className="muted">
           {r.alternates}
