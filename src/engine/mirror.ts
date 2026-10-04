@@ -38,11 +38,12 @@ const INACTIVE_PENALTY = 0.2
 const STYLE_DISTANCE: Record<StyleMatch, number> = { primary: 0, secondary: 0.6, none: 1.5 }
 const LEFTY_BONUS = 0.4
 // Rasgos (spec §17.4). Calibrado 0,9 (spec decía 0,6): con 0,6 quien elige «engaño» podía recibir un espejo sin ningún rasgo
-// en común aunque hubiera uno del segundo estilo con sus rasgos. El tercer estilo (1,5) sigue sin poder ganar.
+// en común aunque hubiera uno del segundo estilo con sus rasgos. El tercer estilo se descarta aparte (findStyleMirrors).
 const TRAIT_WEIGHT = 0.9
 // Ventanas de "casi igual de parecidos" dentro de las cuales elige la semilla del usuario.
 // La del espejo de estilo es más estrecha que antes (0,5) para que los rasgos se noten. Calibrado 0,3 (spec decía 0,2) por variedad.
 const STYLE_WINDOW = 0.3
+const V1_STYLE_WINDOW = 0.5
 const BODY_WINDOW = 0.3
 const DOUBLES_WINDOW = 0.3
 // Posiciones que cuentan como "coinciden con el rol" (spec §5.3.6); 'both' sirve para ambos lados.
@@ -125,7 +126,11 @@ export function findStyleMirrors(
       return { athlete, distance, heightDiff, bmiDiff, styleMatch, shared: sharedTraits(user, athlete) }
     })
     .sort((x, y) => x.distance - y.distance || x.athlete.id.localeCompare(y.athlete.id))
-  return withVariety(scored, user.seed ?? 0, STYLE_WINDOW).slice(0, n)
+  // El espejo de estilo juega tu estilo principal o el segundo; el resto solo si no hay nadie de esos dos.
+  const inStyle = scored.filter((c) => c.styleMatch !== 'none')
+  const pool = inStyle.length > 0 ? inStyle : scored
+  // Sin gustos (registros v1) los rasgos no aportan nada: se conserva la ventana de la v2.
+  return withVariety(pool, user.seed ?? 0, user.traits ? STYLE_WINDOW : V1_STYLE_WINDOW).slice(0, n)
 }
 
 /** 体型镜像: quien tiene un cuerpo como el tuyo; el estilo pesa poco. `excludeId` evita repetir el espejo de estilo. */

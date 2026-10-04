@@ -34,6 +34,9 @@ describe('jugadores de individual', () => {
     const norm = (x: string) => x.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]/g, '')
     const names = SINGLES.map((a) => norm(a.nameEn))
     expect(names.filter((n, i) => names.indexOf(n) !== i)).toEqual([])
+    // El nombre chino sigue la Wikipedia china: no depende de acentos ni del orden de los apellidos.
+    const zh = SINGLES.map((a) => a.nameZh)
+    expect(zh.filter((n, i) => zh.indexOf(n) !== i)).toEqual([])
   })
   it('v3: al menos 55 por sexo y los 6 estilos en cada sexo', () => {
     for (const sex of ['M', 'F'] as const) {
