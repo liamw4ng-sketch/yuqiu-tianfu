@@ -1,7 +1,8 @@
 // Convierte la investigación verificada (docs/superpowers/research) al formato de la app (src/data).
 // Uso: node scripts/import-athletes.mjs
-// - Suma los archivos athletes_singles_new_*.json si existen.
-// - Conserva las traducciones .es ya hechas (por id); lo nuevo queda como "TRADUCIR".
+// - Suma los archivos athletes_singles_new_*.json y athletes_singles_v3_*.json si existen.
+// - Conserva las traducciones .es ya hechas (por id); si no hay, usa translations_es.json; si tampoco, "TRADUCIR".
+// - Pone los rasgos verificados de traits_singles.json (obligatorios: falla si un jugador no los tiene).
 // - Saca de las fuentes los enlaces a la ficha BWF y a Wikipedia (en/zh) del propio jugador.
 import { existsSync, readFileSync, writeFileSync } from 'node:fs'
 
@@ -11,6 +12,10 @@ const COUNTRY_ES = {
   丹麦: 'Dinamarca', 日本: 'Japón', 韩国: 'Corea del Sur', 泰国: 'Tailandia', 印度: 'India', 西班牙: 'España',
   新加坡: 'Singapur', 法国: 'Francia', 加拿大: 'Canadá', 英格兰: 'Inglaterra', 美国: 'Estados Unidos',
   越南: 'Vietnam', 德国: 'Alemania', 爱尔兰: 'Irlanda', 苏格兰: 'Escocia',
+  荷兰: 'Países Bajos', 瑞典: 'Suecia', 俄罗斯: 'Rusia', 乌克兰: 'Ucrania', 土耳其: 'Turquía', 保加利亚: 'Bulgaria',
+  比利时: 'Bélgica', 芬兰: 'Finlandia', 挪威: 'Noruega', 瑞士: 'Suiza', 巴西: 'Brasil', 澳大利亚: 'Australia',
+  中国澳门: 'Macao (China)', 斯里兰卡: 'Sri Lanka', 以色列: 'Israel', 波兰: 'Polonia', 捷克: 'República Checa',
+  爱沙尼亚: 'Estonia', 葡萄牙: 'Portugal', 意大利: 'Italia', 威尔士: 'Gales', 苏联: 'Unión Soviética',
 }
 const STYLE = {
   进攻压制型: 'attack', 四方拉吊控制型: 'control', 防守反击型: 'counter',
@@ -58,11 +63,24 @@ function linksOf(a) {
   return Object.keys(links).length ? links : undefined
 }
 
+const v3Files = ['legends_m', 'legends_f', 'top_m', 'top_f'].map((f) => `${R}/athletes_singles_v3_${f}.json`)
 const singlesRaw = [
   ...JSON.parse(readFileSync(`${R}/athletes_singles.json`, 'utf8')).athletes,
   ...(readJson(`${R}/athletes_singles_new_m.json`)?.athletes ?? []),
   ...(readJson(`${R}/athletes_singles_new_f.json`)?.athletes ?? []),
+  ...v3Files.flatMap((f) => readJson(f)?.athletes ?? []),
 ]
+const TRAITS = readJson(`${R}/traits_singles.json`) ?? {}
+const TR_ES = readJson(`${R}/translations_es.json`) ?? {}
+const esOf = (prev, zh, id, field) => {
+  const kept = keepEs(prev, zh)
+  return kept !== TODO ? kept : (TR_ES[id]?.[field] ?? TODO)
+}
+const traitsOf = (id) => {
+  const t = TRAITS[id]
+  if (!t || t.verified !== true) throw new Error(`Sin rasgos verificados: ${id}`)
+  return t.traits
+}
 const seenIds = new Set()
 const singles = singlesRaw
   .filter((a) => a.verified === true && !seenIds.has(a.id) && seenIds.add(a.id))
@@ -81,8 +99,9 @@ const singles = singlesRaw
       status: a.status,
       retiredYear: a.status === 'retired' ? a.retired_year : null,
       style: STYLE[a.style_primary],
-      highlights: { zh: a.highlights_zh, es: keepEs(prevSingles.get(a.id)?.highlights, a.highlights_zh) },
-      desc: { zh: a.style_desc_zh, es: keepEs(prevSingles.get(a.id)?.desc, a.style_desc_zh) },
+      traits: traitsOf(a.id),
+      highlights: { zh: a.highlights_zh, es: esOf(prevSingles.get(a.id)?.highlights, a.highlights_zh, a.id, 'highlights') },
+      desc: { zh: a.style_desc_zh, es: esOf(prevSingles.get(a.id)?.desc, a.style_desc_zh, a.id, 'desc') },
       ...(linksOf(a) ? { links: linksOf(a) } : {}),
     }
   })

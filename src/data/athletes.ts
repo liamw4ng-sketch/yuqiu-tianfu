@@ -1,3 +1,4 @@
+import { isTrait, type Trait } from '../engine/traits'
 import { SINGLES_STYLES, type Hand, type Sex, type SinglesStyle } from '../engine/types'
 import doublesRaw from './athletes-doubles.json'
 import singlesRaw from './athletes-singles.json'
@@ -27,6 +28,8 @@ export interface Athlete {
   status: 'active' | 'retired'
   retiredYear: number | null
   style: SinglesStyle
+  /** 2–3 rasgos verificados; el primero es su sello (spec §17.3) */
+  traits: Trait[]
   highlights: Localized
   desc: Localized
   links?: AthleteLinks
@@ -83,6 +86,7 @@ export function athleteErrors(a: Athlete): string[] {
   if (!a.id || !a.nameEn || !a.nameZh) e.push(`${a.id}: faltan id o nombres`)
   if (a.sex !== 'M' && a.sex !== 'F') e.push(`${a.id}: sexo inválido`)
   if (!(SINGLES_STYLES as readonly string[]).includes(a.style)) e.push(`${a.id}: estilo inválido`)
+  if (!Array.isArray(a.traits) || a.traits.length < 2 || a.traits.length > 3 || new Set(a.traits).size !== a.traits.length || !a.traits.every(isTrait)) e.push(`${a.id}: rasgos inválidos`)
   // Retirado con año desconocido es válido (p. ej. Tian Houwei): la app muestra 已退役 sin paréntesis vacíos.
   if (a.status === 'retired' && a.retiredYear !== null && !(a.retiredYear >= 1980 && a.retiredYear <= 2026)) e.push(`${a.id}: año de retirada imposible`)
   if (a.status === 'active' && a.retiredYear !== null) e.push(`${a.id}: activo con año de retirada`)
