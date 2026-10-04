@@ -1,0 +1,709 @@
+{
+  "updated": "2026-10-04",
+  "athletes": [
+    {
+      "id": "tang-jiuhong",
+      "name_en": "Tang Jiuhong",
+      "name_zh": "唐九红",
+      "country_zh": "中国",
+      "gender": "F",
+      "height_cm": 172,
+      "weight_kg": 65,
+      "handedness": "R",
+      "birth_year": 1969,
+      "status": "retired",
+      "highlights_zh": "1991年世锦赛冠军；1992年全英公开赛冠军；1992年巴塞罗那奥运会女单铜牌；1990年北京亚运会女单金牌；1992年世界杯冠军；1990、1992年尤伯杯冠军成员",
+      "style_primary": "进攻压制型",
+      "style_tags_zh": [
+        "身材高挑",
+        "力量足",
+        "速度快",
+        "主动进攻"
+      ],
+      "style_desc_zh": "身材高挑、运动能力出众，打法以力量和速度见长，方铢贤评价她力量足、速度快。为争取奥运积分她一年打了14站公开赛，长期高强度比赛让她积劳成疾，1992年奥运会半决赛0:2负于方铢贤，获得铜牌。",
+      "signature_skills_zh": [
+        "力量型进攻",
+        "快速移动",
+        "主动下压"
+      ],
+      "sources": [
+        "https://www.olympedia.org/athletes/2295",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=560",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-bio?activeTab=1&playerId=560",
+        "https://en.wikipedia.org/wiki/Tang_Jiuhong",
+        "https://www.badmintonpanam.org/?p=5817",
+        "https://web.archive.org/web/2016/http://www.library.hn.cn/hxrw/xdrw/tiyu/tjh.htm",
+        "http://sports.sina.com.cn/others/badmin/2019-01-28/doc-ihrfqzka1672566.shtml",
+        "https://en.wikipedia.org/wiki/List_of_All_England_women%27s_singles_champions",
+        "https://en.wikipedia.org/wiki/List_of_BWF_World_Championships_medalists",
+        "https://web.archive.org/web/2007/http://sports.qq.com/a/20070312/000421_1.htm",
+        "https://web.archive.org/web/20200404143703/http://sports.sina.com.cn/o/2007-10-31/14323260811.shtml",
+        "https://en.wikipedia.org/wiki/Badminton_at_the_1994_Asian_Games_%E2%80%93_Women%27s_team"
+      ],
+      "confidence": {
+        "height": "medium",
+        "weight": "medium",
+        "status": "high"
+      },
+      "notes": "身高：Olympedia 172cm/65kg（英文维基同），BWF资料174cm，二者不一致，按Olympedia取172cm。右手：BWF资料plays=1、英文维基。打法依据较少：方铢贤接受BWF采访称“Tang Jiuhong had so much power and speed”，英文维基称其身材高、运动能力出众，湖南图书馆湖湘人物资料称其“作风泼辣”；归为进攻压制型属归纳。退役：英文维基称1993年全国锦标赛后退役，《湖南日报》（新浪2007年转载）称七运会（1993年）后退役，但她本人2007年做客腾讯访谈时说“我是94年”退役、奥运会后“还参加了全运会、亚运会”，英文维基1994年广岛亚运会女团页面也列其出场，故retired_year取1994。14站公开赛：本人原话是为奥运积分“一年打了14个公开赛”导致疲劳过度（并非夺得14个冠军，英文维基此处有误）；长期高强度训练致身体不适（血尿），影响1992年奥运会发挥。1992年奥运半决赛比分3:11、2:11。“最高世界第一”仅见维基信息框，未写入。2019年当选中国羽协副主席（新浪）。",
+      "retired_year": 1994,
+      "verified": true,
+      "verification_note": "复核：Olympedia（172cm/65kg、1969-02-14、1992年奥运铜牌）、BWF接口（174cm、右手、CHN）、英文/中文维基（1991世锦赛冠军、1992全英、1990亚运女单、1992世界杯、1990/1992尤伯杯均一致）、Pan Am刊载的方铢贤采访原话、腾讯2007年访谈与新浪2007年转载《湖南日报》。修正：①style_desc原写“巅峰期一年夺得14项公开赛冠军”有误，本人原话为一年“打了14个公开赛”，已改；②retired_year 1993→1994（本人称94年退役，1994年亚运会仍出场）。身高两源不一（Olympedia 172 / BWF 174），沿用Olympedia。 （2026-10-04 二次对抗复核）重新核对：Olympedia（172cm/65kg、1992年铜牌）、BWF接口（174cm、右手）、世锦赛奖牌榜（1991金，另有1989、1993铜）、全英冠军榜（1992决赛胜方铢贤）、腾讯2007年访谈原文（“我是94年”退役、一年“打了14个公开赛”）、1994年亚运会女团名单，均与记录一致，无需修改。"
+    },
+    {
+      "id": "bang-soo-hyun",
+      "name_en": "Bang Soo-hyun",
+      "name_zh": "方铢贤",
+      "country_zh": "韩国",
+      "gender": "F",
+      "height_cm": 170,
+      "weight_kg": null,
+      "handedness": "R",
+      "birth_year": 1972,
+      "status": "retired",
+      "highlights_zh": "1996年亚特兰大奥运会女单金牌（决赛胜张海丽）、1992年巴塞罗那奥运会银牌；1996年全英公开赛冠军；1994年广岛亚运会女单金牌；1993年世锦赛银牌、1995年铜牌；1991、1993年苏迪曼杯冠军成员；2019年入选世界羽联名人堂",
+      "style_primary": "全面型",
+      "style_tags_zh": [
+        "力量足",
+        "移动好",
+        "大赛型选手"
+      ],
+      "style_desc_zh": "力量与移动兼备，是1990年代与王莲香、叶钊颖齐名的女单顶尖选手。1992年奥运会半决赛以11:3、11:2大胜世界冠军唐九红，1996年奥运会一局未失夺冠，此后不久便退役。",
+      "signature_skills_zh": [
+        "力量压制",
+        "全场移动",
+        "大赛稳定发挥"
+      ],
+      "sources": [
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=1563",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-bio?activeTab=1&playerId=1563",
+        "https://www.olympedia.org/athletes/884",
+        "https://en.wikipedia.org/wiki/Bang_Soo-hyun",
+        "https://zh.wikipedia.org/wiki/方銖賢",
+        "https://ko.wikipedia.org/wiki/방수현",
+        "https://www.badzine.net/2019/03/koreas-singles-queen-to-be-named-to-hall-of-fame/",
+        "https://www.infobae.com/aroundtherings/articles/2021/07/12/bwf-hall-of-fame-honor-for-atlanta-96-gold-medalist-bang-soo-hyun",
+        "https://www.badmintonpanam.org/?p=5817",
+        "https://en.wikipedia.org/wiki/List_of_All_England_women%27s_singles_champions",
+        "https://en.wikipedia.org/wiki/List_of_BWF_World_Championships_medalists",
+        "https://web.archive.org/web/2022/https://bwfbadminton.com/news-single/2019/05/24/hall-of-fame-honour-for-bang-soo-hyun"
+      ],
+      "confidence": {
+        "height": "medium",
+        "weight": "low",
+        "status": "high"
+      },
+      "notes": "身高170cm、右手仅BWF资料一处（Olympedia、中英韩维基均无身高），置信度中；未找到体重。打法资料很少：仅英文维基导言称其“style that combined impressive power and movement”（该句所附Badzine文章并未直接描述打法），风格归为全面型属归纳，置信度低。退役时间说法不一：英文维基称1996年奥运夺冠后、24岁生日前退役；Badzine称24岁退出国际赛场；BWF名人堂文（Around the Rings转载）称“奥运金牌后的次年”退役，故retired_year留空。中文名：中文维基作方銖賢（简体方铢贤），新浪2002年报道曾用“方姝贤”。退役后移居美国，长期担任韩国MBC羽毛球解说。",
+      "retired_year": null,
+      "verified": true,
+      "verification_note": "复核：BWF接口（170cm、右手、1972-09-13、KOR）、Olympedia（1992银、1996金，无身高）、英文维基（1992半决赛11:3、11:2胜唐九红；1996年一局未失、决赛11:6、11:7胜张海丽；1996全英决赛胜叶钊颖；1994亚运会女单金牌；1993世锦赛银、1995铜）、世锦赛奖牌榜、全英冠军榜、BWF 2019-05-24名人堂报道（2019年5月在南宁入选；“奥运夺金后次年”退役；带领韩国两夺苏迪曼杯）。补充：highlights加入1991、1993年苏迪曼杯冠军成员（BWF名人堂报道与维基一致）。retired_year仍留空（维基称1996年奥运后、BWF称次年）。中文名“方铢贤”见新浪2007年转载《湖南日报》。无错误需更正。 （2026-10-04 二次对抗复核）重新核对：Olympedia（1992银、1996金）、BWF接口（170cm、右手）、全英冠军榜（1996决赛11:1、11:1胜叶钊颖）、英文维基（1994亚运女单金、1991/1993苏迪曼杯）、名人堂名单（2019）、Around the Rings转载BWF报道（2019年5月南宁入选、奥运夺金次年退役）、Pan Am刊载访谈原话，均一致，无需修改。"
+    },
+    {
+      "id": "ye-zhaoying",
+      "name_en": "Ye Zhaoying",
+      "name_zh": "叶钊颖",
+      "country_zh": "中国",
+      "gender": "F",
+      "height_cm": 175,
+      "weight_kg": 65,
+      "handedness": "R",
+      "birth_year": 1974,
+      "status": "retired",
+      "highlights_zh": "1995、1997年世锦赛冠军；1997、1998、1999年全英公开赛冠军；2000年悉尼奥运会女单铜牌；1995年世界杯冠军；1992、1998、2000年尤伯杯冠军成员；最高世界第一；2009年入选世界羽联名人堂",
+      "style_primary": "进攻压制型",
+      "style_tags_zh": [
+        "主动进攻",
+        "步法出色",
+        "敢打敢拼"
+      ],
+      "style_desc_zh": "以进攻为主的打法在当时独树一帜，方铢贤评价她是无所畏惧的进攻型选手、步法极佳。1995年底首次登上世界第一，此后几度失而复得，两夺世锦赛、三夺全英赛，但1996年奥运会在八强爆冷出局。",
+      "signature_skills_zh": [
+        "主动下压",
+        "快速步法",
+        "连续进攻"
+      ],
+      "sources": [
+        "https://www.olympedia.org/athletes/2301",
+        "https://en.wikipedia.org/wiki/Ye_Zhaoying",
+        "https://zh.wikipedia.org/wiki/叶钊颖",
+        "https://www.badmintonpanam.org/?p=5817",
+        "https://en.wikipedia.org/wiki/List_of_All_England_women%27s_singles_champions",
+        "https://en.wikipedia.org/wiki/List_of_BWF_World_Championships_medalists",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=1940",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-bio?activeTab=1&playerId=1940",
+        "https://en.wikipedia.org/wiki/Badminton_Hall_of_Fame"
+      ],
+      "confidence": {
+        "height": "high",
+        "weight": "medium",
+        "status": "high"
+      },
+      "notes": "身高175cm：Olympedia与中文维基（引BWF旧版完整资料）一致；体重65kg见Olympedia（英文维基同）。右手：BWF接口（playerId=1940，175cm、hand R）、英文维基。打法：中文维基“独树一帜的进攻性打法”，方铢贤接受BWF采访称“a fearless offensive player with great footwork”。2000年奥运会后退役，后转打高尔夫。敏感信息提示：2019年与前足球运动员郝海东结婚，2020年郝海东发表反对中共的言论后，两人在新浪、腾讯、百度等大陆门户的资料被删除，现居西班牙（英文维基）；她2022年接受丹麦TV2采访称2000年奥运半决赛曾被教练要求让球给龚智超。是否在面向中国大陆用户的应用中展示，需产品方决定。",
+      "retired_year": 2000,
+      "verified": true,
+      "verification_note": "复核：Olympedia（175cm/65kg、1974-05-07、1996年第5、2000年铜牌）、BWF接口id 1940（175cm、右手）、世锦赛奖牌榜（1995、1997金，1993铜）、全英冠军榜（1997-1999）、英文维基（1995世界杯冠军；1992/1998/2000尤伯杯；1995年12月首登世界第一并几度失而复得；2009年入名人堂，名人堂名单页一致；2000年奥运后退役）、Pan Am刊载方铢贤原话。修正：style_desc原写“1995至1998年多次排名世界第一”，起止年份无出处，改为“1995年底首次登上世界第一，此后几度失而复得”。敏感信息提示保留在notes。 （2026-10-04 二次对抗复核）重新核对：Olympedia（175cm/65kg、1996年=5、2000年铜）、BWF接口（175cm、右手）、1996年奥运女单签表（她是1号种子，八强出局，“爆冷”属实）、全英冠军榜（1997-1999）、名人堂名单（2009），均一致，无需修改。"
+    },
+    {
+      "id": "gong-zhichao",
+      "name_en": "Gong Zhichao",
+      "name_zh": "龚智超",
+      "country_zh": "中国",
+      "gender": "F",
+      "height_cm": 163,
+      "weight_kg": 52,
+      "handedness": null,
+      "birth_year": 1977,
+      "status": "retired",
+      "highlights_zh": "2000年悉尼奥运会女单金牌（决赛胜马尔廷）；2000、2001年全英公开赛冠军；1997年世锦赛银牌、2001年铜牌；1998、2000年尤伯杯冠军成员；最高世界第一；入选世界羽联名人堂（2013年颁授）",
+      "style_primary": "四方拉吊控制型",
+      "style_tags_zh": [
+        "小个子",
+        "拉开突击",
+        "控球能力强",
+        "心理稳定"
+      ],
+      "style_desc_zh": "身高仅1.63米，打法稳健、球路多变，属拉开突击型：步法灵活、跑动范围大、控球能力强。她临场头脑冷静、发挥稳定，被视为马尔廷的克星，2000年奥运会决赛击败马尔廷夺冠。",
+      "signature_skills_zh": [
+        "四方拉吊",
+        "控制落点",
+        "伺机突击"
+      ],
+      "sources": [
+        "https://www.olympedia.org/athletes/89245",
+        "http://sports.sina.com.cn/star/gongzhichao/",
+        "http://sports.sina.com.cn/star/gong_zhichao/",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=5943",
+        "https://en.wikipedia.org/wiki/Gong_Zhichao",
+        "https://zh.wikipedia.org/wiki/龚智超",
+        "https://en.wikipedia.org/wiki/List_of_All_England_women%27s_singles_champions",
+        "https://en.wikipedia.org/wiki/List_of_BWF_World_Championships_medalists",
+        "https://web.archive.org/web/2023/https://bwfsudirmancup.bwfbadminton.com/news-single/2013/05/19/chinese-players-in-spotlight-on-bwf-awards-night",
+        "https://en.wikipedia.org/wiki/Badminton_Hall_of_Fame"
+      ],
+      "confidence": {
+        "height": "high",
+        "weight": "high",
+        "status": "high"
+      },
+      "notes": "身高163cm/体重52kg：Olympedia与新浪体坛明星资料一致（英文维基53kg）；BWF资料身高、持拍手为空。持拍手未找到可靠来源，留空。打法出自新浪2000年资料（打法稳健、心理素质好、球路多变、拉开突击型、步法灵活、跑动范围大、控球能力强、头脑冷静）；“马尔廷克星”见新浪2002年报道标题“克星龚智超退役 中国羽球谁降马尔廷？”。2002年1月退出国家队（新浪），中文维基称2002年退役。2000年奥运半决赛胜叶钊颖一事存在“让球”争议（英文维基），未写入应用文案。新浪2000年资料中“1997年全英公开赛冠军”有误（当年冠军为叶钊颖，龚智超为亚军），未采用。 复核补充：新浪2000年资料页相关报道标题“国际羽联：女单排名龚智超荣登榜首”可佐证世界第一；BWF 2013-05-19报道称她为名人堂入选者（缺席颁奖礼），名人堂名单页记为2012年度。中文维基信息框列有2005年十运会女团金牌，与2002年退役矛盾，无出处，未采用；新浪2017年报道称其“24岁退役”，与2002年一致。",
+      "retired_year": 2002,
+      "verified": true,
+      "verification_note": "复核：Olympedia（163cm/52kg、1977-12-15、2000年金牌）、新浪体坛明星资料（1.63米/52公斤；打法稳健、拉开突击型、步法灵活、控球强、头脑冷静）、BWF接口（id 5943，身高与持拍手为空）、世锦赛奖牌榜（1997银、2001铜）、全英冠军榜（2000、2001）、英文维基（1998/2000尤伯杯、2002年退役）。补充：highlights加入名人堂（BWF 2013年5月颁奖报道）。持拍手仍未找到可靠来源，保持null。 （2026-10-04 二次对抗复核）重新核对：Olympedia（163cm/52kg、2000年金牌）、新浪资料原文（打法稳健、拉开突击型、步法灵活、控球强）、新浪“克星龚智超退役”（2002年3月）、BWF 2013-05-19报道（名人堂入选者，缺席颁奖）原文，均一致；持拍手仍无可靠来源，保持null。"
+    },
+    {
+      "id": "camilla-martin",
+      "name_en": "Camilla Martin",
+      "name_zh": "马尔廷",
+      "country_zh": "丹麦",
+      "gender": "F",
+      "height_cm": 174,
+      "weight_kg": 59,
+      "handedness": "R",
+      "birth_year": 1974,
+      "status": "retired",
+      "highlights_zh": "1999年世锦赛冠军；2000年悉尼奥运会女单银牌；2002年全英公开赛冠军；1996、1998、2000年欧锦赛冠军；连续13年丹麦全国冠军；最高世界第一",
+      "style_primary": "四方拉吊控制型",
+      "style_tags_zh": [
+        "高远球压底线",
+        "吊球隐蔽",
+        "自信稳健"
+      ],
+      "style_desc_zh": "打法自信从容，常用有力的高远球把对手压在后场，再配合隐蔽的吊球得分，尤其是从反手区吊出的球常常直接致胜。她连续13年获丹麦全国冠军，1999年在哥本哈根主场夺得世锦赛冠军。",
+      "signature_skills_zh": [
+        "高远球",
+        "隐蔽吊球",
+        "反手区吊球"
+      ],
+      "sources": [
+        "https://www.olympedia.org/athletes/2364",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=1839",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-bio?activeTab=1&playerId=1839",
+        "https://web.archive.org/web/20101209083725/http://www.badmintondenmark.com/en/BadmintonDenmark/StarsOfYesterday/CamillaMartin.aspx",
+        "https://en.wikipedia.org/wiki/Camilla_Martin",
+        "https://da.wikipedia.org/wiki/Camilla_Martin",
+        "https://zh.wikipedia.org/wiki/卡米拉·马尔廷",
+        "https://en.wikipedia.org/wiki/List_of_All_England_women%27s_singles_champions",
+        "https://en.wikipedia.org/wiki/List_of_BWF_World_Championships_medalists",
+        "https://badmintonbladet.dk/its-about-stopping-camilla-martinand-in-chinas-national-interest-olympic-games-2000-in-sydney/",
+        "https://bwfbadminton.com/news-single/2020/08/05/genius-in-action-camilla-martin"
+      ],
+      "confidence": {
+        "height": "high",
+        "weight": "medium",
+        "status": "high"
+      },
+      "notes": "身高174cm：Olympedia、BWF资料、英文维基一致；体重59kg见Olympedia。右手：BWF资料、丹麦文维基。打法出自丹麦羽协官网“昔日明星”资料：“a very confident style with many hard clears and concealed drops; especially the one from her backhand corner was often a winner”。丹麦羽协称其2004年丹麦公开赛后结束职业生涯（13连冠起止年份：丹麦羽协写1990-2003，英文维基写1991-2003）。世界第一见丹麦文维基（2000年3月3日）。中文名：中文维基作“卡米拉·马尔廷”，大陆媒体（新浪）多称“马尔廷”，也有“玛尔廷”“马丁”的写法。退役后为丹麦TV 2电视主持人。（2026-10-04 二次对抗复核）世界羽联官网2020年“Genius in Action”专文：长期是唯一能对抗亚洲选手的欧洲本土女单；1999年世锦赛决赛决胜局10:3领先被戴韫追平后拿下；对苏西·苏珊蒂和龚智超胜少负多；2002年全英决赛胜卫冕世界冠军龚睿那；欧锦赛1996、1998、2000年冠军，与本记录一致。",
+      "retired_year": 2004,
+      "verified": true,
+      "verification_note": "复核：Olympedia（174cm/59kg、1974-03-23、2000年银牌、2004年第9）、BWF接口（174cm、右手、DEN）、世锦赛奖牌榜（1999金）、全英冠军榜（2002冠军、1995亚军）、英文维基（1996/1998/2000欧锦赛冠军、丹麦全国13连冠）、丹麦羽协“昔日明星”页（打法原话、2004年丹麦公开赛后结束生涯）、Badminton Bladet称其为“former world No.1”（世界第一得到佐证）。无错误需更正。中文名大陆媒体写法不一（马尔廷/玛尔廷/马丁），保留“马尔廷”。 （2026-10-04 二次对抗复核）重新核对Olympedia（174cm/59kg）、BWF接口（174cm、右手、DEN）、丹麦羽协“昔日明星”原文、世界羽联2020年专文，战绩与状态无误。修正：丹麦羽协原文为“many hard clears”（有力的高远球），原文案“又高又远的高远球”与原意有出入，改为“有力的高远球”。"
+    },
+    {
+      "id": "mia-audina",
+      "name_en": "Mia Audina",
+      "name_zh": "张海丽",
+      "country_zh": "荷兰",
+      "gender": "F",
+      "height_cm": 163,
+      "weight_kg": 67,
+      "handedness": "R",
+      "birth_year": 1979,
+      "status": "retired",
+      "highlights_zh": "1996年（代表印尼）、2004年（代表荷兰）两届奥运会女单银牌；2003年世锦赛铜牌；1994、1996年尤伯杯冠军成员（代表印尼）；2004年欧锦赛女单冠军；最高世界第一（1996年）",
+      "style_primary": "网前技巧型",
+      "style_tags_zh": [
+        "手法隐蔽",
+        "假动作多",
+        "移动灵活",
+        "柔韧性好"
+      ],
+      "style_desc_zh": "手法细腻、击球隐蔽多变，假动作是她的招牌，发挥也非常稳定；反手是她明显的短板，后场反手区的来球她常把身体像弓一样大幅伸展去救。14岁就为印尼出战尤伯杯，1994年决赛赢下决定胜负的一场；后移居荷兰，又代表荷兰夺得2004年奥运会银牌。",
+      "signature_skills_zh": [
+        "假动作",
+        "隐蔽手法",
+        "大幅伸展救球"
+      ],
+      "sources": [
+        "https://www.olympedia.org/athletes/248",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=4327",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-bio?activeTab=1&playerId=4327",
+        "https://en.wikipedia.org/wiki/Mia_Audina",
+        "https://zh.wikipedia.org/wiki/張海麗",
+        "https://en.wikipedia.org/wiki/List_of_All_England_women%27s_singles_champions",
+        "https://en.wikipedia.org/wiki/List_of_BWF_World_Championships_medalists",
+        "https://bwfbadminton.com/news-single/2020/08/12/genius-in-action-mia-audina/"
+      ],
+      "confidence": {
+        "height": "medium",
+        "weight": "medium",
+        "status": "high"
+      },
+      "notes": "身高：Olympedia 163cm/67kg（英文维基同），BWF资料161cm（中文维基引BWF），按Olympedia取163cm。右手：BWF资料。打法依据英文维基（引Markula 2009、Mumtaz 2014两本书）：“A gritty competitor and, in her youth, exceptionally mobile and supple (she was rarely forced into hitting backhands)”；归为速度突击型属归纳，置信度一般。国籍：1994-2000年代表印尼，2000年随荷兰籍丈夫移居荷兰后代表荷兰，2006年退出高水平比赛（英文维基）；country_zh按最后代表的国家写荷兰。中文名：大陆媒体（新浪）与中文维基均用其华文名“张海丽”。 复核补充：Olympedia显示她2000年悉尼奥运会已代表荷兰出赛（女单第5），2004年代表荷兰获银牌；1996年10月一度登上世界第一（英文维基引worldbadminton.com）。（2026-10-04 二次对抗复核）世界羽联官网2020年“Genius in Action”专文（Dev Sukumar）称她是“A brilliant and innovative strokeplayer”，“Audina’s speciality was her deceptive strokeplay; the lack of a backhand, however, was a significant feature of her game. To compensate, she often stretched like a bow to retrieve from the deep backhand corner”，并称她“superbly consistent”；1994年尤伯杯决赛关键场胜张宁、1996年决赛胜王晨亦见该文。英文维基（Markula 2009）“exceptionally mobile and supple (she was rarely forced into hitting backhands)”与此一致。",
+      "retired_year": 2006,
+      "verified": true,
+      "verification_note": "复核：Olympedia（163cm/67kg、1979-08-22；1996 INA银、2000 NED第5、2004 NED银）、BWF接口（161cm、右手、NED）、世锦赛奖牌榜（2003铜，代表荷兰）、英文维基（1994/1996尤伯杯、2004欧锦赛女单冠军、1996年10月世界第一、2006年退出高水平比赛）。修正：标签“少用反手”易被误读为技术短板，原文意为移动好、很少被逼到反手位，改为“极少被逼反手”。中文名“张海丽”见新浪报道标题。 （2026-10-04 二次对抗复核）重新核对Olympedia（163cm/67kg、1979-08-22、1996 INA银/2000 NED第5/2004 NED银）、BWF接口（161cm、右手、NED）、世锦赛奖牌榜（2003铜）、英文维基（1994年尤伯杯决赛决胜场、1996年10月世界第一、2004欧锦赛冠军、2006年退出高水平比赛），均无误。修正：style_primary“速度突击型”→“网前技巧型”（即手法型）——世界羽联专文把她的特长概括为隐蔽多变的手法（deceptive strokeplay）和稳定性，没有任何来源描述她以快节奏突击得分；style_desc、标签和招牌技术据此改写，并按世界羽联原文补充“反手是明显短板、靠大幅伸展救后场反手区”。"
+    },
+    {
+      "id": "gong-ruina",
+      "name_en": "Gong Ruina",
+      "name_zh": "龚睿那",
+      "country_zh": "中国",
+      "gender": "F",
+      "height_cm": 170,
+      "weight_kg": 60,
+      "handedness": "R",
+      "birth_year": 1981,
+      "status": "retired",
+      "highlights_zh": "2001年世锦赛冠军；2004年全英公开赛冠军；2003年世锦赛银牌、1999年铜牌；2002年釜山亚运会女单银牌；2002、2004年尤伯杯冠军成员；2004年雅典奥运会女单第四；最高世界第一",
+      "style_primary": "速度突击型",
+      "style_tags_zh": [
+        "拉吊突击",
+        "主动进攻",
+        "步法灵活",
+        "球路刁钻"
+      ],
+      "style_desc_zh": "打法属拉吊突击型，以主动进攻为主，常在突击中几拍内就把对手压住；技术全面、步法灵活、球路刁钻，弱点是力量和耐力不够强。2001年世锦赛和2004年全英赛决赛都击败队友周蜜夺冠。",
+      "signature_skills_zh": [
+        "拉吊突击",
+        "主动抢攻",
+        "落点刁钻"
+      ],
+      "sources": [
+        "https://www.olympedia.org/athletes/105881",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=9720",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-bio?activeTab=1&playerId=9720",
+        "http://sports.sina.com.cn/star/gongruina/",
+        "http://sports.sina.com.cn/star/gong_ruina/",
+        "https://en.wikipedia.org/wiki/Gong_Ruina",
+        "https://en.wikipedia.org/wiki/List_of_All_England_women%27s_singles_champions",
+        "https://en.wikipedia.org/wiki/List_of_BWF_World_Championships_medalists"
+      ],
+      "confidence": {
+        "height": "high",
+        "weight": "high",
+        "status": "high"
+      },
+      "notes": "身高170cm/体重60kg：Olympedia、新浪资料一致，BWF资料170cm、右手。打法原文出自新浪体坛明星资料：“打法属于拉吊突击型。比赛中多以主动进攻为主，往往能在突击进攻中几拍内将对手压制住。优点是技术全面、步伐灵活，球路刁钻，弱点是力量和耐力还不够强”。退役：新浪称因腰伤于2005年11月正式退役，英文维基称2005年6月，年份一致。新浪一版资料生日误作1979.10.14，另一版为1981.1.23（与Olympedia、BWF一致）。原名龚睿娜。 复核补充：新浪资料把“2001年全英公开赛女单冠军”列入其战绩，有误（2001年冠军为龚智超），未采用；2002年亚运会决赛两个11:1负于周蜜见新浪报道标题。",
+      "retired_year": 2005,
+      "verified": true,
+      "verification_note": "复核：Olympedia（170cm/60kg、1981-01-23、2004年第4）、BWF接口（170cm、右手）、新浪资料（打法原文、2005年11月因腰伤退役）、世锦赛奖牌榜（2001金、2003银、1999铜）、全英冠军榜（2004冠军、2002亚军）、英文维基（2002/2004尤伯杯、2002亚运女单银牌、世界第一）。修正：app文案“步伐灵活”改为规范术语“步法灵活”（标签同步）。 （2026-10-04 二次对抗复核）重新核对：Olympedia（170cm/60kg、2004年第4）、BWF接口（170cm、右手）、新浪资料原文（右手握拍、拉吊突击型、2005年11月因腰伤退役）、世锦赛与全英冠军榜（2001世锦赛、2004全英决赛均胜周蜜），均一致，无需修改。"
+    },
+    {
+      "id": "zhou-mi",
+      "name_en": "Zhou Mi",
+      "name_zh": "周蜜",
+      "country_zh": "中国香港",
+      "gender": "F",
+      "height_cm": 175,
+      "weight_kg": 65,
+      "handedness": "R",
+      "birth_year": 1979,
+      "status": "retired",
+      "highlights_zh": "2004年雅典奥运会女单铜牌（代表中国）；2002年釜山亚运会女单金牌；2003年全英公开赛冠军；2001年世锦赛银牌、2003年铜牌；2008年超级系列赛总决赛冠军（代表中国香港）；最高世界第一",
+      "style_primary": "全面型",
+      "style_tags_zh": [
+        "技术全面",
+        "敢于进攻",
+        "网前细腻",
+        "善抓漏洞"
+      ],
+      "style_desc_zh": "属拉吊突击型打法，技术较全面，动作耐看又实用，网前球处理细腻。她善于在周旋中捕捉对手的漏洞，无论面对谁都敢于主动进攻，2002年亚运会决赛以两个11:1横扫龚睿那夺冠。",
+      "signature_skills_zh": [
+        "拉吊突击",
+        "网前小球",
+        "抓漏洞进攻"
+      ],
+      "sources": [
+        "https://www.olympedia.org/athletes/105898",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=7821",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-bio?activeTab=1&playerId=7821",
+        "http://sports.sina.com.cn/star/zhou_mi/",
+        "http://sports.sina.com.cn/star/gongruina/",
+        "https://en.wikipedia.org/wiki/Zhou_Mi_(badminton)",
+        "https://zh.wikipedia.org/wiki/周蜜",
+        "https://en.wikipedia.org/wiki/List_of_All_England_women%27s_singles_champions",
+        "https://en.wikipedia.org/wiki/List_of_BWF_World_Championships_medalists"
+      ],
+      "confidence": {
+        "height": "high",
+        "weight": "high",
+        "status": "high"
+      },
+      "notes": "身高175cm/体重65kg：Olympedia与新浪资料一致；BWF资料174cm（中文维基引BWF写1.74米）。右手：BWF资料、新浪。打法出自新浪资料（右手握拍，动作耐看而实用，善于捕捉对方漏洞，敢于实施进攻；拉吊突击型，技术较全面，网前球较细腻）。2002年亚运会决赛两个11:1见新浪报道标题。国籍：职业生涯大部分代表中国，2007年起代表中国香港（country_zh按最后代表地区写中国香港）。敏感信息提示：2010年9月BWF因其赛外药检克仑特罗阳性禁赛2年，她坚称无辜，2011年10月表示退役（英文维基引《英文虎报》）。2004年奥运半决赛存在教练要求其不必拼抢的争议（英文维基）。",
+      "retired_year": 2011,
+      "verified": true,
+      "verification_note": "复核：Olympedia（175cm/65kg、1979-02-18、2004年铜牌，注明后代表香港）、BWF接口（174cm、右手、HKG）、新浪资料（1.75米/65公斤、打法原文、2007年初加盟中国香港队）、世锦赛奖牌榜（2001银、2003铜）、全英冠军榜（2003冠军）、英文维基（2002亚运会女单金牌、2002/2004尤伯杯、2008年超级系列赛总决赛冠军、2010年禁赛两年、2011年10月表示退役）。无错误需更正；敏感信息提示保留在notes。 （2026-10-04 二次对抗复核）重新核对：Olympedia（175cm/65kg、2004年铜）、BWF接口（174cm、右手、HKG）、新浪资料原文（右手握拍、拉吊突击型、网前细腻、2007年初加盟中国香港队）、英文维基（2002亚运决赛11:1、11:1胜龚睿那；2008超级系列赛总决赛决赛胜王晨；2010年禁赛；2011年10月表示退役），均一致，无需修改。"
+    },
+    {
+      "id": "zhu-lin",
+      "name_en": "Zhu Lin",
+      "name_zh": "朱琳",
+      "country_zh": "中国",
+      "gender": "F",
+      "height_cm": 172,
+      "weight_kg": 57,
+      "handedness": "R",
+      "birth_year": 1984,
+      "status": "retired",
+      "highlights_zh": "2007年世锦赛冠军；2009年亚锦赛女单冠军；2007年苏迪曼杯冠军成员；2008年尤伯杯冠军成员；2006年多哈亚运会女团金牌",
+      "style_primary": "四方拉吊控制型",
+      "style_tags_zh": [
+        "拉吊突击",
+        "善于控球",
+        "跑动积极",
+        "靠技术取胜"
+      ],
+      "style_desc_zh": "以拉吊突击为主，跑动积极、速度快，善于控球，常用平高球配合吊球调动对手。她自认主要依靠技术而非身体能力，打球爱动脑子。2007年世锦赛决赛以21:8、21:12击败王晨夺冠。",
+      "signature_skills_zh": [
+        "平高球",
+        "吊球配合",
+        "控球调动"
+      ],
+      "sources": [
+        "https://tyj.sh.gov.cn/rw3/20090427/0027-130877.html",
+        "http://sports.sina.com.cn/star/zhu_lin/",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=51281",
+        "https://web.archive.org/web/20160313073644/http://sports.qq.com/a/20120411/000733.htm",
+        "https://en.wikipedia.org/wiki/Zhu_Lin_(badminton)",
+        "https://zh.wikipedia.org/wiki/朱琳_(羽毛球运动员)",
+        "https://en.wikipedia.org/wiki/List_of_BWF_World_Championships_medalists"
+      ],
+      "confidence": {
+        "height": "high",
+        "weight": "medium",
+        "status": "high"
+      },
+      "notes": "未参加过奥运会，Olympedia无记录；BWF资料身高、持拍手为空。身高1.72米、体重57公斤、右手持拍：上海市体育局官网人物资料与新浪资料一致；打法“以拉吊突击为主，跑动积极，速度快”见上海市体育局，新浪补充“善于控球，采用平高球和吊球配合”。《羽毛球》杂志2012年文章（腾讯转载）引其自述“我主要是依靠技术”，并称其“素来靠脑子打球”。退役时间不确定：2010年初向国家队递交退役申请，2011年仍为上海队出战羽超和大奖赛，2012年4月已在上海市青少年训练管理中心工作但尚未向上海队正式提交退役申请，故retired_year留空。最高世界排名中英文维基说法不一（第1/第11），未写入。",
+      "retired_year": null,
+      "verified": true,
+      "verification_note": "复核：上海市体育局人物资料（1984-10-29、1.72米/57公斤、右手持拍、打法以拉吊突击为主；2007年苏迪曼杯冠军成员；世锦赛决赛21:8、21:12胜王晨）、新浪资料（2014年存档：善于控球，采用平高球和吊球配合）、BWF接口id 51281（身高持拍为空）、世锦赛奖牌榜、英文维基（2009亚锦赛决赛21:11、21:10胜谢杏芳；2008尤伯杯；2006亚运女团）、《羽毛球》杂志2012年文（腾讯存档：2010年初递交退役申请、“我主要是依靠技术”）。补充：highlights加入2007年苏迪曼杯冠军成员。身高来自上海市体育局官方资料。 （2026-10-04 二次对抗复核）重新核对：上海市体育局官网资料原文（1.72米/57公斤、右手持拍、拉吊突击、2007年苏迪曼杯冠军成员）、世锦赛奖牌榜（2007金，决赛21:8、21:12胜王晨）、英文维基（2009亚锦赛决赛21:11、21:10胜谢杏芳）、《羽毛球》杂志2012年文（腾讯存档：“我主要是依靠技术”、2011年成都亚锦赛弃权后向上海队提出退役、2012年4月尚未正式递交退役申请），均一致；retired_year仍留空。"
+    },
+    {
+      "id": "tine-baun",
+      "name_en": "Tine Baun",
+      "name_zh": "蒂娜·鲍恩",
+      "country_zh": "丹麦",
+      "gender": "F",
+      "height_cm": 181,
+      "weight_kg": 71,
+      "handedness": "R",
+      "birth_year": 1979,
+      "status": "retired",
+      "highlights_zh": "2008、2010、2013年全英公开赛冠军；2010年世锦赛铜牌；2010、2012年欧锦赛冠军；最高世界第一（2008年）",
+      "style_primary": "进攻压制型",
+      "style_tags_zh": [
+        "高个子",
+        "臂展优势",
+        "大角度下压",
+        "大器晚成"
+      ],
+      "style_desc_zh": "身高1.81米，把臂展优势发挥得淋漓尽致，靠大步幅覆盖场地、用角度很陡的下压进攻得分，移动有时显得不够灵巧。她大器晚成，28岁才凭2007年日本公开赛冠军迎来国际突破，此后三夺全英赛，2013年第三次全英赛夺冠后退役。",
+      "signature_skills_zh": [
+        "大角度下压",
+        "后场进攻",
+        "大步幅覆盖"
+      ],
+      "sources": [
+        "https://www.olympedia.org/athletes/105893",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=10358",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-bio?activeTab=1&playerId=10358",
+        "https://web.archive.org/web/2010/http://www.badmintondenmark.com/en/BadmintonDenmark/StarsOfToday/TineRasmussen.aspx",
+        "https://en.wikipedia.org/wiki/Tine_Baun",
+        "https://zh.wikipedia.org/wiki/蒂内·鲍恩",
+        "https://da.wikipedia.org/wiki/Tine_Baun",
+        "https://ekstrabladet.dk/sport/anden_sport/badminton/article3989874.ece",
+        "http://sports.sina.com.cn/star/tine_rasmussen/",
+        "https://en.wikipedia.org/wiki/List_of_All_England_women%27s_singles_champions",
+        "https://en.wikipedia.org/wiki/List_of_BWF_World_Championships_medalists",
+        "https://baike.baidu.com/item/%E8%92%82%E5%A8%9C%C2%B7%E6%8B%89%E6%96%AF%E5%A7%86%E6%A3%AE/9617395",
+        "https://bwfbadminton.com/news-single/2020/06/03/genius-in-action-tine-baun/"
+      ],
+      "confidence": {
+        "height": "high",
+        "weight": "medium",
+        "status": "high"
+      },
+      "notes": "身高181cm：Olympedia、BWF资料、丹麦羽协官网球员资料一致（新浪1.80米）；体重Olympedia 71kg（英文维基同），新浪75kg，取Olympedia。右手：BWF资料、丹麦羽协资料。打法：BWF资料自填“Offensive”，中文维基称其“身材較一般女性選手高大，以力量型的攻擊打法著稱”。28岁首夺超级赛（2007年日本公开赛）见Ekstra Bladet与中文维基。2013年3月全英赛夺冠后退役，2013年4月26日在BWF注销注册（中文维基）。世界第一见丹麦文维基（2008年11月6日BWF排名）。原名Tine Rasmussen，2010年婚后改姓；大陆媒体2008-2009年多称“拉斯姆森”，中文维基作“蒂内·鲍恩”。 复核补充：百度百科词条名为“蒂娜·拉斯姆森”，正文称其婚后改称“蒂娜·鲍恩”，“蒂内·鲍恩”为同义词；新浪资料页标题为“蒂娜-拉斯姆森(鲍恩)”。大陆来源均将Tine译作“蒂娜”，故name_zh改为“蒂娜·鲍恩”。退役后仍参加过2013年亚通杯表演赛和印度羽毛球联赛（英文维基），但国际巡回赛生涯止于2013年全英赛。（2026-10-04 二次对抗复核）世界羽联官网2020年“Genius in Action”专文：“Standing 181cm, Baun used her reach to tremendous effect. While her movement did appear ungainly at times, her long strides and steep attacking shots helped her become the premier European women’s singles player of her time”；2007年日本公开赛连胜蒋燕皎、张宁、卢兰、谢杏芳是她当时最大的成功；2013年全英赛宣布即将退役后半决赛胜成池铉、决赛胜因达农。Ekstra Bladet（Ritzau，2013-03-06）称其国际突破直到2007年日本公开赛才到来，当时28岁。",
+      "retired_year": 2013,
+      "verified": true,
+      "verification_note": "复核：Olympedia（181cm/71kg、1979-07-21；2004/2008/2012三届奥运）、BWF接口（181cm、右手、自填打法Offensive）、全英冠军榜（2008、2010、2013）、世锦赛奖牌榜（2010铜）、英文维基（2010、2012欧锦赛冠军；2008年11月6日世界第一；2007年日本公开赛夺冠）。修正：①name_zh“蒂内·鲍恩”→“蒂娜·鲍恩”（大陆来源新浪、百度均作“蒂娜”）；②style_desc“以2013年全英赛冠军告别赛场”改为“2013年第三次全英赛夺冠后退役”，因其退役后仍打过表演赛和印度联赛。 （2026-10-04 二次对抗复核）重新核对Olympedia（181cm/71kg）、BWF接口（181cm、右手）、全英冠军榜（2008、2010、2013）、世锦赛奖牌榜（2010铜）、英文维基（2010、2012欧锦赛冠军，2008年11月6日世界第一），无误。修正：①原文“28岁才在2007年日本赛拿到首个超级系列赛冠军”有误导——超级系列赛2007年才创办，改为按Ekstra Bladet原意“28岁才凭2007年日本公开赛冠军迎来国际突破”；②按世界羽联专文补充打法特点（臂展、大步幅、陡峭的下压进攻、移动略显笨拙），标签与招牌技术同步更新。"
+    },
+    {
+      "id": "wang-lin",
+      "name_en": "Wang Lin",
+      "name_zh": "王琳",
+      "country_zh": "中国",
+      "gender": "F",
+      "height_cm": null,
+      "weight_kg": null,
+      "handedness": null,
+      "birth_year": 1989,
+      "status": "retired",
+      "highlights_zh": "2010年世锦赛冠军；2009年世锦赛铜牌；2009年全运会女单冠军；2007年世青赛女单冠军；2009年苏迪曼杯冠军成员；最高世界第一（2009年）",
+      "style_primary": "全面型",
+      "style_tags_zh": [
+        "攻守兼备",
+        "多拍调动",
+        "敢于扣杀",
+        "耐心"
+      ],
+      "style_desc_zh": "攻守兼备，既能加快节奏接连扣杀得分，也能耐心地通过多拍调动对手、稳中求胜。2009年全运会决赛先失一局后逆转王适娴，2010年世锦赛决赛2:1胜汪鑫，她自言打法比以前更有耐心。",
+      "signature_skills_zh": [
+        "连续扣杀",
+        "多拍调动",
+        "节奏控制"
+      ],
+      "sources": [
+        "http://sports.sina.com.cn/star/wanglin_badmin/",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=53937",
+        "https://www.chinanews.com/ty/news/2009/10-17/1916239.shtml",
+        "https://hznews.hangzhou.com.cn/wenti/content/2010-08/30/content_3409455.htm",
+        "https://zjnews.zjol.com.cn/zjnews/hznews/201805/t20180531_7429883.shtml",
+        "https://en.wikipedia.org/wiki/Wang_Lin_(badminton)",
+        "https://zh.wikipedia.org/wiki/王琳_(羽毛球运动员)",
+        "https://en.wikipedia.org/wiki/List_of_BWF_World_Championships_medalists"
+      ],
+      "confidence": {
+        "height": "low",
+        "weight": "low",
+        "status": "high"
+      },
+      "notes": "未参加过奥运会，Olympedia无记录；BWF资料身高、持拍手为空。身高仅新浪体坛明星资料一处（1.72米/57公斤，资料成文于其16岁前后，可能已过时）；英文维基174cm、中文维基175cm均无出处，置信度低。持拍手仅英文维基（无出处）写右手。打法依据：中新社2009年全运会决赛报道（加快进攻速度、接连暴扣得分；耐心地通过多拍调动对手；稳中求胜、掌握节奏）与杭州网2010年世锦赛报道中本人所说“现在打法更耐心”；归为全面型属归纳。2010年中国大师赛膝韧带重伤（英文维基），2013年12月4日在微博宣布退役，2014年起任浙江女子羽毛球队主教练（浙江在线2018年）。BWF出生日期1989-03-30（新浪写3月31日）。 复核补充：体重57公斤与身高同出新浪早年资料一处，按“无可靠来源则留空”改为null。BWF接口身高为0、持拍手为空；未找到BWF/Olympedia/官方机构或有出处维基给出的身高，故verified为false。世界第一：英文维基引BWF排名（2009年10月8日）。2009年苏迪曼杯冠军成员见新浪资料与杭州网2010年报道。 持拍手只有英文维基（无出处）写右手，BWF与新浪资料均未写，改为null。（2026-10-04 二次对抗复核）再次检索BWF、Olympedia（未参加奥运）、中国羽协、浙江省体育局及新华社资料，仍未找到可靠身高。现有数值：新浪体坛明星资料1.72米（该页正文写于她16岁的2005年中国大师赛期间，可能已过时）、英文维基174cm（无出处）、中文维基175cm（无出处）。按“身高必须来自可靠来源”的规则，height_cm改为null。",
+      "retired_year": 2013,
+      "verified": false,
+      "verification_note": "复核：身份、战绩、状态均已确认——世锦赛奖牌榜（2010金、2009铜）、中新社2009年全运会决赛报道、杭州网2010年报道、新浪2013年退役报道、浙江在线2018年（2014年起任浙江女队主教练）、英文维基（2007世青赛冠军、2009年10月世界第一）。未通过项：身高只有新浪早年资料1.72米一处（英文维基174、中文维基175均无出处），不在可靠来源之列，故verified=false；体重同理改为null。 另：handedness由R改为null（无可靠来源）。 （2026-10-04 二次对抗复核）身份、战绩（2010世锦赛决赛21:11、19:21、21:13胜汪鑫；2009全运会决赛2:1胜王适娴，中新社原文已核对）、状态（2013年12月宣布退役，2014年起任浙江女队主教练）均确认。修正：height_cm 172→null（唯一来源为2005年的新浪早期资料，不符合可靠来源要求）。因身高无法确认，verified仍为false。"
+    },
+    {
+      "id": "wang-xin",
+      "name_en": "Wang Xin",
+      "name_zh": "汪鑫",
+      "country_zh": "中国",
+      "gender": "F",
+      "height_cm": 166,
+      "weight_kg": 55,
+      "handedness": "L",
+      "birth_year": 1985,
+      "status": "retired",
+      "highlights_zh": "2010年世锦赛银牌、2011年铜牌；2012年伦敦奥运会女单第四（铜牌战领先时因伤退赛）；2010年广州亚运会女单银牌、女团金牌；2012年尤伯杯冠军成员；2010年世界羽联年度最佳女运动员；最高世界第一（2010年）",
+      "style_primary": "速度突击型",
+      "style_tags_zh": [
+        "左手持拍",
+        "小个子",
+        "速度快",
+        "突击果断"
+      ],
+      "style_desc_zh": "左手持拍，身高仅1.66米，靠预判和灵活迅速的跑动弥补身体条件；球路和落点多变，正手劈吊突出，并非单纯拉吊，常用变速和突击得分。2009年外战不败，被誉为“外战之王”。",
+      "signature_skills_zh": [
+        "正手劈吊",
+        "变速突击",
+        "预判抢位"
+      ],
+      "sources": [
+        "https://www.olympedia.org/athletes/121934",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=51520",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-bio?activeTab=1&playerId=51520",
+        "http://sports.sina.com.cn/star/wangxin_badmin/",
+        "https://web.archive.org/web/2013/http://news.xinhuanet.com/sports/2013-12/06/c_125818032.htm",
+        "http://sports.sohu.com/20100707/n273348042.shtml",
+        "https://en.wikipedia.org/wiki/Wang_Xin_(badminton)",
+        "https://zh.wikipedia.org/wiki/汪鑫",
+        "https://en.wikipedia.org/wiki/List_of_BWF_World_Championships_medalists",
+        "https://web.archive.org/web/20170425024157/http://news.xinhuanet.com/sports/2011-05/22/c_121443629.htm"
+      ],
+      "confidence": {
+        "height": "high",
+        "weight": "high",
+        "status": "high"
+      },
+      "notes": "身高166cm/体重55kg：Olympedia、新浪资料、新华网（转中新网）“身高只有1米66”一致；BWF资料165cm。左手：BWF资料（hand L）、新浪“持拍手：左手”。打法：新华网2013年退役报道（跑动灵活、球路多变、进攻主动、技术流打法、“外战之王”）；中文维基引辽沈晚报等（预判性强、正手劈吊突出）；鲍春来评价“速度非常快，有机会突击会非常果断”（中文维基引腾讯2012年报道，原文未能打开）；她本人称自己“不是纯粹拉吊，还会有变速、进攻”（中文维基引中新网）。BWF资料自填打法“All round”，此处按速度与突击特点归为速度突击型。“2010年世界羽联年度最佳女运动员”仅见英文维基。2013年12月5日微博宣布退役（新华网）。",
+      "retired_year": 2013,
+      "verified": true,
+      "verification_note": "复核：Olympedia（166cm/55kg、1985-11-10、2012年第4）、BWF接口（165cm、左手、自填All round）、新浪资料（1.66米/55公斤、左手、拉吊突击进攻积极、2009年外战不败、2010亚运女单银女团金、2012尤伯杯）、新华网2013年转中新网退役报道（身高1米66、跑动灵活球路多变、“外战之王”、2013年12月5日微博宣布退役）、世锦赛奖牌榜（2010银、2011铜）、英文维基（2012奥运铜牌战21:18、1:0领先时因伤退赛；2010年世界羽联年度最佳女运动员，引新华网2011年报道；2010年9月世界第一）。无错误需更正。 （2026-10-04 二次对抗复核）重新核对：Olympedia（166cm/55kg、2012年第4）、BWF接口（165cm、左手）、新华网2013年转中新网原文（身高1米66、跑动灵活球路多变、“外战之王”、2013年12月5日微博宣布退役）、BWF年度奖项名单（2010年最佳女运动员）、英文维基（2010年9月23日世界第一），均一致，无需修改。"
+    },
+    {
+      "id": "sung-ji-hyun",
+      "name_en": "Sung Ji-hyun",
+      "name_zh": "成池铉",
+      "country_zh": "韩国",
+      "gender": "F",
+      "height_cm": 175,
+      "weight_kg": null,
+      "handedness": "R",
+      "birth_year": 1991,
+      "status": "retired",
+      "highlights_zh": "2015年世锦赛铜牌；2014年亚锦赛女单冠军；2013、2015年韩国公开赛冠军；2014、2016年超级系列赛总决赛亚军；2010年尤伯杯、2017年苏迪曼杯冠军成员；2012、2016年两届奥运会女单参赛；最高世界第二",
+      "style_primary": "四方拉吊控制型",
+      "style_tags_zh": [
+        "高个子",
+        "基本功扎实",
+        "球风细腻",
+        "韧性强"
+      ],
+      "style_desc_zh": "身高1.75米，基本功扎实、球风细腻，比赛韧性很强，常在落后时咬住比分完成逆转，2011年一年内先后逆转汪鑫、王适娴和王仪涵。2015年获世锦赛铜牌，退役后转任教练，曾执教安洗莹。",
+      "signature_skills_zh": [
+        "稳定相持",
+        "细腻控球",
+        "逆境咬分"
+      ],
+      "sources": [
+        "https://www.olympedia.org/athletes/123530",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=76594",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-bio?activeTab=1&playerId=76594",
+        "https://web.archive.org/web/2015/http://www.gwangju2015.com/IRS/eng/zb/engzb_badminton_biography_overview_n6301413_sung_jihyun.htm",
+        "http://sports.sohu.com/20111214/n329027587.shtml",
+        "http://sports.sina.com.cn/o/2011-12-15/19255869889.shtml",
+        "https://k.sina.cn/article_7196881033_1acf7b08900100u8m2.html?from=sports&subch=badminton",
+        "https://www.insidesport.in/badminton/losing-is-important-coach-sung-ji-hyuns-message-to-world-no-1-an-se-young-ahead-of-olympics/",
+        "https://en.wikipedia.org/wiki/Sung_Ji-hyun",
+        "https://zh.wikipedia.org/wiki/成池鉉",
+        "https://ko.wikipedia.org/wiki/성지현",
+        "https://en.wikipedia.org/wiki/List_of_BWF_World_Championships_medalists",
+        "https://nocutnews.co.kr/news/6253697"
+      ],
+      "confidence": {
+        "height": "high",
+        "weight": "low",
+        "status": "high"
+      },
+      "notes": "身高175cm：Olympedia、BWF资料、2015年光州大运会官方资料一致（搜狐与羊城晚报2011年资料写171cm）。体重来源矛盾：Olympedia 64kg，光州大运会官方资料57kg，英文维基引2010年广州亚运会资料56kg，按Olympedia取64kg，置信度低。右手：BWF资料、光州大运会资料、搜狐。打法依据较少：搜狐2011年报道称其“有着扎实的基本功与细腻的球风”、比赛中多次逆转、“到最后一秒还在拼搏”，教练陈刚称其“有着比同龄人更强的韧性”；归为四方拉吊控制型属归纳，置信度一般。2014年总决赛亚军见英文维基，2016年见韩文维基。退役：韩国媒体thefairnews.co.kr 2022年4月7日报道《[SNS배드민턴] 대한민국 여자단식의 계보를 이어온 성지현 은퇴》，《朝鲜日报》2022年3月3日报道其转任国家队指导者，2023年3月《朝鲜日报》称她以教练身份在全英赛指导安洗莹，与中文维基“2022年4月6日宣布退役”一致，故retired_year=2022。父亲成汉国为前韩国队总教练，丈夫为孙完虎。 复核补充：体重三源相差7-8公斤（Olympedia 64、2010广州亚运会官方56、2015光州大运会官方57），无法判定，改为null。BWF接口bio：175cm、右手、居住首尔。",
+      "retired_year": 2022,
+      "verified": true,
+      "verification_note": "复核：Olympedia（175cm、1991-07-29、2012年第17、2016年第5）、BWF接口（175cm、右手）、世锦赛奖牌榜（2015铜）、英文维基（2014亚锦赛决赛胜王适娴；2013、2015韩国公开赛冠军；2014、2016超级系列赛总决赛亚军，均负戴资颖；2010尤伯杯、2017苏迪曼杯；2017年3月世界第二）、搜狐2011与新浪转《羊城晚报》2011（打法与逆转汪鑫、王适娴、王仪涵）。修正：①retired_year null→2022（韩国媒体2022年4月退役报道）；②weight 64→null（来源冲突）。 （2026-10-04 二次对抗复核）重新核对：Olympedia（175cm、2012年=17、2016年=5）、BWF接口（175cm、右手）、世锦赛奖牌榜（2015铜）、英文维基（2013、2015韩国公开赛冠军，2014、2016超级系列赛总决赛亚军，2014亚锦赛冠军，2017年3月16日世界第二）、中文维基（2011年先后逆转汪鑫、王适娴、王仪涵；2022年4月6日宣布退役）、韩国CBS NoCut News 2024-12-03（她是2022年11月起金学均体制下的国家队女单教练，与2022年退役转任教练一致），均一致，无需修改。"
+    },
+    {
+      "id": "lu-lan",
+      "name_en": "Lu Lan",
+      "name_zh": "卢兰",
+      "country_zh": "中国",
+      "gender": "F",
+      "height_cm": 176,
+      "weight_kg": 64,
+      "handedness": "R",
+      "birth_year": 1987,
+      "status": "retired",
+      "highlights_zh": "2009年世锦赛冠军；2007年世锦赛铜牌；2008年全英公开赛亚军；2008年北京奥运会女单第四；2006、2008年尤伯杯冠军成员；2010年广州亚运会女团金牌",
+      "style_primary": "速度突击型",
+      "style_tags_zh": [
+        "高个子",
+        "爆发力强",
+        "速度快",
+        "弹跳好"
+      ],
+      "style_desc_zh": "身高1.76米，爆发力出众，技术建立在速度和弹跳之上。2009年世锦赛决赛以23:21、21:12击败谢杏芳夺冠；此后足底跖腱膜受伤，速度和弹跳受限，她坦言失去了“杀手锏”。",
+      "signature_skills_zh": [
+        "快速启动",
+        "起跳进攻",
+        "爆发突击"
+      ],
+      "sources": [
+        "https://www.olympedia.org/athletes/112821",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=53057",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-bio?activeTab=1&playerId=53057",
+        "http://sports.sina.com.cn/star/lu_lan/",
+        "https://web.archive.org/web/20171010154241/http://sports.qq.com/a/20120207/000534.htm",
+        "http://sports.sina.com.cn/o/2015-03-26/14497555521.shtml",
+        "https://tiyuxi.sjtu.edu.cn/info/1110/2334.htm",
+        "https://en.wikipedia.org/wiki/Lu_Lan",
+        "https://zh.wikipedia.org/wiki/卢兰",
+        "https://en.wikipedia.org/wiki/List_of_All_England_women%27s_singles_champions",
+        "https://en.wikipedia.org/wiki/List_of_BWF_World_Championships_medalists",
+        "https://web.archive.org/web/2010/http://sports.cctv.com/20081110/151399.shtml",
+        "https://web.archive.org/web/2008/http://2008.qq.com/a/20080718/001505.htm"
+      ],
+      "confidence": {
+        "height": "high",
+        "weight": "medium",
+        "status": "high"
+      },
+      "notes": "身高176cm：Olympedia、BWF资料、新浪资料正文（“1.76米的身高和出众的爆发力”）一致；新浪资料表格与中文维基（引广州亚运会资料）写1.78米。体重来源矛盾：Olympedia 64kg、新浪68kg、中文维基62kg，按Olympedia取64kg，置信度低。持拍手：BWF资料为空；央视网2008年资料库写“右手执拍，打法凶狠，进攻速度快”。出生日期：BWF、Olympedia、新浪、上海交大官网均为1987-10-17，英文维基写5月2日有误。打法依据：新浪资料（爆发力出众）与《羽毛球》杂志2012年文章（腾讯转载）中本人所说“速度和弹跳被限制之后，整个技术就发挥不出来”“没有了自己的杀手锏”；归为速度突击型属归纳。2013年全运会后退役（新浪2015年），2015年9月起任上海交通大学体育系讲师、羽毛球国家级裁判员（交大官网）。 复核补充：央视网2008年与腾讯2008年资料均为1.76米/64公斤，与Olympedia一致，体重置信度上调；腾讯资料列2006年尤伯杯冠军成员。",
+      "retired_year": 2013,
+      "verified": true,
+      "verification_note": "复核：Olympedia（176cm/64kg、1987-10-17、2008年第4）、BWF接口（176cm）、央视网2008年资料（1.76米/64公斤、右手执拍、打法凶狠进攻速度快）、腾讯2008年资料（2006、2008尤伯杯）、世锦赛奖牌榜（2009金、2007铜）、全英冠军榜（2008亚军）、英文维基2010亚运女团页面（列其名）、《羽毛球》杂志2012年文（腾讯存档：跖腱膜伤后“速度和弹跳被限制”“没有了自己的杀手锏”）、新浪2015年（2013年全运会后退役）。无错误需更正；持拍手改以央视网为据。 （2026-10-04 二次对抗复核）重新核对：Olympedia（176cm/64kg、2008年第4）、BWF接口（176cm）、世锦赛奖牌榜（2009金，决赛23:21、21:12胜谢杏芳；2007铜）、全英冠军榜（2008亚军）、2010年亚运会女团名单（列其名）、新浪2015年（2013年全运会后退役）、上海交大体育系官网、《羽毛球》杂志2012年文原文（跖腱膜断裂后“速度和弹跳被限制”“没有了自己的杀手锏”），均一致，无需修改。"
+    },
+    {
+      "id": "huang-hua",
+      "name_en": "Huang Hua",
+      "name_zh": "黄华",
+      "country_zh": "中国",
+      "gender": "F",
+      "height_cm": 171,
+      "weight_kg": 61,
+      "handedness": "R",
+      "birth_year": 1969,
+      "status": "retired",
+      "highlights_zh": "1992年巴塞罗那奥运会女单铜牌；1989年世锦赛银牌；1991年世界杯冠军；1990年全英公开赛亚军；1990、1992年尤伯杯冠军成员",
+      "style_primary": "全面型",
+      "style_tags_zh": [
+        "步法轻盈",
+        "移动流畅",
+        "打法优雅"
+      ],
+      "style_desc_zh": "步法出色、移动轻盈，方铢贤形容她凭借出色的步法在场上像飘着移动，球打得非常漂亮。1989年首次参加世锦赛就闯进决赛，1991年获世界杯冠军，1992年巴塞罗那奥运会获女单铜牌。",
+      "signature_skills_zh": [
+        "轻盈步法",
+        "全场跑动",
+        "舒展击球"
+      ],
+      "sources": [
+        "https://www.olympedia.org/athletes/786",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-summary?playerId=209",
+        "https://extranet-lv.bwfbadminton.com/api/vue-player-bio?activeTab=1&playerId=209",
+        "https://en.wikipedia.org/wiki/Huang_Hua_(badminton)",
+        "https://zh.wikipedia.org/wiki/黄华_(羽毛球运动员)",
+        "https://www.badmintonpanam.org/?p=5817",
+        "https://en.wikipedia.org/wiki/List_of_All_England_women%27s_singles_champions",
+        "https://en.wikipedia.org/wiki/List_of_BWF_World_Championships_medalists",
+        "https://web.archive.org/web/20160305182421/http://2008.qq.com/a/20080731/002023.htm",
+        "https://en.wikipedia.org/wiki/1991_Badminton_World_Cup"
+      ],
+      "confidence": {
+        "height": "high",
+        "weight": "low",
+        "status": "high"
+      },
+      "notes": "替补人选（李玲蔚、韩爱萍无可靠身高来源）。身高171cm：Olympedia与BWF资料一致；体重Olympedia 61kg，英文维基55kg（无出处），置信度低。右手：BWF资料（plays=1）。BWF资料国籍栏现为USA，但其运动生涯代表中国。打法：王莲香评价“complete player”“Huang Hua's playing style is more stylish and elegant”（英文维基引YouTube采访视频，未直接观看）；方铢贤接受BWF采访称“Huang Hua had a very pretty game floating around the court using great footwork”。中文维基（引《羽毛球》杂志）称她因恩师陈玉娘辞职，24岁在七运会（1993年）后退役，后移居印尼。“最高世界第一”仅见英文维基信息框，未写入。 复核补充：王莲香评价出自英文维基所引YouTube视频，无法核实原话，已从app文案中删除，仅保留可核实的方铢贤原话（Pan Am刊载）；“全面型”归类因此依据较弱。退役年份两说：腾讯2008年资料称“1992年奥运会后退役”，中文维基（引《羽毛球》杂志2009年）称七运会（1993年）后退役，原文无法打开，retired_year改为留空。腾讯资料把世界杯冠军写成1990年有误，1991年澳门世界杯冠军见维基赛事页。",
+      "retired_year": null,
+      "verified": true,
+      "verification_note": "复核：Olympedia（171cm/61kg、1969-11-16、1992年铜牌）、BWF接口（171cm、右手；国籍栏为USA）、腾讯2008年资料（171cm、1990/1992尤伯杯）、世锦赛奖牌榜（1989银）、全英冠军榜（1990亚军）、1991年世界杯赛事页（女单冠军）。修正：①style_desc删除无法核实的王莲香评价，标签“技术全面”改为“移动流畅”、技能“全面技术”改为“舒展击球”；②retired_year 1993→null（1992/1993两说）。 （2026-10-04 二次对抗复核）重新核对：Olympedia（171cm/61kg、1992年铜）、BWF接口（171cm、右手；国籍栏USA）、世锦赛奖牌榜（1989银）、全英冠军榜（1990亚军）、英文维基（1991澳门世界杯女单冠军、1990/1992尤伯杯）、1987年世锦赛女单签表（无黄华，佐证1989年为其首届世锦赛）、Pan Am刊载方铢贤原话，均一致；retired_year仍留空。"
+    }
+  ]
+}

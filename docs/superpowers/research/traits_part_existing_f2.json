@@ -1,0 +1,273 @@
+{
+  "saina-nehwal": {
+    "traits": [
+      "fight",
+      "power",
+      "stamina"
+    ],
+    "evidence_zh": "ESPN报道她2017年印度全国锦标赛决赛击败辛杜时，称那是一场“典型的”展现她斗志、决心和体能的比赛，并点出她标志性的跳杀和顽强救球；Scroll.in写她在2017年世锦赛八强战中顶住吉尔莫的高压，坚持多拍相持，等对手失误或送出机会，决胜局再抓住机会杀球得分。",
+    "sources": [
+      "https://africa.espn.com/badminton/story/_/id/21338810/saina-nehwal-prevails-marathon-final-pv-sindhu",
+      "https://scroll.in/field/848543/saina-nehwal-comes-through-tough-quarterfinal-with-bruised-body-and-sky-high-confidence"
+    ],
+    "verified": true
+  },
+  "zhang-ning": {
+    "traits": [
+      "stamina",
+      "placement",
+      "fight"
+    ],
+    "evidence_zh": "Olympedia称她的“秘密武器”是不知疲倦的体能，新浪体育分析北京奥运会决赛时也说她“一向以体能充沛、跑动积极著称”，雅典奥运会决赛就是靠体能磨垮了张海丽；BWF名人堂专题称她能长时间高速相持不失误、组织好回合再一击致命，英文维基强调她击球稳定、把对手调动到四个角落；BWF还写道，她凭勇气和坚韧证明了年龄的限制可以克服。",
+    "sources": [
+      "https://www.olympedia.org/athletes/105905",
+      "http://2008.sina.com.cn/cn/bd/2008-08-16/1450214577.shtml",
+      "https://bwfbadminton.com/news-single/2021/06/09/zhang-ning-trail-blazer",
+      "https://en.wikipedia.org/wiki/Zhang_Ning"
+    ],
+    "note": "英文维基也提到她的假动作（deception），但Olympedia与新浪都把体能列为她最突出的武器，故保留stamina为首，不加deception。",
+    "verified": true
+  },
+  "xie-xingfang": {
+    "traits": [
+      "speed",
+      "placement",
+      "defense"
+    ],
+    "evidence_zh": "《南华早报》形容她“高挑且快如闪电”，Badminton Planet写她“步伐轻盈、善于捕捉空当”，英文维基把她的长处概括为臂展、速度、稳定性和球场意识；新浪体育分析她的打法是“拉中高点突击”、控制球能力强，并称她“身高臂长，防守也相当出色”。",
+    "sources": [
+      "https://www.scmp.com/article/647295/36-xie-xingfang",
+      "https://www.badmintonplanet.com/badminton-news/1044-all-england-open-badminton-championships-china-makes-rapid-start-in-bid-to-regain-womens-title.html",
+      "https://en.wikipedia.org/wiki/Xie_Xingfang",
+      "http://2008.sina.com.cn/cn/bd/2008-08-16/1450214577.shtml"
+    ],
+    "verified": true
+  },
+  "he-bingjiao": {
+    "traits": [
+      "power",
+      "speed",
+      "fight"
+    ],
+    "evidence_zh": "前国手龚伟杰评价她“就是打进攻的选手，战术以我为主”，家乡相城区媒体也称她“进攻果敢，爆发力强，敢打敢拼”；东京奥运会八强被她逆转的奥原希望赛后说“对手的杀球非常有力”，BWF也写她把后场高点球处理得极好、一有机会就一拍解决。BWF在她退役时的专题中称她的球更多靠灵巧的左手技术和步法，东京奥运会上也正是经济高效的步法帮她扛住了奥原的多拍；马林在2018年世锦赛半决赛后称她“像战士一样”，2019年韩国公开赛决赛她挽救4个赛点逆转夺冠。",
+    "sources": [
+      "https://kbsapp.sports.qq.com/article/20210801A0BRXQ",
+      "https://m.thepaper.cn/baijiahao_13864044",
+      "https://olympics.bwfbadminton.com/news-single/2021/07/30/he-bing-jiao-outwits-okuhara-sets-up-all-china-semifinal",
+      "https://bwfworldtour.bwfbadminton.com/news-single/2024/08/14/he-bing-jiao-skilful-left-hander-will-be-missed",
+      "https://news.ifeng.com/c/7f6SFnWlUrV",
+      "https://bwfworldtourfinals.bwfbadminton.com/news-single/2019/09/29/bing-jiao-pulls-off-escape-act-korea-open-finals/"
+    ],
+    "note": "新增speed：BWF退役专题称她的打法“not so much on power or steadiness, but on delightful left-handed skill and footwork”，东京奥运报道也称赞她“economical footwork”。该专题与中方媒体、奥原对她杀球的评价有出入；按中文解说与对手评价仍以power为首。应用desc写“进攻火力不算突出”，与上述多数来源相矛盾，建议复核。",
+    "verified": true
+  },
+  "susi-susanti": {
+    "traits": [
+      "defense",
+      "speed",
+      "stamina"
+    ],
+    "evidence_zh": "英文维基“打法”一节称她是“极其耐打的防守型选手”，喜欢制造长回合消耗对手体力、诱使失误；她个子不高，靠敏捷和腰背的柔韧性用正手头顶球照顾反手区，大跨步乃至劈叉接低球成了她的招牌动作。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Susi_Susanti"
+    ],
+    "note": "维基还写她以底线高远球配合贴网吊球调动对手全场跑动（也可算placement）；招牌劈叉救球更具辨识度，且可与同为防守反击型的蒋燕皎区分，故保留speed在stamina之前。",
+    "verified": true
+  },
+  "hina-akechi": {
+    "traits": [
+      "net",
+      "defense"
+    ],
+    "evidence_zh": "球队再春馆官网写明她最拿手的是“在网前打乱对手”，她在2024年熊本大师赛后也说想用网前搓球打出有利局面；在日本羽协问答中，她请大家看她“粘”的打法，即回合中咬住每一球、不轻易丢分。",
+    "sources": [
+      "https://www.saishunkan-badmintonteam.jp/archives/member/6924",
+      "https://www.badminton.or.jp/national/player/view/95",
+      "https://www.badspi.jp/202411131619/"
+    ],
+    "verified": true
+  },
+  "riko-gunji": {
+    "traits": [
+      "power",
+      "defense"
+    ],
+    "evidence_zh": "球队再春馆官网写明她最拿手的是“以杀球为中心的进攻”，日本羽协问答中她也把杀球列为最值得关注的技术；2024年熊本大师赛输给她的印尼选手瓦尔达尼则说，她“只是等着、把我的球都接回来”，自己的杀球“杀不死她”。",
+    "sources": [
+      "https://www.saishunkan-badmintonteam.jp/archives/member/5707",
+      "https://www.badminton.or.jp/national/player/view/91",
+      "https://beta.djarumbadminton.com/internasional/berita/read/kumamoto-masters-japan-2024-putri-kw-kembali-gagal-mengatasi-gunji/"
+    ],
+    "verified": true
+  },
+  "supanida-katethong": {
+    "traits": [
+      "speed",
+      "placement"
+    ],
+    "evidence_zh": "她在BWF采访中说自己的风格就是“保持高节奏，更偏进攻、速度快”，并强调要先把吊球落点打准、逼对手起高球；2026年瑞士公开赛决赛被她直落两局击败的瓦尔达尼也说她“打得很有战术，我没办法应对”。",
+    "sources": [
+      "https://bwfworldtour.bwfbadminton.com/news-single/2023/07/16/us-open-pace-the-name-of-katethongs-game/",
+      "https://bwfworldtour.bwfbadminton.com/news-single/2026/03/16/swiss-open-tanaka-katethong-cruise-to-victory/"
+    ],
+    "verified": true
+  },
+  "yeo-jia-min": {
+    "traits": [
+      "speed",
+      "stamina"
+    ],
+    "evidence_zh": "戴资颖评价她“在场上移动得非常好、非常快”，给自己很大压力；BWF专题称她体能提升后能在长时间比赛中坚持到底，她本人也说耐力逐年提高、在场上“不太累”，正练习在比赛不同阶段提速。",
+    "sources": [
+      "https://bwfworldtour.bwfbadminton.com/news-single/2024/02/10/yeo-jia-min-the-graph-rises-again",
+      "https://bwfworldchampionships.bwfbadminton.com/news-single/2019/08/20/jia-min-ousts-top-seed-basel-2019"
+    ],
+    "verified": true
+  },
+  "line-kjaersfeldt": {
+    "traits": [
+      "speed",
+      "defense"
+    ],
+    "evidence_zh": "2016年印尼公开赛首轮被她淘汰的印尼选手林达维妮赛后说，她“节奏非常快，一直在进攻”，决胜局打得更快、防守也很难被打穿；欧洲羽联报道2025年欧锦赛决赛时写道，她以“令人印象深刻的高节奏”击败吉尔莫，同时把失误降到最少。",
+    "sources": [
+      "https://en.tempo.co/read/775527/indonesia-open-lindaweni-unable-to-deal-with-quick-tempo",
+      "https://badmintoneurope.com/w/denmark-s-line-kj%C3%A6rsfeldt-tops-the-podium-in-women-s-singles"
+    ],
+    "note": "新增欧洲羽联2025年欧锦赛决赛报道作为speed的第二个来源；defense仍只有林达维妮一人的赛后评价，置信度中等。网上有一条“power and deception”的说法，但找不到原始出处，未采用。",
+    "verified": false
+  },
+  "kirsty-gilmour": {
+    "traits": [
+      "power",
+      "speed",
+      "defense"
+    ],
+    "evidence_zh": "Scroll.in在2017年世锦赛报道中写道，吉尔莫“依靠有力的跳杀和速度”是公开的秘密，那场她把节奏提得让塞娜苦不堪言，塞娜也说她的杀球“很难接、而且有变化”；Badzine报道2013年伦敦大奖赛黄金赛时称她扎实的防守让对手杀球急躁、频频失误，2025年苏格兰公开赛决赛她也是靠耐心、有纪律地控制回合取胜。",
+    "sources": [
+      "https://scroll.in/field/848543/saina-nehwal-comes-through-tough-quarterfinal-with-bruised-body-and-sky-high-confidence",
+      "https://www.badzine.net/?p=27368",
+      "https://badmintonscotland.org.uk/uncategorized/kirsty-gilmour-triumphs-in-three-game-battle-to-lift-scottish-open-title/"
+    ],
+    "verified": true
+  },
+  "beiwen-zhang": {
+    "traits": [
+      "defense",
+      "placement"
+    ],
+    "evidence_zh": "她自称“更像相持型选手”。ESPN报道2018年印度公开赛决赛时写道，她几乎化解了辛杜的全部进攻，第一局多数时候都把对方的杀球接了回来，并用连续快速的平推和快回球压缩辛杜的时间和站位；2023年澳大利亚公开赛夺冠后她也说自己是靠“保持耐心”拿下比赛。",
+    "sources": [
+      "https://www.espn.com/badminton/story/_/id/22318386/underdog-zhang-defies-odds-script-biggest-win",
+      "https://www.badmintonpanam.org/australian-open-beiwen-snaps-blip-on-surgery-anniversary/"
+    ],
+    "verified": true
+  },
+  "nguyen-thuy-linh": {
+    "traits": [
+      "net",
+      "placement"
+    ],
+    "evidence_zh": "越南媒体报道2026年台北公开赛半决赛时写道：她用底线高远球接细腻的网前小球掌控局面、拖垮对手，第二局又反复攻击对手反手位，逼对方被动回球；越南《青年报》报道2022年越南公开赛决赛时也说，她坚持压迫式进攻配合贴网小球，让对手体能逐渐透支。",
+    "sources": [
+      "https://en.baobacninhtv.vn/vietnam-s-top-woman-badminton-player-defeats-indian-prodigy-advancing-to-taiwan-open-final.bbg",
+      "https://tuoitre.vn/thuy-linh-rang-ngoi-trong-ngay-lap-ky-tich-tai-vietnam-open-20221002185703314.htm"
+    ],
+    "note": "新增《青年报》2022年越南公开赛决赛报道（原文：lối đánh tấn công dồn ép kết hợp với những pha đưa cầu sát lưới），net有两篇独立来源。两篇都还提到她主动进攻，但没有说她以重杀为主，故不加power。",
+    "verified": false
+  },
+  "chiu-pin-chian": {
+    "traits": [
+      "placement",
+      "net",
+      "defense"
+    ],
+    "evidence_zh": "台湾中央社报道她在2025年韩国大师赛首轮“靠着出色的前后场吊动，以及网前小球，始终握有领先”；她本人在2023年全国排名赛爆冷获胜后说，赢球关键是“失误比较少，把球打高打到位，然后注意防守”。",
+    "sources": [
+      "https://www.cna.com.tw/news/aspt/202511050361.aspx",
+      "https://web.archive.org/web/20230105133618/https://www.ltsports.com.tw/article/159497"
+    ],
+    "note": "加入defense：本人原话把“注意防守”列为取胜关键之一，也与同为网前技巧型、traits为net+placement的阮翠玲区分开。",
+    "verified": true
+  },
+  "malvika-bansod": {
+    "traits": [
+      "stamina",
+      "placement"
+    ],
+    "evidence_zh": "ESPN评价这位左手小将“喜欢把回合拉长，也能打出轻巧的吊球”，常在多拍中组织好回合；《印度快报》报道她2025年全英赛三局淘汰杨佳敏时，靠长回合和又高又深的挑球、高远球把对手拖累，决胜局还懂得保存体力，并提到她自己设计体能训练。",
+    "sources": [
+      "https://africa.espn.com/badminton/story/_/id/33129538/28-months-pv-sindhu-stands-atop-bwf-podium",
+      "https://indianexpress.com/article/sports/badminton/all-england-how-malvika-bansod-beat-world-no-12-yeo-jia-min-9881532/"
+    ],
+    "verified": true
+  },
+  "goh-jin-wei": {
+    "traits": [
+      "fight",
+      "placement"
+    ],
+    "evidence_zh": "《新海峡时报》报道2026年泰国大师赛时写道，她在2019年切除大肠后仍连打四场三局大战打进决赛，教练诺瓦·阿尔马达称之为“超人般的努力”、说她“不是轻言放弃的人”；2023年苏迪曼杯她先输一局后逆转击败辛杜，报道称她展现了十足的拼劲。2018年世青赛半决赛后，马来西亚青年队主教练关义明评价她“打法很聪明”，把对手控制得很好、不急于结束回合，靠沉稳逼对手连连失误；越南《青年报》也称她控球技术很好、技战术出色。",
+    "sources": [
+      "https://www.nst.com.my/sports/badminton/2026/02/1369276/superhuman-effort-nova-salutes-jin-wei-despite-final-defeat-watch",
+      "https://www.nst.com.my/sports/badminton/2023/05/909716/jin-wei-stuns-indias-sindhu-malaysia-take-3-0-lead-sudirman-cup",
+      "https://www.nst.com.my/sports/badminton/2018/11/432517/wei-above-rest",
+      "https://tuoitre.vn/thuy-linh-rang-ngoi-trong-ngay-lap-ky-tich-tai-vietnam-open-20221002185703314.htm"
+    ],
+    "note": "上一版第二个特点是speed，但没有任何来源直接说她速度快，已换成placement（关义明2018年评价她控制对手、不急躁，越南《青年报》称她“kỹ thuật điều cầu rất tốt”即控球技术很好）。NST 2023与2026报道为fight的依据。",
+    "verified": false
+  },
+  "jiang-yanjiao": {
+    "traits": [
+      "defense",
+      "stamina",
+      "fight"
+    ],
+    "evidence_zh": "新浪体育分析2010年中国公开赛决赛时称她是“以防守见长的多拍拉吊打法”，总能凭借更顽强的防守、跑动和出色的体力磨垮对手，最后靠“坚持、耐心、出色的体能”取胜；2005年全运会决赛她在决胜局0:5落后时连得11分逆转夺冠，《南方都市报》称她“意志顽强、头脑清醒”，时任国家乒羽中心书记刘凤岩形容她“有脑子，打不死”。",
+    "sources": [
+      "http://sports.sina.com.cn/o/2010-12-05/16035352152.shtml",
+      "https://web.archive.org/web/20060304204445/http://sports.sohu.com/20051015/n227208820.shtml",
+      "http://ent.sina.com.cn/x/2005-10-29/0943879736.html"
+    ],
+    "verified": true
+  },
+  "wang-shixian": {
+    "traits": [
+      "net",
+      "defense"
+    ],
+    "evidence_zh": "中新社报道2009年全运会决赛时写她“利用网前轻吊、拉吊突击占据场上主动”，又“利用出色的网前技术接连得分”，同日另一篇报道称赞她技术细腻、网前技术出色；新浪体育分析2010年中国公开赛决赛时把她和蒋燕皎都归为“以防守见长的多拍拉吊打法”，李永波也评价她“攻防俱佳”。",
+    "sources": [
+      "https://www.chinanews.com/ty/news/2009/10-17/1916239.shtml",
+      "https://www.chinanews.com/ty/news/2009/10-17/1916218.shtml",
+      "http://sports.sina.com.cn/o/2010-12-05/16035352152.shtml"
+    ],
+    "verified": true
+  },
+  "bae-yeon-ju": {
+    "traits": [
+      "placement",
+      "deception"
+    ],
+    "evidence_zh": "Badzine报道2013年世锦赛八强战时写道，她第一局11:17落后后打出8:2反超，第二局击球“越来越精准”，以21:9拿下，淘汰三号种子塞娜；2014年韩国公开赛击败姚雪后，她说自己的强项是“在后场底线打球”，并趁对手急于上网，先做出要放网前的样子再推后场，让对手重心反向、连续丢分。",
+    "sources": [
+      "https://www.badzine.net/2013/08/worlds-qf-saina-upset-by-old-rival/",
+      "https://www.badzine.net/2014/01/korea-open-r16-bae-serves-china-only-2nd-loss/"
+    ],
+    "note": "新增Badzine 2013年世锦赛八强战报道（“Bae’s shots just seemed to get more and more precise”）作为placement的第二个来源；deception仍只有她本人2014年的赛后说法。",
+    "verified": false
+  },
+  "juliane-schenk": {
+    "traits": [
+      "power",
+      "net",
+      "fight"
+    ],
+    "evidence_zh": "BWF报道2013年印尼公开赛半决赛时写道，她以“跳杀、犀利的拦截和细腻的网前球”构成的进攻压制塞娜，最后以一记贴网小球结束比赛；2012年丹麦公开赛她击败李雪芮，BWF形容她打得很有斗志、浑身是劲，移动好、击球又重又准。",
+    "sources": [
+      "https://bwfbadminton.com/news-single/2013/06/15/indonesia-open-2013-day-6-germany-to-the-fore-as-nehwal-crashes/",
+      "https://bwfbadminton.com/news-single/2012/10/19/denmark-open-day-4-schenk-ambushes-li-xuerui-saina-powers-past-tine-baun/"
+    ],
+    "verified": true
+  }
+}
